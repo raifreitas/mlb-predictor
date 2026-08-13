@@ -1,40 +1,14 @@
 import sys
-import pyodbc
 
-CONNECTION_STRING_TEMPLATE = (
-    "DRIVER={{{driver}}};"
-    "SERVER=RAI-FREITAS\\SQLEXPRESS;"
-    "DATABASE=MLB_Predictive;"
-    "Trusted_Connection=yes;"
-    "TrustServerCertificate=yes;"
-)
-
-DRIVERS_PREFERIDOS = [
-    "ODBC Driver 18 for SQL Server",
-    "ODBC Driver 17 for SQL Server",
-    "ODBC Driver 13 for SQL Server",
-    "SQL Server Native Client 11.0",
-]
-
-
-def obtener_driver_odbc():
-    disponibles = pyodbc.drivers()
-    for preferido in DRIVERS_PREFERIDOS:
-        if preferido in disponibles:
-            return preferido
-    if disponibles:
-        return disponibles[0]
-    raise RuntimeError("No se encontro un driver ODBC de SQL Server instalado.")
+import db_utils
 
 
 def verificar():
-    connection_string = CONNECTION_STRING_TEMPLATE.format(
-        driver=obtener_driver_odbc())
-    conexion = pyodbc.connect(connection_string)
+    con = db_utils.conexion()
     try:
-        pendientes = conexion.execute(
+        pendientes = con.execute(
             "SELECT Id, Fecha, EquipoLocal, EquipoVisita, "
-            "TipoApuesta, Linea, CreadoUtc FROM dbo.Predicciones "
+            "TipoApuesta, Linea, CreadoUtc FROM Predicciones "
             "WHERE Estado = 'PENDIENTE' ORDER BY Fecha"
         ).fetchall()
         if not pendientes:
@@ -44,13 +18,13 @@ def verificar():
         contadores = {"GANADA": 0, "PERDIDA": 0, "PUSH": 0,
                       "SIN PARTIDO": 0, "NO VALIDA": 0}
         for (pred_id, fecha, local, visita, tipo, linea, creado_utc) in pendientes:
-            fila = conexion.execute(
+            fila = con.execute(
                 "SELECT TOP 1 CarrerasLocal, CarrerasVisita, HoraInicioUtc "
-                "FROM dbo.GameLog "
+                "FROM GameLog "
                 "WHERE Fecha = ? AND EquipoLocal = ? AND EquipoVisita = ? "
                 "AND CarrerasLocal IS NOT NULL AND CarrerasVisita IS NOT NULL "
                 "AND EsFinal = 1",
-                fecha, local, visita
+                [fecha, local, visita]
             ).fetchone()
             if fila is None:
                 contadores["SIN PARTIDO"] += 1
@@ -58,10 +32,6 @@ def verificar():
                       f"({tipo} {linea}): aun sin resultado final.")
                 continue
 
-            # Regla de validez: un pronostico solo es apostable si se
-            # genero ANTES del primer pitch. Si se creo despues del
-            # inicio del partido (o con el partido ya comenzado), se
-            # anula: no se cuenta como ganada/perdida.
             hora_inicio = fila[2]
             if creado_utc is not None and hora_inicio is not None:
                 import datetime as _dt
@@ -72,10 +42,10 @@ def verificar():
                     creado = creado.replace(tzinfo=_dt.timezone.utc)
                 if creado >= hora_inicio_utc:
                     contadores["NO VALIDA"] += 1
-                    conexion.execute(
-                        "UPDATE dbo.Predicciones SET Estado = 'NO_VALIDA', "
-                        "FechaVerificacion = SYSUTCDATETIME() WHERE Id = ?",
-                        pred_id)
+                    con.execute(
+                        "UPDATE Predicciones SET Estado = 'NO_VALIDA', "
+                        "FechaVerificacion = datetime('now') WHERE Id = ?",
+                        [pred_id])
                     print(f"[VERIFICAR] {fecha} {local} vs {visita} "
                           f"({tipo} {linea}): NO VALIDA (pick generado "
                           f"{creado.strftime('%H:%M')} UTC, partido inicio "
@@ -90,13 +60,13 @@ def verificar():
             else:
                 resultado = "PUSH"
             contadores[resultado] += 1
-            conexion.execute(
-                "UPDATE dbo.Predicciones SET Estado = ?, CarrerasTotales = ?, "
-                "FechaVerificacion = SYSUTCDATETIME() WHERE Id = ?",
-                resultado, total, pred_id)
+            con.execute(
+                "UPDATE Predicciones SET Estado = ?, CarrerasTotales = ?, "
+                "FechaVerificacion = datetime('now') WHERE Id = ?",
+                [resultado, total, pred_id])
             print(f"[VERIFICAR] {fecha} {local} vs {visita} "
                   f"({tipo} {linea}, total {total}): {resultado}")
-        conexion.commit()
+        con.commit()
 
         print(f"[VERIFICAR] Resumen: GANADA: {contadores['GANADA']} | "
               f"PERDIDA: {contadores['PERDIDA']} | "
@@ -105,7 +75,7 @@ def verificar():
               f"NO VALIDA: {contadores['NO VALIDA']}")
         return 0
     finally:
-        conexion.close()
+        con.close()
 
 
 if __name__ == "__main__":

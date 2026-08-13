@@ -27,9 +27,10 @@ from statistics import median as _mediana
 
 import joblib
 import pandas as pd
-import pyodbc
 import requests
 from sklearn.preprocessing import LabelEncoder
+
+import db_utils
 
 from entrenar_modelo import (
     FEATURES,
@@ -40,7 +41,6 @@ from entrenar_modelo import (
     feature_engineering_fatiga,
     feature_engineering_pitchers,
     feature_engineering_rachas,
-    obtener_driver_odbc,
     preprocesar,
 )
 from backtest_skellam_ml import (
@@ -79,14 +79,6 @@ REGION = "us"
 MERCADO = "totals"
 FORMATO_CUOTAS = "decimal"
 TIMEOUT_SEGUNDOS = 30
-
-CONNECTION_STRING_TEMPLATE = (
-    "DRIVER={{{driver}}};"
-    "SERVER=RAI-FREITAS\\SQLEXPRESS;"
-    "DATABASE=MLB_Predictive;"
-    "Trusted_Connection=yes;"
-    "TrustServerCertificate=yes;"
-)
 
 
 def obtener_api_key():
@@ -178,28 +170,22 @@ def obtener_lineas_snapshot(fecha):
     el mismo formato
     {(home, away): {"linea", "casas", "cuota_over", "cuota_under"}}.
     """
-    connection_string = CONNECTION_STRING_TEMPLATE.format(
-        driver=obtener_driver_odbc())
-    conexion = pyodbc.connect(connection_string)
-    try:
-        filas = pd.read_sql("""
-            SELECT s.EquipoLocal, s.EquipoVisita, s.Linea,
-                   s.CuotaOver, s.CuotaUnder
-            FROM dbo.LineaSnapshots s
-            INNER JOIN (
-                SELECT EquipoLocal, EquipoVisita, Casa,
-                       MAX(CapturadoUtc) AS Ultima
-                FROM dbo.LineaSnapshots
-                WHERE Fecha = ?
-                GROUP BY EquipoLocal, EquipoVisita, Casa
-            ) t ON s.Fecha = ? AND s.EquipoLocal = t.EquipoLocal
-               AND s.EquipoVisita = t.EquipoVisita
-               AND s.Casa = t.Casa AND s.CapturadoUtc = t.Ultima
-            WHERE s.CuotaOver IS NOT NULL
-            ORDER BY s.EquipoLocal, s.EquipoVisita, s.Linea""",
-            conexion, params=[fecha, fecha])
-    finally:
-        conexion.close()
+    filas = db_utils.leer_sql("""
+        SELECT s.EquipoLocal, s.EquipoVisita, s.Linea,
+               s.CuotaOver, s.CuotaUnder
+        FROM LineaSnapshots s
+        INNER JOIN (
+            SELECT EquipoLocal, EquipoVisita, Casa,
+                   MAX(CapturadoUtc) AS Ultima
+            FROM LineaSnapshots
+            WHERE Fecha = ?
+            GROUP BY EquipoLocal, EquipoVisita, Casa
+        ) t ON s.Fecha = ? AND s.EquipoLocal = t.EquipoLocal
+           AND s.EquipoVisita = t.EquipoVisita
+           AND s.Casa = t.Casa AND s.CapturadoUtc = t.Ultima
+        WHERE s.CuotaOver IS NOT NULL
+        ORDER BY s.EquipoLocal, s.EquipoVisita, s.Linea""",
+        params=[fecha, fecha])
     if filas.empty:
         return {}
 
@@ -289,57 +275,49 @@ def obtener_calendario(fecha, solo_no_iniciados=False, ventana_min=0):
 
 def datos_auxiliares(fecha):
     """Ultimos valores por pitcher/equipo para features de partidos de hoy."""
-    connection_string = CONNECTION_STRING_TEMPLATE.format(
-        driver=obtener_driver_odbc())
-    conexion = pyodbc.connect(connection_string)
-    try:
-        whip = pd.read_sql("""
-            SELECT PitcherLocalId AS PitcherId, WHIP_Abridor_Local AS WHIP, Fecha
-            FROM dbo.GameLog WHERE WHIP_Abridor_Local IS NOT NULL
-            UNION ALL
-            SELECT PitcherVisitaId, WHIP_Abridor_Visita, Fecha
-            FROM dbo.GameLog WHERE WHIP_Abridor_Visita IS NOT NULL""",
-            conexion)
-        whip = whip.sort_values("Fecha")
-        whips = {fila.PitcherId: fila.WHIP for fila in whip.itertuples()}
+    whip = db_utils.leer_sql("""
+        SELECT PitcherLocalId AS PitcherId, WHIP_Abridor_Local AS WHIP, Fecha
+        FROM GameLog WHERE WHIP_Abridor_Local IS NOT NULL
+        UNION ALL
+        SELECT PitcherVisitaId, WHIP_Abridor_Visita, Fecha
+        FROM GameLog WHERE WHIP_Abridor_Visita IS NOT NULL""")
+    whip = whip.sort_values("Fecha")
+    whips = {fila.PitcherId: fila.WHIP for fila in whip.itertuples()}
 
-        bullpen = pd.read_sql("""
-            SELECT EquipoLocal AS Equipo, ERA_Bullpen_Local AS ERA, Fecha
-            FROM dbo.GameLog WHERE ERA_Bullpen_Local IS NOT NULL
-            UNION ALL
-            SELECT EquipoVisita, ERA_Bullpen_Visita, Fecha
-            FROM dbo.GameLog WHERE ERA_Bullpen_Visita IS NOT NULL""",
-            conexion)
-        bullpen = bullpen.sort_values("Fecha")
-        eras = {fila.Equipo: fila.ERA for fila in bullpen.itertuples()}
+    bullpen = db_utils.leer_sql("""
+        SELECT EquipoLocal AS Equipo, ERA_Bullpen_Local AS ERA, Fecha
+        FROM GameLog WHERE ERA_Bullpen_Local IS NOT NULL
+        UNION ALL
+        SELECT EquipoVisita, ERA_Bullpen_Visita, Fecha
+        FROM GameLog WHERE ERA_Bullpen_Visita IS NOT NULL""")
+    bullpen = bullpen.sort_values("Fecha")
+    eras = {fila.Equipo: fila.ERA for fila in bullpen.itertuples()}
 
-        tabla_manos = pd.read_sql(
-            "SELECT PitcherId, Mano FROM dbo.PitcherMano", conexion)
-        manos = dict(zip(tabla_manos["PitcherId"], tabla_manos["Mano"]))
-        tabla_parques = pd.read_sql(
-            "SELECT EquipoLocal, Factor_Carreras FROM dbo.ParkFactors", conexion)
-        parques = dict(zip(tabla_parques["EquipoLocal"],
-                           tabla_parques["Factor_Carreras"]))
+    tabla_manos = db_utils.leer_sql(
+        "SELECT PitcherId, Mano FROM PitcherMano")
+    manos = dict(zip(tabla_manos["PitcherId"], tabla_manos["Mano"]))
+    tabla_parques = db_utils.leer_sql(
+        "SELECT EquipoLocal, Factor_Carreras FROM ParkFactors")
+    parques = dict(zip(tabla_parques["EquipoLocal"],
+                       tabla_parques["Factor_Carreras"]))
 
-        # Fatiga de bullpen de 72 horas: suma de pitcheos de relevistas
-        # (IsStarter = 0) en los 3 dias calendario anteriores a la fecha.
-        tabla_fatiga = pd.read_sql("""
-            SELECT sub.Team, SUM(sub.ReliefPitches) AS Fatiga
-            FROM (
-                SELECT pgl.Team, pgl.Fecha,
-                       SUM(pgl.PitchesThrown) AS ReliefPitches
-                FROM dbo.PitcherGameLog pgl
-                WHERE pgl.IsStarter = 0
-                  AND pgl.Fecha >= DATEADD(DAY, -3, ?)
-                  AND pgl.Fecha < ?
-                GROUP BY pgl.Team, pgl.Fecha
-            ) sub
-            GROUP BY sub.Team""",
-            conexion, params=[fecha, fecha])
-        fatigas = dict(zip(tabla_fatiga["Team"], tabla_fatiga["Fatiga"]))
-        return whips, eras, manos, parques, fatigas
-    finally:
-        conexion.close()
+    # Fatiga de bullpen de 72 horas: suma de pitcheos de relevistas
+    # (IsStarter = 0) en los 3 dias calendario anteriores a la fecha.
+    tabla_fatiga = db_utils.leer_sql("""
+        SELECT sub.Team, SUM(sub.ReliefPitches) AS Fatiga
+        FROM (
+            SELECT pgl.Team, pgl.Fecha,
+                   SUM(pgl.PitchesThrown) AS ReliefPitches
+            FROM PitcherGameLog pgl
+            WHERE pgl.IsStarter = 0
+              AND pgl.Fecha >= DATEADD(DAY, -3, ?)
+              AND pgl.Fecha < ?
+            GROUP BY pgl.Team, pgl.Fecha
+        ) sub
+        GROUP BY sub.Team""",
+        params=[fecha, fecha])
+    fatigas = dict(zip(tabla_fatiga["Team"], tabla_fatiga["Fatiga"]))
+    return whips, eras, manos, parques, fatigas
 
 
 def construir_partidos_hoy(partidos_mlb, whips, eras, manos, parques, fatigas, fecha):
@@ -398,7 +376,7 @@ def construir_partidos_hoy(partidos_mlb, whips, eras, manos, parques, fatigas, f
 
 
 def guardar_predicciones(jugadas, fecha, reemplazar_pares=None):
-    """Registra las jugadas en dbo.Predicciones (upsert, Estado=PENDIENTE).
+    """Registra las jugadas en Predicciones (upsert, Estado=PENDIENTE).
 
     Comportamiento por modo:
     - Modo normal (reemplazar_pares=None): se eliminan TODOS los picks
@@ -411,58 +389,55 @@ def guardar_predicciones(jugadas, fecha, reemplazar_pares=None):
       con la linea mas fresca. Los picks de partidos ya fuera de la
       ventana (iniciados) NO se tocan.
     """
-    connection_string = CONNECTION_STRING_TEMPLATE.format(
-        driver=obtener_driver_odbc())
-    conexion = pyodbc.connect(connection_string)
+    con = db_utils.conexion()
     try:
         if reemplazar_pares is not None:
             for local, visita in reemplazar_pares:
-                conexion.execute(
-                    "DELETE FROM dbo.Predicciones "
+                con.execute(
+                    "DELETE FROM Predicciones "
                     "WHERE Fecha = ? AND Estado = 'PENDIENTE' "
                     "  AND EquipoLocal = ? AND EquipoVisita = ?",
-                    fecha, local, visita)
+                    [fecha, local, visita])
         else:
-            conexion.execute(
-                "DELETE FROM dbo.Predicciones WHERE Fecha = ? AND Estado = 'PENDIENTE'",
-                fecha)
+            con.execute(
+                "DELETE FROM Predicciones WHERE Fecha = ? AND Estado = 'PENDIENTE'",
+                [fecha])
         if not jugadas:
-            conexion.commit()
+            con.commit()
             return 0
         for (local, visita, stake, tipo_apuesta, linea, edge, cuota) in jugadas:
-            conexion.execute("""
-                IF EXISTS (SELECT 1 FROM dbo.Predicciones
-                           WHERE Fecha = ? AND EquipoLocal = ?
-                             AND EquipoVisita = ? AND TipoApuesta = ?)
-                BEGIN
-                    UPDATE dbo.Predicciones
+            existe = con.execute(
+                "SELECT 1 FROM Predicciones WHERE Fecha = ? AND EquipoLocal = ? "
+                "AND EquipoVisita = ? AND TipoApuesta = ?",
+                [fecha, local, visita, tipo_apuesta]).fetchone()
+            if existe:
+                con.execute("""
+                    UPDATE Predicciones
                     SET Linea = ?, Unidades = ?, Edge = ?, Cuota = ?,
                         Estado = CASE WHEN EXISTS (
-                            SELECT 1 FROM dbo.GameLog g
-                            WHERE g.Fecha = dbo.Predicciones.Fecha
-                              AND g.EquipoLocal = dbo.Predicciones.EquipoLocal
-                              AND g.EquipoVisita = dbo.Predicciones.EquipoVisita
+                            SELECT 1 FROM GameLog g
+                            WHERE g.Fecha = Predicciones.Fecha
+                              AND g.EquipoLocal = Predicciones.EquipoLocal
+                              AND g.EquipoVisita = Predicciones.EquipoVisita
                               AND g.EsFinal = 1)
-                            THEN dbo.Predicciones.Estado
+                            THEN Predicciones.Estado
                             ELSE 'PENDIENTE' END
                     WHERE Fecha = ? AND EquipoLocal = ?
-                      AND EquipoVisita = ? AND TipoApuesta = ?
-                END
-                ELSE
-                BEGIN
-                    INSERT INTO dbo.Predicciones
+                      AND EquipoVisita = ? AND TipoApuesta = ?""",
+                    [linea, stake, edge, cuota,
+                     fecha, local, visita, tipo_apuesta])
+            else:
+                con.execute("""
+                    INSERT INTO Predicciones
                         (Fecha, EquipoLocal, EquipoVisita, TipoApuesta,
                          Linea, Unidades, Edge, Cuota, Estado)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'PENDIENTE')
-                END""",
-                fecha, local, visita, tipo_apuesta,
-                linea, stake, edge, cuota,
-                fecha, local, visita, tipo_apuesta,
-                fecha, local, visita, tipo_apuesta, linea, stake, edge, cuota)
-        conexion.commit()
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'PENDIENTE')""",
+                    [fecha, local, visita, tipo_apuesta,
+                     linea, stake, edge, cuota])
+        con.commit()
         return len(jugadas)
     finally:
-        conexion.close()
+        con.close()
 
 
 def fecha_desde_args():
@@ -517,6 +492,8 @@ def main():
     retroactivo = fecha < date.today()
     modo_etiqueta = f"ventana {ventana_min} min pre-juego" if ventana_min > 0 \
         else "todo el dia"
+    fuente = "SQLite (mlb.db)" if db_utils.usar_sqlite() else "SQL Server"
+    print(f"BD fuente: {fuente} | modo: {modo_etiqueta}")
 
     api_key = obtener_api_key()
     if not api_key:

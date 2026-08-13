@@ -4,12 +4,18 @@ import sys
 import joblib
 import numpy as np
 import pandas as pd
-import pyodbc
 import xgboost as xgb
 from sklearn.isotonic import IsotonicRegression
 from sklearn.metrics import accuracy_score, roc_auc_score
 from sklearn.model_selection import RandomizedSearchCV, TimeSeriesSplit
 from sklearn.preprocessing import LabelEncoder
+
+try:
+    import pyodbc
+except ImportError:
+    pyodbc = None
+
+import db_utils
 
 CONNECTION_STRING_TEMPLATE = (
     "DRIVER={{{driver}}};"
@@ -133,6 +139,8 @@ SPLITS_TEMPORALES = 3
 
 
 def obtener_driver_odbc():
+    if pyodbc is None:
+        raise RuntimeError("pyodbc no instalado; usa SQLite (MLB_SQLITE=1).")
     disponibles = pyodbc.drivers()
     for preferido in DRIVERS_PREFERIDOS:
         if preferido in disponibles:
@@ -143,34 +151,29 @@ def obtener_driver_odbc():
 
 
 def cargar_datos(solo_con_temperatura=True):
-    connection_string = CONNECTION_STRING_TEMPLATE.format(driver=obtener_driver_odbc())
-    conexion = pyodbc.connect(connection_string)
-    try:
-        base = ("SELECT g.*, PF.Factor_Carreras, "
-                "op1.OPSvsLHP AS OPSvsLHP_Local, op1.OPSvsRHP AS OPSvsRHP_Local, "
-                "op2.OPSvsLHP AS OPSvsLHP_Visita, op2.OPSvsRHP AS OPSvsRHP_Visita, "
-                "pm1.Mano AS ManoAbridorLocal, pm2.Mano AS ManoAbridorVisita, "
-                "fb1.Fatiga_Bullpen_3d AS Fatiga_Bullpen_3d_Local, "
-                "fb2.Fatiga_Bullpen_3d AS Fatiga_Bullpen_3d_Visita "
-                "FROM dbo.GameLog g "
-                "LEFT JOIN dbo.ParkFactors PF ON g.EquipoLocal = PF.EquipoLocal "
-                "LEFT JOIN dbo.TeamOPS_Handedness op1 "
-                "ON op1.Equipo = g.EquipoLocal AND op1.Temporada = YEAR(g.Fecha) "
-                "LEFT JOIN dbo.TeamOPS_Handedness op2 "
-                "ON op2.Equipo = g.EquipoVisita AND op2.Temporada = YEAR(g.Fecha) "
-                "LEFT JOIN dbo.PitcherMano pm1 ON pm1.PitcherId = g.PitcherLocalId "
-                "LEFT JOIN dbo.PitcherMano pm2 ON pm2.PitcherId = g.PitcherVisitaId "
-                "LEFT JOIN dbo.vwFatigaBullpen3d fb1 "
-                "ON fb1.Team = g.EquipoLocal AND fb1.Fecha = g.Fecha "
-                "LEFT JOIN dbo.vwFatigaBullpen3d fb2 "
-                "ON fb2.Team = g.EquipoVisita AND fb2.Fecha = g.Fecha")
-        consulta = base + (" WHERE g.TemperaturaC IS NOT NULL "
-                           "AND (g.CarrerasLocal <> 0 OR g.CarrerasVisita <> 0)")
-        if not solo_con_temperatura:
-            consulta = base
-        return pd.read_sql(consulta, conexion)
-    finally:
-        conexion.close()
+    base = ("SELECT g.*, PF.Factor_Carreras, "
+            "op1.OPSvsLHP AS OPSvsLHP_Local, op1.OPSvsRHP AS OPSvsRHP_Local, "
+            "op2.OPSvsLHP AS OPSvsLHP_Visita, op2.OPSvsRHP AS OPSvsRHP_Visita, "
+            "pm1.Mano AS ManoAbridorLocal, pm2.Mano AS ManoAbridorVisita, "
+            "fb1.Fatiga_Bullpen_3d AS Fatiga_Bullpen_3d_Local, "
+            "fb2.Fatiga_Bullpen_3d AS Fatiga_Bullpen_3d_Visita "
+            "FROM dbo.GameLog g "
+            "LEFT JOIN dbo.ParkFactors PF ON g.EquipoLocal = PF.EquipoLocal "
+            "LEFT JOIN dbo.TeamOPS_Handedness op1 "
+            "ON op1.Equipo = g.EquipoLocal AND op1.Temporada = YEAR(g.Fecha) "
+            "LEFT JOIN dbo.TeamOPS_Handedness op2 "
+            "ON op2.Equipo = g.EquipoVisita AND op2.Temporada = YEAR(g.Fecha) "
+            "LEFT JOIN dbo.PitcherMano pm1 ON pm1.PitcherId = g.PitcherLocalId "
+            "LEFT JOIN dbo.PitcherMano pm2 ON pm2.PitcherId = g.PitcherVisitaId "
+            "LEFT JOIN dbo.vwFatigaBullpen3d fb1 "
+            "ON fb1.Team = g.EquipoLocal AND fb1.Fecha = g.Fecha "
+            "LEFT JOIN dbo.vwFatigaBullpen3d fb2 "
+            "ON fb2.Team = g.EquipoVisita AND fb2.Fecha = g.Fecha")
+    consulta = base + (" WHERE g.TemperaturaC IS NOT NULL "
+                       "AND (g.CarrerasLocal <> 0 OR g.CarrerasVisita <> 0)")
+    if not solo_con_temperatura:
+        consulta = base
+    return db_utils.leer_sql(consulta)
 
 
 def preprocesar(df):
