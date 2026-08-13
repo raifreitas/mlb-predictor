@@ -202,7 +202,7 @@
 
 <script>
   const ESC = (literal) => ["<", ">", "&", '"', "'"].reduce(
-    (s, c) => s.replaceAll(c, "&" + { "<": "lt", ">": "gt", "&": "amp",
+    (s, c) => String(s).replaceAll(c, "&" + { "<": "lt", ">": "gt", "&": "amp",
       '"': "quot", "'": "#39" }[c] + ";"), literal);
 
   function fila(estado) {
