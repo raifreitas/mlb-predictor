@@ -1,5 +1,5 @@
 {
- "fecha_actualizacion": "2026-08-13T17:26:36Z",
+ "fecha_actualizacion": "2026-08-13T17:31:59Z",
  "ultima_fecha_prediccion": "2026-08-11",
  "resumen": {
   "ganadas": 8,
@@ -181,7 +181,7 @@
    "carreras_visita": 6,
    "linea_real": 9.5,
    "es_final": true,
-   "hora_inicio_utc": "2026-08-12 19:40:00",
+   "hora_inicio_utc": "2026-08-12 19:40:00.000",
    "temperatura_c": 30.9
   },
   {
@@ -192,7 +192,7 @@
    "carreras_visita": 8,
    "linea_real": 9.5,
    "es_final": true,
-   "hora_inicio_utc": "2026-08-12 19:05:00",
+   "hora_inicio_utc": "2026-08-12 19:05:00.000",
    "temperatura_c": 22.6
   },
   {
@@ -203,7 +203,7 @@
    "carreras_visita": 3,
    "linea_real": 8.5,
    "es_final": true,
-   "hora_inicio_utc": "2026-08-12 23:15:00",
+   "hora_inicio_utc": "2026-08-12 23:15:00.000",
    "temperatura_c": 25.6
   },
   {
@@ -214,7 +214,7 @@
    "carreras_visita": 0,
    "linea_real": 8.5,
    "es_final": true,
-   "hora_inicio_utc": "2026-08-12 23:40:00",
+   "hora_inicio_utc": "2026-08-12 23:40:00.000",
    "temperatura_c": 23.8
   },
   {
@@ -225,7 +225,7 @@
    "carreras_visita": 6,
    "linea_real": 8.0,
    "es_final": true,
-   "hora_inicio_utc": "2026-08-12 22:40:00",
+   "hora_inicio_utc": "2026-08-12 22:40:00.000",
    "temperatura_c": 22.5
   },
   {
@@ -236,7 +236,7 @@
    "carreras_visita": 2,
    "linea_real": 9.0,
    "es_final": true,
-   "hora_inicio_utc": "2026-08-13 02:10:00",
+   "hora_inicio_utc": "2026-08-13 02:10:00.000",
    "temperatura_c": 23.9
   },
   {
@@ -247,7 +247,7 @@
    "carreras_visita": 2,
    "linea_real": 9.0,
    "es_final": true,
-   "hora_inicio_utc": "2026-08-13 02:10:00",
+   "hora_inicio_utc": "2026-08-13 02:10:00.000",
    "temperatura_c": 23.4
   },
   {
@@ -258,7 +258,7 @@
    "carreras_visita": 2,
    "linea_real": 7.5,
    "es_final": true,
-   "hora_inicio_utc": "2026-08-12 22:40:00",
+   "hora_inicio_utc": "2026-08-12 22:40:00.000",
    "temperatura_c": 29.6
   },
   {
@@ -269,7 +269,7 @@
    "carreras_visita": 5,
    "linea_real": 8.5,
    "es_final": true,
-   "hora_inicio_utc": "2026-08-12 17:40:00",
+   "hora_inicio_utc": "2026-08-12 17:40:00.000",
    "temperatura_c": 26.5
   },
   {
@@ -280,7 +280,7 @@
    "carreras_visita": 5,
    "linea_real": 8.5,
    "es_final": true,
-   "hora_inicio_utc": "2026-08-12 23:05:00",
+   "hora_inicio_utc": "2026-08-12 23:05:00.000",
    "temperatura_c": 27.1
   },
   {
@@ -291,7 +291,7 @@
    "carreras_visita": 3,
    "linea_real": 8.0,
    "es_final": true,
-   "hora_inicio_utc": "2026-08-12 20:10:00",
+   "hora_inicio_utc": "2026-08-12 20:10:00.000",
    "temperatura_c": 23.1
   },
   {
@@ -302,7 +302,7 @@
    "carreras_visita": 2,
    "linea_real": null,
    "es_final": true,
-   "hora_inicio_utc": "2026-08-12 19:45:00",
+   "hora_inicio_utc": "2026-08-12 19:45:00.000",
    "temperatura_c": 16.1
   },
   {
@@ -313,7 +313,7 @@
    "carreras_visita": 1,
    "linea_real": 8.5,
    "es_final": true,
-   "hora_inicio_utc": "2026-08-12 18:15:00",
+   "hora_inicio_utc": "2026-08-12 18:15:00.000",
    "temperatura_c": 27.8
   },
   {
@@ -324,7 +324,7 @@
    "carreras_visita": 4,
    "linea_real": 7.0,
    "es_final": true,
-   "hora_inicio_utc": "2026-08-12 23:07:00",
+   "hora_inicio_utc": "2026-08-12 23:07:00.000",
    "temperatura_c": 21.4
   },
   {
@@ -335,7 +335,7 @@
    "carreras_visita": 12,
    "linea_real": 9.5,
    "es_final": true,
-   "hora_inicio_utc": "2026-08-12 22:45:00",
+   "hora_inicio_utc": "2026-08-12 22:45:00.000",
    "temperatura_c": 27.0
   },
   {
@@ -346,8 +346,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-08-13 18:10:00",
-   "temperatura_c": 22.5
+   "hora_inicio_utc": "2026-08-13 17:10:00.000",
+   "temperatura_c": 22.3
   },
   {
    "fecha": "2026-08-13",
@@ -357,8 +357,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-08-13 17:10:00",
-   "temperatura_c": 24.4
+   "hora_inicio_utc": "2026-08-13 17:10:00.000",
+   "temperatura_c": 24.3
   },
   {
    "fecha": "2026-08-13",
@@ -368,8 +368,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-08-14 02:07:00",
-   "temperatura_c": 22.8
+   "hora_inicio_utc": "2026-08-14 02:07:00.000",
+   "temperatura_c": 23.1
   },
   {
    "fecha": "2026-08-13",
@@ -379,8 +379,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-08-14 02:10:00",
-   "temperatura_c": 22.4
+   "hora_inicio_utc": "2026-08-14 02:10:00.000",
+   "temperatura_c": 22.5
   },
   {
    "fecha": "2026-08-13",
@@ -390,8 +390,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-08-13 17:10:00",
-   "temperatura_c": 27.7
+   "hora_inicio_utc": "2026-08-13 17:10:00.000",
+   "temperatura_c": 28.2
   },
   {
    "fecha": "2026-08-13",
@@ -401,7 +401,7 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-08-13 23:30:00",
+   "hora_inicio_utc": "2026-08-13 23:30:00.000",
    "temperatura_c": 20.0
   },
   {
@@ -412,8 +412,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-08-13 17:35:00",
-   "temperatura_c": 26.1
+   "hora_inicio_utc": "2026-08-13 17:35:00.000",
+   "temperatura_c": 26.4
   },
   {
    "fecha": "2026-08-13",
@@ -423,8 +423,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-08-13 19:07:00",
-   "temperatura_c": 21.5
+   "hora_inicio_utc": "2026-08-13 19:07:00.000",
+   "temperatura_c": 21.4
   },
   {
    "fecha": "2026-08-13",
@@ -434,8 +434,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-08-13 20:05:00",
-   "temperatura_c": 28.5
+   "hora_inicio_utc": "2026-08-13 20:05:00.000",
+   "temperatura_c": 28.4
   },
   {
    "fecha": "2026-08-17",
@@ -704,8 +704,8 @@
    "cuota": 1.87,
    "estado": "GANADA",
    "total": 9,
-   "creado": "2026-08-04 12:38:02.446766",
-   "verificado": "2026-08-05 03:14:10.306286"
+   "creado": "2026-08-04 12:38:02.446",
+   "verificado": "2026-08-05 03:14:10.306"
   },
   {
    "id": 2,
@@ -719,8 +719,8 @@
    "cuota": 1.86,
    "estado": "GANADA",
    "total": 6,
-   "creado": "2026-08-04 12:38:02.456151",
-   "verificado": "2026-08-05 03:01:01.396048"
+   "creado": "2026-08-04 12:38:02.456",
+   "verificado": "2026-08-05 03:01:01.396"
   },
   {
    "id": 9,
@@ -734,8 +734,8 @@
    "cuota": 1.89,
    "estado": "GANADA",
    "total": 5,
-   "creado": "2026-08-05 22:15:48.650238",
-   "verificado": "2026-08-06 02:00:57.190904"
+   "creado": "2026-08-05 22:15:48.650",
+   "verificado": "2026-08-06 02:00:57.190"
   },
   {
    "id": 10,
@@ -749,8 +749,8 @@
    "cuota": 1.95,
    "estado": "GANADA",
    "total": 4,
-   "creado": "2026-08-05 22:15:48.658467",
-   "verificado": "2026-08-06 02:03:43.474493"
+   "creado": "2026-08-05 22:15:48.658",
+   "verificado": "2026-08-06 02:03:43.474"
   },
   {
    "id": 14,
@@ -764,8 +764,8 @@
    "cuota": 1.91,
    "estado": "GANADA",
    "total": 7,
-   "creado": "2026-08-08 21:36:06.282315",
-   "verificado": "2026-08-08 23:43:14.695048"
+   "creado": "2026-08-08 21:36:06.282",
+   "verificado": "2026-08-08 23:43:14.695"
   },
   {
    "id": 1016,
@@ -779,8 +779,8 @@
    "cuota": 1.95,
    "estado": "GANADA",
    "total": 9,
-   "creado": "2026-08-09 22:00:34.209152",
-   "verificado": "2026-08-10 13:24:11.813529"
+   "creado": "2026-08-09 22:00:34.209",
+   "verificado": "2026-08-10 13:24:11.813"
   },
   {
    "id": 1021,
@@ -794,8 +794,8 @@
    "cuota": 1.83,
    "estado": "GANADA",
    "total": 5,
-   "creado": "2026-08-11 00:25:50.628929",
-   "verificado": "2026-08-11 05:09:06.596046"
+   "creado": "2026-08-11 00:25:50.628",
+   "verificado": "2026-08-11 05:09:06.596"
   },
   {
    "id": 1024,
@@ -809,8 +809,8 @@
    "cuota": 2.0,
    "estado": "GANADA",
    "total": 5,
-   "creado": "2026-08-11 22:32:26.870558",
-   "verificado": "2026-08-12 04:55:18.447651"
+   "creado": "2026-08-11 22:32:26.870",
+   "verificado": "2026-08-12 04:55:18.447"
   },
   {
    "id": 1025,
@@ -824,8 +824,8 @@
    "cuota": 1.91,
    "estado": "PERDIDA",
    "total": 2,
-   "creado": "2026-08-11 22:00:24.316256",
-   "verificado": "2026-08-12 04:55:18.444134"
+   "creado": "2026-08-11 22:00:24.316",
+   "verificado": "2026-08-12 04:55:18.444"
   }
  ]
 }
