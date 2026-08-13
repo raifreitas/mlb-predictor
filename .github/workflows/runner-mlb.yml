@@ -17,9 +17,9 @@ concurrency:
 jobs:
   runner:
     runs-on: ubuntu-latest
-env:
-  MLB_SQLITE: "1"
-  THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
+    env:
+      MLB_SQLITE: "1"
+      THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
