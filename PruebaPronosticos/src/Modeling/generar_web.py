@@ -56,6 +56,20 @@ def generar():
 
         ultima_fecha = con.execute(
             "SELECT MAX(Fecha) FROM Predicciones").fetchone()[0]
+
+        evaluaciones = con.execute(
+            """SELECT Fecha, EquipoLocal, EquipoVisita, Linea, Prediccion,
+                      ProbOver, Edge, Recomendacion, Motivo, EvaluadoUtc
+               FROM Evaluaciones
+               WHERE Fecha >= date('now', '-6 days')
+               ORDER BY Fecha DESC, EvaluadoUtc DESC, EquipoLocal""").fetchall() \
+            if db_utils.usar_sqlite() else con.execute(
+            """SELECT Fecha, EquipoLocal, EquipoVisita, Linea, Prediccion,
+                      ProbOver, Edge, Recomendacion, Motivo, EvaluadoUtc
+               FROM Evaluaciones
+               WHERE Fecha >= CAST(DATEADD(DAY, -6, GETDATE()) AS DATE)
+               ORDER BY Fecha DESC, EvaluadoUtc DESC, EquipoLocal""").fetchall()
+
         partidos = con.execute(
             """SELECT Fecha, EquipoLocal, EquipoVisita, CarrerasLocal,
                       CarrerasVisita, Linea_Casino_Real, EsFinal,
@@ -96,6 +110,19 @@ def generar():
                 "temperatura_c": _jsonable(temp),
             })
 
+        evaluaciones_json = []
+        for (fecha, local, visita, linea, prediccion, prob_over, edge,
+             rec, motivo, evaluado) in evaluaciones:
+            evaluaciones_json.append({
+                "fecha": str(fecha), "local": local, "visita": visita,
+                "linea": _jsonable(linea),
+                "prediccion": _jsonable(prediccion),
+                "prob_over": _jsonable(prob_over),
+                "edge": _jsonable(edge),
+                "recomendacion": rec, "motivo": motivo or "",
+                "evaluado_utc": str(evaluado) if evaluado else None,
+            })
+
         ganadas = sum(1 for p in predicciones if p["estado"] == "GANADA")
         perdidas = sum(1 for p in predicciones if p["estado"] == "PERDIDA")
         pushes = sum(1 for p in predicciones if p["estado"] == "PUSH")
@@ -113,6 +140,7 @@ def generar():
             },
             "partidos_hoy": partidos_json,
             "predicciones": predicciones,
+            "evaluaciones": evaluaciones_json,
         }
     finally:
         con.close()
@@ -134,7 +162,9 @@ def generar():
         json.dump(salida, f, ensure_ascii=False, indent=1)
     print(f"[WEB] {ruta} escrito "
           f"({len(predicciones)} predicciones, "
-          f"{len(partidos_json)} partidos, {salida['fecha_actualizacion']}).")
+          f"{len(partidos_json)} partidos, "
+          f"{len(evaluaciones_json)} evaluaciones, "
+          f"{salida['fecha_actualizacion']}).")
     return 0
 
 

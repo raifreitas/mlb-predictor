@@ -335,29 +335,29 @@
    "linea_real": 9.5,
    "es_final": true,
    "hora_inicio_utc": "2026-08-12 22:45:00.000",
-   "temperatura_c": 20.0
+   "temperatura_c": 27.0
   },
   {
    "fecha": "2026-08-13",
    "local": "Chicago White Sox",
    "visita": "Cincinnati Reds",
-   "carreras_local": 8,
-   "carreras_visita": 9,
-   "linea_real": 8.0,
-   "es_final": true,
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
    "hora_inicio_utc": "2026-08-13 17:10:00.000",
-   "temperatura_c": 22.4
+   "temperatura_c": 22.3
   },
   {
    "fecha": "2026-08-13",
    "local": "Detroit Tigers",
    "visita": "Cleveland Guardians",
-   "carreras_local": 3,
+   "carreras_local": 0,
    "carreras_visita": 0,
-   "linea_real": 8.0,
-   "es_final": true,
+   "linea_real": null,
+   "es_final": false,
    "hora_inicio_utc": "2026-08-13 17:10:00.000",
-   "temperatura_c": 23.4
+   "temperatura_c": 24.3
   },
   {
    "fecha": "2026-08-13",
@@ -368,7 +368,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-14 02:07:00.000",
-   "temperatura_c": 23.2
+   "temperatura_c": 23.1
   },
   {
    "fecha": "2026-08-13",
@@ -379,18 +379,18 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-14 02:10:00.000",
-   "temperatura_c": 22.4
+   "temperatura_c": 22.5
   },
   {
    "fecha": "2026-08-13",
    "local": "Miami Marlins",
    "visita": "Pittsburgh Pirates",
-   "carreras_local": 1,
-   "carreras_visita": 13,
-   "linea_real": 8.0,
-   "es_final": true,
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
    "hora_inicio_utc": "2026-08-13 17:10:00.000",
-   "temperatura_c": 28.0
+   "temperatura_c": 28.2
   },
   {
    "fecha": "2026-08-13",
@@ -408,33 +408,33 @@
    "local": "New York Yankees",
    "visita": "Seattle Mariners",
    "carreras_local": 0,
-   "carreras_visita": 1,
-   "linea_real": 7.5,
-   "es_final": true,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
    "hora_inicio_utc": "2026-08-13 17:35:00.000",
-   "temperatura_c": 26.2
+   "temperatura_c": 26.4
   },
   {
    "fecha": "2026-08-13",
    "local": "Toronto Blue Jays",
    "visita": "Boston Red Sox",
    "carreras_local": 0,
-   "carreras_visita": 7,
-   "linea_real": 8.0,
-   "es_final": true,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
    "hora_inicio_utc": "2026-08-13 19:07:00.000",
-   "temperatura_c": 21.9
+   "temperatura_c": 21.4
   },
   {
    "fecha": "2026-08-13",
    "local": "Washington Nationals",
    "visita": "Chicago Cubs",
-   "carreras_local": 7,
+   "carreras_local": 0,
    "carreras_visita": 0,
-   "linea_real": 7.5,
-   "es_final": true,
+   "linea_real": null,
+   "es_final": false,
    "hora_inicio_utc": "2026-08-13 20:05:00.000",
-   "temperatura_c": 27.7
+   "temperatura_c": 28.4
   },
   {
    "fecha": "2026-08-17",
@@ -827,5 +827,43 @@
    "verificado": "2026-08-12 04:55:18.444"
   }
  ],
- "fecha_actualizacion": "2026-08-13T22:33:24Z"
+ "evaluaciones": [
+  {
+   "fecha": "2026-08-13",
+   "local": "Los Angeles Angels",
+   "visita": "Texas Rangers",
+   "linea": 9.0,
+   "prediccion": 7.3,
+   "prob_over": 0.45091626048088074,
+   "edge": 1.45,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Volatilidad del Abridor (WHIP Local: 1.29 | Visita: 1.13)",
+   "evaluado_utc": "2026-08-13T22:39:05Z"
+  },
+  {
+   "fecha": "2026-08-13",
+   "local": "Los Angeles Dodgers",
+   "visita": "Milwaukee Brewers",
+   "linea": 8.0,
+   "prediccion": 7.62,
+   "prob_over": 0.41858971118927,
+   "edge": 0.38,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "",
+   "evaluado_utc": "2026-08-13T22:39:05Z"
+  },
+  {
+   "fecha": "2026-08-13",
+   "local": "Minnesota Twins",
+   "visita": "Philadelphia Phillies",
+   "linea": 8.5,
+   "prediccion": 8.29,
+   "prob_over": 0.5369988083839417,
+   "edge": 0.21,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "",
+   "evaluado_utc": "2026-08-13T22:39:05Z"
+  }
+ ],
+ "fecha_actualizacion": "2026-08-13T22:39:12Z"
 }

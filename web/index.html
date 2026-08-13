@@ -93,6 +93,34 @@
   }
   .estado.futuro { color: var(--tenue); }
 
+  details.no-apostar {
+    background: var(--panel); border: 1px solid var(--borde);
+    border-radius: 12px; overflow: hidden;
+  }
+  details.no-apostar summary {
+    cursor: pointer; padding: 12px 16px; font-weight: 700;
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 8px; list-style: none;
+  }
+  details.no-apostar summary::-webkit-details-marker { display: none; }
+  details.no-apostar summary .flechita {
+    color: var(--tenue); font-size: .8rem;
+    transition: transform .2s ease;
+  }
+  details.no-apostar[open] summary .flechita {
+    transform: rotate(180deg);
+  }
+  details.no-apostar .cuerpo {
+    border-top: 1px solid var(--borde);
+    max-height: 320px; overflow-y: auto;
+  }
+  details.no-apostar .conteo {
+    color: var(--ambar); font-weight: 700; margin-left: auto;
+  }
+  .tabla.mini td { padding: 7px 12px; font-size: .82rem; }
+  .tabla.mini th { padding: 8px 12px; }
+  details.no-apostar .tabla { min-width: 560px; }
+
   footer {
     margin-top: 28px; text-align: center; color: var(--tenue);
     font-size: .74rem;
@@ -152,6 +180,23 @@
     </table>
   </div>
 
+  <h2>NO APOSTAR (no pasaron los filtros)</h2>
+  <details class="no-apostar">
+    <summary>Historial de picks descartados <span class="conteo" id="num-noapostar">-</span>
+      <span class="flechita">&#9654;</span></summary>
+    <div class="cuerpo">
+      <table class="tabla mini">
+        <thead>
+          <tr>
+            <th>Fecha</th><th>Partido</th><th>Linea</th><th>Prediccion</th>
+            <th>P(Over)</th><th>Edge</th><th>Motivo</th>
+          </tr>
+        </thead>
+        <tbody id="tabla-noapostar"></tbody>
+      </table>
+    </div>
+  </details>
+
   <footer>Generado automaticamente por GitHub Actions</footer>
 </div>
 
@@ -167,6 +212,16 @@
     return "futuro";
   }
 
+  const TZ_PERU = "America/Lima";
+
+  function horaLima(iso) {
+    if (!iso) return "-";
+    const fecha = new Date(iso);
+    if (isNaN(fecha)) return "-";
+    return fecha.toLocaleString("es-PE", {
+      timeZone: TZ_PERU, dateStyle: "short", timeStyle: "short" });
+  }
+
   function resumen(estado) {
     return { GANADA: "Ganada", PERDIDA: "Perdida", PUSH: "Push",
       PENDIENTE: "En juego", FALLIDA: "Sin linea" }[estado] || estado;
@@ -180,7 +235,7 @@
       })
       .then((d) => {
         document.getElementById("actualizado").textContent =
-          "Actualizado: " + d.fecha_actualizacion.replace("T", " ").replace("Z", " UTC");
+          "Actualizado: " + horaLima(d.fecha_actualizacion) + " (hora Lima, Peru)";
 
       const preds = d.predicciones;
       const pendientes = preds.filter((p) => p.estado === "PENDIENTE").length;
@@ -227,6 +282,31 @@
         '<td><span class="estado futuro">' +
           (g.es_final ? "Final" : "Programado") + "</span></td>" +
         "</tr>").join("");
+
+      const evals = (d.evaluaciones || []).filter(
+        (e) => e.recomendacion === "NO APOSTAR");
+      document.getElementById("num-noapostar").textContent =
+        "(" + evals.length + ")";
+      const tbodyN = document.getElementById("tabla-noapostar");
+      if (evals.length === 0) {
+        tbodyN.innerHTML = '<tr><td colspan="7" class="debil">' +
+          "Sin descartes en los ultimos dias.</td></tr>";
+      } else {
+        tbodyN.innerHTML = evals.slice(0, 40).map((e) =>
+          "<tr>" +
+          "<td class='debil'>" + ESC(e.fecha) + "</td>" +
+          "<td><span class='debil'>" + ESC(e.visita) + " @</span> " +
+            ESC(e.local) + "</td>" +
+          "<td class='debil'>" + ESC(String(e.linea)) + "</td>" +
+          "<td class='debil'>" + ESC(String(e.prediccion)) + "</td>" +
+          "<td>" + ESC(String(Math.round(e.prob_over * 100))) + "%</td>" +
+          "<td>" + (e.edge >= 1 ? "&#x1F7E2;" : "") +
+            "<span class='debil'>" + ESC(String(e.edge)) + "</span></td>" +
+          "<td class='debil' title='" + ESC(e.motivo) + "'>" +
+            (e.motivo ? ESC(e.motivo.length > 55 ? e.motivo.slice(0, 55) + "..." : e.motivo) : "-") +
+          "</td>" +
+          "</tr>").join("");
+      }
     })
     .catch(() => {
       if ((intento || 1) < 5) {

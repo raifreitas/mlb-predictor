@@ -15,6 +15,29 @@ RAIZ = Path(CARPETA_SCRIPT).resolve().parents[2]  # raiz del repo (con data/)
 RUTA_SQLITE = Path(os.environ.get(
     "MLB_DB_PATH", str(RAIZ / "data" / "mlb.db"))).resolve()
 
+SQL_CREATE_EVALUACIONES = """
+CREATE TABLE IF NOT EXISTS Evaluaciones (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Fecha TEXT NOT NULL,
+    EquipoLocal TEXT NOT NULL,
+    EquipoVisita TEXT NOT NULL,
+    Linea REAL,
+    Prediccion REAL,
+    ProbOver REAL,
+    Edge REAL,
+    Recomendacion TEXT,
+    Motivo TEXT,
+    EvaluadoUtc TEXT
+)
+"""
+
+
+def crear_tabla_evaluaciones(con):
+    """Crea la tabla Evaluaciones si falta (SQLite)."""
+    con.execute(SQL_CREATE_EVALUACIONES)
+    con.commit()
+
+
 SQL_VIEW_FATIGA = """
 CREATE VIEW IF NOT EXISTS vwFatigaBullpen3d AS
 WITH Diario AS (
@@ -39,6 +62,7 @@ def _conexion_sqlite():
     con = sqlite3.connect(str(RUTA_SQLITE), timeout=60)
     con.execute("PRAGMA journal_mode = WAL")
     con.execute(SQL_VIEW_FATIGA)
+    crear_tabla_evaluaciones(con)
     return con
 
 

@@ -483,6 +483,33 @@ def linea_en_media_entera(linea, tipo_apuesta):
     return linea
 
 
+def guardar_evaluaciones(evaluaciones, fecha):
+    """Registra el resultado de CADA partido evaluado (APOSTAR o NO APOSTAR)
+    en la tabla Evaluaciones, para que la web muestre el panorama completo
+    de los picks que no pasaron los filtros. Upsert por (Fecha, local, visita):
+    la linea de la evaluacion mas reciente gana."""
+    con = db_utils.conexion()
+    try:
+        for (local, visita, linea, prediccion, prob_over, edge,
+             recomendacion, motivo) in evaluaciones:
+            con.execute(
+                "DELETE FROM Evaluaciones "
+                "WHERE Fecha = ? AND EquipoLocal = ? AND EquipoVisita = ?",
+                [fecha, local, visita])
+            con.execute(
+                "INSERT INTO Evaluaciones "
+                "(Fecha, EquipoLocal, EquipoVisita, Linea, Prediccion, "
+                " ProbOver, Edge, Recomendacion, Motivo, EvaluadoUtc) "
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                [fecha, local, visita, linea, prediccion, prob_over, edge,
+                 recomendacion, motivo,
+                 datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")])
+        con.commit()
+        return len(evaluaciones)
+    finally:
+        con.close()
+
+
 def main():
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
@@ -690,6 +717,7 @@ def main():
 
     totales = Counter()
     jugadas = []
+    evaluaciones = []
     for (_, fila), prob_over in zip(partidos.iterrows(), predicciones_proba):
         decision = decidir_jugada(
             fila, prob_over, media_carreras_estadio, partidos_por_dia,
@@ -729,6 +757,10 @@ def main():
             jugadas.append(
                 (decision["local"], decision["visita"], stake,
                  tipo_apuesta, linea, edge_apuesta, cuota))
+        evaluaciones.append(
+            (decision["local"], decision["visita"],
+             float(linea_mercado), prediccion, float(prob_over),
+             float(abs(fila["Edge"])), recomendacion, motivo or ""))
 
         partido = f"{decision['local']} vs {decision['visita']}"
         detalle = ""
@@ -771,6 +803,10 @@ def main():
     registradas = guardar_predicciones(jugadas, fecha, reemplazar_pares)
     print(f"[GUARDADO] {registradas} predicciones registradas "
           f"en dbo.Predicciones.")
+    if evaluaciones:
+        registradas_eval = guardar_evaluaciones(evaluaciones, fecha)
+        print(f"[GUARDADO] {registradas_eval} evaluaciones registradas "
+              f"en Evaluaciones (historial NO APOSTAR).")
     print(f"Filtros activos: EDGE_MINIMO={EDGE_MINIMO:.2f} | "
           f"WHIP abridor <= {WHIP_UMBRAL_VOLATILIDAD:.2f} (UNDER) | "
           f"fatiga bullpen | contradiccion | extremos | viento")
