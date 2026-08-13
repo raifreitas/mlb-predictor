@@ -168,17 +168,21 @@
   </div>
 
   <h2>Partidos recientes</h2>
-  <div class="envuelve-tabla">
-    <table class="tabla">
-      <thead>
-        <tr>
-          <th>Fecha</th><th>Local</th><th>Visita</th><th>Marcador</th>
-          <th>Linea real</th><th>Estado</th>
-        </tr>
-      </thead>
-      <tbody id="tabla-partidos"></tbody>
-    </table>
-  </div>
+  <details class="no-apostar">
+    <summary>Partidos MLB de los ultimos dias <span class="conteo" id="num-partidos">-</span>
+      <span class="flechita">&#9654;</span></summary>
+    <div class="cuerpo">
+      <table class="tabla mini">
+        <thead>
+          <tr>
+            <th>Fecha</th><th>Local</th><th>Visita</th><th>Marcador</th>
+            <th>Linea real</th><th>Estado</th>
+          </tr>
+        </thead>
+        <tbody id="tabla-partidos"></tbody>
+      </table>
+    </div>
+  </details>
 
   <h2>NO APOSTAR (no pasaron los filtros)</h2>
   <details class="no-apostar">
@@ -269,6 +273,8 @@
 
       const tbodyG = document.getElementById("tabla-partidos");
       const partidos = d.partidos_hoy.slice().reverse();
+      document.getElementById("num-partidos").textContent =
+        "(" + partidos.length + ")";
       tbodyG.innerHTML = partidos.map((g) =>
         "<tr>" +
         "<td class='debil'>" + ESC(g.fecha) + "</td>" +
