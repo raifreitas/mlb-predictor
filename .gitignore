@@ -19,3 +19,9 @@
 **/output_predicciones/
 **/predicciones_temporada/
 **/html/
+
+# Python
+__pycache__/
+*.py[cod]
+**/cache_*.json
+**/skellam_*.npy
