@@ -3,6 +3,30 @@ import sys
 import db_utils
 
 
+def _a_utc(valor):
+    """Convierte datetime (pyodbc) o str ISO/yyyymmdd hh:mm:ss.fff (SQLite)
+    a datetime con zona UTC, robusto para ambos motores."""
+    import datetime as _dt
+    if isinstance(valor, str):
+        texto = valor.strip()
+        if "." in texto:
+            texto = texto.split(".")[0]
+        try:
+            return _dt.datetime.strptime(texto, "%Y-%m-%d %H:%M:%S"
+                                         ).replace(tzinfo=_dt.timezone.utc)
+        except ValueError:
+            pass
+        try:
+            return _dt.datetime.fromisoformat(texto.replace("Z", "+00:00"))
+        except ValueError:
+            return None
+    if isinstance(valor, _dt.datetime):
+        if valor.tzinfo is None:
+            return valor.replace(tzinfo=_dt.timezone.utc)
+        return valor.astimezone(_dt.timezone.utc)
+    return None
+
+
 def verificar():
     con = db_utils.conexion()
     try:
@@ -19,7 +43,7 @@ def verificar():
                       "SIN PARTIDO": 0, "NO VALIDA": 0}
         for (pred_id, fecha, local, visita, tipo, linea, creado_utc) in pendientes:
             fila = con.execute(
-                "SELECT TOP 1 CarrerasLocal, CarrerasVisita, HoraInicioUtc "
+                "SELECT CarrerasLocal, CarrerasVisita, HoraInicioUtc "
                 "FROM GameLog "
                 "WHERE Fecha = ? AND EquipoLocal = ? AND EquipoVisita = ? "
                 "AND CarrerasLocal IS NOT NULL AND CarrerasVisita IS NOT NULL "
@@ -35,12 +59,9 @@ def verificar():
             hora_inicio = fila[2]
             if creado_utc is not None and hora_inicio is not None:
                 import datetime as _dt
-                hora_inicio_utc = hora_inicio.replace(
-                    tzinfo=_dt.timezone.utc)
-                creado = creado_utc
-                if creado.tzinfo is None:
-                    creado = creado.replace(tzinfo=_dt.timezone.utc)
-                if creado >= hora_inicio_utc:
+                hora_inicio = _a_utc(hora_inicio)
+                creado = _a_utc(creado_utc)
+                if creado >= hora_inicio:
                     contadores["NO VALIDA"] += 1
                     con.execute(
                         "UPDATE Predicciones SET Estado = 'NO_VALIDA', "
@@ -49,7 +70,7 @@ def verificar():
                     print(f"[VERIFICAR] {fecha} {local} vs {visita} "
                           f"({tipo} {linea}): NO VALIDA (pick generado "
                           f"{creado.strftime('%H:%M')} UTC, partido inicio "
-                          f"{hora_inicio_utc.strftime('%H:%M')} UTC).")
+                          f"{hora_inicio.strftime('%H:%M')} UTC).")
                     continue
 
             total = fila[0] + fila[1]

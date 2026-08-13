@@ -48,6 +48,11 @@ jobs:
           python etl_main.py ${{ env.ayer }} ${{ env.ayer }}
           python etl_main.py ${{ env.hoy }} ${{ env.hoy }}
 
+      - name: Verificar predicciones pendientes
+        if: github.event.schedule == '30 6 * * *' || github.event_name == 'workflow_dispatch'
+        working-directory: PruebaPronosticos/src/Modeling
+        run: python verificar_predicciones.py
+
       - name: Re-entrenar modelo con el ultimo dia finalizado
         if: github.event.schedule == '30 6 * * *' || github.event_name == 'workflow_dispatch'
         working-directory: PruebaPronosticos/src/Modeling
@@ -58,10 +63,20 @@ jobs:
         working-directory: PruebaPronosticos/src/EtlPython
         run: python etl_main.py --solo-odds ${{ env.hoy }} ${{ env.hoy }}
 
+      - name: Verificar predicciones del dia (vespertino)
+        if: github.event.schedule == '30 14 * * *'
+        working-directory: PruebaPronosticos/src/Modeling
+        run: python verificar_predicciones.py
+
       - name: ETL nocturno (linea de cierre de los juegos nocturnos)
         if: github.event.schedule == '0 21 * * *'
         working-directory: PruebaPronosticos/src/EtlPython
         run: python etl_main.py --solo-odds ${{ env.hoy }} ${{ env.hoy }}
+
+      - name: Verificar predicciones del dia (nocturno)
+        if: github.event.schedule == '0 21 * * *'
+        working-directory: PruebaPronosticos/src/Modeling
+        run: python verificar_predicciones.py
 
       - name: Commit si hubo cambios
         run: |
