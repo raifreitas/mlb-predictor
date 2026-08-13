@@ -105,7 +105,6 @@ def generar():
                   if p["estado"] == "PERDIDA")
 
         salida = {
-            "fecha_actualizacion": _ahora_iso(),
             "ultima_fecha_prediccion": str(ultima_fecha)
             if ultima_fecha else None,
             "resumen": {
@@ -118,12 +117,31 @@ def generar():
     finally:
         con.close()
 
-    with open(_ruta_data_json(), "w", encoding="utf-8") as f:
+    ruta = _ruta_data_json()
+    previo = None
+    if os.path.exists(ruta):
+        try:
+            with open(ruta, encoding="utf-8") as f:
+                previo = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            previo = None
+    if previo is not None and _sin_timestamp(previo) == salida:
+        print(f"[WEB] {ruta} sin cambios (no se reescribe).")
+        return 0
+
+    salida["fecha_actualizacion"] = _ahora_iso()
+    with open(ruta, "w", encoding="utf-8") as f:
         json.dump(salida, f, ensure_ascii=False, indent=1)
-    print(f"[WEB] {_ruta_data_json()} escrito "
+    print(f"[WEB] {ruta} escrito "
           f"({len(predicciones)} predicciones, "
-          f"{len(partidos_json)} partidos, {_ahora_iso()}).")
+          f"{len(partidos_json)} partidos, {salida['fecha_actualizacion']}).")
     return 0
+
+
+def _sin_timestamp(datos):
+    copia = dict(datos)
+    copia.pop("fecha_actualizacion", None)
+    return copia
 
 
 if __name__ == "__main__":

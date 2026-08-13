@@ -112,11 +112,15 @@
       PENDIENTE: "En juego", FALLIDA: "Sin linea" }[estado] || estado;
   }
 
-  fetch("data.json")
-    .then((r) => r.json())
-    .then((d) => {
-      document.getElementById("actualizado").textContent =
-        "Actualizado: " + d.fecha_actualizacion.replace("T", " ").replace("Z", " UTC");
+  function cargarDatos(intento) {
+    fetch("data.json?v=" + Date.now(), { cache: "no-store" })
+      .then((r) => {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then((d) => {
+        document.getElementById("actualizado").textContent =
+          "Actualizado: " + d.fecha_actualizacion.replace("T", " ").replace("Z", " UTC");
 
       const preds = d.predicciones;
       const pendientes = preds.filter((p) => p.estado === "PENDIENTE").length;
@@ -165,9 +169,16 @@
         "</tr>").join("");
     })
     .catch(() => {
-      document.getElementById("actualizado").textContent =
-        "Error: no se pudo cargar data.json.";
+      if ((intento || 1) < 5) {
+        setTimeout(() => cargarDatos((intento || 1) + 1), 3000);
+      } else {
+        document.getElementById("actualizado").textContent =
+          "Error: no se pudo cargar data.json.";
+      }
     });
+  }
+
+  cargarDatos(1);
 </script>
 </body>
 </html>
