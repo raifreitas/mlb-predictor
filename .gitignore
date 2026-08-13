@@ -1,0 +1,21 @@
+# Visual Studio / .NET
+.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+
+# Secretos y entornos
+**/config/appsettings.json
+.env
+*.local
+
+# Logs y salidas dinámicas
+**/logs/
+*.log
+*.err
+
+# Salidas de ejecución (no versionar; se regeneran)
+**/output_predicciones/
+**/predicciones_temporada/
+**/html/

@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37516.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaPronosticos", "PruebaPronosticos\src\ETL\PruebaPronosticos.csproj", "{B6147DA1-3DB4-4716-A6EB-6AACD9FBD2C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{18AE38F7-3D96-4971-93E3-CB65987C671A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A8EB7325-EDD9-4B46-8DA7-003FF6A844FB}"
+	ProjectSection(SolutionItems) = preProject
+		PruebaPronosticos\src\Data\backfill_clima_seguro.py = PruebaPronosticos\src\Data\backfill_clima_seguro.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modeling", "Modeling", "{A52F3590-DD6F-48AA-B39D-73C182DF4D4E}"
+	ProjectSection(SolutionItems) = preProject
+		PruebaPronosticos\src\Modeling\backfill_clima.py = PruebaPronosticos\src\Modeling\backfill_clima.py
+		PruebaPronosticos\src\Modeling\backfill_fatiga.py = PruebaPronosticos\src\Modeling\backfill_fatiga.py
+		PruebaPronosticos\src\Modeling\backfill_whip.py = PruebaPronosticos\src\Modeling\backfill_whip.py
+		PruebaPronosticos\src\Modeling\entrenar_modelo.py = PruebaPronosticos\src\Modeling\entrenar_modelo.py
+		PruebaPronosticos\src\Modeling\entrenar_regresion.py = PruebaPronosticos\src\Modeling\entrenar_regresion.py
+		PruebaPronosticos\src\Modeling\predecir_hoy.py = PruebaPronosticos\src\Modeling\predecir_hoy.py
+		PruebaPronosticos\src\Modeling\recomendar_apuestas.py = PruebaPronosticos\src\Modeling\recomendar_apuestas.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "models", "models", "{4FB8746C-7C0B-4F1F-98D4-B4F3E34005C2}"
+	ProjectSection(SolutionItems) = preProject
+		PruebaPronosticos\models\columnas_regresion_totales.pkl = PruebaPronosticos\models\columnas_regresion_totales.pkl
+		PruebaPronosticos\models\columnas_totales.pkl = PruebaPronosticos\models\columnas_totales.pkl
+		PruebaPronosticos\models\modelo_mlb_totales.pkl = PruebaPronosticos\models\modelo_mlb_totales.pkl
+		PruebaPronosticos\models\modelo_regresion_totales.pkl = PruebaPronosticos\models\modelo_regresion_totales.pkl
+		PruebaPronosticos\models\transformadores_totales.pkl = PruebaPronosticos\models\transformadores_totales.pkl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{F2CDBA91-2175-4D2D-9B06-32906C740232}"
+	ProjectSection(SolutionItems) = preProject
+		PruebaPronosticos\sql\AgregarFatigaBullpen.sql = PruebaPronosticos\sql\AgregarFatigaBullpen.sql
+		PruebaPronosticos\sql\AgregarLineasReales.sql = PruebaPronosticos\sql\AgregarLineasReales.sql
+		PruebaPronosticos\sql\AgregarModulosAvanzados.sql = PruebaPronosticos\sql\AgregarModulosAvanzados.sql
+		PruebaPronosticos\sql\AgregarWhipAbridor.sql = PruebaPronosticos\sql\AgregarWhipAbridor.sql
+		PruebaPronosticos\sql\CrearTablaGameLog.sql = PruebaPronosticos\sql\CrearTablaGameLog.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{5EE2B531-6295-4207-B949-E7AFB379A77C}"
+	ProjectSection(SolutionItems) = preProject
+		PruebaPronosticos\scripts\rutina_mlb.bat = PruebaPronosticos\scripts\rutina_mlb.bat
+		PruebaPronosticos\scripts\setup_task.ps1 = PruebaPronosticos\scripts\setup_task.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "logs", "logs", "{92B7E923-D4E4-4517-9710-6A7FF7565E7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "output_predicciones", "output_predicciones", "{22BA133C-5E55-48C7-8192-8F0ACCEEE394}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6147DA1-3DB4-4716-A6EB-6AACD9FBD2C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6147DA1-3DB4-4716-A6EB-6AACD9FBD2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6147DA1-3DB4-4716-A6EB-6AACD9FBD2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6147DA1-3DB4-4716-A6EB-6AACD9FBD2C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8EB7325-EDD9-4B46-8DA7-003FF6A844FB} = {18AE38F7-3D96-4971-93E3-CB65987C671A}
+		{A52F3590-DD6F-48AA-B39D-73C182DF4D4E} = {18AE38F7-3D96-4971-93E3-CB65987C671A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E27D608-47EB-486A-84F9-4C3C7B1EFB2A}
+	EndGlobalSection
+EndGlobal
