@@ -4,7 +4,10 @@ import sys
 import joblib
 import numpy as np
 import pandas as pd
-import pyodbc
+try:
+    import pyodbc
+except ImportError:
+    pyodbc = None
 import xgboost as xgb
 from sklearn.isotonic import IsotonicRegression
 from sklearn.metrics import accuracy_score, roc_auc_score
@@ -96,6 +99,10 @@ FEATURES_ML = [
 
 
 def cargar_datos():
+    if pyodbc is None:
+        raise RuntimeError(
+            "cargar_datos (SQL Server) requiere pyodbc; "
+            "en la nube usa MLB_SQLITE=1 y el cargar_datos de entrenar_modelo.")
     connection_string = CONNECTION_STRING_TEMPLATE.format(driver=obtener_driver_odbc())
     conexion = pyodbc.connect(connection_string)
     try:

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pronosticos MLB</title>
+<style>
+  :root {
+    --fondo: #0f1420;
+    --panel: #1a2133;
+    --borde: #2a3350;
+    --texto: #dbe2f0;
+    --tenue: #8a95b0;
+    --verde: #3ddc84;
+    --rojo: #ff5d5d;
+    --ambar: #ffc532;
+    --azul: #4da3ff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--fondo); color: var(--texto);
+    font-family: system-ui, "Segoe UI", Arial, sans-serif;
+    padding: 24px; line-height: 1.45;
+  }
+  .contenedor { max-width: 1100px; margin: 0 auto; }
+  h1 { font-size: 1.5rem; margin-bottom: 4px; }
+  .actualizado { color: var(--tenue); font-size: .85rem; margin-bottom: 20px; }
+  .resumen {
+    display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 20px;
+  }
+  .card {
+    background: var(--panel); border: 1px solid var(--borde);
+    border-radius: 10px; padding: 14px 22px; min-width: 130px;
+  }
+  .card .num { font-size: 1.6rem; font-weight: 700; }
+  .card .etiqueta { color: var(--tenue); font-size: .8rem;
+    text-transform: uppercase; letter-spacing: .05em; }
+  .ganada { color: var(--verde); }
+  .perdida { color: var(--rojo); }
+  .push { color: var(--ambar); }
+  .tabla { width: 100%; border-collapse: collapse; background: var(--panel);
+    border: 1px solid var(--borde); border-radius: 10px; overflow: hidden; }
+  .tabla th { background: #141b2e; text-align: left; color: var(--tenue);
+    font-size: .78rem; text-transform: uppercase; letter-spacing: .05em;
+    padding: 10px 14px; border-bottom: 1px solid var(--borde); }
+  .tabla td { padding: 10px 14px; border-bottom: 1px solid var(--borde);
+    font-size: .92rem; }
+  .tabla tr:last-child td { border-bottom: none; }
+  h2 { font-size: 1.1rem; margin: 28px 0 10px; }
+  .estado { display: inline-block; padding: 2px 10px; border-radius: 999px;
+    font-size: .78rem; font-weight: 600; background: var(--panel);
+    border: 1px solid var(--borde); }
+  .estado.futuro { color: var(--tenue); }
+  .vacio { color: var(--tenue); font-style: italic; padding: 10px 0; }
+</style>
+</head>
+<body>
+<div class="contenedor">
+  <h1>Pronosticos MLB</h1>
+  <div class="actualizado" id="actualizado">Cargando...</div>
+
+  <div class="resumen">
+    <div class="card"><div class="num" id="num-hoy">-</div>
+      <div class="etiqueta">Picks hoy</div></div>
+    <div class="card"><div class="num ganada" id="num-ganadas">-</div>
+      <div class="etiqueta">Ganadas</div></div>
+    <div class="card"><div class="num perdida" id="num-perdidas">-</div>
+      <div class="etiqueta">Perdidas</div></div>
+    <div class="card"><div class="num" id="num-unidades">-</div>
+      <div class="etiqueta">Unidades</div></div>
+    <div class="card"><div class="num" id="num-acierto">-</div>
+      <div class="etiqueta">Acierto</div></div>
+  </div>
+
+  <h2>Predicciones (historial)</h2>
+  <table class="tabla">
+    <thead>
+      <tr>
+        <th>Fecha</th><th>Partido</th><th>Apuesta</th><th>Linea</th>
+        <th>Unidades</th><th>Edge</th><th>Cuota</th><th>Resultado</th>
+      </tr>
+    </thead>
+    <tbody id="tabla-predicciones"></tbody>
+  </table>
+
+  <h2>Partidos recientes</h2>
+  <table class="tabla">
+    <thead>
+      <tr>
+        <th>Fecha</th><th>Local</th><th>Visita</th><th>Marcador</th>
+        <th>Linea real</th><th>Estado</th>
+      </tr>
+    </thead>
+    <tbody id="tabla-partidos"></tbody>
+  </table>
+</div>
+
+<script>
+  const ESC = (literal) => ["<", ">", "&", '"', "'"].reduce(
+    (s, c) => s.replaceAll(c, "&" + { "<": "lt", ">": "gt", "&": "amp",
+      '"': "quot", "'": "#39" }[c] + ";"), literal);
+
+  function fila(estado) {
+    if (estado === "GANADA") return "ganada";
+    if (estado === "PERDIDA") return "perdida";
+    if (estado === "PUSH") return "push";
+    return "futuro";
+  }
+
+  function resumen(estado) {
+    return { GANADA: "Ganada", PERDIDA: "Perdida", PUSH: "Push",
+      PENDIENTE: "En juego", FALLIDA: "Sin linea" }[estado] || estado;
+  }
+
+  fetch("data.json")
+    .then((r) => r.json())
+    .then((d) => {
+      document.getElementById("actualizado").textContent =
+        "Actualizado: " + d.fecha_actualizacion.replace("T", " ").replace("Z", " UTC");
+
+      const preds = d.predicciones;
+      const pendientes = preds.filter((p) => p.estado === "PENDIENTE").length;
+      const ganadas = d.resumen.ganadas, perdidas = d.resumen.perdidas;
+      document.getElementById("num-hoy").textContent = String(pendientes);
+      document.getElementById("num-ganadas").textContent = String(ganadas);
+      document.getElementById("num-perdidas").textContent = String(perdidas);
+      const total = ganadas + perdidas + d.resumen.push;
+      document.getElementById("num-unidades").textContent =
+        (d.resumen.unidades > 0 ? "+" : "") + d.resumen.unidades;
+      document.getElementById("num-acierto").textContent =
+        total > 0 ? Math.round((ganadas / total) * 100) + "%" : "-";
+
+      const tbodyP = document.getElementById("tabla-predicciones");
+      if (preds.length === 0) {
+        tbodyP.innerHTML = '<tr><td colspan="8">Aun no hay predicciones.</td></tr>';
+      } else {
+        tbodyP.innerHTML = preds.slice().reverse().map((p) =>
+          "<tr>" +
+          "<td>" + ESC(p.fecha) + "</td>" +
+          "<td>" + ESC(p.visita) + " @ " + ESC(p.local) + "</td>" +
+          "<td>" + ESC(p.tipo) + "</td>" +
+          "<td>" + ESC(String(p.linea)) + "</td>" +
+          "<td>" + ESC(String(p.unidades)) + "</td>" +
+          "<td>" + ESC(String(p.edge)) + "%</td>" +
+          "<td>" + ESC(String(p.cuota)) + "</td>" +
+          '<td><span class="estado ' + fila(p.estado) + '">' +
+            ESC(resumen(p.estado)) + "</span></td>" +
+          "</tr>").join("");
+      }
+
+      const tbodyG = document.getElementById("tabla-partidos");
+      const partidos = d.partidos_hoy.slice().reverse();
+      tbodyG.innerHTML = partidos.map((g) =>
+        "<tr>" +
+        "<td>" + ESC(g.fecha) + "</td>" +
+        "<td>" + ESC(g.local) + "</td>" +
+        "<td>" + ESC(g.visita) + "</td>" +
+        "<td>" + (g.es_final
+          ? ESC(g.carreras_local) + "-" + ESC(g.carreras_visita)
+          : "-") + "</td>" +
+        "<td>" + (g.linea_real !== null && g.linea_real !== undefined
+          ? ESC(String(g.linea_real)) : "-") + "</td>" +
+        '<td><span class="estado futuro">' +
+          (g.es_final ? "Final" : "Programado") + "</span></td>" +
+        "</tr>").join("");
+    })
+    .catch(() => {
+      document.getElementById("actualizado").textContent =
+        "Error: no se pudo cargar data.json.";
+    });
+</script>
+</body>
+</html>

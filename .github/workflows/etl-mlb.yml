@@ -1,0 +1,68 @@
+name: etl-mlb
+
+on:
+  schedule:
+    - cron: "30 6 * * *"
+    - cron: "30 14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: etl-mlb
+  cancel-in-progress: false
+
+env:
+  MLB_SQLITE: "1"
+  THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
+
+jobs:
+  etl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Fechas goal
+        id: fechas
+        run: |
+          echo "ayer=$(date -u -d '1 day ago' +%F)" >> "$GITHUB_ENV"
+          echo "hoy=$(date -u +%F)" >> "$GITHUB_ENV"
+
+      - name: ETL matinal (resultados y cierre de ayer + preparacion de hoy)
+        if: github.event.schedule == '30 6 * * *' || github.event_name == 'workflow_dispatch'
+        working-directory: PruebaPronosticos/src/EtlPython
+        run: |
+          python etl_main.py ${{ env.ayer }} ${{ env.ayer }}
+          python etl_main.py ${{ env.hoy }} ${{ env.hoy }}
+
+      - name: ETL vespertino (snapshot de cuotas del dia en curso)
+        if: github.event.schedule == '30 14 * * *'
+        working-directory: PruebaPronosticos/src/EtlPython
+        run: python etl_main.py --solo-odds ${{ env.hoy }} ${{ env.hoy }}
+
+      - name: Commit si hubo cambios
+        run: |
+          git add data/mlb.db
+          if git diff --cached --quiet; then
+            echo "Sin cambios en la BD."
+          else
+            git -c user.name="github-actions[bot]" \
+               -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+               commit -m "Actualizacion automatica (ETL MLB)"
+            for intento in 1 2 3 4 5; do
+              git pull --rebase && git push && break
+              sleep 10
+            done
+          fi

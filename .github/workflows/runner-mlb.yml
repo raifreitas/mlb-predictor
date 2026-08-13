@@ -1,0 +1,68 @@
+name: runner-mlb
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: runner-mlb
+  cancel-in-progress: false
+
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    env:
+      MLB_SQLITE: "1"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Planificador (runner por partido)
+        working-directory: PruebaPronosticos/src/Modeling
+        run: python planificador.py --procesar --ventana-min 30
+
+      - name: Generar web/data.json
+        working-directory: PruebaPronosticos/src/Modeling
+        run: python generar_web.py
+
+      - name: Commit si hubo cambios
+        run: |
+          git add data/mlb.db data/horarios.json web/data.json
+          if git diff --cached --quiet; then
+            echo "changed=0" >> "$GITHUB_ENV"
+          else
+            git -c user.name="github-actions[bot]" \
+               -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+               commit -m "Actualizacion automatica (runner MLB)"
+            for intento in 1 2 3 4 5; do
+              git pull --rebase && git push && break
+              sleep 10
+            done
+            echo "changed=1" >> "$GITHUB_ENV"
+          fi
+
+      - name: Publicar GitHub Pages
+        if: env.changed == '1'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+      - name: Deploy Pages
+        if: env.changed == '1'
+        uses: actions/deploy-pages@v4
