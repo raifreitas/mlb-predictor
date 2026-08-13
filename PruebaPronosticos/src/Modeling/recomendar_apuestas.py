@@ -495,11 +495,9 @@ def main():
     fuente = "SQLite (mlb.db)" if db_utils.usar_sqlite() else "SQL Server"
     print(f"BD fuente: {fuente} | modo: {modo_etiqueta}")
 
+    # La API Key solo se requiere en modo "todo el dia" (The Odds API).
+    # En modo ventana las lineas salen de LineaSnapshots (sin gastar cuota).
     api_key = obtener_api_key()
-    if not api_key:
-        print(f"[ERROR] No se encontro la API Key de The Odds API "
-              f"(variable {API_KEY_VAR}, .env o appsettings.json).")
-        return 1
 
     # El calendario se consulta SIEMPRE primero: StatsAPI es gratuita.
     # En modo ventana, si no hay partidos que inicien dentro de la
@@ -533,6 +531,10 @@ def main():
         print(f"      {len(lineas)} partidos con linea Over/Under "
               "en el snapshot.")
     else:
+        if not api_key:
+            print(f"[ERROR] No se encontro la API Key de The Odds API "
+                  f"(variable {API_KEY_VAR}, .env o appsettings.json).")
+            return 1
         print(f"[2/6] Obteniendo lineas Totals de The Odds API ({REGION})...")
         try:
             lineas = obtener_lineas(api_key)
