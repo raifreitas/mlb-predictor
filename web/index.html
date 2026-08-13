@@ -6,10 +6,11 @@
 <title>Pronosticos MLB</title>
 <style>
   :root {
-    --fondo: #0f1420;
-    --panel: #1a2133;
-    --borde: #2a3350;
-    --texto: #dbe2f0;
+    --fondo: #0b0f1a;
+    --panel: #151c2e;
+    --panel-2: #1b2440;
+    --borde: #242f4d;
+    --texto: #e2e8f5;
     --tenue: #8a95b0;
     --verde: #3ddc84;
     --rojo: #ff5d5d;
@@ -17,46 +18,99 @@
     --azul: #4da3ff;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { color-scheme: dark; }
   body {
-    background: var(--fondo); color: var(--texto);
+    background:
+      radial-gradient(1200px 500px at 80% -10%, rgba(77, 163, 255, .12), transparent 60%),
+      radial-gradient(900px 400px at 10% -5%, rgba(61, 220, 132, .08), transparent 55%),
+      var(--fondo);
+    color: var(--texto);
     font-family: system-ui, "Segoe UI", Arial, sans-serif;
-    padding: 24px; line-height: 1.45;
+    line-height: 1.45;
+    padding: 20px;
+    min-height: 100vh;
   }
   .contenedor { max-width: 1100px; margin: 0 auto; }
-  h1 { font-size: 1.5rem; margin-bottom: 4px; }
-  .actualizado { color: var(--tenue); font-size: .85rem; margin-bottom: 20px; }
+  h1 {
+    font-size: clamp(1.3rem, 4vw, 1.7rem);
+    font-weight: 800; letter-spacing: .02em; margin-bottom: 4px;
+  }
+  h1 span { color: var(--azul); }
+  .actualizado {
+    color: var(--tenue); font-size: .82rem; margin-bottom: 18px;
+  }
+
   .resumen {
-    display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px; margin-bottom: 24px;
   }
   .card {
     background: var(--panel); border: 1px solid var(--borde);
-    border-radius: 10px; padding: 14px 22px; min-width: 130px;
+    border-radius: 12px; padding: 12px 16px; text-align: center;
   }
-  .card .num { font-size: 1.6rem; font-weight: 700; }
-  .card .etiqueta { color: var(--tenue); font-size: .8rem;
-    text-transform: uppercase; letter-spacing: .05em; }
+  .card .num { font-size: clamp(1.3rem, 5vw, 1.7rem); font-weight: 800; }
+  .card .etiqueta {
+    color: var(--tenue); font-size: .72rem; text-transform: uppercase;
+    letter-spacing: .06em; margin-top: 2px;
+  }
   .ganada { color: var(--verde); }
   .perdida { color: var(--rojo); }
   .push { color: var(--ambar); }
-  .tabla { width: 100%; border-collapse: collapse; background: var(--panel);
-    border: 1px solid var(--borde); border-radius: 10px; overflow: hidden; }
-  .tabla th { background: #141b2e; text-align: left; color: var(--tenue);
-    font-size: .78rem; text-transform: uppercase; letter-spacing: .05em;
-    padding: 10px 14px; border-bottom: 1px solid var(--borde); }
-  .tabla td { padding: 10px 14px; border-bottom: 1px solid var(--borde);
-    font-size: .92rem; }
+
+  h2 {
+    font-size: 1.05rem; margin: 26px 0 10px; font-weight: 700;
+    display: flex; align-items: center; gap: 8px;
+  }
+  h2::before {
+    content: ""; width: 4px; height: 18px; border-radius: 2px;
+    background: var(--azul); display: inline-block;
+  }
+
+  .envuelve-tabla {
+    background: var(--panel); border: 1px solid var(--borde);
+    border-radius: 12px; overflow: auto; -webkit-overflow-scrolling: touch;
+  }
+  .tabla { width: 100%; border-collapse: collapse; min-width: 640px; }
+  .tabla th {
+    background: var(--panel-2); text-align: left; color: var(--tenue);
+    font-size: .72rem; text-transform: uppercase; letter-spacing: .06em;
+    padding: 10px 14px; border-bottom: 1px solid var(--borde);
+    position: sticky; top: 0; z-index: 1;
+  }
+  .tabla td {
+    padding: 11px 14px; border-bottom: 1px solid var(--borde);
+    font-size: .9rem; white-space: nowrap;
+  }
   .tabla tr:last-child td { border-bottom: none; }
-  h2 { font-size: 1.1rem; margin: 28px 0 10px; }
-  .estado { display: inline-block; padding: 2px 10px; border-radius: 999px;
-    font-size: .78rem; font-weight: 600; background: var(--panel);
-    border: 1px solid var(--borde); }
+  .tabla tbody tr:hover { background: rgba(77, 163, 255, .05); }
+  .tabla td .debil { color: var(--tenue); }
+
+  .estado {
+    display: inline-block; padding: 3px 11px; border-radius: 999px;
+    font-size: .75rem; font-weight: 700; background: var(--panel-2);
+    border: 1px solid var(--borde);
+  }
   .estado.futuro { color: var(--tenue); }
-  .vacio { color: var(--tenue); font-style: italic; padding: 10px 0; }
+
+  footer {
+    margin-top: 28px; text-align: center; color: var(--tenue);
+    font-size: .74rem;
+  }
+
+  @media (max-width: 700px) {
+    body { padding: 14px; }
+    .resumen { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+    .tabla { min-width: 0; }
+    .envuelve-tabla { overflow-x: auto; }
+    .tabla th, .tabla td { padding: 9px 10px; font-size: .84rem; }
+    .tabla th { position: static; }
+  }
 </style>
 </head>
 <body>
 <div class="contenedor">
-  <h1>Pronosticos MLB</h1>
+  <h1>Pronosticos <span>MLB</span></h1>
   <div class="actualizado" id="actualizado">Cargando...</div>
 
   <div class="resumen">
@@ -73,26 +127,32 @@
   </div>
 
   <h2>Predicciones (historial)</h2>
-  <table class="tabla">
-    <thead>
-      <tr>
-        <th>Fecha</th><th>Partido</th><th>Apuesta</th><th>Linea</th>
-        <th>Unidades</th><th>Edge</th><th>Cuota</th><th>Resultado</th>
-      </tr>
-    </thead>
-    <tbody id="tabla-predicciones"></tbody>
-  </table>
+  <div class="envuelve-tabla">
+    <table class="tabla">
+      <thead>
+        <tr>
+          <th>Fecha</th><th>Partido</th><th>Apuesta</th><th>Linea</th>
+          <th>Unidades</th><th>Edge</th><th>Cuota</th><th>Resultado</th>
+        </tr>
+      </thead>
+      <tbody id="tabla-predicciones"></tbody>
+    </table>
+  </div>
 
   <h2>Partidos recientes</h2>
-  <table class="tabla">
-    <thead>
-      <tr>
-        <th>Fecha</th><th>Local</th><th>Visita</th><th>Marcador</th>
-        <th>Linea real</th><th>Estado</th>
-      </tr>
-    </thead>
-    <tbody id="tabla-partidos"></tbody>
-  </table>
+  <div class="envuelve-tabla">
+    <table class="tabla">
+      <thead>
+        <tr>
+          <th>Fecha</th><th>Local</th><th>Visita</th><th>Marcador</th>
+          <th>Linea real</th><th>Estado</th>
+        </tr>
+      </thead>
+      <tbody id="tabla-partidos"></tbody>
+    </table>
+  </div>
+
+  <footer>Generado automaticamente por GitHub Actions</footer>
 </div>
 
 <script>
@@ -136,17 +196,17 @@
 
       const tbodyP = document.getElementById("tabla-predicciones");
       if (preds.length === 0) {
-        tbodyP.innerHTML = '<tr><td colspan="8">Aun no hay predicciones.</td></tr>';
+        tbodyP.innerHTML = '<tr><td colspan="8" class="debil">Aun no hay predicciones.</td></tr>';
       } else {
         tbodyP.innerHTML = preds.slice().reverse().map((p) =>
           "<tr>" +
-          "<td>" + ESC(p.fecha) + "</td>" +
-          "<td>" + ESC(p.visita) + " @ " + ESC(p.local) + "</td>" +
+          "<td class='debil'>" + ESC(p.fecha) + "</td>" +
+          "<td><span class='debil'>" + ESC(p.visita) + " @</span> " + ESC(p.local) + "</td>" +
           "<td>" + ESC(p.tipo) + "</td>" +
           "<td>" + ESC(String(p.linea)) + "</td>" +
           "<td>" + ESC(String(p.unidades)) + "</td>" +
-          "<td>" + ESC(String(p.edge)) + "%</td>" +
-          "<td>" + ESC(String(p.cuota)) + "</td>" +
+          "<td class='debil'>" + ESC(String(p.edge)) + "%</td>" +
+          "<td class='debil'>" + ESC(String(p.cuota)) + "</td>" +
           '<td><span class="estado ' + fila(p.estado) + '">' +
             ESC(resumen(p.estado)) + "</span></td>" +
           "</tr>").join("");
@@ -156,11 +216,11 @@
       const partidos = d.partidos_hoy.slice().reverse();
       tbodyG.innerHTML = partidos.map((g) =>
         "<tr>" +
-        "<td>" + ESC(g.fecha) + "</td>" +
+        "<td class='debil'>" + ESC(g.fecha) + "</td>" +
         "<td>" + ESC(g.local) + "</td>" +
-        "<td>" + ESC(g.visita) + "</td>" +
+        "<td class='debil'>" + ESC(g.visita) + "</td>" +
         "<td>" + (g.es_final
-          ? ESC(g.carreras_local) + "-" + ESC(g.carreras_visita)
+          ? '<b>' + ESC(g.carreras_local) + "</b>-" + ESC(g.carreras_visita)
           : "-") + "</td>" +
         "<td>" + (g.linea_real !== null && g.linea_real !== undefined
           ? ESC(String(g.linea_real)) : "-") + "</td>" +
