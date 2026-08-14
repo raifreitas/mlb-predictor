@@ -50,6 +50,11 @@ jobs:
           python etl_main.py ${{ env.ayer }} ${{ env.ayer }}
           python etl_main.py ${{ env.hoy }} ${{ env.hoy }}
 
+      - name: ETL matinal (snapshot de cuotas del dia en curso)
+        if: github.event.schedule == '30 6 * * *' || github.event_name == 'workflow_dispatch'
+        working-directory: PruebaPronosticos/src/EtlPython
+        run: python etl_main.py --solo-odds ${{ env.hoy }} ${{ env.hoy }}
+
       - name: Verificar predicciones pendientes
         if: github.event.schedule == '30 6 * * *' || github.event_name == 'workflow_dispatch'
         working-directory: PruebaPronosticos/src/Modeling
