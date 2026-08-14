@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
+    inputs:
+      horizonte:
+        description: "Horizonte de evaluacion en minutos (pruebas: 2000 evalua todo)"
+        required: false
+        default: "240"
 
 permissions:
   contents: write
@@ -36,7 +41,7 @@ jobs:
 
       - name: Planificador (runner por partido)
         working-directory: PruebaPronosticos/src/Modeling
-        run: python planificador.py --procesar --ventana-min 30
+        run: python planificador.py --procesar --ventana-min 30 --horizonte-max-min ${{ inputs.horizonte || '240' }}
 
       - name: Generar web/data.json
         working-directory: PruebaPronosticos/src/Modeling
