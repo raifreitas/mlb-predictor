@@ -97,7 +97,8 @@
       "pitcher_visita": 669923,
       "hora_inicio_utc": "2026-08-15T00:10:00+00:00",
       "hora_corrida_utc": "2026-08-14T23:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-14T22:10:36.722634+00:00"
     },
     "Los Angeles Angels": {
       "local": "Los Angeles Angels",
