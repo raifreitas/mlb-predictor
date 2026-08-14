@@ -9,7 +9,7 @@ on:
       horizonte:
         description: "Horizonte de evaluacion en minutos (pruebas: 2000 evalua todo)"
         required: false
-        default: "240"
+        default: "120"
       resguardo:
         description: "Forzar respaldo matinal (1 = ejecuta la carga aunque no falte)"
         required: false
@@ -74,7 +74,7 @@ jobs:
 
       - name: Planificador (runner por partido)
         working-directory: PruebaPronosticos/src/Modeling
-        run: python planificador.py --procesar --ventana-min 30 --horizonte-max-min ${{ inputs.horizonte || '240' }}
+        run: python planificador.py --procesar --ventana-min 30 --horizonte-max-min ${{ inputs.horizonte || '120' }}
 
       - name: Generar web/data.json
         working-directory: PruebaPronosticos/src/Modeling
