@@ -27,7 +27,8 @@
       "pitcher_visita": 687562,
       "hora_inicio_utc": "2026-08-14T22:40:00+00:00",
       "hora_corrida_utc": "2026-08-14T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-14T20:40:38.281720+00:00"
     },
     "Detroit Tigers": {
       "local": "Detroit Tigers",
@@ -36,7 +37,8 @@
       "pitcher_visita": null,
       "hora_inicio_utc": "2026-08-14T22:40:00+00:00",
       "hora_corrida_utc": "2026-08-14T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-14T20:40:38.281720+00:00"
     },
     "New York Mets": {
       "local": "New York Mets",

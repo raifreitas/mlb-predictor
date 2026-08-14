@@ -819,6 +819,42 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-14",
+   "local": "Cincinnati Reds",
+   "visita": "Miami Marlins",
+   "linea": 8.0,
+   "prediccion": 6.5,
+   "prob_over": 0.5244511961936951,
+   "edge": 1.5,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Edge insuficiente (1.50 < 1.45)",
+   "evaluado_utc": "2026-08-14T20:40:42Z"
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Detroit Tigers",
+   "visita": "Chicago White Sox",
+   "linea": 8.5,
+   "prediccion": 7.48,
+   "prob_over": 0.3931027352809906,
+   "edge": 1.02,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 1.02 < 1.45)",
+   "evaluado_utc": "2026-08-14T20:40:42Z"
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Pittsburgh Pirates",
+   "visita": "Boston Red Sox",
+   "linea": 8.0,
+   "prediccion": 7.71,
+   "prob_over": 0.5042797923088074,
+   "edge": 0.29,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Edge insuficiente (0.29 < 1.45)",
+   "evaluado_utc": "2026-08-14T20:40:42Z"
+  },
+  {
+   "fecha": "2026-08-14",
    "local": "Chicago Cubs",
    "visita": "St. Louis Cardinals",
    "linea": 6.5,
@@ -828,19 +864,7 @@
    "recomendacion": "NO APOSTAR",
    "motivo": "Edge insuficiente (0.93 < 1.45)",
    "evaluado_utc": "2026-08-14T20:10:42Z"
-  },
-  {
-   "fecha": "2026-08-14",
-   "local": "Cincinnati Reds",
-   "visita": "Miami Marlins",
-   "linea": 8.0,
-   "prediccion": 6.5,
-   "prob_over": 0.5244511961936951,
-   "edge": 1.5,
-   "recomendacion": "NO APOSTAR",
-   "motivo": "Edge insuficiente (1.50 < 1.45)",
-   "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-14T20:10:43Z"
+ "fecha_actualizacion": "2026-08-14T20:40:43Z"
 }
