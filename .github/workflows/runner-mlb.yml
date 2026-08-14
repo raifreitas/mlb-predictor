@@ -9,6 +9,10 @@ on:
         description: "Horizonte de evaluacion en minutos (pruebas: 2000 evalua todo)"
         required: false
         default: "240"
+      resguardo:
+        description: "Forzar respaldo matinal (1 = ejecuta la carga aunque no falte)"
+        required: false
+        default: "0"
 
 permissions:
   contents: write
@@ -39,6 +43,40 @@ jobs:
       - name: Instalar dependencias
         run: pip install -r requirements.txt
 
+      - name: Fechas goal
+        run: |
+          echo "ayer=$(date -u -d '1 day ago' +%F)" >> "$GITHUB_ENV"
+          echo "hoy=$(date -u +%F)" >> "$GITHUB_ENV"
+
+      - name: Respaldo matinal (si el cron 06:30 no disparo)
+        run: |
+          HORA_UTC=$(date -u +%H%M)
+          FORZAR="${{ inputs.resguardo || '0' }}"
+          if [ "$FORZAR" != "1" ] && [ "$HORA_UTC" -lt "0645" ]; then
+            echo "Antes de las 06:45 UTC; el ETL matinal aun tiene ventana. Se omite el respaldo."
+            exit 0
+          fi
+          FALTA=$(python - <<'EOF'
+import sqlite3, os
+conn = sqlite3.connect(os.path.join("data", "mlb.db"))
+n = conn.execute("SELECT COUNT(*) FROM GameLog WHERE EsFinal=1 AND Fecha=?", (os.environ["AYER"],)).fetchone()[0]
+print("0" if n > 0 else "1")
+EOF
+          )
+          if [ "$FALTA" = "0" ]; then
+            echo "Resultados de $AYER ya cargados; el ETL matinal si corrio."
+            exit 0
+          fi
+          echo "ETL matinal no ejecutado -> el runner asume la carga de resultados (StatsAPI gratis), snapshot y reentrenamiento."
+          cd PruebaPronosticos/src/EtlPython && \
+            python etl_main.py "$AYER" "$AYER" && \
+            python etl_main.py "$HOY" "$HOY" && \
+            python etl_main.py --solo-odds "$HOY" "$HOY" && \
+            cd ../Modeling && \
+            python verificar_predicciones.py && \
+            python entrenar_modelo.py && \
+            cd ../../..
+
       - name: Planificador (runner por partido)
         working-directory: PruebaPronosticos/src/Modeling
         run: python planificador.py --procesar --ventana-min 30 --horizonte-max-min ${{ inputs.horizonte || '240' }}
@@ -49,7 +87,7 @@ jobs:
 
       - name: Commit si hubo cambios
         run: |
-          git add data/mlb.db data/horarios.json web/data.json
+          git add data/mlb.db data/horarios.json web/data.json PruebaPronosticos/models
           if git diff --cached --quiet; then
             echo "changed=0" >> "$GITHUB_ENV"
           else
