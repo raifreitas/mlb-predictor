@@ -1,4 +1,5 @@
 name: runner-mlb
+# cadencia 5 min: mas ticks, menos perdidas por huecos del cron
 
 on:
   schedule:
