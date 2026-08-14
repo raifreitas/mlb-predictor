@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-08-11",
+ "ultima_fecha_prediccion": "2026-08-14",
  "resumen": {
   "ganadas": 8,
   "perdidas": 1,
@@ -660,9 +660,48 @@
    "total": 2,
    "creado": "2026-08-11 22:00:24.316",
    "verificado": "2026-08-12 04:55:18.444"
+  },
+  {
+   "id": 1030,
+   "fecha": "2026-08-14",
+   "local": "Los Angeles Angels",
+   "visita": "Kansas City Royals",
+   "tipo": "OVER",
+   "linea": 7.5,
+   "unidades": 0.5,
+   "edge": 1.6300000000000008,
+   "cuota": 1.99,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-08-14 05:10:41",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-08-14",
+   "local": "Los Angeles Angels",
+   "visita": "Kansas City Royals",
+   "linea": 7.5,
+   "prediccion": 9.13,
+   "prob_over": 0.5058141946792603,
+   "edge": 1.63,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-08-14T05:10:41Z"
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Los Angeles Dodgers",
+   "visita": "Milwaukee Brewers",
+   "linea": 8.5,
+   "prediccion": 6.88,
+   "prob_over": 0.4234454333782196,
+   "edge": 1.37,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Fatiga de Bullpen (4 juegos seguidos)",
+   "evaluado_utc": "2026-08-14T05:10:41Z"
+  },
   {
    "fecha": "2026-08-13",
    "local": "Los Angeles Angels",
@@ -700,5 +739,5 @@
    "evaluado_utc": "2026-08-13T22:39:05Z"
   }
  ],
- "fecha_actualizacion": "2026-08-14T02:28:55Z"
+ "fecha_actualizacion": "2026-08-14T05:10:42Z"
 }
