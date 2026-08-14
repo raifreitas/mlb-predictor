@@ -816,6 +816,19 @@
    "verificado": "2026-08-12 04:55:18.444"
   }
  ],
- "evaluaciones": [],
- "fecha_actualizacion": "2026-08-14T08:47:28Z"
+ "evaluaciones": [
+  {
+   "fecha": "2026-08-14",
+   "local": "Chicago Cubs",
+   "visita": "St. Louis Cardinals",
+   "linea": 8.0,
+   "prediccion": 7.43,
+   "prob_over": 0.4822571873664856,
+   "edge": 0.57,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Edge insuficiente (0.57 < 1.45)",
+   "evaluado_utc": "2026-08-14T16:20:46Z"
+  }
+ ],
+ "fecha_actualizacion": "2026-08-14T16:20:47Z"
 }
