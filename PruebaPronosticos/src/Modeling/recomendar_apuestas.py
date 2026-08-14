@@ -763,8 +763,9 @@ def main():
         else:
             recomendacion = "NO APOSTAR"
             if not motivo:
-                motivo = (f"Edge insuficiente "
-                          f"({abs(fila['Edge']):.2f} < {EDGE_MINIMO:.2f})")
+                motivo = (f"Sin senal direccional concluyente "
+                          f"(desacuerdo {fila['Diferencia']:+.2f} carreras "
+                          f"vs umbral {EDGE_MINIMO:.2f})")
         totales[recomendacion] += 1
         cuota = None
         if tipo_apuesta == "OVER":

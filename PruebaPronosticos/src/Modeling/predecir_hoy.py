@@ -709,6 +709,17 @@ def decidir_jugada(fila, prob_over, media_carreras_estadio, partidos_por_dia,
 
     motivo_anulacion = None
 
+    if sugerencia == SUGERENCIA_NO_BET:
+        motivo_anulacion = (
+            f"Sin senal direccional (desacuerdo "
+            f"{fila['Diferencia']:+.2f} carreras, prob_over "
+            f"{prob_over:.1%})")
+    elif sugerencia == SUGERENCIA_NO_BET_VIENTO:
+        motivo_anulacion = (
+            f"Viento desfavorable para OVER "
+            f"(vel {fila['Viento_Velocidad']} km/h, "
+            f"dir {fila.get('Viento_Direccion', 'n/a')})")
+
     if sugerencia == SUGERENCIA_OVER and linea_esperada < LINEA_MIN_OVER:
         sugerencia = SUGERENCIA_NO_BET
         motivo_anulacion = (f"Anulado por Filtro de Contradiccion "
