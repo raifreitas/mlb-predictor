@@ -141,7 +141,17 @@ def _basica(p):
 
 
 def procesar(ventana_min, siempre=False):
-    """Corre el runner para los partidos cuya hora_corrida ya llego."""
+    """Corre el runner para los partidos pendientes aun no iniciados.
+
+    El cron de GitHub Actions llega con retrasos variables (a veces ~1 h),
+    asi que una ventana fija de 30 min se pierde si el tick cae fuera.
+    En su lugar, cada wake evalua TODOS los partidos del dia que siguen
+    pendientes y no han empezado (con la linea del snapshot, sin gastar
+    The Odds API): la primera evaluacion que encuentre linea los cubre.
+    Solo se marcan ejecutados los que ya empezo (se les paso la chance)
+    o los que el runner efectivamente evaluo (para no perderlos si el
+    snapshot de linea aun no existia).
+    """
     fecha = dia_mlb()
     horarios = cargar_horarios(fecha)
     if not horarios:
@@ -154,27 +164,37 @@ def procesar(ventana_min, siempre=False):
 
     ahora_utc = datetime.now(timezone.utc)
     pendientes = []
+    vencidos = []
     for p in horarios.values():
         if p.get("estado") != ESTADO_PENDIENTE:
             continue
-        corrida = p.get("hora_corrida_utc")
-        if corrida is None:
+        inicio = p.get("hora_inicio_utc")
+        if inicio is None:
             continue
         try:
-            hora_corrida = datetime.fromisoformat(
-                corrida.replace("Z", "+00:00"))
+            hora_inicio = datetime.fromisoformat(inicio.replace("Z", "+00:00"))
         except ValueError:
             continue
-        if siempre or hora_corrida <= ahora_utc:
+        if hora_inicio <= ahora_utc:
+            vencidos.append(p)  # ya empezo: ya no es apostable
+        else:
             pendientes.append(p)
 
+    for p in vencidos:
+        p["estado"] = ESTADO_EJECUTADO
+        p["ejecutado_utc"] = _iso(ahora_utc)
+        print(f"[PLAN] {p['local']} vs {p['visita']}: inicio pasado "
+              "(no evaluable), marcado ejecutado.")
+
     if not pendientes:
-        print(f"[PLAN] {fecha}: ningun partido pendiente en ventana "
+        if vencidos:
+            guardar_horarios(fecha, horarios)
+        print(f"[PLAN] {fecha}: ningun partido pendiente sin iniciar "
               f"(ahora {ahora_utc:%H:%M} UTC).")
         return 0
 
-    # VENTANA del runner: el partido mas lejano define la ventana total,
-    # para que la evaluacion quite del medio a los ya listos.
+    # VENTANA del runner: desde ahora hasta el inicio del pendiente mas
+    # lejano (con tope), para que los cubra todos con snapshot de lineas.
     inicios = []
     for p in pendientes:
         try:
@@ -187,8 +207,9 @@ def procesar(ventana_min, siempre=False):
     max_restante = max((i - ahora_utc).total_seconds() for i in inicios) / 60.0
     ventana_total = max(1, int(max_restante) + 2)
 
-    print(f"[PLAN] {fecha}: {len(pendientes)} partido(s) listos. "
-          f"Corriendo runner con ventana {ventana_total} min...")
+    print(f"[PLAN] {fecha}: {len(pendientes)} partido(s) pendientes "
+          f"(sin iniciar). Corriendo runner con ventana "
+          f"{ventana_total} min...")
     cmd = [sys.executable, os.path.join(CARPETA_MODELING,
                                         "recomendar_apuestas.py"),
            "--fecha", fecha.isoformat(), "--ventana-min", str(ventana_total)]
@@ -197,11 +218,30 @@ def procesar(ventana_min, siempre=False):
         print(f"[PLAN] runner fallo (rc={rc}); los partidos quedan pendientes.")
         return rc
 
+    # Marcar SOLO los que el runner evaluo de verdad (tienen EvaluadoUtc
+    # fresco). Los demas se reintentan en el proximo wake.
+    con = db_utils.conexion()
+    try:
+        filas = con.execute(
+            "SELECT DISTINCT EquipoLocal, EquipoVisita FROM Evaluaciones "
+            "WHERE Fecha = ? ORDER BY EquipoLocal",
+            [fecha.isoformat()]).fetchall() \
+            if db_utils.usar_sqlite() else con.execute(
+            "SELECT DISTINCT EquipoLocal, EquipoVisita FROM Evaluaciones "
+            "WHERE Fecha = ? ORDER BY EquipoLocal",
+            [fecha.isoformat()]).fetchall()
+    finally:
+        con.close()
+    evaluados = {(f[0], f[1]) for f in filas}
+    marcados = 0
     for p in pendientes:
-        p["estado"] = ESTADO_EJECUTADO
-        p["ejecutado_utc"] = _iso(ahora_utc)
+        if (p["local"], p["visita"]) in evaluados:
+            p["estado"] = ESTADO_EJECUTADO
+            p["ejecutado_utc"] = _iso(ahora_utc)
+            marcados += 1
     guardar_horarios(fecha, horarios)
-    print(f"[PLAN] {len(pendientes)} partido(s) marcados como ejecutados.")
+    print(f"[PLAN] {marcados}/{len(pendientes)} partido(s) marcados como "
+          f"ejecutados (evaluados); el resto se reintentara.")
     return 0
 
 

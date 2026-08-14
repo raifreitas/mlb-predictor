@@ -430,10 +430,11 @@ def guardar_predicciones(jugadas, fecha, reemplazar_pares=None):
                 con.execute("""
                     INSERT INTO Predicciones
                         (Fecha, EquipoLocal, EquipoVisita, TipoApuesta,
-                         Linea, Unidades, Edge, Cuota, Estado)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'PENDIENTE')""",
+                         Linea, Unidades, Edge, Cuota, Estado, CreadoUtc)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'PENDIENTE', ?)""",
                     [fecha, local, visita, tipo_apuesta,
-                     linea, stake, edge, cuota])
+                     linea, stake, edge, cuota,
+                     datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")])
         con.commit()
         return len(jugadas)
     finally:
