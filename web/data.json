@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-08-11",
+ "ultima_fecha_prediccion": "2026-08-14",
  "resumen": {
   "ganadas": 8,
   "perdidas": 1,
@@ -280,7 +280,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-15 01:40:00.000",
-   "temperatura_c": 19.6
+   "temperatura_c": 19.5
   },
   {
    "fecha": "2026-08-14",
@@ -291,7 +291,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-14 23:15:00.000",
-   "temperatura_c": 29.0
+   "temperatura_c": 29.2
   },
   {
    "fecha": "2026-08-14",
@@ -302,7 +302,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-14 18:20:00.000",
-   "temperatura_c": 22.7
+   "temperatura_c": 23.1
   },
   {
    "fecha": "2026-08-14",
@@ -335,7 +335,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-14 22:40:00.000",
-   "temperatura_c": 25.2
+   "temperatura_c": 25.1
   },
   {
    "fecha": "2026-08-14",
@@ -357,7 +357,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-15 01:38:00.000",
-   "temperatura_c": 22.7
+   "temperatura_c": 22.9
   },
   {
    "fecha": "2026-08-14",
@@ -379,7 +379,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-14 23:10:00.000",
-   "temperatura_c": 25.6
+   "temperatura_c": 25.5
   },
   {
    "fecha": "2026-08-14",
@@ -390,7 +390,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-14 22:40:00.000",
-   "temperatura_c": 22.8
+   "temperatura_c": 22.7
   },
   {
    "fecha": "2026-08-14",
@@ -412,7 +412,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-14 23:10:00.000",
-   "temperatura_c": 28.4
+   "temperatura_c": 28.5
   },
   {
    "fecha": "2026-08-14",
@@ -423,7 +423,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-14 23:15:00.000",
-   "temperatura_c": 21.1
+   "temperatura_c": 21.0
   },
   {
    "fecha": "2026-08-17",
@@ -814,8 +814,171 @@
    "total": 2,
    "creado": "2026-08-11 22:00:24.316",
    "verificado": "2026-08-12 04:55:18.444"
+  },
+  {
+   "id": 1031,
+   "fecha": "2026-08-14",
+   "local": "Los Angeles Angels",
+   "visita": "Kansas City Royals",
+   "tipo": "OVER",
+   "linea": 7.5,
+   "unidades": 0.5,
+   "edge": 1.7200000000000006,
+   "cuota": 1.99,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-08-14 06:25:21",
+   "verificado": null
+  },
+  {
+   "id": 1032,
+   "fecha": "2026-08-14",
+   "local": "San Francisco Giants",
+   "visita": "Colorado Rockies",
+   "tipo": "OVER",
+   "linea": 7.5,
+   "unidades": 0.5,
+   "edge": 2.08,
+   "cuota": 1.87,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-08-14 06:25:21",
+   "verificado": null
   }
  ],
- "evaluaciones": [],
- "fecha_actualizacion": "2026-08-14T05:48:56Z"
+ "evaluaciones": [
+  {
+   "fecha": "2026-08-14",
+   "local": "Chicago Cubs",
+   "visita": "St. Louis Cardinals",
+   "linea": 8.0,
+   "prediccion": 7.53,
+   "prob_over": 0.48245736956596375,
+   "edge": 0.47,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Edge insuficiente (0.47 < 1.45)",
+   "evaluado_utc": "2026-08-14T06:25:21Z"
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Cincinnati Reds",
+   "visita": "Miami Marlins",
+   "linea": 7.5,
+   "prediccion": 6.5,
+   "prob_over": 0.5244511961936951,
+   "edge": 1.0,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Edge insuficiente (1.00 < 1.45)",
+   "evaluado_utc": "2026-08-14T06:25:21Z"
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Cleveland Guardians",
+   "visita": "San Diego Padres",
+   "linea": 7.5,
+   "prediccion": 7.91,
+   "prob_over": 0.48052480816841125,
+   "edge": 0.41,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Edge insuficiente (0.41 < 1.45)",
+   "evaluado_utc": "2026-08-14T06:25:21Z"
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Detroit Tigers",
+   "visita": "Chicago White Sox",
+   "linea": 8.5,
+   "prediccion": 7.48,
+   "prob_over": 0.3931027352809906,
+   "edge": 1.02,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 1.02 < 1.45)",
+   "evaluado_utc": "2026-08-14T06:25:21Z"
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Houston Astros",
+   "visita": "Seattle Mariners",
+   "linea": 8.0,
+   "prediccion": 7.53,
+   "prob_over": 0.5041338205337524,
+   "edge": 0.47,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Edge insuficiente (0.47 < 1.45)",
+   "evaluado_utc": "2026-08-14T06:25:21Z"
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Los Angeles Angels",
+   "visita": "Kansas City Royals",
+   "linea": 7.5,
+   "prediccion": 9.22,
+   "prob_over": 0.5090206861495972,
+   "edge": 1.72,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-08-14T06:25:21Z"
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Los Angeles Dodgers",
+   "visita": "Milwaukee Brewers",
+   "linea": 7.5,
+   "prediccion": 7.12,
+   "prob_over": 0.4295494258403778,
+   "edge": 0.38,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Edge insuficiente (0.38 < 1.45)",
+   "evaluado_utc": "2026-08-14T06:25:21Z"
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "New York Mets",
+   "visita": "Washington Nationals",
+   "linea": 8.5,
+   "prediccion": 7.6,
+   "prob_over": 0.44815516471862793,
+   "edge": 0.9,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Edge insuficiente (0.90 < 1.45)",
+   "evaluado_utc": "2026-08-14T06:25:21Z"
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Pittsburgh Pirates",
+   "visita": "Boston Red Sox",
+   "linea": 8.0,
+   "prediccion": 7.87,
+   "prob_over": 0.5133295655250549,
+   "edge": 0.13,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Edge insuficiente (0.13 < 1.45)",
+   "evaluado_utc": "2026-08-14T06:25:21Z"
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "San Francisco Giants",
+   "visita": "Colorado Rockies",
+   "linea": 7.5,
+   "prediccion": 9.58,
+   "prob_over": 0.5092922449111938,
+   "edge": 2.08,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-08-14T06:25:21Z"
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Toronto Blue Jays",
+   "visita": "New York Yankees",
+   "linea": 8.0,
+   "prediccion": 6.27,
+   "prob_over": 0.42272648215293884,
+   "edge": 1.73,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Filtro Extremo (linea 6.27 <= 6.5)",
+   "evaluado_utc": "2026-08-14T06:25:21Z"
+  }
+ ],
+ "fecha_actualizacion": "2026-08-14T06:25:22Z"
 }
