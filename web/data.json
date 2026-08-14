@@ -816,7 +816,7 @@
    "verificado": "2026-08-12 04:55:18.444"
   },
   {
-   "id": 1033,
+   "id": 1034,
    "fecha": "2026-08-14",
    "local": "Tampa Bay Rays",
    "visita": "Baltimore Orioles",
@@ -827,11 +827,23 @@
    "cuota": 1.875,
    "estado": "PENDIENTE",
    "total": null,
-   "creado": "2026-08-14 21:10:49",
+   "creado": "2026-08-14 21:15:46",
    "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-08-14",
+   "local": "Atlanta Braves",
+   "visita": "Arizona Diamondbacks",
+   "linea": 8.0,
+   "prediccion": 7.5,
+   "prob_over": 0.43851083517074585,
+   "edge": 0.5,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.50 carreras, prob_over 43.9%)",
+   "evaluado_utc": "2026-08-14T21:15:46Z"
+  },
   {
    "fecha": "2026-08-14",
    "local": "Cincinnati Reds",
@@ -842,7 +854,7 @@
    "edge": 1.5,
    "recomendacion": "NO APOSTAR",
    "motivo": "Sin senal direccional (desacuerdo -1.50 carreras, prob_over 52.4%)",
-   "evaluado_utc": "2026-08-14T21:10:49Z"
+   "evaluado_utc": "2026-08-14T21:15:46Z"
   },
   {
    "fecha": "2026-08-14",
@@ -854,7 +866,7 @@
    "edge": 0.41,
    "recomendacion": "NO APOSTAR",
    "motivo": "Sin senal direccional (desacuerdo +0.41 carreras, prob_over 48.1%)",
-   "evaluado_utc": "2026-08-14T21:10:49Z"
+   "evaluado_utc": "2026-08-14T21:15:46Z"
   },
   {
    "fecha": "2026-08-14",
@@ -866,7 +878,7 @@
    "edge": 1.02,
    "recomendacion": "NO APOSTAR",
    "motivo": "Anulado por Margen Insuficiente (edge 1.02 < 1.45)",
-   "evaluado_utc": "2026-08-14T21:10:49Z"
+   "evaluado_utc": "2026-08-14T21:15:46Z"
   },
   {
    "fecha": "2026-08-14",
@@ -878,19 +890,19 @@
    "edge": 0.9,
    "recomendacion": "NO APOSTAR",
    "motivo": "Sin senal direccional (desacuerdo -0.90 carreras, prob_over 44.8%)",
-   "evaluado_utc": "2026-08-14T21:10:49Z"
+   "evaluado_utc": "2026-08-14T21:15:46Z"
   },
   {
    "fecha": "2026-08-14",
    "local": "Pittsburgh Pirates",
    "visita": "Boston Red Sox",
    "linea": 8.0,
-   "prediccion": 7.71,
-   "prob_over": 0.5042797923088074,
-   "edge": 0.29,
+   "prediccion": 7.87,
+   "prob_over": 0.5133295655250549,
+   "edge": 0.13,
    "recomendacion": "NO APOSTAR",
-   "motivo": "Sin senal direccional (desacuerdo -0.29 carreras, prob_over 50.4%)",
-   "evaluado_utc": "2026-08-14T21:10:49Z"
+   "motivo": "Sin senal direccional (desacuerdo -0.13 carreras, prob_over 51.3%)",
+   "evaluado_utc": "2026-08-14T21:15:46Z"
   },
   {
    "fecha": "2026-08-14",
@@ -902,7 +914,19 @@
    "edge": 1.49,
    "recomendacion": "APOSTAR OVER",
    "motivo": "",
-   "evaluado_utc": "2026-08-14T21:10:49Z"
+   "evaluado_utc": "2026-08-14T21:15:46Z"
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Toronto Blue Jays",
+   "visita": "New York Yankees",
+   "linea": 8.0,
+   "prediccion": 6.27,
+   "prob_over": 0.42272648215293884,
+   "edge": 1.73,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Filtro Extremo (linea 6.27 <= 6.5)",
+   "evaluado_utc": "2026-08-14T21:15:46Z"
   },
   {
    "fecha": "2026-08-14",
@@ -917,5 +941,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-14T21:10:50Z"
+ "fecha_actualizacion": "2026-08-14T21:15:47Z"
 }
