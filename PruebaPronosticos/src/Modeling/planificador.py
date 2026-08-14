@@ -140,7 +140,8 @@ def _basica(p):
     }
 
 
-def procesar(ventana_min, siempre=False, horizonte_max_min=240):
+def procesar(ventana_min, siempre=False, horizonte_max_min=240,
+             recuperar_max_min=120):
     """Corre el runner para los partidos pendientes aun no iniciados.
 
     Cada partido tiene su propia ventana de evaluacion de
@@ -148,8 +149,13 @@ def procesar(ventana_min, siempre=False, horizonte_max_min=240):
     esa ventana, se evalua con la linea del snapshot mas reciente (la
     frescura la da el ETL, no el runner). Si el tick llega ANTES de la
     ventana el partido sigue pendiente (no se emiten picks con 20 h de
-    anticipacion). Si el tick llega DESPUES del inicio, se marca
-    ejecutado (vencido: ya no es apostable).
+    anticipacion).
+
+    Si el tick llega DESPUES del inicio (hueco del cron) hay dos casos:
+    - inicio hace <= recuperar_max_min minutos: el partido se evalua de
+      todas formas (modo recuperacion: el pick no se pierde, llega tarde
+      con la linea del snapshot pre-juego).
+    - inicio hace mas: se marca ejecutado (vencido: ya no es apostable).
     """
     fecha = dia_mlb()
     horarios = cargar_horarios(fecha)
@@ -163,6 +169,7 @@ def procesar(ventana_min, siempre=False, horizonte_max_min=240):
 
     ahora_utc = datetime.now(timezone.utc)
     pendientes = []
+    recuperables = []
     vencidos = []
     for p in horarios.values():
         if p.get("estado") != ESTADO_PENDIENTE:
@@ -175,7 +182,11 @@ def procesar(ventana_min, siempre=False, horizonte_max_min=240):
         except ValueError:
             continue
         if hora_inicio <= ahora_utc:
-            vencidos.append(p)  # ya empezo: ya no es apostable
+            retraso_min = (ahora_utc - hora_inicio).total_seconds() / 60.0
+            if retraso_min <= recuperar_max_min:
+                recuperables.append(p)
+            else:
+                vencidos.append(p)  # empezo hace mucho: ya no es apostable
         else:
             pendientes.append(p)
 
@@ -185,7 +196,7 @@ def procesar(ventana_min, siempre=False, horizonte_max_min=240):
         print(f"[PLAN] {p['local']} vs {p['visita']}: inicio pasado "
               "(no evaluable), marcado ejecutado.")
 
-    if not pendientes:
+    if not pendientes and not recuperables:
         if vencidos:
             guardar_horarios(fecha, horarios)
         print(f"[PLAN] {fecha}: ningun partido pendiente sin iniciar "
@@ -193,8 +204,9 @@ def procesar(ventana_min, siempre=False, horizonte_max_min=240):
         return 0
 
     # VENTANA del runner: cubre los pendientes cuyo inicio esta dentro
-    # del horizonte (ahora .. ahora + horizonte). Los que aun faltan mas
-    # se dejan pendientes para otro wake.
+    # del horizonte (ahora .. ahora + horizonte) MAS los recuperables
+    # (iniciados hace <= recuperar_max_min minutos, hueco de cron). Los
+    # que aun faltan mas se dejan pendientes para otro wake.
     horizonte = timedelta(minutes=horizonte_max_min)
     fijados = []
     for p in pendientes:
@@ -205,6 +217,13 @@ def procesar(ventana_min, siempre=False, horizonte_max_min=240):
             continue
         if i - ahora_utc <= horizonte:
             fijados.append((p, i))
+    for p in recuperables:
+        i = datetime.fromisoformat(p["hora_inicio_utc"].replace("Z", "+00:00"))
+        retraso_min = (ahora_utc - i).total_seconds() / 60.0
+        print(f"[PLAN] {p['local']} vs {p['visita']}: inicio hace "
+              f"{retraso_min:.0f} min (hueco de cron) -> evaluacion "
+              "tardia con la linea del snapshot.")
+        fijados.append((p, i))
     if not fijados:
         guardar_horarios(fecha, horarios)
         print(f"[PLAN] {fecha}: ningun partido dentro del horizonte de "
@@ -217,11 +236,12 @@ def procesar(ventana_min, siempre=False, horizonte_max_min=240):
     ventana_total = max(1, int(max_restante) + 2)
 
     print(f"[PLAN] {fecha}: {len(pendientes)} partido(s) pendientes "
-          f"(sin iniciar). Corriendo runner con ventana "
-          f"{ventana_total} min...")
+          f"(sin iniciar) + {len(recuperables)} recuperable(s). Corriendo "
+          f"runner con ventana {ventana_total} min...")
     cmd = [sys.executable, os.path.join(CARPETA_MODELING,
                                         "recomendar_apuestas.py"),
-           "--fecha", fecha.isoformat(), "--ventana-min", str(ventana_total)]
+           "--fecha", fecha.isoformat(), "--ventana-min", str(ventana_total),
+           "--recuperar-min", str(recuperar_max_min)]
     rc = subprocess.call(cmd)
     if rc != 0:
         print(f"[PLAN] runner fallo (rc={rc}); los partidos quedan pendientes.")
@@ -277,6 +297,9 @@ def _parsear_args():
     parser.add_argument("--horizonte-max-min", type=int, default=240,
                         help="maximo de minutos antes del inicio en que se "
                              "emite el pronostico de un partido")
+    parser.add_argument("--recuperar-max-min", type=int, default=120,
+                        help="minutos despues del inicio en que un partido "
+                             "aun se evalua (huecos del cron)")
     parser.add_argument("--siempre", action="store_true",
                         help="ejecuta aunque el partido no este en ventana")
     return parser.parse_args()
@@ -290,7 +313,7 @@ def main():
         return 0
     if args.procesar:
         return procesar(args.ventana_min, args.siempre,
-                        args.horizonte_max_min)
+                        args.horizonte_max_min, args.recuperar_max_min)
     if args.estado:
         estado()
         return 0

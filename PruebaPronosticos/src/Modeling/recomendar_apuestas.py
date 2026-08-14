@@ -205,7 +205,8 @@ def obtener_lineas_snapshot(fecha):
     return lineas
 
 
-def obtener_calendario(fecha, solo_no_iniciados=False, ventana_min=0):
+def obtener_calendario(fecha, solo_no_iniciados=False, ventana_min=0,
+                       recuperar_min=0):
     """Partidos MLB del dia con abridores probables (StatsAPI).
 
     Si solo_no_iniciados=True solo devuelve partidos en estado
@@ -220,6 +221,11 @@ def obtener_calendario(fecha, solo_no_iniciados=False, ventana_min=0):
     <= ventana_min): es el modo "runner por partido" que pronostica
     cada juego cerca de su primer pitch (~30-45 min antes) con la
     linea de mercado mas fresca posible.
+
+    recuperar_min > 0 admite ademas partidos que ya iniciaron hace
+    hasta recuperar_min minutos (modo recuperacion por huecos del
+    cron): se evaluan igual con la linea del snapshot pre-juego en
+    vez de perderse sin evaluar.
     """
     respuesta = requests.get(
         f"{MLB_BASE_URL}/schedule",
@@ -254,13 +260,15 @@ def obtener_calendario(fecha, solo_no_iniciados=False, ventana_min=0):
                     and hora_inicio <= ahora_utc:
                 continue
             # Modo ventana: solo partidos que inician dentro de
-            # ventana_min minutos (a partir de ahora).
+            # ventana_min minutos (a partir de ahora), admitiendo los
+            # que ya iniciaron hace hasta recuperar_min minutos.
             if ventana_min > 0:
                 if hora_inicio is None:
                     continue
                 minutos_restantes = (
                     hora_inicio - ahora_utc).total_seconds() / 60.0
-                if minutos_restantes <= 0 or minutos_restantes > ventana_min:
+                if minutos_restantes <= -recuperar_min \
+                        or minutos_restantes > ventana_min:
                     continue
             partidos.append({
                 "local": local.get("fullName") or local.get("name"),
@@ -464,6 +472,19 @@ def ventana_desde_args():
     return 0
 
 
+def recuperar_desde_args():
+    """Minutos despues del inicio en que un partido aun se evalua
+    (recuperacion por huecos del cron; 0 = solo pre-juego)."""
+    for i, arg in enumerate(sys.argv):
+        if arg == "--recuperar-min" and i + 1 < len(sys.argv):
+            try:
+                return max(0, int(sys.argv[i + 1]))
+            except ValueError:
+                print(f"Argumento invalido '{sys.argv[i + 1]}' para "
+                      "--recuperar-min; se usara 0.")
+    return 0
+
+
 def linea_en_media_entera(linea, tipo_apuesta):
     """Convierte una linea ENTERA (8.0) a media linea (.5) a favor del pick.
 
@@ -517,6 +538,7 @@ def main():
 
     fecha = fecha_desde_args()
     ventana_min = ventana_desde_args()
+    recuperar_min = recuperar_desde_args()
     retroactivo = fecha < date.today()
     modo_etiqueta = f"ventana {ventana_min} min pre-juego" if ventana_min > 0 \
         else "todo el dia"
@@ -536,7 +558,8 @@ def main():
         partidos_mlb = obtener_calendario(
             fecha,
             solo_no_iniciados=not retroactivo and ventana_min <= 0,
-            ventana_min=ventana_min if ventana_min > 0 and not retroactivo else 0)
+            ventana_min=ventana_min if ventana_min > 0 and not retroactivo else 0,
+            recuperar_min=recuperar_min if ventana_min > 0 and not retroactivo else 0)
     except requests.RequestException as ex:
         print(f"[ERROR] MLB StatsAPI: {ex}")
         return 1
