@@ -821,14 +821,26 @@
    "fecha": "2026-08-14",
    "local": "Chicago Cubs",
    "visita": "St. Louis Cardinals",
-   "linea": 8.0,
+   "linea": 6.5,
    "prediccion": 7.43,
    "prob_over": 0.4822571873664856,
-   "edge": 0.57,
+   "edge": 0.93,
    "recomendacion": "NO APOSTAR",
-   "motivo": "Edge insuficiente (0.57 < 1.45)",
-   "evaluado_utc": "2026-08-14T16:20:46Z"
+   "motivo": "Edge insuficiente (0.93 < 1.45)",
+   "evaluado_utc": "2026-08-14T20:10:42Z"
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Cincinnati Reds",
+   "visita": "Miami Marlins",
+   "linea": 8.0,
+   "prediccion": 6.5,
+   "prob_over": 0.5244511961936951,
+   "edge": 1.5,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Edge insuficiente (1.50 < 1.45)",
+   "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-14T16:20:47Z"
+ "fecha_actualizacion": "2026-08-14T20:10:43Z"
 }
