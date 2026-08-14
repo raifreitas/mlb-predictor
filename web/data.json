@@ -176,65 +176,65 @@
    "fecha": "2026-08-13",
    "local": "Chicago White Sox",
    "visita": "Cincinnati Reds",
-   "carreras_local": 0,
-   "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": false,
+   "carreras_local": 8,
+   "carreras_visita": 9,
+   "linea_real": 8.0,
+   "es_final": true,
    "hora_inicio_utc": "2026-08-13 17:10:00.000",
-   "temperatura_c": 22.3
+   "temperatura_c": 23.4
   },
   {
    "fecha": "2026-08-13",
    "local": "Detroit Tigers",
    "visita": "Cleveland Guardians",
-   "carreras_local": 0,
+   "carreras_local": 3,
    "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": false,
+   "linea_real": 8.0,
+   "es_final": true,
    "hora_inicio_utc": "2026-08-13 17:10:00.000",
-   "temperatura_c": 24.3
+   "temperatura_c": 23.1
   },
   {
    "fecha": "2026-08-13",
    "local": "Los Angeles Angels",
    "visita": "Texas Rangers",
-   "carreras_local": 0,
+   "carreras_local": 7,
    "carreras_visita": 0,
    "linea_real": null,
-   "es_final": false,
+   "es_final": true,
    "hora_inicio_utc": "2026-08-14 02:07:00.000",
-   "temperatura_c": 23.1
+   "temperatura_c": 23.3
   },
   {
    "fecha": "2026-08-13",
    "local": "Los Angeles Dodgers",
    "visita": "Milwaukee Brewers",
-   "carreras_local": 0,
-   "carreras_visita": 0,
+   "carreras_local": 4,
+   "carreras_visita": 5,
    "linea_real": null,
-   "es_final": false,
+   "es_final": true,
    "hora_inicio_utc": "2026-08-14 02:10:00.000",
-   "temperatura_c": 22.5
+   "temperatura_c": 22.8
   },
   {
    "fecha": "2026-08-13",
    "local": "Miami Marlins",
    "visita": "Pittsburgh Pirates",
-   "carreras_local": 0,
-   "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": false,
+   "carreras_local": 1,
+   "carreras_visita": 13,
+   "linea_real": 8.0,
+   "es_final": true,
    "hora_inicio_utc": "2026-08-13 17:10:00.000",
-   "temperatura_c": 28.2
+   "temperatura_c": 29.2
   },
   {
    "fecha": "2026-08-13",
    "local": "Minnesota Twins",
    "visita": "Philadelphia Phillies",
-   "carreras_local": 0,
-   "carreras_visita": 0,
+   "carreras_local": 1,
+   "carreras_visita": 7,
    "linea_real": null,
-   "es_final": false,
+   "es_final": true,
    "hora_inicio_utc": "2026-08-13 23:30:00.000",
    "temperatura_c": 20.0
   },
@@ -243,33 +243,187 @@
    "local": "New York Yankees",
    "visita": "Seattle Mariners",
    "carreras_local": 0,
-   "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": false,
+   "carreras_visita": 1,
+   "linea_real": 7.5,
+   "es_final": true,
    "hora_inicio_utc": "2026-08-13 17:35:00.000",
-   "temperatura_c": 26.4
+   "temperatura_c": 25.1
   },
   {
    "fecha": "2026-08-13",
    "local": "Toronto Blue Jays",
    "visita": "Boston Red Sox",
    "carreras_local": 0,
-   "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": false,
+   "carreras_visita": 7,
+   "linea_real": 8.0,
+   "es_final": true,
    "hora_inicio_utc": "2026-08-13 19:07:00.000",
-   "temperatura_c": 21.4
+   "temperatura_c": 22.6
   },
   {
    "fecha": "2026-08-13",
    "local": "Washington Nationals",
    "visita": "Chicago Cubs",
+   "carreras_local": 7,
+   "carreras_visita": 0,
+   "linea_real": 8.5,
+   "es_final": true,
+   "hora_inicio_utc": "2026-08-13 20:05:00.000",
+   "temperatura_c": 27.3
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Athletics",
+   "visita": "Texas Rangers",
    "carreras_local": 0,
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-08-13 20:05:00.000",
+   "hora_inicio_utc": "2026-08-15 01:40:00.000",
+   "temperatura_c": 19.6
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Atlanta Braves",
+   "visita": "Arizona Diamondbacks",
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
+   "hora_inicio_utc": "2026-08-14 23:15:00.000",
+   "temperatura_c": 29.0
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Chicago Cubs",
+   "visita": "St. Louis Cardinals",
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
+   "hora_inicio_utc": "2026-08-14 18:20:00.000",
+   "temperatura_c": 22.7
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Cincinnati Reds",
+   "visita": "Miami Marlins",
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
+   "hora_inicio_utc": "2026-08-14 22:10:00.000",
+   "temperatura_c": 25.6
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Cleveland Guardians",
+   "visita": "San Diego Padres",
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
+   "hora_inicio_utc": "2026-08-14 23:10:00.000",
+   "temperatura_c": 23.7
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Detroit Tigers",
+   "visita": "Chicago White Sox",
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
+   "hora_inicio_utc": "2026-08-14 22:40:00.000",
+   "temperatura_c": 25.2
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Houston Astros",
+   "visita": "Seattle Mariners",
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
+   "hora_inicio_utc": "2026-08-15 00:10:00.000",
+   "temperatura_c": 20.0
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Los Angeles Angels",
+   "visita": "Kansas City Royals",
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
+   "hora_inicio_utc": "2026-08-15 01:38:00.000",
+   "temperatura_c": 22.7
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Los Angeles Dodgers",
+   "visita": "Milwaukee Brewers",
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
+   "hora_inicio_utc": "2026-08-15 02:10:00.000",
+   "temperatura_c": 21.9
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "New York Mets",
+   "visita": "Washington Nationals",
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
+   "hora_inicio_utc": "2026-08-14 23:10:00.000",
+   "temperatura_c": 25.6
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Pittsburgh Pirates",
+   "visita": "Boston Red Sox",
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
+   "hora_inicio_utc": "2026-08-14 22:40:00.000",
+   "temperatura_c": 22.8
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "San Francisco Giants",
+   "visita": "Colorado Rockies",
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
+   "hora_inicio_utc": "2026-08-15 02:15:00.000",
+   "temperatura_c": 16.1
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Tampa Bay Rays",
+   "visita": "Baltimore Orioles",
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
+   "hora_inicio_utc": "2026-08-14 23:10:00.000",
    "temperatura_c": 28.4
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Toronto Blue Jays",
+   "visita": "New York Yankees",
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
+   "hora_inicio_utc": "2026-08-14 23:15:00.000",
+   "temperatura_c": 21.1
   },
   {
    "fecha": "2026-08-17",
@@ -663,5 +817,5 @@
   }
  ],
  "evaluaciones": [],
- "fecha_actualizacion": "2026-08-14T05:42:36Z"
+ "fecha_actualizacion": "2026-08-14T05:48:56Z"
 }
