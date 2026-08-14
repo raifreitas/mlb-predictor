@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-08-11",
+ "ultima_fecha_prediccion": "2026-08-14",
  "resumen": {
   "ganadas": 8,
   "perdidas": 1,
@@ -814,6 +814,21 @@
    "total": 2,
    "creado": "2026-08-11 22:00:24.316",
    "verificado": "2026-08-12 04:55:18.444"
+  },
+  {
+   "id": 1033,
+   "fecha": "2026-08-14",
+   "local": "Tampa Bay Rays",
+   "visita": "Baltimore Orioles",
+   "tipo": "OVER",
+   "linea": 7.5,
+   "unidades": 0.5,
+   "edge": 1.9900000000000002,
+   "cuota": 1.875,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-08-14 21:10:49",
+   "verificado": null
   }
  ],
  "evaluaciones": [
@@ -826,8 +841,20 @@
    "prob_over": 0.5244511961936951,
    "edge": 1.5,
    "recomendacion": "NO APOSTAR",
-   "motivo": "Edge insuficiente (1.50 < 1.45)",
-   "evaluado_utc": "2026-08-14T20:40:42Z"
+   "motivo": "Sin senal direccional (desacuerdo -1.50 carreras, prob_over 52.4%)",
+   "evaluado_utc": "2026-08-14T21:10:49Z"
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Cleveland Guardians",
+   "visita": "San Diego Padres",
+   "linea": 7.5,
+   "prediccion": 7.91,
+   "prob_over": 0.48052480816841125,
+   "edge": 0.41,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.41 carreras, prob_over 48.1%)",
+   "evaluado_utc": "2026-08-14T21:10:49Z"
   },
   {
    "fecha": "2026-08-14",
@@ -839,7 +866,19 @@
    "edge": 1.02,
    "recomendacion": "NO APOSTAR",
    "motivo": "Anulado por Margen Insuficiente (edge 1.02 < 1.45)",
-   "evaluado_utc": "2026-08-14T20:40:42Z"
+   "evaluado_utc": "2026-08-14T21:10:49Z"
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "New York Mets",
+   "visita": "Washington Nationals",
+   "linea": 8.5,
+   "prediccion": 7.6,
+   "prob_over": 0.44815516471862793,
+   "edge": 0.9,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.90 carreras, prob_over 44.8%)",
+   "evaluado_utc": "2026-08-14T21:10:49Z"
   },
   {
    "fecha": "2026-08-14",
@@ -850,8 +889,20 @@
    "prob_over": 0.5042797923088074,
    "edge": 0.29,
    "recomendacion": "NO APOSTAR",
-   "motivo": "Edge insuficiente (0.29 < 1.45)",
-   "evaluado_utc": "2026-08-14T20:40:42Z"
+   "motivo": "Sin senal direccional (desacuerdo -0.29 carreras, prob_over 50.4%)",
+   "evaluado_utc": "2026-08-14T21:10:49Z"
+  },
+  {
+   "fecha": "2026-08-14",
+   "local": "Tampa Bay Rays",
+   "visita": "Baltimore Orioles",
+   "linea": 8.0,
+   "prediccion": 9.49,
+   "prob_over": 0.34196072816848755,
+   "edge": 1.49,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-08-14T21:10:49Z"
   },
   {
    "fecha": "2026-08-14",
@@ -866,5 +917,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-14T20:40:43Z"
+ "fecha_actualizacion": "2026-08-14T21:10:50Z"
 }
