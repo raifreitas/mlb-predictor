@@ -97,8 +97,7 @@
       "pitcher_visita": 607625,
       "hora_inicio_utc": "2026-08-15T01:38:00+00:00",
       "hora_corrida_utc": "2026-08-15T01:08:00+00:00",
-      "estado": "ejecutado",
-      "ejecutado_utc": "2026-08-14T05:07:20.691364+00:00"
+      "estado": "pendiente"
     },
     "Athletics": {
       "local": "Athletics",
@@ -116,8 +115,7 @@
       "pitcher_visita": 688107,
       "hora_inicio_utc": "2026-08-15T02:10:00+00:00",
       "hora_corrida_utc": "2026-08-15T01:40:00+00:00",
-      "estado": "ejecutado",
-      "ejecutado_utc": "2026-08-14T05:07:20.691364+00:00"
+      "estado": "pendiente"
     },
     "San Francisco Giants": {
       "local": "San Francisco Giants",

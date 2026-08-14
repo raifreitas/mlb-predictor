@@ -4,7 +4,9 @@ on:
   schedule:
     - cron: "30 6 * * *"
     - cron: "30 14 * * *"
+    - cron: "0 18 * * *"
     - cron: "0 21 * * *"
+    - cron: "0 23 * * *"
   workflow_dispatch:
 
 permissions:
@@ -68,6 +70,16 @@ jobs:
         working-directory: PruebaPronosticos/src/Modeling
         run: python verificar_predicciones.py
 
+      - name: ETL tarde (snapshot de cuotas de la tarde)
+        if: github.event.schedule == '0 18 * * *'
+        working-directory: PruebaPronosticos/src/EtlPython
+        run: python etl_main.py --solo-odds ${{ env.hoy }} ${{ env.hoy }}
+
+      - name: Verificar predicciones del dia (tarde)
+        if: github.event.schedule == '0 18 * * *'
+        working-directory: PruebaPronosticos/src/Modeling
+        run: python verificar_predicciones.py
+
       - name: ETL nocturno (linea de cierre de los juegos nocturnos)
         if: github.event.schedule == '0 21 * * *'
         working-directory: PruebaPronosticos/src/EtlPython
@@ -75,6 +87,16 @@ jobs:
 
       - name: Verificar predicciones del dia (nocturno)
         if: github.event.schedule == '0 21 * * *'
+        working-directory: PruebaPronosticos/src/Modeling
+        run: python verificar_predicciones.py
+
+      - name: ETL cierre (lineas frescas para los juegos que faltan)
+        if: github.event.schedule == '0 23 * * *'
+        working-directory: PruebaPronosticos/src/EtlPython
+        run: python etl_main.py --solo-odds ${{ env.hoy }} ${{ env.hoy }}
+
+      - name: Verificar predicciones del dia (cierre)
+        if: github.event.schedule == '0 23 * * *'
         working-directory: PruebaPronosticos/src/Modeling
         run: python verificar_predicciones.py
 

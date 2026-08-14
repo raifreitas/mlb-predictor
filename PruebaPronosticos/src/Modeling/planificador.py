@@ -140,17 +140,16 @@ def _basica(p):
     }
 
 
-def procesar(ventana_min, siempre=False):
+def procesar(ventana_min, siempre=False, horizonte_max_min=240):
     """Corre el runner para los partidos pendientes aun no iniciados.
 
-    El cron de GitHub Actions llega con retrasos variables (a veces ~1 h),
-    asi que una ventana fija de 30 min se pierde si el tick cae fuera.
-    En su lugar, cada wake evalua TODOS los partidos del dia que siguen
-    pendientes y no han empezado (con la linea del snapshot, sin gastar
-    The Odds API): la primera evaluacion que encuentre linea los cubre.
-    Solo se marcan ejecutados los que ya empezo (se les paso la chance)
-    o los que el runner efectivamente evaluo (para no perderlos si el
-    snapshot de linea aun no existia).
+    Cada partido tiene su propia ventana de evaluacion de
+    horizonte_max_min antes del primer pitch: si el tick llega dentro de
+    esa ventana, se evalua con la linea del snapshot mas reciente (la
+    frescura la da el ETL, no el runner). Si el tick llega ANTES de la
+    ventana el partido sigue pendiente (no se emiten picks con 20 h de
+    anticipacion). Si el tick llega DESPUES del inicio, se marca
+    ejecutado (vencido: ya no es apostable).
     """
     fecha = dia_mlb()
     horarios = cargar_horarios(fecha)
@@ -193,18 +192,28 @@ def procesar(ventana_min, siempre=False):
               f"(ahora {ahora_utc:%H:%M} UTC).")
         return 0
 
-    # VENTANA del runner: desde ahora hasta el inicio del pendiente mas
-    # lejano (con tope), para que los cubra todos con snapshot de lineas.
-    inicios = []
+    # VENTANA del runner: cubre los pendientes cuyo inicio esta dentro
+    # del horizonte (ahora .. ahora + horizonte). Los que aun faltan mas
+    # se dejan pendientes para otro wake.
+    horizonte = timedelta(minutes=horizonte_max_min)
+    fijados = []
     for p in pendientes:
         try:
-            inicios.append(datetime.fromisoformat(
-                p["hora_inicio_utc"].replace("Z", "+00:00")))
+            i = datetime.fromisoformat(
+                p["hora_inicio_utc"].replace("Z", "+00:00"))
         except (ValueError, KeyError):
             continue
-    if not inicios:
+        if i - ahora_utc <= horizonte:
+            fijados.append((p, i))
+    if not fijados:
+        guardar_horarios(fecha, horarios)
+        print(f"[PLAN] {fecha}: ningun partido dentro del horizonte de "
+              f"{horizonte_max_min} min (now {ahora_utc:%H:%M} UTC); "
+              f"{len(pendientes)} pendientes se reintentaran.")
         return 0
-    max_restante = max((i - ahora_utc).total_seconds() for i in inicios) / 60.0
+
+    max_restante = max((i - ahora_utc).total_seconds() for _, i in fijados) \
+        / 60.0
     ventana_total = max(1, int(max_restante) + 2)
 
     print(f"[PLAN] {fecha}: {len(pendientes)} partido(s) pendientes "
@@ -265,6 +274,9 @@ def _parsear_args():
     parser.add_argument("--estado", action="store_true")
     parser.add_argument("--dia", type=date.fromisoformat)
     parser.add_argument("--ventana-min", type=int, default=30)
+    parser.add_argument("--horizonte-max-min", type=int, default=240,
+                        help="maximo de minutos antes del inicio en que se "
+                             "emite el pronostico de un partido")
     parser.add_argument("--siempre", action="store_true",
                         help="ejecuta aunque el partido no este en ventana")
     return parser.parse_args()
@@ -277,7 +289,8 @@ def main():
         generar(fecha, args.ventana_min)
         return 0
     if args.procesar:
-        return procesar(args.ventana_min, args.siempre)
+        return procesar(args.ventana_min, args.siempre,
+                        args.horizonte_max_min)
     if args.estado:
         estado()
         return 0
