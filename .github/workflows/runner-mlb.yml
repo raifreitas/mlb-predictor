@@ -45,8 +45,8 @@ jobs:
 
       - name: Fechas goal
         run: |
-          echo "ayer=$(date -u -d '1 day ago' +%F)" >> "$GITHUB_ENV"
-          echo "hoy=$(date -u +%F)" >> "$GITHUB_ENV"
+          echo "AYER=$(date -u -d '1 day ago' +%F)" >> "$GITHUB_ENV"
+          echo "HOY=$(date -u +%F)" >> "$GITHUB_ENV"
 
       - name: Respaldo matinal (si el cron 06:30 no disparo)
         run: |
