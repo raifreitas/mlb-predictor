@@ -239,7 +239,8 @@
       "pitcher_visita": 695418,
       "hora_inicio_utc": "2026-08-15T20:10:00+00:00",
       "hora_corrida_utc": "2026-08-15T19:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-15T18:10:38.443674+00:00"
     },
     "Tampa Bay Rays": {
       "local": "Tampa Bay Rays",
