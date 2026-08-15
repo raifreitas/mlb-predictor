@@ -849,6 +849,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-15",
+   "local": "Chicago Cubs",
+   "visita": "St. Louis Cardinals",
+   "linea": 9.0,
+   "prediccion": 7.57,
+   "prob_over": 0.4698776304721832,
+   "edge": 1.43,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 1.43 < 1.45)",
+   "evaluado_utc": "2026-08-15T16:20:41Z"
+  },
+  {
+   "fecha": "2026-08-15",
    "local": "Detroit Tigers",
    "visita": "Chicago White Sox",
    "linea": 7.5,
@@ -1004,5 +1016,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-15T15:10:43Z"
+ "fecha_actualizacion": "2026-08-15T16:20:42Z"
 }
