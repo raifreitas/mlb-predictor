@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-08-14",
+ "ultima_fecha_prediccion": "2026-08-15",
  "resumen": {
   "ganadas": 10,
   "perdidas": 1,
@@ -844,9 +844,36 @@
    "total": 13,
    "creado": "2026-08-14 23:40:40",
    "verificado": "2026-08-15 06:48:10"
+  },
+  {
+   "id": 1038,
+   "fecha": "2026-08-15",
+   "local": "San Francisco Giants",
+   "visita": "Colorado Rockies",
+   "tipo": "OVER",
+   "linea": 7.5,
+   "unidades": 0.5,
+   "edge": 1.54,
+   "cuota": 1.87,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-08-15 18:05:44",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-08-15",
+   "local": "San Francisco Giants",
+   "visita": "Colorado Rockies",
+   "linea": 7.5,
+   "prediccion": 9.04,
+   "prob_over": 0.485385000705719,
+   "edge": 1.54,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-08-15T18:05:44Z"
+  },
   {
    "fecha": "2026-08-15",
    "local": "Toronto Blue Jays",
@@ -1028,5 +1055,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-15T17:10:43Z"
+ "fecha_actualizacion": "2026-08-15T18:05:44Z"
 }
