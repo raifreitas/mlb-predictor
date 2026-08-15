@@ -1,10 +1,10 @@
 {
  "ultima_fecha_prediccion": "2026-08-14",
  "resumen": {
-  "ganadas": 9,
+  "ganadas": 10,
   "perdidas": 1,
   "push": 0,
-  "unidades": 5.0
+  "unidades": 5.5
  },
  "partidos_hoy": [
   {
@@ -825,10 +825,10 @@
    "unidades": 0.5,
    "edge": 1.99,
    "cuota": 1.91,
-   "estado": "NO_VALIDA",
-   "total": null,
-   "creado": "2026-08-14 23:40:40",
-   "verificado": "2026-08-15 06:48:10"
+   "estado": "GANADA",
+   "total": 11,
+   "creado": "2026-08-14 21:10:50",
+   "verificado": "2026-08-15 14:20:35"
   },
   {
    "id": 1037,
@@ -992,5 +992,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-15T07:10:39Z"
+ "fecha_actualizacion": "2026-08-15T14:20:43Z"
 }

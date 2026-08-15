@@ -281,6 +281,29 @@ def obtener_calendario(fecha, solo_no_iniciados=False, ventana_min=0,
     return partidos
 
 
+def pares_ya_ejecutados(fecha):
+    """Pares (local, visita) que el planificador ya marcó como ejecutados
+    en data/horarios.json para la fecha.
+
+    El runner no debe re-evaluarlos en ticks posteriores: cada re-evaluación
+    en modo ventana reemplaza el pick PENDIENTE con un CreadoUtc nuevo, y si
+    ese tick cae después del primer pitch el verifier lo marca NO_VALIDA
+    aunque la decisión original sí fue tomada en ventana prejuego.
+    """
+    ruta = db_utils.RAIZ / "data" / "horarios.json"
+    if not ruta.exists():
+        return set()
+    try:
+        datos = json.loads(ruta.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return set()
+    ejecutados = set()
+    for p in datos.get(fecha.isoformat(), {}).values():
+        if p.get("estado") == "ejecutado":
+            ejecutados.add((p.get("local"), p.get("visita")))
+    return ejecutados
+
+
 def datos_auxiliares(fecha):
     """Ultimos valores por pitcher/equipo para features de partidos de hoy."""
     whip = db_utils.leer_sql("""
@@ -567,6 +590,25 @@ def main():
     if not partidos_mlb:
         print("      (sin partidos para evaluar en esta corrida)")
         return 0
+
+    # Modo ventana: saltar los partidos que el planificador ya evaluó en
+    # un tick previo (estado "ejecutado" en horarios.json). Sin este
+    # filtro el pick se re-inserta con CreadoUtc fresco (bug NO_VALIDA).
+    if ventana_min > 0 and not retroactivo:
+        ya_ejecutados = pares_ya_ejecutados(fecha)
+        if ya_ejecutados:
+            antes = len(partidos_mlb)
+            partidos_mlb = [p for p in partidos_mlb
+                            if (p["local"], p["visita"]) not in ya_ejecutados]
+            omitidos = antes - len(partidos_mlb)
+            if omitidos:
+                print(f"      {omitidos} partido(s) ya evaluados en un tick "
+                      "previo (horarios.json): omitidos (no se re-inserta "
+                      "su pick).")
+            if not partidos_mlb:
+                print("      (todos los partidos de la ventana ya fueron "
+                      "evaluados en ticks previos)")
+                return 0
 
     if retroactivo or ventana_min > 0:
         # Fecha pasada o runner de ventana: se usan los snapshots que el
