@@ -91,7 +91,9 @@ def generar():
             predicciones.append({
                 "id": pid, "fecha": str(fecha), "local": local,
                 "visita": visita, "tipo": tipo, "linea": _jsonable(linea),
-                "unidades": _jsonable(unid), "edge": _jsonable(edge),
+                "unidades": _jsonable(unid),
+                "edge": round(_jsonable(edge), 2)
+                if edge is not None else None,
                 "cuota": _jsonable(cuota),
                 "estado": estado, "total": _jsonable(total),
                 "creado": str(creado), "verificado": str(verif)
@@ -118,7 +120,8 @@ def generar():
                 "linea": _jsonable(linea),
                 "prediccion": _jsonable(prediccion),
                 "prob_over": _jsonable(prob_over),
-                "edge": _jsonable(edge),
+                "edge": round(_jsonable(edge), 2)
+                if edge is not None else None,
                 "recomendacion": rec, "motivo": motivo or "",
                 "evaluado_utc": str(evaluado) if evaluado else None,
             })
