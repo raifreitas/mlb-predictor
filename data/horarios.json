@@ -269,7 +269,8 @@
       "pitcher_visita": null,
       "hora_inicio_utc": "2026-08-15T23:10:00+00:00",
       "hora_corrida_utc": "2026-08-15T22:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-15T21:10:39.463923+00:00"
     },
     "Houston Astros": {
       "local": "Houston Astros",
@@ -278,7 +279,8 @@
       "pitcher_visita": 676106,
       "hora_inicio_utc": "2026-08-15T23:10:00+00:00",
       "hora_corrida_utc": "2026-08-15T22:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-15T21:10:39.463923+00:00"
     },
     "Minnesota Twins": {
       "local": "Minnesota Twins",
@@ -287,7 +289,8 @@
       "pitcher_visita": 666200,
       "hora_inicio_utc": "2026-08-15T23:10:00+00:00",
       "hora_corrida_utc": "2026-08-15T22:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-15T21:10:39.463923+00:00"
     },
     "Pittsburgh Pirates": {
       "local": "Pittsburgh Pirates",
