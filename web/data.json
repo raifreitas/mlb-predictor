@@ -849,6 +849,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-15",
+   "local": "Toronto Blue Jays",
+   "visita": "New York Yankees",
+   "linea": 7.5,
+   "prediccion": 6.73,
+   "prob_over": 0.4323664605617523,
+   "edge": 0.77,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 0.77 < 1.45)",
+   "evaluado_utc": "2026-08-15T17:10:43Z"
+  },
+  {
+   "fecha": "2026-08-15",
    "local": "Chicago Cubs",
    "visita": "St. Louis Cardinals",
    "linea": 9.0,
@@ -1016,5 +1028,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-15T16:20:42Z"
+ "fecha_actualizacion": "2026-08-15T17:10:43Z"
 }
