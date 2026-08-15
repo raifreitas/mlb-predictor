@@ -299,7 +299,8 @@
       "pitcher_visita": 543243,
       "hora_inicio_utc": "2026-08-15T23:15:00+00:00",
       "hora_corrida_utc": "2026-08-15T22:45:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-15T21:15:36.794726+00:00"
     },
     "Atlanta Braves": {
       "local": "Atlanta Braves",
@@ -308,7 +309,8 @@
       "pitcher_visita": 593958,
       "hora_inicio_utc": "2026-08-15T23:15:00+00:00",
       "hora_corrida_utc": "2026-08-15T22:45:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-15T21:15:36.794726+00:00"
     },
     "Los Angeles Dodgers": {
       "local": "Los Angeles Dodgers",
@@ -317,7 +319,8 @@
       "pitcher_visita": 694819,
       "hora_inicio_utc": "2026-08-15T23:15:00+00:00",
       "hora_corrida_utc": "2026-08-15T22:45:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-15T21:15:36.794726+00:00"
     },
     "Los Angeles Angels": {
       "local": "Los Angeles Angels",

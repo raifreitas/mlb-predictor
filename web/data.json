@@ -864,6 +864,42 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-15",
+   "local": "Atlanta Braves",
+   "visita": "Arizona Diamondbacks",
+   "linea": 9.0,
+   "prediccion": 7.24,
+   "prob_over": 0.41916000843048096,
+   "edge": 1.76,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Volatilidad del Abridor (WHIP Local: 1.32 | Visita: 1.23)",
+   "evaluado_utc": "2026-08-15T21:15:40Z"
+  },
+  {
+   "fecha": "2026-08-15",
+   "local": "Los Angeles Dodgers",
+   "visita": "Milwaukee Brewers",
+   "linea": 7.5,
+   "prediccion": 7.37,
+   "prob_over": 0.4046138525009155,
+   "edge": 0.13,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.13 carreras, prob_over 40.5%)",
+   "evaluado_utc": "2026-08-15T21:15:40Z"
+  },
+  {
+   "fecha": "2026-08-15",
+   "local": "Pittsburgh Pirates",
+   "visita": "Boston Red Sox",
+   "linea": 7.5,
+   "prediccion": 7.27,
+   "prob_over": 0.47365477681159973,
+   "edge": 0.23,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.23 carreras, prob_over 47.4%)",
+   "evaluado_utc": "2026-08-15T21:15:40Z"
+  },
+  {
+   "fecha": "2026-08-15",
    "local": "Cleveland Guardians",
    "visita": "San Diego Padres",
    "linea": 8.5,
@@ -1127,5 +1163,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-15T21:10:44Z"
+ "fecha_actualizacion": "2026-08-15T21:15:40Z"
 }
