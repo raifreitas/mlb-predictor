@@ -848,6 +848,18 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-08-15",
+   "local": "Detroit Tigers",
+   "visita": "Chicago White Sox",
+   "linea": 7.5,
+   "prediccion": 6.72,
+   "prob_over": 0.40901580452919006,
+   "edge": 0.78,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 0.78 < 1.45)",
+   "evaluado_utc": "2026-08-15T15:10:42Z"
+  },
+  {
    "fecha": "2026-08-14",
    "local": "Athletics",
    "visita": "Texas Rangers",
@@ -992,5 +1004,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-15T14:40:39Z"
+ "fecha_actualizacion": "2026-08-15T15:10:43Z"
 }
