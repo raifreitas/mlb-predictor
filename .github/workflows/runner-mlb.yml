@@ -76,6 +76,13 @@ jobs:
         working-directory: PruebaPronosticos/src/Modeling
         run: python planificador.py --procesar --ventana-min 30 --horizonte-max-min ${{ inputs.horizonte || '120' }}
 
+      - name: Notificar picks nuevos (Telegram)
+        working-directory: PruebaPronosticos/src/Modeling
+        run: python notificar_picks.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
       - name: Generar web/data.json
         working-directory: PruebaPronosticos/src/Modeling
         run: python generar_web.py
