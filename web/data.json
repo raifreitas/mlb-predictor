@@ -658,7 +658,7 @@
    "tipo": "OVER",
    "linea": 7.5,
    "unidades": 0.5,
-   "edge": 1.9900000000000002,
+   "edge": 1.99,
    "cuota": 1.91,
    "estado": "PENDIENTE",
    "total": null,
@@ -673,7 +673,7 @@
    "tipo": "OVER",
    "linea": 7.5,
    "unidades": 0.5,
-   "edge": 1.7200000000000006,
+   "edge": 1.72,
    "cuota": 1.99,
    "estado": "PENDIENTE",
    "total": null,
@@ -827,5 +827,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-15T00:00:45Z"
+ "fecha_actualizacion": "2026-08-15T05:10:39Z"
 }
