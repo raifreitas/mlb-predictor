@@ -8,105 +8,6 @@
  },
  "partidos_hoy": [
   {
-   "fecha": "2026-08-13",
-   "local": "Chicago White Sox",
-   "visita": "Cincinnati Reds",
-   "carreras_local": 8,
-   "carreras_visita": 9,
-   "linea_real": 8.0,
-   "es_final": true,
-   "hora_inicio_utc": "2026-08-13 17:10:00.000",
-   "temperatura_c": 23.4
-  },
-  {
-   "fecha": "2026-08-13",
-   "local": "Detroit Tigers",
-   "visita": "Cleveland Guardians",
-   "carreras_local": 3,
-   "carreras_visita": 0,
-   "linea_real": 8.0,
-   "es_final": true,
-   "hora_inicio_utc": "2026-08-13 17:10:00.000",
-   "temperatura_c": 23.0
-  },
-  {
-   "fecha": "2026-08-13",
-   "local": "Los Angeles Angels",
-   "visita": "Texas Rangers",
-   "carreras_local": 7,
-   "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": true,
-   "hora_inicio_utc": "2026-08-14 02:07:00.000",
-   "temperatura_c": 23.3
-  },
-  {
-   "fecha": "2026-08-13",
-   "local": "Los Angeles Dodgers",
-   "visita": "Milwaukee Brewers",
-   "carreras_local": 4,
-   "carreras_visita": 5,
-   "linea_real": null,
-   "es_final": true,
-   "hora_inicio_utc": "2026-08-14 02:10:00.000",
-   "temperatura_c": 22.8
-  },
-  {
-   "fecha": "2026-08-13",
-   "local": "Miami Marlins",
-   "visita": "Pittsburgh Pirates",
-   "carreras_local": 1,
-   "carreras_visita": 13,
-   "linea_real": 8.0,
-   "es_final": true,
-   "hora_inicio_utc": "2026-08-13 17:10:00.000",
-   "temperatura_c": 29.2
-  },
-  {
-   "fecha": "2026-08-13",
-   "local": "Minnesota Twins",
-   "visita": "Philadelphia Phillies",
-   "carreras_local": 1,
-   "carreras_visita": 7,
-   "linea_real": null,
-   "es_final": true,
-   "hora_inicio_utc": "2026-08-13 23:30:00.000",
-   "temperatura_c": 20.0
-  },
-  {
-   "fecha": "2026-08-13",
-   "local": "New York Yankees",
-   "visita": "Seattle Mariners",
-   "carreras_local": 0,
-   "carreras_visita": 1,
-   "linea_real": 7.5,
-   "es_final": true,
-   "hora_inicio_utc": "2026-08-13 17:35:00.000",
-   "temperatura_c": 25.1
-  },
-  {
-   "fecha": "2026-08-13",
-   "local": "Toronto Blue Jays",
-   "visita": "Boston Red Sox",
-   "carreras_local": 0,
-   "carreras_visita": 7,
-   "linea_real": 8.0,
-   "es_final": true,
-   "hora_inicio_utc": "2026-08-13 19:07:00.000",
-   "temperatura_c": 22.7
-  },
-  {
-   "fecha": "2026-08-13",
-   "local": "Washington Nationals",
-   "visita": "Chicago Cubs",
-   "carreras_local": 7,
-   "carreras_visita": 0,
-   "linea_real": 8.5,
-   "es_final": true,
-   "hora_inicio_utc": "2026-08-13 20:05:00.000",
-   "temperatura_c": 27.1
-  },
-  {
    "fecha": "2026-08-14",
    "local": "Athletics",
    "visita": "Texas Rangers",
@@ -1187,5 +1088,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-15T23:40:46Z"
+ "fecha_actualizacion": "2026-08-16T00:00:48Z"
 }
