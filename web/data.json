@@ -945,6 +945,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-16",
+   "local": "Houston Astros",
+   "visita": "Seattle Mariners",
+   "linea": 8.0,
+   "prediccion": 7.97,
+   "prob_over": 0.5033403038978577,
+   "edge": 0.03,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.03 carreras, prob_over 50.3%)",
+   "evaluado_utc": "2026-08-16T21:20:47Z"
+  },
+  {
+   "fecha": "2026-08-16",
    "local": "Los Angeles Angels",
    "visita": "Kansas City Royals",
    "linea": 9.0,
@@ -1436,5 +1448,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-16T18:10:47Z"
+ "fecha_actualizacion": "2026-08-16T21:20:48Z"
 }
