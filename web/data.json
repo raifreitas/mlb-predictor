@@ -930,6 +930,66 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-16",
+   "local": "Cincinnati Reds",
+   "visita": "Miami Marlins",
+   "linea": 8.5,
+   "prediccion": 7.43,
+   "prob_over": 0.5479414463043213,
+   "edge": 1.07,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.07 carreras, prob_over 54.8%)",
+   "evaluado_utc": "2026-08-16T15:40:46Z"
+  },
+  {
+   "fecha": "2026-08-16",
+   "local": "Cleveland Guardians",
+   "visita": "San Diego Padres",
+   "linea": 8.0,
+   "prediccion": 7.78,
+   "prob_over": 0.48624515533447266,
+   "edge": 0.22,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.22 carreras, prob_over 48.6%)",
+   "evaluado_utc": "2026-08-16T15:40:46Z"
+  },
+  {
+   "fecha": "2026-08-16",
+   "local": "Detroit Tigers",
+   "visita": "Chicago White Sox",
+   "linea": 8.0,
+   "prediccion": 7.36,
+   "prob_over": 0.41173669695854187,
+   "edge": 0.64,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.64 carreras, prob_over 41.2%)",
+   "evaluado_utc": "2026-08-16T15:40:46Z"
+  },
+  {
+   "fecha": "2026-08-16",
+   "local": "New York Mets",
+   "visita": "Washington Nationals",
+   "linea": 8.5,
+   "prediccion": 7.33,
+   "prob_over": 0.4544938802719116,
+   "edge": 1.17,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 1.17 < 1.45)",
+   "evaluado_utc": "2026-08-16T15:40:46Z"
+  },
+  {
+   "fecha": "2026-08-16",
+   "local": "Toronto Blue Jays",
+   "visita": "New York Yankees",
+   "linea": 6.5,
+   "prediccion": 5.55,
+   "prob_over": 0.3901532292366028,
+   "edge": 0.95,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Filtro Extremo (linea 5.55 <= 6.5)",
+   "evaluado_utc": "2026-08-16T15:40:46Z"
+  },
+  {
+   "fecha": "2026-08-16",
    "local": "Atlanta Braves",
    "visita": "Arizona Diamondbacks",
    "linea": 8.5,
@@ -1289,5 +1349,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-16T15:35:44Z"
+ "fecha_actualizacion": "2026-08-16T15:40:47Z"
 }

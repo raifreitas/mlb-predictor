@@ -381,7 +381,8 @@
       "pitcher_visita": 677960,
       "hora_inicio_utc": "2026-08-16T17:37:00+00:00",
       "hora_corrida_utc": "2026-08-16T17:07:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-16T15:40:41.475800+00:00"
     },
     "New York Mets": {
       "local": "New York Mets",
@@ -390,7 +391,8 @@
       "pitcher_visita": 663623,
       "hora_inicio_utc": "2026-08-16T17:40:00+00:00",
       "hora_corrida_utc": "2026-08-16T17:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-16T15:40:41.475800+00:00"
     },
     "Cleveland Guardians": {
       "local": "Cleveland Guardians",
@@ -399,7 +401,8 @@
       "pitcher_visita": 663554,
       "hora_inicio_utc": "2026-08-16T17:40:00+00:00",
       "hora_corrida_utc": "2026-08-16T17:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-16T15:40:41.475800+00:00"
     },
     "Detroit Tigers": {
       "local": "Detroit Tigers",
@@ -408,7 +411,8 @@
       "pitcher_visita": 680732,
       "hora_inicio_utc": "2026-08-16T17:40:00+00:00",
       "hora_corrida_utc": "2026-08-16T17:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-16T15:40:41.475800+00:00"
     },
     "Cincinnati Reds": {
       "local": "Cincinnati Reds",
@@ -417,7 +421,8 @@
       "pitcher_visita": 691587,
       "hora_inicio_utc": "2026-08-16T17:40:00+00:00",
       "hora_corrida_utc": "2026-08-16T17:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-16T15:40:41.475800+00:00"
     },
     "Minnesota Twins": {
       "local": "Minnesota Twins",
