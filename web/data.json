@@ -945,6 +945,30 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-16",
+   "local": "Los Angeles Angels",
+   "visita": "Kansas City Royals",
+   "linea": 9.0,
+   "prediccion": 7.89,
+   "prob_over": 0.48514387011528015,
+   "edge": 1.11,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.11 carreras, prob_over 48.5%)",
+   "evaluado_utc": "2026-08-16T18:10:46Z"
+  },
+  {
+   "fecha": "2026-08-16",
+   "local": "Los Angeles Dodgers",
+   "visita": "Milwaukee Brewers",
+   "linea": 7.5,
+   "prediccion": 6.77,
+   "prob_over": 0.4074382185935974,
+   "edge": 0.73,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.73 carreras, prob_over 40.7%)",
+   "evaluado_utc": "2026-08-16T18:10:46Z"
+  },
+  {
+   "fecha": "2026-08-16",
    "local": "Athletics",
    "visita": "Texas Rangers",
    "linea": 10.0,
@@ -1412,5 +1436,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-16T18:05:49Z"
+ "fecha_actualizacion": "2026-08-16T18:10:47Z"
 }
