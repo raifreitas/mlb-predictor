@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-08-15",
+ "ultima_fecha_prediccion": "2026-08-16",
  "resumen": {
   "ganadas": 11,
   "perdidas": 1,
@@ -925,9 +925,48 @@
    "total": 8,
    "creado": "2026-08-15 18:05:44",
    "verificado": "2026-08-16 06:48:17"
+  },
+  {
+   "id": 1039,
+   "fecha": "2026-08-16",
+   "local": "San Francisco Giants",
+   "visita": "Colorado Rockies",
+   "tipo": "OVER",
+   "linea": 7.5,
+   "unidades": 0.5,
+   "edge": 2.9,
+   "cuota": 1.93,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-08-16 18:05:47",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-08-16",
+   "local": "Athletics",
+   "visita": "Texas Rangers",
+   "linea": 10.0,
+   "prediccion": 8.44,
+   "prob_over": 0.6371944546699524,
+   "edge": 1.56,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.56 carreras, prob_over 63.7%)",
+   "evaluado_utc": "2026-08-16T18:05:47Z"
+  },
+  {
+   "fecha": "2026-08-16",
+   "local": "San Francisco Giants",
+   "visita": "Colorado Rockies",
+   "linea": 8.0,
+   "prediccion": 10.4,
+   "prob_over": 0.5331125855445862,
+   "edge": 2.4,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-08-16T18:05:47Z"
+  },
   {
    "fecha": "2026-08-16",
    "local": "Chicago Cubs",
@@ -1373,5 +1412,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-16T17:15:49Z"
+ "fecha_actualizacion": "2026-08-16T18:05:49Z"
 }
