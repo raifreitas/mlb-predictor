@@ -890,6 +890,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-17",
+   "local": "Chicago Cubs",
+   "visita": "Chicago White Sox",
+   "linea": 8.0,
+   "prediccion": 8.49,
+   "prob_over": 0.47173064947128296,
+   "edge": 0.49,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.49 carreras, prob_over 47.2%)",
+   "evaluado_utc": "2026-08-17T22:05:44Z"
+  },
+  {
+   "fecha": "2026-08-17",
    "local": "Kansas City Royals",
    "visita": "Athletics",
    "linea": 9.0,
@@ -1489,5 +1501,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-17T21:40:47Z"
+ "fecha_actualizacion": "2026-08-17T22:05:45Z"
 }
