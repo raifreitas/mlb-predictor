@@ -543,7 +543,8 @@
       "pitcher_visita": 683352,
       "hora_inicio_utc": "2026-08-17T23:10:00+00:00",
       "hora_corrida_utc": "2026-08-17T22:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-17T21:10:44.274065+00:00"
     },
     "New York Mets": {
       "local": "New York Mets",
@@ -552,7 +553,8 @@
       "pitcher_visita": 621111,
       "hora_inicio_utc": "2026-08-17T23:10:00+00:00",
       "hora_corrida_utc": "2026-08-17T22:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-17T21:10:44.274065+00:00"
     },
     "Kansas City Royals": {
       "local": "Kansas City Royals",
