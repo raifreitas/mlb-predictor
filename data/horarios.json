@@ -503,7 +503,8 @@
       "pitcher_visita": null,
       "hora_inicio_utc": "2026-08-17T22:40:00+00:00",
       "hora_corrida_utc": "2026-08-17T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-17T20:40:51.553366+00:00"
     },
     "Tampa Bay Rays": {
       "local": "Tampa Bay Rays",
@@ -522,7 +523,8 @@
       "pitcher_visita": 676083,
       "hora_inicio_utc": "2026-08-17T22:40:00+00:00",
       "hora_corrida_utc": "2026-08-17T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-17T20:40:51.553366+00:00"
     },
     "Pittsburgh Pirates": {
       "local": "Pittsburgh Pirates",
