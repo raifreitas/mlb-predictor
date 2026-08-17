@@ -563,7 +563,8 @@
       "pitcher_visita": 686930,
       "hora_inicio_utc": "2026-08-17T23:40:00+00:00",
       "hora_corrida_utc": "2026-08-17T23:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-17T21:40:42.077737+00:00"
     },
     "Minnesota Twins": {
       "local": "Minnesota Twins",
@@ -572,7 +573,8 @@
       "pitcher_visita": 527048,
       "hora_inicio_utc": "2026-08-17T23:40:00+00:00",
       "hora_corrida_utc": "2026-08-17T23:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-17T21:40:42.077737+00:00"
     },
     "Chicago Cubs": {
       "local": "Chicago Cubs",
