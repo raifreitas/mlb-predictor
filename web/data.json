@@ -889,6 +889,18 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-08-18",
+   "local": "Baltimore Orioles",
+   "visita": "New York Yankees",
+   "linea": 8.5,
+   "prediccion": 6.83,
+   "prob_over": 0.43576088547706604,
+   "edge": 1.42,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Fatiga de Bullpen (3 juegos seguidos)",
+   "evaluado_utc": "2026-08-18T20:35:47Z"
+  },
+  {
    "fecha": "2026-08-17",
    "local": "Colorado Rockies",
    "visita": "Los Angeles Dodgers",
@@ -1513,5 +1525,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-18T07:20:48Z"
+ "fecha_actualizacion": "2026-08-18T20:35:48Z"
 }
