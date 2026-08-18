@@ -685,7 +685,8 @@
       "pitcher_visita": 678022,
       "hora_inicio_utc": "2026-08-18T23:40:00+00:00",
       "hora_corrida_utc": "2026-08-18T23:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-18T21:40:35.140387+00:00"
     },
     "Minnesota Twins": {
       "local": "Minnesota Twins",
@@ -694,7 +695,8 @@
       "pitcher_visita": 641816,
       "hora_inicio_utc": "2026-08-18T23:40:00+00:00",
       "hora_corrida_utc": "2026-08-18T23:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-18T21:40:35.140387+00:00"
     },
     "Milwaukee Brewers": {
       "local": "Milwaukee Brewers",
@@ -703,7 +705,8 @@
       "pitcher_visita": 682243,
       "hora_inicio_utc": "2026-08-18T23:40:00+00:00",
       "hora_corrida_utc": "2026-08-18T23:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-18T21:40:35.140387+00:00"
     },
     "Texas Rangers": {
       "local": "Texas Rangers",
