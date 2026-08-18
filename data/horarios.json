@@ -735,7 +735,8 @@
       "pitcher_visita": 691946,
       "hora_inicio_utc": "2026-08-19T00:10:00+00:00",
       "hora_corrida_utc": "2026-08-18T23:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-18T22:10:40.821955+00:00"
     },
     "Colorado Rockies": {
       "local": "Colorado Rockies",
