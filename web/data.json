@@ -126,7 +126,7 @@
    "linea_real": 7.5,
    "es_final": true,
    "hora_inicio_utc": "2026-08-18 22:35:00.000",
-   "temperatura_c": 25.8
+   "temperatura_c": 25.9
   },
   {
    "fecha": "2026-08-18",
@@ -137,7 +137,7 @@
    "linea_real": 7.5,
    "es_final": true,
    "hora_inicio_utc": "2026-08-18 23:10:00.000",
-   "temperatura_c": 21.6
+   "temperatura_c": 21.5
   },
   {
    "fecha": "2026-08-18",
@@ -148,7 +148,7 @@
    "linea_real": 9.5,
    "es_final": true,
    "hora_inicio_utc": "2026-08-19 00:05:00.000",
-   "temperatura_c": 21.9
+   "temperatura_c": 21.7
   },
   {
    "fecha": "2026-08-18",
@@ -181,7 +181,7 @@
    "linea_real": 11.5,
    "es_final": true,
    "hora_inicio_utc": "2026-08-19 00:40:00.000",
-   "temperatura_c": 25.2
+   "temperatura_c": 25.0
   },
   {
    "fecha": "2026-08-18",
@@ -203,7 +203,7 @@
    "linea_real": 9.0,
    "es_final": true,
    "hora_inicio_utc": "2026-08-18 23:40:00.000",
-   "temperatura_c": 23.8
+   "temperatura_c": 23.9
   },
   {
    "fecha": "2026-08-18",
@@ -214,7 +214,7 @@
    "linea_real": 7.5,
    "es_final": true,
    "hora_inicio_utc": "2026-08-18 23:40:00.000",
-   "temperatura_c": 20.0
+   "temperatura_c": 21.8
   },
   {
    "fecha": "2026-08-18",
@@ -247,7 +247,7 @@
    "linea_real": 8.5,
    "es_final": true,
    "hora_inicio_utc": "2026-08-18 22:40:00.000",
-   "temperatura_c": 25.8
+   "temperatura_c": 25.7
   },
   {
    "fecha": "2026-08-18",
@@ -258,7 +258,7 @@
    "linea_real": 8.0,
    "es_final": true,
    "hora_inicio_utc": "2026-08-18 22:40:00.000",
-   "temperatura_c": 22.2
+   "temperatura_c": 22.3
   },
   {
    "fecha": "2026-08-18",
@@ -368,7 +368,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-19 23:40:00.000",
-   "temperatura_c": 20.0
+   "temperatura_c": 24.9
   },
   {
    "fecha": "2026-08-19",
@@ -379,7 +379,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-19 23:40:00.000",
-   "temperatura_c": 19.6
+   "temperatura_c": 20.0
   },
   {
    "fecha": "2026-08-19",
@@ -1693,5 +1693,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-19T06:50:45Z"
+ "fecha_actualizacion": "2026-08-19T07:20:41Z"
 }
