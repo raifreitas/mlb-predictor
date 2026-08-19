@@ -905,6 +905,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-19",
+   "local": "Colorado Rockies",
+   "visita": "Los Angeles Dodgers",
+   "linea": 11.5,
+   "prediccion": 10.63,
+   "prob_over": 0.6626510620117188,
+   "edge": 0.87,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.87 carreras, prob_over 66.3%)",
+   "evaluado_utc": "2026-08-19T22:40:42Z"
+  },
+  {
+   "fecha": "2026-08-19",
    "local": "Houston Astros",
    "visita": "Los Angeles Angels",
    "linea": 8.5,
@@ -1876,5 +1888,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-19T22:10:51Z"
+ "fecha_actualizacion": "2026-08-19T22:40:43Z"
 }
