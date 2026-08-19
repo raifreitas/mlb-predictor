@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-08-16",
+ "ultima_fecha_prediccion": "2026-08-19",
  "resumen": {
   "ganadas": 12,
   "perdidas": 1,
@@ -885,9 +885,48 @@
    "total": 20,
    "creado": "2026-08-16 18:05:47",
    "verificado": "2026-08-17 06:46:13"
+  },
+  {
+   "id": 1040,
+   "fecha": "2026-08-19",
+   "local": "Kansas City Royals",
+   "visita": "Athletics",
+   "tipo": "OVER",
+   "linea": 8.5,
+   "unidades": 0.5,
+   "edge": 1.73,
+   "cuota": 1.87,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-08-19 21:40:43",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-08-19",
+   "local": "Kansas City Royals",
+   "visita": "Athletics",
+   "linea": 8.5,
+   "prediccion": 10.23,
+   "prob_over": 0.5777446031570435,
+   "edge": 1.73,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-08-19T21:40:43Z"
+  },
+  {
+   "fecha": "2026-08-19",
+   "local": "Milwaukee Brewers",
+   "visita": "Seattle Mariners",
+   "linea": 7.5,
+   "prediccion": 6.95,
+   "prob_over": 0.3880699872970581,
+   "edge": 0.55,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 0.55 < 1.45)",
+   "evaluado_utc": "2026-08-19T21:40:43Z"
+  },
   {
    "fecha": "2026-08-19",
    "local": "Cincinnati Reds",
@@ -1813,5 +1852,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-19T20:40:56Z"
+ "fecha_actualizacion": "2026-08-19T21:40:45Z"
 }
