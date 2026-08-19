@@ -890,6 +890,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-19",
+   "local": "Philadelphia Phillies",
+   "visita": "Miami Marlins",
+   "linea": 9.0,
+   "prediccion": 7.05,
+   "prob_over": 0.5223613381385803,
+   "edge": 1.7,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Volatilidad del Abridor (WHIP Local: 1.45 | Visita: 1.17)",
+   "evaluado_utc": "2026-08-19T20:06:15Z"
+  },
+  {
+   "fecha": "2026-08-19",
    "local": "Boston Red Sox",
    "visita": "Arizona Diamondbacks",
    "linea": 8.0,
@@ -1753,5 +1765,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-19T18:10:47Z"
+ "fecha_actualizacion": "2026-08-19T20:06:15Z"
 }

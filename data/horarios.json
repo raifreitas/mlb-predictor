@@ -807,7 +807,8 @@
       "pitcher_visita": 645261,
       "hora_inicio_utc": "2026-08-19T22:05:00+00:00",
       "hora_corrida_utc": "2026-08-19T21:35:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-19T20:06:10.626647+00:00"
     },
     "Baltimore Orioles": {
       "local": "Baltimore Orioles",
