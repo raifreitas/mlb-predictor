@@ -890,6 +890,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-19",
+   "local": "New York Mets",
+   "visita": "San Diego Padres",
+   "linea": 8.5,
+   "prediccion": 6.75,
+   "prob_over": 0.48489120602607727,
+   "edge": 1.5,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Volatilidad del Abridor (WHIP Local: 1.86 | Visita: 1.19)",
+   "evaluado_utc": "2026-08-19T15:10:51Z"
+  },
+  {
+   "fecha": "2026-08-19",
    "local": "Pittsburgh Pirates",
    "visita": "Detroit Tigers",
    "linea": 8.0,
@@ -1705,5 +1717,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-19T14:35:45Z"
+ "fecha_actualizacion": "2026-08-19T15:10:52Z"
 }
