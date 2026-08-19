@@ -889,6 +889,18 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-08-19",
+   "local": "Pittsburgh Pirates",
+   "visita": "Detroit Tigers",
+   "linea": 8.0,
+   "prediccion": 7.67,
+   "prob_over": 0.46476930379867554,
+   "edge": 0.33,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.33 carreras, prob_over 46.5%)",
+   "evaluado_utc": "2026-08-19T14:35:44Z"
+  },
+  {
    "fecha": "2026-08-18",
    "local": "Colorado Rockies",
    "visita": "Los Angeles Dodgers",
@@ -1693,5 +1705,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-19T07:20:41Z"
+ "fecha_actualizacion": "2026-08-19T14:35:45Z"
 }
