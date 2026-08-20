@@ -898,6 +898,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-20",
+   "local": "Baltimore Orioles",
+   "visita": "New York Yankees",
+   "linea": 7.5,
+   "prediccion": 6.36,
+   "prob_over": 0.4588944911956787,
+   "edge": 1.14,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.14 carreras, prob_over 45.9%)",
+   "evaluado_utc": "2026-08-20T20:35:43Z"
+  },
+  {
+   "fecha": "2026-08-20",
    "local": "Chicago White Sox",
    "visita": "Atlanta Braves",
    "linea": 8.5,
@@ -1953,5 +1965,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-20T16:10:52Z"
+ "fecha_actualizacion": "2026-08-20T20:35:44Z"
 }
