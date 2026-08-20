@@ -919,7 +919,8 @@
       "pitcher_visita": 694738,
       "hora_inicio_utc": "2026-08-20T17:10:00+00:00",
       "hora_corrida_utc": "2026-08-20T16:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-20T15:10:43.171536+00:00"
     },
     "Tampa Bay Rays": {
       "local": "Tampa Bay Rays",
@@ -928,7 +929,8 @@
       "pitcher_visita": 669456,
       "hora_inicio_utc": "2026-08-20T17:10:00+00:00",
       "hora_corrida_utc": "2026-08-20T16:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-20T15:10:43.171536+00:00"
     },
     "Kansas City Royals": {
       "local": "Kansas City Royals",
