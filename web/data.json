@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-08-19",
+ "ultima_fecha_prediccion": "2026-08-20",
  "resumen": {
   "ganadas": 13,
   "perdidas": 1,
@@ -878,9 +878,60 @@
    "total": 16,
    "creado": "2026-08-19 21:40:43",
    "verificado": "2026-08-20 06:46:00"
+  },
+  {
+   "id": 1041,
+   "fecha": "2026-08-20",
+   "local": "Kansas City Royals",
+   "visita": "Athletics",
+   "tipo": "OVER",
+   "linea": 7.5,
+   "unidades": 0.5,
+   "edge": 1.95,
+   "cuota": 1.87,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-08-20 16:10:50",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-08-20",
+   "local": "Chicago White Sox",
+   "visita": "Atlanta Braves",
+   "linea": 8.5,
+   "prediccion": 7.05,
+   "prob_over": 0.42793282866477966,
+   "edge": 1.2,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Fatiga de Bullpen (5 juegos seguidos)",
+   "evaluado_utc": "2026-08-20T16:10:50Z"
+  },
+  {
+   "fecha": "2026-08-20",
+   "local": "Kansas City Royals",
+   "visita": "Athletics",
+   "linea": 8.0,
+   "prediccion": 9.45,
+   "prob_over": 0.5512626767158508,
+   "edge": 1.45,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-08-20T16:10:50Z"
+  },
+  {
+   "fecha": "2026-08-20",
+   "local": "Milwaukee Brewers",
+   "visita": "Seattle Mariners",
+   "linea": 8.0,
+   "prediccion": 8.08,
+   "prob_over": 0.3909164071083069,
+   "edge": 0.08,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.08 carreras, prob_over 39.1%)",
+   "evaluado_utc": "2026-08-20T16:10:50Z"
+  },
   {
    "fecha": "2026-08-20",
    "local": "Cleveland Guardians",
@@ -1902,5 +1953,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-20T15:10:48Z"
+ "fecha_actualizacion": "2026-08-20T16:10:52Z"
 }
