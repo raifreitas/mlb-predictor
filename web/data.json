@@ -882,6 +882,18 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-08-20",
+   "local": "Cincinnati Reds",
+   "visita": "St. Louis Cardinals",
+   "linea": 9.0,
+   "prediccion": 8.99,
+   "prob_over": 0.5740668177604675,
+   "edge": 0.01,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.01 carreras, prob_over 57.4%)",
+   "evaluado_utc": "2026-08-20T14:40:50Z"
+  },
+  {
    "fecha": "2026-08-19",
    "local": "Colorado Rockies",
    "visita": "Los Angeles Dodgers",
@@ -1866,5 +1878,5 @@
    "evaluado_utc": "2026-08-14T20:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-20T07:30:46Z"
+ "fecha_actualizacion": "2026-08-20T14:40:51Z"
 }
