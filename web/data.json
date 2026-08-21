@@ -898,6 +898,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-21",
+   "local": "New York Yankees",
+   "visita": "Toronto Blue Jays",
+   "linea": 7.0,
+   "prediccion": 7.24,
+   "prob_over": 0.38994845747947693,
+   "edge": 0.24,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.24 carreras, prob_over 39.0%)",
+   "evaluado_utc": "2026-08-21T21:05:48Z"
+  },
+  {
+   "fecha": "2026-08-21",
    "local": "Philadelphia Phillies",
    "visita": "St. Louis Cardinals",
    "linea": 8.0,
@@ -1869,5 +1881,5 @@
    "evaluado_utc": "2026-08-15T15:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-21T20:40:48Z"
+ "fecha_actualizacion": "2026-08-21T21:05:49Z"
 }
