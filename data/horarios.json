@@ -1031,7 +1031,8 @@
       "pitcher_visita": 657277,
       "hora_inicio_utc": "2026-08-21T23:10:00+00:00",
       "hora_corrida_utc": "2026-08-21T22:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-21T21:10:44.345616+00:00"
     },
     "Miami Marlins": {
       "local": "Miami Marlins",
@@ -1040,7 +1041,8 @@
       "pitcher_visita": 695418,
       "hora_inicio_utc": "2026-08-21T23:10:00+00:00",
       "hora_corrida_utc": "2026-08-21T22:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-21T21:10:44.345616+00:00"
     },
     "Baltimore Orioles": {
       "local": "Baltimore Orioles",

@@ -898,6 +898,30 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-21",
+   "local": "Boston Red Sox",
+   "visita": "San Francisco Giants",
+   "linea": 7.5,
+   "prediccion": 6.75,
+   "prob_over": 0.5069705843925476,
+   "edge": 0.75,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.75 carreras, prob_over 50.7%)",
+   "evaluado_utc": "2026-08-21T21:10:48Z"
+  },
+  {
+   "fecha": "2026-08-21",
+   "local": "Miami Marlins",
+   "visita": "Washington Nationals",
+   "linea": 7.5,
+   "prediccion": 7.58,
+   "prob_over": 0.44384053349494934,
+   "edge": 0.08,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.08 carreras, prob_over 44.4%)",
+   "evaluado_utc": "2026-08-21T21:10:48Z"
+  },
+  {
+   "fecha": "2026-08-21",
    "local": "New York Yankees",
    "visita": "Toronto Blue Jays",
    "linea": 7.0,
@@ -1881,5 +1905,5 @@
    "evaluado_utc": "2026-08-15T15:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-21T21:05:49Z"
+ "fecha_actualizacion": "2026-08-21T21:10:49Z"
 }
