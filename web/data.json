@@ -898,6 +898,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-21",
+   "local": "Chicago White Sox",
+   "visita": "New York Mets",
+   "linea": 8.0,
+   "prediccion": 7.72,
+   "prob_over": 0.49885857105255127,
+   "edge": 0.28,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.28 carreras, prob_over 49.9%)",
+   "evaluado_utc": "2026-08-21T21:40:55Z"
+  },
+  {
+   "fecha": "2026-08-21",
    "local": "Baltimore Orioles",
    "visita": "Tampa Bay Rays",
    "linea": 7.5,
@@ -1917,5 +1929,5 @@
    "evaluado_utc": "2026-08-15T15:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-21T21:15:49Z"
+ "fecha_actualizacion": "2026-08-21T21:40:56Z"
 }
