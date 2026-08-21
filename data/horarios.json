@@ -1071,7 +1071,8 @@
       "pitcher_visita": 675512,
       "hora_inicio_utc": "2026-08-22T00:10:00+00:00",
       "hora_corrida_utc": "2026-08-21T23:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-21T22:10:44.419362+00:00"
     },
     "Houston Astros": {
       "local": "Houston Astros",
@@ -1080,7 +1081,8 @@
       "pitcher_visita": 669372,
       "hora_inicio_utc": "2026-08-22T00:10:00+00:00",
       "hora_corrida_utc": "2026-08-21T23:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-21T22:10:44.419362+00:00"
     },
     "Texas Rangers": {
       "local": "Texas Rangers",
