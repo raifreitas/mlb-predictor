@@ -992,5 +992,142 @@
       "estado": "ejecutado",
       "ejecutado_utc": "2026-08-20T22:10:40.636776+00:00"
     }
+  },
+  "2026-08-21": {
+    "Milwaukee Brewers": {
+      "local": "Milwaukee Brewers",
+      "visita": "Atlanta Braves",
+      "pitcher_local": 694819,
+      "pitcher_visita": 519242,
+      "hora_inicio_utc": "2026-08-21T20:10:00+00:00",
+      "hora_corrida_utc": "2026-08-21T19:40:00+00:00",
+      "estado": "pendiente"
+    },
+    "Philadelphia Phillies": {
+      "local": "Philadelphia Phillies",
+      "visita": "St. Louis Cardinals",
+      "pitcher_local": 666200,
+      "pitcher_visita": null,
+      "hora_inicio_utc": "2026-08-21T22:40:00+00:00",
+      "hora_corrida_utc": "2026-08-21T22:10:00+00:00",
+      "estado": "pendiente"
+    },
+    "New York Yankees": {
+      "local": "New York Yankees",
+      "visita": "Toronto Blue Jays",
+      "pitcher_local": 693645,
+      "pitcher_visita": null,
+      "hora_inicio_utc": "2026-08-21T23:05:00+00:00",
+      "hora_corrida_utc": "2026-08-21T22:35:00+00:00",
+      "estado": "pendiente"
+    },
+    "Boston Red Sox": {
+      "local": "Boston Red Sox",
+      "visita": "San Francisco Giants",
+      "pitcher_local": 543243,
+      "pitcher_visita": 657277,
+      "hora_inicio_utc": "2026-08-21T23:10:00+00:00",
+      "hora_corrida_utc": "2026-08-21T22:40:00+00:00",
+      "estado": "pendiente"
+    },
+    "Miami Marlins": {
+      "local": "Miami Marlins",
+      "visita": "Washington Nationals",
+      "pitcher_local": 687473,
+      "pitcher_visita": 695418,
+      "hora_inicio_utc": "2026-08-21T23:10:00+00:00",
+      "hora_corrida_utc": "2026-08-21T22:40:00+00:00",
+      "estado": "pendiente"
+    },
+    "Baltimore Orioles": {
+      "local": "Baltimore Orioles",
+      "visita": "Tampa Bay Rays",
+      "pitcher_local": 669432,
+      "pitcher_visita": 642547,
+      "hora_inicio_utc": "2026-08-21T23:15:00+00:00",
+      "hora_corrida_utc": "2026-08-21T22:45:00+00:00",
+      "estado": "pendiente"
+    },
+    "Chicago White Sox": {
+      "local": "Chicago White Sox",
+      "visita": "New York Mets",
+      "pitcher_local": 680732,
+      "pitcher_visita": 640455,
+      "hora_inicio_utc": "2026-08-21T23:40:00+00:00",
+      "hora_corrida_utc": "2026-08-21T23:10:00+00:00",
+      "estado": "pendiente"
+    },
+    "Kansas City Royals": {
+      "local": "Kansas City Royals",
+      "visita": "Detroit Tigers",
+      "pitcher_local": 702070,
+      "pitcher_visita": 675512,
+      "hora_inicio_utc": "2026-08-22T00:10:00+00:00",
+      "hora_corrida_utc": "2026-08-21T23:40:00+00:00",
+      "estado": "pendiente"
+    },
+    "Houston Astros": {
+      "local": "Houston Astros",
+      "visita": "Athletics",
+      "pitcher_local": 669713,
+      "pitcher_visita": 669372,
+      "hora_inicio_utc": "2026-08-22T00:10:00+00:00",
+      "hora_corrida_utc": "2026-08-21T23:40:00+00:00",
+      "estado": "pendiente"
+    },
+    "Texas Rangers": {
+      "local": "Texas Rangers",
+      "visita": "Los Angeles Angels",
+      "pitcher_local": 669022,
+      "pitcher_visita": 672282,
+      "hora_inicio_utc": "2026-08-22T00:15:00+00:00",
+      "hora_corrida_utc": "2026-08-21T23:45:00+00:00",
+      "estado": "pendiente"
+    },
+    "Colorado Rockies": {
+      "local": "Colorado Rockies",
+      "visita": "Cleveland Guardians",
+      "pitcher_local": 685299,
+      "pitcher_visita": 676282,
+      "hora_inicio_utc": "2026-08-22T00:40:00+00:00",
+      "hora_corrida_utc": "2026-08-22T00:10:00+00:00",
+      "estado": "pendiente"
+    },
+    "Arizona Diamondbacks": {
+      "local": "Arizona Diamondbacks",
+      "visita": "Cincinnati Reds",
+      "pitcher_local": 593958,
+      "pitcher_visita": 666157,
+      "hora_inicio_utc": "2026-08-22T01:40:00+00:00",
+      "hora_corrida_utc": "2026-08-22T01:10:00+00:00",
+      "estado": "pendiente"
+    },
+    "San Diego Padres": {
+      "local": "San Diego Padres",
+      "visita": "Minnesota Twins",
+      "pitcher_local": null,
+      "pitcher_visita": 687570,
+      "hora_inicio_utc": "2026-08-22T01:40:00+00:00",
+      "hora_corrida_utc": "2026-08-22T01:10:00+00:00",
+      "estado": "pendiente"
+    },
+    "Los Angeles Dodgers": {
+      "local": "Los Angeles Dodgers",
+      "visita": "Pittsburgh Pirates",
+      "pitcher_local": 808967,
+      "pitcher_visita": 696149,
+      "hora_inicio_utc": "2026-08-22T02:10:00+00:00",
+      "hora_corrida_utc": "2026-08-22T01:40:00+00:00",
+      "estado": "pendiente"
+    },
+    "Seattle Mariners": {
+      "local": "Seattle Mariners",
+      "visita": "Chicago Cubs",
+      "pitcher_local": 676106,
+      "pitcher_visita": 571510,
+      "hora_inicio_utc": "2026-08-22T02:10:00+00:00",
+      "hora_corrida_utc": "2026-08-22T01:40:00+00:00",
+      "estado": "pendiente"
+    }
   }
 }
