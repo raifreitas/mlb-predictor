@@ -898,6 +898,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-21",
+   "local": "Philadelphia Phillies",
+   "visita": "St. Louis Cardinals",
+   "linea": 8.0,
+   "prediccion": 7.21,
+   "prob_over": 0.5431428551673889,
+   "edge": 0.79,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.79 carreras, prob_over 54.3%)",
+   "evaluado_utc": "2026-08-21T20:40:47Z"
+  },
+  {
+   "fecha": "2026-08-21",
    "local": "Milwaukee Brewers",
    "visita": "Atlanta Braves",
    "linea": 6.0,
@@ -1857,5 +1869,5 @@
    "evaluado_utc": "2026-08-15T15:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-21T18:10:49Z"
+ "fecha_actualizacion": "2026-08-21T20:40:48Z"
 }
