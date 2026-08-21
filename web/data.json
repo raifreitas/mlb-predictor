@@ -897,6 +897,18 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-08-21",
+   "local": "Milwaukee Brewers",
+   "visita": "Atlanta Braves",
+   "linea": 6.0,
+   "prediccion": 6.14,
+   "prob_over": 0.4573458731174469,
+   "edge": 0.14,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.14 carreras, prob_over 45.7%)",
+   "evaluado_utc": "2026-08-21T18:10:48Z"
+  },
+  {
    "fecha": "2026-08-20",
    "local": "Houston Astros",
    "visita": "Los Angeles Angels",
@@ -1845,5 +1857,5 @@
    "evaluado_utc": "2026-08-15T15:10:42Z"
   }
  ],
- "fecha_actualizacion": "2026-08-21T07:30:51Z"
+ "fecha_actualizacion": "2026-08-21T18:10:49Z"
 }
