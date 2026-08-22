@@ -913,6 +913,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-22",
+   "local": "San Diego Padres",
+   "visita": "Minnesota Twins",
+   "linea": 8.0,
+   "prediccion": 6.98,
+   "prob_over": 0.35839879512786865,
+   "edge": 1.02,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 1.02 < 1.45)",
+   "evaluado_utc": "2026-08-22T22:40:48Z"
+  },
+  {
+   "fecha": "2026-08-22",
    "local": "Arizona Diamondbacks",
    "visita": "Cincinnati Reds",
    "linea": 8.0,
@@ -2004,5 +2016,5 @@
    "evaluado_utc": "2026-08-16T14:15:43Z"
   }
  ],
- "fecha_actualizacion": "2026-08-22T22:10:48Z"
+ "fecha_actualizacion": "2026-08-22T22:40:49Z"
 }
