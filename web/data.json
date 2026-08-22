@@ -898,6 +898,30 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-22",
+   "local": "Baltimore Orioles",
+   "visita": "Tampa Bay Rays",
+   "linea": 8.0,
+   "prediccion": 7.24,
+   "prob_over": 0.5116847157478333,
+   "edge": 0.76,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.76 carreras, prob_over 51.2%)",
+   "evaluado_utc": "2026-08-22T21:05:47Z"
+  },
+  {
+   "fecha": "2026-08-22",
+   "local": "Texas Rangers",
+   "visita": "Los Angeles Angels",
+   "linea": 8.0,
+   "prediccion": 6.73,
+   "prob_over": 0.5117372870445251,
+   "edge": 1.27,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.27 carreras, prob_over 51.2%)",
+   "evaluado_utc": "2026-08-22T21:05:47Z"
+  },
+  {
+   "fecha": "2026-08-22",
    "local": "Philadelphia Phillies",
    "visita": "St. Louis Cardinals",
    "linea": 9.0,
@@ -1869,5 +1893,5 @@
    "evaluado_utc": "2026-08-16T14:15:43Z"
   }
  ],
- "fecha_actualizacion": "2026-08-22T20:05:50Z"
+ "fecha_actualizacion": "2026-08-22T21:05:48Z"
 }
