@@ -1271,7 +1271,8 @@
       "pitcher_visita": 695076,
       "hora_inicio_utc": "2026-08-23T00:10:00+00:00",
       "hora_corrida_utc": "2026-08-22T23:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-22T22:10:43.547343+00:00"
     },
     "Colorado Rockies": {
       "local": "Colorado Rockies",
@@ -1280,7 +1281,8 @@
       "pitcher_visita": 676440,
       "hora_inicio_utc": "2026-08-23T00:10:00+00:00",
       "hora_corrida_utc": "2026-08-22T23:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-22T22:10:43.547343+00:00"
     },
     "San Diego Padres": {
       "local": "San Diego Padres",
