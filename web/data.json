@@ -898,6 +898,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-22",
+   "local": "Miami Marlins",
+   "visita": "Washington Nationals",
+   "linea": 7.5,
+   "prediccion": 6.91,
+   "prob_over": 0.43520650267601013,
+   "edge": 0.59,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.59 carreras, prob_over 43.5%)",
+   "evaluado_utc": "2026-08-22T18:10:46Z"
+  },
+  {
+   "fecha": "2026-08-22",
    "local": "Milwaukee Brewers",
    "visita": "Atlanta Braves",
    "linea": 8.0,
@@ -1845,5 +1857,5 @@
    "evaluado_utc": "2026-08-16T14:15:43Z"
   }
  ],
- "fecha_actualizacion": "2026-08-22T16:10:53Z"
+ "fecha_actualizacion": "2026-08-22T18:10:48Z"
 }
