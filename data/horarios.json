@@ -1181,7 +1181,8 @@
       "pitcher_visita": null,
       "hora_inicio_utc": "2026-08-22T22:05:00+00:00",
       "hora_corrida_utc": "2026-08-22T21:35:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-22T20:05:44.313794+00:00"
     },
     "Baltimore Orioles": {
       "local": "Baltimore Orioles",
