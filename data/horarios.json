@@ -1211,7 +1211,8 @@
       "pitcher_visita": 682052,
       "hora_inicio_utc": "2026-08-22T23:10:00+00:00",
       "hora_corrida_utc": "2026-08-22T22:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-22T21:10:43.713592+00:00"
     },
     "Chicago White Sox": {
       "local": "Chicago White Sox",
@@ -1220,7 +1221,8 @@
       "pitcher_visita": 681035,
       "hora_inicio_utc": "2026-08-22T23:10:00+00:00",
       "hora_corrida_utc": "2026-08-22T22:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-22T21:10:43.713592+00:00"
     },
     "Kansas City Royals": {
       "local": "Kansas City Royals",
