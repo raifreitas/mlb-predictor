@@ -898,6 +898,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-22",
+   "local": "Milwaukee Brewers",
+   "visita": "Atlanta Braves",
+   "linea": 8.0,
+   "prediccion": 6.22,
+   "prob_over": 0.3976410925388336,
+   "edge": 1.78,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Filtro Extremo (linea 6.22 <= 6.5)",
+   "evaluado_utc": "2026-08-22T16:10:52Z"
+  },
+  {
+   "fecha": "2026-08-22",
    "local": "New York Yankees",
    "visita": "Toronto Blue Jays",
    "linea": 6.5,
@@ -1833,5 +1845,5 @@
    "evaluado_utc": "2026-08-16T14:15:43Z"
   }
  ],
- "fecha_actualizacion": "2026-08-22T15:35:47Z"
+ "fecha_actualizacion": "2026-08-22T16:10:53Z"
 }
