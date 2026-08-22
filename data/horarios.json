@@ -1231,7 +1231,8 @@
       "pitcher_visita": 623454,
       "hora_inicio_utc": "2026-08-22T23:15:00+00:00",
       "hora_corrida_utc": "2026-08-22T22:45:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-22T21:15:46.866453+00:00"
     },
     "Los Angeles Dodgers": {
       "local": "Los Angeles Dodgers",
@@ -1240,7 +1241,8 @@
       "pitcher_visita": 683003,
       "hora_inicio_utc": "2026-08-22T23:15:00+00:00",
       "hora_corrida_utc": "2026-08-22T22:45:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-22T21:15:46.866453+00:00"
     },
     "Seattle Mariners": {
       "local": "Seattle Mariners",
@@ -1249,7 +1251,8 @@
       "pitcher_visita": 656849,
       "hora_inicio_utc": "2026-08-22T23:15:00+00:00",
       "hora_corrida_utc": "2026-08-22T22:45:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-22T21:15:46.866453+00:00"
     },
     "Boston Red Sox": {
       "local": "Boston Red Sox",
@@ -1258,7 +1261,8 @@
       "pitcher_visita": 694918,
       "hora_inicio_utc": "2026-08-22T23:15:00+00:00",
       "hora_corrida_utc": "2026-08-22T22:45:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-22T21:15:46.866453+00:00"
     },
     "Arizona Diamondbacks": {
       "local": "Arizona Diamondbacks",
