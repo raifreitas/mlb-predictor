@@ -1151,7 +1151,8 @@
       "pitcher_visita": 656302,
       "hora_inicio_utc": "2026-08-22T17:35:00+00:00",
       "hora_corrida_utc": "2026-08-22T17:05:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-22T15:35:42.148663+00:00"
     },
     "Milwaukee Brewers": {
       "local": "Milwaukee Brewers",
