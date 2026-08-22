@@ -280,7 +280,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-23 00:10:00.000",
-   "temperatura_c": 20.0
+   "temperatura_c": 37.8
   },
   {
    "fecha": "2026-08-22",
@@ -324,7 +324,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-23 00:10:00.000",
-   "temperatura_c": 26.5
+   "temperatura_c": 20.0
   },
   {
    "fecha": "2026-08-22",
@@ -1821,5 +1821,5 @@
    "evaluado_utc": "2026-08-16T14:15:43Z"
   }
  ],
- "fecha_actualizacion": "2026-08-22T06:51:24Z"
+ "fecha_actualizacion": "2026-08-22T07:15:45Z"
 }
