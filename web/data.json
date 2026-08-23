@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-08-22",
+ "ultima_fecha_prediccion": "2026-08-23",
  "resumen": {
   "ganadas": 14,
   "perdidas": 2,
@@ -974,9 +974,60 @@
    "total": 5,
    "creado": "2026-08-22 21:15:51",
    "verificado": "2026-08-23 06:48:05"
+  },
+  {
+   "id": 1043,
+   "fecha": "2026-08-23",
+   "local": "Seattle Mariners",
+   "visita": "Chicago Cubs",
+   "tipo": "OVER",
+   "linea": 7.5,
+   "unidades": 0.5,
+   "edge": 2.45,
+   "cuota": 1.93,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-08-23 18:10:48",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-08-23",
+   "local": "Los Angeles Dodgers",
+   "visita": "Pittsburgh Pirates",
+   "linea": 8.5,
+   "prediccion": 7.39,
+   "prob_over": 0.4453584551811218,
+   "edge": 1.11,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 1.11 < 1.45)",
+   "evaluado_utc": "2026-08-23T18:10:48Z"
+  },
+  {
+   "fecha": "2026-08-23",
+   "local": "San Diego Padres",
+   "visita": "Minnesota Twins",
+   "linea": 8.5,
+   "prediccion": 7.36,
+   "prob_over": 0.4939223825931549,
+   "edge": 1.14,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.14 carreras, prob_over 49.4%)",
+   "evaluado_utc": "2026-08-23T18:10:48Z"
+  },
+  {
+   "fecha": "2026-08-23",
+   "local": "Seattle Mariners",
+   "visita": "Chicago Cubs",
+   "linea": 7.5,
+   "prediccion": 9.95,
+   "prob_over": 0.43389374017715454,
+   "edge": 2.45,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-08-23T18:10:48Z"
+  },
   {
    "fecha": "2026-08-23",
    "local": "Boston Red Sox",
@@ -2022,5 +2073,5 @@
    "evaluado_utc": "2026-08-17T20:05:38Z"
   }
  ],
- "fecha_actualizacion": "2026-08-23T17:15:50Z"
+ "fecha_actualizacion": "2026-08-23T18:10:50Z"
 }
