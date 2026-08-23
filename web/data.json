@@ -979,6 +979,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-23",
+   "local": "Colorado Rockies",
+   "visita": "Cleveland Guardians",
+   "linea": 11.0,
+   "prediccion": 10.81,
+   "prob_over": 0.7347916960716248,
+   "edge": 0.19,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Filtro Extremo (linea 10.81 >= 9.5)",
+   "evaluado_utc": "2026-08-23T17:10:48Z"
+  },
+  {
+   "fecha": "2026-08-23",
    "local": "Texas Rangers",
    "visita": "Los Angeles Angels",
    "linea": 8.0,
@@ -1998,5 +2010,5 @@
    "evaluado_utc": "2026-08-17T20:05:38Z"
   }
  ],
- "fecha_actualizacion": "2026-08-23T16:35:49Z"
+ "fecha_actualizacion": "2026-08-23T17:10:49Z"
 }

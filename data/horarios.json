@@ -1383,7 +1383,8 @@
       "pitcher_visita": 656492,
       "hora_inicio_utc": "2026-08-23T19:10:00+00:00",
       "hora_corrida_utc": "2026-08-23T18:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-23T17:10:43.869834+00:00"
     },
     "Boston Red Sox": {
       "local": "Boston Red Sox",
