@@ -994,6 +994,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-23",
+   "local": "Milwaukee Brewers",
+   "visita": "Atlanta Braves",
+   "linea": 7.5,
+   "prediccion": 7.29,
+   "prob_over": 0.3912902772426605,
+   "edge": 0.21,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.21 carreras, prob_over 39.1%)",
+   "evaluado_utc": "2026-08-23T21:10:51Z"
+  },
+  {
+   "fecha": "2026-08-23",
    "local": "Arizona Diamondbacks",
    "visita": "Cincinnati Reds",
    "linea": 9.0,
@@ -2085,5 +2097,5 @@
    "evaluado_utc": "2026-08-17T20:05:38Z"
   }
  ],
- "fecha_actualizacion": "2026-08-23T18:15:47Z"
+ "fecha_actualizacion": "2026-08-23T21:10:52Z"
 }
