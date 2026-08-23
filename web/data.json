@@ -994,6 +994,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-23",
+   "local": "Arizona Diamondbacks",
+   "visita": "Cincinnati Reds",
+   "linea": 9.0,
+   "prediccion": 8.57,
+   "prob_over": 0.48598822951316833,
+   "edge": 0.43,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.43 carreras, prob_over 48.6%)",
+   "evaluado_utc": "2026-08-23T18:15:46Z"
+  },
+  {
+   "fecha": "2026-08-23",
    "local": "Los Angeles Dodgers",
    "visita": "Pittsburgh Pirates",
    "linea": 8.5,
@@ -2073,5 +2085,5 @@
    "evaluado_utc": "2026-08-17T20:05:38Z"
   }
  ],
- "fecha_actualizacion": "2026-08-23T18:10:50Z"
+ "fecha_actualizacion": "2026-08-23T18:15:47Z"
 }
