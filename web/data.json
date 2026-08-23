@@ -979,6 +979,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-23",
+   "local": "Boston Red Sox",
+   "visita": "San Francisco Giants",
+   "linea": 8.5,
+   "prediccion": 6.68,
+   "prob_over": 0.5424842238426208,
+   "edge": 1.82,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.82 carreras, prob_over 54.2%)",
+   "evaluado_utc": "2026-08-23T17:15:49Z"
+  },
+  {
+   "fecha": "2026-08-23",
    "local": "Colorado Rockies",
    "visita": "Cleveland Guardians",
    "linea": 11.0,
@@ -2010,5 +2022,5 @@
    "evaluado_utc": "2026-08-17T20:05:38Z"
   }
  ],
- "fecha_actualizacion": "2026-08-23T17:10:49Z"
+ "fecha_actualizacion": "2026-08-23T17:15:50Z"
 }
