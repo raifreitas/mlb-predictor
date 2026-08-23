@@ -1343,7 +1343,8 @@
       "pitcher_visita": null,
       "hora_inicio_utc": "2026-08-23T18:10:00+00:00",
       "hora_corrida_utc": "2026-08-23T17:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-23T16:10:47.764480+00:00"
     },
     "Houston Astros": {
       "local": "Houston Astros",
@@ -1352,7 +1353,8 @@
       "pitcher_visita": 669620,
       "hora_inicio_utc": "2026-08-23T18:10:00+00:00",
       "hora_corrida_utc": "2026-08-23T17:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-23T16:10:47.764480+00:00"
     },
     "Chicago White Sox": {
       "local": "Chicago White Sox",
@@ -1361,7 +1363,8 @@
       "pitcher_visita": 690997,
       "hora_inicio_utc": "2026-08-23T18:10:00+00:00",
       "hora_corrida_utc": "2026-08-23T17:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-23T16:10:47.764480+00:00"
     },
     "Texas Rangers": {
       "local": "Texas Rangers",
