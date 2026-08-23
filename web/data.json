@@ -978,6 +978,42 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-08-23",
+   "local": "Baltimore Orioles",
+   "visita": "Tampa Bay Rays",
+   "linea": 9.0,
+   "prediccion": 7.16,
+   "prob_over": 0.5119085311889648,
+   "edge": 1.59,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Volatilidad del Abridor (WHIP Local: 1.35 | Visita: 1.14)",
+   "evaluado_utc": "2026-08-23T15:35:45Z"
+  },
+  {
+   "fecha": "2026-08-23",
+   "local": "New York Yankees",
+   "visita": "Toronto Blue Jays",
+   "linea": 7.5,
+   "prediccion": 7.06,
+   "prob_over": 0.38247254490852356,
+   "edge": 0.44,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.44 carreras, prob_over 38.2%)",
+   "evaluado_utc": "2026-08-23T15:35:45Z"
+  },
+  {
+   "fecha": "2026-08-23",
+   "local": "Philadelphia Phillies",
+   "visita": "St. Louis Cardinals",
+   "linea": 8.0,
+   "prediccion": 6.84,
+   "prob_over": 0.5046049952507019,
+   "edge": 1.16,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.16 carreras, prob_over 50.5%)",
+   "evaluado_utc": "2026-08-23T15:35:45Z"
+  },
+  {
    "fecha": "2026-08-22",
    "local": "San Diego Padres",
    "visita": "Minnesota Twins",
@@ -1902,5 +1938,5 @@
    "evaluado_utc": "2026-08-17T20:05:38Z"
   }
  ],
- "fecha_actualizacion": "2026-08-23T07:15:48Z"
+ "fecha_actualizacion": "2026-08-23T15:35:46Z"
 }
