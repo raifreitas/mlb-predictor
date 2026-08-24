@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-08-23",
+ "ultima_fecha_prediccion": "2026-08-24",
  "resumen": {
   "ganadas": 15,
   "perdidas": 2,
@@ -934,9 +934,36 @@
    "total": 21,
    "creado": "2026-08-23 18:10:48",
    "verificado": "2026-08-24 06:46:21"
+  },
+  {
+   "id": 1044,
+   "fecha": "2026-08-24",
+   "local": "San Francisco Giants",
+   "visita": "Cincinnati Reds",
+   "tipo": "OVER",
+   "linea": 6.5,
+   "unidades": 0.5,
+   "edge": 2.32,
+   "cuota": 1.83,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-08-24 23:45:49",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-08-24",
+   "local": "San Francisco Giants",
+   "visita": "Cincinnati Reds",
+   "linea": 7.0,
+   "prediccion": 8.82,
+   "prob_over": 0.4800099730491638,
+   "edge": 1.82,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-08-24T23:45:49Z"
+  },
   {
    "fecha": "2026-08-24",
    "local": "Arizona Diamondbacks",
@@ -2030,5 +2057,5 @@
    "evaluado_utc": "2026-08-18T20:35:47Z"
   }
  ],
- "fecha_actualizacion": "2026-08-24T23:40:53Z"
+ "fecha_actualizacion": "2026-08-24T23:45:51Z"
 }
