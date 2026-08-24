@@ -1495,7 +1495,8 @@
       "pitcher_visita": 800048,
       "hora_inicio_utc": "2026-08-25T01:38:00+00:00",
       "hora_corrida_utc": "2026-08-25T01:08:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-24T23:40:47.199193+00:00"
     },
     "Arizona Diamondbacks": {
       "local": "Arizona Diamondbacks",
@@ -1504,7 +1505,8 @@
       "pitcher_visita": 592332,
       "hora_inicio_utc": "2026-08-25T01:40:00+00:00",
       "hora_corrida_utc": "2026-08-25T01:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-24T23:40:47.199193+00:00"
     },
     "San Diego Padres": {
       "local": "San Diego Padres",
@@ -1513,7 +1515,8 @@
       "pitcher_visita": 677952,
       "hora_inicio_utc": "2026-08-25T01:40:00+00:00",
       "hora_corrida_utc": "2026-08-25T01:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-24T23:40:47.199193+00:00"
     },
     "Athletics": {
       "local": "Athletics",
@@ -1522,7 +1525,8 @@
       "pitcher_visita": 805673,
       "hora_inicio_utc": "2026-08-25T01:40:00+00:00",
       "hora_corrida_utc": "2026-08-25T01:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-24T23:40:47.199193+00:00"
     },
     "Seattle Mariners": {
       "local": "Seattle Mariners",
@@ -1531,7 +1535,8 @@
       "pitcher_visita": 554430,
       "hora_inicio_utc": "2026-08-25T01:40:00+00:00",
       "hora_corrida_utc": "2026-08-25T01:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-24T23:40:47.199193+00:00"
     },
     "San Francisco Giants": {
       "local": "San Francisco Giants",
