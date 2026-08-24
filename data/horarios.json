@@ -1455,7 +1455,8 @@
       "pitcher_visita": 656876,
       "hora_inicio_utc": "2026-08-24T22:40:00+00:00",
       "hora_corrida_utc": "2026-08-24T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-24T20:40:44.768387+00:00"
     },
     "Miami Marlins": {
       "local": "Miami Marlins",
@@ -1464,7 +1465,8 @@
       "pitcher_visita": 624133,
       "hora_inicio_utc": "2026-08-24T22:40:00+00:00",
       "hora_corrida_utc": "2026-08-24T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-24T20:40:44.768387+00:00"
     },
     "Washington Nationals": {
       "local": "Washington Nationals",
