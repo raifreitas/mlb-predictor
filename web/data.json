@@ -939,6 +939,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-24",
+   "local": "Chicago White Sox",
+   "visita": "Texas Rangers",
+   "linea": 8.0,
+   "prediccion": 8.63,
+   "prob_over": 0.48485901951789856,
+   "edge": 0.63,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.63 carreras, prob_over 48.5%)",
+   "evaluado_utc": "2026-08-24T21:40:47Z"
+  },
+  {
+   "fecha": "2026-08-24",
    "local": "Washington Nationals",
    "visita": "Colorado Rockies",
    "linea": 8.0,
@@ -1958,5 +1970,5 @@
    "evaluado_utc": "2026-08-18T20:35:47Z"
   }
  ],
- "fecha_actualizacion": "2026-08-24T20:45:55Z"
+ "fecha_actualizacion": "2026-08-24T21:40:48Z"
 }
