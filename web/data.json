@@ -939,6 +939,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-24",
+   "local": "Washington Nationals",
+   "visita": "Colorado Rockies",
+   "linea": 8.0,
+   "prediccion": 8.3,
+   "prob_over": 0.5613683462142944,
+   "edge": 0.3,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 0.30 < 1.45)",
+   "evaluado_utc": "2026-08-24T20:45:54Z"
+  },
+  {
+   "fecha": "2026-08-24",
    "local": "Detroit Tigers",
    "visita": "Tampa Bay Rays",
    "linea": 7.5,
@@ -1946,5 +1958,5 @@
    "evaluado_utc": "2026-08-18T20:35:47Z"
   }
  ],
- "fecha_actualizacion": "2026-08-24T20:40:50Z"
+ "fecha_actualizacion": "2026-08-24T20:45:55Z"
 }
