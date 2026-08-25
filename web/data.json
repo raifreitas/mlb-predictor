@@ -954,6 +954,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-25",
+   "local": "New York Yankees",
+   "visita": "Houston Astros",
+   "linea": 8.5,
+   "prediccion": 5.82,
+   "prob_over": 0.46444547176361084,
+   "edge": 2.68,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Filtro Extremo (linea 5.82 <= 6.5)",
+   "evaluado_utc": "2026-08-25T21:05:48Z"
+  },
+  {
+   "fecha": "2026-08-25",
    "local": "Washington Nationals",
    "visita": "Colorado Rockies",
    "linea": 8.5,
@@ -1913,5 +1925,5 @@
    "evaluado_utc": "2026-08-19T14:35:44Z"
   }
  ],
- "fecha_actualizacion": "2026-08-25T20:45:57Z"
+ "fecha_actualizacion": "2026-08-25T21:05:49Z"
 }
