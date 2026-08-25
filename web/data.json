@@ -954,6 +954,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-25",
+   "local": "Chicago White Sox",
+   "visita": "Texas Rangers",
+   "linea": 7.0,
+   "prediccion": 7.05,
+   "prob_over": 0.4484688341617584,
+   "edge": 0.05,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.05 carreras, prob_over 44.8%)",
+   "evaluado_utc": "2026-08-25T21:40:07Z"
+  },
+  {
+   "fecha": "2026-08-25",
    "local": "Atlanta Braves",
    "visita": "Los Angeles Dodgers",
    "linea": 8.5,
@@ -1961,5 +1973,5 @@
    "evaluado_utc": "2026-08-19T14:35:44Z"
   }
  ],
- "fecha_actualizacion": "2026-08-25T21:15:52Z"
+ "fecha_actualizacion": "2026-08-25T21:40:08Z"
 }
