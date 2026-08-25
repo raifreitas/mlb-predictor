@@ -954,6 +954,30 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-25",
+   "local": "New York Mets",
+   "visita": "Milwaukee Brewers",
+   "linea": 7.5,
+   "prediccion": 7.1,
+   "prob_over": 0.4778628349304199,
+   "edge": 0.4,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.40 carreras, prob_over 47.8%)",
+   "evaluado_utc": "2026-08-25T21:10:56Z"
+  },
+  {
+   "fecha": "2026-08-25",
+   "local": "Toronto Blue Jays",
+   "visita": "Kansas City Royals",
+   "linea": 8.5,
+   "prediccion": 8.86,
+   "prob_over": 0.4978482723236084,
+   "edge": 0.36,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.36 carreras, prob_over 49.8%)",
+   "evaluado_utc": "2026-08-25T21:10:56Z"
+  },
+  {
+   "fecha": "2026-08-25",
    "local": "New York Yankees",
    "visita": "Houston Astros",
    "linea": 8.5,
@@ -1925,5 +1949,5 @@
    "evaluado_utc": "2026-08-19T14:35:44Z"
   }
  ],
- "fecha_actualizacion": "2026-08-25T21:05:49Z"
+ "fecha_actualizacion": "2026-08-25T21:10:57Z"
 }
