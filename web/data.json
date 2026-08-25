@@ -953,6 +953,30 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-08-25",
+   "local": "Detroit Tigers",
+   "visita": "Tampa Bay Rays",
+   "linea": 7.5,
+   "prediccion": 6.78,
+   "prob_over": 0.4190302789211273,
+   "edge": 0.72,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 0.72 < 1.45)",
+   "evaluado_utc": "2026-08-25T20:40:52Z"
+  },
+  {
+   "fecha": "2026-08-25",
+   "local": "Miami Marlins",
+   "visita": "Boston Red Sox",
+   "linea": 7.0,
+   "prediccion": 7.61,
+   "prob_over": 0.431344211101532,
+   "edge": 0.61,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.61 carreras, prob_over 43.1%)",
+   "evaluado_utc": "2026-08-25T20:40:52Z"
+  },
+  {
    "fecha": "2026-08-24",
    "local": "San Francisco Giants",
    "visita": "Cincinnati Reds",
@@ -1877,5 +1901,5 @@
    "evaluado_utc": "2026-08-19T14:35:44Z"
   }
  ],
- "fecha_actualizacion": "2026-08-25T07:30:51Z"
+ "fecha_actualizacion": "2026-08-25T20:40:53Z"
 }
