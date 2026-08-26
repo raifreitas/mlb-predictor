@@ -969,6 +969,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-26",
+   "local": "St. Louis Cardinals",
+   "visita": "Baltimore Orioles",
+   "linea": 8.0,
+   "prediccion": 8.86,
+   "prob_over": 0.4658544361591339,
+   "edge": 0.86,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.86 carreras, prob_over 46.6%)",
+   "evaluado_utc": "2026-08-26T21:45:54Z"
+  },
+  {
+   "fecha": "2026-08-26",
    "local": "Chicago White Sox",
    "visita": "Texas Rangers",
    "linea": 8.0,
@@ -2048,5 +2060,5 @@
    "evaluado_utc": "2026-08-20T14:40:50Z"
   }
  ],
- "fecha_actualizacion": "2026-08-26T21:40:52Z"
+ "fecha_actualizacion": "2026-08-26T21:45:55Z"
 }

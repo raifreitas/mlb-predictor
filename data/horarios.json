@@ -1839,7 +1839,8 @@
       "pitcher_visita": 680694,
       "hora_inicio_utc": "2026-08-26T23:45:00+00:00",
       "hora_corrida_utc": "2026-08-26T23:15:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-26T21:45:49.642367+00:00"
     },
     "Athletics": {
       "local": "Athletics",
