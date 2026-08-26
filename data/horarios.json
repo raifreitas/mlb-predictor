@@ -1769,7 +1769,8 @@
       "pitcher_visita": 543243,
       "hora_inicio_utc": "2026-08-26T22:40:00+00:00",
       "hora_corrida_utc": "2026-08-26T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-26T20:40:50.729400+00:00"
     },
     "Washington Nationals": {
       "local": "Washington Nationals",

@@ -969,6 +969,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-26",
+   "local": "Miami Marlins",
+   "visita": "Boston Red Sox",
+   "linea": 7.5,
+   "prediccion": 6.8,
+   "prob_over": 0.4247688055038452,
+   "edge": 0.7,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 0.70 < 1.45)",
+   "evaluado_utc": "2026-08-26T20:40:55Z"
+  },
+  {
+   "fecha": "2026-08-26",
    "local": "Los Angeles Angels",
    "visita": "Cleveland Guardians",
    "linea": 8.5,
@@ -1964,5 +1976,5 @@
    "evaluado_utc": "2026-08-20T14:40:50Z"
   }
  ],
- "fecha_actualizacion": "2026-08-26T18:11:05Z"
+ "fecha_actualizacion": "2026-08-26T20:40:56Z"
 }
