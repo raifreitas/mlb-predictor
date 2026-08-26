@@ -969,6 +969,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-26",
+   "local": "Washington Nationals",
+   "visita": "Colorado Rockies",
+   "linea": 9.0,
+   "prediccion": 10.39,
+   "prob_over": 0.5880157351493835,
+   "edge": 1.39,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Filtro Extremo (linea 10.39 >= 9.5)",
+   "evaluado_utc": "2026-08-26T20:45:49Z"
+  },
+  {
+   "fecha": "2026-08-26",
    "local": "Miami Marlins",
    "visita": "Boston Red Sox",
    "linea": 7.5,
@@ -1976,5 +1988,5 @@
    "evaluado_utc": "2026-08-20T14:40:50Z"
   }
  ],
- "fecha_actualizacion": "2026-08-26T20:40:56Z"
+ "fecha_actualizacion": "2026-08-26T20:45:50Z"
 }
