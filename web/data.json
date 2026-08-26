@@ -968,6 +968,18 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-08-26",
+   "local": "Detroit Tigers",
+   "visita": "Tampa Bay Rays",
+   "linea": 7.5,
+   "prediccion": 7.92,
+   "prob_over": 0.39392057061195374,
+   "edge": 0.42,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.42 carreras, prob_over 39.4%)",
+   "evaluado_utc": "2026-08-26T15:23:22Z"
+  },
+  {
    "fecha": "2026-08-25",
    "local": "San Francisco Giants",
    "visita": "Cincinnati Reds",
@@ -1892,5 +1904,5 @@
    "evaluado_utc": "2026-08-20T14:40:50Z"
   }
  ],
- "fecha_actualizacion": "2026-08-26T07:30:49Z"
+ "fecha_actualizacion": "2026-08-26T15:23:23Z"
 }
