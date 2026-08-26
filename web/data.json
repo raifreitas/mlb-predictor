@@ -969,6 +969,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-26",
+   "local": "Athletics",
+   "visita": "Minnesota Twins",
+   "linea": 10.0,
+   "prediccion": 9.49,
+   "prob_over": 0.6609869003295898,
+   "edge": 0.51,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.51 carreras, prob_over 66.1%)",
+   "evaluado_utc": "2026-08-26T23:05:44Z"
+  },
+  {
+   "fecha": "2026-08-26",
    "local": "St. Louis Cardinals",
    "visita": "Baltimore Orioles",
    "linea": 8.0,
@@ -2060,5 +2072,5 @@
    "evaluado_utc": "2026-08-20T14:40:50Z"
   }
  ],
- "fecha_actualizacion": "2026-08-26T21:45:55Z"
+ "fecha_actualizacion": "2026-08-26T23:05:45Z"
 }
