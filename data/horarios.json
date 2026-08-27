@@ -1852,5 +1852,70 @@
       "estado": "ejecutado",
       "ejecutado_utc": "2026-08-26T23:05:41.527431+00:00"
     }
+  },
+  "2026-08-27": {
+    "Washington Nationals": {
+      "local": "Washington Nationals",
+      "visita": "Colorado Rockies",
+      "pitcher_local": 663623,
+      "pitcher_visita": 687312,
+      "hora_inicio_utc": "2026-08-27T17:05:00+00:00",
+      "hora_corrida_utc": "2026-08-27T16:35:00+00:00",
+      "estado": "pendiente"
+    },
+    "St. Louis Cardinals": {
+      "local": "St. Louis Cardinals",
+      "visita": "Baltimore Orioles",
+      "pitcher_local": null,
+      "pitcher_visita": 669432,
+      "hora_inicio_utc": "2026-08-27T18:15:00+00:00",
+      "hora_corrida_utc": "2026-08-27T17:45:00+00:00",
+      "estado": "pendiente"
+    },
+    "New York Yankees": {
+      "local": "New York Yankees",
+      "visita": "Houston Astros",
+      "pitcher_local": 543037,
+      "pitcher_visita": 669713,
+      "hora_inicio_utc": "2026-08-27T23:05:00+00:00",
+      "hora_corrida_utc": "2026-08-27T22:35:00+00:00",
+      "estado": "pendiente"
+    },
+    "Toronto Blue Jays": {
+      "local": "Toronto Blue Jays",
+      "visita": "Kansas City Royals",
+      "pitcher_local": 681293,
+      "pitcher_visita": 702070,
+      "hora_inicio_utc": "2026-08-27T23:07:00+00:00",
+      "hora_corrida_utc": "2026-08-27T22:37:00+00:00",
+      "estado": "pendiente"
+    },
+    "New York Mets": {
+      "local": "New York Mets",
+      "visita": "Milwaukee Brewers",
+      "pitcher_local": 640455,
+      "pitcher_visita": 694819,
+      "hora_inicio_utc": "2026-08-27T23:10:00+00:00",
+      "hora_corrida_utc": "2026-08-27T22:40:00+00:00",
+      "estado": "pendiente"
+    },
+    "Atlanta Braves": {
+      "local": "Atlanta Braves",
+      "visita": "Los Angeles Dodgers",
+      "pitcher_local": 519242,
+      "pitcher_visita": 808967,
+      "hora_inicio_utc": "2026-08-27T23:15:00+00:00",
+      "hora_corrida_utc": "2026-08-27T22:45:00+00:00",
+      "estado": "pendiente"
+    },
+    "San Francisco Giants": {
+      "local": "San Francisco Giants",
+      "visita": "Arizona Diamondbacks",
+      "pitcher_local": 694738,
+      "pitcher_visita": 703615,
+      "hora_inicio_utc": "2026-08-28T01:45:00+00:00",
+      "hora_corrida_utc": "2026-08-28T01:15:00+00:00",
+      "estado": "pendiente"
+    }
   }
 }
