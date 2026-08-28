@@ -27,15 +27,15 @@ jobs:
         run: |
           HOY=$(python -c "from datetime import datetime; from zoneinfo import ZoneInfo; print(datetime.now(ZoneInfo('America/New_York')).date())")
           PENDIENTES=$(python -c "
-            import json
-            hoy = '$HOY'
-            try:
-                datos = json.load(open('data/horarios.json', encoding='utf-8'))
-            except Exception:
-                datos = {}
-            entrada = datos.get(hoy, {})
-            pendientes = [k for k, v in entrada.items() if v.get('estado') == 'pendiente']
-            print(len(pendientes))")
+import json
+hoy = '$HOY'
+try:
+    datos = json.load(open('data/horarios.json', encoding='utf-8'))
+except Exception:
+    datos = {}
+entrada = datos.get(hoy, {})
+pendientes = [k for k, v in entrada.items() if v.get('estado') == 'pendiente']
+print(len(pendientes))")
           if [ "$PENDIENTES" = "0" ]; then
             echo "Sin partidos pendientes hoy ($HOY); no hace falta vigilancia."
             echo "reintentar=0" >> "$GITHUB_OUTPUT"
@@ -43,10 +43,10 @@ jobs:
           fi
           ULTIMO=$(curl -sS "https://api.github.com/repos/${GITHUB_REPOSITORY}/commits?path=web/data.json&per_page=1" | python -c "import sys, json; print(json.load(sys.stdin)[0]['commit']['committer']['date'])")
           ANTIGUEDAD_MIN=$(python -c "
-            import datetime
-            fecha = datetime.datetime.fromisoformat('$ULTIMO'.replace('Z', '+00:00'))
-            ahora = datetime.datetime.now(datetime.timezone.utc)
-            print(int((ahora - fecha).total_seconds() // 60))")
+import datetime
+fecha = datetime.datetime.fromisoformat('$ULTIMO'.replace('Z', '+00:00'))
+ahora = datetime.datetime.now(datetime.timezone.utc)
+print(int((ahora - fecha).total_seconds() // 60))")
           echo "Partidos pendientes hoy: $PENDIENTES; web/data.json sin cambios hace $ANTIGUEDAD_MIN min."
           if [ "$ANTIGUEDAD_MIN" -ge 240 ]; then
             echo "reintentar=1" >> "$GITHUB_OUTPUT"
