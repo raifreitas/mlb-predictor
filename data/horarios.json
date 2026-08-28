@@ -1891,7 +1891,8 @@
       "pitcher_visita": 702070,
       "hora_inicio_utc": "2026-08-27T23:07:00+00:00",
       "hora_corrida_utc": "2026-08-27T22:37:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-28T01:10:47.536801+00:00"
     },
     "New York Mets": {
       "local": "New York Mets",
@@ -1900,7 +1901,8 @@
       "pitcher_visita": 694819,
       "hora_inicio_utc": "2026-08-27T23:10:00+00:00",
       "hora_corrida_utc": "2026-08-27T22:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-28T01:10:47.536801+00:00"
     },
     "Atlanta Braves": {
       "local": "Atlanta Braves",
