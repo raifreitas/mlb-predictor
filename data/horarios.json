@@ -1963,7 +1963,8 @@
       "pitcher_visita": 608379,
       "hora_inicio_utc": "2026-08-28T23:10:00+00:00",
       "hora_corrida_utc": "2026-08-28T22:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-28T21:10:56.615711+00:00"
     },
     "New York Mets": {
       "local": "New York Mets",
@@ -1972,7 +1973,8 @@
       "pitcher_visita": 686613,
       "hora_inicio_utc": "2026-08-28T23:10:00+00:00",
       "hora_corrida_utc": "2026-08-28T22:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-28T21:10:56.615711+00:00"
     },
     "Tampa Bay Rays": {
       "local": "Tampa Bay Rays",
@@ -1981,7 +1983,8 @@
       "pitcher_visita": 663554,
       "hora_inicio_utc": "2026-08-28T23:10:00+00:00",
       "hora_corrida_utc": "2026-08-28T22:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-28T21:10:56.615711+00:00"
     },
     "Toronto Blue Jays": {
       "local": "Toronto Blue Jays",
