@@ -1993,7 +1993,8 @@
       "pitcher_visita": null,
       "hora_inicio_utc": "2026-08-28T23:15:00+00:00",
       "hora_corrida_utc": "2026-08-28T22:45:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-28T21:15:56.047532+00:00"
     },
     "Atlanta Braves": {
       "local": "Atlanta Braves",
@@ -2002,7 +2003,8 @@
       "pitcher_visita": 608372,
       "hora_inicio_utc": "2026-08-28T23:15:00+00:00",
       "hora_corrida_utc": "2026-08-28T22:45:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-28T21:15:56.047532+00:00"
     },
     "New York Yankees": {
       "local": "New York Yankees",
@@ -2011,7 +2013,8 @@
       "pitcher_visita": 663776,
       "hora_inicio_utc": "2026-08-28T23:15:00+00:00",
       "hora_corrida_utc": "2026-08-28T22:45:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-28T21:15:56.047532+00:00"
     },
     "Milwaukee Brewers": {
       "local": "Milwaukee Brewers",
