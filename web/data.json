@@ -936,6 +936,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-28",
+   "local": "Detroit Tigers",
+   "visita": "Los Angeles Dodgers",
+   "linea": 7.5,
+   "prediccion": 7.8,
+   "prob_over": 0.41084739565849304,
+   "edge": 0.3,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.30 carreras, prob_over 41.1%)",
+   "evaluado_utc": "2026-08-28T20:40:52Z"
+  },
+  {
+   "fecha": "2026-08-28",
    "local": "Chicago Cubs",
    "visita": "Cincinnati Reds",
    "linea": 8.5,
@@ -1787,5 +1799,5 @@
    "evaluado_utc": "2026-08-22T15:35:46Z"
   }
  ],
- "fecha_actualizacion": "2026-08-28T19:00:53Z"
+ "fecha_actualizacion": "2026-08-28T20:40:53Z"
 }
