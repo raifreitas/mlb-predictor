@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-08-25",
+ "ultima_fecha_prediccion": "2026-08-28",
  "resumen": {
   "ganadas": 15,
   "perdidas": 4,
@@ -931,9 +931,36 @@
    "total": 4,
    "creado": "2026-08-25 23:45:50",
    "verificado": "2026-08-26 06:48:11"
+  },
+  {
+   "id": 1046,
+   "fecha": "2026-08-28",
+   "local": "St. Louis Cardinals",
+   "visita": "Pittsburgh Pirates",
+   "tipo": "OVER",
+   "linea": 7.5,
+   "unidades": 0.5,
+   "edge": 1.62,
+   "cuota": 1.95,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-08-28 22:15:49",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-08-28",
+   "local": "St. Louis Cardinals",
+   "visita": "Pittsburgh Pirates",
+   "linea": 7.5,
+   "prediccion": 9.12,
+   "prob_over": 0.4555380940437317,
+   "edge": 1.62,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-08-28T22:15:49Z"
+  },
   {
    "fecha": "2026-08-28",
    "local": "Minnesota Twins",
@@ -1907,5 +1934,5 @@
    "evaluado_utc": "2026-08-22T15:35:46Z"
   }
  ],
- "fecha_actualizacion": "2026-08-28T22:10:55Z"
+ "fecha_actualizacion": "2026-08-28T22:15:52Z"
 }
