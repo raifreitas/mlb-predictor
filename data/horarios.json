@@ -1881,7 +1881,8 @@
       "pitcher_visita": 669713,
       "hora_inicio_utc": "2026-08-27T23:05:00+00:00",
       "hora_corrida_utc": "2026-08-27T22:35:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-28T01:05:45.448961+00:00"
     },
     "Toronto Blue Jays": {
       "local": "Toronto Blue Jays",
