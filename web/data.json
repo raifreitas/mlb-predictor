@@ -936,6 +936,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-28",
+   "local": "Milwaukee Brewers",
+   "visita": "Texas Rangers",
+   "linea": 7.5,
+   "prediccion": 6.91,
+   "prob_over": 0.3614099323749542,
+   "edge": 0.59,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 0.59 < 1.45)",
+   "evaluado_utc": "2026-08-28T21:40:53Z"
+  },
+  {
+   "fecha": "2026-08-28",
    "local": "Atlanta Braves",
    "visita": "Colorado Rockies",
    "linea": 9.0,
@@ -1883,5 +1895,5 @@
    "evaluado_utc": "2026-08-22T15:35:46Z"
   }
  ],
- "fecha_actualizacion": "2026-08-28T21:16:02Z"
+ "fecha_actualizacion": "2026-08-28T21:40:54Z"
 }
