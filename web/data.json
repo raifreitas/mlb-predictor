@@ -940,6 +940,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-29",
+   "local": "Minnesota Twins",
+   "visita": "Chicago White Sox",
+   "linea": 9.5,
+   "prediccion": 8.39,
+   "prob_over": 0.5426515340805054,
+   "edge": 1.11,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.11 carreras, prob_over 54.3%)",
+   "evaluado_utc": "2026-08-29T16:11:01Z"
+  },
+  {
+   "fecha": "2026-08-29",
    "local": "Detroit Tigers",
    "visita": "Los Angeles Dodgers",
    "linea": 7.0,
@@ -1791,5 +1803,5 @@
    "evaluado_utc": "2026-08-23T15:35:45Z"
   }
  ],
- "fecha_actualizacion": "2026-08-29T15:10:54Z"
+ "fecha_actualizacion": "2026-08-29T16:11:02Z"
 }
