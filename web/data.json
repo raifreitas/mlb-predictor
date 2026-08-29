@@ -940,6 +940,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-29",
+   "local": "St. Louis Cardinals",
+   "visita": "Pittsburgh Pirates",
+   "linea": 8.0,
+   "prediccion": 6.74,
+   "prob_over": 0.41169846057891846,
+   "edge": 1.26,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 1.26 < 1.45)",
+   "evaluado_utc": "2026-08-29T16:15:56Z"
+  },
+  {
+   "fecha": "2026-08-29",
    "local": "Minnesota Twins",
    "visita": "Chicago White Sox",
    "linea": 9.5,
@@ -1803,5 +1815,5 @@
    "evaluado_utc": "2026-08-23T15:35:45Z"
   }
  ],
- "fecha_actualizacion": "2026-08-29T16:11:02Z"
+ "fecha_actualizacion": "2026-08-29T16:15:57Z"
 }
