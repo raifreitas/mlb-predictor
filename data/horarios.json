@@ -2134,7 +2134,8 @@
       "pitcher_visita": 807739,
       "hora_inicio_utc": "2026-08-29T19:07:00+00:00",
       "hora_corrida_utc": "2026-08-29T18:37:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-29T17:11:05.290830+00:00"
     },
     "San Francisco Giants": {
       "local": "San Francisco Giants",
