@@ -2164,7 +2164,8 @@
       "pitcher_visita": 663738,
       "hora_inicio_utc": "2026-08-29T20:10:00+00:00",
       "hora_corrida_utc": "2026-08-29T19:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-29T18:10:49.417940+00:00"
     },
     "New York Mets": {
       "local": "New York Mets",
@@ -2173,7 +2174,8 @@
       "pitcher_visita": 656986,
       "hora_inicio_utc": "2026-08-29T20:10:00+00:00",
       "hora_corrida_utc": "2026-08-29T19:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-29T18:10:49.417940+00:00"
     },
     "Tampa Bay Rays": {
       "local": "Tampa Bay Rays",
@@ -2182,7 +2184,8 @@
       "pitcher_visita": 621111,
       "hora_inicio_utc": "2026-08-29T20:10:00+00:00",
       "hora_corrida_utc": "2026-08-29T19:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-29T18:10:49.417940+00:00"
     },
     "Atlanta Braves": {
       "local": "Atlanta Braves",
@@ -2191,7 +2194,8 @@
       "pitcher_visita": 663372,
       "hora_inicio_utc": "2026-08-29T20:10:00+00:00",
       "hora_corrida_utc": "2026-08-29T19:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-29T18:10:49.417940+00:00"
     },
     "Milwaukee Brewers": {
       "local": "Milwaukee Brewers",
