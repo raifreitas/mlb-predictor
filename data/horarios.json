@@ -2084,7 +2084,8 @@
       "pitcher_visita": null,
       "hora_inicio_utc": "2026-08-29T23:15:00+00:00",
       "hora_corrida_utc": "2026-08-29T22:45:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-29T15:10:49.284586+00:00"
     },
     "Detroit Tigers": {
       "local": "Detroit Tigers",
@@ -2093,7 +2094,8 @@
       "pitcher_visita": 605483,
       "hora_inicio_utc": "2026-08-29T17:10:00+00:00",
       "hora_corrida_utc": "2026-08-29T16:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-29T15:10:49.284586+00:00"
     },
     "Minnesota Twins": {
       "local": "Minnesota Twins",
