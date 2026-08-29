@@ -2144,7 +2144,8 @@
       "pitcher_visita": null,
       "hora_inicio_utc": "2026-08-30T02:05:00+00:00",
       "hora_corrida_utc": "2026-08-30T01:35:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-29T18:05:48.893071+00:00"
     },
     "Washington Nationals": {
       "local": "Washington Nationals",
@@ -2153,7 +2154,8 @@
       "pitcher_visita": 645261,
       "hora_inicio_utc": "2026-08-29T20:05:00+00:00",
       "hora_corrida_utc": "2026-08-29T19:35:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-29T18:05:48.893071+00:00"
     },
     "Cleveland Guardians": {
       "local": "Cleveland Guardians",
