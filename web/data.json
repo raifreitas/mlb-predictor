@@ -192,7 +192,7 @@
    "linea_real": 8.5,
    "es_final": true,
    "hora_inicio_utc": "2026-08-29 20:10:00.000",
-   "temperatura_c": 20.0
+   "temperatura_c": 25.3
   },
   {
    "fecha": "2026-08-29",
@@ -346,7 +346,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-30 20:05:00.000",
-   "temperatura_c": 20.0
+   "temperatura_c": 21.8
   },
   {
    "fecha": "2026-08-30",
@@ -357,7 +357,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-30 17:35:00.000",
-   "temperatura_c": 26.9
+   "temperatura_c": 27.1
   },
   {
    "fecha": "2026-08-30",
@@ -368,7 +368,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-30 23:20:00.000",
-   "temperatura_c": 22.5
+   "temperatura_c": 22.6
   },
   {
    "fecha": "2026-08-30",
@@ -379,7 +379,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-30 17:40:00.000",
-   "temperatura_c": 23.6
+   "temperatura_c": 23.2
   },
   {
    "fecha": "2026-08-30",
@@ -390,7 +390,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-30 17:40:00.000",
-   "temperatura_c": 23.4
+   "temperatura_c": 23.0
   },
   {
    "fecha": "2026-08-30",
@@ -412,7 +412,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-30 18:10:00.000",
-   "temperatura_c": 22.8
+   "temperatura_c": 23.3
   },
   {
    "fecha": "2026-08-30",
@@ -423,7 +423,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-30 18:10:00.000",
-   "temperatura_c": 24.9
+   "temperatura_c": 25.2
   },
   {
    "fecha": "2026-08-30",
@@ -434,7 +434,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-30 19:10:00.000",
-   "temperatura_c": 21.4
+   "temperatura_c": 21.5
   },
   {
    "fecha": "2026-08-30",
@@ -445,7 +445,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-30 17:35:00.000",
-   "temperatura_c": 21.8
+   "temperatura_c": 21.9
   },
   {
    "fecha": "2026-08-30",
@@ -456,7 +456,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-30 18:15:00.000",
-   "temperatura_c": 27.0
+   "temperatura_c": 26.7
   },
   {
    "fecha": "2026-08-30",
@@ -467,7 +467,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-30 17:40:00.000",
-   "temperatura_c": 26.3
+   "temperatura_c": 25.8
   },
   {
    "fecha": "2026-08-30",
@@ -478,7 +478,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-30 17:37:00.000",
-   "temperatura_c": 18.3
+   "temperatura_c": 19.3
   },
   {
    "fecha": "2026-08-30",
@@ -489,7 +489,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-08-30 16:15:00.000",
-   "temperatura_c": 25.3
+   "temperatura_c": 26.2
   },
   {
    "fecha": "2026-08-31",
@@ -1820,5 +1820,5 @@
    "evaluado_utc": "2026-08-24T20:40:49Z"
   }
  ],
- "fecha_actualizacion": "2026-08-30T06:51:20Z"
+ "fecha_actualizacion": "2026-08-30T12:10:52Z"
 }
