@@ -1017,6 +1017,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-30",
+   "local": "St. Louis Cardinals",
+   "visita": "Pittsburgh Pirates",
+   "linea": 8.0,
+   "prediccion": 7.63,
+   "prob_over": 0.5193290114402771,
+   "edge": 0.37,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.37 carreras, prob_over 51.9%)",
+   "evaluado_utc": "2026-08-30T16:15:53Z"
+  },
+  {
+   "fecha": "2026-08-30",
    "local": "Milwaukee Brewers",
    "visita": "Texas Rangers",
    "linea": 8.5,
@@ -1928,5 +1940,5 @@
    "evaluado_utc": "2026-08-24T20:40:49Z"
   }
  ],
- "fecha_actualizacion": "2026-08-30T16:11:00Z"
+ "fecha_actualizacion": "2026-08-30T16:15:55Z"
 }
