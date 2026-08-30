@@ -2264,7 +2264,8 @@
       "pitcher_visita": 669302,
       "hora_inicio_utc": "2026-08-30T17:37:00+00:00",
       "hora_corrida_utc": "2026-08-30T17:07:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-30T15:40:49.135643+00:00"
     },
     "Cleveland Guardians": {
       "local": "Cleveland Guardians",
@@ -2273,7 +2274,8 @@
       "pitcher_visita": 607625,
       "hora_inicio_utc": "2026-08-30T17:40:00+00:00",
       "hora_corrida_utc": "2026-08-30T17:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-30T15:40:49.135643+00:00"
     },
     "Detroit Tigers": {
       "local": "Detroit Tigers",
@@ -2282,7 +2284,8 @@
       "pitcher_visita": 607192,
       "hora_inicio_utc": "2026-08-30T17:40:00+00:00",
       "hora_corrida_utc": "2026-08-30T17:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-30T15:40:49.135643+00:00"
     },
     "Tampa Bay Rays": {
       "local": "Tampa Bay Rays",
@@ -2291,7 +2294,8 @@
       "pitcher_visita": 592662,
       "hora_inicio_utc": "2026-08-30T17:40:00+00:00",
       "hora_corrida_utc": "2026-08-30T17:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-30T15:40:49.135643+00:00"
     },
     "Minnesota Twins": {
       "local": "Minnesota Twins",
