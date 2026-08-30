@@ -1017,6 +1017,30 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-30",
+   "local": "Atlanta Braves",
+   "visita": "Colorado Rockies",
+   "linea": 8.5,
+   "prediccion": 7.85,
+   "prob_over": 0.5122667551040649,
+   "edge": 0.65,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.65 carreras, prob_over 51.2%)",
+   "evaluado_utc": "2026-08-30T15:35:52Z"
+  },
+  {
+   "fecha": "2026-08-30",
+   "local": "New York Yankees",
+   "visita": "Boston Red Sox",
+   "linea": 8.0,
+   "prediccion": 7.95,
+   "prob_over": 0.3626346290111542,
+   "edge": 0.05,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.05 carreras, prob_over 36.3%)",
+   "evaluado_utc": "2026-08-30T15:35:52Z"
+  },
+  {
+   "fecha": "2026-08-30",
    "local": "Washington Nationals",
    "visita": "Miami Marlins",
    "linea": 9.0,
@@ -1832,5 +1856,5 @@
    "evaluado_utc": "2026-08-24T20:40:49Z"
   }
  ],
- "fecha_actualizacion": "2026-08-30T14:15:43Z"
+ "fecha_actualizacion": "2026-08-30T15:35:53Z"
 }
