@@ -1017,6 +1017,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-30",
+   "local": "Chicago Cubs",
+   "visita": "Cincinnati Reds",
+   "linea": 9.0,
+   "prediccion": 7.76,
+   "prob_over": 0.54714435338974,
+   "edge": 1.24,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.24 carreras, prob_over 54.7%)",
+   "evaluado_utc": "2026-08-30T21:20:59Z"
+  },
+  {
+   "fecha": "2026-08-30",
    "local": "Los Angeles Angels",
    "visita": "Philadelphia Phillies",
    "linea": 7.5,
@@ -1976,5 +1988,5 @@
    "evaluado_utc": "2026-08-24T20:40:49Z"
   }
  ],
- "fecha_actualizacion": "2026-08-30T18:10:59Z"
+ "fecha_actualizacion": "2026-08-30T21:21:00Z"
 }
