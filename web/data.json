@@ -1017,6 +1017,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-30",
+   "local": "Athletics",
+   "visita": "Baltimore Orioles",
+   "linea": 10.5,
+   "prediccion": 10.8,
+   "prob_over": 0.6664028167724609,
+   "edge": 0.3,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Filtro Extremo (linea 10.80 >= 9.5)",
+   "evaluado_utc": "2026-08-30T18:05:53Z"
+  },
+  {
+   "fecha": "2026-08-30",
    "local": "New York Mets",
    "visita": "Houston Astros",
    "linea": 9.0,
@@ -1952,5 +1964,5 @@
    "evaluado_utc": "2026-08-24T20:40:49Z"
   }
  ],
- "fecha_actualizacion": "2026-08-30T17:10:53Z"
+ "fecha_actualizacion": "2026-08-30T18:05:53Z"
 }
