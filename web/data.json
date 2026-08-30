@@ -1017,6 +1017,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-30",
+   "local": "New York Mets",
+   "visita": "Houston Astros",
+   "linea": 9.0,
+   "prediccion": 7.46,
+   "prob_over": 0.5028520226478577,
+   "edge": 1.29,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Fatiga de Bullpen (3 juegos seguidos)",
+   "evaluado_utc": "2026-08-30T17:10:52Z"
+  },
+  {
+   "fecha": "2026-08-30",
    "local": "St. Louis Cardinals",
    "visita": "Pittsburgh Pirates",
    "linea": 8.0,
@@ -1940,5 +1952,5 @@
    "evaluado_utc": "2026-08-24T20:40:49Z"
   }
  ],
- "fecha_actualizacion": "2026-08-30T16:15:55Z"
+ "fecha_actualizacion": "2026-08-30T17:10:53Z"
 }
