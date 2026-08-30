@@ -1016,6 +1016,18 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-08-30",
+   "local": "Washington Nationals",
+   "visita": "Miami Marlins",
+   "linea": 9.0,
+   "prediccion": 7.36,
+   "prob_over": 0.5075408816337585,
+   "edge": 1.39,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Fatiga de Bullpen (6 juegos seguidos)",
+   "evaluado_utc": "2026-08-30T14:15:42Z"
+  },
+  {
    "fecha": "2026-08-29",
    "local": "Milwaukee Brewers",
    "visita": "Texas Rangers",
@@ -1820,5 +1832,5 @@
    "evaluado_utc": "2026-08-24T20:40:49Z"
   }
  ],
- "fecha_actualizacion": "2026-08-30T12:10:52Z"
+ "fecha_actualizacion": "2026-08-30T14:15:43Z"
 }
