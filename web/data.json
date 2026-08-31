@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-08-28",
+ "ultima_fecha_prediccion": "2026-08-31",
  "resumen": {
   "ganadas": 15,
   "perdidas": 5,
@@ -968,9 +968,48 @@
    "total": 5,
    "creado": "2026-08-28 22:15:49",
    "verificado": "2026-08-29 06:50:04"
+  },
+  {
+   "id": 1047,
+   "fecha": "2026-08-31",
+   "local": "Chicago Cubs",
+   "visita": "Milwaukee Brewers",
+   "tipo": "UNDER",
+   "linea": 9.5,
+   "unidades": 0.5,
+   "edge": 2.34,
+   "cuota": 1.87,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-08-31 21:40:59",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-08-31",
+   "local": "Chicago Cubs",
+   "visita": "Milwaukee Brewers",
+   "linea": 9.5,
+   "prediccion": 7.16,
+   "prob_over": 0.4347839653491974,
+   "edge": 2.09,
+   "recomendacion": "APOSTAR UNDER",
+   "motivo": "",
+   "evaluado_utc": "2026-08-31T21:40:59Z"
+  },
+  {
+   "fecha": "2026-08-31",
+   "local": "Minnesota Twins",
+   "visita": "Detroit Tigers",
+   "linea": 9.0,
+   "prediccion": 7.98,
+   "prob_over": 0.4775564670562744,
+   "edge": 1.02,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.02 carreras, prob_over 47.8%)",
+   "evaluado_utc": "2026-08-31T21:40:59Z"
+  },
   {
    "fecha": "2026-08-31",
    "local": "Boston Red Sox",
@@ -1884,5 +1923,5 @@
    "evaluado_utc": "2026-08-25T20:40:52Z"
   }
  ],
- "fecha_actualizacion": "2026-08-31T20:45:51Z"
+ "fecha_actualizacion": "2026-08-31T21:41:00Z"
 }
