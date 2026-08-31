@@ -2406,7 +2406,8 @@
       "pitcher_visita": 669923,
       "hora_inicio_utc": "2026-08-31T22:45:00+00:00",
       "hora_corrida_utc": "2026-08-31T22:15:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-31T20:45:46.951693+00:00"
     },
     "Washington Nationals": {
       "local": "Washington Nationals",
@@ -2415,7 +2416,8 @@
       "pitcher_visita": 687473,
       "hora_inicio_utc": "2026-08-31T22:45:00+00:00",
       "hora_corrida_utc": "2026-08-31T22:15:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-31T20:45:46.951693+00:00"
     },
     "Minnesota Twins": {
       "local": "Minnesota Twins",
