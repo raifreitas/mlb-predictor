@@ -988,6 +988,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-31",
+   "local": "Houston Astros",
+   "visita": "Chicago White Sox",
+   "linea": 9.0,
+   "prediccion": 9.51,
+   "prob_over": 0.5206653475761414,
+   "edge": 0.51,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.51 carreras, prob_over 52.1%)",
+   "evaluado_utc": "2026-08-31T22:10:55Z"
+  },
+  {
+   "fecha": "2026-08-31",
    "local": "Texas Rangers",
    "visita": "Athletics",
    "linea": 7.5,
@@ -1935,5 +1947,5 @@
    "evaluado_utc": "2026-08-25T20:40:52Z"
   }
  ],
- "fecha_actualizacion": "2026-08-31T22:05:56Z"
+ "fecha_actualizacion": "2026-08-31T22:10:56Z"
 }
