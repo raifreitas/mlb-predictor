@@ -988,6 +988,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-08-31",
+   "local": "Texas Rangers",
+   "visita": "Athletics",
+   "linea": 7.5,
+   "prediccion": 7.72,
+   "prob_over": 0.503878653049469,
+   "edge": 0.22,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.22 carreras, prob_over 50.4%)",
+   "evaluado_utc": "2026-08-31T22:05:55Z"
+  },
+  {
+   "fecha": "2026-08-31",
    "local": "Chicago Cubs",
    "visita": "Milwaukee Brewers",
    "linea": 9.5,
@@ -1923,5 +1935,5 @@
    "evaluado_utc": "2026-08-25T20:40:52Z"
   }
  ],
- "fecha_actualizacion": "2026-08-31T21:41:00Z"
+ "fecha_actualizacion": "2026-08-31T22:05:56Z"
 }
