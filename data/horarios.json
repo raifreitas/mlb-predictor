@@ -2386,7 +2386,8 @@
       "pitcher_visita": 650633,
       "hora_inicio_utc": "2026-08-31T22:40:00+00:00",
       "hora_corrida_utc": "2026-08-31T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-31T20:40:45.708466+00:00"
     },
     "Tampa Bay Rays": {
       "local": "Tampa Bay Rays",
@@ -2395,7 +2396,8 @@
       "pitcher_visita": 476594,
       "hora_inicio_utc": "2026-08-31T22:40:00+00:00",
       "hora_corrida_utc": "2026-08-31T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-08-31T20:40:45.708466+00:00"
     },
     "Boston Red Sox": {
       "local": "Boston Red Sox",
