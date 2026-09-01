@@ -1003,6 +1003,42 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-01",
+   "local": "Chicago Cubs",
+   "visita": "Milwaukee Brewers",
+   "linea": 10.0,
+   "prediccion": 8.27,
+   "prob_over": 0.46873241662979126,
+   "edge": 1.48,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Volatilidad del Abridor (WHIP Local: 1.22 | Visita: 1.30)",
+   "evaluado_utc": "2026-09-01T21:40:58Z"
+  },
+  {
+   "fecha": "2026-09-01",
+   "local": "Kansas City Royals",
+   "visita": "Miami Marlins",
+   "linea": 9.5,
+   "prediccion": 8.41,
+   "prob_over": 0.5117763876914978,
+   "edge": 1.09,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.09 carreras, prob_over 51.2%)",
+   "evaluado_utc": "2026-09-01T21:40:58Z"
+  },
+  {
+   "fecha": "2026-09-01",
+   "local": "Minnesota Twins",
+   "visita": "Detroit Tigers",
+   "linea": 8.5,
+   "prediccion": 8.61,
+   "prob_over": 0.4848111569881439,
+   "edge": 0.11,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.11 carreras, prob_over 48.5%)",
+   "evaluado_utc": "2026-09-01T21:40:58Z"
+  },
+  {
+   "fecha": "2026-09-01",
    "local": "Boston Red Sox",
    "visita": "Seattle Mariners",
    "linea": 7.0,
@@ -1890,5 +1926,5 @@
    "evaluado_utc": "2026-08-26T15:23:22Z"
   }
  ],
- "fecha_actualizacion": "2026-09-01T20:46:12Z"
+ "fecha_actualizacion": "2026-09-01T21:40:59Z"
 }
