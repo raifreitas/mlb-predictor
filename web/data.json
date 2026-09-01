@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-08-31",
+ "ultima_fecha_prediccion": "2026-09-01",
  "resumen": {
   "ganadas": 15,
   "perdidas": 6,
@@ -983,9 +983,48 @@
    "total": 20,
    "creado": "2026-08-31 21:40:59",
    "verificado": "2026-09-01 06:46:23"
+  },
+  {
+   "id": 1048,
+   "fecha": "2026-09-01",
+   "local": "Boston Red Sox",
+   "visita": "Seattle Mariners",
+   "tipo": "OVER",
+   "linea": 6.5,
+   "unidades": 0.5,
+   "edge": 3.09,
+   "cuota": 1.8250000000000002,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-01 20:46:10",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-01",
+   "local": "Boston Red Sox",
+   "visita": "Seattle Mariners",
+   "linea": 7.0,
+   "prediccion": 9.59,
+   "prob_over": 0.42717429995536804,
+   "edge": 2.59,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-01T20:46:10Z"
+  },
+  {
+   "fecha": "2026-09-01",
+   "local": "Washington Nationals",
+   "visita": "Atlanta Braves",
+   "linea": 9.5,
+   "prediccion": 6.95,
+   "prob_over": 0.4755137264728546,
+   "edge": 2.3,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Volatilidad del Abridor (WHIP Local: 1.40 | Visita: 1.61)",
+   "evaluado_utc": "2026-09-01T20:46:10Z"
+  },
   {
    "fecha": "2026-09-01",
    "local": "Cincinnati Reds",
@@ -1851,5 +1890,5 @@
    "evaluado_utc": "2026-08-26T15:23:22Z"
   }
  ],
- "fecha_actualizacion": "2026-09-01T20:40:59Z"
+ "fecha_actualizacion": "2026-09-01T20:46:12Z"
 }
