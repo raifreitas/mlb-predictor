@@ -1003,6 +1003,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-01",
+   "local": "Colorado Rockies",
+   "visita": "Baltimore Orioles",
+   "linea": 11.0,
+   "prediccion": 12.35,
+   "prob_over": 0.7528183460235596,
+   "edge": 1.35,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Filtro Extremo (linea 12.35 >= 9.5)",
+   "evaluado_utc": "2026-09-01T22:40:59Z"
+  },
+  {
+   "fecha": "2026-09-01",
    "local": "Houston Astros",
    "visita": "Chicago White Sox",
    "linea": 8.5,
@@ -1950,5 +1962,5 @@
    "evaluado_utc": "2026-08-26T15:23:22Z"
   }
  ],
- "fecha_actualizacion": "2026-09-01T22:11:03Z"
+ "fecha_actualizacion": "2026-09-01T22:41:01Z"
 }
