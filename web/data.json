@@ -1003,6 +1003,30 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-01",
+   "local": "Arizona Diamondbacks",
+   "visita": "Philadelphia Phillies",
+   "linea": 7.5,
+   "prediccion": 6.1,
+   "prob_over": 0.47133028507232666,
+   "edge": 1.4,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Filtro Extremo (linea 6.10 <= 6.5)",
+   "evaluado_utc": "2026-09-01T23:41:02Z"
+  },
+  {
+   "fecha": "2026-09-01",
+   "local": "Los Angeles Angels",
+   "visita": "New York Yankees",
+   "linea": 7.5,
+   "prediccion": 7.05,
+   "prob_over": 0.45424118638038635,
+   "edge": 0.45,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.45 carreras, prob_over 45.4%)",
+   "evaluado_utc": "2026-09-01T23:41:02Z"
+  },
+  {
+   "fecha": "2026-09-01",
    "local": "Colorado Rockies",
    "visita": "Baltimore Orioles",
    "linea": 11.0,
@@ -1962,5 +1986,5 @@
    "evaluado_utc": "2026-08-26T15:23:22Z"
   }
  ],
- "fecha_actualizacion": "2026-09-01T22:41:01Z"
+ "fecha_actualizacion": "2026-09-01T23:41:03Z"
 }
