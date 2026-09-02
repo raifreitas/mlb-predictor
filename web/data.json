@@ -1029,6 +1029,42 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-02",
+   "local": "Chicago Cubs",
+   "visita": "Milwaukee Brewers",
+   "linea": 8.5,
+   "prediccion": 7.89,
+   "prob_over": 0.5222699642181396,
+   "edge": 0.61,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.61 carreras, prob_over 52.2%)",
+   "evaluado_utc": "2026-09-02T21:40:58Z"
+  },
+  {
+   "fecha": "2026-09-02",
+   "local": "Kansas City Royals",
+   "visita": "Miami Marlins",
+   "linea": 9.0,
+   "prediccion": 7.7,
+   "prob_over": 0.5189141631126404,
+   "edge": 1.3,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.30 carreras, prob_over 51.9%)",
+   "evaluado_utc": "2026-09-02T21:40:58Z"
+  },
+  {
+   "fecha": "2026-09-02",
+   "local": "Minnesota Twins",
+   "visita": "Detroit Tigers",
+   "linea": 8.5,
+   "prediccion": 8.72,
+   "prob_over": 0.5552986264228821,
+   "edge": 0.22,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.22 carreras, prob_over 55.5%)",
+   "evaluado_utc": "2026-09-02T21:40:58Z"
+  },
+  {
+   "fecha": "2026-09-02",
    "local": "Cleveland Guardians",
    "visita": "Toronto Blue Jays",
    "linea": 7.0,
@@ -1940,5 +1976,5 @@
    "evaluado_utc": "2026-08-28T16:20:55Z"
   }
  ],
- "fecha_actualizacion": "2026-09-02T20:40:59Z"
+ "fecha_actualizacion": "2026-09-02T21:40:59Z"
 }
