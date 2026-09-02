@@ -1014,6 +1014,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-02",
+   "local": "Texas Rangers",
+   "visita": "Athletics",
+   "linea": 7.5,
+   "prediccion": 8.02,
+   "prob_over": 0.5673478841781616,
+   "edge": 0.52,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 0.52 < 1.45)",
+   "evaluado_utc": "2026-09-02T16:36:08Z"
+  },
+  {
+   "fecha": "2026-09-02",
    "local": "Washington Nationals",
    "visita": "Atlanta Braves",
    "linea": 9.0,
@@ -1841,5 +1853,5 @@
    "evaluado_utc": "2026-08-28T16:20:55Z"
   }
  ],
- "fecha_actualizacion": "2026-09-02T15:06:29Z"
+ "fecha_actualizacion": "2026-09-02T16:36:09Z"
 }
