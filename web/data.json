@@ -1013,6 +1013,18 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-09-02",
+   "local": "Cincinnati Reds",
+   "visita": "San Diego Padres",
+   "linea": 9.5,
+   "prediccion": 8.06,
+   "prob_over": 0.5486419200897217,
+   "edge": 1.44,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.44 carreras, prob_over 54.9%)",
+   "evaluado_utc": "2026-09-02T14:41:05Z"
+  },
+  {
    "fecha": "2026-09-01",
    "local": "Arizona Diamondbacks",
    "visita": "Philadelphia Phillies",
@@ -1817,5 +1829,5 @@
    "evaluado_utc": "2026-08-28T16:20:55Z"
   }
  ],
- "fecha_actualizacion": "2026-09-02T11:40:49Z"
+ "fecha_actualizacion": "2026-09-02T14:41:06Z"
 }
