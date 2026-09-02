@@ -2699,7 +2699,8 @@
       "pitcher_visita": 682243,
       "hora_inicio_utc": "2026-09-02T20:10:00+00:00",
       "hora_corrida_utc": "2026-09-02T19:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-02T18:10:53.330523+00:00"
     },
     "Pittsburgh Pirates": {
       "local": "Pittsburgh Pirates",

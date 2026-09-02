@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-09-01",
+ "ultima_fecha_prediccion": "2026-09-02",
  "resumen": {
   "ganadas": 16,
   "perdidas": 6,
@@ -1009,9 +1009,36 @@
    "total": 15,
    "creado": "2026-09-01 20:46:10",
    "verificado": "2026-09-02 06:46:10"
+  },
+  {
+   "id": 1049,
+   "fecha": "2026-09-02",
+   "local": "Boston Red Sox",
+   "visita": "Seattle Mariners",
+   "tipo": "OVER",
+   "linea": 8.5,
+   "unidades": 0.5,
+   "edge": 2.71,
+   "cuota": 1.95,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-02 18:10:57",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-02",
+   "local": "Boston Red Sox",
+   "visita": "Seattle Mariners",
+   "linea": 8.5,
+   "prediccion": 11.21,
+   "prob_over": 0.4687243103981018,
+   "edge": 2.71,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-02T18:10:57Z"
+  },
   {
    "fecha": "2026-09-02",
    "local": "Arizona Diamondbacks",
@@ -1877,5 +1904,5 @@
    "evaluado_utc": "2026-08-28T16:20:55Z"
   }
  ],
- "fecha_actualizacion": "2026-09-02T17:40:59Z"
+ "fecha_actualizacion": "2026-09-02T18:11:00Z"
 }
