@@ -1029,6 +1029,42 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-02",
+   "local": "Cleveland Guardians",
+   "visita": "Toronto Blue Jays",
+   "linea": 7.0,
+   "prediccion": 6.92,
+   "prob_over": 0.38040268421173096,
+   "edge": 0.08,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.08 carreras, prob_over 38.0%)",
+   "evaluado_utc": "2026-09-02T20:40:58Z"
+  },
+  {
+   "fecha": "2026-09-02",
+   "local": "Pittsburgh Pirates",
+   "visita": "San Francisco Giants",
+   "linea": 8.5,
+   "prediccion": 8.63,
+   "prob_over": 0.4969427287578583,
+   "edge": 0.13,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.13 carreras, prob_over 49.7%)",
+   "evaluado_utc": "2026-09-02T20:40:58Z"
+  },
+  {
+   "fecha": "2026-09-02",
+   "local": "Tampa Bay Rays",
+   "visita": "New York Mets",
+   "linea": 8.0,
+   "prediccion": 8.7,
+   "prob_over": 0.45166638493537903,
+   "edge": 0.7,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.70 carreras, prob_over 45.2%)",
+   "evaluado_utc": "2026-09-02T20:40:58Z"
+  },
+  {
+   "fecha": "2026-09-02",
    "local": "Boston Red Sox",
    "visita": "Seattle Mariners",
    "linea": 8.5,
@@ -1904,5 +1940,5 @@
    "evaluado_utc": "2026-08-28T16:20:55Z"
   }
  ],
- "fecha_actualizacion": "2026-09-02T18:11:00Z"
+ "fecha_actualizacion": "2026-09-02T20:40:59Z"
 }
