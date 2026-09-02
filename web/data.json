@@ -1014,6 +1014,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-02",
+   "local": "Washington Nationals",
+   "visita": "Atlanta Braves",
+   "linea": 9.0,
+   "prediccion": 7.35,
+   "prob_over": 0.4761608839035034,
+   "edge": 1.4,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Fatiga de Bullpen (6 juegos seguidos)",
+   "evaluado_utc": "2026-09-02T15:06:28Z"
+  },
+  {
+   "fecha": "2026-09-02",
    "local": "Cincinnati Reds",
    "visita": "San Diego Padres",
    "linea": 9.5,
@@ -1829,5 +1841,5 @@
    "evaluado_utc": "2026-08-28T16:20:55Z"
   }
  ],
- "fecha_actualizacion": "2026-09-02T14:41:06Z"
+ "fecha_actualizacion": "2026-09-02T15:06:29Z"
 }
