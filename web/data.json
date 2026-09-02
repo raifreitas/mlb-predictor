@@ -1014,6 +1014,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-02",
+   "local": "Colorado Rockies",
+   "visita": "Baltimore Orioles",
+   "linea": 11.5,
+   "prediccion": 11.73,
+   "prob_over": 0.7332522869110107,
+   "edge": 0.23,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Filtro Extremo (linea 11.73 >= 9.5)",
+   "evaluado_utc": "2026-09-02T17:11:07Z"
+  },
+  {
+   "fecha": "2026-09-02",
    "local": "Texas Rangers",
    "visita": "Athletics",
    "linea": 7.5,
@@ -1853,5 +1865,5 @@
    "evaluado_utc": "2026-08-28T16:20:55Z"
   }
  ],
- "fecha_actualizacion": "2026-09-02T16:36:09Z"
+ "fecha_actualizacion": "2026-09-02T17:11:08Z"
 }
