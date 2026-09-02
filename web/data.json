@@ -1029,6 +1029,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-02",
+   "local": "Los Angeles Angels",
+   "visita": "New York Yankees",
+   "linea": 6.5,
+   "prediccion": 6.18,
+   "prob_over": 0.4379405677318573,
+   "edge": 0.32,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.32 carreras, prob_over 43.8%)",
+   "evaluado_utc": "2026-09-02T23:41:06Z"
+  },
+  {
+   "fecha": "2026-09-02",
    "local": "Houston Astros",
    "visita": "Chicago White Sox",
    "linea": 8.5,
@@ -1988,5 +2000,5 @@
    "evaluado_utc": "2026-08-28T16:20:55Z"
   }
  ],
- "fecha_actualizacion": "2026-09-02T22:11:03Z"
+ "fecha_actualizacion": "2026-09-02T23:41:07Z"
 }
