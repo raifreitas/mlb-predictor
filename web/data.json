@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-09-02",
+ "ultima_fecha_prediccion": "2026-09-03",
  "resumen": {
   "ganadas": 17,
   "perdidas": 6,
@@ -991,9 +991,36 @@
    "total": 11,
    "creado": "2026-09-02 18:10:57",
    "verificado": "2026-09-03 06:46:11"
+  },
+  {
+   "id": 1050,
+   "fecha": "2026-09-03",
+   "local": "Seattle Mariners",
+   "visita": "Athletics",
+   "tipo": "OVER",
+   "linea": 7.5,
+   "unidades": 0.5,
+   "edge": 2.1,
+   "cuota": 2.0,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-03 23:41:09",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-03",
+   "local": "Seattle Mariners",
+   "visita": "Athletics",
+   "linea": 7.5,
+   "prediccion": 9.6,
+   "prob_over": 0.5281556844711304,
+   "edge": 2.1,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-03T23:41:09Z"
+  },
   {
    "fecha": "2026-09-03",
    "local": "Texas Rangers",
@@ -2051,5 +2078,5 @@
    "evaluado_utc": "2026-08-28T16:20:55Z"
   }
  ],
- "fecha_actualizacion": "2026-09-03T22:05:59Z"
+ "fecha_actualizacion": "2026-09-03T23:41:10Z"
 }
