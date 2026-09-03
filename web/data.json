@@ -996,6 +996,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-03",
+   "local": "Kansas City Royals",
+   "visita": "Miami Marlins",
+   "linea": 9.0,
+   "prediccion": 7.64,
+   "prob_over": 0.536623477935791,
+   "edge": 1.36,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.36 carreras, prob_over 53.7%)",
+   "evaluado_utc": "2026-09-03T21:40:58Z"
+  },
+  {
+   "fecha": "2026-09-03",
    "local": "Baltimore Orioles",
    "visita": "Boston Red Sox",
    "linea": 8.5,
@@ -2027,5 +2039,5 @@
    "evaluado_utc": "2026-08-28T16:20:55Z"
   }
  ],
- "fecha_actualizacion": "2026-09-03T21:15:59Z"
+ "fecha_actualizacion": "2026-09-03T21:40:59Z"
 }
