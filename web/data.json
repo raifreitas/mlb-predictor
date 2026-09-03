@@ -995,6 +995,18 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-09-03",
+   "local": "Pittsburgh Pirates",
+   "visita": "San Francisco Giants",
+   "linea": 8.5,
+   "prediccion": 9.42,
+   "prob_over": 0.49390068650245667,
+   "edge": 0.92,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.92 carreras, prob_over 49.4%)",
+   "evaluado_utc": "2026-09-03T14:35:52Z"
+  },
+  {
    "fecha": "2026-09-02",
    "local": "Los Angeles Angels",
    "visita": "New York Yankees",
@@ -1967,5 +1979,5 @@
    "evaluado_utc": "2026-08-28T16:20:55Z"
   }
  ],
- "fecha_actualizacion": "2026-09-03T11:35:52Z"
+ "fecha_actualizacion": "2026-09-03T14:35:53Z"
 }
