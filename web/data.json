@@ -996,6 +996,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-03",
+   "local": "Texas Rangers",
+   "visita": "Tampa Bay Rays",
+   "linea": 8.0,
+   "prediccion": 7.47,
+   "prob_over": 0.4267149269580841,
+   "edge": 0.53,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.53 carreras, prob_over 42.7%)",
+   "evaluado_utc": "2026-09-03T22:05:58Z"
+  },
+  {
+   "fecha": "2026-09-03",
    "local": "Kansas City Royals",
    "visita": "Miami Marlins",
    "linea": 9.0,
@@ -2039,5 +2051,5 @@
    "evaluado_utc": "2026-08-28T16:20:55Z"
   }
  ],
- "fecha_actualizacion": "2026-09-03T21:40:59Z"
+ "fecha_actualizacion": "2026-09-03T22:05:59Z"
 }
