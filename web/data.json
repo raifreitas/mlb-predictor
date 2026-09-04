@@ -1000,6 +1000,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-04",
+   "local": "Philadelphia Phillies",
+   "visita": "Atlanta Braves",
+   "linea": 7.0,
+   "prediccion": 6.82,
+   "prob_over": 0.3395217955112457,
+   "edge": 0.18,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 0.18 < 1.45)",
+   "evaluado_utc": "2026-09-04T20:41:24Z"
+  },
+  {
+   "fecha": "2026-09-04",
    "local": "Cincinnati Reds",
    "visita": "Milwaukee Brewers",
    "linea": 9.5,
@@ -1911,5 +1923,5 @@
    "evaluado_utc": "2026-08-29T15:10:53Z"
   }
  ],
- "fecha_actualizacion": "2026-09-04T20:11:00Z"
+ "fecha_actualizacion": "2026-09-04T20:41:24Z"
 }
