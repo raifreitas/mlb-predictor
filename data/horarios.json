@@ -2900,7 +2900,8 @@
       "pitcher_visita": 675660,
       "hora_inicio_utc": "2026-09-04T22:10:00+00:00",
       "hora_corrida_utc": "2026-09-04T21:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-04T20:10:55.052840+00:00"
     },
     "Philadelphia Phillies": {
       "local": "Philadelphia Phillies",
