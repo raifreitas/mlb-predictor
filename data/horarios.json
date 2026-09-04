@@ -2940,7 +2940,8 @@
       "pitcher_visita": 683363,
       "hora_inicio_utc": "2026-09-04T23:10:00+00:00",
       "hora_corrida_utc": "2026-09-04T22:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-04T21:11:02.958700+00:00"
     },
     "Miami Marlins": {
       "local": "Miami Marlins",
@@ -2949,7 +2950,8 @@
       "pitcher_visita": 684007,
       "hora_inicio_utc": "2026-09-04T23:10:00+00:00",
       "hora_corrida_utc": "2026-09-04T22:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-04T21:11:02.958700+00:00"
     },
     "Chicago White Sox": {
       "local": "Chicago White Sox",
