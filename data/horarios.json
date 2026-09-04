@@ -2930,7 +2930,8 @@
       "pitcher_visita": 624133,
       "hora_inicio_utc": "2026-09-04T23:05:00+00:00",
       "hora_corrida_utc": "2026-09-04T22:35:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-04T21:05:52.460728+00:00"
     },
     "New York Mets": {
       "local": "New York Mets",
