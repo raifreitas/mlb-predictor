@@ -2981,7 +2981,8 @@
       "pitcher_visita": 518876,
       "hora_inicio_utc": "2026-09-05T00:10:00+00:00",
       "hora_corrida_utc": "2026-09-04T23:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-04T22:10:55.133661+00:00"
     },
     "Kansas City Royals": {
       "local": "Kansas City Royals",
@@ -2990,7 +2991,8 @@
       "pitcher_visita": 592791,
       "hora_inicio_utc": "2026-09-05T00:10:00+00:00",
       "hora_corrida_utc": "2026-09-04T23:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-04T22:10:55.133661+00:00"
     },
     "Colorado Rockies": {
       "local": "Colorado Rockies",
