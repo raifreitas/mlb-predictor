@@ -1000,6 +1000,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-04",
+   "local": "Colorado Rockies",
+   "visita": "St. Louis Cardinals",
+   "linea": 11.0,
+   "prediccion": 11.53,
+   "prob_over": 0.7391449809074402,
+   "edge": 0.53,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Filtro Extremo (linea 11.53 >= 9.5)",
+   "evaluado_utc": "2026-09-04T22:40:57Z"
+  },
+  {
+   "fecha": "2026-09-04",
    "local": "Houston Astros",
    "visita": "Arizona Diamondbacks",
    "linea": 9.0,
@@ -2031,5 +2043,5 @@
    "evaluado_utc": "2026-08-29T15:10:53Z"
   }
  ],
- "fecha_actualizacion": "2026-09-04T22:11:00Z"
+ "fecha_actualizacion": "2026-09-04T22:40:58Z"
 }
