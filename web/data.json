@@ -1000,6 +1000,30 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-05",
+   "local": "Chicago White Sox",
+   "visita": "Minnesota Twins",
+   "linea": 8.0,
+   "prediccion": 8.02,
+   "prob_over": 0.5482351779937744,
+   "edge": 0.02,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.02 carreras, prob_over 54.8%)",
+   "evaluado_utc": "2026-09-05T21:11:02Z"
+  },
+  {
+   "fecha": "2026-09-05",
+   "local": "Kansas City Royals",
+   "visita": "Toronto Blue Jays",
+   "linea": 9.5,
+   "prediccion": 9.41,
+   "prob_over": 0.5470631122589111,
+   "edge": 0.09,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.09 carreras, prob_over 54.7%)",
+   "evaluado_utc": "2026-09-05T21:11:02Z"
+  },
+  {
+   "fecha": "2026-09-05",
    "local": "Baltimore Orioles",
    "visita": "Boston Red Sox",
    "linea": 8.0,
@@ -1995,5 +2019,5 @@
    "evaluado_utc": "2026-08-30T14:15:42Z"
   }
  ],
- "fecha_actualizacion": "2026-09-05T21:06:00Z"
+ "fecha_actualizacion": "2026-09-05T21:11:03Z"
 }
