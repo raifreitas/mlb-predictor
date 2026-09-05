@@ -3171,7 +3171,8 @@
       "pitcher_visita": 676917,
       "hora_inicio_utc": "2026-09-06T01:10:00+00:00",
       "hora_corrida_utc": "2026-09-06T00:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-05T23:10:52.917568+00:00"
     },
     "Seattle Mariners": {
       "local": "Seattle Mariners",

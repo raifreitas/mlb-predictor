@@ -1000,6 +1000,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-05",
+   "local": "Los Angeles Dodgers",
+   "visita": "Washington Nationals",
+   "linea": 7.0,
+   "prediccion": 6.61,
+   "prob_over": 0.47364118695259094,
+   "edge": 0.39,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.39 carreras, prob_over 47.4%)",
+   "evaluado_utc": "2026-09-05T23:10:56Z"
+  },
+  {
+   "fecha": "2026-09-05",
    "local": "Colorado Rockies",
    "visita": "St. Louis Cardinals",
    "linea": 11.0,
@@ -2055,5 +2067,5 @@
    "evaluado_utc": "2026-08-30T14:15:42Z"
   }
  ],
- "fecha_actualizacion": "2026-09-05T22:10:59Z"
+ "fecha_actualizacion": "2026-09-05T23:10:57Z"
 }
