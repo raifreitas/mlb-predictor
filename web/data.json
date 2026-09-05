@@ -1000,6 +1000,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-05",
+   "local": "Philadelphia Phillies",
+   "visita": "Atlanta Braves",
+   "linea": 8.0,
+   "prediccion": 7.65,
+   "prob_over": 0.279794305562973,
+   "edge": 0.35,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 0.35 < 1.45)",
+   "evaluado_utc": "2026-09-05T20:05:57Z"
+  },
+  {
+   "fecha": "2026-09-05",
    "local": "Miami Marlins",
    "visita": "Chicago Cubs",
    "linea": 8.0,
@@ -1923,5 +1935,5 @@
    "evaluado_utc": "2026-08-30T14:15:42Z"
   }
  ],
- "fecha_actualizacion": "2026-09-05T18:10:55Z"
+ "fecha_actualizacion": "2026-09-05T20:05:58Z"
 }
