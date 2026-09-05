@@ -1000,6 +1000,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-05",
+   "local": "Cleveland Guardians",
+   "visita": "Detroit Tigers",
+   "linea": 7.0,
+   "prediccion": 7.33,
+   "prob_over": 0.4537859857082367,
+   "edge": 0.33,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.33 carreras, prob_over 45.4%)",
+   "evaluado_utc": "2026-09-05T20:11:00Z"
+  },
+  {
+   "fecha": "2026-09-05",
    "local": "Philadelphia Phillies",
    "visita": "Atlanta Braves",
    "linea": 8.0,
@@ -1935,5 +1947,5 @@
    "evaluado_utc": "2026-08-30T14:15:42Z"
   }
  ],
- "fecha_actualizacion": "2026-09-05T20:05:58Z"
+ "fecha_actualizacion": "2026-09-05T20:11:01Z"
 }
