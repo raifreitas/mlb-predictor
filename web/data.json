@@ -1000,6 +1000,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-05",
+   "local": "Seattle Mariners",
+   "visita": "Athletics",
+   "linea": 7.5,
+   "prediccion": 10.46,
+   "prob_over": 0.5870494842529297,
+   "edge": 2.96,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Edge Excesivo vs Mercado (edge 2.96 > 2.75)",
+   "evaluado_utc": "2026-09-05T23:41:35Z"
+  },
+  {
+   "fecha": "2026-09-05",
    "local": "Los Angeles Dodgers",
    "visita": "Washington Nationals",
    "linea": 7.0,
@@ -2067,5 +2079,5 @@
    "evaluado_utc": "2026-08-30T14:15:42Z"
   }
  ],
- "fecha_actualizacion": "2026-09-05T23:10:57Z"
+ "fecha_actualizacion": "2026-09-05T23:41:36Z"
 }
