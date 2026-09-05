@@ -999,6 +999,30 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-09-05",
+   "local": "Miami Marlins",
+   "visita": "Chicago Cubs",
+   "linea": 8.0,
+   "prediccion": 7.04,
+   "prob_over": 0.42330825328826904,
+   "edge": 0.96,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 0.96 < 1.45)",
+   "evaluado_utc": "2026-09-05T18:10:54Z"
+  },
+  {
+   "fecha": "2026-09-05",
+   "local": "New York Mets",
+   "visita": "San Francisco Giants",
+   "linea": 8.0,
+   "prediccion": 9.18,
+   "prob_over": 0.5264877080917358,
+   "edge": 1.18,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 1.18 < 1.45)",
+   "evaluado_utc": "2026-09-05T18:10:54Z"
+  },
+  {
    "fecha": "2026-09-04",
    "local": "San Diego Padres",
    "visita": "New York Yankees",
@@ -1899,5 +1923,5 @@
    "evaluado_utc": "2026-08-30T14:15:42Z"
   }
  ],
- "fecha_actualizacion": "2026-09-05T10:55:50Z"
+ "fecha_actualizacion": "2026-09-05T18:10:55Z"
 }
