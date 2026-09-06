@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-09-03",
+ "ultima_fecha_prediccion": "2026-09-06",
  "resumen": {
   "ganadas": 18,
   "perdidas": 6,
@@ -1061,9 +1061,48 @@
    "total": 11,
    "creado": "2026-09-03 23:41:09",
    "verificado": "2026-09-04 06:48:00"
+  },
+  {
+   "id": 1051,
+   "fecha": "2026-09-06",
+   "local": "Seattle Mariners",
+   "visita": "Athletics",
+   "tipo": "OVER",
+   "linea": 6.5,
+   "unidades": 0.5,
+   "edge": 2.26,
+   "cuota": 1.85,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-06 18:10:58",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-06",
+   "local": "San Diego Padres",
+   "visita": "New York Yankees",
+   "linea": 7.0,
+   "prediccion": 6.43,
+   "prob_over": 0.4299331605434418,
+   "edge": 0.57,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.57 carreras, prob_over 43.0%)",
+   "evaluado_utc": "2026-09-06T18:10:58Z"
+  },
+  {
+   "fecha": "2026-09-06",
+   "local": "Seattle Mariners",
+   "visita": "Athletics",
+   "linea": 7.0,
+   "prediccion": 8.76,
+   "prob_over": 0.5310271382331848,
+   "edge": 1.76,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-06T18:10:58Z"
+  },
   {
    "fecha": "2026-09-06",
    "local": "Colorado Rockies",
@@ -2109,5 +2148,5 @@
    "evaluado_utc": "2026-08-31T20:06:07Z"
   }
  ],
- "fecha_actualizacion": "2026-09-06T17:10:58Z"
+ "fecha_actualizacion": "2026-09-06T18:11:00Z"
 }
