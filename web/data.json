@@ -1065,6 +1065,18 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-09-06",
+   "local": "Cincinnati Reds",
+   "visita": "Milwaukee Brewers",
+   "linea": 9.0,
+   "prediccion": 9.13,
+   "prob_over": 0.5282451510429382,
+   "edge": 0.13,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.13 carreras, prob_over 52.8%)",
+   "evaluado_utc": "2026-09-06T14:10:56Z"
+  },
+  {
    "fecha": "2026-09-05",
    "local": "Seattle Mariners",
    "visita": "Athletics",
@@ -1977,5 +1989,5 @@
    "evaluado_utc": "2026-08-31T20:06:07Z"
   }
  ],
- "fecha_actualizacion": "2026-09-06T11:15:53Z"
+ "fecha_actualizacion": "2026-09-06T14:10:57Z"
 }
