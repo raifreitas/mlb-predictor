@@ -3263,7 +3263,8 @@
       "pitcher_visita": 593958,
       "hora_inicio_utc": "2026-09-06T18:10:00+00:00",
       "hora_corrida_utc": "2026-09-06T17:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-06T16:11:03.192787+00:00"
     },
     "Kansas City Royals": {
       "local": "Kansas City Royals",
@@ -3272,7 +3273,8 @@
       "pitcher_visita": 681293,
       "hora_inicio_utc": "2026-09-06T18:10:00+00:00",
       "hora_corrida_utc": "2026-09-06T17:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-06T16:11:03.192787+00:00"
     },
     "Texas Rangers": {
       "local": "Texas Rangers",
