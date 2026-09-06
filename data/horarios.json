@@ -3233,7 +3233,8 @@
       "pitcher_visita": 695549,
       "hora_inicio_utc": "2026-09-06T17:40:00+00:00",
       "hora_corrida_utc": "2026-09-06T17:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-06T15:40:54.982044+00:00"
     },
     "New York Mets": {
       "local": "New York Mets",
@@ -3242,7 +3243,8 @@
       "pitcher_visita": 702885,
       "hora_inicio_utc": "2026-09-06T17:40:00+00:00",
       "hora_corrida_utc": "2026-09-06T17:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-06T15:40:54.982044+00:00"
     },
     "Miami Marlins": {
       "local": "Miami Marlins",
@@ -3251,7 +3253,8 @@
       "pitcher_visita": 605280,
       "hora_inicio_utc": "2026-09-06T17:40:00+00:00",
       "hora_corrida_utc": "2026-09-06T17:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-06T15:40:54.982044+00:00"
     },
     "Houston Astros": {
       "local": "Houston Astros",
