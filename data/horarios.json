@@ -3213,7 +3213,8 @@
       "pitcher_visita": 801139,
       "hora_inicio_utc": "2026-09-06T17:35:00+00:00",
       "hora_corrida_utc": "2026-09-06T17:05:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-06T15:35:54.588756+00:00"
     },
     "Pittsburgh Pirates": {
       "local": "Pittsburgh Pirates",
@@ -3222,7 +3223,8 @@
       "pitcher_visita": 700712,
       "hora_inicio_utc": "2026-09-06T17:35:00+00:00",
       "hora_corrida_utc": "2026-09-06T17:05:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-06T15:35:54.588756+00:00"
     },
     "Cleveland Guardians": {
       "local": "Cleveland Guardians",
