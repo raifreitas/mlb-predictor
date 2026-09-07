@@ -3364,7 +3364,8 @@
       "pitcher_visita": 680570,
       "hora_inicio_utc": "2026-09-07T17:35:00+00:00",
       "hora_corrida_utc": "2026-09-07T17:05:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-07T15:35:54.165969+00:00"
     },
     "Baltimore Orioles": {
       "local": "Baltimore Orioles",
@@ -3373,7 +3374,8 @@
       "pitcher_visita": 676282,
       "hora_inicio_utc": "2026-09-07T17:35:00+00:00",
       "hora_corrida_utc": "2026-09-07T17:05:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-07T15:35:54.165969+00:00"
     },
     "Kansas City Royals": {
       "local": "Kansas City Royals",
