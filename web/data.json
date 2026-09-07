@@ -1037,6 +1037,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-07",
+   "local": "Miami Marlins",
+   "visita": "New York Mets",
+   "linea": 8.0,
+   "prediccion": 8.81,
+   "prob_over": 0.44767701625823975,
+   "edge": 0.81,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.81 carreras, prob_over 44.8%)",
+   "evaluado_utc": "2026-09-07T15:12:07Z"
+  },
+  {
+   "fecha": "2026-09-07",
    "local": "Philadelphia Phillies",
    "visita": "Atlanta Braves",
    "linea": 8.0,
@@ -1984,5 +1996,5 @@
    "evaluado_utc": "2026-09-01T20:40:58Z"
   }
  ],
- "fecha_actualizacion": "2026-09-07T15:06:01Z"
+ "fecha_actualizacion": "2026-09-07T15:12:08Z"
 }
