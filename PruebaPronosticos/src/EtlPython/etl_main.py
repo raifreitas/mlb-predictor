@@ -70,6 +70,21 @@ def main():
     pitcheos_guardados = repo.guardar_pitcher_game_logs(pitcheos)
     print(f"[CARGA] {pitcheos_guardados} pitcheos por jugador en PitcherGameLog.")
 
+    batters = []
+    for partido in partidos:
+        if partido["EsFinal"] and partido["GamePk"] is not None:
+            try:
+                batters.extend(fetcher.obtener_batter_logs_partido(
+                    partido["GamePk"], partido["Fecha"],
+                    partido["EquipoLocal"], partido["EquipoVisita"]))
+            except Exception as ex:
+                print(f"[BATTER-PROPS] AVISO: boxscore {partido['GamePk']} "
+                      f"({partido['EquipoLocal']} vs {partido['EquipoVisita']}): {ex}")
+    print(f"[TRANSFORMACION] {len(batters)} apariciones al plato extraidas "
+          f"para batter props.")
+    batters_guardados = repo.guardar_batter_game_logs(batters)
+    print(f"[CARGA] {batters_guardados} filas en BatterGameLog.")
+
     manos_guardadas = repo.guardar_pitcher_mano(manos)
     print(f"[CARGA] {manos_guardadas} registros de mano en PitcherMano.")
 

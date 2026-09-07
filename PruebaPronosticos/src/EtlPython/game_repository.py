@@ -6,6 +6,8 @@ Las fechas se guardan en el mismo formato del exportador:
 import sqlite3
 from datetime import datetime, timezone
 
+from batter_props_esquema import garantizar_esquema
+
 _FORMAT_DT = lambda dt: dt.strftime("%Y-%m-%d %H:%M:%S.%f")[:23]
 
 
@@ -21,6 +23,7 @@ class GameRepository:
     def _con(self):
         if self._conexion is None:
             self._conexion = sqlite3.connect(self._ruta, timeout=60)
+            garantizar_esquema(self._conexion)
         return self._conexion
 
     def cerrar(self):
@@ -115,12 +118,57 @@ class GameRepository:
             for f in datos:
                 con.execute(
                     """INSERT INTO PitcherGameLog (GameID, Fecha, Team, PitcherId,
-                        IsStarter, PitchesThrown) VALUES (?, ?, ?, ?, ?, ?)
+                        IsStarter, PitchesThrown, StrikeOuts, BaseOnBalls, BattersFaced)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
                        ON CONFLICT (GameID, Team, PitcherId)
                        DO UPDATE SET IsStarter = excluded.IsStarter,
-                                     PitchesThrown = excluded.PitchesThrown""",
+                                     PitchesThrown = excluded.PitchesThrown,
+                                     StrikeOuts = COALESCE(excluded.StrikeOuts, StrikeOuts),
+                                     BaseOnBalls = COALESCE(excluded.BaseOnBalls, BaseOnBalls),
+                                     BattersFaced = COALESCE(excluded.BattersFaced, BattersFaced)""",
                     (f["GameId"], str(f["Fecha"]), f["Team"], f["PitcherId"],
-                     f["IsStarter"], f["PitchesThrown"]))
+                     f["IsStarter"], f["PitchesThrown"],
+                     f.get("StrikeOuts"), f.get("BaseOnBalls"),
+                     f.get("BattersFaced")))
+                guardados += 1
+            con.commit()
+        except Exception:
+            con.rollback()
+            raise
+        return guardados
+
+    def guardar_batter_game_logs(self, datos):
+        """UPSERT de las apariciones al plato (BatterGameLog) por partido."""
+        if not datos:
+            return 0
+        con = self._con()
+        guardados = 0
+        try:
+            for f in datos:
+                con.execute(
+                    """INSERT INTO BatterGameLog (GameId, Fecha, EquipoLocal,
+                        EquipoVisita, IsHome, Team, BatterId, BattingOrder,
+                        PlateAppearances, AtBats, StrikeOuts, BaseOnBalls,
+                        IsStarter, OpposingPitcherId)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                       ON CONFLICT (GameId, BatterId)
+                       DO UPDATE SET Fecha            = excluded.Fecha,
+                                     EquipoLocal      = excluded.EquipoLocal,
+                                     EquipoVisita     = excluded.EquipoVisita,
+                                     IsHome           = excluded.IsHome,
+                                     Team             = excluded.Team,
+                                     BattingOrder     = excluded.BattingOrder,
+                                     PlateAppearances = excluded.PlateAppearances,
+                                     AtBats           = excluded.AtBats,
+                                     StrikeOuts       = excluded.StrikeOuts,
+                                     BaseOnBalls      = excluded.BaseOnBalls,
+                                     IsStarter        = excluded.IsStarter,
+                                     OpposingPitcherId = excluded.OpposingPitcherId""",
+                    (f["GameId"], str(f["Fecha"]), f["EquipoLocal"],
+                     f["EquipoVisita"], f["IsHome"], f["Team"], f["BatterId"],
+                     f["BattingOrder"], f["PlateAppearances"], f["AtBats"],
+                     f["StrikeOuts"], f["BaseOnBalls"], f["IsStarter"],
+                     f.get("OpposingPitcherId")))
                 guardados += 1
             con.commit()
         except Exception:

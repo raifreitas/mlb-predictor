@@ -1,9 +1,37 @@
 """Cliente de StatsAPI de MLB (port de MlbDataFetcher.cs)."""
 import json
+import time
 import urllib.parse
 import urllib.request
 
 ERA_POR_DEFECTO = 4.00
+
+INTENTOS_POR_LLAMADA = 5
+SEG_ESPERA_INICIAL = 5
+SEG_ESPERA_TOPE = 60
+
+
+def _parsear_orden_bateo(orden_crudo):
+    """Convierte 'battingOrder' de la API (ej. '100', '201', '901') al slot 1-9.
+
+    Formato: <posicion><secuencia>, ej. '201' = titular del puesto 2 que
+    entro como 2do jugador de ese puesto. El primer digito es el slot.
+    """
+    if orden_crudo is None:
+        return None
+    texto = str(orden_crudo).strip()
+    if not texto or not texto[0].isdigit():
+        return None
+    posicion = int(texto[0])
+    return posicion if 1 <= posicion <= 9 else None
+
+
+def _es_titular(orden_crudo):
+    """True si el bateador entro en el orden inicial (secuencia '00')."""
+    if orden_crudo is None:
+        return 0
+    texto = str(orden_crudo).strip()
+    return 1 if texto.endswith("00") else 0
 
 
 class TeamOpsSplits:
@@ -25,8 +53,21 @@ class MlbDataFetcher:
         self.splits_obtenidos = []
 
     def _get_json(self, url):
-        with urllib.request.urlopen(url, timeout=self._timeout) as r:
-            return json.loads(r.read().decode("utf-8"))
+        ultimo_error = None
+        for intento in range(1, INTENTOS_POR_LLAMADA + 1):
+            try:
+                with urllib.request.urlopen(url, timeout=self._timeout) as r:
+                    return json.loads(r.read().decode("utf-8"))
+            except Exception as ex:
+                ultimo_error = ex
+                if intento == INTENTOS_POR_LLAMADA:
+                    break
+                espera = min(SEG_ESPERA_INICIAL * (2 ** (intento - 1)),
+                             SEG_ESPERA_TOPE)
+                print(f"[MLB] Reintento {intento}/{INTENTOS_POR_LLAMADA} "
+                      f"para {url} en {espera}s: {ex}")
+                time.sleep(espera)
+        raise ultimo_error
 
     def obtener_partidos(self, inicio, fin):
         partidos = []
@@ -315,12 +356,27 @@ class MlbDataFetcher:
                     continue
                 for indice, pitcher_id in enumerate(lanzadores):
                     pitcheos = 0
+                    strike_outs = None
+                    base_on_balls = None
+                    batters_faced = None
                     jugador = lado_json.get("players", {}).get(f"ID{pitcher_id}", {})
                     pitching = jugador.get("stats", {}).get("pitching", {})
                     try:
                         pitcheos = int(pitching.get("numberOfPitches", 0))
                     except (TypeError, ValueError):
                         pitcheos = 0
+                    try:
+                        strike_outs = int(pitching["strikeOuts"])
+                    except (KeyError, TypeError, ValueError):
+                        strike_outs = None
+                    try:
+                        base_on_balls = int(pitching["baseOnBalls"])
+                    except (KeyError, TypeError, ValueError):
+                        base_on_balls = None
+                    try:
+                        batters_faced = int(pitching["battersFaced"])
+                    except (KeyError, TypeError, ValueError):
+                        batters_faced = None
                     filas.append({
                         "GameId": game_pk,
                         "Fecha": fecha,
@@ -328,7 +384,89 @@ class MlbDataFetcher:
                         "PitcherId": pitcher_id,
                         "IsStarter": 1 if indice == 0 else 0,
                         "PitchesThrown": pitcheos,
+                        "StrikeOuts": strike_outs,
+                        "BaseOnBalls": base_on_balls,
+                        "BattersFaced": batters_faced,
                     })
         except Exception as ex:
             print(f"[MLB] Error leyendo boxscore del partido {game_pk}: {ex}")
+        return filas
+
+    def obtener_batter_logs_partido(self, game_pk, fecha,
+                                    equipo_local, equipo_visita):
+        """Batter props desde el boxscore de un partido FINALIZADO.
+
+        Devuelve una fila por bateador con PlateAppearances > 0:
+          GameId, Fecha, EquipoLocal, EquipoVisita, IsHome, Team, BatterId,
+          BattingOrder (1-9), PA/AB/SO/BB reales, IsStarter y el abridor
+          rival (OpposingPitcherId) que enfrento en el juego.
+
+        El abridor rival se toma de 'pitchers[0]' del equipo contrario del
+        boxscore (el primero en orden de aparicion), igual que en el resto
+        del pipeline. Sin boxscore o partido sin datos: lista vacia.
+        """
+        filas = []
+        try:
+            url = f"{self._base_url}/game/{game_pk}/boxscore"
+            datos = self._get_json(url)
+            equipos = datos.get("teams")
+            if not equipos:
+                print(f"[MLB] Boxscore {game_pk} sin seccion 'teams'.")
+                return filas
+
+            for lado, es_home in (("home", 1), ("away", 0)):
+                lado_json = equipos.get(lado)
+                if not lado_json:
+                    continue
+                nombre_equipo = lado_json.get("team", {}).get("name", "Desconocido")
+                jugadores = lado_json.get("players", {})
+                oponente = equipos.get("away" if es_home else "home", {})
+                lanzadores_oponente = oponente.get("pitchers", [])
+                abridor_oponente = (
+                    lanzadores_oponente[0] if lanzadores_oponente else None)
+
+                for batter_id in lado_json.get("batters", []):
+                    jugador = jugadores.get(f"ID{batter_id}")
+                    if not jugador:
+                        continue
+                    estadisticas = jugador.get("stats", {}).get("batting", {})
+                    try:
+                        pa = int(estadisticas["plateAppearances"])
+                    except (KeyError, TypeError, ValueError):
+                        continue
+                    if pa <= 0:
+                        continue
+                    try:
+                        ab = int(estadisticas.get("atBats", 0))
+                    except (TypeError, ValueError):
+                        ab = 0
+                    try:
+                        so = int(estadisticas.get("strikeOuts", 0))
+                    except (TypeError, ValueError):
+                        so = 0
+                    try:
+                        bb = int(estadisticas.get("baseOnBalls", 0))
+                    except (TypeError, ValueError):
+                        bb = 0
+
+                    orden_crudo = jugador.get("battingOrder")
+                    filas.append({
+                        "GameId": game_pk,
+                        "Fecha": str(fecha),
+                        "EquipoLocal": equipo_local,
+                        "EquipoVisita": equipo_visita,
+                        "IsHome": es_home,
+                        "Team": nombre_equipo,
+                        "BatterId": batter_id,
+                        "BattingOrder": _parsear_orden_bateo(orden_crudo),
+                        "PlateAppearances": pa,
+                        "AtBats": ab,
+                        "StrikeOuts": so,
+                        "BaseOnBalls": bb,
+                        "IsStarter": _es_titular(orden_crudo),
+                        "OpposingPitcherId": abridor_oponente,
+                    })
+        except Exception as ex:
+            print(f"[MLB] Error leyendo boxscore (batter props) del partido "
+                  f"{game_pk}: {ex}")
         return filas
