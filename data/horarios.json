@@ -3384,7 +3384,8 @@
       "pitcher_visita": null,
       "hora_inicio_utc": "2026-09-07T18:10:00+00:00",
       "hora_corrida_utc": "2026-09-07T17:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-07T16:10:54.207654+00:00"
     },
     "Milwaukee Brewers": {
       "local": "Milwaukee Brewers",
@@ -3393,7 +3394,8 @@
       "pitcher_visita": 571510,
       "hora_inicio_utc": "2026-09-07T18:10:00+00:00",
       "hora_corrida_utc": "2026-09-07T17:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-07T16:10:54.207654+00:00"
     },
     "Detroit Tigers": {
       "local": "Detroit Tigers",
