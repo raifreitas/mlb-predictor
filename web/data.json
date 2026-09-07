@@ -1036,6 +1036,18 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-09-07",
+   "local": "Philadelphia Phillies",
+   "visita": "Atlanta Braves",
+   "linea": 8.0,
+   "prediccion": 6.93,
+   "prob_over": 0.49007827043533325,
+   "edge": 1.07,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.07 carreras, prob_over 49.0%)",
+   "evaluado_utc": "2026-09-07T15:06:00Z"
+  },
+  {
    "fecha": "2026-09-06",
    "local": "Chicago White Sox",
    "visita": "Minnesota Twins",
@@ -1972,5 +1984,5 @@
    "evaluado_utc": "2026-09-01T20:40:58Z"
   }
  ],
- "fecha_actualizacion": "2026-09-07T13:01:03Z"
+ "fecha_actualizacion": "2026-09-07T15:06:01Z"
 }
