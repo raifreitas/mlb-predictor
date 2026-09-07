@@ -1037,6 +1037,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-07",
+   "local": "San Diego Padres",
+   "visita": "Washington Nationals",
+   "linea": 8.0,
+   "prediccion": 7.92,
+   "prob_over": 0.45166170597076416,
+   "edge": 0.08,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.08 carreras, prob_over 45.2%)",
+   "evaluado_utc": "2026-09-07T19:10:59Z"
+  },
+  {
+   "fecha": "2026-09-07",
    "local": "Detroit Tigers",
    "visita": "Minnesota Twins",
    "linea": 8.5,
@@ -2056,5 +2068,5 @@
    "evaluado_utc": "2026-09-01T20:40:58Z"
   }
  ],
- "fecha_actualizacion": "2026-09-07T17:11:00Z"
+ "fecha_actualizacion": "2026-09-07T19:11:00Z"
 }
