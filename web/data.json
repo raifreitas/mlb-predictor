@@ -1037,6 +1037,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-07",
+   "local": "Detroit Tigers",
+   "visita": "Minnesota Twins",
+   "linea": 8.5,
+   "prediccion": 8.64,
+   "prob_over": 0.4480433464050293,
+   "edge": 0.14,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.14 carreras, prob_over 44.8%)",
+   "evaluado_utc": "2026-09-07T17:10:59Z"
+  },
+  {
+   "fecha": "2026-09-07",
    "local": "Kansas City Royals",
    "visita": "Arizona Diamondbacks",
    "linea": 9.0,
@@ -2044,5 +2056,5 @@
    "evaluado_utc": "2026-09-01T20:40:58Z"
   }
  ],
- "fecha_actualizacion": "2026-09-07T16:10:59Z"
+ "fecha_actualizacion": "2026-09-07T17:11:00Z"
 }
