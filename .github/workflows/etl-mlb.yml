@@ -65,6 +65,11 @@ jobs:
         working-directory: PruebaPronosticos/src/Modeling
         run: python entrenar_modelo.py
 
+      - name: Validar predicciones batter props (hit-rate de ayer)
+        if: github.event.schedule == '30 6 * * *' || github.event_name == 'workflow_dispatch'
+        working-directory: PruebaPronosticos/src/Modeling
+        run: python generar_predicciones_hoy.py --validar
+
       - name: ETL vespertino (snapshot de cuotas del dia en curso)
         if: github.event.schedule == '30 14 * * *'
         working-directory: PruebaPronosticos/src/EtlPython

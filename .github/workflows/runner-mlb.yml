@@ -70,6 +70,7 @@ jobs:
             cd ../Modeling && \
             python verificar_predicciones.py && \
             python entrenar_modelo.py && \
+            python generar_predicciones_hoy.py --validar && \
             cd ../../..
 
       - name: Planificador (runner por partido)
@@ -86,6 +87,10 @@ jobs:
       - name: Generar web/data.json
         working-directory: PruebaPronosticos/src/Modeling
         run: python generar_web.py
+
+      - name: Predicciones batter props del dia (solo faltantes)
+        working-directory: PruebaPronosticos/src/Modeling
+        run: python generar_predicciones_hoy.py --solo-faltantes
 
       - name: Commit si hubo cambios
         run: |
