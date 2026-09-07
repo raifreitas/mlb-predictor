@@ -1037,6 +1037,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-07",
+   "local": "San Francisco Giants",
+   "visita": "St. Louis Cardinals",
+   "linea": 7.5,
+   "prediccion": 10.35,
+   "prob_over": 0.5184106230735779,
+   "edge": 2.85,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Edge Excesivo vs Mercado (edge 2.85 > 2.75)",
+   "evaluado_utc": "2026-09-07T22:10:55Z"
+  },
+  {
+   "fecha": "2026-09-07",
    "local": "San Diego Padres",
    "visita": "Washington Nationals",
    "linea": 8.0,
@@ -2068,5 +2080,5 @@
    "evaluado_utc": "2026-09-01T20:40:58Z"
   }
  ],
- "fecha_actualizacion": "2026-09-07T19:11:00Z"
+ "fecha_actualizacion": "2026-09-07T22:10:56Z"
 }
