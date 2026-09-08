@@ -2804,15 +2804,166 @@
    ],
    "local": "Baltimore Orioles",
    "visita": "Cleveland Guardians"
+  },
+  {
+   "game_id": 824875,
+   "bateadores": [
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Yandy Díaz",
+     "p_so": 0.5153519511222839,
+     "p_bb": 0.37609991431236267
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Jonathan Aranda",
+     "p_so": 0.6792970299720764,
+     "p_bb": 0.38689395785331726
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Junior Caminero",
+     "p_so": 0.5656130909919739,
+     "p_bb": 0.3598674535751343
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Liam Hicks",
+     "p_so": 0.43814343214035034,
+     "p_bb": 0.35381925106048584
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Chandler Simpson",
+     "p_so": 0.3159291744232178,
+     "p_bb": 0.20074383914470673
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Jonny DeLuca",
+     "p_so": 0.5460506677627563,
+     "p_bb": 0.24284495413303375
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Victor Mesa Jr.",
+     "p_so": 0.49687573313713074,
+     "p_bb": 0.2521268129348755
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Richie Palacios",
+     "p_so": 0.44150906801223755,
+     "p_bb": 0.2937541902065277
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Jorge Mateo",
+     "p_so": 0.5988524556159973,
+     "p_bb": 0.18892386555671692
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Michael Harris II",
+     "p_so": 0.5809651613235474,
+     "p_bb": 0.14638692140579224
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Ronald Acuña Jr.",
+     "p_so": 0.5956778526306152,
+     "p_bb": 0.3666183650493622
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Matt Olson",
+     "p_so": 0.6882309317588806,
+     "p_bb": 0.3458779454231262
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Drake Baldwin",
+     "p_so": 0.5830908417701721,
+     "p_bb": 0.28681835532188416
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Mauricio Dubón",
+     "p_so": 0.3659975826740265,
+     "p_bb": 0.14081160724163055
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Ozzie Albies",
+     "p_so": 0.45420557260513306,
+     "p_bb": 0.20480948686599731
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Austin Riley",
+     "p_so": 0.7040072679519653,
+     "p_bb": 0.21275189518928528
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Mike Yastrzemski",
+     "p_so": 0.5824270844459534,
+     "p_bb": 0.2853696346282959
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Sean Murphy",
+     "p_so": 0.567728579044342,
+     "p_bb": 0.22560261189937592
+    }
+   ],
+   "local": "Atlanta Braves",
+   "visita": "Tampa Bay Rays"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 65,
+  "picks_hoy": 68,
   "ganadas": 522,
   "perdidas": 261,
   "push": 0,
   "unidades": 130.5,
   "acierto": 66.7
  },
- "fecha_actualizacion": "2026-09-08T20:16:05Z"
+ "fecha_actualizacion": "2026-09-08T20:31:04Z"
 }
