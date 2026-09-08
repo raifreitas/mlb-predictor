@@ -872,6 +872,42 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-08",
+   "local": "Detroit Tigers",
+   "visita": "Minnesota Twins",
+   "linea": 8.0,
+   "prediccion": 8.76,
+   "prob_over": 0.4754142761230469,
+   "edge": 0.76,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.76 carreras, prob_over 47.5%)",
+   "evaluado_utc": "2026-09-08T20:40:57Z"
+  },
+  {
+   "fecha": "2026-09-08",
+   "local": "Miami Marlins",
+   "visita": "New York Mets",
+   "linea": 8.0,
+   "prediccion": 8.78,
+   "prob_over": 0.49500906467437744,
+   "edge": 0.78,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.78 carreras, prob_over 49.5%)",
+   "evaluado_utc": "2026-09-08T20:40:57Z"
+  },
+  {
+   "fecha": "2026-09-08",
+   "local": "Philadelphia Phillies",
+   "visita": "Houston Astros",
+   "linea": 8.5,
+   "prediccion": 6.87,
+   "prob_over": 0.5170444846153259,
+   "edge": 1.38,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Fatiga de Bullpen (3 juegos seguidos)",
+   "evaluado_utc": "2026-09-08T20:40:57Z"
+  },
+  {
+   "fecha": "2026-09-08",
    "local": "Baltimore Orioles",
    "visita": "Cleveland Guardians",
    "linea": 8.0,
@@ -2214,6 +2250,157 @@
    "visita": "New York Mets"
   },
   {
+   "game_id": 824063,
+   "bateadores": [
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Lars Nootbaar",
+     "p_so": 0.5941420197486877,
+     "p_bb": 0.4123329222202301
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Ketel Marte",
+     "p_so": 0.5614502429962158,
+     "p_bb": 0.3238174021244049
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Gabriel Moreno",
+     "p_so": 0.5756744146347046,
+     "p_bb": 0.34179285168647766
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Geraldo Perdomo",
+     "p_so": 0.49549561738967896,
+     "p_bb": 0.34338757395744324
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Corbin Carroll",
+     "p_so": 0.6503151059150696,
+     "p_bb": 0.29937943816185
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Nolan Arenado",
+     "p_so": 0.5441027879714966,
+     "p_bb": 0.1955697238445282
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Tommy Troy",
+     "p_so": 0.5685492157936096,
+     "p_bb": 0.2063763588666916
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Tim Tawa",
+     "p_so": 0.7046460509300232,
+     "p_bb": 0.2287001758813858
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Ryan Waldschmidt",
+     "p_so": 0.6674244403839111,
+     "p_bb": 0.19094987213611603
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Carter Jensen",
+     "p_so": 0.6877605319023132,
+     "p_bb": 0.41538652777671814
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Bobby Witt Jr.",
+     "p_so": 0.5519052147865295,
+     "p_bb": 0.32608678936958313
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Vinnie Pasquantino",
+     "p_so": 0.4664466381072998,
+     "p_bb": 0.3467501103878021
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Salvador Perez",
+     "p_so": 0.577978789806366,
+     "p_bb": 0.18509893119335175
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Michael Massey",
+     "p_so": 0.46883413195610046,
+     "p_bb": 0.165460467338562
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Nick Loftin",
+     "p_so": 0.5384916663169861,
+     "p_bb": 0.3197510838508606
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Isaac Collins",
+     "p_so": 0.5908328294754028,
+     "p_bb": 0.3513323664665222
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Matthew Lugo",
+     "p_so": 0.6155351996421814,
+     "p_bb": 0.18139833211898804
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Kyle Isbel",
+     "p_so": 0.5024405717849731,
+     "p_bb": 0.19878849387168884
+    }
+   ],
+   "local": "Kansas City Royals",
+   "visita": "Arizona Diamondbacks"
+  },
+  {
    "game_id": 824228,
    "bateadores": [
     {
@@ -2970,12 +3157,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 68,
+  "picks_hoy": 73,
   "ganadas": 522,
   "perdidas": 261,
   "push": 0,
   "unidades": 130.5,
   "acierto": 66.7
  },
- "fecha_actualizacion": "2026-09-08T20:35:59Z"
+ "fecha_actualizacion": "2026-09-08T20:40:58Z"
 }

@@ -3465,7 +3465,8 @@
       "pitcher_visita": 665152,
       "hora_inicio_utc": "2026-09-08T22:40:00+00:00",
       "hora_corrida_utc": "2026-09-08T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-08T20:40:53.656256+00:00"
     },
     "Philadelphia Phillies": {
       "local": "Philadelphia Phillies",
@@ -3474,7 +3475,8 @@
       "pitcher_visita": 669713,
       "hora_inicio_utc": "2026-09-08T22:40:00+00:00",
       "hora_corrida_utc": "2026-09-08T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-08T20:40:53.656256+00:00"
     },
     "Miami Marlins": {
       "local": "Miami Marlins",
@@ -3483,7 +3485,8 @@
       "pitcher_visita": 640455,
       "hora_inicio_utc": "2026-09-08T22:40:00+00:00",
       "hora_corrida_utc": "2026-09-08T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-08T20:40:53.656256+00:00"
     },
     "Boston Red Sox": {
       "local": "Boston Red Sox",
