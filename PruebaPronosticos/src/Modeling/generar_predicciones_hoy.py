@@ -48,6 +48,8 @@ RUTA_MODELO_SO = os.path.join(MODELOS_DIR, "batter_props_strikeout.pkl")
 RUTA_MODELO_BB = os.path.join(MODELOS_DIR, "batter_props_walk.pkl")
 RUTA_TRANSFORMADORES = os.path.join(MODELOS_DIR, "transformadores_batter_props.pkl")
 
+UMBRAL_SO_PICK = 0.60
+
 BASE_API = "https://statsapi.mlb.com/api/v1"
 
 
@@ -232,22 +234,35 @@ def _validar(con):
         print("Sin predicciones que validar (todavia no hay boxscores "
               "reales descargados).")
         return
-    for col, real_col, tag in (("PStrikeOut", "real_so", "K over 0.5"),
-                               ("PWalk", "real_bb", "BB over 0.5")):
+    for col, real_col, tag, umbral_pick in (
+            ("PStrikeOut", "real_so", "K", UMBRAL_SO_PICK),
+            ("PWalk", "real_bb", "BB", None)):
         y = (df[real_col].fillna(0) >= 1).astype(int)
         p = df[col].clip(0.0001, 0.9999)
         n = len(y)
-        predic_cuant = (p >= 0.5).astype(int)
-        hit = float((predic_cuant == y).mean())
+        if umbral_pick is None:
+            predic_cuant = np.zeros(n, dtype=int)
+        else:
+            predic_cuant = (p >= umbral_pick).astype(int)
         from sklearn.metrics import log_loss, roc_auc_score
         ll = log_loss(y, p, labels=[0, 1])
         basel = log_loss(y, np.full(n, y.mean()), labels=[0, 1])
         auc = (roc_auc_score(y, p)
                if len(np.unique(y)) > 1 else float("nan"))
         print(f"\n{tag}: n={n} | tasa real={y.mean():.3f} | "
-              f"hit-rate@{0.5}={hit:.3f} | logloss={ll:.4f} "
-              f"(baseline {basel:.4f}) | AUC={auc:.4f}")
-        mercado = tag.split()[0]
+              f"logloss={ll:.4f} (baseline {basel:.4f}) | AUC={auc:.4f}")
+        n_pick = int(predic_cuant.sum())
+        if umbral_pick is None:
+            print(f"  (BB no se apuesta; solo se muestra como info)")
+        elif n_pick:
+            gan = int(((predic_cuant == 1) & (y == 1)).sum())
+            per = n_pick - gan
+            print(f"  picks (P>={umbral_pick}): {n_pick} -> "
+                  f"{gan} ganadas / {per} perdidas "
+                  f"({gan / n_pick * 100:.1f}%)")
+        else:
+            print(f"  picks (P>={umbral_pick}): 0")
+        mercado = tag
         filas = [(f_r, int(g), int(b), mercado, float(pr),
                   int(re), int(pd), fp)
                  for f_r, g, b, pr, re, pd, fp in zip(

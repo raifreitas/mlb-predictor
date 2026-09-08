@@ -174,6 +174,7 @@ def generar():
                 """SELECT COUNT(*) FROM PrediccionBatterProps p
                    WHERE p.Fecha = (SELECT MAX(Fecha)
                                     FROM PrediccionBatterProps)
+                     AND p.PStrikeOut >= 0.60
                      AND NOT EXISTS (
                        SELECT 1 FROM EvaluacionBatterProps e
                         WHERE e.Fecha = p.Fecha AND e.GameId = p.GameId
@@ -181,8 +182,10 @@ def generar():
             ).fetchone()[0]
             gan_bp, per_bp = con.execute(
                 """SELECT
-                        SUM(CASE WHEN Resultado = Predicho THEN 1 ELSE 0 END),
-                        SUM(CASE WHEN Resultado != Predicho THEN 1 ELSE 0 END)
+                        SUM(CASE WHEN Predicho = 1 AND Resultado = 1
+                                 THEN 1 ELSE 0 END),
+                        SUM(CASE WHEN Predicho = 1 AND Resultado = 0
+                                 THEN 1 ELSE 0 END)
                    FROM EvaluacionBatterProps"""
             ).fetchone()
             resumen_bp["ganadas"] = int(gan_bp or 0)
