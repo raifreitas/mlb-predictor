@@ -1869,6 +1869,308 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 823092,
+   "bateadores": [
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Joc Pederson",
+     "p_so": 0.6446247696876526,
+     "p_bb": 0.4001551568508148
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Corey Seager",
+     "p_so": 0.6081143617630005,
+     "p_bb": 0.39854899048805237
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Ezequiel Duran",
+     "p_so": 0.7012508511543274,
+     "p_bb": 0.26187166571617126
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Brandon Nimmo",
+     "p_so": 0.6412259936332703,
+     "p_bb": 0.3419193923473358
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Wyatt Langford",
+     "p_so": 0.6413832306861877,
+     "p_bb": 0.3917922079563141
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Evan Carter",
+     "p_so": 0.6531586050987244,
+     "p_bb": 0.298540860414505
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Jake Burger",
+     "p_so": 0.6859071254730225,
+     "p_bb": 0.230790376663208
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Nicky Lopez",
+     "p_so": 0.4705411493778229,
+     "p_bb": 0.21216025948524475
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Danny Jansen",
+     "p_so": 0.5267645716667175,
+     "p_bb": 0.22080643475055695
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Randy Arozarena",
+     "p_so": 0.7373116612434387,
+     "p_bb": 0.3687330484390259
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Dominic Canzone",
+     "p_so": 0.6707372665405273,
+     "p_bb": 0.26232704520225525
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Julio Rodríguez",
+     "p_so": 0.7269284725189209,
+     "p_bb": 0.23384767770767212
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Cal Raleigh",
+     "p_so": 0.7647935748100281,
+     "p_bb": 0.3965953290462494
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "J.P. Crawford",
+     "p_so": 0.6035839319229126,
+     "p_bb": 0.35246995091438293
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Josh Naylor",
+     "p_so": 0.5020862817764282,
+     "p_bb": 0.21051408350467682
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Cole Young",
+     "p_so": 0.5540226101875305,
+     "p_bb": 0.2509937882423401
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Lazaro Montes",
+     "p_so": 0.6966598629951477,
+     "p_bb": 0.18212832510471344
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Brock Rodden",
+     "p_so": 0.6964626312255859,
+     "p_bb": 0.25084540247917175
+    }
+   ],
+   "local": "Seattle Mariners",
+   "visita": "Texas Rangers"
+  },
+  {
+   "game_id": 823174,
+   "bateadores": [
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Bryan Torres",
+     "p_so": 0.5356481075286865,
+     "p_bb": 0.3094729483127594
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Iván Herrera",
+     "p_so": 0.6130431890487671,
+     "p_bb": 0.45338159799575806
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Alec Burleson",
+     "p_so": 0.5152792930603027,
+     "p_bb": 0.2980741858482361
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jordan Walker",
+     "p_so": 0.7279046773910522,
+     "p_bb": 0.30372652411460876
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Leo Bernal",
+     "p_so": 0.5497220158576965,
+     "p_bb": 0.3210289180278778
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Nolan Gorman",
+     "p_so": 0.6720405220985413,
+     "p_bb": 0.30336809158325195
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Thomas Saggese",
+     "p_so": 0.6002334952354431,
+     "p_bb": 0.23183228075504303
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Masyn Winn",
+     "p_so": 0.5110257267951965,
+     "p_bb": 0.23214350640773773
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Nathan Church",
+     "p_so": 0.45032790303230286,
+     "p_bb": 0.19113242626190186
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jonah Cox",
+     "p_so": 0.7193530797958374,
+     "p_bb": 0.22602905333042145
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Rafael Devers",
+     "p_so": 0.7027021646499634,
+     "p_bb": 0.42580509185791016
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Bryce Eldridge",
+     "p_so": 0.7257069945335388,
+     "p_bb": 0.4300760328769684
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Osleivis Basabe",
+     "p_so": 0.6077126860618591,
+     "p_bb": 0.2426445335149765
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Turner Hill",
+     "p_so": 0.4339447319507599,
+     "p_bb": 0.3397381007671356
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Andrew Knizner",
+     "p_so": 0.56773442029953,
+     "p_bb": 0.20095913112163544
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Shay Whitcomb",
+     "p_so": 0.598334014415741,
+     "p_bb": 0.19879214465618134
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Grant McCray",
+     "p_so": 0.6494011282920837,
+     "p_bb": 0.201248437166214
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Christian Koss",
+     "p_so": 0.6144747734069824,
+     "p_bb": 0.19261488318443298
+    }
+   ],
+   "local": "San Francisco Giants",
+   "visita": "St. Louis Cardinals"
+  },
+  {
    "game_id": 823250,
    "bateadores": [
     {
@@ -3690,12 +3992,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 100,
+  "picks_hoy": 124,
   "ganadas": 522,
   "perdidas": 261,
   "push": 0,
   "unidades": 130.5,
   "acierto": 66.7
  },
- "fecha_actualizacion": "2026-09-08T22:41:00Z"
+ "fecha_actualizacion": "2026-09-08T22:46:05Z"
 }
