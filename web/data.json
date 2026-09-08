@@ -176,122 +176,122 @@
    "fecha": "2026-09-07",
    "local": "Athletics",
    "visita": "Toronto Blue Jays",
-   "carreras_local": 0,
-   "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": false,
+   "carreras_local": 6,
+   "carreras_visita": 5,
+   "linea_real": 8.5,
+   "es_final": true,
    "hora_inicio_utc": "2026-09-08 02:05:00.000",
-   "temperatura_c": 21.6
+   "temperatura_c": 23.0
   },
   {
    "fecha": "2026-09-07",
    "local": "Baltimore Orioles",
    "visita": "Cleveland Guardians",
-   "carreras_local": 0,
-   "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": false,
+   "carreras_local": 6,
+   "carreras_visita": 4,
+   "linea_real": 7.5,
+   "es_final": true,
    "hora_inicio_utc": "2026-09-07 17:35:00.000",
-   "temperatura_c": 22.2
+   "temperatura_c": 21.4
   },
   {
    "fecha": "2026-09-07",
    "local": "Boston Red Sox",
    "visita": "Los Angeles Angels",
-   "carreras_local": 0,
-   "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": false,
+   "carreras_local": 5,
+   "carreras_visita": 2,
+   "linea_real": 10.5,
+   "es_final": true,
    "hora_inicio_utc": "2026-09-07 17:35:00.000",
-   "temperatura_c": 19.3
+   "temperatura_c": 19.1
   },
   {
    "fecha": "2026-09-07",
    "local": "Detroit Tigers",
    "visita": "Minnesota Twins",
-   "carreras_local": 0,
-   "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": false,
+   "carreras_local": 5,
+   "carreras_visita": 4,
+   "linea_real": 11.5,
+   "es_final": true,
    "hora_inicio_utc": "2026-09-07 19:10:00.000",
-   "temperatura_c": 19.7
+   "temperatura_c": 20.2
   },
   {
    "fecha": "2026-09-07",
    "local": "Kansas City Royals",
    "visita": "Arizona Diamondbacks",
-   "carreras_local": 0,
-   "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": false,
+   "carreras_local": 4,
+   "carreras_visita": 5,
+   "linea_real": 6.5,
+   "es_final": true,
    "hora_inicio_utc": "2026-09-07 18:10:00.000",
-   "temperatura_c": 28.7
+   "temperatura_c": 26.6
   },
   {
    "fecha": "2026-09-07",
    "local": "Los Angeles Dodgers",
    "visita": "Cincinnati Reds",
-   "carreras_local": 0,
-   "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": false,
+   "carreras_local": 6,
+   "carreras_visita": 3,
+   "linea_real": 8.5,
+   "es_final": true,
    "hora_inicio_utc": "2026-09-08 01:10:00.000",
-   "temperatura_c": 26.4
+   "temperatura_c": 25.2
   },
   {
    "fecha": "2026-09-07",
    "local": "Miami Marlins",
    "visita": "New York Mets",
-   "carreras_local": 0,
-   "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": false,
+   "carreras_local": 4,
+   "carreras_visita": 9,
+   "linea_real": 7.5,
+   "es_final": true,
    "hora_inicio_utc": "2026-09-07 17:10:00.000",
-   "temperatura_c": 26.9
+   "temperatura_c": 27.5
   },
   {
    "fecha": "2026-09-07",
    "local": "Milwaukee Brewers",
    "visita": "Chicago Cubs",
-   "carreras_local": 0,
-   "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": false,
+   "carreras_local": 4,
+   "carreras_visita": 3,
+   "linea_real": 8.5,
+   "es_final": true,
    "hora_inicio_utc": "2026-09-07 18:10:00.000",
-   "temperatura_c": 19.6
+   "temperatura_c": 20.3
   },
   {
    "fecha": "2026-09-07",
    "local": "Philadelphia Phillies",
    "visita": "Atlanta Braves",
-   "carreras_local": 0,
+   "carreras_local": 1,
    "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": false,
+   "linea_real": 8.0,
+   "es_final": true,
    "hora_inicio_utc": "2026-09-07 17:05:00.000",
-   "temperatura_c": 21.5
+   "temperatura_c": 21.4
   },
   {
    "fecha": "2026-09-07",
    "local": "San Diego Padres",
    "visita": "Washington Nationals",
-   "carreras_local": 0,
-   "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": false,
+   "carreras_local": 3,
+   "carreras_visita": 2,
+   "linea_real": 8.0,
+   "es_final": true,
    "hora_inicio_utc": "2026-09-07 21:10:00.000",
-   "temperatura_c": 28.9
+   "temperatura_c": 28.2
   },
   {
    "fecha": "2026-09-07",
    "local": "San Francisco Giants",
    "visita": "St. Louis Cardinals",
-   "carreras_local": 0,
-   "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": false,
+   "carreras_local": 5,
+   "carreras_visita": 4,
+   "linea_real": 7.5,
+   "es_final": true,
    "hora_inicio_utc": "2026-09-08 00:10:00.000",
-   "temperatura_c": 18.5
+   "temperatura_c": 18.7
   },
   {
    "fecha": "2026-09-08",
@@ -301,8 +301,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-09-09 01:40:00",
-   "temperatura_c": 20.0
+   "hora_inicio_utc": "2026-09-09 01:40:00.000",
+   "temperatura_c": 24.1
   },
   {
    "fecha": "2026-09-08",
@@ -312,8 +312,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-09-08 23:15:00",
-   "temperatura_c": 20.0
+   "hora_inicio_utc": "2026-09-08 23:15:00.000",
+   "temperatura_c": 26.3
   },
   {
    "fecha": "2026-09-08",
@@ -323,8 +323,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-09-08 22:35:00",
-   "temperatura_c": 20.0
+   "hora_inicio_utc": "2026-09-08 22:35:00.000",
+   "temperatura_c": 22.4
   },
   {
    "fecha": "2026-09-08",
@@ -334,7 +334,7 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-09-08 22:45:00",
+   "hora_inicio_utc": "2026-09-08 22:45:00.000",
    "temperatura_c": 20.0
   },
   {
@@ -345,8 +345,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-09-08 23:40:00",
-   "temperatura_c": 20.0
+   "hora_inicio_utc": "2026-09-08 23:40:00.000",
+   "temperatura_c": 23.0
   },
   {
    "fecha": "2026-09-08",
@@ -356,8 +356,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-09-08 22:40:00",
-   "temperatura_c": 20.0
+   "hora_inicio_utc": "2026-09-08 22:40:00.000",
+   "temperatura_c": 21.6
   },
   {
    "fecha": "2026-09-08",
@@ -367,8 +367,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-09-08 23:40:00",
-   "temperatura_c": 20.0
+   "hora_inicio_utc": "2026-09-08 23:40:00.000",
+   "temperatura_c": 31.7
   },
   {
    "fecha": "2026-09-08",
@@ -378,8 +378,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-09-09 02:10:00",
-   "temperatura_c": 20.0
+   "hora_inicio_utc": "2026-09-09 02:10:00.000",
+   "temperatura_c": 29.3
   },
   {
    "fecha": "2026-09-08",
@@ -389,8 +389,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-09-08 22:40:00",
-   "temperatura_c": 20.0
+   "hora_inicio_utc": "2026-09-08 22:40:00.000",
+   "temperatura_c": 26.4
   },
   {
    "fecha": "2026-09-08",
@@ -400,8 +400,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-09-08 23:40:00",
-   "temperatura_c": 20.0
+   "hora_inicio_utc": "2026-09-08 23:40:00.000",
+   "temperatura_c": 21.9
   },
   {
    "fecha": "2026-09-08",
@@ -411,8 +411,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-09-08 23:05:00",
-   "temperatura_c": 20.0
+   "hora_inicio_utc": "2026-09-08 23:05:00.000",
+   "temperatura_c": 22.1
   },
   {
    "fecha": "2026-09-08",
@@ -422,8 +422,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-09-08 22:40:00",
-   "temperatura_c": 20.0
+   "hora_inicio_utc": "2026-09-08 22:40:00.000",
+   "temperatura_c": 21.5
   },
   {
    "fecha": "2026-09-08",
@@ -433,8 +433,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-09-09 01:40:00",
-   "temperatura_c": 20.0
+   "hora_inicio_utc": "2026-09-09 01:40:00.000",
+   "temperatura_c": 29.5
   },
   {
    "fecha": "2026-09-08",
@@ -444,8 +444,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-09-09 01:45:00",
-   "temperatura_c": 20.0
+   "hora_inicio_utc": "2026-09-09 01:45:00.000",
+   "temperatura_c": 22.0
   },
   {
    "fecha": "2026-09-08",
@@ -455,8 +455,8 @@
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-09-09 01:40:00",
-   "temperatura_c": 20.0
+   "hora_inicio_utc": "2026-09-09 01:40:00.000",
+   "temperatura_c": 16.5
   },
   {
    "fecha": "2026-09-22",
@@ -3036,5 +3036,5 @@
   "unidades": 130.5,
   "acierto": 66.7
  },
- "fecha_actualizacion": "2026-09-08T05:16:16Z"
+ "fecha_actualizacion": "2026-09-08T06:47:50Z"
 }
