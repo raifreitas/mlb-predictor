@@ -872,6 +872,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-08",
+   "local": "San Francisco Giants",
+   "visita": "St. Louis Cardinals",
+   "linea": 7.5,
+   "prediccion": 8.9,
+   "prob_over": 0.5015789866447449,
+   "edge": 1.4,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 1.40 < 1.45)",
+   "evaluado_utc": "2026-09-08T23:46:20Z"
+  },
+  {
+   "fecha": "2026-09-08",
    "local": "Athletics",
    "visita": "Toronto Blue Jays",
    "linea": 9.0,
@@ -4186,5 +4198,5 @@
   "unidades": 130.5,
   "acierto": 66.7
  },
- "fecha_actualizacion": "2026-09-08T23:41:11Z"
+ "fecha_actualizacion": "2026-09-08T23:46:21Z"
 }
