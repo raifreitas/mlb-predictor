@@ -871,6 +871,18 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-09-08",
+   "local": "Baltimore Orioles",
+   "visita": "Cleveland Guardians",
+   "linea": 8.0,
+   "prediccion": 7.22,
+   "prob_over": 0.48339834809303284,
+   "edge": 0.78,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.78 carreras, prob_over 48.3%)",
+   "evaluado_utc": "2026-09-08T20:35:58Z"
+  },
+  {
    "fecha": "2026-09-07",
    "local": "San Francisco Giants",
    "visita": "St. Louis Cardinals",
@@ -2965,5 +2977,5 @@
   "unidades": 130.5,
   "acierto": 66.7
  },
- "fecha_actualizacion": "2026-09-08T20:31:04Z"
+ "fecha_actualizacion": "2026-09-08T20:35:59Z"
 }
