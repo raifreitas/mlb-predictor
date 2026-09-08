@@ -2049,15 +2049,166 @@
    ],
    "local": "Boston Red Sox",
    "visita": "Los Angeles Angels"
+  },
+  {
+   "game_id": 824792,
+   "bateadores": [
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Steven Kwan",
+     "p_so": 0.38936471939086914,
+     "p_bb": 0.4142826199531555
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Travis Bazzana",
+     "p_so": 0.5554113388061523,
+     "p_bb": 0.3456329107284546
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "José Ramírez",
+     "p_so": 0.4522526264190674,
+     "p_bb": 0.36413636803627014
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jo Adell",
+     "p_so": 0.7093468308448792,
+     "p_bb": 0.23875603079795837
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Nathaniel Lowe",
+     "p_so": 0.6483510136604309,
+     "p_bb": 0.3454815745353699
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Angel Martínez",
+     "p_so": 0.5461694002151489,
+     "p_bb": 0.19133201241493225
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Patrick Bailey",
+     "p_so": 0.6323241591453552,
+     "p_bb": 0.286698579788208
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Petey Halpin",
+     "p_so": 0.5112471580505371,
+     "p_bb": 0.20026962459087372
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Brayan Rocchio",
+     "p_so": 0.4399978220462799,
+     "p_bb": 0.21677535772323608
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jackson Holliday",
+     "p_so": 0.6610912680625916,
+     "p_bb": 0.3427264392375946
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Pete Alonso",
+     "p_so": 0.7000484466552734,
+     "p_bb": 0.39120543003082275
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Gunnar Henderson",
+     "p_so": 0.6302926540374756,
+     "p_bb": 0.4029451012611389
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Coby Mayo",
+     "p_so": 0.7237181067466736,
+     "p_bb": 0.29733291268348694
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Samuel Basallo",
+     "p_so": 0.6434456706047058,
+     "p_bb": 0.2616186738014221
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Dylan Beavers",
+     "p_so": 0.655596911907196,
+     "p_bb": 0.3486541509628296
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Blaze Alexander",
+     "p_so": 0.6071314811706543,
+     "p_bb": 0.22765293717384338
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Colton Cowser",
+     "p_so": 0.7043358683586121,
+     "p_bb": 0.28246089816093445
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Leody Taveras",
+     "p_so": 0.5922938585281372,
+     "p_bb": 0.24519743025302887
+    }
+   ],
+   "local": "Baltimore Orioles",
+   "visita": "Cleveland Guardians"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 20,
+  "picks_hoy": 31,
   "ganadas": 522,
   "perdidas": 261,
   "push": 0,
   "unidades": 130.5,
   "acierto": 66.7
  },
- "fecha_actualizacion": "2026-09-08T19:31:05Z"
+ "fecha_actualizacion": "2026-09-08T19:36:03Z"
 }
