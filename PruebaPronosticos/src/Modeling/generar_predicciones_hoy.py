@@ -241,7 +241,7 @@ def _validar(con):
         p = df[col].clip(0.0001, 0.9999)
         n = len(y)
         if umbral_pick is None:
-            predic_cuant = np.zeros(n, dtype=int)
+            predic_cuant = pd.Series(np.zeros(n, dtype=int), index=p.index)
         else:
             predic_cuant = (p >= umbral_pick).astype(int)
         from sklearn.metrics import log_loss, roc_auc_score
