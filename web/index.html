@@ -212,24 +212,7 @@
     </table>
   </div>
 
-  <h2>Partidos recientes</h2>
-  <details class="no-apostar">
-    <summary>Partidos MLB de los ultimos dias <span class="conteo" id="num-partidos">-</span>
-      <span class="flechita">&#9654;</span></summary>
-    <div class="cuerpo">
-      <table class="tabla mini">
-        <thead>
-          <tr>
-            <th>Fecha</th><th>Local</th><th>Visita</th><th>Marcador</th>
-            <th>Linea real</th><th>Estado</th>
-          </tr>
-        </thead>
-        <tbody id="tabla-partidos"></tbody>
-      </table>
-    </div>
-  </details>
-
-  <h2>NO APOSTAR (no pasaron los filtros)</h2>
+  <h2>No Apostar</h2>
   <details class="no-apostar">
     <summary>Historial de picks descartados <span class="conteo" id="num-noapostar">-</span>
       <span class="flechita">&#9654;</span></summary>
@@ -355,22 +338,24 @@
       }
 
       const tbodyG = document.getElementById("tabla-partidos");
-      const partidos = d.partidos_hoy.slice().reverse();
-      document.getElementById("num-partidos").textContent =
-        "(" + partidos.length + ")";
-      tbodyG.innerHTML = partidos.map((g) =>
-        "<tr>" +
-        "<td class='debil'>" + ESC(g.fecha) + "</td>" +
-        "<td>" + ESC(g.local) + "</td>" +
-        "<td class='debil'>" + ESC(g.visita) + "</td>" +
-        "<td>" + (g.es_final
-          ? '<b>' + ESC(g.carreras_local) + "</b>-" + ESC(g.carreras_visita)
-          : "-") + "</td>" +
-        "<td>" + (g.linea_real !== null && g.linea_real !== undefined
-          ? ESC(String(g.linea_real)) : "-") + "</td>" +
-        '<td><span class="estado futuro">' +
-          (g.es_final ? "Final" : "Programado") + "</span></td>" +
-        "</tr>").join("");
+      if (tbodyG) {
+        const partidos = d.partidos_hoy.slice().reverse();
+        const contadorG = document.getElementById("num-partidos");
+        if (contadorG) contadorG.textContent = "(" + partidos.length + ")";
+        tbodyG.innerHTML = partidos.map((g) =>
+          "<tr>" +
+          "<td class='debil'>" + ESC(g.fecha) + "</td>" +
+          "<td>" + ESC(g.local) + "</td>" +
+          "<td class='debil'>" + ESC(g.visita) + "</td>" +
+          "<td>" + (g.es_final
+            ? '<b>' + ESC(g.carreras_local) + "</b>-" + ESC(g.carreras_visita)
+            : "-") + "</td>" +
+          "<td>" + (g.linea_real !== null && g.linea_real !== undefined
+            ? ESC(String(g.linea_real)) : "-") + "</td>" +
+          '<td><span class="estado futuro">' +
+            (g.es_final ? "Final" : "Programado") + "</span></td>" +
+          "</tr>").join("");
+      }
 
       const evals = (d.evaluaciones || []).filter(
         (e) => e.recomendacion === "NO APOSTAR");
