@@ -122,6 +122,20 @@
   .tabla.mini th { padding: 8px 12px; }
   details.no-apostar .tabla { min-width: 560px; }
 
+  .bp-juego {
+    background: var(--panel); border: 1px solid var(--borde);
+    border-radius: 12px; overflow: hidden; margin-bottom: 14px;
+  }
+  .bp-cabecera {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 8px; padding: 11px 16px; font-weight: 800;
+    background: var(--panel-2); border-bottom: 1px solid var(--borde);
+  }
+  .bp-cabecera .contador { color: var(--tenue); font-weight: 600; font-size: .8rem; }
+  .bp-pk { color: var(--azul); font-weight: 700; }
+  .bp-pb { color: var(--verde); font-weight: 700; }
+  .alto-k { color: var(--ambar); }
+
   footer {
     margin-top: 28px; text-align: center; color: var(--tenue);
     font-size: .74rem;
@@ -167,6 +181,9 @@
       <tbody id="tabla-predicciones"></tbody>
     </table>
   </div>
+
+  <h2>Batter props (hoy) <span class="conteo" id="num-batterprops"></span></h2>
+  <div id="tabla-batterprops"></div>
 
   <h2>Partidos recientes</h2>
   <details class="no-apostar">
@@ -270,6 +287,38 @@
           '<td><span class="estado ' + fila(p.estado) + '">' +
             ESC(resumen(p.estado)) + "</span></td>" +
           "</tr>").join("");
+      }
+
+      const bpGrupos = document.getElementById("tabla-batterprops");
+      const bp = d.batter_props_hoy || [];
+      const totalBp = bp.reduce((n, g) => n + g.bateadores.length, 0);
+      document.getElementById("num-batterprops").textContent =
+        "(" + totalBp + ")";
+      if (totalBp === 0) {
+        bpGrupos.innerHTML = '<div class="envuelve-tabla"><table class="tabla mini">' +
+          '<tbody><tr><td class="debil">Sin predicciones de batter props ' +
+          "todavia (lineups no publicados).</td></tr></tbody></table></div>";
+      } else {
+        bpGrupos.innerHTML = bp.map((g) =>
+          "<div class='bp-juego'>" +
+          "<div class='bp-cabecera'>" +
+            "<span>" + ESC(g.visita) + " <span class='debil'>@</span> " +
+              ESC(g.local) + "</span>" +
+            "<span class='contador'>" + g.bateadores.length + " bateadores</span>" +
+          "</div>" +
+          "<table class='tabla mini'>" +
+          "<thead><tr><th>Bateador</th><th>Equipo</th><th>Ord</th>" +
+            "<th>P(K&ge;1)</th><th>P(BB&ge;1)</th></tr></thead>" +
+          "<tbody>" + g.bateadores.map((b) =>
+            "<tr>" +
+            "<td>" + ESC(b.bateador) + "</td>" +
+            "<td class='debil'>" + ESC(b.equipo) + (b.is_home ? " (L)" : "") + "</td>" +
+            "<td>" + ESC(String(b.orden)) + "</td>" +
+            "<td class='bp-pk" + (b.p_so >= 0.6 ? " alto-k" : "") + "'>" +
+              Math.round(b.p_so * 100) + "%</td>" +
+            "<td class='bp-pb'>" + Math.round(b.p_bb * 100) + "%</td>" +
+            "</tr>").join("") +
+          "</tbody></table></div>").join("");
       }
 
       const tbodyG = document.getElementById("tabla-partidos");

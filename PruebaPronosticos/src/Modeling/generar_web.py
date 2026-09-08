@@ -126,6 +126,46 @@ def generar():
                 "evaluado_utc": str(evaluado) if evaluado else None,
             })
 
+# Batter props: predicciones del mercado individual del SLATE actual.
+        # Se usa la fecha mas reciente disponible en la tabla (robusto a zonas
+        # horarias entre el runner UTC y la maquina local), con fallback hoy-UTC.
+        batter_props_hoy = []
+        try:
+            fila_max = con.execute(
+                """SELECT MAX(Fecha) FROM PrediccionBatterProps""").fetchone()
+            hoy = fila_max[0] if fila_max and fila_max[0] else (
+                datetime.now(timezone.utc).strftime("%Y-%m-%d"))
+            filas_bp = con.execute(
+                """SELECT p.Fecha, p.GameId, p.Team, p.IsHome, p.BattingOrder,
+                          p.Nombre, p.PStrikeOut, p.PWalk
+                     FROM PrediccionBatterProps p
+                    WHERE p.Fecha = ?
+                    ORDER BY p.GameId, p.IsHome, p.BattingOrder""",
+                [hoy]).fetchall()
+            actual = {"game_id": None, "bateadores": []}
+            for (_fecha, game_id, equipo, es_home, orden, nombre,
+                 p_so, p_bb) in filas_bp:
+                if actual["game_id"] != game_id:
+                    if actual["game_id"] is not None:
+                        batter_props_hoy.append(actual)
+                    actual = {"game_id": game_id, "bateadores": []}
+                actual["bateadores"].append({
+                    "equipo": equipo, "is_home": bool(es_home),
+                    "orden": orden, "bateador": nombre,
+                    "p_so": _jsonable(p_so), "p_bb": _jsonable(p_bb)})
+            if actual["game_id"] is not None:
+                batter_props_hoy.append(actual)
+            for juego in batter_props_hoy:
+                juego["local"] = next(
+                    (b["equipo"] for b in juego["bateadores"] if b["is_home"]),
+                    "Desconocido")
+                juego["visita"] = next(
+                    (b["equipo"] for b in juego["bateadores"]
+                     if not b["is_home"]), "Desconocido")
+        except Exception:
+            # Tabla aun sin datos (o conector sin PrediccionBatterProps).
+            batter_props_hoy = []
+
         ganadas = sum(1 for p in predicciones if p["estado"] == "GANADA")
         perdidas = sum(1 for p in predicciones if p["estado"] == "PERDIDA")
         pushes = sum(1 for p in predicciones if p["estado"] == "PUSH")
@@ -144,6 +184,7 @@ def generar():
             "partidos_hoy": partidos_json,
             "predicciones": predicciones,
             "evaluaciones": evaluaciones_json,
+            "batter_props_hoy": batter_props_hoy,
         }
     finally:
         con.close()
@@ -167,6 +208,7 @@ def generar():
           f"({len(predicciones)} predicciones, "
           f"{len(partidos_json)} partidos, "
           f"{len(evaluaciones_json)} evaluaciones, "
+          f"{len(batter_props_hoy)} juegos batter props, "
           f"{salida['fecha_actualizacion']}).")
     return 0
 

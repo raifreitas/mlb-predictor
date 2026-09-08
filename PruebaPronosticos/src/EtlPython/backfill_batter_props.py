@@ -63,8 +63,47 @@ def _game_ids_existentes(repo):
     return {r[0] for r in rows}
 
 
-def procesar_juegos(fetcher, repo, juegos, espera):
-    """Descarga boxscores pendientes y hace UPSERT. Devuelve conteos."""
+def procesar_juegos(fetcher, repo, juegos, espera, workers=1):
+    """Descarga boxscores pendientes y hace UPSERT. Devuelve conteos.
+
+    Con workers > 1 la descarga+parseo del boxscore corre en hilos (el
+    cuello de botella es la API), pero los UPSERT son siempre secuenciales
+    en el hilo principal para no competir por la BD.
+    """
+    defecios = []  # gamePk que fallaron en descarga (se omiten, quedan pendientes)
+
+    def descargar(juego):
+        game_pk, fecha, local, visita = juego
+        return fetcher.obtener_logs_partido(game_pk, fecha, local, visita)
+
+    if workers > 1 and len(juegos) > workers:
+        from concurrent.futures import ThreadPoolExecutor
+        bat = 0
+        pit = 0
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            futuros = [pool.submit(descargar, j) for j in juegos]
+            for indice, fut in enumerate(futuros, 1):
+                game_pk = juegos[indice - 1][0]
+                try:
+                    fb, fp = fut.result()
+                except Exception as ex:
+                    print(f"[{indice}/{len(juegos)}] FALLO {game_pk}: {ex}")
+                    defecios.append(game_pk)
+                    continue
+                if not fb:
+                    fecha, local, visita = juegos[indice - 1][1:]
+                    print(f"[{indice}/{len(juegos)}] SKIP {fecha} "
+                          f"{local} vs {visita} ({game_pk})")
+                bat += repo.guardar_batter_game_logs(fb or [])
+                pit += repo.guardar_pitcher_game_logs(fp or [])
+                if indice % 50 == 0:
+                    print(f"  ... {indice}/{len(juegos)} juegos "
+                          f"(bateadores={bat}, pitcheo={pit})")
+        if defecios:
+            print(f"  Juegos con fallo (quedan pendientes): "
+                  f"{len(defecios)} {defecios[:20]}...")
+        return bat, pit
+
     bat = 0
     pit = 0
     for indice, (game_pk, fecha, local, visita) in enumerate(juegos, 1):
@@ -125,7 +164,9 @@ def main():
     parser.add_argument("--hasta", default=date.today().isoformat())
     parser.add_argument("--espera", type=float,
                         default=ESPERA_ENTRE_LLAMADAS_S,
-                        help="segundos de pausa entre boxscores")
+                        help="segundos de pausa entre boxscores (secuencial)")
+    parser.add_argument("--workers", type=int, default=6,
+                        help="hilos de descarga paralela de boxscores")
     parser.add_argument("--verificar-conteo", action="store_true",
                         help="solo cuenta lo pendiente, no descarga")
     args = parser.parse_args()
@@ -151,7 +192,8 @@ def main():
         pendientes = [j for j in juegos if j[0] not in existentes]
         print(f"[MES {actual:%Y-%m %d}] {len(juegos)} finalizados, "
               f"{len(pendientes)} por procesar.")
-        bat, pit = procesar_juegos(fetcher, repo, pendientes, args.espera)
+        bat, pit = procesar_juegos(fetcher, repo, pendientes,
+                                   args.espera, args.workers)
         total_bat += bat
         total_pit += pit
         for j in pendientes:

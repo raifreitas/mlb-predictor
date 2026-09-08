@@ -43,7 +43,7 @@ class TeamOpsSplits:
 
 
 class MlbDataFetcher:
-    def __init__(self, base_url, timeout=100):
+    def __init__(self, base_url, timeout=25):
         self._base_url = base_url.rstrip("/")
         self._timeout = timeout
         self._cache_era = {}
@@ -328,11 +328,13 @@ class MlbDataFetcher:
                   f"{game_pk}: {ex}")
             return None
 
-    def obtener_pitchers_partido(self, game_pk, fecha):
+    def obtener_pitchers_partido(self, game_pk, fecha, _boxscore=None):
         filas = []
         try:
-            url = f"{self._base_url}/game/{game_pk}/boxscore"
-            datos = self._get_json(url)
+            if _boxscore is None:
+                url = f"{self._base_url}/game/{game_pk}/boxscore"
+                _boxscore = self._get_json(url)
+            datos = _boxscore
             equipos = datos.get("teams")
             if not equipos:
                 print(f"[MLB] Boxscore {game_pk} sin seccion 'teams'.")
@@ -393,7 +395,8 @@ class MlbDataFetcher:
         return filas
 
     def obtener_batter_logs_partido(self, game_pk, fecha,
-                                    equipo_local, equipo_visita):
+                                    equipo_local, equipo_visita,
+                                    _boxscore=None):
         """Batter props desde el boxscore de un partido FINALIZADO.
 
         Devuelve una fila por bateador con PlateAppearances > 0:
@@ -407,8 +410,10 @@ class MlbDataFetcher:
         """
         filas = []
         try:
-            url = f"{self._base_url}/game/{game_pk}/boxscore"
-            datos = self._get_json(url)
+            if _boxscore is None:
+                url = f"{self._base_url}/game/{game_pk}/boxscore"
+                _boxscore = self._get_json(url)
+            datos = _boxscore
             equipos = datos.get("teams")
             if not equipos:
                 print(f"[MLB] Boxscore {game_pk} sin seccion 'teams'.")
@@ -470,3 +475,15 @@ class MlbDataFetcher:
             print(f"[MLB] Error leyendo boxscore (batter props) del partido "
                   f"{game_pk}: {ex}")
         return filas
+
+    def obtener_logs_partido(self, game_pk, fecha,
+                             equipo_local, equipo_visita):
+        """Una SOLA llamada al boxscore devuelve filas de bateadores y
+        lanzadores (el backfill evita 2 GET por juego)."""
+        url = f"{self._base_url}/game/{game_pk}/boxscore"
+        datos = self._get_json(url)
+        return (self.obtener_batter_logs_partido(
+                    game_pk, fecha, equipo_local, equipo_visita,
+                    _boxscore=datos),
+                self.obtener_pitchers_partido(game_pk, fecha,
+                                              _boxscore=datos))
