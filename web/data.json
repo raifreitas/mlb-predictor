@@ -872,6 +872,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-08",
+   "local": "Boston Red Sox",
+   "visita": "Los Angeles Angels",
+   "linea": 7.5,
+   "prediccion": 7.38,
+   "prob_over": 0.520561695098877,
+   "edge": 0.12,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.12 carreras, prob_over 52.1%)",
+   "evaluado_utc": "2026-09-08T20:46:13Z"
+  },
+  {
+   "fecha": "2026-09-08",
    "local": "Detroit Tigers",
    "visita": "Minnesota Twins",
    "linea": 8.0,
@@ -3164,5 +3176,5 @@
   "unidades": 130.5,
   "acierto": 66.7
  },
- "fecha_actualizacion": "2026-09-08T20:40:58Z"
+ "fecha_actualizacion": "2026-09-08T20:46:14Z"
 }
