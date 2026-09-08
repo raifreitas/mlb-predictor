@@ -2671,24 +2671,32 @@
      "is_home": false,
      "orden": 6,
      "bateador": "Nolan Arenado",
-     "p_so": 0.5441027879714966,
-     "p_bb": 0.1955697238445282
+     "p_so": 0.5445340275764465,
+     "p_bb": 0.21167044341564178
     },
     {
      "equipo": "Arizona Diamondbacks",
      "is_home": false,
      "orden": 7,
      "bateador": "Tommy Troy",
-     "p_so": 0.5685492157936096,
-     "p_bb": 0.2063763588666916
+     "p_so": 0.5727308392524719,
+     "p_bb": 0.20699840784072876
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Ildemaro Vargas",
+     "p_so": 0.339403361082077,
+     "p_bb": 0.1211482509970665
     },
     {
      "equipo": "Arizona Diamondbacks",
      "is_home": false,
      "orden": 8,
      "bateador": "Tim Tawa",
-     "p_so": 0.7046460509300232,
-     "p_bb": 0.2287001758813858
+     "p_so": 0.740985631942749,
+     "p_bb": 0.2436370849609375
     },
     {
      "equipo": "Arizona Diamondbacks",
@@ -3538,5 +3546,5 @@
   "unidades": 130.5,
   "acierto": 66.7
  },
- "fecha_actualizacion": "2026-09-08T22:11:04Z"
+ "fecha_actualizacion": "2026-09-08T22:16:02Z"
 }
