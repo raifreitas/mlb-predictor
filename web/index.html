@@ -68,6 +68,29 @@
     background: var(--azul); display: inline-block;
   }
 
+  .nav {
+    position: sticky; top: 0; z-index: 10;
+    display: flex; gap: 8px; padding: 10px 0; margin-bottom: 20px;
+    background: linear-gradient(180deg, var(--fondo) 85%, transparent);
+  }
+  .nav button {
+    flex: 1; max-width: 280px;
+    background: var(--panel); border: 1px solid var(--borde);
+    color: var(--tenue); border-radius: 10px; padding: 10px 16px;
+    font-size: .9rem; font-weight: 700; cursor: pointer;
+    transition: background .15s ease, color .15s ease, border-color .15s ease;
+  }
+  .nav button:hover { color: var(--texto); border-color: var(--azul); }
+  .nav button.activo {
+    background: var(--panel-2); color: var(--texto);
+    border-color: var(--azul);
+  }
+  .nav .puntos {
+    color: var(--tenue); font-size: .72rem; font-weight: 600; margin-left: 6px;
+  }
+  .section { display: none; }
+  .section.activa { display: block; }
+
   .envuelve-tabla {
     background: var(--panel); border: 1px solid var(--borde);
     border-radius: 12px; overflow: auto; -webkit-overflow-scrolling: touch;
@@ -156,6 +179,13 @@
   <h1>Pronosticos <span>MLB</span></h1>
   <div class="actualizado" id="actualizado">Cargando...</div>
 
+  <nav class="nav">
+    <button type="button" data-seccion="total" class="activo">Total (Over/Under)</button>
+    <button type="button" data-seccion="batterprops">Batter Props
+      <span class="puntos" id="num-bp-nav"></span></button>
+  </nav>
+
+  <section class="section activa" id="seccion-total">
   <div class="resumen">
     <div class="card"><div class="num" id="num-hoy">-</div>
       <div class="etiqueta">Picks hoy</div></div>
@@ -181,9 +211,6 @@
       <tbody id="tabla-predicciones"></tbody>
     </table>
   </div>
-
-  <h2>Batter props (hoy) <span class="conteo" id="num-batterprops"></span></h2>
-  <div id="tabla-batterprops"></div>
 
   <h2>Partidos recientes</h2>
   <details class="no-apostar">
@@ -218,6 +245,12 @@
       </table>
     </div>
   </details>
+  </section>
+
+  <section class="section" id="seccion-batterprops">
+  <h2>Batter props (hoy)</h2>
+  <div id="tabla-batterprops"></div>
+  </section>
 
   <footer>Generado automaticamente por GitHub Actions</footer>
 </div>
@@ -292,8 +325,8 @@
       const bpGrupos = document.getElementById("tabla-batterprops");
       const bp = d.batter_props_hoy || [];
       const totalBp = bp.reduce((n, g) => n + g.bateadores.length, 0);
-      document.getElementById("num-batterprops").textContent =
-        "(" + totalBp + ")";
+      document.getElementById("num-bp-nav").textContent =
+        totalBp > 0 ? "(" + totalBp + ")" : "";
       if (totalBp === 0) {
         bpGrupos.innerHTML = '<div class="envuelve-tabla"><table class="tabla mini">' +
           '<tbody><tr><td class="debil">Sin predicciones de batter props ' +
@@ -375,6 +408,18 @@
   }
 
   cargarDatos(1);
+
+  document.querySelectorAll(".nav button").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".nav button").forEach(
+        (b) => b.classList.remove("activo"));
+      document.querySelectorAll(".section").forEach(
+        (s) => s.classList.remove("activa"));
+      btn.classList.add("activo");
+      document.getElementById("seccion-" + btn.dataset.seccion)
+        .classList.add("activa");
+    });
+  });
 </script>
 
 <script src="https://pl31174099.profitableratecpmnetwork.com/cb/c1/26/cbc126b17c474ff5254091d0e25d8d07.js"></script>
