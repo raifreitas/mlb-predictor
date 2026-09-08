@@ -1748,5 +1748,13 @@
   }
  ],
  "batter_props_hoy": [],
- "fecha_actualizacion": "2026-09-08T04:10:58Z"
+ "resumen_bp": {
+  "picks_hoy": 0,
+  "ganadas": 0,
+  "perdidas": 0,
+  "push": 0,
+  "unidades": 0.0,
+  "acierto": null
+ },
+ "fecha_actualizacion": "2026-09-08T04:12:43Z"
 }

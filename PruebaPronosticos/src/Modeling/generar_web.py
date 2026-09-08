@@ -166,6 +166,38 @@ def generar():
             # Tabla aun sin datos (o conector sin PrediccionBatterProps).
             batter_props_hoy = []
 
+        # Resumen propio de batter props (sin mezclarse con Over/Under).
+        resumen_bp = {"picks_hoy": 0, "ganadas": 0, "perdidas": 0,
+                      "push": 0, "unidades": 0.0, "acierto": None}
+        try:
+            resumen_bp["picks_hoy"] = con.execute(
+                """SELECT COUNT(*) FROM PrediccionBatterProps p
+                   WHERE p.Fecha = (SELECT MAX(Fecha)
+                                    FROM PrediccionBatterProps)
+                     AND NOT EXISTS (
+                       SELECT 1 FROM EvaluacionBatterProps e
+                        WHERE e.Fecha = p.Fecha AND e.GameId = p.GameId
+                          AND e.BatterId = p.BatterId AND e.Mercado = 'K')"""
+            ).fetchone()[0]
+            gan_bp, per_bp = con.execute(
+                """SELECT
+                        SUM(CASE WHEN Resultado = Predicho THEN 1 ELSE 0 END),
+                        SUM(CASE WHEN Resultado != Predicho THEN 1 ELSE 0 END)
+                   FROM EvaluacionBatterProps"""
+            ).fetchone()
+            resumen_bp["ganadas"] = int(gan_bp or 0)
+            resumen_bp["perdidas"] = int(per_bp or 0)
+            total_bp = resumen_bp["ganadas"] + resumen_bp["perdidas"]
+            if total_bp:
+                resumen_bp["acierto"] = round(
+                    resumen_bp["ganadas"] / total_bp * 100, 1)
+            # Convencion: medio punto por pick (igual estetica que Over/Under).
+            resumen_bp["unidades"] = round(
+                0.5 * (resumen_bp["ganadas"] - resumen_bp["perdidas"]), 1)
+        except Exception:
+            resumen_bp = {"picks_hoy": 0, "ganadas": 0, "perdidas": 0,
+                          "push": 0, "unidades": 0.0, "acierto": None}
+
         ganadas = sum(1 for p in predicciones if p["estado"] == "GANADA")
         perdidas = sum(1 for p in predicciones if p["estado"] == "PERDIDA")
         pushes = sum(1 for p in predicciones if p["estado"] == "PUSH")
@@ -185,6 +217,7 @@ def generar():
             "predicciones": predicciones,
             "evaluaciones": evaluaciones_json,
             "batter_props_hoy": batter_props_hoy,
+            "resumen_bp": resumen_bp,
         }
     finally:
         con.close()

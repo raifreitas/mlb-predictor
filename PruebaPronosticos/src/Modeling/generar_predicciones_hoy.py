@@ -206,9 +206,22 @@ def _guardar(con, pred):
 
 
 def _validar(con):
+    con.executescript("""
+        CREATE TABLE IF NOT EXISTS EvaluacionBatterProps (
+            Fecha TEXT NOT NULL,
+            GameId INTEGER NOT NULL,
+            BatterId INTEGER NOT NULL,
+            Mercado TEXT NOT NULL,
+            Probabilidad REAL NOT NULL,
+            Resultado INTEGER NOT NULL,
+            Predicho INTEGER NOT NULL,
+            FechaPrediccion TEXT,
+            PRIMARY KEY (Fecha, GameId, BatterId, Mercado)
+        )
+    """)
     q = """
         SELECT p.Fecha, p.GameId, p.BatterId, p.Nombre, p.Team, p.IsHome,
-               p.BattingOrder, p.PStrikeOut, p.PWalk,
+               p.BattingOrder, p.PStrikeOut, p.PWalk, p.FechaPrediccion,
                b.StrikeOuts AS real_so, b.BaseOnBalls AS real_bb
           FROM PrediccionBatterProps p
           JOIN BatterGameLog b
@@ -234,6 +247,27 @@ def _validar(con):
         print(f"\n{tag}: n={n} | tasa real={y.mean():.3f} | "
               f"hit-rate@{0.5}={hit:.3f} | logloss={ll:.4f} "
               f"(baseline {basel:.4f}) | AUC={auc:.4f}")
+        mercado = tag.split()[0]
+        filas = [(f_r, int(g), int(b), mercado, float(pr),
+                  int(re), int(pd), fp)
+                 for f_r, g, b, pr, re, pd, fp in zip(
+                     df["Fecha"], df["GameId"], df["BatterId"], p.values,
+                     y.values, predic_cuant.values,
+                     df["FechaPrediccion"])]
+        con.executemany("""
+            INSERT INTO EvaluacionBatterProps
+                (Fecha, GameId, BatterId, Mercado, Probabilidad,
+                 Resultado, Predicho, FechaPrediccion)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT (Fecha, GameId, BatterId, Mercado) DO UPDATE SET
+                Probabilidad = excluded.Probabilidad,
+                Resultado = excluded.Resultado,
+                Predicho = excluded.Predicho,
+                FechaPrediccion = excluded.FechaPrediccion
+        """, filas)
+    con.commit()
+    print(f"\nResultados persistidos en EvaluacionBatterProps "
+          f"({con.total_changes} filas).")
 
 
 def main():

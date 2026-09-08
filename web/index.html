@@ -231,6 +231,18 @@
   </section>
 
   <section class="section" id="seccion-batterprops">
+  <div class="resumen">
+    <div class="card"><div class="num" id="num-bp-hoy">-</div>
+      <div class="etiqueta">Picks hoy</div></div>
+    <div class="card"><div class="num ganada" id="num-bp-ganadas">-</div>
+      <div class="etiqueta">Ganadas</div></div>
+    <div class="card"><div class="num perdida" id="num-bp-perdidas">-</div>
+      <div class="etiqueta">Perdidas</div></div>
+    <div class="card"><div class="num" id="num-bp-unidades">-</div>
+      <div class="etiqueta">Unidades</div></div>
+    <div class="card"><div class="num" id="num-bp-acierto">-</div>
+      <div class="etiqueta">Acierto</div></div>
+  </div>
   <h2>Batter props (hoy)</h2>
   <div id="tabla-batterprops"></div>
   </section>
@@ -336,6 +348,19 @@
             "</tr>").join("") +
           "</tbody></table></div>").join("");
       }
+
+      const rb = d.resumen_bp || {};
+      document.getElementById("num-bp-hoy").textContent =
+        String(rb.picks_hoy ?? 0);
+      document.getElementById("num-bp-ganadas").textContent =
+        String(rb.ganadas ?? 0);
+      document.getElementById("num-bp-perdidas").textContent =
+        String(rb.perdidas ?? 0);
+      const bpUnid = Number(rb.unidades ?? 0);
+      document.getElementById("num-bp-unidades").textContent =
+        (bpUnid > 0 ? "+" : "") + bpUnid;
+      document.getElementById("num-bp-acierto").textContent =
+        rb.acierto != null ? rb.acierto + "%" : "-";
 
       const tbodyG = document.getElementById("tabla-partidos");
       if (tbodyG) {
