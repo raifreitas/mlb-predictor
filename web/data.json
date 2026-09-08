@@ -2353,6 +2353,157 @@
    "visita": "Minnesota Twins"
   },
   {
+   "game_id": 824551,
+   "bateadores": [
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Konnor Griffin",
+     "p_so": 0.5429248213768005,
+     "p_bb": 0.1978575438261032
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Brandon Lowe",
+     "p_so": 0.7763499021530151,
+     "p_bb": 0.3694497048854828
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Bryan Reynolds",
+     "p_so": 0.663155198097229,
+     "p_bb": 0.37925466895103455
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Oneil Cruz",
+     "p_so": 0.7316757440567017,
+     "p_bb": 0.37444835901260376
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Esmerlyn Valdez",
+     "p_so": 0.7587205171585083,
+     "p_bb": 0.3617631793022156
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Spencer Horwitz",
+     "p_so": 0.5359400510787964,
+     "p_bb": 0.33316710591316223
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Rafael Flores Jr.",
+     "p_so": 0.6864829063415527,
+     "p_bb": 0.29556384682655334
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Jacob Gonzalez",
+     "p_so": 0.5165141224861145,
+     "p_bb": 0.1860271692276001
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Jake Mangum",
+     "p_so": 0.5102618336677551,
+     "p_bb": 0.1819424331188202
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Sam Antonacci",
+     "p_so": 0.5261616110801697,
+     "p_bb": 0.40212464332580566
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Miguel Vargas",
+     "p_so": 0.553864061832428,
+     "p_bb": 0.5014527440071106
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Munetaka Murakami",
+     "p_so": 0.8061156272888184,
+     "p_bb": 0.5993296504020691
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Andrew Benintendi",
+     "p_so": 0.554006040096283,
+     "p_bb": 0.3552548289299011
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Colson Montgomery",
+     "p_so": 0.7712070941925049,
+     "p_bb": 0.34950223565101624
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Braden Montgomery",
+     "p_so": 0.5242290496826172,
+     "p_bb": 0.3829996883869171
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Tristan Peters",
+     "p_so": 0.495055228471756,
+     "p_bb": 0.299796462059021
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Chase Meidroth",
+     "p_so": 0.5174843668937683,
+     "p_bb": 0.31989219784736633
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Kyle Teel",
+     "p_so": 0.5363660454750061,
+     "p_bb": 0.26244187355041504
+    }
+   ],
+   "local": "Chicago White Sox",
+   "visita": "Pittsburgh Pirates"
+  },
+  {
    "game_id": 824714,
    "bateadores": [
     {
@@ -2656,12 +2807,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 58,
+  "picks_hoy": 65,
   "ganadas": 522,
   "perdidas": 261,
   "push": 0,
   "unidades": 130.5,
   "acierto": 66.7
  },
- "fecha_actualizacion": "2026-09-08T20:05:58Z"
+ "fecha_actualizacion": "2026-09-08T20:16:05Z"
 }
