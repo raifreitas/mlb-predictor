@@ -1898,15 +1898,166 @@
    ],
    "local": "Detroit Tigers",
    "visita": "Minnesota Twins"
+  },
+  {
+   "game_id": 824714,
+   "bateadores": [
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Zach Neto",
+     "p_so": 0.7396385669708252,
+     "p_bb": 0.26947706937789917
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Mike Trout",
+     "p_so": 0.783574104309082,
+     "p_bb": 0.46833309531211853
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Jose Siri",
+     "p_so": 0.7621024250984192,
+     "p_bb": 0.22200597822666168
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Vaughn Grissom",
+     "p_so": 0.6092255115509033,
+     "p_bb": 0.2534714937210083
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Moisés Ballesteros",
+     "p_so": 0.6172457337379456,
+     "p_bb": 0.2841107249259949
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Christian Moore",
+     "p_so": 0.7132896780967712,
+     "p_bb": 0.2732483744621277
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Kyren Paris",
+     "p_so": 0.6394736766815186,
+     "p_bb": 0.25330230593681335
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Denzer Guzman",
+     "p_so": 0.67435222864151,
+     "p_bb": 0.21036042273044586
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Travis d'Arnaud",
+     "p_so": 0.5786741971969604,
+     "p_bb": 0.21873335540294647
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Roman Anthony",
+     "p_so": 0.5860966444015503,
+     "p_bb": 0.3188214600086212
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Jahmai Jones",
+     "p_so": 0.581906259059906,
+     "p_bb": 0.28492340445518494
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Wilyer Abreu",
+     "p_so": 0.7071842551231384,
+     "p_bb": 0.3293550908565521
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Trevor Story",
+     "p_so": 0.6257439255714417,
+     "p_bb": 0.16810551285743713
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Nick Sogard",
+     "p_so": 0.6626167893409729,
+     "p_bb": 0.28875404596328735
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Caleb Durbin",
+     "p_so": 0.42951446771621704,
+     "p_bb": 0.21658620238304138
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Andruw Monasterio",
+     "p_so": 0.5827375650405884,
+     "p_bb": 0.23504653573036194
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Eli White",
+     "p_so": 0.5823606252670288,
+     "p_bb": 0.1603637933731079
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Connor Wong",
+     "p_so": 0.5843291878700256,
+     "p_bb": 0.16336590051651
+    }
+   ],
+   "local": "Boston Red Sox",
+   "visita": "Los Angeles Angels"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 9,
+  "picks_hoy": 20,
   "ganadas": 522,
   "perdidas": 261,
   "push": 0,
   "unidades": 130.5,
   "acierto": 66.7
  },
- "fecha_actualizacion": "2026-09-08T19:05:57Z"
+ "fecha_actualizacion": "2026-09-08T19:31:05Z"
 }
