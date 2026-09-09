@@ -887,6 +887,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-09",
+   "local": "San Francisco Giants",
+   "visita": "St. Louis Cardinals",
+   "linea": 8.0,
+   "prediccion": 9.2,
+   "prob_over": 0.48153093457221985,
+   "edge": 1.2,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +1.20 carreras, prob_over 48.2%)",
+   "evaluado_utc": "2026-09-09T17:46:06Z"
+  },
+  {
+   "fecha": "2026-09-09",
    "local": "Athletics",
    "visita": "Toronto Blue Jays",
    "linea": 9.0,
@@ -1788,6 +1800,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 823090,
+   "bateadores": [
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Ezequiel Duran",
+     "p_so": 0.6925908923149109,
+     "p_bb": 0.2875407934188843
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Corey Seager",
+     "p_so": 0.5879738330841064,
+     "p_bb": 0.4031762182712555
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Justin Foscue",
+     "p_so": 0.6056069135665894,
+     "p_bb": 0.24216094613075256
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Brandon Nimmo",
+     "p_so": 0.6069400906562805,
+     "p_bb": 0.33108556270599365
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Wyatt Langford",
+     "p_so": 0.6172991394996643,
+     "p_bb": 0.4465886950492859
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Jake Burger",
+     "p_so": 0.6947734951972961,
+     "p_bb": 0.29806169867515564
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Logan O'Hoppe",
+     "p_so": 0.5883385539054871,
+     "p_bb": 0.22045502066612244
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Elias Díaz",
+     "p_so": 0.5745247602462769,
+     "p_bb": 0.22585225105285645
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Cody Freeman",
+     "p_so": 0.42076465487480164,
+     "p_bb": 0.21036475896835327
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "J.P. Crawford",
+     "p_so": 0.5565757155418396,
+     "p_bb": 0.41914454102516174
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Randy Arozarena",
+     "p_so": 0.6630883812904358,
+     "p_bb": 0.35604777932167053
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Dominic Canzone",
+     "p_so": 0.6071915030479431,
+     "p_bb": 0.28428688645362854
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Cal Raleigh",
+     "p_so": 0.7266258001327515,
+     "p_bb": 0.35478633642196655
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Julio Rodríguez",
+     "p_so": 0.6478552222251892,
+     "p_bb": 0.24139706790447235
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Josh Naylor",
+     "p_so": 0.40800216794013977,
+     "p_bb": 0.22283674776554108
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Taylor Ward",
+     "p_so": 0.5997151732444763,
+     "p_bb": 0.31480899453163147
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Cole Young",
+     "p_so": 0.45614615082740784,
+     "p_bb": 0.22652538120746613
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Weston Wilson",
+     "p_so": 0.6271547675132751,
+     "p_bb": 0.22130653262138367
+    }
+   ],
+   "local": "Seattle Mariners",
+   "visita": "Texas Rangers"
+  },
+  {
    "game_id": 823172,
    "bateadores": [
     {
@@ -2242,12 +2405,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 20,
+  "picks_hoy": 30,
   "ganadas": 607,
   "perdidas": 304,
   "push": 0,
   "unidades": 151.5,
   "acierto": 66.6
  },
- "fecha_actualizacion": "2026-09-09T17:06:13Z"
+ "fecha_actualizacion": "2026-09-09T17:46:07Z"
 }
