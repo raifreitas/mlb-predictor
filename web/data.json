@@ -2579,6 +2579,157 @@
    "visita": "Colorado Rockies"
   },
   {
+   "game_id": 824064,
+   "bateadores": [
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Ildemaro Vargas",
+     "p_so": 0.3655011057853699,
+     "p_bb": 0.1938403695821762
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Ketel Marte",
+     "p_so": 0.5342265963554382,
+     "p_bb": 0.36769625544548035
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Geraldo Perdomo",
+     "p_so": 0.4502778649330139,
+     "p_bb": 0.4151623249053955
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Nolan Arenado",
+     "p_so": 0.5045663714408875,
+     "p_bb": 0.30825352668762207
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Tim Tawa",
+     "p_so": 0.7032602429389954,
+     "p_bb": 0.3315183222293854
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Lourdes Gurriel Jr.",
+     "p_so": 0.5130043625831604,
+     "p_bb": 0.2183399498462677
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "James McCann",
+     "p_so": 0.5882096290588379,
+     "p_bb": 0.19335192441940308
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Jordan Lawlar",
+     "p_so": 0.707861065864563,
+     "p_bb": 0.21870602667331696
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Lars Nootbaar",
+     "p_so": 0.44310277700424194,
+     "p_bb": 0.31029483675956726
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Carter Jensen",
+     "p_so": 0.6991074681282043,
+     "p_bb": 0.41815468668937683
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Bobby Witt Jr.",
+     "p_so": 0.53216952085495,
+     "p_bb": 0.32963046431541443
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Vinnie Pasquantino",
+     "p_so": 0.4573536217212677,
+     "p_bb": 0.35915181040763855
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Salvador Perez",
+     "p_so": 0.5709197521209717,
+     "p_bb": 0.18723832070827484
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Michael Massey",
+     "p_so": 0.46974655985832214,
+     "p_bb": 0.16189318895339966
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Nick Loftin",
+     "p_so": 0.5326367616653442,
+     "p_bb": 0.30933842062950134
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "John Rave",
+     "p_so": 0.6071741580963135,
+     "p_bb": 0.2986515164375305
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Kyle Isbel",
+     "p_so": 0.5109305381774902,
+     "p_bb": 0.20785203576087952
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Isaac Collins",
+     "p_so": 0.5393267869949341,
+     "p_bb": 0.2915753126144409
+    }
+   ],
+   "local": "Kansas City Royals",
+   "visita": "Arizona Diamondbacks"
+  },
+  {
    "game_id": 824226,
    "bateadores": [
     {
@@ -3033,12 +3184,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 70,
+  "picks_hoy": 74,
   "ganadas": 607,
   "perdidas": 304,
   "push": 0,
   "unidades": 151.5,
   "acierto": 66.6
  },
- "fecha_actualizacion": "2026-09-09T19:56:04Z"
+ "fecha_actualizacion": "2026-09-09T20:06:12Z"
 }
