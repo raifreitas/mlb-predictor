@@ -3557,6 +3557,157 @@
    "visita": "Los Angeles Angels"
   },
   {
+   "game_id": 824791,
+   "bateadores": [
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Steven Kwan",
+     "p_so": 0.3972111940383911,
+     "p_bb": 0.4029885530471802
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Chase DeLauter",
+     "p_so": 0.5136580467224121,
+     "p_bb": 0.33214905858039856
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "José Ramírez",
+     "p_so": 0.4669491946697235,
+     "p_bb": 0.36418986320495605
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jo Adell",
+     "p_so": 0.7166308164596558,
+     "p_bb": 0.24560639262199402
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Travis Bazzana",
+     "p_so": 0.5636366605758667,
+     "p_bb": 0.3361940085887909
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Nathaniel Lowe",
+     "p_so": 0.6645550727844238,
+     "p_bb": 0.33077213168144226
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Angel Genao",
+     "p_so": 0.49760138988494873,
+     "p_bb": 0.24644120037555695
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Patrick Bailey",
+     "p_so": 0.6250850558280945,
+     "p_bb": 0.2641345262527466
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Brayan Rocchio",
+     "p_so": 0.4766559898853302,
+     "p_bb": 0.2151031643152237
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Dylan Beavers",
+     "p_so": 0.5787335634231567,
+     "p_bb": 0.33504176139831543
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Pete Alonso",
+     "p_so": 0.663326621055603,
+     "p_bb": 0.3546985387802124
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Coby Mayo",
+     "p_so": 0.7001906037330627,
+     "p_bb": 0.30364635586738586
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Christian Encarnacion-Strand",
+     "p_so": 0.6880540251731873,
+     "p_bb": 0.21510231494903564
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Jackson Holliday",
+     "p_so": 0.6228746771812439,
+     "p_bb": 0.29386433959007263
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Rece Hinds",
+     "p_so": 0.6211360692977905,
+     "p_bb": 0.21837830543518066
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Jeremiah Jackson",
+     "p_so": 0.55577552318573,
+     "p_bb": 0.19580088555812836
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Leody Taveras",
+     "p_so": 0.5723826885223389,
+     "p_bb": 0.24883577227592468
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Carlos Narváez",
+     "p_so": 0.5403738021850586,
+     "p_bb": 0.2124849408864975
+    }
+   ],
+   "local": "Baltimore Orioles",
+   "visita": "Cleveland Guardians"
+  },
+  {
    "game_id": 824871,
    "bateadores": [
     {
@@ -3860,12 +4011,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 103,
+  "picks_hoy": 111,
   "ganadas": 607,
   "perdidas": 304,
   "push": 0,
   "unidades": 151.5,
   "acierto": 66.6
  },
- "fecha_actualizacion": "2026-09-09T21:16:17Z"
+ "fecha_actualizacion": "2026-09-09T21:21:10Z"
 }
