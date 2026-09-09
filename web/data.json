@@ -2277,6 +2277,157 @@
    "visita": "Washington Nationals"
   },
   {
+   "game_id": 823416,
+   "bateadores": [
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Jeremy Peña",
+     "p_so": 0.6724783778190613,
+     "p_bb": 0.2067277580499649
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Yordan Alvarez",
+     "p_so": 0.6642653942108154,
+     "p_bb": 0.41608425974845886
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Isaac Paredes",
+     "p_so": 0.6285680532455444,
+     "p_bb": 0.3755246102809906
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jose Altuve",
+     "p_so": 0.6363303661346436,
+     "p_bb": 0.2391831874847412
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Yainer Diaz",
+     "p_so": 0.5714564919471741,
+     "p_bb": 0.16147364675998688
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Christian Walker",
+     "p_so": 0.7086529731750488,
+     "p_bb": 0.2321263551712036
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Daulton Varsho",
+     "p_so": 0.6649855375289917,
+     "p_bb": 0.208710715174675
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Cam Smith",
+     "p_so": 0.6696298122406006,
+     "p_bb": 0.1968144029378891
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Jorge Barrosa",
+     "p_so": 0.5710777640342712,
+     "p_bb": 0.15292076766490936
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Kyle Schwarber",
+     "p_so": 0.7884469628334045,
+     "p_bb": 0.5067063570022583
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Trea Turner",
+     "p_so": 0.6446713209152222,
+     "p_bb": 0.261124849319458
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Bryce Harper",
+     "p_so": 0.6899566650390625,
+     "p_bb": 0.5078184604644775
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Luis Arraez",
+     "p_so": 0.19576768577098846,
+     "p_bb": 0.16251879930496216
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Bryson Stott",
+     "p_so": 0.5596666932106018,
+     "p_bb": 0.31444278359413147
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Brandon Marsh",
+     "p_so": 0.7014851570129395,
+     "p_bb": 0.30797457695007324
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Justin Crawford",
+     "p_so": 0.47271662950515747,
+     "p_bb": 0.21306827664375305
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "J.T. Realmuto",
+     "p_so": 0.6313551664352417,
+     "p_bb": 0.23077937960624695
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Bryan De La Cruz",
+     "p_so": 0.5835620164871216,
+     "p_bb": 0.1629919409751892
+    }
+   ],
+   "local": "Philadelphia Phillies",
+   "visita": "Houston Astros"
+  },
+  {
    "game_id": 823497,
    "bateadores": [
     {
@@ -2882,12 +3033,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 58,
+  "picks_hoy": 70,
   "ganadas": 607,
   "perdidas": 304,
   "push": 0,
   "unidades": 151.5,
   "acierto": 66.6
  },
- "fecha_actualizacion": "2026-09-09T19:51:10Z"
+ "fecha_actualizacion": "2026-09-09T19:56:04Z"
 }
