@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-09-06",
+ "ultima_fecha_prediccion": "2026-09-09",
  "resumen": {
   "ganadas": 18,
   "perdidas": 7,
@@ -867,9 +867,36 @@
    "total": 2,
    "creado": "2026-09-06 18:10:58",
    "verificado": "2026-09-07 06:46:13"
+  },
+  {
+   "id": 1052,
+   "fecha": "2026-09-09",
+   "local": "Detroit Tigers",
+   "visita": "Minnesota Twins",
+   "tipo": "UNDER",
+   "linea": 8.5,
+   "unidades": 0.5,
+   "edge": 1.8,
+   "cuota": 1.95,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-09 15:12:10",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-09",
+   "local": "Detroit Tigers",
+   "visita": "Minnesota Twins",
+   "linea": 8.5,
+   "prediccion": 6.7,
+   "prob_over": 0.47699078917503357,
+   "edge": 1.55,
+   "recomendacion": "APOSTAR UNDER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-09T15:12:10Z"
+  },
   {
    "fecha": "2026-09-08",
    "local": "San Francisco Giants",
@@ -1908,5 +1935,5 @@
   "unidades": 151.5,
   "acierto": 66.6
  },
- "fecha_actualizacion": "2026-09-09T14:06:04Z"
+ "fecha_actualizacion": "2026-09-09T15:12:12Z"
 }
