@@ -2579,6 +2579,157 @@
    "visita": "Colorado Rockies"
   },
   {
+   "game_id": 823818,
+   "bateadores": [
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Francisco Lindor",
+     "p_so": 0.5981593132019043,
+     "p_bb": 0.35110709071159363
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Juan Soto",
+     "p_so": 0.5249145030975342,
+     "p_bb": 0.4664871096611023
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Bo Bichette",
+     "p_so": 0.5412899255752563,
+     "p_bb": 0.24142196774482727
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Carson Benge",
+     "p_so": 0.636590838432312,
+     "p_bb": 0.26258164644241333
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Jared Young",
+     "p_so": 0.5872848033905029,
+     "p_bb": 0.19797265529632568
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Marcus Semien",
+     "p_so": 0.5092995762825012,
+     "p_bb": 0.28437355160713196
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "A.J. Ewing",
+     "p_so": 0.63997882604599,
+     "p_bb": 0.2993351221084595
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Brett Baty",
+     "p_so": 0.589335024356842,
+     "p_bb": 0.2574722468852997
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Luis Torrens",
+     "p_so": 0.49643391370773315,
+     "p_bb": 0.17613963782787323
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Kyle Stowers",
+     "p_so": 0.6835249662399292,
+     "p_bb": 0.36452504992485046
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Heriberto Hernández",
+     "p_so": 0.7006462812423706,
+     "p_bb": 0.4087781608104706
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Griffin Conine",
+     "p_so": 0.7480093836784363,
+     "p_bb": 0.3986051082611084
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Otto Lopez",
+     "p_so": 0.4327096939086914,
+     "p_bb": 0.2626241147518158
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Jakob Marsee",
+     "p_so": 0.5509200692176819,
+     "p_bb": 0.4133056104183197
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Javier Sanoja",
+     "p_so": 0.3181159496307373,
+     "p_bb": 0.2318098098039627
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Owen Caissie",
+     "p_so": 0.7330667972564697,
+     "p_bb": 0.22801530361175537
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Graham Pauley",
+     "p_so": 0.5352169871330261,
+     "p_bb": 0.2566022276878357
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Joe Mack",
+     "p_so": 0.563194751739502,
+     "p_bb": 0.1958976686000824
+    }
+   ],
+   "local": "Miami Marlins",
+   "visita": "New York Mets"
+  },
+  {
    "game_id": 824064,
    "bateadores": [
     {
@@ -3184,12 +3335,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 74,
+  "picks_hoy": 80,
   "ganadas": 607,
   "perdidas": 304,
   "push": 0,
   "unidades": 151.5,
   "acierto": 66.6
  },
- "fecha_actualizacion": "2026-09-09T20:06:12Z"
+ "fecha_actualizacion": "2026-09-09T20:21:16Z"
 }
