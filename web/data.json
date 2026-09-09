@@ -1776,6 +1776,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 823172,
+   "bateadores": [
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Bryan Torres",
+     "p_so": 0.5310510396957397,
+     "p_bb": 0.3415020704269409
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Iván Herrera",
+     "p_so": 0.6167908310890198,
+     "p_bb": 0.46454718708992004
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Alec Burleson",
+     "p_so": 0.5178806781768799,
+     "p_bb": 0.31853678822517395
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Leo Bernal",
+     "p_so": 0.5617086291313171,
+     "p_bb": 0.35700950026512146
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Joshua Báez",
+     "p_so": 0.7519731521606445,
+     "p_bb": 0.31504422426223755
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Nolan Gorman",
+     "p_so": 0.6727321147918701,
+     "p_bb": 0.32449355721473694
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Thomas Saggese",
+     "p_so": 0.6025542616844177,
+     "p_bb": 0.25310882925987244
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Masyn Winn",
+     "p_so": 0.5197755098342896,
+     "p_bb": 0.24373596906661987
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Nathan Church",
+     "p_so": 0.47693905234336853,
+     "p_bb": 0.21886110305786133
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Drew Gilbert",
+     "p_so": 0.5272876024246216,
+     "p_bb": 0.32604819536209106
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Turner Hill",
+     "p_so": 0.4442094564437866,
+     "p_bb": 0.3587457537651062
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Bryce Eldridge",
+     "p_so": 0.7142461538314819,
+     "p_bb": 0.5148653984069824
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Jonah Cox",
+     "p_so": 0.6900594234466553,
+     "p_bb": 0.23349522054195404
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Jung Hoo Lee",
+     "p_so": 0.3168198764324188,
+     "p_bb": 0.2575080096721649
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Shay Whitcomb",
+     "p_so": 0.5986096858978271,
+     "p_bb": 0.20533105731010437
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Drew Cavanaugh",
+     "p_so": 0.620396077632904,
+     "p_bb": 0.2953389883041382
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Grant McCray",
+     "p_so": 0.6363377571105957,
+     "p_bb": 0.2258947789669037
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Christian Koss",
+     "p_so": 0.5842731595039368,
+     "p_bb": 0.19672369956970215
+    }
+   ],
+   "local": "San Francisco Giants",
+   "visita": "St. Louis Cardinals"
+  },
+  {
    "game_id": 824226,
    "bateadores": [
     {
@@ -2079,12 +2230,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 12,
+  "picks_hoy": 20,
   "ganadas": 607,
   "perdidas": 304,
   "push": 0,
   "unidades": 151.5,
   "acierto": 66.6
  },
- "fecha_actualizacion": "2026-09-09T16:56:10Z"
+ "fecha_actualizacion": "2026-09-09T17:01:09Z"
 }
