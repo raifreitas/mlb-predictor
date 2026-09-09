@@ -1925,15 +1925,166 @@
    ],
    "local": "Detroit Tigers",
    "visita": "Minnesota Twins"
+  },
+  {
+   "game_id": 824956,
+   "bateadores": [
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Brett Bateman",
+     "p_so": 0.5766079425811768,
+     "p_bb": 0.3263617157936096
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Charles McAdoo",
+     "p_so": 0.6028577089309692,
+     "p_bb": 0.25732970237731934
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Vladimir Guerrero Jr.",
+     "p_so": 0.4461129903793335,
+     "p_bb": 0.3407352864742279
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Alejandro Kirk",
+     "p_so": 0.4438280165195465,
+     "p_bb": 0.34393709897994995
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Kazuma Okamoto",
+     "p_so": 0.7095658183097839,
+     "p_bb": 0.3075220584869385
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Andrés Giménez",
+     "p_so": 0.48468589782714844,
+     "p_bb": 0.1870611608028412
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Ernie Clement",
+     "p_so": 0.33377954363822937,
+     "p_bb": 0.16511383652687073
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Brandon Valenzuela",
+     "p_so": 0.4969620406627655,
+     "p_bb": 0.24125632643699646
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Myles Straw",
+     "p_so": 0.4347153902053833,
+     "p_bb": 0.23748810589313507
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Henry Bolte",
+     "p_so": 0.7145570516586304,
+     "p_bb": 0.3346247971057892
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Lawrence Butler",
+     "p_so": 0.7277161478996277,
+     "p_bb": 0.40355977416038513
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Zack Gelof",
+     "p_so": 0.747063159942627,
+     "p_bb": 0.31480979919433594
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Carlos Cortes",
+     "p_so": 0.4983207583427429,
+     "p_bb": 0.2510795593261719
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Tommy White",
+     "p_so": 0.45723968744277954,
+     "p_bb": 0.21425561606884003
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Max Muncy",
+     "p_so": 0.7163175940513611,
+     "p_bb": 0.23504862189292908
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Donovan Walton",
+     "p_so": 0.4587431252002716,
+     "p_bb": 0.3074457347393036
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Brian Serven",
+     "p_so": 0.6333856582641602,
+     "p_bb": 0.20399001240730286
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Alika Williams",
+     "p_so": 0.5835191607475281,
+     "p_bb": 0.1759050190448761
+    }
+   ],
+   "local": "Athletics",
+   "visita": "Toronto Blue Jays"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 5,
+  "picks_hoy": 12,
   "ganadas": 607,
   "perdidas": 304,
   "push": 0,
   "unidades": 151.5,
   "acierto": 66.6
  },
- "fecha_actualizacion": "2026-09-09T15:12:12Z"
+ "fecha_actualizacion": "2026-09-09T16:56:10Z"
 }
