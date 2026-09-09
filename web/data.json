@@ -887,6 +887,42 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-09",
+   "local": "Chicago White Sox",
+   "visita": "Pittsburgh Pirates",
+   "linea": 8.5,
+   "prediccion": 7.75,
+   "prob_over": 0.5039913654327393,
+   "edge": 0.75,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.75 carreras, prob_over 50.4%)",
+   "evaluado_utc": "2026-09-09T21:41:51Z"
+  },
+  {
+   "fecha": "2026-09-09",
+   "local": "Kansas City Royals",
+   "visita": "Arizona Diamondbacks",
+   "linea": 8.5,
+   "prediccion": 9.53,
+   "prob_over": 0.5123002529144287,
+   "edge": 1.03,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +1.03 carreras, prob_over 51.2%)",
+   "evaluado_utc": "2026-09-09T21:41:51Z"
+  },
+  {
+   "fecha": "2026-09-09",
+   "local": "Milwaukee Brewers",
+   "visita": "Chicago Cubs",
+   "linea": 7.5,
+   "prediccion": 6.36,
+   "prob_over": 0.38766005635261536,
+   "edge": 1.14,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Filtro Extremo (linea 6.36 <= 6.5)",
+   "evaluado_utc": "2026-09-09T21:41:51Z"
+  },
+  {
+   "fecha": "2026-09-09",
    "local": "Atlanta Braves",
    "visita": "Tampa Bay Rays",
    "linea": 8.0,
@@ -4018,5 +4054,5 @@
   "unidades": 151.5,
   "acierto": 66.6
  },
- "fecha_actualizacion": "2026-09-09T21:21:10Z"
+ "fecha_actualizacion": "2026-09-09T21:41:52Z"
 }

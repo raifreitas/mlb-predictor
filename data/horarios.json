@@ -3716,7 +3716,8 @@
       "pitcher_visita": null,
       "hora_inicio_utc": "2026-09-09T23:40:00+00:00",
       "hora_corrida_utc": "2026-09-09T23:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-09T21:41:46.237939+00:00"
     },
     "Chicago White Sox": {
       "local": "Chicago White Sox",
@@ -3725,7 +3726,8 @@
       "pitcher_visita": 669199,
       "hora_inicio_utc": "2026-09-09T23:40:00+00:00",
       "hora_corrida_utc": "2026-09-09T23:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-09T21:41:46.237939+00:00"
     },
     "Milwaukee Brewers": {
       "local": "Milwaukee Brewers",
@@ -3734,7 +3736,8 @@
       "pitcher_visita": 592332,
       "hora_inicio_utc": "2026-09-09T23:40:00+00:00",
       "hora_corrida_utc": "2026-09-09T23:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-09T21:41:46.237939+00:00"
     },
     "Los Angeles Dodgers": {
       "local": "Los Angeles Dodgers",
