@@ -887,6 +887,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-09",
+   "local": "Boston Red Sox",
+   "visita": "Los Angeles Angels",
+   "linea": 9.0,
+   "prediccion": 7.29,
+   "prob_over": 0.5145206451416016,
+   "edge": 1.46,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Volatilidad del Abridor (WHIP Local: 1.02 | Visita: 1.39)",
+   "evaluado_utc": "2026-09-09T20:46:12Z"
+  },
+  {
+   "fecha": "2026-09-09",
    "local": "Miami Marlins",
    "visita": "New York Mets",
    "linea": 8.5,
@@ -2615,6 +2627,157 @@
    "visita": "Colorado Rockies"
   },
   {
+   "game_id": 823739,
+   "bateadores": [
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Pete Crow-Armstrong",
+     "p_so": 0.7606488466262817,
+     "p_bb": 0.2493881732225418
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Seiya Suzuki",
+     "p_so": 0.7727235555648804,
+     "p_bb": 0.361802875995636
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Michael Busch",
+     "p_so": 0.7732343673706055,
+     "p_bb": 0.34969085454940796
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Alex Bregman",
+     "p_so": 0.5484124422073364,
+     "p_bb": 0.30901554226875305
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Ian Happ",
+     "p_so": 0.7618061900138855,
+     "p_bb": 0.363106906414032
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Nico Hoerner",
+     "p_so": 0.3697403371334076,
+     "p_bb": 0.18619319796562195
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Pedro Ramírez",
+     "p_so": 0.5946940779685974,
+     "p_bb": 0.2192070186138153
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Michael Conforto",
+     "p_so": 0.6524484753608704,
+     "p_bb": 0.272031307220459
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Carson Kelly",
+     "p_so": 0.4938776195049286,
+     "p_bb": 0.21604079008102417
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jackson Chourio",
+     "p_so": 0.6776661276817322,
+     "p_bb": 0.21944743394851685
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Brice Turang",
+     "p_so": 0.7420672178268433,
+     "p_bb": 0.3723190426826477
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "William Contreras",
+     "p_so": 0.6332435011863708,
+     "p_bb": 0.3583456575870514
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Andrew Vaughn",
+     "p_so": 0.6093610525131226,
+     "p_bb": 0.23285973072052002
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Christian Yelich",
+     "p_so": 0.7037383913993835,
+     "p_bb": 0.31496545672416687
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Sal Frelick",
+     "p_so": 0.47332659363746643,
+     "p_bb": 0.21449948847293854
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Joey Ortiz",
+     "p_so": 0.5597683787345886,
+     "p_bb": 0.2553221881389618
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Garrett Mitchell",
+     "p_so": 0.7470150589942932,
+     "p_bb": 0.25762149691581726
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Cooper Pratt",
+     "p_so": 0.471443235874176,
+     "p_bb": 0.20948481559753418
+    }
+   ],
+   "local": "Milwaukee Brewers",
+   "visita": "Chicago Cubs"
+  },
+  {
    "game_id": 823818,
    "bateadores": [
     {
@@ -3673,12 +3836,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 92,
+  "picks_hoy": 103,
   "ganadas": 607,
   "perdidas": 304,
   "push": 0,
   "unidades": 151.5,
   "acierto": 66.6
  },
- "fecha_actualizacion": "2026-09-09T20:41:17Z"
+ "fecha_actualizacion": "2026-09-09T20:46:14Z"
 }
