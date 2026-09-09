@@ -2126,6 +2126,157 @@
    "visita": "St. Louis Cardinals"
   },
   {
+   "game_id": 823251,
+   "bateadores": [
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "James Wood",
+     "p_so": 0.6342282295227051,
+     "p_bb": 0.48040711879730225
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Dylan Crews",
+     "p_so": 0.6735491156578064,
+     "p_bb": 0.2698614299297333
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Andrés Chaparro",
+     "p_so": 0.5970780849456787,
+     "p_bb": 0.2944050431251526
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "CJ Abrams",
+     "p_so": 0.6808046698570251,
+     "p_bb": 0.27195867896080017
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Yohandy Morales",
+     "p_so": 0.6686747074127197,
+     "p_bb": 0.17198555171489716
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Daylen Lile",
+     "p_so": 0.5925688743591309,
+     "p_bb": 0.24023641645908356
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Keibert Ruiz",
+     "p_so": 0.29682934284210205,
+     "p_bb": 0.1399964541196823
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Nasim Nuñez",
+     "p_so": 0.5302237868309021,
+     "p_bb": 0.25559061765670776
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Jacob Young",
+     "p_so": 0.4382888376712799,
+     "p_bb": 0.22375650703907013
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Fernando Tatis Jr.",
+     "p_so": 0.5506837964057922,
+     "p_bb": 0.39524003863334656
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Xander Bogaerts",
+     "p_so": 0.4920497536659241,
+     "p_bb": 0.3986525535583496
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Manny Machado",
+     "p_so": 0.5468587279319763,
+     "p_bb": 0.41636553406715393
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Ty France",
+     "p_so": 0.5635426640510559,
+     "p_bb": 0.32830581068992615
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Jackson Merrill",
+     "p_so": 0.5720149278640747,
+     "p_bb": 0.26595187187194824
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Luis Campusano",
+     "p_so": 0.5056419372558594,
+     "p_bb": 0.29120659828186035
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Austin Hays",
+     "p_so": 0.6099067330360413,
+     "p_bb": 0.24028326570987701
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Samad Taylor",
+     "p_so": 0.5958684682846069,
+     "p_bb": 0.25225919485092163
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Jase Bowen",
+     "p_so": 0.6538461446762085,
+     "p_bb": 0.19433720409870148
+    }
+   ],
+   "local": "San Diego Padres",
+   "visita": "Washington Nationals"
+  },
+  {
    "game_id": 824226,
    "bateadores": [
     {
@@ -2429,12 +2580,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 30,
+  "picks_hoy": 36,
   "ganadas": 607,
   "perdidas": 304,
   "push": 0,
   "unidades": 151.5,
   "acierto": 66.6
  },
- "fecha_actualizacion": "2026-09-09T18:11:14Z"
+ "fecha_actualizacion": "2026-09-09T18:31:17Z"
 }
