@@ -2277,6 +2277,157 @@
    "visita": "Washington Nationals"
   },
   {
+   "game_id": 823497,
+   "bateadores": [
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Jake McCarthy",
+     "p_so": 0.5552434325218201,
+     "p_bb": 0.2630975544452667
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Cole Carrigg",
+     "p_so": 0.6663910746574402,
+     "p_bb": 0.3197382390499115
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "TJ Rumfield",
+     "p_so": 0.5257626175880432,
+     "p_bb": 0.4187659025192261
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Hunter Goodman",
+     "p_so": 0.6812093257904053,
+     "p_bb": 0.21490593254566193
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Mickey Moniak",
+     "p_so": 0.7265195846557617,
+     "p_bb": 0.17195306718349457
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Kyle Karros",
+     "p_so": 0.566878080368042,
+     "p_bb": 0.2755248248577118
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Brett Sullivan",
+     "p_so": 0.5274354815483093,
+     "p_bb": 0.2157367616891861
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Connor Norby",
+     "p_so": 0.6831004023551941,
+     "p_bb": 0.26424890756607056
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Zac Veen",
+     "p_so": 0.7353537678718567,
+     "p_bb": 0.18906272947788239
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Ben Rice",
+     "p_so": 0.6359694600105286,
+     "p_bb": 0.368900865316391
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Cody Bellinger",
+     "p_so": 0.4830213785171509,
+     "p_bb": 0.2769055664539337
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Aaron Judge",
+     "p_so": 0.6210207343101501,
+     "p_bb": 0.3867756724357605
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Luis García Jr.",
+     "p_so": 0.5239521265029907,
+     "p_bb": 0.17946942150592804
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Spencer Jones",
+     "p_so": 0.7386695742607117,
+     "p_bb": 0.2854108214378357
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "George Lombard Jr.",
+     "p_so": 0.6576722264289856,
+     "p_bb": 0.22013932466506958
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Ryan McMahon",
+     "p_so": 0.6570939421653748,
+     "p_bb": 0.27749428153038025
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Austin Wells",
+     "p_so": 0.5917587280273438,
+     "p_bb": 0.25515782833099365
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "José Caballero",
+     "p_so": 0.5418721437454224,
+     "p_bb": 0.20572499930858612
+    }
+   ],
+   "local": "New York Yankees",
+   "visita": "Colorado Rockies"
+  },
+  {
    "game_id": 824226,
    "bateadores": [
     {
@@ -2580,12 +2731,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 36,
+  "picks_hoy": 46,
   "ganadas": 607,
   "perdidas": 304,
   "push": 0,
   "unidades": 151.5,
   "acierto": 66.6
  },
- "fecha_actualizacion": "2026-09-09T18:31:17Z"
+ "fecha_actualizacion": "2026-09-09T19:46:10Z"
 }
