@@ -2989,6 +2989,157 @@
    "visita": "New York Mets"
   },
   {
+   "game_id": 823900,
+   "bateadores": [
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Carlos Jorge",
+     "p_so": 0.6270936727523804,
+     "p_bb": 0.13594430685043335
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Elly De La Cruz",
+     "p_so": 0.8614343404769897,
+     "p_bb": 0.3722558915615082
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Sal Stewart",
+     "p_so": 0.7325618863105774,
+     "p_bb": 0.3221554756164551
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "JJ Bleday",
+     "p_so": 0.7738772630691528,
+     "p_bb": 0.3775138258934021
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Héctor Rodríguez",
+     "p_so": 0.7587271928787231,
+     "p_bb": 0.22869835793972015
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Juan Brito",
+     "p_so": 0.6559038758277893,
+     "p_bb": 0.21524488925933838
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Will Banfield",
+     "p_so": 0.7197691202163696,
+     "p_bb": 0.13060899078845978
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "TJ Friedl",
+     "p_so": 0.6124927997589111,
+     "p_bb": 0.23464593291282654
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Ke'Bryan Hayes",
+     "p_so": 0.5541499257087708,
+     "p_bb": 0.1793043613433838
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Tommy Edman",
+     "p_so": 0.4860847294330597,
+     "p_bb": 0.2381562739610672
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Will Smith",
+     "p_so": 0.486246794462204,
+     "p_bb": 0.37787291407585144
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Mookie Betts",
+     "p_so": 0.40379488468170166,
+     "p_bb": 0.3767160475254059
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Max Muncy",
+     "p_so": 0.6544511318206787,
+     "p_bb": 0.4850026071071625
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Teoscar Hernández",
+     "p_so": 0.7080305814743042,
+     "p_bb": 0.2559308111667633
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Kyle Tucker",
+     "p_so": 0.4773624837398529,
+     "p_bb": 0.3796977400779724
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Hunter Feduccia",
+     "p_so": 0.5795525312423706,
+     "p_bb": 0.29540228843688965
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Freddie Freeman",
+     "p_so": 0.5010140538215637,
+     "p_bb": 0.33249640464782715
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Enrique Hernández",
+     "p_so": 0.5062536597251892,
+     "p_bb": 0.20600153505802155
+    }
+   ],
+   "local": "Los Angeles Dodgers",
+   "visita": "Cincinnati Reds"
+  },
+  {
    "game_id": 824064,
    "bateadores": [
     {
@@ -4047,12 +4198,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 111,
+  "picks_hoy": 121,
   "ganadas": 607,
   "perdidas": 304,
   "push": 0,
   "unidades": 151.5,
   "acierto": 66.6
  },
- "fecha_actualizacion": "2026-09-09T21:41:52Z"
+ "fecha_actualizacion": "2026-09-09T22:21:24Z"
 }
