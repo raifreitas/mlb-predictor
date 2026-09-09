@@ -2579,6 +2579,157 @@
    "visita": "Minnesota Twins"
   },
   {
+   "game_id": 824713,
+   "bateadores": [
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Zach Neto",
+     "p_so": 0.7619653940200806,
+     "p_bb": 0.2387656718492508
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Mike Trout",
+     "p_so": 0.7899596095085144,
+     "p_bb": 0.4110977351665497
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Jose Siri",
+     "p_so": 0.777036726474762,
+     "p_bb": 0.21235862374305725
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Vaughn Grissom",
+     "p_so": 0.6425907015800476,
+     "p_bb": 0.22946809232234955
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Christian Moore",
+     "p_so": 0.7195019721984863,
+     "p_bb": 0.24697887897491455
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Kyren Paris",
+     "p_so": 0.6351322531700134,
+     "p_bb": 0.21897797286510468
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Oswald Peraza",
+     "p_so": 0.6802737712860107,
+     "p_bb": 0.21369102597236633
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Denzer Guzman",
+     "p_so": 0.7025340795516968,
+     "p_bb": 0.18509075045585632
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Tyler Heineman",
+     "p_so": 0.4235100746154785,
+     "p_bb": 0.1656879186630249
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Roman Anthony",
+     "p_so": 0.5895276665687561,
+     "p_bb": 0.43364623188972473
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Mickey Gasper",
+     "p_so": 0.5072024464607239,
+     "p_bb": 0.41712960600852966
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Wilyer Abreu",
+     "p_so": 0.6386895775794983,
+     "p_bb": 0.4229675829410553
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Trevor Story",
+     "p_so": 0.6111956238746643,
+     "p_bb": 0.19069766998291016
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Nick Sogard",
+     "p_so": 0.6160677671432495,
+     "p_bb": 0.3927537500858307
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Caleb Durbin",
+     "p_so": 0.3859225809574127,
+     "p_bb": 0.2980174720287323
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Jarren Duran",
+     "p_so": 0.641991913318634,
+     "p_bb": 0.27639731764793396
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Isiah Kiner-Falefa",
+     "p_so": 0.4113007187843323,
+     "p_bb": 0.2011232227087021
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Nate Eaton",
+     "p_so": 0.4982283413410187,
+     "p_bb": 0.2107280045747757
+    }
+   ],
+   "local": "Boston Red Sox",
+   "visita": "Los Angeles Angels"
+  },
+  {
    "game_id": 824956,
    "bateadores": [
     {
@@ -2731,12 +2882,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 46,
+  "picks_hoy": 58,
   "ganadas": 607,
   "perdidas": 304,
   "push": 0,
   "unidades": 151.5,
   "acierto": 66.6
  },
- "fecha_actualizacion": "2026-09-09T19:46:10Z"
+ "fecha_actualizacion": "2026-09-09T19:51:10Z"
 }
