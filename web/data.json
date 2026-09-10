@@ -1794,6 +1794,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 823088,
+   "bateadores": [
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Joc Pederson",
+     "p_so": 0.6898656487464905,
+     "p_bb": 0.35094672441482544
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Corey Seager",
+     "p_so": 0.69353187084198,
+     "p_bb": 0.36064261198043823
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Ezequiel Duran",
+     "p_so": 0.7492563128471375,
+     "p_bb": 0.2343287318944931
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Brandon Nimmo",
+     "p_so": 0.719713032245636,
+     "p_bb": 0.31184518337249756
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Wyatt Langford",
+     "p_so": 0.711858332157135,
+     "p_bb": 0.36174601316452026
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Evan Carter",
+     "p_so": 0.6925849318504333,
+     "p_bb": 0.27238228917121887
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Jake Burger",
+     "p_so": 0.7477317452430725,
+     "p_bb": 0.20669913291931152
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Nicky Lopez",
+     "p_so": 0.47957539558410645,
+     "p_bb": 0.19341635704040527
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Danny Jansen",
+     "p_so": 0.5602974891662598,
+     "p_bb": 0.1998075693845749
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "J.P. Crawford",
+     "p_so": 0.6581434607505798,
+     "p_bb": 0.37827110290527344
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Randy Arozarena",
+     "p_so": 0.7782821655273438,
+     "p_bb": 0.3673797845840454
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Dominic Canzone",
+     "p_so": 0.6954430937767029,
+     "p_bb": 0.2527446746826172
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Cal Raleigh",
+     "p_so": 0.7964245080947876,
+     "p_bb": 0.3860275149345398
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Julio Rodríguez",
+     "p_so": 0.7673605680465698,
+     "p_bb": 0.20752973854541779
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Josh Naylor",
+     "p_so": 0.5284233093261719,
+     "p_bb": 0.2068256139755249
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Cole Young",
+     "p_so": 0.586716890335083,
+     "p_bb": 0.23880727589130402
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Lazaro Montes",
+     "p_so": 0.6967074871063232,
+     "p_bb": 0.16382919251918793
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Brock Rodden",
+     "p_so": 0.6954010725021362,
+     "p_bb": 0.23162701725959778
+    }
+   ],
+   "local": "Seattle Mariners",
+   "visita": "Texas Rangers"
+  },
+  {
    "game_id": 823413,
    "bateadores": [
     {
@@ -2097,12 +2248,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 18,
+  "picks_hoy": 32,
   "ganadas": 691,
   "perdidas": 341,
   "push": 0,
   "unidades": 175.0,
   "acierto": 67.0
  },
- "fecha_actualizacion": "2026-09-10T15:06:23Z"
+ "fecha_actualizacion": "2026-09-10T17:44:03Z"
 }
