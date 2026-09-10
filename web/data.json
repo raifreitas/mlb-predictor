@@ -836,6 +836,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-10",
+   "local": "New York Yankees",
+   "visita": "Colorado Rockies",
+   "linea": 8.5,
+   "prediccion": 8.84,
+   "prob_over": 0.5162440538406372,
+   "edge": 0.34,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.34 carreras, prob_over 51.6%)",
+   "evaluado_utc": "2026-09-10T21:06:28Z"
+  },
+  {
+   "fecha": "2026-09-10",
    "local": "Seattle Mariners",
    "visita": "Texas Rangers",
    "linea": 7.0,
@@ -2274,6 +2286,157 @@
    "visita": "Colorado Rockies"
   },
   {
+   "game_id": 824550,
+   "bateadores": [
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Konnor Griffin",
+     "p_so": 0.5738107562065125,
+     "p_bb": 0.24467645585536957
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Oneil Cruz",
+     "p_so": 0.7350950241088867,
+     "p_bb": 0.33792340755462646
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Bryan Reynolds",
+     "p_so": 0.6366356611251831,
+     "p_bb": 0.3526771664619446
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Nick Gonzales",
+     "p_so": 0.5515037178993225,
+     "p_bb": 0.2780304253101349
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Brandon Lowe",
+     "p_so": 0.7358158230781555,
+     "p_bb": 0.33455947041511536
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Rafael Flores Jr.",
+     "p_so": 0.7217766642570496,
+     "p_bb": 0.2992008328437805
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Jake Mangum",
+     "p_so": 0.48732733726501465,
+     "p_bb": 0.19886359572410583
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Spencer Horwitz",
+     "p_so": 0.4571992754936218,
+     "p_bb": 0.3048884868621826
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Jared Triolo",
+     "p_so": 0.47674480080604553,
+     "p_bb": 0.2829124629497528
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Sam Antonacci",
+     "p_so": 0.5849292278289795,
+     "p_bb": 0.35312360525131226
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Miguel Vargas",
+     "p_so": 0.6658591628074646,
+     "p_bb": 0.4465445280075073
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Munetaka Murakami",
+     "p_so": 0.8398128747940063,
+     "p_bb": 0.5729735493659973
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Andrew Benintendi",
+     "p_so": 0.6425676941871643,
+     "p_bb": 0.3278501629829407
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Colson Montgomery",
+     "p_so": 0.8123127222061157,
+     "p_bb": 0.33036747574806213
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Braden Montgomery",
+     "p_so": 0.6145708560943604,
+     "p_bb": 0.34720543026924133
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Chase Meidroth",
+     "p_so": 0.6153152585029602,
+     "p_bb": 0.3214787244796753
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Tristan Peters",
+     "p_so": 0.5421839952468872,
+     "p_bb": 0.25134173035621643
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Jake Rogers",
+     "p_so": 0.6425076723098755,
+     "p_bb": 0.20922929048538208
+    }
+   ],
+   "local": "Chicago White Sox",
+   "visita": "Pittsburgh Pirates"
+  },
+  {
    "game_id": 824872,
    "bateadores": [
     {
@@ -2426,12 +2589,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 41,
+  "picks_hoy": 52,
   "ganadas": 691,
   "perdidas": 341,
   "push": 0,
   "unidades": 175.0,
   "acierto": 67.0
  },
- "fecha_actualizacion": "2026-09-10T20:11:14Z"
+ "fecha_actualizacion": "2026-09-10T21:06:29Z"
 }
