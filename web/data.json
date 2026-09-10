@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-09-09",
+ "ultima_fecha_prediccion": "2026-09-10",
  "resumen": {
   "ganadas": 18,
   "perdidas": 8,
@@ -816,9 +816,36 @@
    "total": 9,
    "creado": "2026-09-09 15:12:10",
    "verificado": "2026-09-10 06:46:42"
+  },
+  {
+   "id": 1053,
+   "fecha": "2026-09-10",
+   "local": "Seattle Mariners",
+   "visita": "Texas Rangers",
+   "tipo": "OVER",
+   "linea": 6.5,
+   "unidades": 0.5,
+   "edge": 2.06,
+   "cuota": 2.0,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-10 18:11:39",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-10",
+   "local": "Seattle Mariners",
+   "visita": "Texas Rangers",
+   "linea": 7.0,
+   "prediccion": 8.56,
+   "prob_over": 0.5092834830284119,
+   "edge": 1.56,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-10T18:11:40Z"
+  },
   {
    "fecha": "2026-09-10",
    "local": "Philadelphia Phillies",
@@ -2255,5 +2282,5 @@
   "unidades": 175.0,
   "acierto": 67.0
  },
- "fecha_actualizacion": "2026-09-10T17:44:03Z"
+ "fecha_actualizacion": "2026-09-10T18:11:41Z"
 }
