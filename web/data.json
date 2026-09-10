@@ -820,6 +820,18 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-09-10",
+   "local": "Atlanta Braves",
+   "visita": "Tampa Bay Rays",
+   "linea": 8.5,
+   "prediccion": 7.81,
+   "prob_over": 0.40713801980018616,
+   "edge": 0.69,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 0.69 < 1.45)",
+   "evaluado_utc": "2026-09-10T14:16:33Z"
+  },
+  {
    "fecha": "2026-09-09",
    "local": "Chicago White Sox",
    "visita": "Pittsburgh Pirates",
@@ -1929,5 +1941,5 @@
   "unidades": 175.0,
   "acierto": 67.0
  },
- "fecha_actualizacion": "2026-09-10T13:56:16Z"
+ "fecha_actualizacion": "2026-09-10T14:16:34Z"
 }
