@@ -836,6 +836,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-10",
+   "local": "Chicago White Sox",
+   "visita": "Pittsburgh Pirates",
+   "linea": 7.5,
+   "prediccion": 10.69,
+   "prob_over": 0.503135085105896,
+   "edge": 3.19,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Edge Excesivo vs Mercado (edge 3.19 > 2.75)",
+   "evaluado_utc": "2026-09-10T21:41:19Z"
+  },
+  {
+   "fecha": "2026-09-10",
    "local": "New York Yankees",
    "visita": "Colorado Rockies",
    "linea": 8.5,
@@ -2596,5 +2608,5 @@
   "unidades": 175.0,
   "acierto": 67.0
  },
- "fecha_actualizacion": "2026-09-10T21:06:29Z"
+ "fecha_actualizacion": "2026-09-10T21:41:21Z"
 }
