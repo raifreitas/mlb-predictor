@@ -1701,6 +1701,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 824227,
+   "bateadores": [
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Jake McCarthy",
+     "p_so": 0.5293964147567749,
+     "p_bb": 0.2530421316623688
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Connor Norby",
+     "p_so": 0.7404009699821472,
+     "p_bb": 0.3372882604598999
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Cole Carrigg",
+     "p_so": 0.6595166325569153,
+     "p_bb": 0.28792548179626465
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Hunter Goodman",
+     "p_so": 0.6927832961082458,
+     "p_bb": 0.23008079826831818
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Kyle Karros",
+     "p_so": 0.5742526650428772,
+     "p_bb": 0.28102385997772217
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Adael Amador",
+     "p_so": 0.48787757754325867,
+     "p_bb": 0.231166273355484
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Troy Johnston",
+     "p_so": 0.49824297428131104,
+     "p_bb": 0.2521654963493347
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Jordan Beck",
+     "p_so": 0.6708011031150818,
+     "p_bb": 0.2085849642753601
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Ezequiel Tovar",
+     "p_so": 0.6289719939231873,
+     "p_bb": 0.2005559355020523
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Kevin McGonigle",
+     "p_so": 0.4344704747200012,
+     "p_bb": 0.5013534426689148
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Gleyber Torres",
+     "p_so": 0.6121164560317993,
+     "p_bb": 0.4028739631175995
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Colt Keith",
+     "p_so": 0.624747097492218,
+     "p_bb": 0.3427923321723938
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Riley Greene",
+     "p_so": 0.7059432864189148,
+     "p_bb": 0.3293888568878174
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Dillon Dingler",
+     "p_so": 0.7012490630149841,
+     "p_bb": 0.2388543337583542
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Max Clark",
+     "p_so": 0.6440314054489136,
+     "p_bb": 0.25966522097587585
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "John Peck",
+     "p_so": 0.6034191250801086,
+     "p_bb": 0.25340020656585693
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Zach McKinstry",
+     "p_so": 0.6160588264465332,
+     "p_bb": 0.2807163894176483
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Javier Báez",
+     "p_so": 0.5919551849365234,
+     "p_bb": 0.1427881270647049
+    }
+   ],
+   "local": "Detroit Tigers",
+   "visita": "Colorado Rockies"
+  },
+  {
    "game_id": 824631,
    "bateadores": [
     {
@@ -2004,12 +2155,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 17,
+  "picks_hoy": 29,
   "ganadas": 730,
   "perdidas": 353,
   "push": 0,
   "unidades": 188.5,
   "acierto": 67.4
  },
- "fecha_actualizacion": "2026-09-11T18:46:24Z"
+ "fecha_actualizacion": "2026-09-11T18:56:10Z"
 }
