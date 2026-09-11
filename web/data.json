@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-09-10",
+ "ultima_fecha_prediccion": "2026-09-11",
  "resumen": {
   "ganadas": 19,
   "perdidas": 8,
@@ -831,9 +831,60 @@
    "total": 7,
    "creado": "2026-09-10 18:11:39",
    "verificado": "2026-09-11 06:46:43"
+  },
+  {
+   "id": 1054,
+   "fecha": "2026-09-11",
+   "local": "Tampa Bay Rays",
+   "visita": "Houston Astros",
+   "tipo": "OVER",
+   "linea": 7.5,
+   "unidades": 0.5,
+   "edge": 1.54,
+   "cuota": 1.83,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-11 21:11:31",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-11",
+   "local": "Boston Red Sox",
+   "visita": "Kansas City Royals",
+   "linea": 8.5,
+   "prediccion": 7.93,
+   "prob_over": 0.555365800857544,
+   "edge": 0.57,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.57 carreras, prob_over 55.5%)",
+   "evaluado_utc": "2026-09-11T21:11:31Z"
+  },
+  {
+   "fecha": "2026-09-11",
+   "local": "Tampa Bay Rays",
+   "visita": "Houston Astros",
+   "linea": 7.5,
+   "prediccion": 9.04,
+   "prob_over": 0.497016042470932,
+   "edge": 1.54,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-11T21:11:31Z"
+  },
+  {
+   "fecha": "2026-09-11",
+   "local": "Toronto Blue Jays",
+   "visita": "Baltimore Orioles",
+   "linea": 8.0,
+   "prediccion": 7.86,
+   "prob_over": 0.4698682129383087,
+   "edge": 0.14,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.14 carreras, prob_over 47.0%)",
+   "evaluado_utc": "2026-09-11T21:11:31Z"
+  },
   {
    "fecha": "2026-09-11",
    "local": "New York Yankees",
@@ -3255,5 +3306,5 @@
   "unidades": 188.5,
   "acierto": 67.4
  },
- "fecha_actualizacion": "2026-09-11T21:06:24Z"
+ "fecha_actualizacion": "2026-09-11T21:11:33Z"
 }
