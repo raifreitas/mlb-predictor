@@ -836,6 +836,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-11",
+   "local": "Detroit Tigers",
+   "visita": "Colorado Rockies",
+   "linea": 8.0,
+   "prediccion": 8.11,
+   "prob_over": 0.4991256892681122,
+   "edge": 0.11,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.11 carreras, prob_over 49.9%)",
+   "evaluado_utc": "2026-09-11T20:41:18Z"
+  },
+  {
+   "fecha": "2026-09-11",
    "local": "Chicago Cubs",
    "visita": "Pittsburgh Pirates",
    "linea": 8.5,
@@ -2154,6 +2166,308 @@
    "visita": "New York Mets"
   },
   {
+   "game_id": 823659,
+   "bateadores": [
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Steven Kwan",
+     "p_so": 0.45797765254974365,
+     "p_bb": 0.36360490322113037
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Chase DeLauter",
+     "p_so": 0.567894697189331,
+     "p_bb": 0.32586824893951416
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "José Ramírez",
+     "p_so": 0.5385465025901794,
+     "p_bb": 0.3442963659763336
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jo Adell",
+     "p_so": 0.7893455028533936,
+     "p_bb": 0.2345225214958191
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Travis Bazzana",
+     "p_so": 0.6182877421379089,
+     "p_bb": 0.31436488032341003
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Nathaniel Lowe",
+     "p_so": 0.7593249082565308,
+     "p_bb": 0.31500107049942017
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Angel Martínez",
+     "p_so": 0.6429765820503235,
+     "p_bb": 0.1780577003955841
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Austin Hedges",
+     "p_so": 0.6267078518867493,
+     "p_bb": 0.20357316732406616
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Brayan Rocchio",
+     "p_so": 0.49077311158180237,
+     "p_bb": 0.20247556269168854
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Luke Keaschall",
+     "p_so": 0.5671653747558594,
+     "p_bb": 0.27160823345184326
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Kaelen Culpepper",
+     "p_so": 0.6259818077087402,
+     "p_bb": 0.19931498169898987
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Ryan Jeffers",
+     "p_so": 0.6557055711746216,
+     "p_bb": 0.3514636158943176
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Josh Bell",
+     "p_so": 0.6443397998809814,
+     "p_bb": 0.2939809560775757
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Kody Clemens",
+     "p_so": 0.7036866545677185,
+     "p_bb": 0.2118718922138214
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Royce Lewis",
+     "p_so": 0.68834388256073,
+     "p_bb": 0.21517466008663177
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Brooks Lee",
+     "p_so": 0.5293988585472107,
+     "p_bb": 0.1764509528875351
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Austin Martin",
+     "p_so": 0.5175873041152954,
+     "p_bb": 0.21432408690452576
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Walker Jenkins",
+     "p_so": 0.589180052280426,
+     "p_bb": 0.17697158455848694
+    }
+   ],
+   "local": "Minnesota Twins",
+   "visita": "Cleveland Guardians"
+  },
+  {
+   "game_id": 823736,
+   "bateadores": [
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Héctor Rodríguez",
+     "p_so": 0.6970107555389404,
+     "p_bb": 0.25689250230789185
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Elly De La Cruz",
+     "p_so": 0.7774178385734558,
+     "p_bb": 0.3956931531429291
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Sal Stewart",
+     "p_so": 0.6331387162208557,
+     "p_bb": 0.34959566593170166
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "JJ Bleday",
+     "p_so": 0.6640012860298157,
+     "p_bb": 0.4239788353443146
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Tyler Stephenson",
+     "p_so": 0.74313884973526,
+     "p_bb": 0.35097289085388184
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Eugenio Suárez",
+     "p_so": 0.7798910737037659,
+     "p_bb": 0.32406333088874817
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Carlos Jorge",
+     "p_so": 0.634610116481781,
+     "p_bb": 0.1703099012374878
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Matt McLain",
+     "p_so": 0.647828996181488,
+     "p_bb": 0.29760757088661194
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Ke'Bryan Hayes",
+     "p_so": 0.5001711249351501,
+     "p_bb": 0.20337696373462677
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jackson Chourio",
+     "p_so": 0.6096543073654175,
+     "p_bb": 0.2892448902130127
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Brice Turang",
+     "p_so": 0.6420303583145142,
+     "p_bb": 0.40252894163131714
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "William Contreras",
+     "p_so": 0.5603156089782715,
+     "p_bb": 0.3940144181251526
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Andrew Vaughn",
+     "p_so": 0.5190460681915283,
+     "p_bb": 0.32359081506729126
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Jake Bauers",
+     "p_so": 0.7020260095596313,
+     "p_bb": 0.4462764263153076
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Luis Lara",
+     "p_so": 0.567602813243866,
+     "p_bb": 0.27966809272766113
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Cooper Pratt",
+     "p_so": 0.47135263681411743,
+     "p_bb": 0.2635605037212372
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Garrett Mitchell",
+     "p_so": 0.6698290705680847,
+     "p_bb": 0.259989857673645
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Joey Ortiz",
+     "p_so": 0.44064247608184814,
+     "p_bb": 0.24845582246780396
+    }
+   ],
+   "local": "Milwaukee Brewers",
+   "visita": "Cincinnati Reds"
+  },
+  {
    "game_id": 824227,
    "bateadores": [
     {
@@ -2759,12 +3073,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 78,
+  "picks_hoy": 100,
   "ganadas": 730,
   "perdidas": 353,
   "push": 0,
   "unidades": 188.5,
   "acierto": 67.4
  },
- "fecha_actualizacion": "2026-09-11T20:11:21Z"
+ "fecha_actualizacion": "2026-09-11T20:41:19Z"
 }
