@@ -851,6 +851,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-11",
+   "local": "Minnesota Twins",
+   "visita": "Cleveland Guardians",
+   "linea": 7.5,
+   "prediccion": 7.73,
+   "prob_over": 0.5675556063652039,
+   "edge": 0.23,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.23 carreras, prob_over 56.8%)",
+   "evaluado_utc": "2026-09-11T22:11:49Z"
+  },
+  {
+   "fecha": "2026-09-11",
    "local": "Milwaukee Brewers",
    "visita": "Cincinnati Reds",
    "linea": 8.0,
@@ -2416,6 +2428,157 @@
    "visita": "Chicago White Sox"
   },
   {
+   "game_id": 823173,
+   "bateadores": [
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Fernando Tatis Jr.",
+     "p_so": 0.6635385155677795,
+     "p_bb": 0.32500046491622925
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Jake Cronenworth",
+     "p_so": 0.7035106420516968,
+     "p_bb": 0.36546817421913147
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Manny Machado",
+     "p_so": 0.6932136416435242,
+     "p_bb": 0.37018388509750366
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Luis Campusano",
+     "p_so": 0.5902714133262634,
+     "p_bb": 0.2972981929779053
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Jackson Merrill",
+     "p_so": 0.6745259761810303,
+     "p_bb": 0.24237807095050812
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Xander Bogaerts",
+     "p_so": 0.6221808791160583,
+     "p_bb": 0.3258112072944641
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Samad Taylor",
+     "p_so": 0.629986584186554,
+     "p_bb": 0.23435354232788086
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Dustin Harris",
+     "p_so": 0.5214060544967651,
+     "p_bb": 0.21905046701431274
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Freddy Fermin",
+     "p_so": 0.501232922077179,
+     "p_bb": 0.1983523666858673
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jonah Cox",
+     "p_so": 0.6936886310577393,
+     "p_bb": 0.2585495710372925
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Rafael Devers",
+     "p_so": 0.6197763085365295,
+     "p_bb": 0.4356664717197418
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Bryce Eldridge",
+     "p_so": 0.6922929286956787,
+     "p_bb": 0.46669483184814453
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Osleivis Basabe",
+     "p_so": 0.5631608366966248,
+     "p_bb": 0.2726886570453644
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Turner Hill",
+     "p_so": 0.4129789173603058,
+     "p_bb": 0.35931259393692017
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Shay Whitcomb",
+     "p_so": 0.5811054110527039,
+     "p_bb": 0.22983092069625854
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Jung Hoo Lee",
+     "p_so": 0.2831953167915344,
+     "p_bb": 0.2629995346069336
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Andrew Knizner",
+     "p_so": 0.5198858976364136,
+     "p_bb": 0.21679385006427765
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Christian Koss",
+     "p_so": 0.5794723033905029,
+     "p_bb": 0.20809084177017212
+    }
+   ],
+   "local": "San Francisco Giants",
+   "visita": "San Diego Padres"
+  },
+  {
    "game_id": 823498,
    "bateadores": [
     {
@@ -2867,6 +3030,157 @@
    ],
    "local": "Milwaukee Brewers",
    "visita": "Cincinnati Reds"
+  },
+  {
+   "game_id": 823817,
+   "bateadores": [
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Tommy Edman",
+     "p_so": 0.5421547889709473,
+     "p_bb": 0.26070016622543335
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Max Muncy",
+     "p_so": 0.7270965576171875,
+     "p_bb": 0.5006732940673828
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Mookie Betts",
+     "p_so": 0.46310314536094666,
+     "p_bb": 0.38573843240737915
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Kyle Tucker",
+     "p_so": 0.545741081237793,
+     "p_bb": 0.4451988637447357
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Will Smith",
+     "p_so": 0.5265219211578369,
+     "p_bb": 0.35036200284957886
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Teoscar Hernández",
+     "p_so": 0.7486588358879089,
+     "p_bb": 0.2565302550792694
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Josue De Paula",
+     "p_so": 0.5683169364929199,
+     "p_bb": 0.2563830018043518
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Alex Freeland",
+     "p_so": 0.6237063407897949,
+     "p_bb": 0.29440224170684814
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Enrique Hernández",
+     "p_so": 0.5480815768241882,
+     "p_bb": 0.207050621509552
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Heriberto Hernández",
+     "p_so": 0.7667113542556763,
+     "p_bb": 0.42726993560791016
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Otto Lopez",
+     "p_so": 0.5149749517440796,
+     "p_bb": 0.2764059603214264
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Jakob Marsee",
+     "p_so": 0.6488559246063232,
+     "p_bb": 0.3994932472705841
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Javier Sanoja",
+     "p_so": 0.37464553117752075,
+     "p_bb": 0.2293301820755005
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Agustín Ramírez",
+     "p_so": 0.6133129596710205,
+     "p_bb": 0.2928082346916199
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Kyle Stowers",
+     "p_so": 0.7390893697738647,
+     "p_bb": 0.28004422783851624
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Esteury Ruiz",
+     "p_so": 0.6712564826011658,
+     "p_bb": 0.21321408450603485
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Jared Serna",
+     "p_so": 0.5760335326194763,
+     "p_bb": 0.25474080443382263
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Griffin Conine",
+     "p_so": 0.6735650300979614,
+     "p_bb": 0.27257460355758667
+    }
+   ],
+   "local": "Miami Marlins",
+   "visita": "Los Angeles Dodgers"
   },
   {
    "game_id": 824227,
@@ -3474,12 +3788,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 116,
+  "picks_hoy": 134,
   "ganadas": 730,
   "perdidas": 353,
   "push": 0,
   "unidades": 188.5,
   "acierto": 67.4
  },
- "fecha_actualizacion": "2026-09-11T21:46:29Z"
+ "fecha_actualizacion": "2026-09-11T22:11:50Z"
 }

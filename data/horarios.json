@@ -3908,7 +3908,8 @@
       "pitcher_visita": 800048,
       "hora_inicio_utc": "2026-09-12T00:10:00+00:00",
       "hora_corrida_utc": "2026-09-11T23:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-11T22:11:45.944711+00:00"
     },
     "St. Louis Cardinals": {
       "local": "St. Louis Cardinals",
