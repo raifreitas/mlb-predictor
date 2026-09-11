@@ -851,6 +851,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-11",
+   "local": "St. Louis Cardinals",
+   "visita": "Chicago White Sox",
+   "linea": 8.0,
+   "prediccion": 9.06,
+   "prob_over": 0.5198519229888916,
+   "edge": 1.06,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +1.06 carreras, prob_over 52.0%)",
+   "evaluado_utc": "2026-09-11T22:16:40Z"
+  },
+  {
+   "fecha": "2026-09-11",
    "local": "Minnesota Twins",
    "visita": "Cleveland Guardians",
    "linea": 7.5,
@@ -3795,5 +3807,5 @@
   "unidades": 188.5,
   "acierto": 67.4
  },
- "fecha_actualizacion": "2026-09-11T22:11:50Z"
+ "fecha_actualizacion": "2026-09-11T22:16:41Z"
 }
