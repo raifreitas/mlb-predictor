@@ -835,6 +835,18 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-09-11",
+   "local": "Chicago Cubs",
+   "visita": "Pittsburgh Pirates",
+   "linea": 8.5,
+   "prediccion": 6.62,
+   "prob_over": 0.5194604396820068,
+   "edge": 1.63,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Volatilidad del Abridor (WHIP Local: 1.12 | Visita: 1.32)",
+   "evaluado_utc": "2026-09-11T16:23:09Z"
+  },
+  {
    "fecha": "2026-09-10",
    "local": "Chicago White Sox",
    "visita": "Pittsburgh Pirates",
@@ -1848,5 +1860,5 @@
   "unidades": 188.5,
   "acierto": 67.4
  },
- "fecha_actualizacion": "2026-09-11T16:06:17Z"
+ "fecha_actualizacion": "2026-09-11T16:23:10Z"
 }

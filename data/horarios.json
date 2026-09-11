@@ -3809,7 +3809,8 @@
       "pitcher_visita": null,
       "hora_inicio_utc": "2026-09-11T18:20:00+00:00",
       "hora_corrida_utc": "2026-09-11T17:50:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-11T16:23:06.223390+00:00"
     },
     "Detroit Tigers": {
       "local": "Detroit Tigers",
