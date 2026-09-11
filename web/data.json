@@ -1852,6 +1852,157 @@
    "visita": "Los Angeles Angels"
   },
   {
+   "game_id": 823498,
+   "bateadores": [
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Francisco Lindor",
+     "p_so": 0.6124355792999268,
+     "p_bb": 0.34462612867355347
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Juan Soto",
+     "p_so": 0.55753093957901,
+     "p_bb": 0.42970842123031616
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Bo Bichette",
+     "p_so": 0.5804898142814636,
+     "p_bb": 0.28485676646232605
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Mark Vientos",
+     "p_so": 0.6114569902420044,
+     "p_bb": 0.19762976467609406
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Carson Benge",
+     "p_so": 0.6739770174026489,
+     "p_bb": 0.27059364318847656
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Marcus Semien",
+     "p_so": 0.5109783411026001,
+     "p_bb": 0.3286070227622986
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Christopher Morel",
+     "p_so": 0.6490834951400757,
+     "p_bb": 0.29308685660362244
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "A.J. Ewing",
+     "p_so": 0.6397628784179688,
+     "p_bb": 0.2593889832496643
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Francisco Alvarez",
+     "p_so": 0.6313677430152893,
+     "p_bb": 0.24014514684677124
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Ben Rice",
+     "p_so": 0.6737669706344604,
+     "p_bb": 0.43189048767089844
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Cody Bellinger",
+     "p_so": 0.5251415371894836,
+     "p_bb": 0.3396143317222595
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Aaron Judge",
+     "p_so": 0.6618950963020325,
+     "p_bb": 0.42297518253326416
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Luis García Jr.",
+     "p_so": 0.5805201530456543,
+     "p_bb": 0.23565207421779633
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Spencer Jones",
+     "p_so": 0.7555729150772095,
+     "p_bb": 0.37538382411003113
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "George Lombard Jr.",
+     "p_so": 0.6837503910064697,
+     "p_bb": 0.29159364104270935
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Ryan McMahon",
+     "p_so": 0.6998081803321838,
+     "p_bb": 0.33044344186782837
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Austin Wells",
+     "p_so": 0.6325798034667969,
+     "p_bb": 0.3290237784385681
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Anthony Volpe",
+     "p_so": 0.5969358682632446,
+     "p_bb": 0.22612202167510986
+    }
+   ],
+   "local": "New York Yankees",
+   "visita": "New York Mets"
+  },
+  {
    "game_id": 824227,
    "bateadores": [
     {
@@ -2306,12 +2457,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 43,
+  "picks_hoy": 55,
   "ganadas": 730,
   "perdidas": 353,
   "push": 0,
   "unidades": 188.5,
   "acierto": 67.4
  },
- "fecha_actualizacion": "2026-09-11T19:16:20Z"
+ "fecha_actualizacion": "2026-09-11T19:41:26Z"
 }
