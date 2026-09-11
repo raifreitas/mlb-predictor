@@ -836,6 +836,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-11",
+   "local": "New York Yankees",
+   "visita": "New York Mets",
+   "linea": 8.0,
+   "prediccion": 7.26,
+   "prob_over": 0.512294590473175,
+   "edge": 0.74,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.74 carreras, prob_over 51.2%)",
+   "evaluado_utc": "2026-09-11T21:06:22Z"
+  },
+  {
+   "fecha": "2026-09-11",
    "local": "Washington Nationals",
    "visita": "Los Angeles Angels",
    "linea": 7.5,
@@ -1874,6 +1886,157 @@
    ],
    "local": "Washington Nationals",
    "visita": "Los Angeles Angels"
+  },
+  {
+   "game_id": 822930,
+   "bateadores": [
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Jose Altuve",
+     "p_so": 0.6092426180839539,
+     "p_bb": 0.2611125707626343
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Jeremy Peña",
+     "p_so": 0.6835888028144836,
+     "p_bb": 0.18876518309116364
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Isaac Paredes",
+     "p_so": 0.5825865864753723,
+     "p_bb": 0.3698020875453949
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Daulton Varsho",
+     "p_so": 0.7159043550491333,
+     "p_bb": 0.23994961380958557
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Yainer Diaz",
+     "p_so": 0.5400814414024353,
+     "p_bb": 0.1315610706806183
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Christian Walker",
+     "p_so": 0.7122485041618347,
+     "p_bb": 0.22112984955310822
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Cam Smith",
+     "p_so": 0.6832513213157654,
+     "p_bb": 0.22924630343914032
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Taylor Trammell",
+     "p_so": 0.7451257705688477,
+     "p_bb": 0.24021807312965393
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Nick Allen",
+     "p_so": 0.527167558670044,
+     "p_bb": 0.14285261929035187
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Yandy Díaz",
+     "p_so": 0.4777945280075073,
+     "p_bb": 0.39861947298049927
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Jonathan Aranda",
+     "p_so": 0.6438648700714111,
+     "p_bb": 0.36739733815193176
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Junior Caminero",
+     "p_so": 0.553539514541626,
+     "p_bb": 0.3664938807487488
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Liam Hicks",
+     "p_so": 0.3944927155971527,
+     "p_bb": 0.347401887178421
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Victor Mesa Jr.",
+     "p_so": 0.4813903570175171,
+     "p_bb": 0.26510709524154663
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Chandler Simpson",
+     "p_so": 0.27264076471328735,
+     "p_bb": 0.1914052516222
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Cedric Mullins",
+     "p_so": 0.5683706402778625,
+     "p_bb": 0.35687878727912903
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Richie Palacios",
+     "p_so": 0.42786499857902527,
+     "p_bb": 0.311352014541626
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Jorge Mateo",
+     "p_so": 0.5685376524925232,
+     "p_bb": 0.20028938353061676
+    }
+   ],
+   "local": "Tampa Bay Rays",
+   "visita": "Houston Astros"
   },
   {
    "game_id": 823012,
@@ -3085,12 +3248,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 100,
+  "picks_hoy": 107,
   "ganadas": 730,
   "perdidas": 353,
   "push": 0,
   "unidades": 188.5,
   "acierto": 67.4
  },
- "fecha_actualizacion": "2026-09-11T20:46:28Z"
+ "fecha_actualizacion": "2026-09-11T21:06:24Z"
 }
