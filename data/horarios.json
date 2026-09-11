@@ -3898,7 +3898,8 @@
       "pitcher_visita": 671096,
       "hora_inicio_utc": "2026-09-11T23:45:00+00:00",
       "hora_corrida_utc": "2026-09-11T23:15:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-11T21:46:25.302684+00:00"
     },
     "Minnesota Twins": {
       "local": "Minnesota Twins",
