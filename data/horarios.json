@@ -3829,7 +3829,8 @@
       "pitcher_visita": 579328,
       "hora_inicio_utc": "2026-09-11T22:45:00+00:00",
       "hora_corrida_utc": "2026-09-11T22:15:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-11T20:46:22.951600+00:00"
     },
     "New York Yankees": {
       "local": "New York Yankees",

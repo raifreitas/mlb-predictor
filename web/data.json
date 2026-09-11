@@ -836,6 +836,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-11",
+   "local": "Washington Nationals",
+   "visita": "Los Angeles Angels",
+   "linea": 7.5,
+   "prediccion": 7.28,
+   "prob_over": 0.5128300189971924,
+   "edge": 0.22,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.22 carreras, prob_over 51.3%)",
+   "evaluado_utc": "2026-09-11T20:46:27Z"
+  },
+  {
+   "fecha": "2026-09-11",
    "local": "Detroit Tigers",
    "visita": "Colorado Rockies",
    "linea": 8.0,
@@ -3080,5 +3092,5 @@
   "unidades": 188.5,
   "acierto": 67.4
  },
- "fecha_actualizacion": "2026-09-11T20:41:19Z"
+ "fecha_actualizacion": "2026-09-11T20:46:28Z"
 }
