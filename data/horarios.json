@@ -4060,7 +4060,8 @@
       "pitcher_visita": 663903,
       "hora_inicio_utc": "2026-09-12T23:10:00+00:00",
       "hora_corrida_utc": "2026-09-12T22:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-12T21:30:46.131042+00:00"
     },
     "Atlanta Braves": {
       "local": "Atlanta Braves",
@@ -4069,7 +4070,8 @@
       "pitcher_visita": null,
       "hora_inicio_utc": "2026-09-12T23:15:00+00:00",
       "hora_corrida_utc": "2026-09-12T22:45:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-12T21:30:46.131042+00:00"
     },
     "St. Louis Cardinals": {
       "local": "St. Louis Cardinals",
@@ -4078,7 +4080,8 @@
       "pitcher_visita": 622491,
       "hora_inicio_utc": "2026-09-12T23:15:00+00:00",
       "hora_corrida_utc": "2026-09-12T22:45:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-12T21:30:46.131042+00:00"
     },
     "Arizona Diamondbacks": {
       "local": "Arizona Diamondbacks",
