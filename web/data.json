@@ -1716,6 +1716,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 822768,
+   "bateadores": [
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Dylan Beavers",
+     "p_so": 0.6762977838516235,
+     "p_bb": 0.3685884177684784
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Pete Alonso",
+     "p_so": 0.6891422271728516,
+     "p_bb": 0.3782406747341156
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Jackson Holliday",
+     "p_so": 0.6524863243103027,
+     "p_bb": 0.3157515823841095
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Coby Mayo",
+     "p_so": 0.7424203157424927,
+     "p_bb": 0.273956835269928
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Gunnar Henderson",
+     "p_so": 0.6071431040763855,
+     "p_bb": 0.3326205611228943
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Christian Encarnacion-Strand",
+     "p_so": 0.7042812705039978,
+     "p_bb": 0.1883130669593811
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Heston Kjerstad",
+     "p_so": 0.585401713848114,
+     "p_bb": 0.1859835982322693
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Colton Cowser",
+     "p_so": 0.7051421999931335,
+     "p_bb": 0.26683589816093445
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Carlos Narváez",
+     "p_so": 0.5996613502502441,
+     "p_bb": 0.20746102929115295
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Brett Bateman",
+     "p_so": 0.5526911020278931,
+     "p_bb": 0.3041674792766571
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "George Springer",
+     "p_so": 0.5527611374855042,
+     "p_bb": 0.35106325149536133
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Vladimir Guerrero Jr.",
+     "p_so": 0.41437146067619324,
+     "p_bb": 0.3572799861431122
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Alejandro Kirk",
+     "p_so": 0.39450711011886597,
+     "p_bb": 0.3626040816307068
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Nathan Lukes",
+     "p_so": 0.4183117151260376,
+     "p_bb": 0.2778746783733368
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Kazuma Okamoto",
+     "p_so": 0.725563645362854,
+     "p_bb": 0.2886684238910675
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Josh Smith",
+     "p_so": 0.5454931855201721,
+     "p_bb": 0.31875118613243103
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Andrés Giménez",
+     "p_so": 0.4593023359775543,
+     "p_bb": 0.18507499992847443
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Rudy Martin Jr.",
+     "p_so": 0.5217157006263733,
+     "p_bb": 0.20889799296855927
+    }
+   ],
+   "local": "Toronto Blue Jays",
+   "visita": "Baltimore Orioles"
+  },
+  {
    "game_id": 823496,
    "bateadores": [
     {
@@ -2170,12 +2321,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 24,
+  "picks_hoy": 32,
   "ganadas": 826,
   "perdidas": 411,
   "push": 0,
   "unidades": 207.5,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-12T16:03:30Z"
+ "fecha_actualizacion": "2026-09-12T16:11:28Z"
 }
