@@ -3841,6 +3841,157 @@
    "visita": "Philadelphia Phillies"
   },
   {
+   "game_id": 824955,
+   "bateadores": [
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "J.P. Crawford",
+     "p_so": 0.6242110729217529,
+     "p_bb": 0.4214916527271271
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Randy Arozarena",
+     "p_so": 0.7386210560798645,
+     "p_bb": 0.3989287316799164
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Dominic Canzone",
+     "p_so": 0.6529946327209473,
+     "p_bb": 0.32405993342399597
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Cal Raleigh",
+     "p_so": 0.7963724136352539,
+     "p_bb": 0.4092336893081665
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Julio Rodríguez",
+     "p_so": 0.7007944583892822,
+     "p_bb": 0.2837538719177246
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Josh Naylor",
+     "p_so": 0.47135981917381287,
+     "p_bb": 0.27285662293434143
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Cole Young",
+     "p_so": 0.5175701379776001,
+     "p_bb": 0.2689756155014038
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Michael Arroyo",
+     "p_so": 0.7053011059761047,
+     "p_bb": 0.17437896132469177
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Weston Wilson",
+     "p_so": 0.6345824599266052,
+     "p_bb": 0.23360255360603333
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Henry Bolte",
+     "p_so": 0.7819809913635254,
+     "p_bb": 0.2851274907588959
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Jeff McNeil",
+     "p_so": 0.4127514660358429,
+     "p_bb": 0.20641227066516876
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Lawrence Butler",
+     "p_so": 0.7782872915267944,
+     "p_bb": 0.32585081458091736
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Shea Langeliers",
+     "p_so": 0.6518750190734863,
+     "p_bb": 0.21115174889564514
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Donovan Walton",
+     "p_so": 0.5643731951713562,
+     "p_bb": 0.28546181321144104
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Zack Gelof",
+     "p_so": 0.7879770398139954,
+     "p_bb": 0.2259879857301712
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Carlos Cortes",
+     "p_so": 0.5537112355232239,
+     "p_bb": 0.19399379193782806
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Jonah Heim",
+     "p_so": 0.5272743701934814,
+     "p_bb": 0.20828600227832794
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Alika Williams",
+     "p_so": 0.61993408203125,
+     "p_bb": 0.13839223980903625
+    }
+   ],
+   "local": "Athletics",
+   "visita": "Seattle Mariners"
+  },
+  {
    "game_id": 825035,
    "bateadores": [
     {
@@ -3993,12 +4144,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 119,
+  "picks_hoy": 131,
   "ganadas": 826,
   "perdidas": 411,
   "push": 0,
   "unidades": 207.5,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-12T21:36:30Z"
+ "fecha_actualizacion": "2026-09-12T22:06:30Z"
 }
