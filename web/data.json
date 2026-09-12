@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-09-11",
+ "ultima_fecha_prediccion": "2026-09-12",
  "resumen": {
   "ganadas": 19,
   "perdidas": 9,
@@ -846,9 +846,60 @@
    "total": 4,
    "creado": "2026-09-11 21:11:31",
    "verificado": "2026-09-12 06:50:33"
+  },
+  {
+   "id": 1055,
+   "fecha": "2026-09-12",
+   "local": "Minnesota Twins",
+   "visita": "Cleveland Guardians",
+   "tipo": "OVER",
+   "linea": 8.5,
+   "unidades": 0.5,
+   "edge": 2.5,
+   "cuota": 1.98,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-12 18:11:51",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-12",
+   "local": "Boston Red Sox",
+   "visita": "Kansas City Royals",
+   "linea": 8.5,
+   "prediccion": 8.31,
+   "prob_over": 0.5671762228012085,
+   "edge": 0.19,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.19 carreras, prob_over 56.7%)",
+   "evaluado_utc": "2026-09-12T18:11:51Z"
+  },
+  {
+   "fecha": "2026-09-12",
+   "local": "Miami Marlins",
+   "visita": "Los Angeles Dodgers",
+   "linea": 8.0,
+   "prediccion": 8.15,
+   "prob_over": 0.4047084152698517,
+   "edge": 0.15,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.15 carreras, prob_over 40.5%)",
+   "evaluado_utc": "2026-09-12T18:11:51Z"
+  },
+  {
+   "fecha": "2026-09-12",
+   "local": "Minnesota Twins",
+   "visita": "Cleveland Guardians",
+   "linea": 9.0,
+   "prediccion": 11.0,
+   "prob_over": 0.5615518689155579,
+   "edge": 2.0,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-12T18:11:51Z"
+  },
   {
    "fecha": "2026-09-12",
    "local": "San Francisco Giants",
@@ -3131,5 +3182,5 @@
   "unidades": 207.5,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-12T18:06:41Z"
+ "fecha_actualizacion": "2026-09-12T18:11:52Z"
 }
