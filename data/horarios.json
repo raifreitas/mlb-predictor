@@ -4000,7 +4000,8 @@
       "pitcher_visita": 700712,
       "hora_inicio_utc": "2026-09-12T20:05:00+00:00",
       "hora_corrida_utc": "2026-09-12T19:35:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-12T18:06:35.389711+00:00"
     },
     "San Francisco Giants": {
       "local": "San Francisco Giants",
@@ -4009,7 +4010,8 @@
       "pitcher_visita": 650633,
       "hora_inicio_utc": "2026-09-12T20:05:00+00:00",
       "hora_corrida_utc": "2026-09-12T19:35:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-12T18:06:35.389711+00:00"
     },
     "Boston Red Sox": {
       "local": "Boston Red Sox",
