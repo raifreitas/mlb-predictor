@@ -2016,15 +2016,166 @@
    ],
    "local": "Detroit Tigers",
    "visita": "Colorado Rockies"
+  },
+  {
+   "game_id": 824630,
+   "bateadores": [
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Oneil Cruz",
+     "p_so": 0.7402829527854919,
+     "p_bb": 0.4041661322116852
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Brandon Lowe",
+     "p_so": 0.7630811929702759,
+     "p_bb": 0.3680531978607178
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Bryan Reynolds",
+     "p_so": 0.6409875154495239,
+     "p_bb": 0.36651933193206787
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Konnor Griffin",
+     "p_so": 0.5795198082923889,
+     "p_bb": 0.20967553555965424
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Ryan O'Hearn",
+     "p_so": 0.5012699961662292,
+     "p_bb": 0.25987499952316284
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Spencer Horwitz",
+     "p_so": 0.5123189687728882,
+     "p_bb": 0.3232731223106384
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Jake Mangum",
+     "p_so": 0.49738505482673645,
+     "p_bb": 0.18634185194969177
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Jacob Gonzalez",
+     "p_so": 0.5079859495162964,
+     "p_bb": 0.16745541989803314
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Henry Davis",
+     "p_so": 0.5430925488471985,
+     "p_bb": 0.1973070353269577
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Pete Crow-Armstrong",
+     "p_so": 0.705199658870697,
+     "p_bb": 0.29454725980758667
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Alex Bregman",
+     "p_so": 0.5130282640457153,
+     "p_bb": 0.3570804297924042
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Michael Busch",
+     "p_so": 0.7231912612915039,
+     "p_bb": 0.39657506346702576
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Ian Happ",
+     "p_so": 0.7259998321533203,
+     "p_bb": 0.4163907468318939
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Nico Hoerner",
+     "p_so": 0.34582722187042236,
+     "p_bb": 0.22569343447685242
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Michael Conforto",
+     "p_so": 0.6491275429725647,
+     "p_bb": 0.30787205696105957
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Carson Kelly",
+     "p_so": 0.5232897400856018,
+     "p_bb": 0.28078222274780273
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Pedro Ramírez",
+     "p_so": 0.5402215719223022,
+     "p_bb": 0.23161689937114716
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Tyrone Taylor",
+     "p_so": 0.5364052653312683,
+     "p_bb": 0.1458715796470642
+    }
+   ],
+   "local": "Chicago Cubs",
+   "visita": "Pittsburgh Pirates"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 17,
+  "picks_hoy": 24,
   "ganadas": 826,
   "perdidas": 411,
   "push": 0,
   "unidades": 207.5,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-12T15:37:08Z"
+ "fecha_actualizacion": "2026-09-12T16:03:30Z"
 }
