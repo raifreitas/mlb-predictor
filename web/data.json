@@ -2935,6 +2935,157 @@
    "visita": "Cleveland Guardians"
   },
   {
+   "game_id": 823737,
+   "bateadores": [
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Dane Myers",
+     "p_so": 0.6671975255012512,
+     "p_bb": 0.33827367424964905
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Elly De La Cruz",
+     "p_so": 0.7964597344398499,
+     "p_bb": 0.35775506496429443
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Sal Stewart",
+     "p_so": 0.6621326804161072,
+     "p_bb": 0.31243249773979187
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Tyler Stephenson",
+     "p_so": 0.7671059370040894,
+     "p_bb": 0.37514498829841614
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Eugenio Suárez",
+     "p_so": 0.7944042086601257,
+     "p_bb": 0.3716197907924652
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "JJ Bleday",
+     "p_so": 0.6717727780342102,
+     "p_bb": 0.3527045249938965
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Juan Brito",
+     "p_so": 0.6099303960800171,
+     "p_bb": 0.25918787717819214
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Héctor Rodríguez",
+     "p_so": 0.6528829336166382,
+     "p_bb": 0.2115594446659088
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Ke'Bryan Hayes",
+     "p_so": 0.5088375806808472,
+     "p_bb": 0.21883869171142578
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jackson Chourio",
+     "p_so": 0.61463862657547,
+     "p_bb": 0.2189955711364746
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Brice Turang",
+     "p_so": 0.6563489437103271,
+     "p_bb": 0.38268715143203735
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Jake Bauers",
+     "p_so": 0.722296953201294,
+     "p_bb": 0.4869597256183624
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Christian Yelich",
+     "p_so": 0.6614945530891418,
+     "p_bb": 0.33452296257019043
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "William Contreras",
+     "p_so": 0.5106683373451233,
+     "p_bb": 0.3259126543998718
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Garrett Mitchell",
+     "p_so": 0.7029256820678711,
+     "p_bb": 0.27279528975486755
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Sal Frelick",
+     "p_so": 0.4008384346961975,
+     "p_bb": 0.22009773552417755
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Cooper Pratt",
+     "p_so": 0.45563632249832153,
+     "p_bb": 0.2322961986064911
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "David Hamilton",
+     "p_so": 0.5045603513717651,
+     "p_bb": 0.18700960278511047
+    }
+   ],
+   "local": "Milwaukee Brewers",
+   "visita": "Cincinnati Reds"
+  },
+  {
    "game_id": 823819,
    "bateadores": [
     {
@@ -3688,15 +3839,166 @@
    ],
    "local": "Atlanta Braves",
    "visita": "Philadelphia Phillies"
+  },
+  {
+   "game_id": 825035,
+   "bateadores": [
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Joc Pederson",
+     "p_so": 0.6362003087997437,
+     "p_bb": 0.364878386259079
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Corey Seager",
+     "p_so": 0.6326178312301636,
+     "p_bb": 0.3593234121799469
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Josh Jung",
+     "p_so": 0.5871820449829102,
+     "p_bb": 0.19455693662166595
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Brandon Nimmo",
+     "p_so": 0.6688879728317261,
+     "p_bb": 0.3037187159061432
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Ezequiel Duran",
+     "p_so": 0.6847049593925476,
+     "p_bb": 0.2273855060338974
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Wyatt Langford",
+     "p_so": 0.6502458453178406,
+     "p_bb": 0.33934399485588074
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Jake Burger",
+     "p_so": 0.6934511661529541,
+     "p_bb": 0.22112789750099182
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Nicky Lopez",
+     "p_so": 0.44468188285827637,
+     "p_bb": 0.18757669627666473
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Elias Díaz",
+     "p_so": 0.5751250386238098,
+     "p_bb": 0.16843630373477936
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Lars Nootbaar",
+     "p_so": 0.5462227463722229,
+     "p_bb": 0.45583176612854004
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Ketel Marte",
+     "p_so": 0.5051548480987549,
+     "p_bb": 0.3814813494682312
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Gabriel Moreno",
+     "p_so": 0.5197200775146484,
+     "p_bb": 0.42248642444610596
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Geraldo Perdomo",
+     "p_so": 0.43613508343696594,
+     "p_bb": 0.42919039726257324
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Corbin Carroll",
+     "p_so": 0.6629602909088135,
+     "p_bb": 0.36856287717819214
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Nolan Arenado",
+     "p_so": 0.5269131660461426,
+     "p_bb": 0.2879961431026459
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Tim Tawa",
+     "p_so": 0.6888729333877563,
+     "p_bb": 0.31126856803894043
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Pavin Smith",
+     "p_so": 0.5501654148101807,
+     "p_bb": 0.28300487995147705
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Ryan Waldschmidt",
+     "p_so": 0.6426507234573364,
+     "p_bb": 0.25055965781211853
+    }
+   ],
+   "local": "Arizona Diamondbacks",
+   "visita": "Texas Rangers"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 97,
+  "picks_hoy": 119,
   "ganadas": 826,
   "perdidas": 411,
   "push": 0,
   "unidades": 207.5,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-12T21:30:52Z"
+ "fecha_actualizacion": "2026-09-12T21:36:30Z"
 }
