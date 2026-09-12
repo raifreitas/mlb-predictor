@@ -2330,15 +2330,166 @@
    ],
    "local": "Chicago Cubs",
    "visita": "Pittsburgh Pirates"
+  },
+  {
+   "game_id": 824712,
+   "bateadores": [
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Carter Jensen",
+     "p_so": 0.6933165192604065,
+     "p_bb": 0.36763566732406616
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Bobby Witt Jr.",
+     "p_so": 0.5500631332397461,
+     "p_bb": 0.33649107813835144
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Salvador Perez",
+     "p_so": 0.5859478712081909,
+     "p_bb": 0.21189916133880615
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Vinnie Pasquantino",
+     "p_so": 0.5147418975830078,
+     "p_bb": 0.339382141828537
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Nick Loftin",
+     "p_so": 0.5573865175247192,
+     "p_bb": 0.3308156728744507
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Michael Massey",
+     "p_so": 0.5018306374549866,
+     "p_bb": 0.1941845566034317
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "John Rave",
+     "p_so": 0.531583309173584,
+     "p_bb": 0.2625785768032074
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Matthew Lugo",
+     "p_so": 0.6426525712013245,
+     "p_bb": 0.18916358053684235
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Kyle Isbel",
+     "p_so": 0.4828752875328064,
+     "p_bb": 0.18493139743804932
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Roman Anthony",
+     "p_so": 0.6313387751579285,
+     "p_bb": 0.4202149510383606
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Mickey Gasper",
+     "p_so": 0.521999180316925,
+     "p_bb": 0.40565744042396545
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Adley Rutschman",
+     "p_so": 0.5355846285820007,
+     "p_bb": 0.3585755527019501
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Wilyer Abreu",
+     "p_so": 0.6296561360359192,
+     "p_bb": 0.37688934803009033
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Trevor Story",
+     "p_so": 0.6358844637870789,
+     "p_bb": 0.18731410801410675
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Nick Sogard",
+     "p_so": 0.62114417552948,
+     "p_bb": 0.34320706129074097
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Jarren Duran",
+     "p_so": 0.6438806653022766,
+     "p_bb": 0.25219592452049255
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Caleb Durbin",
+     "p_so": 0.3511733114719391,
+     "p_bb": 0.2448200136423111
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Anthony Seigler",
+     "p_so": 0.42702722549438477,
+     "p_bb": 0.2607600688934326
+    }
+   ],
+   "local": "Boston Red Sox",
+   "visita": "Kansas City Royals"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 32,
+  "picks_hoy": 39,
   "ganadas": 826,
   "perdidas": 411,
   "push": 0,
   "unidades": 207.5,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-12T16:21:33Z"
+ "fecha_actualizacion": "2026-09-12T16:36:27Z"
 }
