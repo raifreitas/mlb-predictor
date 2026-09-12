@@ -861,9 +861,36 @@
    "total": null,
    "creado": "2026-09-12 18:11:51",
    "verificado": null
+  },
+  {
+   "id": 1056,
+   "fecha": "2026-09-12",
+   "local": "Tampa Bay Rays",
+   "visita": "Houston Astros",
+   "tipo": "OVER",
+   "linea": 7.5,
+   "unidades": 0.5,
+   "edge": 1.63,
+   "cuota": 1.88,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-12 20:17:22",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-12",
+   "local": "Tampa Bay Rays",
+   "visita": "Houston Astros",
+   "linea": 7.5,
+   "prediccion": 9.13,
+   "prob_over": 0.46368199586868286,
+   "edge": 1.63,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-12T20:17:22Z"
+  },
   {
    "fecha": "2026-09-12",
    "local": "Boston Red Sox",
@@ -3474,15 +3501,166 @@
    ],
    "local": "Boston Red Sox",
    "visita": "Kansas City Royals"
+  },
+  {
+   "game_id": 824870,
+   "bateadores": [
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Kyle Schwarber",
+     "p_so": 0.7870209813117981,
+     "p_bb": 0.4767017364501953
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Trea Turner",
+     "p_so": 0.5997130274772644,
+     "p_bb": 0.21724247932434082
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Bryce Harper",
+     "p_so": 0.6696577072143555,
+     "p_bb": 0.47741958498954773
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Luis Arraez",
+     "p_so": 0.14416196942329407,
+     "p_bb": 0.12495660781860352
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Alec Bohm",
+     "p_so": 0.5005008578300476,
+     "p_bb": 0.2241642028093338
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Bryson Stott",
+     "p_so": 0.5334615111351013,
+     "p_bb": 0.25719910860061646
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Brandon Marsh",
+     "p_so": 0.6701042056083679,
+     "p_bb": 0.2638387978076935
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "J.T. Realmuto",
+     "p_so": 0.570268452167511,
+     "p_bb": 0.20704588294029236
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Justin Crawford",
+     "p_so": 0.4599209725856781,
+     "p_bb": 0.16644343733787537
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Drake Baldwin",
+     "p_so": 0.5962316989898682,
+     "p_bb": 0.28966933488845825
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Ronald Acuña Jr.",
+     "p_so": 0.6092422008514404,
+     "p_bb": 0.40498295426368713
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Matt Olson",
+     "p_so": 0.684345543384552,
+     "p_bb": 0.3231748938560486
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Ozzie Albies",
+     "p_so": 0.43556901812553406,
+     "p_bb": 0.25316423177719116
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Michael Harris II",
+     "p_so": 0.5386894345283508,
+     "p_bb": 0.17863249778747559
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Mauricio Dubón",
+     "p_so": 0.36277973651885986,
+     "p_bb": 0.19944825768470764
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Austin Riley",
+     "p_so": 0.6889104843139648,
+     "p_bb": 0.2509493827819824
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Sean Murphy",
+     "p_so": 0.5867047309875488,
+     "p_bb": 0.29715681076049805
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Ha-Seong Kim",
+     "p_so": 0.4535191059112549,
+     "p_bb": 0.2567335367202759
+    }
+   ],
+   "local": "Atlanta Braves",
+   "visita": "Philadelphia Phillies"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 91,
+  "picks_hoy": 97,
   "ganadas": 826,
   "perdidas": 411,
   "push": 0,
   "unidades": 207.5,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-12T19:41:21Z"
+ "fecha_actualizacion": "2026-09-12T20:17:23Z"
 }
