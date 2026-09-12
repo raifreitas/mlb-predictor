@@ -851,6 +851,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-12",
+   "local": "Chicago Cubs",
+   "visita": "Pittsburgh Pirates",
+   "linea": 9.0,
+   "prediccion": 7.94,
+   "prob_over": 0.5238292813301086,
+   "edge": 1.06,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.06 carreras, prob_over 52.4%)",
+   "evaluado_utc": "2026-09-12T16:21:32Z"
+  },
+  {
+   "fecha": "2026-09-12",
    "local": "New York Yankees",
    "visita": "New York Mets",
    "linea": 8.5,
@@ -2328,5 +2340,5 @@
   "unidades": 207.5,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-12T16:11:28Z"
+ "fecha_actualizacion": "2026-09-12T16:21:33Z"
 }
