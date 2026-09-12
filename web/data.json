@@ -851,6 +851,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-12",
+   "local": "Toronto Blue Jays",
+   "visita": "Baltimore Orioles",
+   "linea": 8.5,
+   "prediccion": 8.24,
+   "prob_over": 0.43727588653564453,
+   "edge": 0.26,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.26 carreras, prob_over 43.7%)",
+   "evaluado_utc": "2026-09-12T17:11:48Z"
+  },
+  {
+   "fecha": "2026-09-12",
    "local": "Chicago Cubs",
    "visita": "Pittsburgh Pirates",
    "linea": 9.0,
@@ -2030,6 +2042,157 @@
    "visita": "New York Mets"
   },
   {
+   "game_id": 823819,
+   "bateadores": [
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Tommy Edman",
+     "p_so": 0.5710464119911194,
+     "p_bb": 0.271293580532074
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Freddie Freeman",
+     "p_so": 0.6030762195587158,
+     "p_bb": 0.39865392446517944
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Mookie Betts",
+     "p_so": 0.4666101932525635,
+     "p_bb": 0.3868616819381714
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Max Muncy",
+     "p_so": 0.7437251806259155,
+     "p_bb": 0.47655346989631653
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Kyle Tucker",
+     "p_so": 0.5447310209274292,
+     "p_bb": 0.41699594259262085
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Teoscar Hernández",
+     "p_so": 0.7608041763305664,
+     "p_bb": 0.263971745967865
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Josue De Paula",
+     "p_so": 0.6556340456008911,
+     "p_bb": 0.24488359689712524
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Hunter Feduccia",
+     "p_so": 0.5813364386558533,
+     "p_bb": 0.2900780737400055
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Alex Freeland",
+     "p_so": 0.5846416354179382,
+     "p_bb": 0.24662986397743225
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Kyle Stowers",
+     "p_so": 0.7446058988571167,
+     "p_bb": 0.33381450176239014
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Heriberto Hernández",
+     "p_so": 0.7556632161140442,
+     "p_bb": 0.3610086143016815
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Griffin Conine",
+     "p_so": 0.7623770833015442,
+     "p_bb": 0.3331585228443146
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Otto Lopez",
+     "p_so": 0.4967385232448578,
+     "p_bb": 0.2286212146282196
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Jakob Marsee",
+     "p_so": 0.6297324895858765,
+     "p_bb": 0.34835734963417053
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Javier Sanoja",
+     "p_so": 0.3473244309425354,
+     "p_bb": 0.16269539296627045
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Owen Caissie",
+     "p_so": 0.7309582829475403,
+     "p_bb": 0.21066071093082428
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Graham Pauley",
+     "p_so": 0.5822617411613464,
+     "p_bb": 0.20161914825439453
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Joe Mack",
+     "p_so": 0.6226113438606262,
+     "p_bb": 0.16055139899253845
+    }
+   ],
+   "local": "Miami Marlins",
+   "visita": "Los Angeles Dodgers"
+  },
+  {
    "game_id": 824224,
    "bateadores": [
     {
@@ -2484,12 +2647,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 39,
+  "picks_hoy": 49,
   "ganadas": 826,
   "perdidas": 411,
   "push": 0,
   "unidades": 207.5,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-12T16:36:27Z"
+ "fecha_actualizacion": "2026-09-12T17:11:49Z"
 }
