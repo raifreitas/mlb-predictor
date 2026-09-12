@@ -881,6 +881,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-12",
+   "local": "Arizona Diamondbacks",
+   "visita": "Texas Rangers",
+   "linea": 8.0,
+   "prediccion": 8.23,
+   "prob_over": 0.48223504424095154,
+   "edge": 0.23,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.23 carreras, prob_over 48.2%)",
+   "evaluado_utc": "2026-09-12T22:11:36Z"
+  },
+  {
+   "fecha": "2026-09-12",
    "local": "Atlanta Braves",
    "visita": "Philadelphia Phillies",
    "linea": 8.5,
@@ -4151,5 +4163,5 @@
   "unidades": 207.5,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-12T22:06:30Z"
+ "fecha_actualizacion": "2026-09-12T22:11:37Z"
 }
