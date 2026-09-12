@@ -2268,6 +2268,157 @@
    "visita": "Houston Astros"
   },
   {
+   "game_id": 823009,
+   "bateadores": [
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Sam Antonacci",
+     "p_so": 0.5996381640434265,
+     "p_bb": 0.3367585241794586
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Kyle Teel",
+     "p_so": 0.6098372936248779,
+     "p_bb": 0.27821359038352966
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Miguel Vargas",
+     "p_so": 0.6475111246109009,
+     "p_bb": 0.4356064796447754
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Munetaka Murakami",
+     "p_so": 0.8369786143302917,
+     "p_bb": 0.5168865323066711
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Andrew Benintendi",
+     "p_so": 0.6244812607765198,
+     "p_bb": 0.3109891712665558
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Tristan Peters",
+     "p_so": 0.5963394641876221,
+     "p_bb": 0.24837516248226166
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Chase Meidroth",
+     "p_so": 0.6010108590126038,
+     "p_bb": 0.3072800040245056
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Colson Montgomery",
+     "p_so": 0.7864583134651184,
+     "p_bb": 0.276797354221344
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Braden Montgomery",
+     "p_so": 0.5064698457717896,
+     "p_bb": 0.250623494386673
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "José Fermín",
+     "p_so": 0.4025411307811737,
+     "p_bb": 0.30390068888664246
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Iván Herrera",
+     "p_so": 0.6265913248062134,
+     "p_bb": 0.4663040339946747
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Alec Burleson",
+     "p_so": 0.48633456230163574,
+     "p_bb": 0.320875346660614
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Joshua Báez",
+     "p_so": 0.7642769813537598,
+     "p_bb": 0.2982602119445801
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Leo Bernal",
+     "p_so": 0.5526897311210632,
+     "p_bb": 0.2547990679740906
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Nolan Gorman",
+     "p_so": 0.6594837307929993,
+     "p_bb": 0.2946351170539856
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Thomas Saggese",
+     "p_so": 0.5925792455673218,
+     "p_bb": 0.2516627609729767
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Masyn Winn",
+     "p_so": 0.5183219313621521,
+     "p_bb": 0.24855703115463257
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Nathan Church",
+     "p_so": 0.4327004551887512,
+     "p_bb": 0.22688184678554535
+    }
+   ],
+   "local": "St. Louis Cardinals",
+   "visita": "Chicago White Sox"
+  },
+  {
    "game_id": 823170,
    "bateadores": [
     {
@@ -3326,12 +3477,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 82,
+  "picks_hoy": 91,
   "ganadas": 826,
   "perdidas": 411,
   "push": 0,
   "unidades": 207.5,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-12T19:26:41Z"
+ "fecha_actualizacion": "2026-09-12T19:41:21Z"
 }
