@@ -1856,6 +1856,308 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 822764,
+   "bateadores": [
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Dylan Beavers",
+     "p_so": 0.7539003491401672,
+     "p_bb": 0.36776241660118103
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Pete Alonso",
+     "p_so": 0.7930923104286194,
+     "p_bb": 0.38834285736083984
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Gunnar Henderson",
+     "p_so": 0.7236685156822205,
+     "p_bb": 0.3581165373325348
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Coby Mayo",
+     "p_so": 0.7811160683631897,
+     "p_bb": 0.2644215524196625
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Samuel Basallo",
+     "p_so": 0.7255865335464478,
+     "p_bb": 0.24428188800811768
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Christian Encarnacion-Strand",
+     "p_so": 0.7709342241287231,
+     "p_bb": 0.19480681419372559
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Jackson Holliday",
+     "p_so": 0.6795060634613037,
+     "p_bb": 0.28036656975746155
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Leody Taveras",
+     "p_so": 0.6664751172065735,
+     "p_bb": 0.229611337184906
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Colton Cowser",
+     "p_so": 0.743095338344574,
+     "p_bb": 0.24296970665454865
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Brett Bateman",
+     "p_so": 0.6565676927566528,
+     "p_bb": 0.30506080389022827
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "George Springer",
+     "p_so": 0.5969018340110779,
+     "p_bb": 0.28513357043266296
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Vladimir Guerrero Jr.",
+     "p_so": 0.4934694170951843,
+     "p_bb": 0.3071061670780182
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Kazuma Okamoto",
+     "p_so": 0.7577158808708191,
+     "p_bb": 0.2954946458339691
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Charles McAdoo",
+     "p_so": 0.6216901540756226,
+     "p_bb": 0.21579274535179138
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Ernie Clement",
+     "p_so": 0.3819367289543152,
+     "p_bb": 0.1345497965812683
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Andrés Giménez",
+     "p_so": 0.517120361328125,
+     "p_bb": 0.15577955543994904
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Brandon Valenzuela",
+     "p_so": 0.5547661781311035,
+     "p_bb": 0.2438792735338211
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Myles Straw",
+     "p_so": 0.4641728699207306,
+     "p_bb": 0.2096305787563324
+    }
+   ],
+   "local": "Toronto Blue Jays",
+   "visita": "Baltimore Orioles"
+  },
+  {
+   "game_id": 823495,
+   "bateadores": [
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Francisco Lindor",
+     "p_so": 0.7384656667709351,
+     "p_bb": 0.3287603259086609
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Juan Soto",
+     "p_so": 0.6660941243171692,
+     "p_bb": 0.4608463943004608
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Bo Bichette",
+     "p_so": 0.7078805565834045,
+     "p_bb": 0.24671290814876556
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Carson Benge",
+     "p_so": 0.7476170063018799,
+     "p_bb": 0.2843666672706604
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Jared Young",
+     "p_so": 0.676508903503418,
+     "p_bb": 0.2144877165555954
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "A.J. Ewing",
+     "p_so": 0.7772032618522644,
+     "p_bb": 0.29498013854026794
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Francisco Alvarez",
+     "p_so": 0.7503801584243774,
+     "p_bb": 0.24396421015262604
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Brett Baty",
+     "p_so": 0.6979023814201355,
+     "p_bb": 0.25078096985816956
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Nick Morabito",
+     "p_so": 0.6684765219688416,
+     "p_bb": 0.21874764561653137
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Ben Rice",
+     "p_so": 0.684489369392395,
+     "p_bb": 0.39592206478118896
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Cody Bellinger",
+     "p_so": 0.5138241052627563,
+     "p_bb": 0.3158585727214813
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Aaron Judge",
+     "p_so": 0.6465202569961548,
+     "p_bb": 0.41258713603019714
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Luis García Jr.",
+     "p_so": 0.5910420417785645,
+     "p_bb": 0.21271999180316925
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Spencer Jones",
+     "p_so": 0.7662547826766968,
+     "p_bb": 0.3433752954006195
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Anthony Volpe",
+     "p_so": 0.6345576047897339,
+     "p_bb": 0.2064921110868454
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Ryan McMahon",
+     "p_so": 0.6918618083000183,
+     "p_bb": 0.30399733781814575
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Austin Wells",
+     "p_so": 0.6403493285179138,
+     "p_bb": 0.297078937292099
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "José Caballero",
+     "p_so": 0.5792885422706604,
+     "p_bb": 0.21867066621780396
+    }
+   ],
+   "local": "New York Yankees",
+   "visita": "New York Mets"
+  },
+  {
    "game_id": 824225,
    "bateadores": [
     {
@@ -2005,15 +2307,166 @@
    ],
    "local": "Detroit Tigers",
    "visita": "Colorado Rockies"
+  },
+  {
+   "game_id": 824869,
+   "bateadores": [
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Kyle Schwarber",
+     "p_so": 0.8061418533325195,
+     "p_bb": 0.5197795033454895
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Trea Turner",
+     "p_so": 0.6244404315948486,
+     "p_bb": 0.26853784918785095
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Bryce Harper",
+     "p_so": 0.6877595782279968,
+     "p_bb": 0.5355850458145142
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Luis Arraez",
+     "p_so": 0.175048366189003,
+     "p_bb": 0.165980726480484
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Alec Bohm",
+     "p_so": 0.5037530660629272,
+     "p_bb": 0.2760999798774719
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Bryson Stott",
+     "p_so": 0.5403920412063599,
+     "p_bb": 0.30379366874694824
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Brandon Marsh",
+     "p_so": 0.6720506548881531,
+     "p_bb": 0.2929174304008484
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "J.T. Realmuto",
+     "p_so": 0.5805599093437195,
+     "p_bb": 0.24578063189983368
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Justin Crawford",
+     "p_so": 0.4509465992450714,
+     "p_bb": 0.19123056530952454
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Michael Harris II",
+     "p_so": 0.589584231376648,
+     "p_bb": 0.16350217163562775
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Ronald Acuña Jr.",
+     "p_so": 0.6029054522514343,
+     "p_bb": 0.38714340329170227
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Matt Olson",
+     "p_so": 0.6981147527694702,
+     "p_bb": 0.3876286447048187
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Drake Baldwin",
+     "p_so": 0.6135690212249756,
+     "p_bb": 0.31253358721733093
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Mauricio Dubón",
+     "p_so": 0.38329488039016724,
+     "p_bb": 0.15463204681873322
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Ozzie Albies",
+     "p_so": 0.474393755197525,
+     "p_bb": 0.24206562340259552
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Austin Riley",
+     "p_so": 0.7332810759544373,
+     "p_bb": 0.2400341033935547
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Mike Yastrzemski",
+     "p_so": 0.6018189191818237,
+     "p_bb": 0.30347418785095215
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Ha-Seong Kim",
+     "p_so": 0.45269498229026794,
+     "p_bb": 0.24747738242149353
+    }
+   ],
+   "local": "Atlanta Braves",
+   "visita": "Philadelphia Phillies"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 8,
+  "picks_hoy": 44,
   "ganadas": 914,
   "perdidas": 454,
   "push": 0,
   "unidades": 230.0,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-13T14:11:37Z"
+ "fecha_actualizacion": "2026-09-13T15:01:39Z"
 }
