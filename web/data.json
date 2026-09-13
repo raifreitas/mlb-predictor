@@ -991,6 +991,42 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-13",
+   "local": "Atlanta Braves",
+   "visita": "Philadelphia Phillies",
+   "linea": 9.0,
+   "prediccion": 7.11,
+   "prob_over": 0.4247645139694214,
+   "edge": 1.64,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Volatilidad del Abridor (WHIP Local: 1.29 | Visita: 1.41)",
+   "evaluado_utc": "2026-09-13T15:36:40Z"
+  },
+  {
+   "fecha": "2026-09-13",
+   "local": "New York Yankees",
+   "visita": "New York Mets",
+   "linea": 7.5,
+   "prediccion": 7.34,
+   "prob_over": 0.38959455490112305,
+   "edge": 0.16,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.16 carreras, prob_over 39.0%)",
+   "evaluado_utc": "2026-09-13T15:36:40Z"
+  },
+  {
+   "fecha": "2026-09-13",
+   "local": "Washington Nationals",
+   "visita": "Los Angeles Angels",
+   "linea": 9.0,
+   "prediccion": 7.97,
+   "prob_over": 0.5173351168632507,
+   "edge": 1.03,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.03 carreras, prob_over 51.7%)",
+   "evaluado_utc": "2026-09-13T15:36:40Z"
+  },
+  {
+   "fecha": "2026-09-13",
    "local": "Detroit Tigers",
    "visita": "Colorado Rockies",
    "linea": 9.0,
@@ -3072,5 +3108,5 @@
   "unidades": 230.0,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-13T15:26:31Z"
+ "fecha_actualizacion": "2026-09-13T15:36:41Z"
 }

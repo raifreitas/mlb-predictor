@@ -4122,7 +4122,8 @@
       "pitcher_visita": 680570,
       "hora_inicio_utc": "2026-09-13T17:35:00+00:00",
       "hora_corrida_utc": "2026-09-13T17:05:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-13T15:36:35.432685+00:00"
     },
     "Atlanta Braves": {
       "local": "Atlanta Braves",
@@ -4131,7 +4132,8 @@
       "pitcher_visita": 691725,
       "hora_inicio_utc": "2026-09-13T17:35:00+00:00",
       "hora_corrida_utc": "2026-09-13T17:05:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-13T15:36:35.432685+00:00"
     },
     "New York Yankees": {
       "local": "New York Yankees",
@@ -4140,7 +4142,8 @@
       "pitcher_visita": 681035,
       "hora_inicio_utc": "2026-09-13T17:35:00+00:00",
       "hora_corrida_utc": "2026-09-13T17:05:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-13T15:36:35.432685+00:00"
     },
     "Toronto Blue Jays": {
       "local": "Toronto Blue Jays",
