@@ -2158,6 +2158,157 @@
    "visita": "New York Mets"
   },
   {
+   "game_id": 823734,
+   "bateadores": [
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Dane Myers",
+     "p_so": 0.6662030816078186,
+     "p_bb": 0.31739726662635803
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Elly De La Cruz",
+     "p_so": 0.7870215773582458,
+     "p_bb": 0.3597734868526459
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Sal Stewart",
+     "p_so": 0.6453918218612671,
+     "p_bb": 0.33401525020599365
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Eugenio Suárez",
+     "p_so": 0.8044240474700928,
+     "p_bb": 0.38595050573349
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Tyler Stephenson",
+     "p_so": 0.7659473419189453,
+     "p_bb": 0.3533370792865753
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "JJ Bleday",
+     "p_so": 0.6541572213172913,
+     "p_bb": 0.3442569971084595
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Juan Brito",
+     "p_so": 0.5878004431724548,
+     "p_bb": 0.24008922278881073
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Jose Trevino",
+     "p_so": 0.43175703287124634,
+     "p_bb": 0.17606815695762634
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Héctor Rodríguez",
+     "p_so": 0.6499062776565552,
+     "p_bb": 0.2093009054660797
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Garrett Mitchell",
+     "p_so": 0.7601947784423828,
+     "p_bb": 0.3244875371456146
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Jackson Chourio",
+     "p_so": 0.6787267327308655,
+     "p_bb": 0.24095584452152252
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Brice Turang",
+     "p_so": 0.7551890015602112,
+     "p_bb": 0.39606672525405884
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Gary Sánchez",
+     "p_so": 0.6583794951438904,
+     "p_bb": 0.3093460202217102
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Jake Bauers",
+     "p_so": 0.7791009545326233,
+     "p_bb": 0.4382096230983734
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Christian Yelich",
+     "p_so": 0.7438398599624634,
+     "p_bb": 0.31043100357055664
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Joey Ortiz",
+     "p_so": 0.5367684364318848,
+     "p_bb": 0.2644040882587433
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Luis Lara",
+     "p_so": 0.6050623655319214,
+     "p_bb": 0.2559930682182312
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Cooper Pratt",
+     "p_so": 0.4706377685070038,
+     "p_bb": 0.2156936079263687
+    }
+   ],
+   "local": "Milwaukee Brewers",
+   "visita": "Cincinnati Reds"
+  },
+  {
    "game_id": 824225,
    "bateadores": [
     {
@@ -2461,12 +2612,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 44,
+  "picks_hoy": 58,
   "ganadas": 914,
   "perdidas": 454,
   "push": 0,
   "unidades": 230.0,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-13T15:01:39Z"
+ "fecha_actualizacion": "2026-09-13T15:11:18Z"
 }
