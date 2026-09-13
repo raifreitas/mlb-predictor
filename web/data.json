@@ -3521,6 +3521,157 @@
    "visita": "Pittsburgh Pirates"
   },
   {
+   "game_id": 824708,
+   "bateadores": [
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Nick Loftin",
+     "p_so": 0.6676836609840393,
+     "p_bb": 0.33436843752861023
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Bobby Witt Jr.",
+     "p_so": 0.6518139243125916,
+     "p_bb": 0.30074718594551086
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Jac Caglianone",
+     "p_so": 0.6776477098464966,
+     "p_bb": 0.192371666431427
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Salvador Perez",
+     "p_so": 0.6768285632133484,
+     "p_bb": 0.1983683854341507
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Michael Massey",
+     "p_so": 0.5895162224769592,
+     "p_bb": 0.18565629422664642
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Matthew Lugo",
+     "p_so": 0.6981453895568848,
+     "p_bb": 0.18509367108345032
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Isaac Collins",
+     "p_so": 0.6813035011291504,
+     "p_bb": 0.3352321982383728
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Luke Maile",
+     "p_so": 0.6646009683609009,
+     "p_bb": 0.23653455078601837
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Tyler Tolbert",
+     "p_so": 0.5173892378807068,
+     "p_bb": 0.19776685535907745
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Roman Anthony",
+     "p_so": 0.6259488463401794,
+     "p_bb": 0.3424634039402008
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Jahmai Jones",
+     "p_so": 0.5775324702262878,
+     "p_bb": 0.30673086643218994
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Wilyer Abreu",
+     "p_so": 0.6653029918670654,
+     "p_bb": 0.37834227085113525
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Willson Contreras",
+     "p_so": 0.6821960210800171,
+     "p_bb": 0.3568843603134155
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Adley Rutschman",
+     "p_so": 0.5468778610229492,
+     "p_bb": 0.32015904784202576
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Trevor Story",
+     "p_so": 0.6621135473251343,
+     "p_bb": 0.17447419464588165
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Caleb Durbin",
+     "p_so": 0.3879576325416565,
+     "p_bb": 0.26321646571159363
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Nick Sogard",
+     "p_so": 0.5992420315742493,
+     "p_bb": 0.2743220031261444
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Nate Eaton",
+     "p_so": 0.5144274830818176,
+     "p_bb": 0.17369066178798676
+    }
+   ],
+   "local": "Boston Red Sox",
+   "visita": "Kansas City Royals"
+  },
+  {
    "game_id": 824869,
    "bateadores": [
     {
@@ -3670,15 +3821,166 @@
    ],
    "local": "Atlanta Braves",
    "visita": "Philadelphia Phillies"
+  },
+  {
+   "game_id": 824952,
+   "bateadores": [
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "J.P. Crawford",
+     "p_so": 0.610815167427063,
+     "p_bb": 0.4042043387889862
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Randy Arozarena",
+     "p_so": 0.7494872212409973,
+     "p_bb": 0.36633479595184326
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Dominic Canzone",
+     "p_so": 0.6791878342628479,
+     "p_bb": 0.2925337255001068
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Cal Raleigh",
+     "p_so": 0.801077127456665,
+     "p_bb": 0.3861027657985687
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Julio Rodríguez",
+     "p_so": 0.7175916433334351,
+     "p_bb": 0.2495286762714386
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Josh Naylor",
+     "p_so": 0.482709676027298,
+     "p_bb": 0.24996840953826904
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Michael Arroyo",
+     "p_so": 0.6319271326065063,
+     "p_bb": 0.25014057755470276
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Weston Wilson",
+     "p_so": 0.6655780673027039,
+     "p_bb": 0.24840079247951508
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Jhonny Pereda",
+     "p_so": 0.5262405872344971,
+     "p_bb": 0.20731240510940552
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Henry Bolte",
+     "p_so": 0.7317144870758057,
+     "p_bb": 0.35010507702827454
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Jeff McNeil",
+     "p_so": 0.36480551958084106,
+     "p_bb": 0.26878392696380615
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Zack Gelof",
+     "p_so": 0.7582665681838989,
+     "p_bb": 0.30913737416267395
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Lawrence Butler",
+     "p_so": 0.7180328369140625,
+     "p_bb": 0.38156113028526306
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Max Muncy",
+     "p_so": 0.7146122455596924,
+     "p_bb": 0.25064507126808167
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Donovan Walton",
+     "p_so": 0.49402862787246704,
+     "p_bb": 0.31684520840644836
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Carlos Cortes",
+     "p_so": 0.5001630187034607,
+     "p_bb": 0.22315974533557892
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Brian Serven",
+     "p_so": 0.6164873242378235,
+     "p_bb": 0.1871115267276764
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Alika Williams",
+     "p_so": 0.5664586424827576,
+     "p_bb": 0.16194210946559906
+    }
+   ],
+   "local": "Athletics",
+   "visita": "Seattle Mariners"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 110,
+  "picks_hoy": 133,
   "ganadas": 914,
   "perdidas": 454,
   "push": 0,
   "unidades": 230.0,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-13T17:06:40Z"
+ "fecha_actualizacion": "2026-09-13T17:46:34Z"
 }
