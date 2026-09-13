@@ -1856,6 +1856,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 822682,
+   "bateadores": [
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Zach Neto",
+     "p_so": 0.7896708846092224,
+     "p_bb": 0.2779742181301117
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Mike Trout",
+     "p_so": 0.7722687721252441,
+     "p_bb": 0.4890885353088379
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Wade Meckler",
+     "p_so": 0.6730045080184937,
+     "p_bb": 0.3195366859436035
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Vaughn Grissom",
+     "p_so": 0.6033145189285278,
+     "p_bb": 0.23464585840702057
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Moisés Ballesteros",
+     "p_so": 0.650536298751831,
+     "p_bb": 0.2994387745857239
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Denzer Guzman",
+     "p_so": 0.7163740396499634,
+     "p_bb": 0.20445315539836884
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Josh Lowe",
+     "p_so": 0.712842583656311,
+     "p_bb": 0.2762707471847534
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Jose Siri",
+     "p_so": 0.7567585110664368,
+     "p_bb": 0.2312430739402771
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Christian Moore",
+     "p_so": 0.7013586163520813,
+     "p_bb": 0.23582862317562103
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "James Wood",
+     "p_so": 0.6468552947044373,
+     "p_bb": 0.4529659152030945
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Abimelec Ortiz",
+     "p_so": 0.6390177011489868,
+     "p_bb": 0.22081471979618073
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Andrés Chaparro",
+     "p_so": 0.5908524394035339,
+     "p_bb": 0.2608824074268341
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "CJ Abrams",
+     "p_so": 0.6656516790390015,
+     "p_bb": 0.24859154224395752
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Yohandy Morales",
+     "p_so": 0.6274121403694153,
+     "p_bb": 0.16074717044830322
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Daylen Lile",
+     "p_so": 0.5690932869911194,
+     "p_bb": 0.23798777163028717
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Keibert Ruiz",
+     "p_so": 0.30029577016830444,
+     "p_bb": 0.1344810128211975
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "José Tena",
+     "p_so": 0.5990612506866455,
+     "p_bb": 0.23816005885601044
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Jacob Young",
+     "p_so": 0.4617740511894226,
+     "p_bb": 0.20982350409030914
+    }
+   ],
+   "local": "Washington Nationals",
+   "visita": "Los Angeles Angels"
+  },
+  {
    "game_id": 822764,
    "bateadores": [
     {
@@ -2612,12 +2763,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 58,
+  "picks_hoy": 71,
   "ganadas": 914,
   "perdidas": 454,
   "push": 0,
   "unidades": 230.0,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-13T15:11:18Z"
+ "fecha_actualizacion": "2026-09-13T15:16:36Z"
 }
