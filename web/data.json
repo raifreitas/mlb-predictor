@@ -2230,6 +2230,157 @@
    "visita": "Baltimore Orioles"
   },
   {
+   "game_id": 822928,
+   "bateadores": [
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Jeremy Peña",
+     "p_so": 0.6387901902198792,
+     "p_bb": 0.18834690749645233
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Yordan Alvarez",
+     "p_so": 0.6042192578315735,
+     "p_bb": 0.4727591574192047
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Isaac Paredes",
+     "p_so": 0.55532306432724,
+     "p_bb": 0.37435024976730347
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jose Altuve",
+     "p_so": 0.5633655786514282,
+     "p_bb": 0.2587701678276062
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Yainer Diaz",
+     "p_so": 0.487801194190979,
+     "p_bb": 0.1323019415140152
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Daulton Varsho",
+     "p_so": 0.6884957551956177,
+     "p_bb": 0.20531198382377625
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Christian Walker",
+     "p_so": 0.6339722275733948,
+     "p_bb": 0.21774233877658844
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Cam Smith",
+     "p_so": 0.6294153332710266,
+     "p_bb": 0.2081443816423416
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Taylor Trammell",
+     "p_so": 0.6992708444595337,
+     "p_bb": 0.22512568533420563
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Yandy Díaz",
+     "p_so": 0.4917479455471039,
+     "p_bb": 0.3401644825935364
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Jonathan Aranda",
+     "p_so": 0.6687417030334473,
+     "p_bb": 0.3426128327846527
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Junior Caminero",
+     "p_so": 0.5798286199569702,
+     "p_bb": 0.3220348060131073
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Victor Mesa Jr.",
+     "p_so": 0.5148993730545044,
+     "p_bb": 0.2830425798892975
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Chandler Simpson",
+     "p_so": 0.2762250602245331,
+     "p_bb": 0.16609391570091248
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Jonny DeLuca",
+     "p_so": 0.5340531468391418,
+     "p_bb": 0.20246410369873047
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Richie Palacios",
+     "p_so": 0.4677962362766266,
+     "p_bb": 0.29725581407546997
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Nick Madrigal",
+     "p_so": 0.2725030481815338,
+     "p_bb": 0.12452641129493713
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Nick Fortes",
+     "p_so": 0.38344240188598633,
+     "p_bb": 0.12925268709659576
+    }
+   ],
+   "local": "Tampa Bay Rays",
+   "visita": "Houston Astros"
+  },
+  {
    "game_id": 823008,
    "bateadores": [
     {
@@ -2993,6 +3144,157 @@
    "visita": "Colorado Rockies"
   },
   {
+   "game_id": 824628,
+   "bateadores": [
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Konnor Griffin",
+     "p_so": 0.5608622431755066,
+     "p_bb": 0.20859214663505554
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Oneil Cruz",
+     "p_so": 0.7563107013702393,
+     "p_bb": 0.3178936541080475
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Bryan Reynolds",
+     "p_so": 0.6511579751968384,
+     "p_bb": 0.3034040033817291
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Rafael Flores Jr.",
+     "p_so": 0.7168980836868286,
+     "p_bb": 0.29535821080207825
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Nick Gonzales",
+     "p_so": 0.5159154534339905,
+     "p_bb": 0.25194594264030457
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Ryan O'Hearn",
+     "p_so": 0.48697125911712646,
+     "p_bb": 0.2228052318096161
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Jake Mangum",
+     "p_so": 0.49325278401374817,
+     "p_bb": 0.17165648937225342
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Jared Triolo",
+     "p_so": 0.5084367394447327,
+     "p_bb": 0.25529512763023376
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Henry Davis",
+     "p_so": 0.5212013721466064,
+     "p_bb": 0.23135392367839813
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Pete Crow-Armstrong",
+     "p_so": 0.7016357183456421,
+     "p_bb": 0.337036669254303
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Seiya Suzuki",
+     "p_so": 0.689752459526062,
+     "p_bb": 0.4478584825992584
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Michael Busch",
+     "p_so": 0.7081440091133118,
+     "p_bb": 0.4208354949951172
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Alex Bregman",
+     "p_so": 0.45298275351524353,
+     "p_bb": 0.381893515586853
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Ian Happ",
+     "p_so": 0.6821681261062622,
+     "p_bb": 0.4458807110786438
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Nico Hoerner",
+     "p_so": 0.30401280522346497,
+     "p_bb": 0.2352917194366455
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Michael Conforto",
+     "p_so": 0.5990672707557678,
+     "p_bb": 0.3423871397972107
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Pedro Ramírez",
+     "p_so": 0.5168951749801636,
+     "p_bb": 0.26662418246269226
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Miguel Amaya",
+     "p_so": 0.5166893601417542,
+     "p_bb": 0.230282261967659
+    }
+   ],
+   "local": "Chicago Cubs",
+   "visita": "Pittsburgh Pirates"
+  },
+  {
    "game_id": 824869,
    "bateadores": [
     {
@@ -3145,12 +3447,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 86,
+  "picks_hoy": 100,
   "ganadas": 914,
   "perdidas": 454,
   "push": 0,
   "unidades": 230.0,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-13T15:41:25Z"
+ "fecha_actualizacion": "2026-09-13T15:51:42Z"
 }
