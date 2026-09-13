@@ -4152,7 +4152,8 @@
       "pitcher_visita": 669432,
       "hora_inicio_utc": "2026-09-13T17:37:00+00:00",
       "hora_corrida_utc": "2026-09-13T17:07:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-13T15:41:20.723849+00:00"
     },
     "Tampa Bay Rays": {
       "local": "Tampa Bay Rays",
@@ -4161,7 +4162,8 @@
       "pitcher_visita": 669713,
       "hora_inicio_utc": "2026-09-13T17:40:00+00:00",
       "hora_corrida_utc": "2026-09-13T17:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-13T15:41:20.723849+00:00"
     },
     "Miami Marlins": {
       "local": "Miami Marlins",
@@ -4170,7 +4172,8 @@
       "pitcher_visita": 686218,
       "hora_inicio_utc": "2026-09-13T17:40:00+00:00",
       "hora_corrida_utc": "2026-09-13T17:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-13T15:41:20.723849+00:00"
     },
     "Minnesota Twins": {
       "local": "Minnesota Twins",

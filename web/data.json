@@ -991,6 +991,42 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-13",
+   "local": "Miami Marlins",
+   "visita": "Los Angeles Dodgers",
+   "linea": 8.5,
+   "prediccion": 9.57,
+   "prob_over": 0.4266010522842407,
+   "edge": 1.07,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +1.07 carreras, prob_over 42.7%)",
+   "evaluado_utc": "2026-09-13T15:41:24Z"
+  },
+  {
+   "fecha": "2026-09-13",
+   "local": "Tampa Bay Rays",
+   "visita": "Houston Astros",
+   "linea": 7.5,
+   "prediccion": 7.38,
+   "prob_over": 0.4349813163280487,
+   "edge": 0.12,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.12 carreras, prob_over 43.5%)",
+   "evaluado_utc": "2026-09-13T15:41:24Z"
+  },
+  {
+   "fecha": "2026-09-13",
+   "local": "Toronto Blue Jays",
+   "visita": "Baltimore Orioles",
+   "linea": 7.5,
+   "prediccion": 7.52,
+   "prob_over": 0.42498746514320374,
+   "edge": 0.02,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.02 carreras, prob_over 42.5%)",
+   "evaluado_utc": "2026-09-13T15:41:24Z"
+  },
+  {
+   "fecha": "2026-09-13",
    "local": "Atlanta Braves",
    "visita": "Philadelphia Phillies",
    "linea": 9.0,
@@ -2339,6 +2375,14 @@
      "bateador": "José Fermín",
      "p_so": 0.32689452171325684,
      "p_bb": 0.2602955996990204
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Masyn Winn",
+     "p_so": 0.4741823375225067,
+     "p_bb": 0.2358158677816391
     }
    ],
    "local": "St. Louis Cardinals",
@@ -3108,5 +3152,5 @@
   "unidades": 230.0,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-13T15:36:41Z"
+ "fecha_actualizacion": "2026-09-13T15:41:25Z"
 }
