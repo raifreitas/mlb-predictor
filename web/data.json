@@ -2654,6 +2654,157 @@
    "visita": "Chicago White Sox"
   },
   {
+   "game_id": 823171,
+   "bateadores": [
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Fernando Tatis Jr.",
+     "p_so": 0.6183123588562012,
+     "p_bb": 0.326324999332428
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Dustin Harris",
+     "p_so": 0.5485862493515015,
+     "p_bb": 0.22623027861118317
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Manny Machado",
+     "p_so": 0.6405515670776367,
+     "p_bb": 0.3363074064254761
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Luis Campusano",
+     "p_so": 0.5972392559051514,
+     "p_bb": 0.28158241510391235
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Jackson Merrill",
+     "p_so": 0.6492675542831421,
+     "p_bb": 0.22112727165222168
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Xander Bogaerts",
+     "p_so": 0.5746451616287231,
+     "p_bb": 0.2923935651779175
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Jake Cronenworth",
+     "p_so": 0.6151084899902344,
+     "p_bb": 0.30493786931037903
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Samad Taylor",
+     "p_so": 0.5911821722984314,
+     "p_bb": 0.22176432609558105
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Ethan Salas",
+     "p_so": 0.6255086064338684,
+     "p_bb": 0.14056195318698883
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Drew Gilbert",
+     "p_so": 0.5595625042915344,
+     "p_bb": 0.2629913091659546
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Jung Hoo Lee",
+     "p_so": 0.3201502859592438,
+     "p_bb": 0.21198518574237823
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Bryce Eldridge",
+     "p_so": 0.7193491458892822,
+     "p_bb": 0.4660879969596863
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Jonah Cox",
+     "p_so": 0.681037187576294,
+     "p_bb": 0.2146015763282776
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Scott Bandura",
+     "p_so": 0.5608548521995544,
+     "p_bb": 0.24275536835193634
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Shay Whitcomb",
+     "p_so": 0.5794751048088074,
+     "p_bb": 0.17886683344841003
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Andrew Knizner",
+     "p_so": 0.5406394004821777,
+     "p_bb": 0.17083346843719482
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Brett Harris",
+     "p_so": 0.454546183347702,
+     "p_bb": 0.21564815938472748
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Christian Koss",
+     "p_so": 0.5734793543815613,
+     "p_bb": 0.17172980308532715
+    }
+   ],
+   "local": "San Francisco Giants",
+   "visita": "San Diego Padres"
+  },
+  {
    "game_id": 823495,
    "bateadores": [
     {
@@ -4165,12 +4316,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 142,
+  "picks_hoy": 149,
   "ganadas": 914,
   "perdidas": 454,
   "push": 0,
   "unidades": 230.0,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-13T18:11:29Z"
+ "fecha_actualizacion": "2026-09-13T20:16:56Z"
 }
