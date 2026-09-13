@@ -3972,15 +3972,166 @@
    ],
    "local": "Athletics",
    "visita": "Seattle Mariners"
+  },
+  {
+   "game_id": 825033,
+   "bateadores": [
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Justin Foscue",
+     "p_so": 0.6325059533119202,
+     "p_bb": 0.23965391516685486
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Corey Seager",
+     "p_so": 0.6227278709411621,
+     "p_bb": 0.35893216729164124
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Josh Jung",
+     "p_so": 0.5502018332481384,
+     "p_bb": 0.2033137083053589
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jake Burger",
+     "p_so": 0.7531064748764038,
+     "p_bb": 0.286264568567276
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Brandon Nimmo",
+     "p_so": 0.6506215333938599,
+     "p_bb": 0.30142584443092346
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Wyatt Langford",
+     "p_so": 0.6715877056121826,
+     "p_bb": 0.39802733063697815
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Ezequiel Duran",
+     "p_so": 0.627922534942627,
+     "p_bb": 0.22790907323360443
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Elias Díaz",
+     "p_so": 0.5975691676139832,
+     "p_bb": 0.2084461748600006
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Danny Jansen",
+     "p_so": 0.5314822196960449,
+     "p_bb": 0.2415766417980194
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Lars Nootbaar",
+     "p_so": 0.5579753518104553,
+     "p_bb": 0.4258747696876526
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Ketel Marte",
+     "p_so": 0.5292583107948303,
+     "p_bb": 0.33041343092918396
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Gabriel Moreno",
+     "p_so": 0.5357463955879211,
+     "p_bb": 0.35599687695503235
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Geraldo Perdomo",
+     "p_so": 0.46188217401504517,
+     "p_bb": 0.35263392329216003
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Corbin Carroll",
+     "p_so": 0.681001603603363,
+     "p_bb": 0.30807018280029297
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Nolan Arenado",
+     "p_so": 0.5350602269172668,
+     "p_bb": 0.22615274786949158
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Tim Tawa",
+     "p_so": 0.6807116866111755,
+     "p_bb": 0.26477277278900146
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "James McCann",
+     "p_so": 0.5731150507926941,
+     "p_bb": 0.16721287369728088
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Jordan Lawlar",
+     "p_so": 0.6914393305778503,
+     "p_bb": 0.17058545351028442
+    }
+   ],
+   "local": "Arizona Diamondbacks",
+   "visita": "Texas Rangers"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 133,
+  "picks_hoy": 142,
   "ganadas": 914,
   "perdidas": 454,
   "push": 0,
   "unidades": 230.0,
   "acierto": 66.8
  },
- "fecha_actualizacion": "2026-09-13T17:46:34Z"
+ "fecha_actualizacion": "2026-09-13T17:56:56Z"
 }
