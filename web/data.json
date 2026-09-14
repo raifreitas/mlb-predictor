@@ -966,6 +966,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-14",
+   "local": "Colorado Rockies",
+   "visita": "San Diego Padres",
+   "linea": 11.0,
+   "prediccion": 12.12,
+   "prob_over": 0.7225310802459717,
+   "edge": 1.12,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Filtro Extremo (linea 12.12 >= 9.5)",
+   "evaluado_utc": "2026-09-14T22:42:05Z"
+  },
+  {
+   "fecha": "2026-09-14",
    "local": "St. Louis Cardinals",
    "visita": "San Francisco Giants",
    "linea": 8.0,
@@ -3350,5 +3362,5 @@
   "unidades": 263.5,
   "acierto": 67.4
  },
- "fecha_actualizacion": "2026-09-14T22:31:45Z"
+ "fecha_actualizacion": "2026-09-14T22:42:06Z"
 }
