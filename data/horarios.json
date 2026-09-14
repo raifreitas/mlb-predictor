@@ -4264,7 +4264,8 @@
       "pitcher_visita": 669373,
       "hora_inicio_utc": "2026-09-14T22:40:00+00:00",
       "hora_corrida_utc": "2026-09-14T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-14T20:41:47.632552+00:00"
     },
     "Cleveland Guardians": {
       "local": "Cleveland Guardians",
@@ -4273,7 +4274,8 @@
       "pitcher_visita": 656794,
       "hora_inicio_utc": "2026-09-14T22:40:00+00:00",
       "hora_corrida_utc": "2026-09-14T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-14T20:41:47.632552+00:00"
     },
     "Toronto Blue Jays": {
       "local": "Toronto Blue Jays",
