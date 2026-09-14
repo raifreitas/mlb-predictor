@@ -2368,6 +2368,157 @@
    "visita": "Baltimore Orioles"
   },
   {
+   "game_id": 823656,
+   "bateadores": [
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Ben Rice",
+     "p_so": 0.6591836810112,
+     "p_bb": 0.39291444420814514
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Cody Bellinger",
+     "p_so": 0.5117713212966919,
+     "p_bb": 0.3036828637123108
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Aaron Judge",
+     "p_so": 0.6545789837837219,
+     "p_bb": 0.3808515965938568
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Luis García Jr.",
+     "p_so": 0.55277019739151,
+     "p_bb": 0.20347893238067627
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Spencer Jones",
+     "p_so": 0.7639334201812744,
+     "p_bb": 0.33107346296310425
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "George Lombard Jr.",
+     "p_so": 0.7162753939628601,
+     "p_bb": 0.2405570149421692
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Ryan McMahon",
+     "p_so": 0.6438451409339905,
+     "p_bb": 0.29424765706062317
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Austin Wells",
+     "p_so": 0.6237454414367676,
+     "p_bb": 0.28658246994018555
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "José Caballero",
+     "p_so": 0.5825579166412354,
+     "p_bb": 0.21488206088542938
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Luke Keaschall",
+     "p_so": 0.4928954839706421,
+     "p_bb": 0.34180065989494324
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Brooks Lee",
+     "p_so": 0.5374038219451904,
+     "p_bb": 0.2278011590242386
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Kody Clemens",
+     "p_so": 0.6726959943771362,
+     "p_bb": 0.27158355712890625
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Ryan Jeffers",
+     "p_so": 0.6187990307807922,
+     "p_bb": 0.3539900779724121
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Josh Bell",
+     "p_so": 0.605154812335968,
+     "p_bb": 0.3344587981700897
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Emmanuel Rodriguez",
+     "p_so": 0.5936459302902222,
+     "p_bb": 0.16186633706092834
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Victor Caratini",
+     "p_so": 0.5210133790969849,
+     "p_bb": 0.2673187255859375
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Ryan Kreidler",
+     "p_so": 0.5880971550941467,
+     "p_bb": 0.20977242290973663
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Walker Jenkins",
+     "p_so": 0.6535605192184448,
+     "p_bb": 0.2297515571117401
+    }
+   ],
+   "local": "Minnesota Twins",
+   "visita": "New York Yankees"
+  },
+  {
    "game_id": 824386,
    "bateadores": [
     {
@@ -2822,12 +2973,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 57,
+  "picks_hoy": 67,
   "ganadas": 1022,
   "perdidas": 495,
   "push": 0,
   "unidades": 263.5,
   "acierto": 67.4
  },
- "fecha_actualizacion": "2026-09-14T20:41:52Z"
+ "fecha_actualizacion": "2026-09-14T21:01:46Z"
 }
