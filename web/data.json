@@ -1970,48 +1970,56 @@
      "is_home": false,
      "orden": 4,
      "bateador": "Riley Greene",
-     "p_so": 0.6915265321731567,
-     "p_bb": 0.2945275902748108
+     "p_so": 0.681164562702179,
+     "p_bb": 0.3076484501361847
     },
     {
      "equipo": "Detroit Tigers",
      "is_home": false,
      "orden": 5,
      "bateador": "Dillon Dingler",
-     "p_so": 0.6575286984443665,
-     "p_bb": 0.20596806704998016
+     "p_so": 0.6596994996070862,
+     "p_bb": 0.21002767980098724
     },
     {
      "equipo": "Detroit Tigers",
      "is_home": false,
      "orden": 6,
      "bateador": "Brett Callahan",
-     "p_so": 0.7229399681091309,
-     "p_bb": 0.21684560179710388
+     "p_so": 0.7176209688186646,
+     "p_bb": 0.2195506989955902
     },
     {
      "equipo": "Detroit Tigers",
      "is_home": false,
      "orden": 7,
      "bateador": "Max Clark",
-     "p_so": 0.5705018043518066,
-     "p_bb": 0.2680865526199341
+     "p_so": 0.5956042408943176,
+     "p_bb": 0.26878008246421814
     },
     {
      "equipo": "Detroit Tigers",
      "is_home": false,
      "orden": 8,
      "bateador": "Spencer Torkelson",
-     "p_so": 0.666243851184845,
-     "p_bb": 0.30149170756340027
+     "p_so": 0.7037980556488037,
+     "p_bb": 0.31343239545822144
     },
     {
      "equipo": "Detroit Tigers",
      "is_home": false,
      "orden": 9,
      "bateador": "Zach McKinstry",
-     "p_so": 0.5227342247962952,
-     "p_bb": 0.2573873698711395
+     "p_so": 0.5532822608947754,
+     "p_bb": 0.27638065814971924
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Hao-Yu Lee",
+     "p_so": 0.5917675495147705,
+     "p_bb": 0.27258408069610596
     },
     {
      "equipo": "Toronto Blue Jays",
@@ -3004,5 +3012,5 @@
   "unidades": 263.5,
   "acierto": 67.4
  },
- "fecha_actualizacion": "2026-09-14T21:11:26Z"
+ "fecha_actualizacion": "2026-09-14T21:31:55Z"
 }
