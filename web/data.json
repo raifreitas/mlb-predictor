@@ -966,6 +966,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-14",
+   "local": "St. Louis Cardinals",
+   "visita": "San Francisco Giants",
+   "linea": 8.0,
+   "prediccion": 8.83,
+   "prob_over": 0.46440958976745605,
+   "edge": 0.83,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.83 carreras, prob_over 46.4%)",
+   "evaluado_utc": "2026-09-14T21:46:49Z"
+  },
+  {
+   "fecha": "2026-09-14",
    "local": "Chicago Cubs",
    "visita": "Atlanta Braves",
    "linea": 9.5,
@@ -3187,5 +3199,5 @@
   "unidades": 263.5,
   "acierto": 67.4
  },
- "fecha_actualizacion": "2026-09-14T21:42:02Z"
+ "fecha_actualizacion": "2026-09-14T21:46:50Z"
 }
