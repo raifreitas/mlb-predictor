@@ -3352,15 +3352,166 @@
    ],
    "local": "Chicago Cubs",
    "visita": "Atlanta Braves"
+  },
+  {
+   "game_id": 825034,
+   "bateadores": [
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Kyle Stowers",
+     "p_so": 0.7391284108161926,
+     "p_bb": 0.3860877752304077
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Heriberto Hernández",
+     "p_so": 0.7419501543045044,
+     "p_bb": 0.44098347425460815
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Xavier Edwards",
+     "p_so": 0.485105037689209,
+     "p_bb": 0.38580459356307983
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Griffin Conine",
+     "p_so": 0.7648271322250366,
+     "p_bb": 0.3994916081428528
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Otto Lopez",
+     "p_so": 0.45475924015045166,
+     "p_bb": 0.2847819924354553
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Jakob Marsee",
+     "p_so": 0.5892259478569031,
+     "p_bb": 0.39300718903541565
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Javier Sanoja",
+     "p_so": 0.3429819941520691,
+     "p_bb": 0.25092577934265137
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Joe Mack",
+     "p_so": 0.6270632147789001,
+     "p_bb": 0.23141464591026306
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Agustín Ramírez",
+     "p_so": 0.5120735764503479,
+     "p_bb": 0.23977285623550415
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Lars Nootbaar",
+     "p_so": 0.5027317404747009,
+     "p_bb": 0.43544286489486694
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Ketel Marte",
+     "p_so": 0.4968630373477936,
+     "p_bb": 0.3466819226741791
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Gabriel Moreno",
+     "p_so": 0.4974665939807892,
+     "p_bb": 0.34664908051490784
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Geraldo Perdomo",
+     "p_so": 0.4242350459098816,
+     "p_bb": 0.38018152117729187
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Corbin Carroll",
+     "p_so": 0.6256244778633118,
+     "p_bb": 0.30212485790252686
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Nolan Arenado",
+     "p_so": 0.48984938859939575,
+     "p_bb": 0.2254014015197754
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Tim Tawa",
+     "p_so": 0.6367117166519165,
+     "p_bb": 0.2689414322376251
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Pavin Smith",
+     "p_so": 0.5381784439086914,
+     "p_bb": 0.26344871520996094
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Jordan Lawlar",
+     "p_so": 0.6496220231056213,
+     "p_bb": 0.16888029873371124
+    }
+   ],
+   "local": "Arizona Diamondbacks",
+   "visita": "Miami Marlins"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 87,
+  "picks_hoy": 94,
   "ganadas": 1022,
   "perdidas": 495,
   "push": 0,
   "unidades": 263.5,
   "acierto": 67.4
  },
- "fecha_actualizacion": "2026-09-14T22:42:06Z"
+ "fecha_actualizacion": "2026-09-14T23:01:34Z"
 }
