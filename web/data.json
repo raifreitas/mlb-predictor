@@ -2551,6 +2551,157 @@
    "visita": "New York Yankees"
   },
   {
+   "game_id": 824308,
+   "bateadores": [
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Fernando Tatis Jr.",
+     "p_so": 0.5852497220039368,
+     "p_bb": 0.32752710580825806
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Dustin Harris",
+     "p_so": 0.5254642367362976,
+     "p_bb": 0.22611626982688904
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Manny Machado",
+     "p_so": 0.6115200519561768,
+     "p_bb": 0.34458717703819275
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Ty France",
+     "p_so": 0.5990288257598877,
+     "p_bb": 0.2513432204723358
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Jackson Merrill",
+     "p_so": 0.5930880308151245,
+     "p_bb": 0.2222321629524231
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Luis Campusano",
+     "p_so": 0.5323545932769775,
+     "p_bb": 0.2444332242012024
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Xander Bogaerts",
+     "p_so": 0.5373789072036743,
+     "p_bb": 0.2920376658439636
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Jake Cronenworth",
+     "p_so": 0.5534877181053162,
+     "p_bb": 0.297895222902298
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Freddy Fermin",
+     "p_so": 0.4645806849002838,
+     "p_bb": 0.16688601672649384
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jake McCarthy",
+     "p_so": 0.5069326758384705,
+     "p_bb": 0.23613105714321136
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Connor Norby",
+     "p_so": 0.7129493951797485,
+     "p_bb": 0.26404044032096863
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Hunter Goodman",
+     "p_so": 0.6387739181518555,
+     "p_bb": 0.20597945153713226
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "TJ Rumfield",
+     "p_so": 0.44621509313583374,
+     "p_bb": 0.3680485785007477
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Cole Carrigg",
+     "p_so": 0.6278027296066284,
+     "p_bb": 0.2862776219844818
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Kyle Karros",
+     "p_so": 0.5387507677078247,
+     "p_bb": 0.2573142945766449
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Mickey Moniak",
+     "p_so": 0.6548236608505249,
+     "p_bb": 0.14868447184562683
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Adael Amador",
+     "p_so": 0.47015663981437683,
+     "p_bb": 0.2057839035987854
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Ezequiel Tovar",
+     "p_so": 0.6265931129455566,
+     "p_bb": 0.1430021971464157
+    }
+   ],
+   "local": "Colorado Rockies",
+   "visita": "San Diego Padres"
+  },
+  {
    "game_id": 824386,
    "bateadores": [
     {
@@ -3005,12 +3156,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 67,
+  "picks_hoy": 73,
   "ganadas": 1022,
   "perdidas": 495,
   "push": 0,
   "unidades": 263.5,
   "acierto": 67.4
  },
- "fecha_actualizacion": "2026-09-14T21:31:55Z"
+ "fecha_actualizacion": "2026-09-14T21:36:54Z"
 }
