@@ -1891,6 +1891,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 822765,
+   "bateadores": [
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Kevin McGonigle",
+     "p_so": 0.477812260389328,
+     "p_bb": 0.4638369381427765
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Gleyber Torres",
+     "p_so": 0.5671606063842773,
+     "p_bb": 0.3606908321380615
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Colt Keith",
+     "p_so": 0.6077669858932495,
+     "p_bb": 0.3141433894634247
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Riley Greene",
+     "p_so": 0.6915265321731567,
+     "p_bb": 0.2945275902748108
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Dillon Dingler",
+     "p_so": 0.6575286984443665,
+     "p_bb": 0.20596806704998016
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Brett Callahan",
+     "p_so": 0.7229399681091309,
+     "p_bb": 0.21684560179710388
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Max Clark",
+     "p_so": 0.5705018043518066,
+     "p_bb": 0.2680865526199341
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Spencer Torkelson",
+     "p_so": 0.666243851184845,
+     "p_bb": 0.30149170756340027
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Zach McKinstry",
+     "p_so": 0.5227342247962952,
+     "p_bb": 0.2573873698711395
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Brett Bateman",
+     "p_so": 0.562428891658783,
+     "p_bb": 0.2777785658836365
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "George Springer",
+     "p_so": 0.5472002029418945,
+     "p_bb": 0.29861682653427124
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Vladimir Guerrero Jr.",
+     "p_so": 0.42947712540626526,
+     "p_bb": 0.29849764704704285
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Alejandro Kirk",
+     "p_so": 0.39585256576538086,
+     "p_bb": 0.3037046194076538
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Nathan Lukes",
+     "p_so": 0.4106390178203583,
+     "p_bb": 0.24135911464691162
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Kazuma Okamoto",
+     "p_so": 0.6883615851402283,
+     "p_bb": 0.2618144452571869
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Andrés Giménez",
+     "p_so": 0.45640891790390015,
+     "p_bb": 0.14699341356754303
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Josh Smith",
+     "p_so": 0.5194148421287537,
+     "p_bb": 0.2764187753200531
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Ernie Clement",
+     "p_so": 0.27723586559295654,
+     "p_bb": 0.12233597040176392
+    }
+   ],
+   "local": "Toronto Blue Jays",
+   "visita": "Detroit Tigers"
+  },
+  {
    "game_id": 823006,
    "bateadores": [
     {
@@ -2193,6 +2344,157 @@
    "visita": "Baltimore Orioles"
   },
   {
+   "game_id": 824386,
+   "bateadores": [
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Sam Antonacci",
+     "p_so": 0.6389123201370239,
+     "p_bb": 0.33449283242225647
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Kyle Teel",
+     "p_so": 0.6996811628341675,
+     "p_bb": 0.3506118357181549
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Miguel Vargas",
+     "p_so": 0.7281574010848999,
+     "p_bb": 0.4403611719608307
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Munetaka Murakami",
+     "p_so": 0.86380535364151,
+     "p_bb": 0.5506554245948792
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Andrew Benintendi",
+     "p_so": 0.6811071634292603,
+     "p_bb": 0.3007807433605194
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Tristan Peters",
+     "p_so": 0.6387952566146851,
+     "p_bb": 0.26715388894081116
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Colson Montgomery",
+     "p_so": 0.829199492931366,
+     "p_bb": 0.31926509737968445
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Chase Meidroth",
+     "p_so": 0.636133074760437,
+     "p_bb": 0.290951132774353
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Braden Montgomery",
+     "p_so": 0.5423362255096436,
+     "p_bb": 0.2648332715034485
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Steven Kwan",
+     "p_so": 0.3943006098270416,
+     "p_bb": 0.4467441737651825
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "José Ramírez",
+     "p_so": 0.43223047256469727,
+     "p_bb": 0.34066343307495117
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Chase DeLauter",
+     "p_so": 0.5152509212493896,
+     "p_bb": 0.3543732166290283
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Jo Adell",
+     "p_so": 0.7277148365974426,
+     "p_bb": 0.29255568981170654
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Travis Bazzana",
+     "p_so": 0.5673461556434631,
+     "p_bb": 0.37694603204727173
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Angel Martínez",
+     "p_so": 0.6016381978988647,
+     "p_bb": 0.21883516013622284
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Nathaniel Lowe",
+     "p_so": 0.6418808102607727,
+     "p_bb": 0.3494536876678467
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Patrick Bailey",
+     "p_so": 0.62026447057724,
+     "p_bb": 0.2790774703025818
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Brayan Rocchio",
+     "p_so": 0.4700426161289215,
+     "p_bb": 0.23125028610229492
+    }
+   ],
+   "local": "Cleveland Guardians",
+   "visita": "Chicago White Sox"
+  },
+  {
    "game_id": 824465,
    "bateadores": [
     {
@@ -2345,12 +2647,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 30,
+  "picks_hoy": 48,
   "ganadas": 1022,
   "perdidas": 495,
   "push": 0,
   "unidades": 263.5,
   "acierto": 67.4
  },
- "fecha_actualizacion": "2026-09-14T19:36:43Z"
+ "fecha_actualizacion": "2026-09-14T20:06:46Z"
 }
