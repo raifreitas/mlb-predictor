@@ -981,6 +981,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-15",
+   "local": "Texas Rangers",
+   "visita": "Boston Red Sox",
+   "linea": 7.5,
+   "prediccion": 7.64,
+   "prob_over": 0.506742537021637,
+   "edge": 0.14,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.14 carreras, prob_over 50.7%)",
+   "evaluado_utc": "2026-09-15T22:06:54Z"
+  },
+  {
+   "fecha": "2026-09-15",
    "local": "St. Louis Cardinals",
    "visita": "San Francisco Giants",
    "linea": 8.0,
@@ -3798,5 +3810,5 @@
   "unidades": 286.0,
   "acierto": 67.8
  },
- "fecha_actualizacion": "2026-09-15T22:01:55Z"
+ "fecha_actualizacion": "2026-09-15T22:06:55Z"
 }
