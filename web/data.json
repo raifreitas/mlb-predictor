@@ -1903,6 +1903,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 822683,
+   "bateadores": [
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Kyle Schwarber",
+     "p_so": 0.7801111936569214,
+     "p_bb": 0.4767599105834961
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Trea Turner",
+     "p_so": 0.5567163228988647,
+     "p_bb": 0.30393508076667786
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Bryce Harper",
+     "p_so": 0.6793659329414368,
+     "p_bb": 0.4581793546676636
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Luis Arraez",
+     "p_so": 0.2398047149181366,
+     "p_bb": 0.2039121389389038
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Alec Bohm",
+     "p_so": 0.4769235849380493,
+     "p_bb": 0.31862491369247437
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Bryan De La Cruz",
+     "p_so": 0.6131593585014343,
+     "p_bb": 0.22726234793663025
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Bryson Stott",
+     "p_so": 0.4948827922344208,
+     "p_bb": 0.3368155360221863
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "J.T. Realmuto",
+     "p_so": 0.5639681816101074,
+     "p_bb": 0.2877762019634247
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Derek Hill",
+     "p_so": 0.6413763761520386,
+     "p_bb": 0.2187606394290924
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Dylan Crews",
+     "p_so": 0.71035236120224,
+     "p_bb": 0.20572049915790558
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Andrés Chaparro",
+     "p_so": 0.6439919471740723,
+     "p_bb": 0.23546166718006134
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Brady House",
+     "p_so": 0.6508859992027283,
+     "p_bb": 0.2034919112920761
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Yohandy Morales",
+     "p_so": 0.5933691263198853,
+     "p_bb": 0.15442004799842834
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Jacob Young",
+     "p_so": 0.5529561638832092,
+     "p_bb": 0.21589626371860504
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Jorbit Vivas",
+     "p_so": 0.4401538074016571,
+     "p_bb": 0.20155034959316254
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Harry Ford",
+     "p_so": 0.6069754958152771,
+     "p_bb": 0.2411576807498932
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Andrew Pinckney",
+     "p_so": 0.6432040929794312,
+     "p_bb": 0.14958369731903076
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Nasim Nuñez",
+     "p_so": 0.5071823596954346,
+     "p_bb": 0.18393172323703766
+    }
+   ],
+   "local": "Washington Nationals",
+   "visita": "Philadelphia Phillies"
+  },
+  {
    "game_id": 822762,
    "bateadores": [
     {
@@ -3414,12 +3565,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 97,
+  "picks_hoy": 106,
   "ganadas": 1091,
   "perdidas": 519,
   "push": 0,
   "unidades": 286.0,
   "acierto": 67.8
  },
- "fecha_actualizacion": "2026-09-15T20:46:38Z"
+ "fecha_actualizacion": "2026-09-15T21:01:50Z"
 }
