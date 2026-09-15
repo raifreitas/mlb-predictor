@@ -1843,6 +1843,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 823333,
+   "bateadores": [
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Garrett Mitchell",
+     "p_so": 0.7638522386550903,
+     "p_bb": 0.33462947607040405
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Jackson Chourio",
+     "p_so": 0.6743655800819397,
+     "p_bb": 0.2735954225063324
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Brice Turang",
+     "p_so": 0.7180132865905762,
+     "p_bb": 0.44033440947532654
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "William Contreras",
+     "p_so": 0.6545948386192322,
+     "p_bb": 0.36163848638534546
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Jake Bauers",
+     "p_so": 0.7820786237716675,
+     "p_bb": 0.49009349942207336
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Christian Yelich",
+     "p_so": 0.7276026010513306,
+     "p_bb": 0.3372335135936737
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Luis Lara",
+     "p_so": 0.6335721611976624,
+     "p_bb": 0.2863321900367737
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Joey Ortiz",
+     "p_so": 0.4846387505531311,
+     "p_bb": 0.2681744694709778
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "David Hamilton",
+     "p_so": 0.5689186453819275,
+     "p_bb": 0.22539903223514557
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Konnor Griffin",
+     "p_so": 0.6035299897193909,
+     "p_bb": 0.19108764827251434
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Brandon Lowe",
+     "p_so": 0.8042718172073364,
+     "p_bb": 0.3660450875759125
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Bryan Reynolds",
+     "p_so": 0.7485264539718628,
+     "p_bb": 0.36217808723449707
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Oneil Cruz",
+     "p_so": 0.8164253234863281,
+     "p_bb": 0.4009094536304474
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Nick Gonzales",
+     "p_so": 0.6097045540809631,
+     "p_bb": 0.23786380887031555
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Ryan O'Hearn",
+     "p_so": 0.6248629689216614,
+     "p_bb": 0.22912056744098663
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Rafael Flores Jr.",
+     "p_so": 0.7147666215896606,
+     "p_bb": 0.2619899809360504
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Spencer Horwitz",
+     "p_so": 0.5473871231079102,
+     "p_bb": 0.28899598121643066
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Jake Mangum",
+     "p_so": 0.5408974289894104,
+     "p_bb": 0.16520477831363678
+    }
+   ],
+   "local": "Pittsburgh Pirates",
+   "visita": "Milwaukee Brewers"
+  },
+  {
    "game_id": 824466,
    "bateadores": [
     {
@@ -1995,12 +2146,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 11,
+  "picks_hoy": 25,
   "ganadas": 1091,
   "perdidas": 519,
   "push": 0,
   "unidades": 286.0,
   "acierto": 67.8
  },
- "fecha_actualizacion": "2026-09-15T19:07:01Z"
+ "fecha_actualizacion": "2026-09-15T19:26:45Z"
 }
