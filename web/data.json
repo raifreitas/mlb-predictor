@@ -1843,6 +1843,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 822762,
+   "bateadores": [
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Kevin McGonigle",
+     "p_so": 0.4521534740924835,
+     "p_bb": 0.4504478871822357
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Gleyber Torres",
+     "p_so": 0.603219211101532,
+     "p_bb": 0.3500274121761322
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Hao-Yu Lee",
+     "p_so": 0.7354547381401062,
+     "p_bb": 0.33278822898864746
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Riley Greene",
+     "p_so": 0.7275685667991638,
+     "p_bb": 0.28040391206741333
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Eduardo Valencia",
+     "p_so": 0.6246736645698547,
+     "p_bb": 0.18625740706920624
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Max Clark",
+     "p_so": 0.6488936543464661,
+     "p_bb": 0.2548946142196655
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Spencer Torkelson",
+     "p_so": 0.754923403263092,
+     "p_bb": 0.3013140857219696
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Zach McKinstry",
+     "p_so": 0.5666708946228027,
+     "p_bb": 0.2679184079170227
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "John Peck",
+     "p_so": 0.5346891283988953,
+     "p_bb": 0.2579532563686371
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Brett Bateman",
+     "p_so": 0.5916852951049805,
+     "p_bb": 0.34095707535743713
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "George Springer",
+     "p_so": 0.5532214641571045,
+     "p_bb": 0.36949071288108826
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Vladimir Guerrero Jr.",
+     "p_so": 0.41961050033569336,
+     "p_bb": 0.3571998178958893
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Alejandro Kirk",
+     "p_so": 0.3959013521671295,
+     "p_bb": 0.3603227138519287
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Nathan Lukes",
+     "p_so": 0.43440043926239014,
+     "p_bb": 0.27846622467041016
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Kazuma Okamoto",
+     "p_so": 0.6964157223701477,
+     "p_bb": 0.31973695755004883
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Andrés Giménez",
+     "p_so": 0.4876064658164978,
+     "p_bb": 0.18023046851158142
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Josh Smith",
+     "p_so": 0.517022430896759,
+     "p_bb": 0.3191307485103607
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Ernie Clement",
+     "p_so": 0.28003770112991333,
+     "p_bb": 0.14078067243099213
+    }
+   ],
+   "local": "Toronto Blue Jays",
+   "visita": "Detroit Tigers"
+  },
+  {
    "game_id": 822849,
    "bateadores": [
     {
@@ -2598,6 +2749,157 @@
    "visita": "Baltimore Orioles"
   },
   {
+   "game_id": 824143,
+   "bateadores": [
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Carter Jensen",
+     "p_so": 0.7867453098297119,
+     "p_bb": 0.37977272272109985
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Bobby Witt Jr.",
+     "p_so": 0.6592639684677124,
+     "p_bb": 0.30570074915885925
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Jac Caglianone",
+     "p_so": 0.6845225691795349,
+     "p_bb": 0.2114049792289734
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Maikel Garcia",
+     "p_so": 0.584101140499115,
+     "p_bb": 0.21371541917324066
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Vinnie Pasquantino",
+     "p_so": 0.5801156759262085,
+     "p_bb": 0.330124169588089
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Michael Massey",
+     "p_so": 0.574011504650116,
+     "p_bb": 0.14338871836662292
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "John Rave",
+     "p_so": 0.6667860150337219,
+     "p_bb": 0.28838813304901123
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Kyle Isbel",
+     "p_so": 0.5838740468025208,
+     "p_bb": 0.1892344206571579
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Isaac Collins",
+     "p_so": 0.6004326343536377,
+     "p_bb": 0.2707477807998657
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jeremy Peña",
+     "p_so": 0.6446930766105652,
+     "p_bb": 0.19025768339633942
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Yordan Alvarez",
+     "p_so": 0.6122326850891113,
+     "p_bb": 0.4720132350921631
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Isaac Paredes",
+     "p_so": 0.5403657555580139,
+     "p_bb": 0.3830159306526184
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Jose Altuve",
+     "p_so": 0.5700246691703796,
+     "p_bb": 0.26003387570381165
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Yainer Diaz",
+     "p_so": 0.516071081161499,
+     "p_bb": 0.13016904890537262
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Daulton Varsho",
+     "p_so": 0.6826571822166443,
+     "p_bb": 0.2131771743297577
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Christian Walker",
+     "p_so": 0.6205247640609741,
+     "p_bb": 0.23391924798488617
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Cam Smith",
+     "p_so": 0.6326416730880737,
+     "p_bb": 0.2154170274734497
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "LaMonte Wade Jr.",
+     "p_so": 0.5056926608085632,
+     "p_bb": 0.2593704164028168
+    }
+   ],
+   "local": "Houston Astros",
+   "visita": "Kansas City Royals"
+  },
+  {
    "game_id": 824384,
    "bateadores": [
     {
@@ -2901,12 +3203,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 70,
+  "picks_hoy": 87,
   "ganadas": 1091,
   "perdidas": 519,
   "push": 0,
   "unidades": 286.0,
   "acierto": 67.8
  },
- "fecha_actualizacion": "2026-09-15T20:21:36Z"
+ "fecha_actualizacion": "2026-09-15T20:36:48Z"
 }
