@@ -1843,6 +1843,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 822849,
+   "bateadores": [
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Roman Anthony",
+     "p_so": 0.7435842752456665,
+     "p_bb": 0.35203540325164795
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Mickey Gasper",
+     "p_so": 0.635456383228302,
+     "p_bb": 0.3379124701023102
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Adley Rutschman",
+     "p_so": 0.6492137312889099,
+     "p_bb": 0.29660436511039734
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Willson Contreras",
+     "p_so": 0.765631914138794,
+     "p_bb": 0.2994159758090973
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Wilyer Abreu",
+     "p_so": 0.7401720881462097,
+     "p_bb": 0.3114442527294159
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Trevor Story",
+     "p_so": 0.7377583384513855,
+     "p_bb": 0.14230944216251373
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Jarren Duran",
+     "p_so": 0.7540910840034485,
+     "p_bb": 0.1873447448015213
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Caleb Durbin",
+     "p_so": 0.4419741630554199,
+     "p_bb": 0.19281348586082458
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Nick Sogard",
+     "p_so": 0.630311131477356,
+     "p_bb": 0.2256801724433899
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Justin Foscue",
+     "p_so": 0.6365519165992737,
+     "p_bb": 0.23961317539215088
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Corey Seager",
+     "p_so": 0.6056286096572876,
+     "p_bb": 0.3789176046848297
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Josh Jung",
+     "p_so": 0.5587397813796997,
+     "p_bb": 0.2073449343442917
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Jake Burger",
+     "p_so": 0.7310316562652588,
+     "p_bb": 0.30449768900871277
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Brandon Nimmo",
+     "p_so": 0.6392566561698914,
+     "p_bb": 0.31588444113731384
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Wyatt Langford",
+     "p_so": 0.6805748343467712,
+     "p_bb": 0.4012332558631897
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Ezequiel Duran",
+     "p_so": 0.6203182935714722,
+     "p_bb": 0.2526858448982239
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Elias Díaz",
+     "p_so": 0.6001729369163513,
+     "p_bb": 0.21221421658992767
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Danny Jansen",
+     "p_so": 0.5293372273445129,
+     "p_bb": 0.23705850541591644
+    }
+   ],
+   "local": "Texas Rangers",
+   "visita": "Boston Red Sox"
+  },
+  {
    "game_id": 822925,
    "bateadores": [
     {
@@ -2750,12 +2901,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 55,
+  "picks_hoy": 70,
   "ganadas": 1091,
   "perdidas": 519,
   "push": 0,
   "unidades": 286.0,
   "acierto": 67.8
  },
- "fecha_actualizacion": "2026-09-15T19:57:01Z"
+ "fecha_actualizacion": "2026-09-15T20:21:36Z"
 }
