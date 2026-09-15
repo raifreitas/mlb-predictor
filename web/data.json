@@ -291,7 +291,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-09-16 01:40:00.000",
-   "temperatura_c": 30.8
+   "temperatura_c": 32.7
   },
   {
    "fecha": "2026-09-15",
@@ -302,7 +302,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-09-15 23:40:00.000",
-   "temperatura_c": 21.0
+   "temperatura_c": 21.2
   },
   {
    "fecha": "2026-09-15",
@@ -324,7 +324,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-09-15 22:40:00.000",
-   "temperatura_c": 20.7
+   "temperatura_c": 20.8
   },
   {
    "fecha": "2026-09-15",
@@ -335,7 +335,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-09-16 00:40:00.000",
-   "temperatura_c": 19.3
+   "temperatura_c": 19.2
   },
   {
    "fecha": "2026-09-15",
@@ -357,7 +357,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-09-16 01:38:00.000",
-   "temperatura_c": 22.1
+   "temperatura_c": 22.4
   },
   {
    "fecha": "2026-09-15",
@@ -368,7 +368,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-09-15 23:40:00.000",
-   "temperatura_c": 16.2
+   "temperatura_c": 17.1
   },
   {
    "fecha": "2026-09-15",
@@ -401,7 +401,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-09-15 23:45:00.000",
-   "temperatura_c": 28.6
+   "temperatura_c": 29.2
   },
   {
    "fecha": "2026-09-15",
@@ -412,7 +412,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-09-15 22:40:00.000",
-   "temperatura_c": 27.6
+   "temperatura_c": 27.5
   },
   {
    "fecha": "2026-09-15",
@@ -434,7 +434,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-09-15 23:07:00.000",
-   "temperatura_c": 17.7
+   "temperatura_c": 18.1
   },
   {
    "fecha": "2026-09-15",
@@ -445,7 +445,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-09-15 22:45:00.000",
-   "temperatura_c": 19.8
+   "temperatura_c": 19.7
   },
   {
    "fecha": "2026-09-22",
@@ -3369,5 +3369,5 @@
   "unidades": 286.0,
   "acierto": 67.8
  },
- "fecha_actualizacion": "2026-09-15T06:49:01Z"
+ "fecha_actualizacion": "2026-09-15T12:06:47Z"
 }
