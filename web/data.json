@@ -966,6 +966,30 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-15",
+   "local": "Chicago Cubs",
+   "visita": "Atlanta Braves",
+   "linea": 8.5,
+   "prediccion": 7.32,
+   "prob_over": 0.44312313199043274,
+   "edge": 1.18,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.18 carreras, prob_over 44.3%)",
+   "evaluado_utc": "2026-09-15T21:41:39Z"
+  },
+  {
+   "fecha": "2026-09-15",
+   "local": "Minnesota Twins",
+   "visita": "New York Yankees",
+   "linea": 7.5,
+   "prediccion": 8.2,
+   "prob_over": 0.483679860830307,
+   "edge": 0.7,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.70 carreras, prob_over 48.4%)",
+   "evaluado_utc": "2026-09-15T21:41:39Z"
+  },
+  {
+   "fecha": "2026-09-15",
    "local": "New York Mets",
    "visita": "Baltimore Orioles",
    "linea": 8.0,
@@ -3596,5 +3620,5 @@
   "unidades": 286.0,
   "acierto": 67.8
  },
- "fecha_actualizacion": "2026-09-15T21:11:57Z"
+ "fecha_actualizacion": "2026-09-15T21:41:40Z"
 }
