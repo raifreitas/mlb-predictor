@@ -4496,7 +4496,8 @@
       "pitcher_visita": 669302,
       "hora_inicio_utc": "2026-09-16T01:38:00+00:00",
       "hora_corrida_utc": "2026-09-16T01:08:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-15T23:41:51.749080+00:00"
     },
     "Arizona Diamondbacks": {
       "local": "Arizona Diamondbacks",
@@ -4505,7 +4506,8 @@
       "pitcher_visita": 676083,
       "hora_inicio_utc": "2026-09-16T01:40:00+00:00",
       "hora_corrida_utc": "2026-09-16T01:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-15T23:41:51.749080+00:00"
     }
   }
 }
