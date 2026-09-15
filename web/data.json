@@ -1843,6 +1843,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 822925,
+   "bateadores": [
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Henry Bolte",
+     "p_so": 0.7411714196205139,
+     "p_bb": 0.360404372215271
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Jeff McNeil",
+     "p_so": 0.37709417939186096,
+     "p_bb": 0.2604249119758606
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Shea Langeliers",
+     "p_so": 0.5621980428695679,
+     "p_bb": 0.2277921736240387
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Lawrence Butler",
+     "p_so": 0.7337860465049744,
+     "p_bb": 0.38527747988700867
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Zack Gelof",
+     "p_so": 0.7663134336471558,
+     "p_bb": 0.30185243487358093
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Donovan Walton",
+     "p_so": 0.5044070482254028,
+     "p_bb": 0.3239723742008209
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Carlos Cortes",
+     "p_so": 0.49531257152557373,
+     "p_bb": 0.23667071759700775
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Jonah Heim",
+     "p_so": 0.4569800794124603,
+     "p_bb": 0.2330503910779953
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Alika Williams",
+     "p_so": 0.5368236303329468,
+     "p_bb": 0.16023239493370056
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Yandy Díaz",
+     "p_so": 0.4701198637485504,
+     "p_bb": 0.392336368560791
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Jonathan Aranda",
+     "p_so": 0.6800273656845093,
+     "p_bb": 0.40037333965301514
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Junior Caminero",
+     "p_so": 0.5480658411979675,
+     "p_bb": 0.36288484930992126
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Liam Hicks",
+     "p_so": 0.3937958776950836,
+     "p_bb": 0.33992958068847656
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Victor Mesa Jr.",
+     "p_so": 0.5186612606048584,
+     "p_bb": 0.3268882632255554
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Chandler Simpson",
+     "p_so": 0.30231085419654846,
+     "p_bb": 0.23662061989307404
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Richie Palacios",
+     "p_so": 0.4583717882633209,
+     "p_bb": 0.3372460901737213
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Jorge Mateo",
+     "p_so": 0.6155584454536438,
+     "p_bb": 0.2314634919166565
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Cedric Mullins",
+     "p_so": 0.5093123316764832,
+     "p_bb": 0.28580471873283386
+    }
+   ],
+   "local": "Tampa Bay Rays",
+   "visita": "Athletics"
+  },
+  {
    "game_id": 823333,
    "bateadores": [
     {
@@ -2297,12 +2448,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 33,
+  "picks_hoy": 38,
   "ganadas": 1091,
   "perdidas": 519,
   "push": 0,
   "unidades": 286.0,
   "acierto": 67.8
  },
- "fecha_actualizacion": "2026-09-15T19:31:50Z"
+ "fecha_actualizacion": "2026-09-15T19:36:31Z"
 }
