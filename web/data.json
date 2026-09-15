@@ -965,6 +965,54 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-09-15",
+   "local": "Cincinnati Reds",
+   "visita": "Los Angeles Dodgers",
+   "linea": 8.5,
+   "prediccion": 8.99,
+   "prob_over": 0.6017822623252869,
+   "edge": 0.49,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 0.49 < 1.45)",
+   "evaluado_utc": "2026-09-15T20:41:55Z"
+  },
+  {
+   "fecha": "2026-09-15",
+   "local": "Cleveland Guardians",
+   "visita": "Chicago White Sox",
+   "linea": 9.0,
+   "prediccion": 8.12,
+   "prob_over": 0.4778051972389221,
+   "edge": 0.88,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.88 carreras, prob_over 47.8%)",
+   "evaluado_utc": "2026-09-15T20:41:55Z"
+  },
+  {
+   "fecha": "2026-09-15",
+   "local": "Pittsburgh Pirates",
+   "visita": "Milwaukee Brewers",
+   "linea": 7.5,
+   "prediccion": 6.55,
+   "prob_over": 0.4812133312225342,
+   "edge": 0.95,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.95 carreras, prob_over 48.1%)",
+   "evaluado_utc": "2026-09-15T20:41:55Z"
+  },
+  {
+   "fecha": "2026-09-15",
+   "local": "Tampa Bay Rays",
+   "visita": "Athletics",
+   "linea": 8.0,
+   "prediccion": 8.64,
+   "prob_over": 0.5071046948432922,
+   "edge": 0.64,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.64 carreras, prob_over 50.7%)",
+   "evaluado_utc": "2026-09-15T20:41:55Z"
+  },
+  {
    "fecha": "2026-09-14",
    "local": "Arizona Diamondbacks",
    "visita": "Miami Marlins",
@@ -2749,6 +2797,157 @@
    "visita": "Baltimore Orioles"
   },
   {
+   "game_id": 823654,
+   "bateadores": [
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Ben Rice",
+     "p_so": 0.6558719873428345,
+     "p_bb": 0.4008423686027527
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Cody Bellinger",
+     "p_so": 0.5145744681358337,
+     "p_bb": 0.3042832911014557
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Heliot Ramos",
+     "p_so": 0.6544457674026489,
+     "p_bb": 0.2491355687379837
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Luis García Jr.",
+     "p_so": 0.5620524287223816,
+     "p_bb": 0.19428692758083344
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Spencer Jones",
+     "p_so": 0.7662315368652344,
+     "p_bb": 0.33250197768211365
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "George Lombard Jr.",
+     "p_so": 0.7194297313690186,
+     "p_bb": 0.22648173570632935
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Anthony Volpe",
+     "p_so": 0.6065216064453125,
+     "p_bb": 0.21384689211845398
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Ali Sánchez",
+     "p_so": 0.5744351744651794,
+     "p_bb": 0.15387888252735138
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "José Caballero",
+     "p_so": 0.5868000388145447,
+     "p_bb": 0.20844610035419464
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Luke Keaschall",
+     "p_so": 0.556955099105835,
+     "p_bb": 0.3181837201118469
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Kaelen Culpepper",
+     "p_so": 0.6388007998466492,
+     "p_bb": 0.2306811362504959
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Josh Bell",
+     "p_so": 0.6281364560127258,
+     "p_bb": 0.3675931394100189
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Kody Clemens",
+     "p_so": 0.6882245540618896,
+     "p_bb": 0.25632181763648987
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Royce Lewis",
+     "p_so": 0.655329167842865,
+     "p_bb": 0.2811625003814697
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Brooks Lee",
+     "p_so": 0.5427291989326477,
+     "p_bb": 0.20941680669784546
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Victor Caratini",
+     "p_so": 0.5250969529151917,
+     "p_bb": 0.24603180587291718
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Emmanuel Rodriguez",
+     "p_so": 0.6390703916549683,
+     "p_bb": 0.17809709906578064
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Austin Martin",
+     "p_so": 0.4552516043186188,
+     "p_bb": 0.2621987760066986
+    }
+   ],
+   "local": "Minnesota Twins",
+   "visita": "New York Yankees"
+  },
+  {
    "game_id": 824143,
    "bateadores": [
     {
@@ -3203,12 +3402,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 87,
+  "picks_hoy": 97,
   "ganadas": 1091,
   "perdidas": 519,
   "push": 0,
   "unidades": 286.0,
   "acierto": 67.8
  },
- "fecha_actualizacion": "2026-09-15T20:36:48Z"
+ "fecha_actualizacion": "2026-09-15T20:41:56Z"
 }
