@@ -3637,15 +3637,166 @@
    ],
    "local": "Cincinnati Reds",
    "visita": "Los Angeles Dodgers"
+  },
+  {
+   "game_id": 824627,
+   "bateadores": [
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Drake Baldwin",
+     "p_so": 0.6807058453559875,
+     "p_bb": 0.3108373284339905
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Ronald Acuña Jr.",
+     "p_so": 0.6700659394264221,
+     "p_bb": 0.3776300847530365
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Matt Olson",
+     "p_so": 0.7671300172805786,
+     "p_bb": 0.3693736791610718
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Michael Harris II",
+     "p_so": 0.6337617635726929,
+     "p_bb": 0.14568443596363068
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Mauricio Dubón",
+     "p_so": 0.4363722503185272,
+     "p_bb": 0.14765246212482452
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Austin Riley",
+     "p_so": 0.802793562412262,
+     "p_bb": 0.2290792167186737
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Mike Yastrzemski",
+     "p_so": 0.689965009689331,
+     "p_bb": 0.3038707375526428
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Ozzie Albies",
+     "p_so": 0.4638207256793976,
+     "p_bb": 0.20474565029144287
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Brewer Hicklen",
+     "p_so": 0.6573302149772644,
+     "p_bb": 0.20309491455554962
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Pete Crow-Armstrong",
+     "p_so": 0.6587057113647461,
+     "p_bb": 0.31386178731918335
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Seiya Suzuki",
+     "p_so": 0.6684500575065613,
+     "p_bb": 0.47127223014831543
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Alex Bregman",
+     "p_so": 0.4228780269622803,
+     "p_bb": 0.3977857530117035
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Tyrone Taylor",
+     "p_so": 0.5182986259460449,
+     "p_bb": 0.2118588536977768
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Nico Hoerner",
+     "p_so": 0.3018745481967926,
+     "p_bb": 0.23769919574260712
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Michael Busch",
+     "p_so": 0.664781928062439,
+     "p_bb": 0.3786112368106842
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Matt Shaw",
+     "p_so": 0.49610865116119385,
+     "p_bb": 0.3194987177848816
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Pedro Ramírez",
+     "p_so": 0.4412253499031067,
+     "p_bb": 0.29849541187286377
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Miguel Amaya",
+     "p_so": 0.5150684714317322,
+     "p_bb": 0.2147403359413147
+    }
+   ],
+   "local": "Chicago Cubs",
+   "visita": "Atlanta Braves"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 106,
+  "picks_hoy": 116,
   "ganadas": 1091,
   "perdidas": 519,
   "push": 0,
   "unidades": 286.0,
   "acierto": 67.8
  },
- "fecha_actualizacion": "2026-09-15T21:46:40Z"
+ "fecha_actualizacion": "2026-09-15T22:01:55Z"
 }
