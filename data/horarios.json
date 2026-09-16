@@ -4558,7 +4558,8 @@
       "pitcher_visita": 605483,
       "hora_inicio_utc": "2026-09-16T22:40:00+00:00",
       "hora_corrida_utc": "2026-09-16T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-16T20:41:59.224152+00:00"
     },
     "Tampa Bay Rays": {
       "local": "Tampa Bay Rays",
@@ -4567,7 +4568,8 @@
       "pitcher_visita": 669620,
       "hora_inicio_utc": "2026-09-16T22:40:00+00:00",
       "hora_corrida_utc": "2026-09-16T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-16T20:41:59.224152+00:00"
     },
     "Pittsburgh Pirates": {
       "local": "Pittsburgh Pirates",
@@ -4576,7 +4578,8 @@
       "pitcher_visita": 701656,
       "hora_inicio_utc": "2026-09-16T22:40:00+00:00",
       "hora_corrida_utc": "2026-09-16T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-16T20:41:59.224152+00:00"
     },
     "Washington Nationals": {
       "local": "Washington Nationals",
