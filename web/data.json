@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-09-15",
+ "ultima_fecha_prediccion": "2026-09-16",
  "resumen": {
   "ganadas": 22,
   "perdidas": 11,
@@ -976,9 +976,36 @@
    "total": 13,
    "creado": "2026-09-15 21:46:37",
    "verificado": "2026-09-16 06:47:18"
+  },
+  {
+   "id": 1060,
+   "fecha": "2026-09-16",
+   "local": "St. Louis Cardinals",
+   "visita": "San Francisco Giants",
+   "tipo": "OVER",
+   "linea": 7.5,
+   "unidades": 0.5,
+   "edge": 2.73,
+   "cuota": 1.91,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-16 15:16:58",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-16",
+   "local": "St. Louis Cardinals",
+   "visita": "San Francisco Giants",
+   "linea": 8.0,
+   "prediccion": 10.23,
+   "prob_over": 0.5119132995605469,
+   "edge": 2.23,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-16T15:16:58Z"
+  },
   {
    "fecha": "2026-09-16",
    "local": "Cleveland Guardians",
@@ -2192,5 +2219,5 @@
   "unidades": 313.0,
   "acierto": 67.9
  },
- "fecha_actualizacion": "2026-09-16T15:11:57Z"
+ "fecha_actualizacion": "2026-09-16T15:16:59Z"
 }
