@@ -996,6 +996,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-16",
+   "local": "Texas Rangers",
+   "visita": "Boston Red Sox",
+   "linea": 8.0,
+   "prediccion": 8.59,
+   "prob_over": 0.4974524974822998,
+   "edge": 0.59,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.59 carreras, prob_over 49.7%)",
+   "evaluado_utc": "2026-09-16T22:06:23Z"
+  },
+  {
+   "fecha": "2026-09-16",
    "local": "Chicago Cubs",
    "visita": "Atlanta Braves",
    "linea": 7.5,
@@ -3984,5 +3996,5 @@
   "unidades": 313.0,
   "acierto": 67.9
  },
- "fecha_actualizacion": "2026-09-16T21:56:53Z"
+ "fecha_actualizacion": "2026-09-16T22:06:25Z"
 }
