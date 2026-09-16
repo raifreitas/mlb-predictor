@@ -980,6 +980,18 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-09-16",
+   "local": "Cleveland Guardians",
+   "visita": "Chicago White Sox",
+   "linea": 7.5,
+   "prediccion": 7.74,
+   "prob_over": 0.48024046421051025,
+   "edge": 0.24,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.24 carreras, prob_over 48.0%)",
+   "evaluado_utc": "2026-09-16T15:11:56Z"
+  },
+  {
    "fecha": "2026-09-15",
    "local": "Arizona Diamondbacks",
    "visita": "Miami Marlins",
@@ -2180,5 +2192,5 @@
   "unidades": 313.0,
   "acierto": 67.9
  },
- "fecha_actualizacion": "2026-09-16T14:55:47Z"
+ "fecha_actualizacion": "2026-09-16T15:11:57Z"
 }
