@@ -2809,6 +2809,14 @@
     {
      "equipo": "Milwaukee Brewers",
      "is_home": false,
+     "orden": 7,
+     "bateador": "Luis Lara",
+     "p_so": 0.6538020968437195,
+     "p_bb": 0.2665863037109375
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
      "orden": 8,
      "bateador": "Andrew Vaughn",
      "p_so": 0.6226482391357422,
@@ -3806,12 +3814,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 112,
+  "picks_hoy": 113,
   "ganadas": 1187,
   "perdidas": 561,
   "push": 0,
   "unidades": 313.0,
   "acierto": 67.9
  },
- "fecha_actualizacion": "2026-09-16T21:22:06Z"
+ "fecha_actualizacion": "2026-09-16T21:36:58Z"
 }
