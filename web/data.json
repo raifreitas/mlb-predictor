@@ -2019,15 +2019,166 @@
    ],
    "local": "St. Louis Cardinals",
    "visita": "San Francisco Giants"
+  },
+  {
+   "game_id": 824382,
+   "bateadores": [
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Chase Meidroth",
+     "p_so": 0.677933931350708,
+     "p_bb": 0.32372477650642395
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Randal Grichuk",
+     "p_so": 0.6232617497444153,
+     "p_bb": 0.2077781856060028
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Miguel Vargas",
+     "p_so": 0.6837033629417419,
+     "p_bb": 0.4019257426261902
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Tommy Pham",
+     "p_so": 0.6233971118927002,
+     "p_bb": 0.2369662970304489
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Kyle Teel",
+     "p_so": 0.644818902015686,
+     "p_bb": 0.27267134189605713
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Brenton Doyle",
+     "p_so": 0.7052096128463745,
+     "p_bb": 0.1892039030790329
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Colson Montgomery",
+     "p_so": 0.7991281747817993,
+     "p_bb": 0.2838301956653595
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Luisangel Acuña",
+     "p_so": 0.5351954698562622,
+     "p_bb": 0.16259083151817322
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Tristan Peters",
+     "p_so": 0.5216164588928223,
+     "p_bb": 0.19719551503658295
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Steven Kwan",
+     "p_so": 0.3707280158996582,
+     "p_bb": 0.3660740852355957
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "José Ramírez",
+     "p_so": 0.3779532015323639,
+     "p_bb": 0.3011523187160492
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Jo Adell",
+     "p_so": 0.6602925658226013,
+     "p_bb": 0.2640877366065979
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Travis Bazzana",
+     "p_so": 0.5698010325431824,
+     "p_bb": 0.3581101894378662
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "David Fry",
+     "p_so": 0.5937538743019104,
+     "p_bb": 0.32600730657577515
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Angel Genao",
+     "p_so": 0.43157780170440674,
+     "p_bb": 0.22388970851898193
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Austin Hedges",
+     "p_so": 0.5815606117248535,
+     "p_bb": 0.22862355411052704
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Petey Halpin",
+     "p_so": 0.45835360884666443,
+     "p_bb": 0.19285374879837036
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Brayan Rocchio",
+     "p_so": 0.4580794870853424,
+     "p_bb": 0.21455901861190796
+    }
+   ],
+   "local": "Cleveland Guardians",
+   "visita": "Chicago White Sox"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 10,
+  "picks_hoy": 18,
   "ganadas": 1187,
   "perdidas": 561,
   "push": 0,
   "unidades": 313.0,
   "acierto": 67.9
  },
- "fecha_actualizacion": "2026-09-16T14:46:56Z"
+ "fecha_actualizacion": "2026-09-16T14:55:47Z"
 }
