@@ -2535,15 +2535,166 @@
    ],
    "local": "Cleveland Guardians",
    "visita": "Chicago White Sox"
+  },
+  {
+   "game_id": 824467,
+   "bateadores": [
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Tommy Edman",
+     "p_so": 0.55414217710495,
+     "p_bb": 0.2627389132976532
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Mookie Betts",
+     "p_so": 0.4647134840488434,
+     "p_bb": 0.3900950849056244
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Will Smith",
+     "p_so": 0.5537542104721069,
+     "p_bb": 0.3887333571910858
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Freddie Freeman",
+     "p_so": 0.5657570958137512,
+     "p_bb": 0.3651345372200012
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Teoscar Hernández",
+     "p_so": 0.7554295063018799,
+     "p_bb": 0.29573380947113037
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Miguel Rojas",
+     "p_so": 0.40257275104522705,
+     "p_bb": 0.21234379708766937
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Kyle Tucker",
+     "p_so": 0.4787600040435791,
+     "p_bb": 0.36244434118270874
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Enrique Hernández",
+     "p_so": 0.5743752717971802,
+     "p_bb": 0.2515387535095215
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Alex Call",
+     "p_so": 0.47142913937568665,
+     "p_bb": 0.2767837643623352
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Dane Myers",
+     "p_so": 0.6888628602027893,
+     "p_bb": 0.3433381915092468
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Elly De La Cruz",
+     "p_so": 0.7950465679168701,
+     "p_bb": 0.35059183835983276
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Sal Stewart",
+     "p_so": 0.6919974684715271,
+     "p_bb": 0.32299748063087463
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Tyler Stephenson",
+     "p_so": 0.7710314393043518,
+     "p_bb": 0.37016093730926514
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Eugenio Suárez",
+     "p_so": 0.7798935174942017,
+     "p_bb": 0.3703956604003906
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Juan Brito",
+     "p_so": 0.6098747849464417,
+     "p_bb": 0.21307644248008728
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "JJ Bleday",
+     "p_so": 0.6755526661872864,
+     "p_bb": 0.3469557762145996
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Jose Trevino",
+     "p_so": 0.46340200304985046,
+     "p_bb": 0.16609874367713928
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Matt McLain",
+     "p_so": 0.6451982855796814,
+     "p_bb": 0.2690427601337433
+    }
+   ],
+   "local": "Cincinnati Reds",
+   "visita": "Los Angeles Dodgers"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 37,
+  "picks_hoy": 46,
   "ganadas": 1187,
   "perdidas": 561,
   "push": 0,
   "unidades": 313.0,
   "acierto": 67.9
  },
- "fecha_actualizacion": "2026-09-16T17:11:59Z"
+ "fecha_actualizacion": "2026-09-16T19:06:58Z"
 }
