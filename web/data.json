@@ -996,6 +996,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-16",
+   "local": "Colorado Rockies",
+   "visita": "San Diego Padres",
+   "linea": 11.0,
+   "prediccion": 12.18,
+   "prob_over": 0.7396223545074463,
+   "edge": 1.18,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Filtro Extremo (linea 12.18 >= 9.5)",
+   "evaluado_utc": "2026-09-16T22:42:11Z"
+  },
+  {
+   "fecha": "2026-09-16",
    "local": "Houston Astros",
    "visita": "Kansas City Royals",
    "linea": 9.0,
@@ -4159,5 +4171,5 @@
   "unidades": 313.0,
   "acierto": 67.9
  },
- "fecha_actualizacion": "2026-09-16T22:37:19Z"
+ "fecha_actualizacion": "2026-09-16T22:42:12Z"
 }
