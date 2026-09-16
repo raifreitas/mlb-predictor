@@ -2919,6 +2919,157 @@
    "visita": "Milwaukee Brewers"
   },
   {
+   "game_id": 823576,
+   "bateadores": [
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Dylan Beavers",
+     "p_so": 0.7000868320465088,
+     "p_bb": 0.4252435564994812
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Pete Alonso",
+     "p_so": 0.7022484540939331,
+     "p_bb": 0.420783132314682
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Gunnar Henderson",
+     "p_so": 0.6579034924507141,
+     "p_bb": 0.4140695631504059
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Coby Mayo",
+     "p_so": 0.7489153146743774,
+     "p_bb": 0.3086855113506317
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Christian Encarnacion-Strand",
+     "p_so": 0.7147021889686584,
+     "p_bb": 0.2212953418493271
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Samuel Basallo",
+     "p_so": 0.6601474285125732,
+     "p_bb": 0.25852280855178833
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Jeremiah Jackson",
+     "p_so": 0.5527772903442383,
+     "p_bb": 0.16079942882061005
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Rece Hinds",
+     "p_so": 0.6938907504081726,
+     "p_bb": 0.22673489153385162
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Colton Cowser",
+     "p_so": 0.678149402141571,
+     "p_bb": 0.2623654305934906
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Francisco Lindor",
+     "p_so": 0.6206053495407104,
+     "p_bb": 0.343769907951355
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Juan Soto",
+     "p_so": 0.5199777483940125,
+     "p_bb": 0.47939175367355347
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Bo Bichette",
+     "p_so": 0.5543936491012573,
+     "p_bb": 0.2413577288389206
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Carson Benge",
+     "p_so": 0.6413272619247437,
+     "p_bb": 0.28489989042282104
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Jared Young",
+     "p_so": 0.5775213241577148,
+     "p_bb": 0.22898882627487183
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Marcus Semien",
+     "p_so": 0.5127912163734436,
+     "p_bb": 0.2978349030017853
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "A.J. Ewing",
+     "p_so": 0.6138538122177124,
+     "p_bb": 0.320909321308136
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Brett Baty",
+     "p_so": 0.578568696975708,
+     "p_bb": 0.25819867849349976
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Luis Torrens",
+     "p_so": 0.4828290343284607,
+     "p_bb": 0.1666385531425476
+    }
+   ],
+   "local": "New York Mets",
+   "visita": "Baltimore Orioles"
+  },
+  {
    "game_id": 823655,
    "bateadores": [
     {
@@ -3826,12 +3977,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 113,
+  "picks_hoy": 124,
   "ganadas": 1187,
   "perdidas": 561,
   "push": 0,
   "unidades": 313.0,
   "acierto": 67.9
  },
- "fecha_actualizacion": "2026-09-16T21:42:08Z"
+ "fecha_actualizacion": "2026-09-16T21:56:53Z"
 }
