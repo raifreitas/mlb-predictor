@@ -1921,6 +1921,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 822763,
+   "bateadores": [
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Kevin McGonigle",
+     "p_so": 0.45823612809181213,
+     "p_bb": 0.45335936546325684
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Hao-Yu Lee",
+     "p_so": 0.694986879825592,
+     "p_bb": 0.3249683082103729
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Colt Keith",
+     "p_so": 0.5994753241539001,
+     "p_bb": 0.29342958331108093
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Riley Greene",
+     "p_so": 0.7064152956008911,
+     "p_bb": 0.3102629780769348
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Dillon Dingler",
+     "p_so": 0.6487224698066711,
+     "p_bb": 0.1830144077539444
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Max Clark",
+     "p_so": 0.5960845947265625,
+     "p_bb": 0.26795634627342224
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Spencer Torkelson",
+     "p_so": 0.7144790291786194,
+     "p_bb": 0.3172713816165924
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Brett Callahan",
+     "p_so": 0.7084468007087708,
+     "p_bb": 0.18134549260139465
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "John Peck",
+     "p_so": 0.5570640563964844,
+     "p_bb": 0.22972773015499115
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Brett Bateman",
+     "p_so": 0.5721280574798584,
+     "p_bb": 0.30231645703315735
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Nathan Lukes",
+     "p_so": 0.4231394827365875,
+     "p_bb": 0.2677174210548401
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Vladimir Guerrero Jr.",
+     "p_so": 0.41282719373703003,
+     "p_bb": 0.34558701515197754
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "George Springer",
+     "p_so": 0.5408214926719666,
+     "p_bb": 0.35112065076828003
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Kazuma Okamoto",
+     "p_so": 0.6804583072662354,
+     "p_bb": 0.31958991289138794
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Josh Smith",
+     "p_so": 0.5494318008422852,
+     "p_bb": 0.3061111569404602
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Ernie Clement",
+     "p_so": 0.2763527035713196,
+     "p_bb": 0.13504299521446228
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Brandon Valenzuela",
+     "p_so": 0.5434632897377014,
+     "p_bb": 0.26564306020736694
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Myles Straw",
+     "p_so": 0.4029730558395386,
+     "p_bb": 0.21956086158752441
+    }
+   ],
+   "local": "Toronto Blue Jays",
+   "visita": "Detroit Tigers"
+  },
+  {
    "game_id": 823004,
    "bateadores": [
     {
@@ -2375,12 +2526,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 31,
+  "picks_hoy": 37,
   "ganadas": 1187,
   "perdidas": 561,
   "push": 0,
   "unidades": 313.0,
   "acierto": 67.9
  },
- "fecha_actualizacion": "2026-09-16T16:02:15Z"
+ "fecha_actualizacion": "2026-09-16T16:06:57Z"
 }
