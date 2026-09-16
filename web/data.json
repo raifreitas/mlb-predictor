@@ -996,6 +996,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-16",
+   "local": "Minnesota Twins",
+   "visita": "New York Yankees",
+   "linea": 8.0,
+   "prediccion": 7.57,
+   "prob_over": 0.5084285736083984,
+   "edge": 0.43,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.43 carreras, prob_over 50.8%)",
+   "evaluado_utc": "2026-09-16T15:42:17Z"
+  },
+  {
+   "fecha": "2026-09-16",
    "local": "St. Louis Cardinals",
    "visita": "San Francisco Giants",
    "linea": 8.0,
@@ -2219,5 +2231,5 @@
   "unidades": 313.0,
   "acierto": 67.9
  },
- "fecha_actualizacion": "2026-09-16T15:16:59Z"
+ "fecha_actualizacion": "2026-09-16T15:42:19Z"
 }
