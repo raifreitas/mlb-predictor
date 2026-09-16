@@ -996,6 +996,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-16",
+   "local": "Chicago Cubs",
+   "visita": "Atlanta Braves",
+   "linea": 7.5,
+   "prediccion": 8.18,
+   "prob_over": 0.4283508062362671,
+   "edge": 0.68,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.68 carreras, prob_over 42.8%)",
+   "evaluado_utc": "2026-09-16T21:42:07Z"
+  },
+  {
+   "fecha": "2026-09-16",
    "local": "New York Mets",
    "visita": "Baltimore Orioles",
    "linea": 9.0,
@@ -3821,5 +3833,5 @@
   "unidades": 313.0,
   "acierto": 67.9
  },
- "fecha_actualizacion": "2026-09-16T21:36:58Z"
+ "fecha_actualizacion": "2026-09-16T21:42:08Z"
 }

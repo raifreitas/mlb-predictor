@@ -4608,7 +4608,8 @@
       "pitcher_visita": 702275,
       "hora_inicio_utc": "2026-09-16T23:40:00+00:00",
       "hora_corrida_utc": "2026-09-16T23:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-16T21:42:03.869153+00:00"
     },
     "Texas Rangers": {
       "local": "Texas Rangers",
