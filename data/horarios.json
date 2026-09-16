@@ -4548,7 +4548,8 @@
       "pitcher_visita": 672456,
       "hora_inicio_utc": "2026-09-16T19:07:00+00:00",
       "hora_corrida_utc": "2026-09-16T18:37:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-16T17:11:55.139536+00:00"
     },
     "Cincinnati Reds": {
       "local": "Cincinnati Reds",
