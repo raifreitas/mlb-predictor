@@ -3245,6 +3245,157 @@
    "visita": "New York Yankees"
   },
   {
+   "game_id": 823979,
+   "bateadores": [
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "J.P. Crawford",
+     "p_so": 0.6042964458465576,
+     "p_bb": 0.4174412190914154
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Randy Arozarena",
+     "p_so": 0.7501938939094543,
+     "p_bb": 0.35981279611587524
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Dominic Canzone",
+     "p_so": 0.6795182228088379,
+     "p_bb": 0.2989336848258972
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Cal Raleigh",
+     "p_so": 0.7996700406074524,
+     "p_bb": 0.3706778585910797
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Julio Rodríguez",
+     "p_so": 0.7139756083488464,
+     "p_bb": 0.2455272674560547
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Josh Naylor",
+     "p_so": 0.47592654824256897,
+     "p_bb": 0.24196234345436096
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Taylor Ward",
+     "p_so": 0.6577528715133667,
+     "p_bb": 0.32437941431999207
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Cole Young",
+     "p_so": 0.5218837857246399,
+     "p_bb": 0.24252864718437195
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Weston Wilson",
+     "p_so": 0.6451400518417358,
+     "p_bb": 0.20020830631256104
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Zach Neto",
+     "p_so": 0.7151893973350525,
+     "p_bb": 0.22288119792938232
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Mike Trout",
+     "p_so": 0.7322308421134949,
+     "p_bb": 0.4559210538864136
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Wade Meckler",
+     "p_so": 0.5852674841880798,
+     "p_bb": 0.3039507269859314
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Vaughn Grissom",
+     "p_so": 0.5435681343078613,
+     "p_bb": 0.18653179705142975
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Moisés Ballesteros",
+     "p_so": 0.6314783096313477,
+     "p_bb": 0.24404802918434143
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Denzer Guzman",
+     "p_so": 0.670545756816864,
+     "p_bb": 0.15759940445423126
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Josh Lowe",
+     "p_so": 0.6778448820114136,
+     "p_bb": 0.22810661792755127
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Christian Moore",
+     "p_so": 0.7013745307922363,
+     "p_bb": 0.2308947592973709
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Adam Frazier",
+     "p_so": 0.4950072169303894,
+     "p_bb": 0.14866310358047485
+    }
+   ],
+   "local": "Los Angeles Angels",
+   "visita": "Seattle Mariners"
+  },
+  {
    "game_id": 824140,
    "bateadores": [
     {
@@ -4001,12 +4152,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 124,
+  "picks_hoy": 137,
   "ganadas": 1187,
   "perdidas": 561,
   "push": 0,
   "unidades": 313.0,
   "acierto": 67.9
  },
- "fecha_actualizacion": "2026-09-16T22:11:27Z"
+ "fecha_actualizacion": "2026-09-16T22:37:19Z"
 }
