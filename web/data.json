@@ -996,6 +996,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-16",
+   "local": "Washington Nationals",
+   "visita": "Philadelphia Phillies",
+   "linea": 9.0,
+   "prediccion": 7.76,
+   "prob_over": 0.5059664845466614,
+   "edge": 1.24,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.24 carreras, prob_over 50.6%)",
+   "evaluado_utc": "2026-09-16T20:47:05Z"
+  },
+  {
+   "fecha": "2026-09-16",
    "local": "Cincinnati Reds",
    "visita": "Los Angeles Dodgers",
    "linea": 8.5,
@@ -3336,5 +3348,5 @@
   "unidades": 313.0,
   "acierto": 67.9
  },
- "fecha_actualizacion": "2026-09-16T20:42:05Z"
+ "fecha_actualizacion": "2026-09-16T20:47:06Z"
 }
