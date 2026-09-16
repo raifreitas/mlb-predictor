@@ -1933,6 +1933,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 822680,
+   "bateadores": [
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Kyle Schwarber",
+     "p_so": 0.7818108797073364,
+     "p_bb": 0.4606325924396515
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Trea Turner",
+     "p_so": 0.5795938372612,
+     "p_bb": 0.26237523555755615
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Bryce Harper",
+     "p_so": 0.6860362887382507,
+     "p_bb": 0.42352381348609924
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Luis Arraez",
+     "p_so": 0.2439141571521759,
+     "p_bb": 0.1753489226102829
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Alec Bohm",
+     "p_so": 0.4903472661972046,
+     "p_bb": 0.2868615388870239
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Bryson Stott",
+     "p_so": 0.5395107269287109,
+     "p_bb": 0.30580103397369385
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "J.T. Realmuto",
+     "p_so": 0.5839284062385559,
+     "p_bb": 0.2343067228794098
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Brandon Marsh",
+     "p_so": 0.598611056804657,
+     "p_bb": 0.2541109025478363
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Justin Crawford",
+     "p_so": 0.4539729654788971,
+     "p_bb": 0.1751798838376999
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "James Wood",
+     "p_so": 0.6939064860343933,
+     "p_bb": 0.44612860679626465
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Daylen Lile",
+     "p_so": 0.6640775799751282,
+     "p_bb": 0.2396925389766693
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Abimelec Ortiz",
+     "p_so": 0.7084000110626221,
+     "p_bb": 0.2167104184627533
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "CJ Abrams",
+     "p_so": 0.7337521314620972,
+     "p_bb": 0.22848621010780334
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "José Tena",
+     "p_so": 0.6938705444335938,
+     "p_bb": 0.26020562648773193
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Jorbit Vivas",
+     "p_so": 0.546083390712738,
+     "p_bb": 0.2907768189907074
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Dylan Crews",
+     "p_so": 0.6914144158363342,
+     "p_bb": 0.22489850223064423
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Keibert Ruiz",
+     "p_so": 0.31723177433013916,
+     "p_bb": 0.1316482275724411
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Nasim Nuñez",
+     "p_so": 0.5370070338249207,
+     "p_bb": 0.20605690777301788
+    }
+   ],
+   "local": "Washington Nationals",
+   "visita": "Philadelphia Phillies"
+  },
+  {
    "game_id": 822763,
    "bateadores": [
     {
@@ -2840,12 +2991,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 50,
+  "picks_hoy": 58,
   "ganadas": 1187,
   "perdidas": 561,
   "push": 0,
   "unidades": 313.0,
   "acierto": 67.9
  },
- "fecha_actualizacion": "2026-09-16T19:36:55Z"
+ "fecha_actualizacion": "2026-09-16T19:57:07Z"
 }
