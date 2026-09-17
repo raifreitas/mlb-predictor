@@ -985,6 +985,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-17",
+   "local": "Colorado Rockies",
+   "visita": "San Diego Padres",
+   "linea": 11.0,
+   "prediccion": 12.35,
+   "prob_over": 0.7151570916175842,
+   "edge": 1.35,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Filtro Extremo (linea 12.35 >= 9.5)",
+   "evaluado_utc": "2026-09-17T17:12:21Z"
+  },
+  {
+   "fecha": "2026-09-17",
    "local": "Tampa Bay Rays",
    "visita": "Athletics",
    "linea": 7.5,
@@ -2642,5 +2654,5 @@
   "unidades": 340.5,
   "acierto": 68.0
  },
- "fecha_actualizacion": "2026-09-17T16:17:18Z"
+ "fecha_actualizacion": "2026-09-17T17:12:22Z"
 }
