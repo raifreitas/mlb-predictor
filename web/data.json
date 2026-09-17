@@ -3113,6 +3113,14 @@
      "equipo": "Detroit Tigers",
      "is_home": false,
      "orden": 2,
+     "bateador": "Gleyber Torres",
+     "p_so": 0.5618178248405457,
+     "p_bb": 0.39497968554496765
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 2,
      "bateador": "Hao-Yu Lee",
      "p_so": 0.7044894695281982,
      "p_bb": 0.3711589276790619
@@ -3138,24 +3146,32 @@
      "is_home": false,
      "orden": 5,
      "bateador": "Dillon Dingler",
-     "p_so": 0.6572704911231995,
-     "p_bb": 0.20713695883750916
+     "p_so": 0.6582059264183044,
+     "p_bb": 0.21313747763633728
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Zach McKinstry",
+     "p_so": 0.582014799118042,
+     "p_bb": 0.31268826127052307
     },
     {
      "equipo": "Detroit Tigers",
      "is_home": false,
      "orden": 6,
      "bateador": "Max Clark",
-     "p_so": 0.621884822845459,
-     "p_bb": 0.2970658838748932
+     "p_so": 0.5941252708435059,
+     "p_bb": 0.2963290214538574
     },
     {
      "equipo": "Detroit Tigers",
      "is_home": false,
      "orden": 7,
      "bateador": "Spencer Torkelson",
-     "p_so": 0.7099884152412415,
-     "p_bb": 0.35645657777786255
+     "p_so": 0.7342548966407776,
+     "p_bb": 0.38138073682785034
     },
     {
      "equipo": "Detroit Tigers",
@@ -3169,81 +3185,89 @@
      "equipo": "Detroit Tigers",
      "is_home": false,
      "orden": 9,
+     "bateador": "Javier Báez",
+     "p_so": 0.5219904780387878,
+     "p_bb": 0.13735626637935638
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 9,
      "bateador": "John Peck",
-     "p_so": 0.5398964881896973,
-     "p_bb": 0.26519498229026794
+     "p_so": 0.5603125095367432,
+     "p_bb": 0.30126696825027466
     },
     {
      "equipo": "Chicago White Sox",
      "is_home": true,
      "orden": 1,
      "bateador": "Chase Meidroth",
-     "p_so": 0.5637421011924744,
-     "p_bb": 0.3700205981731415
+     "p_so": 0.5571343302726746,
+     "p_bb": 0.35909244418144226
     },
     {
      "equipo": "Chicago White Sox",
      "is_home": true,
      "orden": 2,
      "bateador": "Tommy Pham",
-     "p_so": 0.5015730857849121,
-     "p_bb": 0.2781011462211609
+     "p_so": 0.5285837650299072,
+     "p_bb": 0.2869582772254944
     },
     {
      "equipo": "Chicago White Sox",
      "is_home": true,
      "orden": 3,
      "bateador": "Miguel Vargas",
-     "p_so": 0.5748230814933777,
-     "p_bb": 0.45298483967781067
+     "p_so": 0.5609773993492126,
+     "p_bb": 0.44753149151802063
     },
     {
      "equipo": "Chicago White Sox",
      "is_home": true,
      "orden": 4,
      "bateador": "Randal Grichuk",
-     "p_so": 0.5341567993164062,
-     "p_bb": 0.20151303708553314
+     "p_so": 0.5400081276893616,
+     "p_bb": 0.2219845950603485
     },
     {
      "equipo": "Chicago White Sox",
      "is_home": true,
      "orden": 5,
      "bateador": "Munetaka Murakami",
-     "p_so": 0.7845966219902039,
-     "p_bb": 0.4993606507778168
+     "p_so": 0.763320803642273,
+     "p_bb": 0.41760537028312683
     },
     {
      "equipo": "Chicago White Sox",
      "is_home": true,
      "orden": 6,
      "bateador": "Brenton Doyle",
-     "p_so": 0.6348864436149597,
-     "p_bb": 0.18000617623329163
+     "p_so": 0.6413285136222839,
+     "p_bb": 0.20665644109249115
     },
     {
      "equipo": "Chicago White Sox",
      "is_home": true,
      "orden": 7,
      "bateador": "Jake Rogers",
-     "p_so": 0.6372080445289612,
-     "p_bb": 0.2610762417316437
+     "p_so": 0.6426347494125366,
+     "p_bb": 0.2830268442630768
     },
     {
      "equipo": "Chicago White Sox",
      "is_home": true,
      "orden": 8,
      "bateador": "Luisangel Acuña",
-     "p_so": 0.4192878305912018,
-     "p_bb": 0.1776847243309021
+     "p_so": 0.432359516620636,
+     "p_bb": 0.18304336071014404
     },
     {
      "equipo": "Chicago White Sox",
      "is_home": true,
      "orden": 9,
      "bateador": "Braden Montgomery",
-     "p_so": 0.45199087262153625,
-     "p_bb": 0.26948869228363037
+     "p_so": 0.4460470676422119,
+     "p_bb": 0.2698976695537567
     }
    ],
    "local": "Chicago White Sox",
@@ -3251,12 +3275,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 60,
+  "picks_hoy": 59,
   "ganadas": 1286,
   "perdidas": 605,
   "push": 0,
   "unidades": 340.5,
   "acierto": 68.0
  },
- "fecha_actualizacion": "2026-09-17T20:31:28Z"
+ "fecha_actualizacion": "2026-09-17T21:02:20Z"
 }
