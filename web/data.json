@@ -2344,6 +2344,157 @@
    "visita": "Milwaukee Brewers"
   },
   {
+   "game_id": 824141,
+   "bateadores": [
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Carter Jensen",
+     "p_so": 0.7276281118392944,
+     "p_bb": 0.3868741989135742
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Bobby Witt Jr.",
+     "p_so": 0.5617110729217529,
+     "p_bb": 0.3589942157268524
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Jac Caglianone",
+     "p_so": 0.6546213030815125,
+     "p_bb": 0.2313738316297531
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Maikel Garcia",
+     "p_so": 0.5154746174812317,
+     "p_bb": 0.3104870915412903
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Michael Massey",
+     "p_so": 0.46837300062179565,
+     "p_bb": 0.1754131019115448
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Salvador Perez",
+     "p_so": 0.5365917086601257,
+     "p_bb": 0.21528306603431702
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "John Rave",
+     "p_so": 0.6038174629211426,
+     "p_bb": 0.30529919266700745
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Kyle Isbel",
+     "p_so": 0.5073696374893188,
+     "p_bb": 0.21799726784229279
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Isaac Collins",
+     "p_so": 0.54323810338974,
+     "p_bb": 0.31921303272247314
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jeremy Peña",
+     "p_so": 0.6029565930366516,
+     "p_bb": 0.20282581448554993
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Yordan Alvarez",
+     "p_so": 0.5573071837425232,
+     "p_bb": 0.4863632321357727
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Isaac Paredes",
+     "p_so": 0.5057680010795593,
+     "p_bb": 0.3969871401786804
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Jose Altuve",
+     "p_so": 0.517156720161438,
+     "p_bb": 0.271165132522583
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Yainer Diaz",
+     "p_so": 0.47031015157699585,
+     "p_bb": 0.14175821840763092
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Daulton Varsho",
+     "p_so": 0.6365718245506287,
+     "p_bb": 0.22294345498085022
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Taylor Trammell",
+     "p_so": 0.6938281059265137,
+     "p_bb": 0.29561176896095276
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Cam Smith",
+     "p_so": 0.599854588508606,
+     "p_bb": 0.2188633382320404
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "LaMonte Wade Jr.",
+     "p_so": 0.5128450393676758,
+     "p_bb": 0.24985387921333313
+    }
+   ],
+   "local": "Houston Astros",
+   "visita": "Kansas City Royals"
+  },
+  {
    "game_id": 824305,
    "bateadores": [
     {
@@ -2647,12 +2798,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 26,
+  "picks_hoy": 32,
   "ganadas": 1286,
   "perdidas": 605,
   "push": 0,
   "unidades": 340.5,
   "acierto": 68.0
  },
- "fecha_actualizacion": "2026-09-17T17:12:22Z"
+ "fecha_actualizacion": "2026-09-17T20:02:12Z"
 }
