@@ -985,6 +985,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-17",
+   "local": "Cincinnati Reds",
+   "visita": "Los Angeles Dodgers",
+   "linea": 9.5,
+   "prediccion": 9.02,
+   "prob_over": 0.5988045334815979,
+   "edge": 0.48,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.48 carreras, prob_over 59.9%)",
+   "evaluado_utc": "2026-09-17T14:42:14Z"
+  },
+  {
+   "fecha": "2026-09-17",
    "local": "Pittsburgh Pirates",
    "visita": "Milwaukee Brewers",
    "linea": 9.0,
@@ -2316,5 +2328,5 @@
   "unidades": 340.5,
   "acierto": 68.0
  },
- "fecha_actualizacion": "2026-09-17T14:37:09Z"
+ "fecha_actualizacion": "2026-09-17T14:42:15Z"
 }
