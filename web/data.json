@@ -985,6 +985,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-17",
+   "local": "Tampa Bay Rays",
+   "visita": "Athletics",
+   "linea": 7.5,
+   "prediccion": 8.39,
+   "prob_over": 0.5003872513771057,
+   "edge": 0.89,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.89 carreras, prob_over 50.0%)",
+   "evaluado_utc": "2026-09-17T15:12:08Z"
+  },
+  {
+   "fecha": "2026-09-17",
    "local": "Cincinnati Reds",
    "visita": "Los Angeles Dodgers",
    "linea": 9.5,
@@ -2479,5 +2491,5 @@
   "unidades": 340.5,
   "acierto": 68.0
  },
- "fecha_actualizacion": "2026-09-17T14:56:54Z"
+ "fecha_actualizacion": "2026-09-17T15:12:09Z"
 }
