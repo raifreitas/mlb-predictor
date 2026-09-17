@@ -985,6 +985,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-17",
+   "local": "Chicago White Sox",
+   "visita": "Detroit Tigers",
+   "linea": 8.5,
+   "prediccion": 7.37,
+   "prob_over": 0.43096908926963806,
+   "edge": 1.13,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 1.13 < 1.45)",
+   "evaluado_utc": "2026-09-17T21:42:02Z"
+  },
+  {
+   "fecha": "2026-09-17",
    "local": "Houston Astros",
    "visita": "Kansas City Royals",
    "linea": 9.0,
@@ -3306,5 +3318,5 @@
   "unidades": 340.5,
   "acierto": 68.0
  },
- "fecha_actualizacion": "2026-09-17T21:17:11Z"
+ "fecha_actualizacion": "2026-09-17T21:42:04Z"
 }
