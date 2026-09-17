@@ -2042,6 +2042,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 822845,
+   "bateadores": [
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Roman Anthony",
+     "p_so": 0.6597510576248169,
+     "p_bb": 0.36141180992126465
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Jahmai Jones",
+     "p_so": 0.6193378567695618,
+     "p_bb": 0.3101957142353058
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Wilyer Abreu",
+     "p_so": 0.6825252175331116,
+     "p_bb": 0.36453309655189514
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Willson Contreras",
+     "p_so": 0.6617962718009949,
+     "p_bb": 0.3482361137866974
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Adley Rutschman",
+     "p_so": 0.49587321281433105,
+     "p_bb": 0.30953001976013184
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Trevor Story",
+     "p_so": 0.6788488030433655,
+     "p_bb": 0.19041280448436737
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Jarren Duran",
+     "p_so": 0.6308435201644897,
+     "p_bb": 0.2256181240081787
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Caleb Durbin",
+     "p_so": 0.37901556491851807,
+     "p_bb": 0.2637978494167328
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Nick Sogard",
+     "p_so": 0.5417063236236572,
+     "p_bb": 0.2440604865550995
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Ezequiel Duran",
+     "p_so": 0.6638717651367188,
+     "p_bb": 0.23110467195510864
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Corey Seager",
+     "p_so": 0.612541675567627,
+     "p_bb": 0.363148033618927
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Josh Jung",
+     "p_so": 0.5242605805397034,
+     "p_bb": 0.16893897950649261
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Brandon Nimmo",
+     "p_so": 0.6754499673843384,
+     "p_bb": 0.3238826096057892
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Wyatt Langford",
+     "p_so": 0.6871078610420227,
+     "p_bb": 0.36748796701431274
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Jake Burger",
+     "p_so": 0.7272778749465942,
+     "p_bb": 0.21022090315818787
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Nicky Lopez",
+     "p_so": 0.4288870096206665,
+     "p_bb": 0.18965908885002136
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Danny Jansen",
+     "p_so": 0.5327142477035522,
+     "p_bb": 0.22462905943393707
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Evan Carter",
+     "p_so": 0.5713801383972168,
+     "p_bb": 0.2200855165719986
+    }
+   ],
+   "local": "Texas Rangers",
+   "visita": "Boston Red Sox"
+  },
+  {
    "game_id": 822924,
    "bateadores": [
     {
@@ -2795,15 +2946,166 @@
    ],
    "local": "Cincinnati Reds",
    "visita": "Los Angeles Dodgers"
+  },
+  {
+   "game_id": 824548,
+   "bateadores": [
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Kevin McGonigle",
+     "p_so": 0.47441366314888,
+     "p_bb": 0.49389174580574036
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Hao-Yu Lee",
+     "p_so": 0.7044894695281982,
+     "p_bb": 0.3711589276790619
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Colt Keith",
+     "p_so": 0.5998284220695496,
+     "p_bb": 0.3420698344707489
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Riley Greene",
+     "p_so": 0.6723849177360535,
+     "p_bb": 0.33278900384902954
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Dillon Dingler",
+     "p_so": 0.6572704911231995,
+     "p_bb": 0.20713695883750916
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Max Clark",
+     "p_so": 0.621884822845459,
+     "p_bb": 0.2970658838748932
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Spencer Torkelson",
+     "p_so": 0.7099884152412415,
+     "p_bb": 0.35645657777786255
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Brett Callahan",
+     "p_so": 0.7221193313598633,
+     "p_bb": 0.21485351026058197
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "John Peck",
+     "p_so": 0.5398964881896973,
+     "p_bb": 0.26519498229026794
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Chase Meidroth",
+     "p_so": 0.5637421011924744,
+     "p_bb": 0.3700205981731415
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Tommy Pham",
+     "p_so": 0.5015730857849121,
+     "p_bb": 0.2781011462211609
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Miguel Vargas",
+     "p_so": 0.5748230814933777,
+     "p_bb": 0.45298483967781067
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Randal Grichuk",
+     "p_so": 0.5341567993164062,
+     "p_bb": 0.20151303708553314
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Munetaka Murakami",
+     "p_so": 0.7845966219902039,
+     "p_bb": 0.4993606507778168
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Brenton Doyle",
+     "p_so": 0.6348864436149597,
+     "p_bb": 0.18000617623329163
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Jake Rogers",
+     "p_so": 0.6372080445289612,
+     "p_bb": 0.2610762417316437
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Luisangel Acuña",
+     "p_so": 0.4192878305912018,
+     "p_bb": 0.1776847243309021
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Braden Montgomery",
+     "p_so": 0.45199087262153625,
+     "p_bb": 0.26948869228363037
+    }
+   ],
+   "local": "Chicago White Sox",
+   "visita": "Detroit Tigers"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 32,
+  "picks_hoy": 52,
   "ganadas": 1286,
   "perdidas": 605,
   "push": 0,
   "unidades": 340.5,
   "acierto": 68.0
  },
- "fecha_actualizacion": "2026-09-17T20:02:12Z"
+ "fecha_actualizacion": "2026-09-17T20:27:05Z"
 }
