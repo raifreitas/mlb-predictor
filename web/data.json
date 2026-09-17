@@ -984,6 +984,18 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-09-17",
+   "local": "Pittsburgh Pirates",
+   "visita": "Milwaukee Brewers",
+   "linea": 9.0,
+   "prediccion": 10.06,
+   "prob_over": 0.5174093246459961,
+   "edge": 1.06,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +1.06 carreras, prob_over 51.7%)",
+   "evaluado_utc": "2026-09-17T14:37:08Z"
+  },
+  {
    "fecha": "2026-09-16",
    "local": "Arizona Diamondbacks",
    "visita": "Miami Marlins",
@@ -1994,6 +2006,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 822924,
+   "bateadores": [
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Henry Bolte",
+     "p_so": 0.7912407517433167,
+     "p_bb": 0.28866779804229736
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Jeff McNeil",
+     "p_so": 0.40629708766937256,
+     "p_bb": 0.2076874077320099
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Lawrence Butler",
+     "p_so": 0.7653131484985352,
+     "p_bb": 0.31529369950294495
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Zack Gelof",
+     "p_so": 0.7922585010528564,
+     "p_bb": 0.2506311237812042
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Donovan Walton",
+     "p_so": 0.5603776574134827,
+     "p_bb": 0.27943554520606995
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Tommy White",
+     "p_so": 0.5246137976646423,
+     "p_bb": 0.15028025209903717
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Alika Williams",
+     "p_so": 0.5885725617408752,
+     "p_bb": 0.15659143030643463
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Jonah Heim",
+     "p_so": 0.5231789946556091,
+     "p_bb": 0.19165822863578796
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Denzel Clarke",
+     "p_so": 0.610019862651825,
+     "p_bb": 0.13694150745868683
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Yandy Díaz",
+     "p_so": 0.46167951822280884,
+     "p_bb": 0.33404847979545593
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Jonathan Aranda",
+     "p_so": 0.6579041481018066,
+     "p_bb": 0.34956830739974976
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Junior Caminero",
+     "p_so": 0.527779221534729,
+     "p_bb": 0.33999013900756836
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Liam Hicks",
+     "p_so": 0.3520641326904297,
+     "p_bb": 0.2915935516357422
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Jonny DeLuca",
+     "p_so": 0.5230153203010559,
+     "p_bb": 0.20091642439365387
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Chandler Simpson",
+     "p_so": 0.3009836971759796,
+     "p_bb": 0.16792280972003937
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Ryan Vilade",
+     "p_so": 0.5612011551856995,
+     "p_bb": 0.27537068724632263
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Richie Palacios",
+     "p_so": 0.3501735329627991,
+     "p_bb": 0.21580272912979126
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Taylor Walls",
+     "p_so": 0.5313344597816467,
+     "p_bb": 0.2518365979194641
+    }
+   ],
+   "local": "Tampa Bay Rays",
+   "visita": "Athletics"
+  },
+  {
    "game_id": 824464,
    "bateadores": [
     {
@@ -2146,12 +2309,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 10,
+  "picks_hoy": 15,
   "ganadas": 1286,
   "perdidas": 605,
   "push": 0,
   "unidades": 340.5,
   "acierto": 68.0
  },
- "fecha_actualizacion": "2026-09-17T14:08:06Z"
+ "fecha_actualizacion": "2026-09-17T14:37:09Z"
 }
