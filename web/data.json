@@ -2236,6 +2236,308 @@
    "visita": "Kansas City Royals"
   },
   {
+   "game_id": 823572,
+   "bateadores": [
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Kyle Schwarber",
+     "p_so": 0.7855063676834106,
+     "p_bb": 0.4379931688308716
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Trea Turner",
+     "p_so": 0.5706295967102051,
+     "p_bb": 0.24227429926395416
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Bryce Harper",
+     "p_so": 0.6835218667984009,
+     "p_bb": 0.37229323387145996
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Luis Arraez",
+     "p_so": 0.263679176568985,
+     "p_bb": 0.16577638685703278
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Alec Bohm",
+     "p_so": 0.49864646792411804,
+     "p_bb": 0.25711455941200256
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Edmundo Sosa",
+     "p_so": 0.5753517746925354,
+     "p_bb": 0.1523418426513672
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Bryson Stott",
+     "p_so": 0.5108340382575989,
+     "p_bb": 0.2628660202026367
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "J.T. Realmuto",
+     "p_so": 0.575036346912384,
+     "p_bb": 0.21078366041183472
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Derek Hill",
+     "p_so": 0.6254940032958984,
+     "p_bb": 0.16581448912620544
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Francisco Lindor",
+     "p_so": 0.6228398084640503,
+     "p_bb": 0.2979744076728821
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Juan Soto",
+     "p_so": 0.5757824778556824,
+     "p_bb": 0.4222443997859955
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Bo Bichette",
+     "p_so": 0.5631995797157288,
+     "p_bb": 0.24068215489387512
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Carson Benge",
+     "p_so": 0.670628547668457,
+     "p_bb": 0.26441454887390137
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Mark Vientos",
+     "p_so": 0.645082414150238,
+     "p_bb": 0.21306483447551727
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "A.J. Ewing",
+     "p_so": 0.6538107991218567,
+     "p_bb": 0.24330857396125793
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Marcus Semien",
+     "p_so": 0.5011501312255859,
+     "p_bb": 0.28137093782424927
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Brett Baty",
+     "p_so": 0.5867424607276917,
+     "p_bb": 0.25194936990737915
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Luis Torrens",
+     "p_so": 0.5323164463043213,
+     "p_bb": 0.18179851770401
+    }
+   ],
+   "local": "New York Mets",
+   "visita": "Philadelphia Phillies"
+  },
+  {
+   "game_id": 824303,
+   "bateadores": [
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "J.P. Crawford",
+     "p_so": 0.6019970774650574,
+     "p_bb": 0.4522194266319275
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Randy Arozarena",
+     "p_so": 0.7259702086448669,
+     "p_bb": 0.4242110848426819
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Dominic Canzone",
+     "p_so": 0.6360481977462769,
+     "p_bb": 0.29944685101509094
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Cal Raleigh",
+     "p_so": 0.7691919207572937,
+     "p_bb": 0.45530882477760315
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Julio Rodríguez",
+     "p_so": 0.71061772108078,
+     "p_bb": 0.27067622542381287
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Josh Naylor",
+     "p_so": 0.4665882885456085,
+     "p_bb": 0.2690255343914032
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Cole Young",
+     "p_so": 0.49912819266319275,
+     "p_bb": 0.2966609597206116
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Lazaro Montes",
+     "p_so": 0.7073974013328552,
+     "p_bb": 0.24995283782482147
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Brock Rodden",
+     "p_so": 0.6632893681526184,
+     "p_bb": 0.27088990807533264
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jake McCarthy",
+     "p_so": 0.5863158702850342,
+     "p_bb": 0.21774552762508392
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Connor Norby",
+     "p_so": 0.7616958618164062,
+     "p_bb": 0.2563133239746094
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "TJ Rumfield",
+     "p_so": 0.5186234712600708,
+     "p_bb": 0.3767606019973755
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Hunter Goodman",
+     "p_so": 0.7107181549072266,
+     "p_bb": 0.19469712674617767
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Cole Carrigg",
+     "p_so": 0.7084715962409973,
+     "p_bb": 0.2763350307941437
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Kyle Karros",
+     "p_so": 0.6061310172080994,
+     "p_bb": 0.2538280785083771
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Mickey Moniak",
+     "p_so": 0.7259481549263,
+     "p_bb": 0.1529914140701294
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Adael Amador",
+     "p_so": 0.5323463678359985,
+     "p_bb": 0.19297555088996887
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Ezequiel Tovar",
+     "p_so": 0.7157650589942932,
+     "p_bb": 0.1365259289741516
+    }
+   ],
+   "local": "Colorado Rockies",
+   "visita": "Seattle Mariners"
+  },
+  {
    "game_id": 824383,
    "bateadores": [
     {
@@ -2690,12 +2992,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 46,
+  "picks_hoy": 66,
   "ganadas": 1340,
   "perdidas": 623,
   "push": 0,
   "unidades": 358.5,
   "acierto": 68.3
  },
- "fecha_actualizacion": "2026-09-18T20:12:04Z"
+ "fecha_actualizacion": "2026-09-18T20:27:27Z"
 }
