@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-09-16",
+ "ultima_fecha_prediccion": "2026-09-18",
  "resumen": {
   "ganadas": 23,
   "perdidas": 11,
@@ -980,9 +980,48 @@
    "total": 11,
    "creado": "2026-09-16 15:16:58",
    "verificado": "2026-09-17 06:47:15"
+  },
+  {
+   "id": 1061,
+   "fecha": "2026-09-18",
+   "local": "Colorado Rockies",
+   "visita": "Seattle Mariners",
+   "tipo": "OVER",
+   "linea": 10.5,
+   "unidades": 0.5,
+   "edge": 1.47,
+   "cuota": 1.85,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-18 22:11:59",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-18",
+   "local": "Colorado Rockies",
+   "visita": "Seattle Mariners",
+   "linea": 10.5,
+   "prediccion": 11.97,
+   "prob_over": 0.7307707071304321,
+   "edge": 1.47,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-18T22:12:00Z"
+  },
+  {
+   "fecha": "2026-09-18",
+   "local": "Houston Astros",
+   "visita": "Atlanta Braves",
+   "linea": 8.5,
+   "prediccion": 7.38,
+   "prob_over": 0.47113680839538574,
+   "edge": 1.12,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.12 carreras, prob_over 47.1%)",
+   "evaluado_utc": "2026-09-18T22:12:00Z"
+  },
   {
    "fecha": "2026-09-18",
    "local": "Texas Rangers",
@@ -3850,5 +3889,5 @@
   "unidades": 358.5,
   "acierto": 68.3
  },
- "fecha_actualizacion": "2026-09-18T22:09:04Z"
+ "fecha_actualizacion": "2026-09-18T22:12:01Z"
 }
