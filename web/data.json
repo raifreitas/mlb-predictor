@@ -1000,6 +1000,42 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-18",
+   "local": "Arizona Diamondbacks",
+   "visita": "New York Yankees",
+   "linea": 7.5,
+   "prediccion": 7.52,
+   "prob_over": 0.4516680836677551,
+   "edge": 0.02,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.02 carreras, prob_over 45.2%)",
+   "evaluado_utc": "2026-09-18T23:42:17Z"
+  },
+  {
+   "fecha": "2026-09-18",
+   "local": "Los Angeles Angels",
+   "visita": "Minnesota Twins",
+   "linea": 8.0,
+   "prediccion": 9.07,
+   "prob_over": 0.49836161732673645,
+   "edge": 1.07,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +1.07 carreras, prob_over 49.8%)",
+   "evaluado_utc": "2026-09-18T23:42:17Z"
+  },
+  {
+   "fecha": "2026-09-18",
+   "local": "San Diego Padres",
+   "visita": "Miami Marlins",
+   "linea": 7.5,
+   "prediccion": 7.63,
+   "prob_over": 0.48481285572052,
+   "edge": 0.13,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.13 carreras, prob_over 48.5%)",
+   "evaluado_utc": "2026-09-18T23:42:17Z"
+  },
+  {
+   "fecha": "2026-09-18",
    "local": "St. Louis Cardinals",
    "visita": "Washington Nationals",
    "linea": 7.5,
@@ -4354,5 +4390,5 @@
   "unidades": 358.5,
   "acierto": 68.3
  },
- "fecha_actualizacion": "2026-09-18T23:02:17Z"
+ "fecha_actualizacion": "2026-09-18T23:42:18Z"
 }
