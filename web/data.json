@@ -2387,6 +2387,157 @@
    "visita": "Athletics"
   },
   {
+   "game_id": 824463,
+   "bateadores": [
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Pete Crow-Armstrong",
+     "p_so": 0.7679779529571533,
+     "p_bb": 0.2925058603286743
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Seiya Suzuki",
+     "p_so": 0.7931948900222778,
+     "p_bb": 0.41891127824783325
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Michael Busch",
+     "p_so": 0.8219408392906189,
+     "p_bb": 0.41873612999916077
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Alex Bregman",
+     "p_so": 0.5725562572479248,
+     "p_bb": 0.3526487946510315
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Ian Happ",
+     "p_so": 0.7818362712860107,
+     "p_bb": 0.4224276542663574
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Nico Hoerner",
+     "p_so": 0.39966240525245667,
+     "p_bb": 0.2000005692243576
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Michael Conforto",
+     "p_so": 0.7005288004875183,
+     "p_bb": 0.3153347969055176
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Carson Kelly",
+     "p_so": 0.5311352610588074,
+     "p_bb": 0.2595585584640503
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Dansby Swanson",
+     "p_so": 0.6776235103607178,
+     "p_bb": 0.2486172914505005
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Carlos Jorge",
+     "p_so": 0.570868730545044,
+     "p_bb": 0.18341611325740814
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Elly De La Cruz",
+     "p_so": 0.7542873620986938,
+     "p_bb": 0.4072810411453247
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Sal Stewart",
+     "p_so": 0.6173762083053589,
+     "p_bb": 0.3443629741668701
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Tyler Stephenson",
+     "p_so": 0.7051933407783508,
+     "p_bb": 0.3568699061870575
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "JJ Bleday",
+     "p_so": 0.6286556720733643,
+     "p_bb": 0.3958924412727356
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Eugenio Suárez",
+     "p_so": 0.732469379901886,
+     "p_bb": 0.3186224699020386
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Héctor Rodríguez",
+     "p_so": 0.6351770162582397,
+     "p_bb": 0.23649382591247559
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Jose Trevino",
+     "p_so": 0.4205848276615143,
+     "p_bb": 0.15187513828277588
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Matt McLain",
+     "p_so": 0.5952387452125549,
+     "p_bb": 0.24654272198677063
+    }
+   ],
+   "local": "Cincinnati Reds",
+   "visita": "Chicago Cubs"
+  },
+  {
    "game_id": 824790,
    "bateadores": [
     {
@@ -2539,12 +2690,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 34,
+  "picks_hoy": 46,
   "ganadas": 1340,
   "perdidas": 623,
   "push": 0,
   "unidades": 358.5,
   "acierto": 68.3
  },
- "fecha_actualizacion": "2026-09-18T19:57:13Z"
+ "fecha_actualizacion": "2026-09-18T20:12:04Z"
 }
