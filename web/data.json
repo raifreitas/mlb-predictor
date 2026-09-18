@@ -985,6 +985,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-18",
+   "local": "New York Mets",
+   "visita": "Philadelphia Phillies",
+   "linea": 8.5,
+   "prediccion": 7.97,
+   "prob_over": 0.4354027211666107,
+   "edge": 0.53,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.53 carreras, prob_over 43.5%)",
+   "evaluado_utc": "2026-09-18T21:15:48Z"
+  },
+  {
+   "fecha": "2026-09-18",
    "local": "Cleveland Guardians",
    "visita": "Athletics",
    "linea": 8.0,
@@ -3663,5 +3675,5 @@
   "unidades": 358.5,
   "acierto": 68.3
  },
- "fecha_actualizacion": "2026-09-18T21:12:14Z"
+ "fecha_actualizacion": "2026-09-18T21:15:49Z"
 }

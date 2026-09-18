@@ -4812,7 +4812,8 @@
       "pitcher_visita": null,
       "hora_inicio_utc": "2026-09-18T23:15:00+00:00",
       "hora_corrida_utc": "2026-09-18T22:45:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-18T21:15:43.829670+00:00"
     },
     "Chicago White Sox": {
       "local": "Chicago White Sox",
