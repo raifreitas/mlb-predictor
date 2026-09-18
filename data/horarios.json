@@ -4762,7 +4762,8 @@
       "pitcher_visita": 605280,
       "hora_inicio_utc": "2026-09-18T22:40:00+00:00",
       "hora_corrida_utc": "2026-09-18T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-18T20:41:51.625477+00:00"
     },
     "Pittsburgh Pirates": {
       "local": "Pittsburgh Pirates",
@@ -4771,7 +4772,8 @@
       "pitcher_visita": 677976,
       "hora_inicio_utc": "2026-09-18T22:40:00+00:00",
       "hora_corrida_utc": "2026-09-18T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-18T20:41:51.625477+00:00"
     },
     "Baltimore Orioles": {
       "local": "Baltimore Orioles",
