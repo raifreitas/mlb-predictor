@@ -2083,15 +2083,317 @@
    ],
    "local": "Tampa Bay Rays",
    "visita": "Boston Red Sox"
+  },
+  {
+   "game_id": 823331,
+   "bateadores": [
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Carter Jensen",
+     "p_so": 0.76092928647995,
+     "p_bb": 0.36500564217567444
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Bobby Witt Jr.",
+     "p_so": 0.6297273635864258,
+     "p_bb": 0.29923349618911743
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Vinnie Pasquantino",
+     "p_so": 0.575757622718811,
+     "p_bb": 0.317483127117157
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Maikel Garcia",
+     "p_so": 0.5790184736251831,
+     "p_bb": 0.2427069991827011
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Michael Massey",
+     "p_so": 0.5259224772453308,
+     "p_bb": 0.14442990720272064
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Salvador Perez",
+     "p_so": 0.5915437936782837,
+     "p_bb": 0.15783199667930603
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "John Rave",
+     "p_so": 0.6465834379196167,
+     "p_bb": 0.273860901594162
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Nick Loftin",
+     "p_so": 0.5511927604675293,
+     "p_bb": 0.23614297807216644
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Kyle Isbel",
+     "p_so": 0.542181670665741,
+     "p_bb": 0.17236950993537903
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Konnor Griffin",
+     "p_so": 0.5775381922721863,
+     "p_bb": 0.2137492448091507
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Brandon Lowe",
+     "p_so": 0.7419639825820923,
+     "p_bb": 0.36845868825912476
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Bryan Reynolds",
+     "p_so": 0.6409321427345276,
+     "p_bb": 0.3588634729385376
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Oneil Cruz",
+     "p_so": 0.743942141532898,
+     "p_bb": 0.39825546741485596
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Nick Gonzales",
+     "p_so": 0.5023996829986572,
+     "p_bb": 0.2439616620540619
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Ryan O'Hearn",
+     "p_so": 0.5170319676399231,
+     "p_bb": 0.273390531539917
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Ronny Simon",
+     "p_so": 0.446381539106369,
+     "p_bb": 0.2570987343788147
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Spencer Horwitz",
+     "p_so": 0.46975865960121155,
+     "p_bb": 0.3070017397403717
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Henry Davis",
+     "p_so": 0.5254800915718079,
+     "p_bb": 0.2328309863805771
+    }
+   ],
+   "local": "Pittsburgh Pirates",
+   "visita": "Kansas City Royals"
+  },
+  {
+   "game_id": 824383,
+   "bateadores": [
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Henry Bolte",
+     "p_so": 0.7796303629875183,
+     "p_bb": 0.34184303879737854
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Shea Langeliers",
+     "p_so": 0.6028681993484497,
+     "p_bb": 0.23772239685058594
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Lawrence Butler",
+     "p_so": 0.7618162035942078,
+     "p_bb": 0.3635632395744324
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Zack Gelof",
+     "p_so": 0.7745437622070312,
+     "p_bb": 0.2963523268699646
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Jeff McNeil",
+     "p_so": 0.4228847026824951,
+     "p_bb": 0.2606484591960907
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Tommy White",
+     "p_so": 0.5618091225624084,
+     "p_bb": 0.18212071061134338
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Jonah Heim",
+     "p_so": 0.5311785936355591,
+     "p_bb": 0.2305249124765396
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Michael Stefanic",
+     "p_so": 0.44695091247558594,
+     "p_bb": 0.23513957858085632
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Alika Williams",
+     "p_so": 0.6035422086715698,
+     "p_bb": 0.1899263858795166
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Steven Kwan",
+     "p_so": 0.3358151316642761,
+     "p_bb": 0.40026551485061646
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "José Ramírez",
+     "p_so": 0.4010794758796692,
+     "p_bb": 0.3604642152786255
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Chase DeLauter",
+     "p_so": 0.45439612865448,
+     "p_bb": 0.38578590750694275
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Jo Adell",
+     "p_so": 0.6869329810142517,
+     "p_bb": 0.25030699372291565
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Travis Bazzana",
+     "p_so": 0.49796104431152344,
+     "p_bb": 0.3671311140060425
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Nathaniel Lowe",
+     "p_so": 0.6294683814048767,
+     "p_bb": 0.3401286005973816
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Patrick Bailey",
+     "p_so": 0.6059210300445557,
+     "p_bb": 0.28939002752304077
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Petey Halpin",
+     "p_so": 0.46422043442726135,
+     "p_bb": 0.2131570428609848
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Brayan Rocchio",
+     "p_so": 0.43267688155174255,
+     "p_bb": 0.22855499386787415
+    }
+   ],
+   "local": "Cleveland Guardians",
+   "visita": "Athletics"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 8,
+  "picks_hoy": 22,
   "ganadas": 1340,
   "perdidas": 623,
   "push": 0,
   "unidades": 358.5,
   "acierto": 68.3
  },
- "fecha_actualizacion": "2026-09-18T19:22:21Z"
+ "fecha_actualizacion": "2026-09-18T19:37:09Z"
 }
