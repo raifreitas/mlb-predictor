@@ -2987,6 +2987,157 @@
    "visita": "San Francisco Giants"
   },
   {
+   "game_id": 823977,
+   "bateadores": [
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Luke Keaschall",
+     "p_so": 0.5151486396789551,
+     "p_bb": 0.32929709553718567
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Brooks Lee",
+     "p_so": 0.5343117117881775,
+     "p_bb": 0.21408705413341522
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Kody Clemens",
+     "p_so": 0.6897245049476624,
+     "p_bb": 0.2581824064254761
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Ryan Jeffers",
+     "p_so": 0.6202210783958435,
+     "p_bb": 0.3367041349411011
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Josh Bell",
+     "p_so": 0.5802304148674011,
+     "p_bb": 0.29953160881996155
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Emmanuel Rodriguez",
+     "p_so": 0.633309006690979,
+     "p_bb": 0.17875277996063232
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Royce Lewis",
+     "p_so": 0.6001352667808533,
+     "p_bb": 0.22907839715480804
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Walker Jenkins",
+     "p_so": 0.6747010946273804,
+     "p_bb": 0.27061301469802856
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Ben Ross",
+     "p_so": 0.7058826088905334,
+     "p_bb": 0.13506551086902618
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Zach Neto",
+     "p_so": 0.7002997994422913,
+     "p_bb": 0.2770439386367798
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Mike Trout",
+     "p_so": 0.7631791234016418,
+     "p_bb": 0.5391781330108643
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Jose Siri",
+     "p_so": 0.7244739532470703,
+     "p_bb": 0.24111951887607574
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Vaughn Grissom",
+     "p_so": 0.5364071726799011,
+     "p_bb": 0.2522473931312561
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Denzer Guzman",
+     "p_so": 0.6713119745254517,
+     "p_bb": 0.21539799869060516
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Oswald Peraza",
+     "p_so": 0.6480021476745605,
+     "p_bb": 0.233457550406456
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Travis d'Arnaud",
+     "p_so": 0.6103721857070923,
+     "p_bb": 0.21934029459953308
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Christian Moore",
+     "p_so": 0.706443190574646,
+     "p_bb": 0.2550622820854187
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Wade Meckler",
+     "p_so": 0.44294604659080505,
+     "p_bb": 0.231631800532341
+    }
+   ],
+   "local": "Los Angeles Angels",
+   "visita": "Minnesota Twins"
+  },
+  {
    "game_id": 824138,
    "bateadores": [
     {
@@ -4045,12 +4196,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 123,
+  "picks_hoy": 136,
   "ganadas": 1340,
   "perdidas": 623,
   "push": 0,
   "unidades": 358.5,
   "acierto": 68.3
  },
- "fecha_actualizacion": "2026-09-18T22:41:28Z"
+ "fecha_actualizacion": "2026-09-18T22:47:14Z"
 }
