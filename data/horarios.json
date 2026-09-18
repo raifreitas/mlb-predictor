@@ -4782,7 +4782,8 @@
       "pitcher_visita": 669160,
       "hora_inicio_utc": "2026-09-18T23:05:00+00:00",
       "hora_corrida_utc": "2026-09-18T22:35:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-18T21:06:52.938533+00:00"
     },
     "Cleveland Guardians": {
       "local": "Cleveland Guardians",
