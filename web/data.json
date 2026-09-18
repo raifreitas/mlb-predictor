@@ -985,6 +985,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-18",
+   "local": "Texas Rangers",
+   "visita": "Toronto Blue Jays",
+   "linea": 7.5,
+   "prediccion": 7.3,
+   "prob_over": 0.505185604095459,
+   "edge": 0.2,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.20 carreras, prob_over 50.5%)",
+   "evaluado_utc": "2026-09-18T22:09:03Z"
+  },
+  {
+   "fecha": "2026-09-18",
    "local": "Chicago White Sox",
    "visita": "Detroit Tigers",
    "linea": 8.5,
@@ -2773,6 +2785,157 @@
    "visita": "Philadelphia Phillies"
   },
   {
+   "game_id": 823898,
+   "bateadores": [
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Drew Gilbert",
+     "p_so": 0.6358955502510071,
+     "p_bb": 0.2844263017177582
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Bryce Eldridge",
+     "p_so": 0.7970878481864929,
+     "p_bb": 0.48331552743911743
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Jonah Cox",
+     "p_so": 0.7730105519294739,
+     "p_bb": 0.2271489053964615
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jung Hoo Lee",
+     "p_so": 0.4167501926422119,
+     "p_bb": 0.22322595119476318
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Shay Whitcomb",
+     "p_so": 0.6781399846076965,
+     "p_bb": 0.19277837872505188
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Turner Hill",
+     "p_so": 0.6281338334083557,
+     "p_bb": 0.32019832730293274
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Scott Bandura",
+     "p_so": 0.7266989946365356,
+     "p_bb": 0.2097158432006836
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Drew Cavanaugh",
+     "p_so": 0.7294389605522156,
+     "p_bb": 0.26332634687423706
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Christian Koss",
+     "p_so": 0.6606712937355042,
+     "p_bb": 0.17224712669849396
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Mookie Betts",
+     "p_so": 0.3888635039329529,
+     "p_bb": 0.3868837356567383
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Will Smith",
+     "p_so": 0.48474347591400146,
+     "p_bb": 0.38605955243110657
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Teoscar Hernández",
+     "p_so": 0.716917097568512,
+     "p_bb": 0.3153071403503418
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Freddie Freeman",
+     "p_so": 0.5144416689872742,
+     "p_bb": 0.3671613037586212
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Miguel Rojas",
+     "p_so": 0.3451663851737976,
+     "p_bb": 0.21166783571243286
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Kyle Tucker",
+     "p_so": 0.45213761925697327,
+     "p_bb": 0.3642195165157318
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Enrique Hernández",
+     "p_so": 0.5714945197105408,
+     "p_bb": 0.253652423620224
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Alex Call",
+     "p_so": 0.47301435470581055,
+     "p_bb": 0.3030567765235901
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Josue De Paula",
+     "p_so": 0.4748910367488861,
+     "p_bb": 0.26738062500953674
+    }
+   ],
+   "local": "Los Angeles Dodgers",
+   "visita": "San Francisco Giants"
+  },
+  {
    "game_id": 824138,
    "bateadores": [
     {
@@ -3680,12 +3843,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 107,
+  "picks_hoy": 116,
   "ganadas": 1340,
   "perdidas": 623,
   "push": 0,
   "unidades": 358.5,
   "acierto": 68.3
  },
- "fecha_actualizacion": "2026-09-18T21:42:19Z"
+ "fecha_actualizacion": "2026-09-18T22:09:04Z"
 }
