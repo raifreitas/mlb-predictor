@@ -2085,6 +2085,157 @@
    "visita": "Boston Red Sox"
   },
   {
+   "game_id": 823005,
+   "bateadores": [
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "James Wood",
+     "p_so": 0.7022758722305298,
+     "p_bb": 0.46101507544517517
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Daylen Lile",
+     "p_so": 0.6538687944412231,
+     "p_bb": 0.26074862480163574
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Dylan Crews",
+     "p_so": 0.7214944362640381,
+     "p_bb": 0.2627621293067932
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "CJ Abrams",
+     "p_so": 0.7357921004295349,
+     "p_bb": 0.26087650656700134
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Brady House",
+     "p_so": 0.6938793063163757,
+     "p_bb": 0.2228899598121643
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Jorbit Vivas",
+     "p_so": 0.5605341196060181,
+     "p_bb": 0.3089085817337036
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Yohandy Morales",
+     "p_so": 0.6500657200813293,
+     "p_bb": 0.18206427991390228
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Harry Ford",
+     "p_so": 0.5990555286407471,
+     "p_bb": 0.269462913274765
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Jacob Young",
+     "p_so": 0.46632716059684753,
+     "p_bb": 0.2252075970172882
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "JJ Wetherholt",
+     "p_so": 0.5459698438644409,
+     "p_bb": 0.28800278902053833
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Iván Herrera",
+     "p_so": 0.6758121252059937,
+     "p_bb": 0.3735874891281128
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Alec Burleson",
+     "p_so": 0.6156094074249268,
+     "p_bb": 0.2646137773990631
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Jordan Walker",
+     "p_so": 0.7742887139320374,
+     "p_bb": 0.25526800751686096
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Leo Bernal",
+     "p_so": 0.6311827301979065,
+     "p_bb": 0.21940940618515015
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Thomas Saggese",
+     "p_so": 0.6793457865715027,
+     "p_bb": 0.19571545720100403
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Bryan Torres",
+     "p_so": 0.5735514760017395,
+     "p_bb": 0.25870218873023987
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Masyn Winn",
+     "p_so": 0.5458962321281433,
+     "p_bb": 0.19652484357357025
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Nathan Church",
+     "p_so": 0.5399744510650635,
+     "p_bb": 0.16925270855426788
+    }
+   ],
+   "local": "St. Louis Cardinals",
+   "visita": "Washington Nationals"
+  },
+  {
    "game_id": 823331,
    "bateadores": [
     {
@@ -3143,12 +3294,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 76,
+  "picks_hoy": 87,
   "ganadas": 1340,
   "perdidas": 623,
   "push": 0,
   "unidades": 358.5,
   "acierto": 68.3
  },
- "fecha_actualizacion": "2026-09-18T20:32:23Z"
+ "fecha_actualizacion": "2026-09-18T20:37:07Z"
 }
