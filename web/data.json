@@ -2027,6 +2027,14 @@
      "equipo": "Tampa Bay Rays",
      "is_home": true,
      "orden": 1,
+     "bateador": "Jake Fraley",
+     "p_so": 0.5589264631271362,
+     "p_bb": 0.31602221727371216
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 1,
      "bateador": "Yandy Díaz",
      "p_so": 0.553299605846405,
      "p_bb": 0.36913400888442993
@@ -2259,5 +2267,5 @@
   "unidades": 394.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-09-19T16:57:22Z"
+ "fecha_actualizacion": "2026-09-19T17:22:17Z"
 }
