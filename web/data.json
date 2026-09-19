@@ -3122,6 +3122,157 @@
    "visita": "Atlanta Braves"
   },
   {
+   "game_id": 824304,
+   "bateadores": [
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "J.P. Crawford",
+     "p_so": 0.5401906371116638,
+     "p_bb": 0.4220958650112152
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Randy Arozarena",
+     "p_so": 0.6687210202217102,
+     "p_bb": 0.39871498942375183
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Dominic Canzone",
+     "p_so": 0.6276837587356567,
+     "p_bb": 0.3124229907989502
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Cal Raleigh",
+     "p_so": 0.7583042979240417,
+     "p_bb": 0.3738490641117096
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Julio Rodríguez",
+     "p_so": 0.6569989323616028,
+     "p_bb": 0.2480476349592209
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Josh Naylor",
+     "p_so": 0.4156295955181122,
+     "p_bb": 0.25752678513526917
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Michael Arroyo",
+     "p_so": 0.6291555762290955,
+     "p_bb": 0.30541181564331055
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Lazaro Montes",
+     "p_so": 0.7416675090789795,
+     "p_bb": 0.20672816038131714
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Weston Wilson",
+     "p_so": 0.6023089289665222,
+     "p_bb": 0.22188711166381836
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jake McCarthy",
+     "p_so": 0.5401749610900879,
+     "p_bb": 0.24244093894958496
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Connor Norby",
+     "p_so": 0.7486405968666077,
+     "p_bb": 0.2847316861152649
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "TJ Rumfield",
+     "p_so": 0.4829332232475281,
+     "p_bb": 0.41324278712272644
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Hunter Goodman",
+     "p_so": 0.6804131269454956,
+     "p_bb": 0.22470413148403168
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Cole Carrigg",
+     "p_so": 0.6723299622535706,
+     "p_bb": 0.29577991366386414
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Kyle Karros",
+     "p_so": 0.5676321983337402,
+     "p_bb": 0.2658268213272095
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Mickey Moniak",
+     "p_so": 0.7030514478683472,
+     "p_bb": 0.17843692004680634
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Zac Veen",
+     "p_so": 0.7349961400032043,
+     "p_bb": 0.20753943920135498
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Ezequiel Tovar",
+     "p_so": 0.6681115627288818,
+     "p_bb": 0.15338921546936035
+    }
+   ],
+   "local": "Colorado Rockies",
+   "visita": "Seattle Mariners"
+  },
+  {
    "game_id": 824380,
    "bateadores": [
     {
@@ -3878,12 +4029,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 113,
+  "picks_hoy": 126,
   "ganadas": 1448,
   "perdidas": 660,
   "push": 0,
   "unidades": 394.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-09-19T21:22:17Z"
+ "fecha_actualizacion": "2026-09-19T21:42:22Z"
 }
