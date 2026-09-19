@@ -1949,6 +1949,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 822921,
+   "bateadores": [
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Roman Anthony",
+     "p_so": 0.7114728093147278,
+     "p_bb": 0.3717114329338074
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Mickey Gasper",
+     "p_so": 0.5550305843353271,
+     "p_bb": 0.3466954827308655
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Adley Rutschman",
+     "p_so": 0.5350694060325623,
+     "p_bb": 0.30683839321136475
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Wilyer Abreu",
+     "p_so": 0.6877077221870422,
+     "p_bb": 0.31256070733070374
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Nick Sogard",
+     "p_so": 0.6472228765487671,
+     "p_bb": 0.2869775891304016
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Trevor Story",
+     "p_so": 0.6962118744850159,
+     "p_bb": 0.15800531208515167
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Caleb Durbin",
+     "p_so": 0.4235464632511139,
+     "p_bb": 0.22601565718650818
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Jarren Duran",
+     "p_so": 0.6402600407600403,
+     "p_bb": 0.19563713669776917
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Isiah Kiner-Falefa",
+     "p_so": 0.4349018931388855,
+     "p_bb": 0.1571177989244461
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Yandy Díaz",
+     "p_so": 0.553299605846405,
+     "p_bb": 0.36913400888442993
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Jonathan Aranda",
+     "p_so": 0.7206249833106995,
+     "p_bb": 0.36831772327423096
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Junior Caminero",
+     "p_so": 0.6006511449813843,
+     "p_bb": 0.3737599849700928
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Liam Hicks",
+     "p_so": 0.42393064498901367,
+     "p_bb": 0.3346475064754486
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Chandler Simpson",
+     "p_so": 0.32066282629966736,
+     "p_bb": 0.1771223098039627
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Victor Mesa Jr.",
+     "p_so": 0.5647104978561401,
+     "p_bb": 0.2993265390396118
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Richie Palacios",
+     "p_so": 0.495756596326828,
+     "p_bb": 0.3231562077999115
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Cedric Mullins",
+     "p_so": 0.5899986028671265,
+     "p_bb": 0.3012080192565918
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Jorge Mateo",
+     "p_so": 0.6543654799461365,
+     "p_bb": 0.17668034136295319
+    }
+   ],
+   "local": "Tampa Bay Rays",
+   "visita": "Boston Red Sox"
+  },
+  {
    "game_id": 824545,
    "bateadores": [
     {
@@ -2101,12 +2252,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 12,
+  "picks_hoy": 20,
   "ganadas": 1448,
   "perdidas": 660,
   "push": 0,
   "unidades": 394.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-09-19T16:12:27Z"
+ "fecha_actualizacion": "2026-09-19T16:57:22Z"
 }
