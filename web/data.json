@@ -1000,6 +1000,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-19",
+   "local": "San Diego Padres",
+   "visita": "Miami Marlins",
+   "linea": 7.5,
+   "prediccion": 8.93,
+   "prob_over": 0.4692769944667816,
+   "edge": 1.43,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +1.43 carreras, prob_over 46.9%)",
+   "evaluado_utc": "2026-09-19T22:42:48Z"
+  },
+  {
+   "fecha": "2026-09-19",
    "local": "Arizona Diamondbacks",
    "visita": "New York Yankees",
    "linea": 7.5,
@@ -4211,5 +4223,5 @@
   "unidades": 394.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-09-19T22:12:27Z"
+ "fecha_actualizacion": "2026-09-19T22:42:49Z"
 }
