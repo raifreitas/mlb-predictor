@@ -999,6 +999,18 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-09-19",
+   "local": "Chicago White Sox",
+   "visita": "Detroit Tigers",
+   "linea": 8.0,
+   "prediccion": 7.92,
+   "prob_over": 0.44957292079925537,
+   "edge": 0.08,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.08 carreras, prob_over 45.0%)",
+   "evaluado_utc": "2026-09-19T16:12:26Z"
+  },
+  {
    "fecha": "2026-09-18",
    "local": "Arizona Diamondbacks",
    "visita": "New York Yankees",
@@ -2096,5 +2108,5 @@
   "unidades": 394.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-09-19T15:36:27Z"
+ "fecha_actualizacion": "2026-09-19T16:12:27Z"
 }
