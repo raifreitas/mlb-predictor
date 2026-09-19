@@ -1000,6 +1000,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-19",
+   "local": "Houston Astros",
+   "visita": "Atlanta Braves",
+   "linea": 8.5,
+   "prediccion": 7.61,
+   "prob_over": 0.45521435141563416,
+   "edge": 0.89,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.89 carreras, prob_over 45.5%)",
+   "evaluado_utc": "2026-09-19T21:11:35Z"
+  },
+  {
+   "fecha": "2026-09-19",
    "local": "Texas Rangers",
    "visita": "Toronto Blue Jays",
    "linea": 7.5,
@@ -3710,5 +3722,5 @@
   "unidades": 394.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-09-19T21:07:21Z"
+ "fecha_actualizacion": "2026-09-19T21:11:36Z"
 }
