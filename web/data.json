@@ -1000,6 +1000,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-19",
+   "local": "Baltimore Orioles",
+   "visita": "Milwaukee Brewers",
+   "linea": 8.0,
+   "prediccion": 8.05,
+   "prob_over": 0.525201141834259,
+   "edge": 0.05,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.05 carreras, prob_over 52.5%)",
+   "evaluado_utc": "2026-09-19T18:07:28Z"
+  },
+  {
+   "fecha": "2026-09-19",
    "local": "Chicago White Sox",
    "visita": "Detroit Tigers",
    "linea": 8.0,
@@ -2418,5 +2430,5 @@
   "unidades": 394.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-09-19T17:36:52Z"
+ "fecha_actualizacion": "2026-09-19T18:07:29Z"
 }
