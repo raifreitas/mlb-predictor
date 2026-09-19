@@ -1000,6 +1000,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-19",
+   "local": "Los Angeles Angels",
+   "visita": "Minnesota Twins",
+   "linea": 7.5,
+   "prediccion": 8.39,
+   "prob_over": 0.4835559129714966,
+   "edge": 0.89,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.89 carreras, prob_over 48.4%)",
+   "evaluado_utc": "2026-09-19T23:40:00Z"
+  },
+  {
+   "fecha": "2026-09-19",
    "local": "Los Angeles Dodgers",
    "visita": "San Francisco Giants",
    "linea": 7.5,
@@ -4386,5 +4398,5 @@
   "unidades": 394.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-09-19T23:12:30Z"
+ "fecha_actualizacion": "2026-09-19T23:40:01Z"
 }
