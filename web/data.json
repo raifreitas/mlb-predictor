@@ -1000,6 +1000,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-19",
+   "local": "Cleveland Guardians",
+   "visita": "Athletics",
+   "linea": 7.5,
+   "prediccion": 8.5,
+   "prob_over": 0.5138975977897644,
+   "edge": 1.0,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +1.00 carreras, prob_over 51.4%)",
+   "evaluado_utc": "2026-09-19T20:12:22Z"
+  },
+  {
+   "fecha": "2026-09-19",
    "local": "New York Mets",
    "visita": "Philadelphia Phillies",
    "linea": 8.0,
@@ -2597,6 +2609,157 @@
    "visita": "Philadelphia Phillies"
   },
   {
+   "game_id": 824137,
+   "bateadores": [
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Drake Baldwin",
+     "p_so": 0.6074909567832947,
+     "p_bb": 0.3397965133190155
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Ronald Acuña Jr.",
+     "p_so": 0.594245195388794,
+     "p_bb": 0.3992350995540619
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Matt Olson",
+     "p_so": 0.6877820491790771,
+     "p_bb": 0.39025479555130005
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Michael Harris II",
+     "p_so": 0.573706328868866,
+     "p_bb": 0.1635381579399109
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Mauricio Dubón",
+     "p_so": 0.3963812589645386,
+     "p_bb": 0.17178680002689362
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Ozzie Albies",
+     "p_so": 0.4938834309577942,
+     "p_bb": 0.2504312992095947
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Mike Yastrzemski",
+     "p_so": 0.6280840635299683,
+     "p_bb": 0.3138256072998047
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Austin Riley",
+     "p_so": 0.7042946219444275,
+     "p_bb": 0.254914253950119
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Sean Murphy",
+     "p_so": 0.588775634765625,
+     "p_bb": 0.24716587364673615
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jeremy Peña",
+     "p_so": 0.6180861592292786,
+     "p_bb": 0.2327498197555542
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Yordan Alvarez",
+     "p_so": 0.5650250911712646,
+     "p_bb": 0.5306369662284851
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Isaac Paredes",
+     "p_so": 0.5150039792060852,
+     "p_bb": 0.43453162908554077
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Jose Altuve",
+     "p_so": 0.5199618339538574,
+     "p_bb": 0.310322642326355
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Yainer Diaz",
+     "p_so": 0.4907910227775574,
+     "p_bb": 0.16595248878002167
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Daulton Varsho",
+     "p_so": 0.6578370928764343,
+     "p_bb": 0.2536371648311615
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Christian Walker",
+     "p_so": 0.6042672991752625,
+     "p_bb": 0.271215558052063
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Cam Smith",
+     "p_so": 0.5942599773406982,
+     "p_bb": 0.2546481788158417
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "LaMonte Wade Jr.",
+     "p_so": 0.5153118371963501,
+     "p_bb": 0.30159375071525574
+    }
+   ],
+   "local": "Houston Astros",
+   "visita": "Atlanta Braves"
+  },
+  {
    "game_id": 824380,
    "bateadores": [
     {
@@ -3202,12 +3365,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 75,
+  "picks_hoy": 82,
   "ganadas": 1448,
   "perdidas": 660,
   "push": 0,
   "unidades": 394.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-09-19T19:56:35Z"
+ "fecha_actualizacion": "2026-09-19T20:12:23Z"
 }
