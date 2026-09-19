@@ -4933,7 +4933,8 @@
       "pitcher_visita": null,
       "hora_inicio_utc": "2026-09-19T20:10:00+00:00",
       "hora_corrida_utc": "2026-09-19T19:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-19T18:12:20.612808+00:00"
     },
     "New York Mets": {
       "local": "New York Mets",
@@ -4942,7 +4943,8 @@
       "pitcher_visita": 691725,
       "hora_inicio_utc": "2026-09-19T20:10:00+00:00",
       "hora_corrida_utc": "2026-09-19T19:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-19T18:12:20.612808+00:00"
     },
     "Cleveland Guardians": {
       "local": "Cleveland Guardians",

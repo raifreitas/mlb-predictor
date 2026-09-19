@@ -1000,6 +1000,30 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-19",
+   "local": "New York Mets",
+   "visita": "Philadelphia Phillies",
+   "linea": 8.0,
+   "prediccion": 7.12,
+   "prob_over": 0.4454026222229004,
+   "edge": 0.88,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.88 carreras, prob_over 44.5%)",
+   "evaluado_utc": "2026-09-19T18:12:25Z"
+  },
+  {
+   "fecha": "2026-09-19",
+   "local": "Tampa Bay Rays",
+   "visita": "Boston Red Sox",
+   "linea": 7.5,
+   "prediccion": 8.78,
+   "prob_over": 0.4520811438560486,
+   "edge": 1.28,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +1.28 carreras, prob_over 45.2%)",
+   "evaluado_utc": "2026-09-19T18:12:25Z"
+  },
+  {
+   "fecha": "2026-09-19",
    "local": "Baltimore Orioles",
    "visita": "Milwaukee Brewers",
    "linea": 8.0,
@@ -2420,15 +2444,166 @@
    ],
    "local": "Chicago White Sox",
    "visita": "Detroit Tigers"
+  },
+  {
+   "game_id": 824788,
+   "bateadores": [
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Jackson Chourio",
+     "p_so": 0.7114259600639343,
+     "p_bb": 0.24051643908023834
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Garrett Mitchell",
+     "p_so": 0.738749086856842,
+     "p_bb": 0.2700400650501251
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "William Contreras",
+     "p_so": 0.6526883244514465,
+     "p_bb": 0.31753021478652954
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Andrew Vaughn",
+     "p_so": 0.6370183229446411,
+     "p_bb": 0.24349524080753326
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Joey Ortiz",
+     "p_so": 0.5781158208847046,
+     "p_bb": 0.2544887363910675
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Gary Sánchez",
+     "p_so": 0.6506285071372986,
+     "p_bb": 0.28349635004997253
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Cooper Pratt",
+     "p_so": 0.5588958859443665,
+     "p_bb": 0.2347695231437683
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Luis Lara",
+     "p_so": 0.6217007040977478,
+     "p_bb": 0.21274885535240173
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "David Hamilton",
+     "p_so": 0.5357986688613892,
+     "p_bb": 0.1539585143327713
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jeremiah Jackson",
+     "p_so": 0.5379572510719299,
+     "p_bb": 0.16649693250656128
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Pete Alonso",
+     "p_so": 0.6904056668281555,
+     "p_bb": 0.3762435019016266
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Coby Mayo",
+     "p_so": 0.7304812073707581,
+     "p_bb": 0.30189669132232666
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Christian Encarnacion-Strand",
+     "p_so": 0.7206822633743286,
+     "p_bb": 0.2180190235376358
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Gunnar Henderson",
+     "p_so": 0.6430492997169495,
+     "p_bb": 0.32667964696884155
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Rece Hinds",
+     "p_so": 0.6735695004463196,
+     "p_bb": 0.2160220742225647
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Christian Franklin",
+     "p_so": 0.6461334824562073,
+     "p_bb": 0.24097223579883575
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Samuel Basallo",
+     "p_so": 0.5669615864753723,
+     "p_bb": 0.2155955731868744
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Leody Taveras",
+     "p_so": 0.6068752408027649,
+     "p_bb": 0.20448331534862518
+    }
+   ],
+   "local": "Baltimore Orioles",
+   "visita": "Milwaukee Brewers"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 31,
+  "picks_hoy": 44,
   "ganadas": 1448,
   "perdidas": 660,
   "push": 0,
   "unidades": 394.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-09-19T18:07:29Z"
+ "fecha_actualizacion": "2026-09-19T18:12:26Z"
 }
