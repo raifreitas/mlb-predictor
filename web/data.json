@@ -1081,6 +1081,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-20",
+   "local": "St. Louis Cardinals",
+   "visita": "Washington Nationals",
+   "linea": 9.0,
+   "prediccion": 7.73,
+   "prob_over": 0.43577003479003906,
+   "edge": 1.27,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 1.27 < 1.45)",
+   "evaluado_utc": "2026-09-20T16:17:30Z"
+  },
+  {
+   "fecha": "2026-09-20",
    "local": "Chicago White Sox",
    "visita": "Detroit Tigers",
    "linea": 8.0,
@@ -3008,6 +3020,157 @@
    "visita": "Atlanta Braves"
   },
   {
+   "game_id": 824300,
+   "bateadores": [
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "J.P. Crawford",
+     "p_so": 0.6040862798690796,
+     "p_bb": 0.40839558839797974
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Randy Arozarena",
+     "p_so": 0.6880964636802673,
+     "p_bb": 0.3863517642021179
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Dominic Canzone",
+     "p_so": 0.6066244840621948,
+     "p_bb": 0.2578055262565613
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Cal Raleigh",
+     "p_so": 0.7629300951957703,
+     "p_bb": 0.40217992663383484
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Julio Rodríguez",
+     "p_so": 0.6859317421913147,
+     "p_bb": 0.22740602493286133
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Josh Naylor",
+     "p_so": 0.4517732560634613,
+     "p_bb": 0.21490192413330078
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Cole Young",
+     "p_so": 0.4763004779815674,
+     "p_bb": 0.22331377863883972
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Lazaro Montes",
+     "p_so": 0.7192106246948242,
+     "p_bb": 0.18927441537380219
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Brock Rodden",
+     "p_so": 0.645099937915802,
+     "p_bb": 0.23289717733860016
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jake McCarthy",
+     "p_so": 0.5050309896469116,
+     "p_bb": 0.2479470819234848
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Connor Norby",
+     "p_so": 0.709475576877594,
+     "p_bb": 0.34030020236968994
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Hunter Goodman",
+     "p_so": 0.664191722869873,
+     "p_bb": 0.25676751136779785
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Cole Carrigg",
+     "p_so": 0.6380342245101929,
+     "p_bb": 0.26427406072616577
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Kyle Karros",
+     "p_so": 0.5412760972976685,
+     "p_bb": 0.3072918653488159
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Adael Amador",
+     "p_so": 0.4648153483867645,
+     "p_bb": 0.24469709396362305
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Brett Sullivan",
+     "p_so": 0.40904897451400757,
+     "p_bb": 0.18940354883670807
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Jordan Beck",
+     "p_so": 0.6268779635429382,
+     "p_bb": 0.21377386152744293
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Ezequiel Tovar",
+     "p_so": 0.5950844287872314,
+     "p_bb": 0.1949785053730011
+    }
+   ],
+   "local": "Colorado Rockies",
+   "visita": "Seattle Mariners"
+  },
+  {
    "game_id": 824381,
    "bateadores": [
     {
@@ -3462,12 +3625,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 82,
+  "picks_hoy": 93,
   "ganadas": 1547,
   "perdidas": 702,
   "push": 0,
   "unidades": 422.5,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-09-20T16:12:29Z"
+ "fecha_actualizacion": "2026-09-20T16:17:31Z"
 }
