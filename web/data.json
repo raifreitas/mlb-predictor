@@ -2768,15 +2768,166 @@
    ],
    "local": "Cincinnati Reds",
    "visita": "Chicago Cubs"
+  },
+  {
+   "game_id": 824546,
+   "bateadores": [
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Kevin McGonigle",
+     "p_so": 0.47809839248657227,
+     "p_bb": 0.4844224452972412
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Gleyber Torres",
+     "p_so": 0.5644732713699341,
+     "p_bb": 0.38708359003067017
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Hao-Yu Lee",
+     "p_so": 0.6903800964355469,
+     "p_bb": 0.32142823934555054
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Riley Greene",
+     "p_so": 0.7020423412322998,
+     "p_bb": 0.32936057448387146
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Eduardo Valencia",
+     "p_so": 0.574233889579773,
+     "p_bb": 0.18744130432605743
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Max Clark",
+     "p_so": 0.5722675323486328,
+     "p_bb": 0.2981630563735962
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Spencer Torkelson",
+     "p_so": 0.7161004543304443,
+     "p_bb": 0.33797594904899597
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Brett Callahan",
+     "p_so": 0.718995988368988,
+     "p_bb": 0.22968220710754395
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "John Peck",
+     "p_so": 0.5425463914871216,
+     "p_bb": 0.2615481913089752
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Sam Antonacci",
+     "p_so": 0.47638970613479614,
+     "p_bb": 0.3039165437221527
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Kyle Teel",
+     "p_so": 0.6659552454948425,
+     "p_bb": 0.36372801661491394
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Miguel Vargas",
+     "p_so": 0.567358672618866,
+     "p_bb": 0.4325070381164551
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Munetaka Murakami",
+     "p_so": 0.7963701486587524,
+     "p_bb": 0.5224500298500061
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Andrew Benintendi",
+     "p_so": 0.5263526439666748,
+     "p_bb": 0.27928999066352844
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Colson Montgomery",
+     "p_so": 0.7689656615257263,
+     "p_bb": 0.3004739582538605
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Chase Meidroth",
+     "p_so": 0.5239957571029663,
+     "p_bb": 0.3204067051410675
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Braden Montgomery",
+     "p_so": 0.4758904278278351,
+     "p_bb": 0.2955818772315979
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Brenton Doyle",
+     "p_so": 0.6124634146690369,
+     "p_bb": 0.16550903022289276
+    }
+   ],
+   "local": "Chicago White Sox",
+   "visita": "Detroit Tigers"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 45,
+  "picks_hoy": 53,
   "ganadas": 1547,
   "perdidas": 702,
   "push": 0,
   "unidades": 422.5,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-09-20T15:21:52Z"
+ "fecha_actualizacion": "2026-09-20T15:27:03Z"
 }
