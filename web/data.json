@@ -3471,9 +3471,17 @@
      "equipo": "Colorado Rockies",
      "is_home": true,
      "orden": 4,
+     "bateador": "TJ Rumfield",
+     "p_so": 0.45223742723464966,
+     "p_bb": 0.41557344794273376
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 4,
      "bateador": "Cole Carrigg",
-     "p_so": 0.6380342245101929,
-     "p_bb": 0.26427406072616577
+     "p_so": 0.6252367496490479,
+     "p_bb": 0.2607012987136841
     },
     {
      "equipo": "Colorado Rockies",
@@ -3971,15 +3979,166 @@
    ],
    "local": "Chicago White Sox",
    "visita": "Detroit Tigers"
+  },
+  {
+   "game_id": 825028,
+   "bateadores": [
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Ben Rice",
+     "p_so": 0.6456083059310913,
+     "p_bb": 0.4237799048423767
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Cody Bellinger",
+     "p_so": 0.50559002161026,
+     "p_bb": 0.30560600757598877
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Heliot Ramos",
+     "p_so": 0.6639761924743652,
+     "p_bb": 0.26680997014045715
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Luis García Jr.",
+     "p_so": 0.5602098703384399,
+     "p_bb": 0.18487389385700226
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "George Lombard Jr.",
+     "p_so": 0.6793180108070374,
+     "p_bb": 0.23857097327709198
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Spencer Jones",
+     "p_so": 0.7738183736801147,
+     "p_bb": 0.3104793429374695
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Anthony Volpe",
+     "p_so": 0.6140903234481812,
+     "p_bb": 0.21032649278640747
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Austin Wells",
+     "p_so": 0.6209049224853516,
+     "p_bb": 0.3047093451023102
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "José Caballero",
+     "p_so": 0.5729485750198364,
+     "p_bb": 0.21394938230514526
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Lars Nootbaar",
+     "p_so": 0.5873245000839233,
+     "p_bb": 0.4309917390346527
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Ketel Marte",
+     "p_so": 0.5321372747421265,
+     "p_bb": 0.3558894097805023
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Gabriel Moreno",
+     "p_so": 0.539820671081543,
+     "p_bb": 0.39597296714782715
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Geraldo Perdomo",
+     "p_so": 0.4644036293029785,
+     "p_bb": 0.4305042028427124
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Corbin Carroll",
+     "p_so": 0.6929770708084106,
+     "p_bb": 0.331057071685791
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Nolan Arenado",
+     "p_so": 0.5138157606124878,
+     "p_bb": 0.2493797242641449
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Jesús Sánchez",
+     "p_so": 0.6531602740287781,
+     "p_bb": 0.21335802972316742
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Pavin Smith",
+     "p_so": 0.5782556533813477,
+     "p_bb": 0.2545244097709656
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Tim Tawa",
+     "p_so": 0.6242453455924988,
+     "p_bb": 0.23138418793678284
+    }
+   ],
+   "local": "Arizona Diamondbacks",
+   "visita": "New York Yankees"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 111,
+  "picks_hoy": 120,
   "ganadas": 1547,
   "perdidas": 702,
   "push": 0,
   "unidades": 422.5,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-09-20T17:47:25Z"
+ "fecha_actualizacion": "2026-09-20T17:52:07Z"
 }
