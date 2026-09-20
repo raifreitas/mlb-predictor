@@ -2152,15 +2152,166 @@
    ],
    "local": "Tampa Bay Rays",
    "visita": "Boston Red Sox"
+  },
+  {
+   "game_id": 824381,
+   "bateadores": [
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Henry Bolte",
+     "p_so": 0.8325326442718506,
+     "p_bb": 0.36766332387924194
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Shea Langeliers",
+     "p_so": 0.6824241876602173,
+     "p_bb": 0.23801347613334656
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Lawrence Butler",
+     "p_so": 0.8359617590904236,
+     "p_bb": 0.375398188829422
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Zack Gelof",
+     "p_so": 0.8295097351074219,
+     "p_bb": 0.2847197353839874
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Donovan Walton",
+     "p_so": 0.6158249974250793,
+     "p_bb": 0.3117702901363373
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Tommy White",
+     "p_so": 0.5948286652565002,
+     "p_bb": 0.16643008589744568
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Alika Williams",
+     "p_so": 0.6699888110160828,
+     "p_bb": 0.19162581861019135
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Jonah Heim",
+     "p_so": 0.5839871168136597,
+     "p_bb": 0.19922825694084167
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Denzel Clarke",
+     "p_so": 0.673349916934967,
+     "p_bb": 0.17372223734855652
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Steven Kwan",
+     "p_so": 0.37096238136291504,
+     "p_bb": 0.3662997782230377
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "José Ramírez",
+     "p_so": 0.4442429542541504,
+     "p_bb": 0.3621536195278168
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Chase DeLauter",
+     "p_so": 0.5002352595329285,
+     "p_bb": 0.37436068058013916
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Jo Adell",
+     "p_so": 0.7433980107307434,
+     "p_bb": 0.2507057785987854
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Travis Bazzana",
+     "p_so": 0.5558058619499207,
+     "p_bb": 0.3543020486831665
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Nathaniel Lowe",
+     "p_so": 0.6900846362113953,
+     "p_bb": 0.3274208903312683
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Angel Martínez",
+     "p_so": 0.5822151303291321,
+     "p_bb": 0.1888834834098816
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Patrick Bailey",
+     "p_so": 0.6405099630355835,
+     "p_bb": 0.25900062918663025
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Angel Genao",
+     "p_so": 0.4088074564933777,
+     "p_bb": 0.2244727611541748
+    }
+   ],
+   "local": "Cleveland Guardians",
+   "visita": "Athletics"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 5,
+  "picks_hoy": 15,
   "ganadas": 1547,
   "perdidas": 702,
   "push": 0,
   "unidades": 422.5,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-09-20T14:32:29Z"
+ "fecha_actualizacion": "2026-09-20T14:37:38Z"
 }
