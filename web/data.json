@@ -1065,6 +1065,18 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-09-20",
+   "local": "New York Mets",
+   "visita": "Philadelphia Phillies",
+   "linea": 8.0,
+   "prediccion": 8.27,
+   "prob_over": 0.49730154871940613,
+   "edge": 0.27,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.27 carreras, prob_over 49.7%)",
+   "evaluado_utc": "2026-09-20T15:12:54Z"
+  },
+  {
    "fecha": "2026-09-19",
    "local": "Los Angeles Angels",
    "visita": "Minnesota Twins",
@@ -2615,5 +2627,5 @@
   "unidades": 422.5,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-09-20T14:56:56Z"
+ "fecha_actualizacion": "2026-09-20T15:12:55Z"
 }
