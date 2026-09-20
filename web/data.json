@@ -2614,6 +2614,157 @@
    "visita": "Washington Nationals"
   },
   {
+   "game_id": 823247,
+   "bateadores": [
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Kyle Stowers",
+     "p_so": 0.7764585614204407,
+     "p_bb": 0.3977227210998535
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Otto Lopez",
+     "p_so": 0.48428910970687866,
+     "p_bb": 0.26059219241142273
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Griffin Conine",
+     "p_so": 0.7632272839546204,
+     "p_bb": 0.3700008690357208
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Heriberto Hernández",
+     "p_so": 0.7478677034378052,
+     "p_bb": 0.38550427556037903
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Jakob Marsee",
+     "p_so": 0.5668140053749084,
+     "p_bb": 0.3826904296875
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Javier Sanoja",
+     "p_so": 0.3513354957103729,
+     "p_bb": 0.19730478525161743
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Graham Pauley",
+     "p_so": 0.5849823951721191,
+     "p_bb": 0.23885296285152435
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Joe Mack",
+     "p_so": 0.6171930432319641,
+     "p_bb": 0.20092925429344177
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Deyvison De Los Santos",
+     "p_so": 0.6383249163627625,
+     "p_bb": 0.16439376771450043
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Fernando Tatis Jr.",
+     "p_so": 0.5929138660430908,
+     "p_bb": 0.3149738907814026
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Dustin Harris",
+     "p_so": 0.5150480270385742,
+     "p_bb": 0.24573005735874176
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Manny Machado",
+     "p_so": 0.5687645077705383,
+     "p_bb": 0.3519781529903412
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Ty France",
+     "p_so": 0.5507557988166809,
+     "p_bb": 0.2463892549276352
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Jackson Merrill",
+     "p_so": 0.5730181336402893,
+     "p_bb": 0.21363376080989838
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Xander Bogaerts",
+     "p_so": 0.5420615077018738,
+     "p_bb": 0.3010716736316681
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Jake Cronenworth",
+     "p_so": 0.5479731559753418,
+     "p_bb": 0.2845268249511719
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Samad Taylor",
+     "p_so": 0.5702679753303528,
+     "p_bb": 0.26389193534851074
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Ethan Salas",
+     "p_so": 0.5788699984550476,
+     "p_bb": 0.14448416233062744
+    }
+   ],
+   "local": "San Diego Padres",
+   "visita": "Miami Marlins"
+  },
+  {
    "game_id": 823329,
    "bateadores": [
     {
@@ -4133,12 +4284,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 120,
+  "picks_hoy": 125,
   "ganadas": 1547,
   "perdidas": 702,
   "push": 0,
   "unidades": 422.5,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-09-20T17:52:07Z"
+ "fecha_actualizacion": "2026-09-20T18:02:32Z"
 }
