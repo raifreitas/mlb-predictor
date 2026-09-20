@@ -1096,6 +1096,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-20",
+   "local": "Baltimore Orioles",
+   "visita": "Milwaukee Brewers",
+   "linea": 7.5,
+   "prediccion": 6.64,
+   "prob_over": 0.5294435024261475,
+   "edge": 0.86,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.86 carreras, prob_over 52.9%)",
+   "evaluado_utc": "2026-09-20T21:21:43Z"
+  },
+  {
+   "fecha": "2026-09-20",
    "local": "Arizona Diamondbacks",
    "visita": "New York Yankees",
    "linea": 8.0,
@@ -4490,5 +4502,5 @@
   "unidades": 422.5,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-09-20T20:52:32Z"
+ "fecha_actualizacion": "2026-09-20T21:21:44Z"
 }
