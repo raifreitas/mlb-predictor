@@ -1076,9 +1076,36 @@
    "total": null,
    "creado": "2026-09-20 15:37:03",
    "verificado": null
+  },
+  {
+   "id": 1063,
+   "fecha": "2026-09-20",
+   "local": "Colorado Rockies",
+   "visita": "Seattle Mariners",
+   "tipo": "OVER",
+   "linea": 10.5,
+   "unidades": 0.5,
+   "edge": 1.97,
+   "cuota": 1.84,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-20 17:12:32",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-20",
+   "local": "Colorado Rockies",
+   "visita": "Seattle Mariners",
+   "linea": 10.5,
+   "prediccion": 12.47,
+   "prob_over": 0.8117584586143494,
+   "edge": 1.97,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-20T17:12:32Z"
+  },
   {
    "fecha": "2026-09-20",
    "local": "Texas Rangers",
@@ -3795,5 +3822,5 @@
   "unidades": 422.5,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-09-20T17:07:31Z"
+ "fecha_actualizacion": "2026-09-20T17:12:33Z"
 }
