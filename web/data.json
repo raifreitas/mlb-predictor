@@ -2154,6 +2154,157 @@
    "visita": "Boston Red Sox"
   },
   {
+   "game_id": 823329,
+   "bateadores": [
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Maikel Garcia",
+     "p_so": 0.5338283777236938,
+     "p_bb": 0.2636794149875641
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Bobby Witt Jr.",
+     "p_so": 0.5950189232826233,
+     "p_bb": 0.3529227077960968
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Jac Caglianone",
+     "p_so": 0.6836420297622681,
+     "p_bb": 0.2568787634372711
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Salvador Perez",
+     "p_so": 0.6682921051979065,
+     "p_bb": 0.21010953187942505
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Michael Massey",
+     "p_so": 0.5232224464416504,
+     "p_bb": 0.1820075511932373
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Nick Loftin",
+     "p_so": 0.5732915997505188,
+     "p_bb": 0.3235664963722229
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "John Rave",
+     "p_so": 0.6593066453933716,
+     "p_bb": 0.33221790194511414
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Luke Maile",
+     "p_so": 0.6219480037689209,
+     "p_bb": 0.27289992570877075
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Tyler Tolbert",
+     "p_so": 0.5297223925590515,
+     "p_bb": 0.19785811007022858
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Konnor Griffin",
+     "p_so": 0.5952720046043396,
+     "p_bb": 0.1914294958114624
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Brandon Lowe",
+     "p_so": 0.7600502967834473,
+     "p_bb": 0.3270597755908966
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Bryan Reynolds",
+     "p_so": 0.6566475033760071,
+     "p_bb": 0.31346186995506287
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Oneil Cruz",
+     "p_so": 0.7591915726661682,
+     "p_bb": 0.3636949360370636
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Nick Gonzales",
+     "p_so": 0.5297818779945374,
+     "p_bb": 0.19583801925182343
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Ryan O'Hearn",
+     "p_so": 0.5684322118759155,
+     "p_bb": 0.22384917736053467
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Rafael Flores Jr.",
+     "p_so": 0.6521841883659363,
+     "p_bb": 0.2224757820367813
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Spencer Horwitz",
+     "p_so": 0.4979044795036316,
+     "p_bb": 0.2693662643432617
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Jake Mangum",
+     "p_so": 0.4564284086227417,
+     "p_bb": 0.13438396155834198
+    }
+   ],
+   "local": "Pittsburgh Pirates",
+   "visita": "Kansas City Royals"
+  },
+  {
    "game_id": 824381,
    "bateadores": [
     {
@@ -2457,12 +2608,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 26,
+  "picks_hoy": 34,
   "ganadas": 1547,
   "perdidas": 702,
   "push": 0,
   "unidades": 422.5,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-09-20T14:52:16Z"
+ "fecha_actualizacion": "2026-09-20T14:56:56Z"
 }
