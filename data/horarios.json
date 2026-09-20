@@ -5115,7 +5115,8 @@
       "pitcher_visita": 527048,
       "hora_inicio_utc": "2026-09-20T18:10:00+00:00",
       "hora_corrida_utc": "2026-09-20T17:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-20T16:12:24.444793+00:00"
     },
     "Chicago White Sox": {
       "local": "Chicago White Sox",
@@ -5124,7 +5125,8 @@
       "pitcher_visita": 675512,
       "hora_inicio_utc": "2026-09-20T18:10:00+00:00",
       "hora_corrida_utc": "2026-09-20T17:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-20T16:12:24.444793+00:00"
     },
     "St. Louis Cardinals": {
       "local": "St. Louis Cardinals",

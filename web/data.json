@@ -1081,6 +1081,30 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-20",
+   "local": "Chicago White Sox",
+   "visita": "Detroit Tigers",
+   "linea": 8.0,
+   "prediccion": 8.56,
+   "prob_over": 0.47130250930786133,
+   "edge": 0.56,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.56 carreras, prob_over 47.1%)",
+   "evaluado_utc": "2026-09-20T16:12:28Z"
+  },
+  {
+   "fecha": "2026-09-20",
+   "local": "Houston Astros",
+   "visita": "Atlanta Braves",
+   "linea": 8.0,
+   "prediccion": 7.15,
+   "prob_over": 0.4554789066314697,
+   "edge": 0.85,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.85 carreras, prob_over 45.5%)",
+   "evaluado_utc": "2026-09-20T16:12:28Z"
+  },
+  {
+   "fecha": "2026-09-20",
    "local": "Cincinnati Reds",
    "visita": "Chicago Cubs",
    "linea": 10.0,
@@ -2380,6 +2404,157 @@
    "visita": "Boston Red Sox"
   },
   {
+   "game_id": 823001,
+   "bateadores": [
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "James Wood",
+     "p_so": 0.7369332313537598,
+     "p_bb": 0.4197198748588562
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Andrés Chaparro",
+     "p_so": 0.6057310104370117,
+     "p_bb": 0.32043230533599854
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Brady House",
+     "p_so": 0.6438318490982056,
+     "p_bb": 0.2668304741382599
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "CJ Abrams",
+     "p_so": 0.6581118702888489,
+     "p_bb": 0.27154016494750977
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Dylan Crews",
+     "p_so": 0.6630887985229492,
+     "p_bb": 0.24912847578525543
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Daylen Lile",
+     "p_so": 0.576463520526886,
+     "p_bb": 0.239328071475029
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Harry Ford",
+     "p_so": 0.6127303242683411,
+     "p_bb": 0.2872198820114136
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Jacob Young",
+     "p_so": 0.46801692247390747,
+     "p_bb": 0.24687372148036957
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Nasim Nuñez",
+     "p_so": 0.48989298939704895,
+     "p_bb": 0.2558267116546631
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "JJ Wetherholt",
+     "p_so": 0.4620484411716461,
+     "p_bb": 0.3211109936237335
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Iván Herrera",
+     "p_so": 0.5597578883171082,
+     "p_bb": 0.4099484086036682
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Alec Burleson",
+     "p_so": 0.4856685996055603,
+     "p_bb": 0.3036024868488312
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Jordan Walker",
+     "p_so": 0.6909003257751465,
+     "p_bb": 0.2735329270362854
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Leo Bernal",
+     "p_so": 0.5384339094161987,
+     "p_bb": 0.2589099705219269
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Thomas Saggese",
+     "p_so": 0.6027388572692871,
+     "p_bb": 0.22870099544525146
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Bryan Torres",
+     "p_so": 0.5248773097991943,
+     "p_bb": 0.2914409339427948
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "José Fermín",
+     "p_so": 0.363676518201828,
+     "p_bb": 0.25898969173431396
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Nathan Church",
+     "p_so": 0.46337661147117615,
+     "p_bb": 0.1932596117258072
+    }
+   ],
+   "local": "St. Louis Cardinals",
+   "visita": "Washington Nationals"
+  },
+  {
    "game_id": 823329,
    "bateadores": [
     {
@@ -3287,12 +3462,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 74,
+  "picks_hoy": 82,
   "ganadas": 1547,
   "perdidas": 702,
   "push": 0,
   "unidades": 422.5,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-09-20T15:47:25Z"
+ "fecha_actualizacion": "2026-09-20T16:12:29Z"
 }
