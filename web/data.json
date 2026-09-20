@@ -2317,6 +2317,157 @@
    "visita": "Kansas City Royals"
   },
   {
+   "game_id": 823570,
+   "bateadores": [
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Kyle Schwarber",
+     "p_so": 0.825767457485199,
+     "p_bb": 0.5300844311714172
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Trea Turner",
+     "p_so": 0.6570782661437988,
+     "p_bb": 0.27566200494766235
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Bryce Harper",
+     "p_so": 0.7520656585693359,
+     "p_bb": 0.4628474712371826
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Luis Arraez",
+     "p_so": 0.18531206250190735,
+     "p_bb": 0.16937240958213806
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Alec Bohm",
+     "p_so": 0.5769100785255432,
+     "p_bb": 0.273223876953125
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Bryson Stott",
+     "p_so": 0.6195576786994934,
+     "p_bb": 0.2677870988845825
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Brandon Marsh",
+     "p_so": 0.7332803010940552,
+     "p_bb": 0.267414927482605
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "J.T. Realmuto",
+     "p_so": 0.6375008821487427,
+     "p_bb": 0.22499004006385803
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Justin Crawford",
+     "p_so": 0.4620336890220642,
+     "p_bb": 0.18651199340820312
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Francisco Lindor",
+     "p_so": 0.6453099846839905,
+     "p_bb": 0.22862300276756287
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Juan Soto",
+     "p_so": 0.5985391736030579,
+     "p_bb": 0.3453054130077362
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Bo Bichette",
+     "p_so": 0.5850000977516174,
+     "p_bb": 0.1976134479045868
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Mark Vientos",
+     "p_so": 0.6616049408912659,
+     "p_bb": 0.20003026723861694
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Carson Benge",
+     "p_so": 0.6462231278419495,
+     "p_bb": 0.20007504522800446
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Marcus Semien",
+     "p_so": 0.5522749423980713,
+     "p_bb": 0.22171428799629211
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Francisco Alvarez",
+     "p_so": 0.7037777900695801,
+     "p_bb": 0.2110818475484848
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Nick Morabito",
+     "p_so": 0.6092095375061035,
+     "p_bb": 0.15436670184135437
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Luis Torrens",
+     "p_so": 0.5603339672088623,
+     "p_bb": 0.14168845117092133
+    }
+   ],
+   "local": "New York Mets",
+   "visita": "Philadelphia Phillies"
+  },
+  {
    "game_id": 824381,
    "bateadores": [
     {
@@ -2620,12 +2771,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 34,
+  "picks_hoy": 45,
   "ganadas": 1547,
   "perdidas": 702,
   "push": 0,
   "unidades": 422.5,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-09-20T15:12:55Z"
+ "fecha_actualizacion": "2026-09-20T15:21:52Z"
 }
