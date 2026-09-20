@@ -2078,6 +2078,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 822844,
+   "bateadores": [
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Brett Bateman",
+     "p_so": 0.7106873393058777,
+     "p_bb": 0.26006272435188293
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Vladimir Guerrero Jr.",
+     "p_so": 0.566092848777771,
+     "p_bb": 0.30888813734054565
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Nathan Lukes",
+     "p_so": 0.5398801565170288,
+     "p_bb": 0.21750162541866302
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Kazuma Okamoto",
+     "p_so": 0.7931568026542664,
+     "p_bb": 0.2786557972431183
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Sean Keys",
+     "p_so": 0.6750637292861938,
+     "p_bb": 0.16218551993370056
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Josh Smith",
+     "p_so": 0.653976321220398,
+     "p_bb": 0.2659819722175598
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Andrés Giménez",
+     "p_so": 0.593457043170929,
+     "p_bb": 0.13138259947299957
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Brandon Valenzuela",
+     "p_so": 0.6370092630386353,
+     "p_bb": 0.22877629101276398
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Ernie Clement",
+     "p_so": 0.3335455060005188,
+     "p_bb": 0.10048718750476837
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Wyatt Langford",
+     "p_so": 0.7019537091255188,
+     "p_bb": 0.4729943573474884
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Corey Seager",
+     "p_so": 0.6627345681190491,
+     "p_bb": 0.4084102511405945
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Josh Jung",
+     "p_so": 0.557176947593689,
+     "p_bb": 0.19790928065776825
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Ezequiel Duran",
+     "p_so": 0.6870842576026917,
+     "p_bb": 0.27193108201026917
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Brandon Nimmo",
+     "p_so": 0.7244294881820679,
+     "p_bb": 0.3668011724948883
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Jake Burger",
+     "p_so": 0.7487033009529114,
+     "p_bb": 0.26454126834869385
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Nicky Lopez",
+     "p_so": 0.4602503776550293,
+     "p_bb": 0.26808667182922363
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Danny Jansen",
+     "p_so": 0.5477824807167053,
+     "p_bb": 0.2647906541824341
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Evan Carter",
+     "p_so": 0.6204147934913635,
+     "p_bb": 0.2637557089328766
+    }
+   ],
+   "local": "Texas Rangers",
+   "visita": "Toronto Blue Jays"
+  },
+  {
    "game_id": 822922,
    "bateadores": [
     {
@@ -3136,12 +3287,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 63,
+  "picks_hoy": 74,
   "ganadas": 1547,
   "perdidas": 702,
   "push": 0,
   "unidades": 422.5,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-09-20T15:42:08Z"
+ "fecha_actualizacion": "2026-09-20T15:47:25Z"
 }
