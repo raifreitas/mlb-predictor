@@ -2881,6 +2881,157 @@
    "visita": "Philadelphia Phillies"
   },
   {
+   "game_id": 823896,
+   "bateadores": [
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Jonah Cox",
+     "p_so": 0.7813710570335388,
+     "p_bb": 0.24026083946228027
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Jung Hoo Lee",
+     "p_so": 0.3752964735031128,
+     "p_bb": 0.23730528354644775
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Victor Bericoto",
+     "p_so": 0.5936479568481445,
+     "p_bb": 0.18434877693653107
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Andrew Knizner",
+     "p_so": 0.564047634601593,
+     "p_bb": 0.18414384126663208
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Brett Harris",
+     "p_so": 0.583642840385437,
+     "p_bb": 0.24472059309482574
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Scott Bandura",
+     "p_so": 0.7244765758514404,
+     "p_bb": 0.17385126650333405
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Shay Whitcomb",
+     "p_so": 0.6479288339614868,
+     "p_bb": 0.19164729118347168
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Grant McCray",
+     "p_so": 0.6909478902816772,
+     "p_bb": 0.1956709921360016
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Christian Koss",
+     "p_so": 0.5783292651176453,
+     "p_bb": 0.17411763966083527
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Mookie Betts",
+     "p_so": 0.39442896842956543,
+     "p_bb": 0.39862462878227234
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Tommy Edman",
+     "p_so": 0.5099963545799255,
+     "p_bb": 0.2711784541606903
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Teoscar Hernández",
+     "p_so": 0.7101699113845825,
+     "p_bb": 0.33014485239982605
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Freddie Freeman",
+     "p_so": 0.5217957496643066,
+     "p_bb": 0.36862263083457947
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Miguel Rojas",
+     "p_so": 0.3456145226955414,
+     "p_bb": 0.21624691784381866
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Max Muncy",
+     "p_so": 0.6447693705558777,
+     "p_bb": 0.37300020456314087
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Josue De Paula",
+     "p_so": 0.47804248332977295,
+     "p_bb": 0.3072485327720642
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Enrique Hernández",
+     "p_so": 0.5471891164779663,
+     "p_bb": 0.2478795200586319
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Hunter Feduccia",
+     "p_so": 0.46865010261535645,
+     "p_bb": 0.2173219919204712
+    }
+   ],
+   "local": "Los Angeles Dodgers",
+   "visita": "San Francisco Giants"
+  },
+  {
    "game_id": 824139,
    "bateadores": [
     {
@@ -3637,12 +3788,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 93,
+  "picks_hoy": 99,
   "ganadas": 1547,
   "perdidas": 702,
   "push": 0,
   "unidades": 422.5,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-09-20T16:37:12Z"
+ "fecha_actualizacion": "2026-09-20T17:07:31Z"
 }
