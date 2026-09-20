@@ -4180,6 +4180,157 @@
    "visita": "Detroit Tigers"
   },
   {
+   "game_id": 824789,
+   "bateadores": [
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Jackson Chourio",
+     "p_so": 0.6488027572631836,
+     "p_bb": 0.284504771232605
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Brice Turang",
+     "p_so": 0.7080821394920349,
+     "p_bb": 0.4596969187259674
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "William Contreras",
+     "p_so": 0.588793933391571,
+     "p_bb": 0.3891909718513489
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jake Bauers",
+     "p_so": 0.7497230768203735,
+     "p_bb": 0.5030107498168945
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Joey Ortiz",
+     "p_so": 0.49883145093917847,
+     "p_bb": 0.3220175802707672
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Christian Yelich",
+     "p_so": 0.6792390942573547,
+     "p_bb": 0.342324435710907
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Cooper Pratt",
+     "p_so": 0.48220932483673096,
+     "p_bb": 0.2903081476688385
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Garrett Mitchell",
+     "p_so": 0.7157899141311646,
+     "p_bb": 0.3114071190357208
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Sal Frelick",
+     "p_so": 0.39783820509910583,
+     "p_bb": 0.23977941274642944
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Dylan Beavers",
+     "p_so": 0.7535205483436584,
+     "p_bb": 0.3976452350616455
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Pete Alonso",
+     "p_so": 0.7896632552146912,
+     "p_bb": 0.3958783745765686
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Gunnar Henderson",
+     "p_so": 0.7532976865768433,
+     "p_bb": 0.36504194140434265
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Coby Mayo",
+     "p_so": 0.778570294380188,
+     "p_bb": 0.3003133237361908
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Samuel Basallo",
+     "p_so": 0.7199202179908752,
+     "p_bb": 0.25164994597435
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Jeremiah Jackson",
+     "p_so": 0.6371891498565674,
+     "p_bb": 0.1587357521057129
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Colton Cowser",
+     "p_so": 0.7811340093612671,
+     "p_bb": 0.31686702370643616
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Leody Taveras",
+     "p_so": 0.6952708959579468,
+     "p_bb": 0.2266826182603836
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Carlos Narváez",
+     "p_so": 0.6520231366157532,
+     "p_bb": 0.19263051450252533
+    }
+   ],
+   "local": "Baltimore Orioles",
+   "visita": "Milwaukee Brewers"
+  },
+  {
    "game_id": 825028,
    "bateadores": [
     {
@@ -4332,12 +4483,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 125,
+  "picks_hoy": 139,
   "ganadas": 1547,
   "perdidas": 702,
   "push": 0,
   "unidades": 422.5,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-09-20T18:12:38Z"
+ "fecha_actualizacion": "2026-09-20T20:52:32Z"
 }
