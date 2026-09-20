@@ -2270,6 +2270,14 @@
     {
      "equipo": "Texas Rangers",
      "is_home": true,
+     "orden": 5,
+     "bateador": "Alejandro Osuna",
+     "p_so": 0.48715054988861084,
+     "p_bb": 0.27642565965652466
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
      "orden": 6,
      "bateador": "Jake Burger",
      "p_so": 0.7487033009529114,
@@ -3822,5 +3830,5 @@
   "unidades": 422.5,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-09-20T17:12:33Z"
+ "fecha_actualizacion": "2026-09-20T17:32:05Z"
 }
