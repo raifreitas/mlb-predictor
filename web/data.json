@@ -964,6 +964,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-21",
+   "local": "San Francisco Giants",
+   "visita": "Minnesota Twins",
+   "linea": 8.5,
+   "prediccion": 9.17,
+   "prob_over": 0.5313311219215393,
+   "edge": 0.67,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.67 carreras, prob_over 53.1%)",
+   "evaluado_utc": "2026-09-21T23:47:16Z"
+  },
+  {
+   "fecha": "2026-09-21",
    "local": "Detroit Tigers",
    "visita": "Washington Nationals",
    "linea": 8.5,
@@ -2295,5 +2307,5 @@
   "unidades": 449.5,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-09-21T20:43:06Z"
+ "fecha_actualizacion": "2026-09-21T23:47:18Z"
 }
