@@ -963,6 +963,18 @@
  ],
  "evaluaciones": [
   {
+   "fecha": "2026-09-21",
+   "local": "Baltimore Orioles",
+   "visita": "Toronto Blue Jays",
+   "linea": 7.5,
+   "prediccion": 7.66,
+   "prob_over": 0.45136579871177673,
+   "edge": 0.16,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.16 carreras, prob_over 45.1%)",
+   "evaluado_utc": "2026-09-21T20:37:41Z"
+  },
+  {
    "fecha": "2026-09-20",
    "local": "Baltimore Orioles",
    "visita": "Milwaukee Brewers",
@@ -2271,5 +2283,5 @@
   "unidades": 449.5,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-09-21T19:52:34Z"
+ "fecha_actualizacion": "2026-09-21T20:37:43Z"
 }
