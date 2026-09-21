@@ -5208,5 +5208,34 @@
       "estado": "ejecutado",
       "ejecutado_utc": "2026-09-20T21:21:40.369092+00:00"
     }
+  },
+  "2026-09-21": {
+    "Baltimore Orioles": {
+      "local": "Baltimore Orioles",
+      "visita": "Toronto Blue Jays",
+      "pitcher_local": 669358,
+      "pitcher_visita": 702056,
+      "hora_inicio_utc": "2026-09-21T22:35:00+00:00",
+      "hora_corrida_utc": "2026-09-21T22:05:00+00:00",
+      "estado": "pendiente"
+    },
+    "Detroit Tigers": {
+      "local": "Detroit Tigers",
+      "visita": "Washington Nationals",
+      "pitcher_local": 689981,
+      "pitcher_visita": 687792,
+      "hora_inicio_utc": "2026-09-21T22:40:00+00:00",
+      "hora_corrida_utc": "2026-09-21T22:10:00+00:00",
+      "estado": "pendiente"
+    },
+    "San Francisco Giants": {
+      "local": "San Francisco Giants",
+      "visita": "Minnesota Twins",
+      "pitcher_local": 694918,
+      "pitcher_visita": 805673,
+      "hora_inicio_utc": "2026-09-22T01:45:00+00:00",
+      "hora_corrida_utc": "2026-09-22T01:15:00+00:00",
+      "estado": "pendiente"
+    }
   }
 }
