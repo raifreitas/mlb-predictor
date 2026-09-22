@@ -1957,6 +1957,157 @@
    "visita": "St. Louis Cardinals"
   },
   {
+   "game_id": 823412,
+   "bateadores": [
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Garrett Mitchell",
+     "p_so": 0.7805744409561157,
+     "p_bb": 0.3272875249385834
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Jackson Chourio",
+     "p_so": 0.6999280452728271,
+     "p_bb": 0.23589926958084106
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Brice Turang",
+     "p_so": 0.7509614825248718,
+     "p_bb": 0.3785353899002075
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "William Contreras",
+     "p_so": 0.6519766449928284,
+     "p_bb": 0.31846117973327637
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Jake Bauers",
+     "p_so": 0.7530555725097656,
+     "p_bb": 0.4153144657611847
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Christian Yelich",
+     "p_so": 0.7129429578781128,
+     "p_bb": 0.2902531921863556
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Luis Lara",
+     "p_so": 0.6520993113517761,
+     "p_bb": 0.24942132830619812
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Cooper Pratt",
+     "p_so": 0.518750011920929,
+     "p_bb": 0.23910562694072723
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "David Hamilton",
+     "p_so": 0.6034804582595825,
+     "p_bb": 0.17472803592681885
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Kyle Schwarber",
+     "p_so": 0.7774482369422913,
+     "p_bb": 0.5482711791992188
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Trea Turner",
+     "p_so": 0.6150575876235962,
+     "p_bb": 0.2622264325618744
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Bryce Harper",
+     "p_so": 0.6850651502609253,
+     "p_bb": 0.45815563201904297
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Luis Arraez",
+     "p_so": 0.16313901543617249,
+     "p_bb": 0.16361592710018158
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Alec Bohm",
+     "p_so": 0.48945552110671997,
+     "p_bb": 0.25818249583244324
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Bryson Stott",
+     "p_so": 0.5672112703323364,
+     "p_bb": 0.2650442123413086
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "J.T. Realmuto",
+     "p_so": 0.6313207149505615,
+     "p_bb": 0.22653420269489288
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Brandon Marsh",
+     "p_so": 0.6771788001060486,
+     "p_bb": 0.2622775733470917
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Justin Crawford",
+     "p_so": 0.4398529827594757,
+     "p_bb": 0.1739576905965805
+    }
+   ],
+   "local": "Philadelphia Phillies",
+   "visita": "Milwaukee Brewers"
+  },
+  {
    "game_id": 823543,
    "bateadores": [
     {
@@ -2570,12 +2721,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 47,
+  "picks_hoy": 60,
   "ganadas": 1663,
   "perdidas": 752,
   "push": 0,
   "unidades": 455.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-22T19:37:53Z"
+ "fecha_actualizacion": "2026-09-22T19:42:45Z"
 }
