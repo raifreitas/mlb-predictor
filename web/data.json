@@ -2114,15 +2114,166 @@
    ],
    "local": "New York Yankees",
    "visita": "Tampa Bay Rays"
+  },
+  {
+   "game_id": 824222,
+   "bateadores": [
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "James Wood",
+     "p_so": 0.7193343043327332,
+     "p_bb": 0.4959046542644501
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Daylen Lile",
+     "p_so": 0.5970396995544434,
+     "p_bb": 0.2900386154651642
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Dylan Crews",
+     "p_so": 0.687534749507904,
+     "p_bb": 0.2940136194229126
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "CJ Abrams",
+     "p_so": 0.6980810165405273,
+     "p_bb": 0.2831835150718689
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Andrés Chaparro",
+     "p_so": 0.5923566818237305,
+     "p_bb": 0.32295164465904236
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Jorbit Vivas",
+     "p_so": 0.5238919258117676,
+     "p_bb": 0.338611900806427
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Yohandy Morales",
+     "p_so": 0.6598084568977356,
+     "p_bb": 0.2200518250465393
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Keibert Ruiz",
+     "p_so": 0.31029099225997925,
+     "p_bb": 0.15165498852729797
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Nasim Nuñez",
+     "p_so": 0.46282801032066345,
+     "p_bb": 0.2454424649477005
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Gleyber Torres",
+     "p_so": 0.6501411199569702,
+     "p_bb": 0.3765866756439209
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Hao-Yu Lee",
+     "p_so": 0.740687370300293,
+     "p_bb": 0.3021230697631836
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Kevin McGonigle",
+     "p_so": 0.42446258664131165,
+     "p_bb": 0.4664894938468933
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Eduardo Valencia",
+     "p_so": 0.6320396661758423,
+     "p_bb": 0.18488755822181702
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Ben Malgeri",
+     "p_so": 0.6611171960830688,
+     "p_bb": 0.29580381512641907
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Max Clark",
+     "p_so": 0.6181600093841553,
+     "p_bb": 0.27387723326683044
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Spencer Torkelson",
+     "p_so": 0.7829456925392151,
+     "p_bb": 0.3201160132884979
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Javier Báez",
+     "p_so": 0.6045244336128235,
+     "p_bb": 0.14239831268787384
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "John Peck",
+     "p_so": 0.6042913198471069,
+     "p_bb": 0.25261348485946655
+    }
+   ],
+   "local": "Detroit Tigers",
+   "visita": "Washington Nationals"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 18,
+  "picks_hoy": 30,
   "ganadas": 1663,
   "perdidas": 752,
   "push": 0,
   "unidades": 455.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-22T18:42:40Z"
+ "fecha_actualizacion": "2026-09-22T19:07:47Z"
 }
