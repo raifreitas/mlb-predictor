@@ -1941,6 +1941,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 823089,
+   "bateadores": [
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Jeremy Peña",
+     "p_so": 0.7176502346992493,
+     "p_bb": 0.1924995481967926
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Yordan Alvarez",
+     "p_so": 0.684093177318573,
+     "p_bb": 0.4572036862373352
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Isaac Paredes",
+     "p_so": 0.6481408476829529,
+     "p_bb": 0.37177610397338867
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jose Altuve",
+     "p_so": 0.6394270062446594,
+     "p_bb": 0.2513735890388489
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Yainer Diaz",
+     "p_so": 0.5830005407333374,
+     "p_bb": 0.13429605960845947
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Christian Walker",
+     "p_so": 0.7498453855514526,
+     "p_bb": 0.2358637899160385
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Taylor Trammell",
+     "p_so": 0.76153963804245,
+     "p_bb": 0.2975100576877594
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Cam Smith",
+     "p_so": 0.7002636194229126,
+     "p_bb": 0.20767612755298615
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Brice Matthews",
+     "p_so": 0.6453081965446472,
+     "p_bb": 0.1420212686061859
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "J.P. Crawford",
+     "p_so": 0.6242114305496216,
+     "p_bb": 0.4349897801876068
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Randy Arozarena",
+     "p_so": 0.7028074264526367,
+     "p_bb": 0.4052092432975769
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Dominic Canzone",
+     "p_so": 0.6417344808578491,
+     "p_bb": 0.29533910751342773
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Cal Raleigh",
+     "p_so": 0.7713512182235718,
+     "p_bb": 0.4189947247505188
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Julio Rodríguez",
+     "p_so": 0.6894423961639404,
+     "p_bb": 0.25295305252075195
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Josh Naylor",
+     "p_so": 0.452862024307251,
+     "p_bb": 0.240398570895195
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Cole Young",
+     "p_so": 0.4799371361732483,
+     "p_bb": 0.25811129808425903
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Lazaro Montes",
+     "p_so": 0.7476171255111694,
+     "p_bb": 0.23667749762535095
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Brock Rodden",
+     "p_so": 0.6669912934303284,
+     "p_bb": 0.2575218975543976
+    }
+   ],
+   "local": "Seattle Mariners",
+   "visita": "Houston Astros"
+  },
+  {
    "game_id": 823166,
    "bateadores": [
     {
@@ -2702,6 +2853,157 @@
    ],
    "local": "New York Yankees",
    "visita": "Tampa Bay Rays"
+  },
+  {
+   "game_id": 823897,
+   "bateadores": [
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Fernando Tatis Jr.",
+     "p_so": 0.6046048998832703,
+     "p_bb": 0.3778587579727173
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Dustin Harris",
+     "p_so": 0.5336319208145142,
+     "p_bb": 0.2737782299518585
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Manny Machado",
+     "p_so": 0.6118171811103821,
+     "p_bb": 0.3894314765930176
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Ty France",
+     "p_so": 0.6043949723243713,
+     "p_bb": 0.2930809259414673
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Jackson Merrill",
+     "p_so": 0.5896793603897095,
+     "p_bb": 0.256213515996933
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Austin Hays",
+     "p_so": 0.6129513382911682,
+     "p_bb": 0.20465506613254547
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Xander Bogaerts",
+     "p_so": 0.5625039339065552,
+     "p_bb": 0.35879990458488464
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Luis Campusano",
+     "p_so": 0.5106104612350464,
+     "p_bb": 0.25544601678848267
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Jake Cronenworth",
+     "p_so": 0.51637202501297,
+     "p_bb": 0.32185834646224976
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Mookie Betts",
+     "p_so": 0.43830403685569763,
+     "p_bb": 0.4115176200866699
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Freddie Freeman",
+     "p_so": 0.5688019394874573,
+     "p_bb": 0.37793251872062683
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Will Smith",
+     "p_so": 0.5339807271957397,
+     "p_bb": 0.39056506752967834
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Max Muncy",
+     "p_so": 0.692246675491333,
+     "p_bb": 0.4367508888244629
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Kyle Tucker",
+     "p_so": 0.4996432363986969,
+     "p_bb": 0.43977832794189453
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Teoscar Hernández",
+     "p_so": 0.720403254032135,
+     "p_bb": 0.2600586414337158
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Josue De Paula",
+     "p_so": 0.5635111331939697,
+     "p_bb": 0.3002687990665436
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Andy Pages",
+     "p_so": 0.5202657580375671,
+     "p_bb": 0.20938700437545776
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Tommy Edman",
+     "p_so": 0.45266193151474,
+     "p_bb": 0.2100396305322647
+    }
+   ],
+   "local": "Los Angeles Dodgers",
+   "visita": "San Diego Padres"
   },
   {
    "game_id": 824061,
@@ -3762,12 +4064,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 121,
+  "picks_hoy": 142,
   "ganadas": 1663,
   "perdidas": 752,
   "push": 0,
   "unidades": 455.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-22T22:47:53Z"
+ "fecha_actualizacion": "2026-09-22T22:52:47Z"
 }
