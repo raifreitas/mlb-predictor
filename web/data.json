@@ -2569,6 +2569,157 @@
    "visita": "Arizona Diamondbacks"
   },
   {
+   "game_id": 824709,
+   "bateadores": [
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Steven Kwan",
+     "p_so": 0.48525768518447876,
+     "p_bb": 0.3291573226451874
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "José Ramírez",
+     "p_so": 0.4810074269771576,
+     "p_bb": 0.2952103614807129
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Chase DeLauter",
+     "p_so": 0.5584477782249451,
+     "p_bb": 0.3153395652770996
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jo Adell",
+     "p_so": 0.7841472625732422,
+     "p_bb": 0.2344452291727066
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Angel Martínez",
+     "p_so": 0.665613055229187,
+     "p_bb": 0.17825311422348022
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "David Fry",
+     "p_so": 0.7013260126113892,
+     "p_bb": 0.26823827624320984
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Travis Bazzana",
+     "p_so": 0.5966421365737915,
+     "p_bb": 0.2740529179573059
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Austin Hedges",
+     "p_so": 0.6626281142234802,
+     "p_bb": 0.22397659718990326
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Brayan Rocchio",
+     "p_so": 0.5330666899681091,
+     "p_bb": 0.20154722034931183
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Roman Anthony",
+     "p_so": 0.73721843957901,
+     "p_bb": 0.3228949010372162
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Nick Sogard",
+     "p_so": 0.6921314597129822,
+     "p_bb": 0.25979265570640564
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Jahmai Jones",
+     "p_so": 0.6479728817939758,
+     "p_bb": 0.28187331557273865
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Wilyer Abreu",
+     "p_so": 0.7295473217964172,
+     "p_bb": 0.31163763999938965
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Adley Rutschman",
+     "p_so": 0.5590693950653076,
+     "p_bb": 0.27502116560935974
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Caleb Durbin",
+     "p_so": 0.4615362584590912,
+     "p_bb": 0.23388203978538513
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Andruw Monasterio",
+     "p_so": 0.6000540852546692,
+     "p_bb": 0.21827185153961182
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Isiah Kiner-Falefa",
+     "p_so": 0.4765273332595825,
+     "p_bb": 0.18439921736717224
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Nate Eaton",
+     "p_so": 0.5934964418411255,
+     "p_bb": 0.19161461293697357
+    }
+   ],
+   "local": "Boston Red Sox",
+   "visita": "Cleveland Guardians"
+  },
+  {
    "game_id": 824867,
    "bateadores": [
     {
@@ -2721,12 +2872,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 60,
+  "picks_hoy": 69,
   "ganadas": 1663,
   "perdidas": 752,
   "push": 0,
   "unidades": 455.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-22T19:42:45Z"
+ "fecha_actualizacion": "2026-09-22T19:47:43Z"
 }
