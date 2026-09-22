@@ -2156,16 +2156,16 @@
      "is_home": true,
      "orden": 7,
      "bateador": "J.T. Realmuto",
-     "p_so": 0.6313207149505615,
-     "p_bb": 0.22653420269489288
+     "p_so": 0.6099674701690674,
+     "p_bb": 0.2267613559961319
     },
     {
      "equipo": "Philadelphia Phillies",
      "is_home": true,
      "orden": 8,
      "bateador": "Brandon Marsh",
-     "p_so": 0.6771788001060486,
-     "p_bb": 0.2622775733470917
+     "p_so": 0.7036393284797668,
+     "p_bb": 0.2683330476284027
     },
     {
      "equipo": "Philadelphia Phillies",
@@ -3253,5 +3253,5 @@
   "unidades": 455.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-22T21:17:46Z"
+ "fecha_actualizacion": "2026-09-22T21:32:21Z"
 }
