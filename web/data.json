@@ -1806,466 +1806,164 @@
  ],
  "batter_props_hoy": [
   {
-   "game_id": 823169,
+   "game_id": 823543,
    "bateadores": [
     {
-     "equipo": "Minnesota Twins",
+     "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 1,
-     "bateador": "Walker Jenkins",
-     "p_so": 0.6305524110794067,
-     "p_bb": 0.35205647349357605
+     "bateador": "Yandy Díaz",
+     "p_so": 0.5686463117599487,
+     "p_bb": 0.34414345026016235
     },
     {
-     "equipo": "Minnesota Twins",
+     "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 2,
-     "bateador": "Luke Keaschall",
-     "p_so": 0.4851408898830414,
-     "p_bb": 0.387515127658844
+     "bateador": "Jonathan Aranda",
+     "p_so": 0.7473106980323792,
+     "p_bb": 0.3528880178928375
     },
     {
-     "equipo": "Minnesota Twins",
+     "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 3,
-     "bateador": "Brooks Lee",
-     "p_so": 0.5062419772148132,
-     "p_bb": 0.2593097388744354
+     "bateador": "Junior Caminero",
+     "p_so": 0.6587949991226196,
+     "p_bb": 0.36826640367507935
     },
     {
-     "equipo": "Minnesota Twins",
+     "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 4,
-     "bateador": "Kody Clemens",
-     "p_so": 0.6481478810310364,
-     "p_bb": 0.3023589253425598
+     "bateador": "Liam Hicks",
+     "p_so": 0.4567059278488159,
+     "p_bb": 0.30582693219184875
     },
     {
-     "equipo": "Minnesota Twins",
+     "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 5,
-     "bateador": "Ryan Jeffers",
-     "p_so": 0.5960007309913635,
-     "p_bb": 0.37576496601104736
+     "bateador": "Chandler Simpson",
+     "p_so": 0.3925034701824188,
+     "p_bb": 0.16520747542381287
     },
     {
-     "equipo": "Minnesota Twins",
+     "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 6,
-     "bateador": "Alan Roden",
-     "p_so": 0.5277226567268372,
-     "p_bb": 0.24696974456310272
+     "bateador": "Jonny DeLuca",
+     "p_so": 0.6371883749961853,
+     "p_bb": 0.18680906295776367
     },
     {
-     "equipo": "Minnesota Twins",
+     "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 7,
-     "bateador": "Aaron Sabato",
-     "p_so": 0.5701333284378052,
-     "p_bb": 0.26808762550354004
+     "bateador": "Victor Mesa Jr.",
+     "p_so": 0.4866603910923004,
+     "p_bb": 0.2917080521583557
     },
     {
-     "equipo": "Minnesota Twins",
+     "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 8,
-     "bateador": "Emmanuel Rodriguez",
-     "p_so": 0.6579346656799316,
-     "p_bb": 0.2112189680337906
+     "bateador": "Ben Williamson",
+     "p_so": 0.5010038614273071,
+     "p_bb": 0.16390269994735718
     },
     {
-     "equipo": "Minnesota Twins",
+     "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 9,
-     "bateador": "Ryan Kreidler",
-     "p_so": 0.5696122050285339,
-     "p_bb": 0.2350197732448578
+     "bateador": "Richie Palacios",
+     "p_so": 0.3858852982521057,
+     "p_bb": 0.2082439512014389
     },
     {
-     "equipo": "San Francisco Giants",
+     "equipo": "New York Yankees",
      "is_home": true,
      "orden": 1,
-     "bateador": "Drew Gilbert",
-     "p_so": 0.5230657458305359,
-     "p_bb": 0.27741268277168274
+     "bateador": "Ben Rice",
+     "p_so": 0.5959181189537048,
+     "p_bb": 0.4019164741039276
     },
     {
-     "equipo": "San Francisco Giants",
+     "equipo": "New York Yankees",
      "is_home": true,
      "orden": 2,
-     "bateador": "Jonah Cox",
-     "p_so": 0.7492480278015137,
-     "p_bb": 0.21838299930095673
+     "bateador": "Cody Bellinger",
+     "p_so": 0.4716668426990509,
+     "p_bb": 0.28416547179222107
     },
     {
-     "equipo": "San Francisco Giants",
+     "equipo": "New York Yankees",
      "is_home": true,
      "orden": 3,
-     "bateador": "Bo Davidson",
-     "p_so": 0.6001048684120178,
-     "p_bb": 0.2559843957424164
+     "bateador": "Heliot Ramos",
+     "p_so": 0.6212196350097656,
+     "p_bb": 0.2493714988231659
     },
     {
-     "equipo": "San Francisco Giants",
+     "equipo": "New York Yankees",
      "is_home": true,
      "orden": 4,
-     "bateador": "Marcelo Mayer",
-     "p_so": 0.5146347880363464,
-     "p_bb": 0.18872076272964478
+     "bateador": "Luis García Jr.",
+     "p_so": 0.5183743834495544,
+     "p_bb": 0.1609552502632141
     },
     {
-     "equipo": "San Francisco Giants",
+     "equipo": "New York Yankees",
      "is_home": true,
      "orden": 5,
-     "bateador": "Brett Harris",
-     "p_so": 0.5624996423721313,
-     "p_bb": 0.24186600744724274
+     "bateador": "George Lombard Jr.",
+     "p_so": 0.6152194142341614,
+     "p_bb": 0.21250788867473602
     },
     {
-     "equipo": "San Francisco Giants",
+     "equipo": "New York Yankees",
      "is_home": true,
      "orden": 6,
-     "bateador": "Drew Cavanaugh",
-     "p_so": 0.6933057904243469,
-     "p_bb": 0.27328020334243774
+     "bateador": "Spencer Jones",
+     "p_so": 0.7412681579589844,
+     "p_bb": 0.27441510558128357
     },
     {
-     "equipo": "San Francisco Giants",
+     "equipo": "New York Yankees",
      "is_home": true,
      "orden": 7,
-     "bateador": "Osleivis Basabe",
-     "p_so": 0.5792794227600098,
-     "p_bb": 0.19223763048648834
+     "bateador": "Anthony Volpe",
+     "p_so": 0.6026520729064941,
+     "p_bb": 0.19880181550979614
     },
     {
-     "equipo": "San Francisco Giants",
+     "equipo": "New York Yankees",
      "is_home": true,
      "orden": 8,
-     "bateador": "Scott Bandura",
-     "p_so": 0.6864954233169556,
-     "p_bb": 0.1426345705986023
+     "bateador": "Ali Sánchez",
+     "p_so": 0.5418543219566345,
+     "p_bb": 0.14872731268405914
     },
     {
-     "equipo": "San Francisco Giants",
+     "equipo": "New York Yankees",
      "is_home": true,
      "orden": 9,
-     "bateador": "Christian Koss",
-     "p_so": 0.6128672957420349,
-     "p_bb": 0.16063407063484192
+     "bateador": "José Caballero",
+     "p_so": 0.5419934391975403,
+     "p_bb": 0.20993222296237946
     }
    ],
-   "local": "San Francisco Giants",
-   "visita": "Minnesota Twins"
-  },
-  {
-   "game_id": 824221,
-   "bateadores": [
-    {
-     "equipo": "Washington Nationals",
-     "is_home": false,
-     "orden": 1,
-     "bateador": "James Wood",
-     "p_so": 0.7107642292976379,
-     "p_bb": 0.4786413908004761
-    },
-    {
-     "equipo": "Washington Nationals",
-     "is_home": false,
-     "orden": 2,
-     "bateador": "Daylen Lile",
-     "p_so": 0.5652516484260559,
-     "p_bb": 0.2774048149585724
-    },
-    {
-     "equipo": "Washington Nationals",
-     "is_home": false,
-     "orden": 3,
-     "bateador": "Abimelec Ortiz",
-     "p_so": 0.6587313413619995,
-     "p_bb": 0.2373970001935959
-    },
-    {
-     "equipo": "Washington Nationals",
-     "is_home": false,
-     "orden": 4,
-     "bateador": "CJ Abrams",
-     "p_so": 0.6846038103103638,
-     "p_bb": 0.2872186303138733
-    },
-    {
-     "equipo": "Washington Nationals",
-     "is_home": false,
-     "orden": 5,
-     "bateador": "Dylan Crews",
-     "p_so": 0.6483107805252075,
-     "p_bb": 0.26650938391685486
-    },
-    {
-     "equipo": "Washington Nationals",
-     "is_home": false,
-     "orden": 6,
-     "bateador": "Jorbit Vivas",
-     "p_so": 0.5209670066833496,
-     "p_bb": 0.33156728744506836
-    },
-    {
-     "equipo": "Washington Nationals",
-     "is_home": false,
-     "orden": 7,
-     "bateador": "Brady House",
-     "p_so": 0.613180935382843,
-     "p_bb": 0.24031317234039307
-    },
-    {
-     "equipo": "Washington Nationals",
-     "is_home": false,
-     "orden": 8,
-     "bateador": "Keibert Ruiz",
-     "p_so": 0.3117327094078064,
-     "p_bb": 0.14575564861297607
-    },
-    {
-     "equipo": "Washington Nationals",
-     "is_home": false,
-     "orden": 9,
-     "bateador": "Jacob Young",
-     "p_so": 0.4253128170967102,
-     "p_bb": 0.24457331001758575
-    },
-    {
-     "equipo": "Detroit Tigers",
-     "is_home": true,
-     "orden": 1,
-     "bateador": "Gleyber Torres",
-     "p_so": 0.5807307362556458,
-     "p_bb": 0.4182192385196686
-    },
-    {
-     "equipo": "Detroit Tigers",
-     "is_home": true,
-     "orden": 2,
-     "bateador": "Hao-Yu Lee",
-     "p_so": 0.669535219669342,
-     "p_bb": 0.3228403925895691
-    },
-    {
-     "equipo": "Detroit Tigers",
-     "is_home": true,
-     "orden": 3,
-     "bateador": "Riley Greene",
-     "p_so": 0.7021376490592957,
-     "p_bb": 0.3399761915206909
-    },
-    {
-     "equipo": "Detroit Tigers",
-     "is_home": true,
-     "orden": 4,
-     "bateador": "Eduardo Valencia",
-     "p_so": 0.5854798555374146,
-     "p_bb": 0.19727130234241486
-    },
-    {
-     "equipo": "Detroit Tigers",
-     "is_home": true,
-     "orden": 5,
-     "bateador": "Ben Malgeri",
-     "p_so": 0.668114423751831,
-     "p_bb": 0.331128865480423
-    },
-    {
-     "equipo": "Detroit Tigers",
-     "is_home": true,
-     "orden": 6,
-     "bateador": "Dillon Dingler",
-     "p_so": 0.6506918668746948,
-     "p_bb": 0.19280202686786652
-    },
-    {
-     "equipo": "Detroit Tigers",
-     "is_home": true,
-     "orden": 7,
-     "bateador": "Spencer Torkelson",
-     "p_so": 0.7101844549179077,
-     "p_bb": 0.3456013798713684
-    },
-    {
-     "equipo": "Detroit Tigers",
-     "is_home": true,
-     "orden": 8,
-     "bateador": "Javier Báez",
-     "p_so": 0.5757351517677307,
-     "p_bb": 0.17706812918186188
-    },
-    {
-     "equipo": "Detroit Tigers",
-     "is_home": true,
-     "orden": 9,
-     "bateador": "John Peck",
-     "p_so": 0.5169925093650818,
-     "p_bb": 0.23982422053813934
-    }
-   ],
-   "local": "Detroit Tigers",
-   "visita": "Washington Nationals"
-  },
-  {
-   "game_id": 824787,
-   "bateadores": [
-    {
-     "equipo": "Toronto Blue Jays",
-     "is_home": false,
-     "orden": 1,
-     "bateador": "Brett Bateman",
-     "p_so": 0.6283630728721619,
-     "p_bb": 0.3358457684516907
-    },
-    {
-     "equipo": "Toronto Blue Jays",
-     "is_home": false,
-     "orden": 2,
-     "bateador": "Alejandro Kirk",
-     "p_so": 0.4348393678665161,
-     "p_bb": 0.34140560030937195
-    },
-    {
-     "equipo": "Toronto Blue Jays",
-     "is_home": false,
-     "orden": 3,
-     "bateador": "Nathan Lukes",
-     "p_so": 0.47789302468299866,
-     "p_bb": 0.2859078049659729
-    },
-    {
-     "equipo": "Toronto Blue Jays",
-     "is_home": false,
-     "orden": 4,
-     "bateador": "George Springer",
-     "p_so": 0.5722105503082275,
-     "p_bb": 0.34530752897262573
-    },
-    {
-     "equipo": "Toronto Blue Jays",
-     "is_home": false,
-     "orden": 5,
-     "bateador": "Sean Keys",
-     "p_so": 0.5951592922210693,
-     "p_bb": 0.20874445140361786
-    },
-    {
-     "equipo": "Toronto Blue Jays",
-     "is_home": false,
-     "orden": 6,
-     "bateador": "Kazuma Okamoto",
-     "p_so": 0.7329468727111816,
-     "p_bb": 0.3076947331428528
-    },
-    {
-     "equipo": "Toronto Blue Jays",
-     "is_home": false,
-     "orden": 7,
-     "bateador": "Josh Smith",
-     "p_so": 0.5766234397888184,
-     "p_bb": 0.3232238292694092
-    },
-    {
-     "equipo": "Toronto Blue Jays",
-     "is_home": false,
-     "orden": 8,
-     "bateador": "Andrés Giménez",
-     "p_so": 0.4744323790073395,
-     "p_bb": 0.16470487415790558
-    },
-    {
-     "equipo": "Toronto Blue Jays",
-     "is_home": false,
-     "orden": 9,
-     "bateador": "Ernie Clement",
-     "p_so": 0.33191996812820435,
-     "p_bb": 0.13179001212120056
-    },
-    {
-     "equipo": "Baltimore Orioles",
-     "is_home": true,
-     "orden": 1,
-     "bateador": "Dylan Beavers",
-     "p_so": 0.7151615619659424,
-     "p_bb": 0.43279752135276794
-    },
-    {
-     "equipo": "Baltimore Orioles",
-     "is_home": true,
-     "orden": 2,
-     "bateador": "Pete Alonso",
-     "p_so": 0.7145960927009583,
-     "p_bb": 0.42791736125946045
-    },
-    {
-     "equipo": "Baltimore Orioles",
-     "is_home": true,
-     "orden": 3,
-     "bateador": "Gunnar Henderson",
-     "p_so": 0.6832687258720398,
-     "p_bb": 0.39125722646713257
-    },
-    {
-     "equipo": "Baltimore Orioles",
-     "is_home": true,
-     "orden": 4,
-     "bateador": "Coby Mayo",
-     "p_so": 0.7427316308021545,
-     "p_bb": 0.3341677486896515
-    },
-    {
-     "equipo": "Baltimore Orioles",
-     "is_home": true,
-     "orden": 5,
-     "bateador": "Christian Encarnacion-Strand",
-     "p_so": 0.7032739520072937,
-     "p_bb": 0.22332654893398285
-    },
-    {
-     "equipo": "Baltimore Orioles",
-     "is_home": true,
-     "orden": 6,
-     "bateador": "Samuel Basallo",
-     "p_so": 0.6572826504707336,
-     "p_bb": 0.27592697739601135
-    },
-    {
-     "equipo": "Baltimore Orioles",
-     "is_home": true,
-     "orden": 7,
-     "bateador": "Rece Hinds",
-     "p_so": 0.6881466507911682,
-     "p_bb": 0.2352900505065918
-    },
-    {
-     "equipo": "Baltimore Orioles",
-     "is_home": true,
-     "orden": 8,
-     "bateador": "Colton Cowser",
-     "p_so": 0.7215756177902222,
-     "p_bb": 0.3123800754547119
-    },
-    {
-     "equipo": "Baltimore Orioles",
-     "is_home": true,
-     "orden": 9,
-     "bateador": "José Barrero",
-     "p_so": 0.5548222064971924,
-     "p_bb": 0.21174287796020508
-    }
-   ],
-   "local": "Baltimore Orioles",
-   "visita": "Toronto Blue Jays"
+   "local": "New York Yankees",
+   "visita": "Tampa Bay Rays"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 0,
+  "picks_hoy": 7,
   "ganadas": 1663,
   "perdidas": 752,
   "push": 0,
   "unidades": 455.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-22T12:07:39Z"
+ "fecha_actualizacion": "2026-09-22T14:57:27Z"
 }
