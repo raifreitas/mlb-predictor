@@ -1868,6 +1868,14 @@
      "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 8,
+     "bateador": "Jorge Mateo",
+     "p_so": 0.6818856596946716,
+     "p_bb": 0.2024177610874176
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 8,
      "bateador": "Ben Williamson",
      "p_so": 0.5010038614273071,
      "p_bb": 0.16390269994735718
@@ -1958,12 +1966,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 7,
+  "picks_hoy": 8,
   "ganadas": 1663,
   "perdidas": 752,
   "push": 0,
   "unidades": 455.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-22T14:57:27Z"
+ "fecha_actualizacion": "2026-09-22T15:27:45Z"
 }
