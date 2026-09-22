@@ -968,6 +968,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-22",
+   "local": "Colorado Rockies",
+   "visita": "Arizona Diamondbacks",
+   "linea": 11.0,
+   "prediccion": 11.45,
+   "prob_over": 0.7548489570617676,
+   "edge": 0.45,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Filtro Extremo (linea 11.45 >= 9.5)",
+   "evaluado_utc": "2026-09-22T22:42:22Z"
+  },
+  {
+   "fecha": "2026-09-22",
    "local": "Texas Rangers",
    "visita": "New York Mets",
    "linea": 8.0,
@@ -3606,5 +3618,5 @@
   "unidades": 455.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-22T22:06:50Z"
+ "fecha_actualizacion": "2026-09-22T22:42:24Z"
 }
