@@ -1941,6 +1941,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 823166,
+   "bateadores": [
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Luke Keaschall",
+     "p_so": 0.5372554063796997,
+     "p_bb": 0.317767471075058
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Brooks Lee",
+     "p_so": 0.5708409547805786,
+     "p_bb": 0.21422599256038666
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Kody Clemens",
+     "p_so": 0.7206085324287415,
+     "p_bb": 0.2623002231121063
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Josh Bell",
+     "p_so": 0.6672767400741577,
+     "p_bb": 0.2937960922718048
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Walker Jenkins",
+     "p_so": 0.649993896484375,
+     "p_bb": 0.2756807506084442
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Emmanuel Rodriguez",
+     "p_so": 0.6756405234336853,
+     "p_bb": 0.1810300350189209
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Royce Lewis",
+     "p_so": 0.6596385836601257,
+     "p_bb": 0.23163820803165436
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Victor Caratini",
+     "p_so": 0.5391733646392822,
+     "p_bb": 0.20653977990150452
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Ryan Kreidler",
+     "p_so": 0.6124765872955322,
+     "p_bb": 0.20970824360847473
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Drew Gilbert",
+     "p_so": 0.5608494877815247,
+     "p_bb": 0.28634804487228394
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Jonah Cox",
+     "p_so": 0.7871452569961548,
+     "p_bb": 0.22116732597351074
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Victor Bericoto",
+     "p_so": 0.515629231929779,
+     "p_bb": 0.1693316102027893
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Turner Hill",
+     "p_so": 0.5982382297515869,
+     "p_bb": 0.36568209528923035
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Bo Davidson",
+     "p_so": 0.6391178965568542,
+     "p_bb": 0.15168234705924988
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Shay Whitcomb",
+     "p_so": 0.6951122879981995,
+     "p_bb": 0.1911974996328354
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Scott Bandura",
+     "p_so": 0.7103853225708008,
+     "p_bb": 0.17064782977104187
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Drew Cavanaugh",
+     "p_so": 0.718475878238678,
+     "p_bb": 0.2663362920284271
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Christian Koss",
+     "p_so": 0.6759353280067444,
+     "p_bb": 0.17325009405612946
+    }
+   ],
+   "local": "San Francisco Giants",
+   "visita": "Minnesota Twins"
+  },
+  {
    "game_id": 823328,
    "bateadores": [
     {
@@ -3611,12 +3762,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 109,
+  "picks_hoy": 121,
   "ganadas": 1663,
   "perdidas": 752,
   "push": 0,
   "unidades": 455.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-22T22:42:24Z"
+ "fecha_actualizacion": "2026-09-22T22:47:53Z"
 }
