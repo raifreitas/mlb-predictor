@@ -953,6 +953,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-22",
+   "local": "New York Yankees",
+   "visita": "Tampa Bay Rays",
+   "linea": 6.0,
+   "prediccion": 6.3,
+   "prob_over": 0.39030513167381287,
+   "edge": 0.3,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.30 carreras, prob_over 39.0%)",
+   "evaluado_utc": "2026-09-22T21:05:44Z"
+  },
+  {
+   "fecha": "2026-09-22",
    "local": "Boston Red Sox",
    "visita": "Cleveland Guardians",
    "linea": 6.5,
@@ -3078,5 +3090,5 @@
   "unidades": 455.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-22T20:47:00Z"
+ "fecha_actualizacion": "2026-09-22T21:05:45Z"
 }
