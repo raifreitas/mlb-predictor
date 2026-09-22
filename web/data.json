@@ -968,6 +968,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-22",
+   "local": "San Francisco Giants",
+   "visita": "Minnesota Twins",
+   "linea": 7.5,
+   "prediccion": 8.74,
+   "prob_over": 0.5128176212310791,
+   "edge": 1.24,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 1.24 < 1.45)",
+   "evaluado_utc": "2026-09-22T23:47:48Z"
+  },
+  {
+   "fecha": "2026-09-22",
    "local": "Athletics",
    "visita": "Los Angeles Angels",
    "linea": 9.5,
@@ -4246,5 +4258,5 @@
   "unidades": 455.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-22T23:42:52Z"
+ "fecha_actualizacion": "2026-09-22T23:47:49Z"
 }

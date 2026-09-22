@@ -5378,7 +5378,8 @@
       "pitcher_visita": 671737,
       "hora_inicio_utc": "2026-09-23T01:45:00+00:00",
       "hora_corrida_utc": "2026-09-23T01:15:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-22T23:47:43.440890+00:00"
     },
     "Los Angeles Dodgers": {
       "local": "Los Angeles Dodgers",
