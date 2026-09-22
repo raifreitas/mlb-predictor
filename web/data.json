@@ -1806,6 +1806,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 823328,
+   "bateadores": [
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "JJ Wetherholt",
+     "p_so": 0.5665527582168579,
+     "p_bb": 0.2831743359565735
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Iván Herrera",
+     "p_so": 0.6804733276367188,
+     "p_bb": 0.35998523235321045
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Alec Burleson",
+     "p_so": 0.6726024746894836,
+     "p_bb": 0.26982077956199646
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jordan Walker",
+     "p_so": 0.8183652758598328,
+     "p_bb": 0.2519756853580475
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Leo Bernal",
+     "p_so": 0.656013011932373,
+     "p_bb": 0.22451309859752655
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Bryan Torres",
+     "p_so": 0.6272189617156982,
+     "p_bb": 0.24465727806091309
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Thomas Saggese",
+     "p_so": 0.7232388854026794,
+     "p_bb": 0.1898881494998932
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Nathan Church",
+     "p_so": 0.5959962010383606,
+     "p_bb": 0.17163187265396118
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Masyn Winn",
+     "p_so": 0.5075271129608154,
+     "p_bb": 0.17968936264514923
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Konnor Griffin",
+     "p_so": 0.5634724497795105,
+     "p_bb": 0.22080285847187042
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Brandon Lowe",
+     "p_so": 0.7379563450813293,
+     "p_bb": 0.3807950019836426
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Bryan Reynolds",
+     "p_so": 0.6356279253959656,
+     "p_bb": 0.38207292556762695
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Oneil Cruz",
+     "p_so": 0.7421528697013855,
+     "p_bb": 0.39006125926971436
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Rafael Flores Jr.",
+     "p_so": 0.6342509984970093,
+     "p_bb": 0.2844540774822235
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Ryan O'Hearn",
+     "p_so": 0.5538318753242493,
+     "p_bb": 0.29643383622169495
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Ronny Simon",
+     "p_so": 0.4451501965522766,
+     "p_bb": 0.22430095076560974
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Spencer Horwitz",
+     "p_so": 0.4704435467720032,
+     "p_bb": 0.30797502398490906
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Jacob Gonzalez",
+     "p_so": 0.4896758794784546,
+     "p_bb": 0.16511587798595428
+    }
+   ],
+   "local": "Pittsburgh Pirates",
+   "visita": "St. Louis Cardinals"
+  },
+  {
    "game_id": 823543,
    "bateadores": [
     {
@@ -1966,12 +2117,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 8,
+  "picks_hoy": 18,
   "ganadas": 1663,
   "perdidas": 752,
   "push": 0,
   "unidades": 455.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-22T15:27:45Z"
+ "fecha_actualizacion": "2026-09-22T18:42:40Z"
 }
