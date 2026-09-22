@@ -3433,15 +3433,166 @@
    ],
    "local": "Atlanta Braves",
    "visita": "Cincinnati Reds"
+  },
+  {
+   "game_id": 824953,
+   "bateadores": [
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Zach Neto",
+     "p_so": 0.7374118566513062,
+     "p_bb": 0.2861365079879761
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Mike Trout",
+     "p_so": 0.7665857076644897,
+     "p_bb": 0.5081669688224792
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Vaughn Grissom",
+     "p_so": 0.5488916039466858,
+     "p_bb": 0.265849232673645
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Denzer Guzman",
+     "p_so": 0.6691910028457642,
+     "p_bb": 0.2345336377620697
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Moisés Ballesteros",
+     "p_so": 0.5541732907295227,
+     "p_bb": 0.23591399192810059
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Jose Siri",
+     "p_so": 0.7600716948509216,
+     "p_bb": 0.2197399139404297
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Wade Meckler",
+     "p_so": 0.49312034249305725,
+     "p_bb": 0.2786298096179962
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Christian Moore",
+     "p_so": 0.7122196555137634,
+     "p_bb": 0.25746452808380127
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Bryce Teodosio",
+     "p_so": 0.6291746497154236,
+     "p_bb": 0.18762175738811493
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Henry Bolte",
+     "p_so": 0.7466717958450317,
+     "p_bb": 0.32671284675598145
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Shea Langeliers",
+     "p_so": 0.6032822132110596,
+     "p_bb": 0.24647723138332367
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Lawrence Butler",
+     "p_so": 0.7419722080230713,
+     "p_bb": 0.36144816875457764
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Zack Gelof",
+     "p_so": 0.7426842451095581,
+     "p_bb": 0.28070592880249023
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Tommy White",
+     "p_so": 0.5109243392944336,
+     "p_bb": 0.1945721060037613
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Joshua Kuroda-Grauer",
+     "p_so": 0.4661552906036377,
+     "p_bb": 0.18684124946594238
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Jonah Heim",
+     "p_so": 0.5151810050010681,
+     "p_bb": 0.22095851600170135
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Alika Williams",
+     "p_so": 0.5910198092460632,
+     "p_bb": 0.1950993835926056
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Denzel Clarke",
+     "p_so": 0.6142013072967529,
+     "p_bb": 0.20554468035697937
+    }
+   ],
+   "local": "Athletics",
+   "visita": "Los Angeles Angels"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 98,
+  "picks_hoy": 109,
   "ganadas": 1663,
   "perdidas": 752,
   "push": 0,
   "unidades": 455.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-22T21:47:45Z"
+ "fecha_actualizacion": "2026-09-22T21:57:43Z"
 }
