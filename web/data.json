@@ -953,6 +953,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-22",
+   "local": "Boston Red Sox",
+   "visita": "Cleveland Guardians",
+   "linea": 6.5,
+   "prediccion": 7.35,
+   "prob_over": 0.4420955777168274,
+   "edge": 0.85,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.85 carreras, prob_over 44.2%)",
+   "evaluado_utc": "2026-09-22T20:46:59Z"
+  },
+  {
+   "fecha": "2026-09-22",
    "local": "Detroit Tigers",
    "visita": "Washington Nationals",
    "linea": 8.5,
@@ -3066,5 +3078,5 @@
   "unidades": 455.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-22T20:42:59Z"
+ "fecha_actualizacion": "2026-09-22T20:47:00Z"
 }
