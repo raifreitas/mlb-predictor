@@ -2265,15 +2265,166 @@
    ],
    "local": "Detroit Tigers",
    "visita": "Washington Nationals"
+  },
+  {
+   "game_id": 824867,
+   "bateadores": [
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Carlos Jorge",
+     "p_so": 0.586227297782898,
+     "p_bb": 0.28835204243659973
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Elly De La Cruz",
+     "p_so": 0.7874824404716492,
+     "p_bb": 0.434334397315979
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Sal Stewart",
+     "p_so": 0.6557245254516602,
+     "p_bb": 0.3614920973777771
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Tyler Stephenson",
+     "p_so": 0.7404987215995789,
+     "p_bb": 0.373773992061615
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "JJ Bleday",
+     "p_so": 0.6748742461204529,
+     "p_bb": 0.4162960648536682
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Eugenio Suárez",
+     "p_so": 0.7624048590660095,
+     "p_bb": 0.3183964788913727
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Dane Myers",
+     "p_so": 0.6489463448524475,
+     "p_bb": 0.27743396162986755
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Héctor Rodríguez",
+     "p_so": 0.6548342108726501,
+     "p_bb": 0.2417580485343933
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Matt McLain",
+     "p_so": 0.632820725440979,
+     "p_bb": 0.2547228932380676
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Ronald Acuña Jr.",
+     "p_so": 0.5612649917602539,
+     "p_bb": 0.45279476046562195
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Drake Baldwin",
+     "p_so": 0.5690715312957764,
+     "p_bb": 0.3133077919483185
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Matt Olson",
+     "p_so": 0.6465455889701843,
+     "p_bb": 0.33300814032554626
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Ozzie Albies",
+     "p_so": 0.4268239438533783,
+     "p_bb": 0.28255265951156616
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Michael Harris II",
+     "p_so": 0.5252496004104614,
+     "p_bb": 0.20724496245384216
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Mauricio Dubón",
+     "p_so": 0.3576110303401947,
+     "p_bb": 0.2224815934896469
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Austin Riley",
+     "p_so": 0.6903439164161682,
+     "p_bb": 0.2712876796722412
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Sean Murphy",
+     "p_so": 0.5912524461746216,
+     "p_bb": 0.321871280670166
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Ha-Seong Kim",
+     "p_so": 0.4661009907722473,
+     "p_bb": 0.2796042859554291
+    }
+   ],
+   "local": "Atlanta Braves",
+   "visita": "Cincinnati Reds"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 30,
+  "picks_hoy": 40,
   "ganadas": 1663,
   "perdidas": 752,
   "push": 0,
   "unidades": 455.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-22T19:07:47Z"
+ "fecha_actualizacion": "2026-09-22T19:32:45Z"
 }
