@@ -2125,9 +2125,17 @@
      "equipo": "Toronto Blue Jays",
      "is_home": false,
      "orden": 2,
+     "bateador": "Vladimir Guerrero Jr.",
+     "p_so": 0.47058042883872986,
+     "p_bb": 0.33040714263916016
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": false,
+     "orden": 2,
      "bateador": "Josh Smith",
-     "p_so": 0.6042748689651489,
-     "p_bb": 0.33838310837745667
+     "p_so": 0.6030071973800659,
+     "p_bb": 0.31301963329315186
     },
     {
      "equipo": "Toronto Blue Jays",
@@ -2270,5 +2278,5 @@
   "unidades": 491.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-23T16:52:53Z"
+ "fecha_actualizacion": "2026-09-23T17:12:36Z"
 }
