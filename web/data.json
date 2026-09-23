@@ -983,6 +983,30 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-23",
+   "local": "Philadelphia Phillies",
+   "visita": "Milwaukee Brewers",
+   "linea": 7.5,
+   "prediccion": 7.31,
+   "prob_over": 0.5076631903648376,
+   "edge": 0.19,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.19 carreras, prob_over 50.8%)",
+   "evaluado_utc": "2026-09-23T20:43:05Z"
+  },
+  {
+   "fecha": "2026-09-23",
+   "local": "Pittsburgh Pirates",
+   "visita": "St. Louis Cardinals",
+   "linea": 7.5,
+   "prediccion": 8.3,
+   "prob_over": 0.47548481822013855,
+   "edge": 0.8,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.80 carreras, prob_over 47.5%)",
+   "evaluado_utc": "2026-09-23T20:43:05Z"
+  },
+  {
+   "fecha": "2026-09-23",
    "local": "Baltimore Orioles",
    "visita": "Toronto Blue Jays",
    "linea": 7.0,
@@ -2762,6 +2786,157 @@
    "visita": "Washington Nationals"
   },
   {
+   "game_id": 824301,
+   "bateadores": [
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Lars Nootbaar",
+     "p_so": 0.6336309909820557,
+     "p_bb": 0.4421156048774719
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Ketel Marte",
+     "p_so": 0.5540498495101929,
+     "p_bb": 0.37844038009643555
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Gabriel Moreno",
+     "p_so": 0.5625324845314026,
+     "p_bb": 0.40242263674736023
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Geraldo Perdomo",
+     "p_so": 0.5068943500518799,
+     "p_bb": 0.44374459981918335
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Pavin Smith",
+     "p_so": 0.6376683115959167,
+     "p_bb": 0.3426951766014099
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Nolan Arenado",
+     "p_so": 0.5471307039260864,
+     "p_bb": 0.27261072397232056
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Corbin Carroll",
+     "p_so": 0.6774880290031433,
+     "p_bb": 0.3396078944206238
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Jesús Sánchez",
+     "p_so": 0.6358487606048584,
+     "p_bb": 0.2419491410255432
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Tim Tawa",
+     "p_so": 0.6291666030883789,
+     "p_bb": 0.2785319983959198
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jake McCarthy",
+     "p_so": 0.542863130569458,
+     "p_bb": 0.23722442984580994
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Cole Carrigg",
+     "p_so": 0.6976879835128784,
+     "p_bb": 0.30673009157180786
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Hunter Goodman",
+     "p_so": 0.703575849533081,
+     "p_bb": 0.23397117853164673
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "TJ Rumfield",
+     "p_so": 0.4767954647541046,
+     "p_bb": 0.393330842256546
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Kyle Karros",
+     "p_so": 0.5933325290679932,
+     "p_bb": 0.2997121810913086
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Adael Amador",
+     "p_so": 0.5176864862442017,
+     "p_bb": 0.24976888298988342
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Mickey Moniak",
+     "p_so": 0.6959214210510254,
+     "p_bb": 0.1565602719783783
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Zac Veen",
+     "p_so": 0.739835798740387,
+     "p_bb": 0.23704496026039124
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Ezequiel Tovar",
+     "p_so": 0.6841008067131042,
+     "p_bb": 0.14626793563365936
+    }
+   ],
+   "local": "Colorado Rockies",
+   "visita": "Arizona Diamondbacks"
+  },
+  {
    "game_id": 824710,
    "bateadores": [
     {
@@ -3224,12 +3399,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 85,
+  "picks_hoy": 95,
   "ganadas": 1774,
   "perdidas": 792,
   "push": 0,
   "unidades": 491.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-23T20:37:53Z"
+ "fecha_actualizacion": "2026-09-23T20:43:06Z"
 }
