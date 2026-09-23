@@ -2749,6 +2749,157 @@
    "visita": "Tampa Bay Rays"
   },
   {
+   "game_id": 823894,
+   "bateadores": [
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Fernando Tatis Jr.",
+     "p_so": 0.7317503690719604,
+     "p_bb": 0.3145950734615326
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Dustin Harris",
+     "p_so": 0.6297851204872131,
+     "p_bb": 0.230767622590065
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Manny Machado",
+     "p_so": 0.730256974697113,
+     "p_bb": 0.314630389213562
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Ty France",
+     "p_so": 0.7200580835342407,
+     "p_bb": 0.23153220117092133
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Jackson Merrill",
+     "p_so": 0.7049229145050049,
+     "p_bb": 0.21136191487312317
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Xander Bogaerts",
+     "p_so": 0.692358672618866,
+     "p_bb": 0.2751268744468689
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Jake Cronenworth",
+     "p_so": 0.7082511782646179,
+     "p_bb": 0.2907608151435852
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Samad Taylor",
+     "p_so": 0.6760004758834839,
+     "p_bb": 0.2421341836452484
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Ethan Salas",
+     "p_so": 0.6698468923568726,
+     "p_bb": 0.1465710997581482
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Mookie Betts",
+     "p_so": 0.38208746910095215,
+     "p_bb": 0.4186612367630005
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Shohei Ohtani",
+     "p_so": 0.6199960112571716,
+     "p_bb": 0.4095231294631958
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Will Smith",
+     "p_so": 0.4842744469642639,
+     "p_bb": 0.415062814950943
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Freddie Freeman",
+     "p_so": 0.5287877321243286,
+     "p_bb": 0.36824628710746765
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Teoscar Hernández",
+     "p_so": 0.7013358473777771,
+     "p_bb": 0.3238394260406494
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Kyle Tucker",
+     "p_so": 0.42649832367897034,
+     "p_bb": 0.3886431157588959
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Andy Pages",
+     "p_so": 0.5178660154342651,
+     "p_bb": 0.27757561206817627
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Max Muncy",
+     "p_so": 0.5826439261436462,
+     "p_bb": 0.35180485248565674
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Tommy Edman",
+     "p_so": 0.42291492223739624,
+     "p_bb": 0.2620304822921753
+    }
+   ],
+   "local": "Los Angeles Dodgers",
+   "visita": "San Diego Padres"
+  },
+  {
    "game_id": 824060,
    "bateadores": [
     {
@@ -4117,12 +4268,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 135,
+  "picks_hoy": 146,
   "ganadas": 1774,
   "perdidas": 792,
   "push": 0,
   "unidades": 491.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-23T22:42:29Z"
+ "fecha_actualizacion": "2026-09-23T22:51:51Z"
 }
