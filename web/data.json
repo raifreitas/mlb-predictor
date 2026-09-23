@@ -2158,6 +2158,157 @@
    "visita": "St. Louis Cardinals"
   },
   {
+   "game_id": 824060,
+   "bateadores": [
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Sam Antonacci",
+     "p_so": 0.5166186690330505,
+     "p_bb": 0.2834833860397339
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Kyle Teel",
+     "p_so": 0.7005571126937866,
+     "p_bb": 0.39445576071739197
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Miguel Vargas",
+     "p_so": 0.6180126070976257,
+     "p_bb": 0.4437418580055237
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Munetaka Murakami",
+     "p_so": 0.8162215948104858,
+     "p_bb": 0.5303804874420166
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Andrew Benintendi",
+     "p_so": 0.546279788017273,
+     "p_bb": 0.27827978134155273
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Tristan Peters",
+     "p_so": 0.5387375354766846,
+     "p_bb": 0.25072920322418213
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Chase Meidroth",
+     "p_so": 0.5358408689498901,
+     "p_bb": 0.3215118944644928
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Colson Montgomery",
+     "p_so": 0.7476726770401001,
+     "p_bb": 0.2903797924518585
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Braden Montgomery",
+     "p_so": 0.4728180766105652,
+     "p_bb": 0.25240358710289
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Carter Jensen",
+     "p_so": 0.7095377445220947,
+     "p_bb": 0.3263789117336273
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Bobby Witt Jr.",
+     "p_so": 0.5579384565353394,
+     "p_bb": 0.27651265263557434
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Jac Caglianone",
+     "p_so": 0.6238139271736145,
+     "p_bb": 0.2075713574886322
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Maikel Garcia",
+     "p_so": 0.5303787589073181,
+     "p_bb": 0.2943020462989807
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Vinnie Pasquantino",
+     "p_so": 0.4872184693813324,
+     "p_bb": 0.28625059127807617
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Salvador Perez",
+     "p_so": 0.608597457408905,
+     "p_bb": 0.1804099977016449
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Michael Massey",
+     "p_so": 0.4732911288738251,
+     "p_bb": 0.18174651265144348
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "John Rave",
+     "p_so": 0.550338864326477,
+     "p_bb": 0.24831220507621765
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Isaac Collins",
+     "p_so": 0.553668200969696,
+     "p_bb": 0.2597212791442871
+    }
+   ],
+   "local": "Kansas City Royals",
+   "visita": "Chicago White Sox"
+  },
+  {
    "game_id": 824223,
    "bateadores": [
     {
@@ -2620,12 +2771,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 47,
+  "picks_hoy": 54,
   "ganadas": 1774,
   "perdidas": 792,
   "push": 0,
   "unidades": 491.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-23T20:02:58Z"
+ "fecha_actualizacion": "2026-09-23T20:08:03Z"
 }
