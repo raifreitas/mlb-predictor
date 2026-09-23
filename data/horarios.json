@@ -5480,7 +5480,8 @@
       "pitcher_visita": 663542,
       "hora_inicio_utc": "2026-09-23T23:40:00+00:00",
       "hora_corrida_utc": "2026-09-23T23:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-23T21:42:49.117343+00:00"
     },
     "Chicago Cubs": {
       "local": "Chicago Cubs",
@@ -5489,7 +5490,8 @@
       "pitcher_visita": 687473,
       "hora_inicio_utc": "2026-09-23T23:40:00+00:00",
       "hora_corrida_utc": "2026-09-23T23:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-23T21:42:49.117343+00:00"
     },
     "Texas Rangers": {
       "local": "Texas Rangers",

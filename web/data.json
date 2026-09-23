@@ -993,9 +993,48 @@
    "total": null,
    "creado": "2026-09-23 21:17:55",
    "verificado": null
+  },
+  {
+   "id": 1067,
+   "fecha": "2026-09-23",
+   "local": "Chicago Cubs",
+   "visita": "Miami Marlins",
+   "tipo": "OVER",
+   "linea": 6.5,
+   "unidades": 0.5,
+   "edge": 1.92,
+   "cuota": 1.83,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-23 21:42:52",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-23",
+   "local": "Chicago Cubs",
+   "visita": "Miami Marlins",
+   "linea": 6.5,
+   "prediccion": 8.42,
+   "prob_over": 0.5092436075210571,
+   "edge": 1.92,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-23T21:42:52Z"
+  },
+  {
+   "fecha": "2026-09-23",
+   "local": "Kansas City Royals",
+   "visita": "Chicago White Sox",
+   "linea": 8.5,
+   "prediccion": 8.15,
+   "prob_over": 0.5918138027191162,
+   "edge": 0.35,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.35 carreras, prob_over 59.2%)",
+   "evaluado_utc": "2026-09-23T21:42:52Z"
+  },
   {
    "fecha": "2026-09-23",
    "local": "Atlanta Braves",
@@ -3910,5 +3949,5 @@
   "unidades": 491.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-23T21:32:59Z"
+ "fecha_actualizacion": "2026-09-23T21:42:54Z"
 }
