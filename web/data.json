@@ -1848,6 +1848,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 822841,
+   "bateadores": [
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Francisco Lindor",
+     "p_so": 0.6050852537155151,
+     "p_bb": 0.33204957842826843
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Juan Soto",
+     "p_so": 0.5504347085952759,
+     "p_bb": 0.43886280059814453
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Bo Bichette",
+     "p_so": 0.5408526659011841,
+     "p_bb": 0.26478666067123413
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Mark Vientos",
+     "p_so": 0.6661951541900635,
+     "p_bb": 0.2281848043203354
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Carson Benge",
+     "p_so": 0.6244024038314819,
+     "p_bb": 0.26876339316368103
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Marcus Semien",
+     "p_so": 0.49509134888648987,
+     "p_bb": 0.3208145499229431
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Francisco Alvarez",
+     "p_so": 0.6747961044311523,
+     "p_bb": 0.25754639506340027
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "A.J. Ewing",
+     "p_so": 0.5808838605880737,
+     "p_bb": 0.24023403227329254
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Nick Morabito",
+     "p_so": 0.6107527017593384,
+     "p_bb": 0.17021146416664124
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Wyatt Langford",
+     "p_so": 0.7109192609786987,
+     "p_bb": 0.4594724178314209
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Corey Seager",
+     "p_so": 0.6384016275405884,
+     "p_bb": 0.38372141122817993
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Josh Jung",
+     "p_so": 0.602803647518158,
+     "p_bb": 0.19562287628650665
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Brandon Nimmo",
+     "p_so": 0.6969932317733765,
+     "p_bb": 0.35666602849960327
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Ezequiel Duran",
+     "p_so": 0.6877490282058716,
+     "p_bb": 0.2647778391838074
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Jake Burger",
+     "p_so": 0.7513606548309326,
+     "p_bb": 0.2560385763645172
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Nicky Lopez",
+     "p_so": 0.4684862494468689,
+     "p_bb": 0.26939547061920166
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Danny Jansen",
+     "p_so": 0.5495222806930542,
+     "p_bb": 0.26990360021591187
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Evan Carter",
+     "p_so": 0.5931922793388367,
+     "p_bb": 0.25193265080451965
+    }
+   ],
+   "local": "Texas Rangers",
+   "visita": "New York Mets"
+  },
+  {
    "game_id": 823168,
    "bateadores": [
     {
@@ -3073,12 +3224,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 74,
+  "picks_hoy": 85,
   "ganadas": 1774,
   "perdidas": 792,
   "push": 0,
   "unidades": 491.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-23T20:32:57Z"
+ "fecha_actualizacion": "2026-09-23T20:37:53Z"
 }
