@@ -2611,6 +2611,157 @@
    "visita": "Washington Nationals"
   },
   {
+   "game_id": 824710,
+   "bateadores": [
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Steven Kwan",
+     "p_so": 0.35779866576194763,
+     "p_bb": 0.3132020831108093
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "José Ramírez",
+     "p_so": 0.43170222640037537,
+     "p_bb": 0.3121351897716522
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Chase DeLauter",
+     "p_so": 0.5039981603622437,
+     "p_bb": 0.3256676197052002
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jo Adell",
+     "p_so": 0.7403040528297424,
+     "p_bb": 0.21873833239078522
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Travis Bazzana",
+     "p_so": 0.5966604351997375,
+     "p_bb": 0.32240453362464905
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Nathaniel Lowe",
+     "p_so": 0.6697196364402771,
+     "p_bb": 0.2894311249256134
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Patrick Bailey",
+     "p_so": 0.664508044719696,
+     "p_bb": 0.22334784269332886
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Petey Halpin",
+     "p_so": 0.5115240812301636,
+     "p_bb": 0.15657657384872437
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Brayan Rocchio",
+     "p_so": 0.4564427137374878,
+     "p_bb": 0.20959770679473877
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Roman Anthony",
+     "p_so": 0.6913020014762878,
+     "p_bb": 0.36082184314727783
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Nick Sogard",
+     "p_so": 0.615177571773529,
+     "p_bb": 0.2990201413631439
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Jahmai Jones",
+     "p_so": 0.5976738333702087,
+     "p_bb": 0.315043568611145
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Wilyer Abreu",
+     "p_so": 0.6508479118347168,
+     "p_bb": 0.3601902723312378
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Adley Rutschman",
+     "p_so": 0.47822535037994385,
+     "p_bb": 0.31248939037323
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Ceddanne Rafaela",
+     "p_so": 0.5502069592475891,
+     "p_bb": 0.1641758233308792
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Caleb Durbin",
+     "p_so": 0.38492313027381897,
+     "p_bb": 0.2883087992668152
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Trevor Story",
+     "p_so": 0.6396793723106384,
+     "p_bb": 0.1855882853269577
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Andruw Monasterio",
+     "p_so": 0.4897522032260895,
+     "p_bb": 0.22799356281757355
+    }
+   ],
+   "local": "Boston Red Sox",
+   "visita": "Cleveland Guardians"
+  },
+  {
    "game_id": 824785,
    "bateadores": [
     {
@@ -2922,12 +3073,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 67,
+  "picks_hoy": 74,
   "ganadas": 1774,
   "perdidas": 792,
   "push": 0,
   "unidades": 491.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-23T20:17:55Z"
+ "fecha_actualizacion": "2026-09-23T20:32:57Z"
 }
