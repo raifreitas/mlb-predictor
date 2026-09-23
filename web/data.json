@@ -983,6 +983,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-23",
+   "local": "New York Yankees",
+   "visita": "Tampa Bay Rays",
+   "linea": 6.5,
+   "prediccion": 7.89,
+   "prob_over": 0.39945951104164124,
+   "edge": 1.39,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +1.39 carreras, prob_over 39.9%)",
+   "evaluado_utc": "2026-09-23T21:07:42Z"
+  },
+  {
+   "fecha": "2026-09-23",
    "local": "Philadelphia Phillies",
    "visita": "Milwaukee Brewers",
    "linea": 7.5,
@@ -3557,5 +3569,5 @@
   "unidades": 491.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-23T20:53:04Z"
+ "fecha_actualizacion": "2026-09-23T21:07:43Z"
 }
