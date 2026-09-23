@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-09-22",
+ "ultima_fecha_prediccion": "2026-09-23",
  "resumen": {
   "ganadas": 25,
   "perdidas": 13,
@@ -963,9 +963,48 @@
    "total": 10,
    "creado": "2026-09-22 21:42:26",
    "verificado": "2026-09-23 06:48:00"
+  },
+  {
+   "id": 1065,
+   "fecha": "2026-09-23",
+   "local": "San Francisco Giants",
+   "visita": "Minnesota Twins",
+   "tipo": "OVER",
+   "linea": 7.5,
+   "unidades": 0.5,
+   "edge": 1.48,
+   "cuota": 1.85,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-23 17:48:22",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-23",
+   "local": "Baltimore Orioles",
+   "visita": "Toronto Blue Jays",
+   "linea": 7.0,
+   "prediccion": 6.65,
+   "prob_over": 0.4147726595401764,
+   "edge": 0.35,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.35 carreras, prob_over 41.5%)",
+   "evaluado_utc": "2026-09-23T17:48:22Z"
+  },
+  {
+   "fecha": "2026-09-23",
+   "local": "San Francisco Giants",
+   "visita": "Minnesota Twins",
+   "linea": 7.5,
+   "prediccion": 8.98,
+   "prob_over": 0.5344342589378357,
+   "edge": 1.48,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-23T17:48:22Z"
+  },
   {
    "fecha": "2026-09-23",
    "local": "Detroit Tigers",
@@ -2278,5 +2317,5 @@
   "unidades": 491.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-23T17:12:36Z"
+ "fecha_actualizacion": "2026-09-23T17:48:24Z"
 }
