@@ -978,9 +978,36 @@
    "total": null,
    "creado": "2026-09-23 17:48:22",
    "verificado": null
+  },
+  {
+   "id": 1066,
+   "fecha": "2026-09-23",
+   "local": "Atlanta Braves",
+   "visita": "Cincinnati Reds",
+   "tipo": "OVER",
+   "linea": 6.5,
+   "unidades": 0.5,
+   "edge": 2.67,
+   "cuota": 1.85,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-23 21:17:55",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-23",
+   "local": "Atlanta Braves",
+   "visita": "Cincinnati Reds",
+   "linea": 7.0,
+   "prediccion": 9.17,
+   "prob_over": 0.4946540296077728,
+   "edge": 2.17,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-23T21:17:55Z"
+  },
   {
    "fecha": "2026-09-23",
    "local": "Boston Red Sox",
@@ -3581,5 +3608,5 @@
   "unidades": 491.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-23T21:12:13Z"
+ "fecha_actualizacion": "2026-09-23T21:17:57Z"
 }
