@@ -1809,6 +1809,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 824223,
+   "bateadores": [
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "James Wood",
+     "p_so": 0.7574425339698792,
+     "p_bb": 0.41100022196769714
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Andrés Chaparro",
+     "p_so": 0.6319518089294434,
+     "p_bb": 0.3175126016139984
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Brady House",
+     "p_so": 0.6414687633514404,
+     "p_bb": 0.250727117061615
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "CJ Abrams",
+     "p_so": 0.6659603118896484,
+     "p_bb": 0.24667753279209137
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Dylan Crews",
+     "p_so": 0.6708346009254456,
+     "p_bb": 0.23839399218559265
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Yohandy Morales",
+     "p_so": 0.6239956617355347,
+     "p_bb": 0.1640552431344986
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Harry Ford",
+     "p_so": 0.6230553388595581,
+     "p_bb": 0.2915833592414856
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Jacob Young",
+     "p_so": 0.45767754316329956,
+     "p_bb": 0.24220649898052216
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Nasim Nuñez",
+     "p_so": 0.47604382038116455,
+     "p_bb": 0.24347534775733948
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Kevin McGonigle",
+     "p_so": 0.4702175557613373,
+     "p_bb": 0.4443628489971161
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Hao-Yu Lee",
+     "p_so": 0.6517020463943481,
+     "p_bb": 0.31957343220710754
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Ben Malgeri",
+     "p_so": 0.605031430721283,
+     "p_bb": 0.3304779529571533
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Riley Greene",
+     "p_so": 0.7208066582679749,
+     "p_bb": 0.32290828227996826
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Dillon Dingler",
+     "p_so": 0.631260335445404,
+     "p_bb": 0.19557389616966248
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Max Clark",
+     "p_so": 0.5267402529716492,
+     "p_bb": 0.3107277750968933
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Spencer Torkelson",
+     "p_so": 0.6950724124908447,
+     "p_bb": 0.3549247682094574
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "John Peck",
+     "p_so": 0.4887230098247528,
+     "p_bb": 0.2851753532886505
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Zach McKinstry",
+     "p_so": 0.5099745392799377,
+     "p_bb": 0.2514365613460541
+    }
+   ],
+   "local": "Detroit Tigers",
+   "visita": "Washington Nationals"
+  },
+  {
    "game_id": 824785,
    "bateadores": [
     {
@@ -1961,12 +2112,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 10,
+  "picks_hoy": 22,
   "ganadas": 1774,
   "perdidas": 792,
   "push": 0,
   "unidades": 491.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-23T15:18:08Z"
+ "fecha_actualizacion": "2026-09-23T15:21:56Z"
 }
