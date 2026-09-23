@@ -1887,8 +1887,16 @@
      "is_home": false,
      "orden": 5,
      "bateador": "Brooks Lee",
-     "p_so": 0.472457617521286,
-     "p_bb": 0.2395075410604477
+     "p_so": 0.5022649168968201,
+     "p_bb": 0.2512357831001282
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Alan Roden",
+     "p_so": 0.47721806168556213,
+     "p_bb": 0.2529684901237488
     },
     {
      "equipo": "Minnesota Twins",
@@ -2317,5 +2325,5 @@
   "unidades": 491.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-23T17:48:24Z"
+ "fecha_actualizacion": "2026-09-23T17:57:52Z"
 }
