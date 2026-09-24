@@ -1122,9 +1122,36 @@
    "total": null,
    "creado": "2026-09-24 14:38:02",
    "verificado": null
+  },
+  {
+   "id": 1069,
+   "fecha": "2026-09-24",
+   "local": "Colorado Rockies",
+   "visita": "Arizona Diamondbacks",
+   "tipo": "OVER",
+   "linea": 9.5,
+   "unidades": 0.5,
+   "edge": 2.41,
+   "cuota": 1.95,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-24 17:13:13",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-24",
+   "local": "Colorado Rockies",
+   "visita": "Arizona Diamondbacks",
+   "linea": 10.0,
+   "prediccion": 11.91,
+   "prob_over": 0.7596871852874756,
+   "edge": 1.91,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-24T17:13:13Z"
+  },
   {
    "fecha": "2026-09-24",
    "local": "Texas Rangers",
@@ -2815,5 +2842,5 @@
   "unidades": 517.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-24T16:42:32Z"
+ "fecha_actualizacion": "2026-09-24T17:13:15Z"
 }
