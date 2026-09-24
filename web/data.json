@@ -1157,6 +1157,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-24",
+   "local": "Atlanta Braves",
+   "visita": "Cincinnati Reds",
+   "linea": 8.0,
+   "prediccion": 8.9,
+   "prob_over": 0.44451990723609924,
+   "edge": 0.9,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.90 carreras, prob_over 44.5%)",
+   "evaluado_utc": "2026-09-24T21:17:36Z"
+  },
+  {
+   "fecha": "2026-09-24",
    "local": "New York Yankees",
    "visita": "Tampa Bay Rays",
    "linea": 6.0,
@@ -3497,5 +3509,5 @@
   "unidades": 517.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-24T21:08:14Z"
+ "fecha_actualizacion": "2026-09-24T21:17:37Z"
 }
