@@ -8,39 +8,6 @@
  },
  "partidos_hoy": [
   {
-   "fecha": "2026-09-21",
-   "local": "Baltimore Orioles",
-   "visita": "Toronto Blue Jays",
-   "carreras_local": 4,
-   "carreras_visita": 3,
-   "linea_real": 7.5,
-   "es_final": true,
-   "hora_inicio_utc": "2026-09-21 22:35:00.000",
-   "temperatura_c": 20.0
-  },
-  {
-   "fecha": "2026-09-21",
-   "local": "Detroit Tigers",
-   "visita": "Washington Nationals",
-   "carreras_local": 9,
-   "carreras_visita": 2,
-   "linea_real": 8.5,
-   "es_final": true,
-   "hora_inicio_utc": "2026-09-21 22:40:00.000",
-   "temperatura_c": 14.7
-  },
-  {
-   "fecha": "2026-09-21",
-   "local": "San Francisco Giants",
-   "visita": "Minnesota Twins",
-   "carreras_local": 5,
-   "carreras_visita": 2,
-   "linea_real": 8.0,
-   "es_final": true,
-   "hora_inicio_utc": "2026-09-22 01:45:00.000",
-   "temperatura_c": 15.8
-  },
-  {
    "fecha": "2026-09-22",
    "local": "Athletics",
    "visita": "Los Angeles Angels",
@@ -1886,114 +1853,6 @@
    "recomendacion": "NO APOSTAR",
    "motivo": "Sin senal direccional (desacuerdo -0.52 carreras, prob_over 49.3%)",
    "evaluado_utc": "2026-09-18T20:41:54Z"
-  },
-  {
-   "fecha": "2026-09-17",
-   "local": "Los Angeles Angels",
-   "visita": "Minnesota Twins",
-   "linea": 7.5,
-   "prediccion": 7.37,
-   "prob_over": 0.48611563444137573,
-   "edge": 0.13,
-   "recomendacion": "NO APOSTAR",
-   "motivo": "Sin senal direccional (desacuerdo -0.13 carreras, prob_over 48.6%)",
-   "evaluado_utc": "2026-09-17T23:41:26Z"
-  },
-  {
-   "fecha": "2026-09-17",
-   "local": "Texas Rangers",
-   "visita": "Boston Red Sox",
-   "linea": 7.5,
-   "prediccion": 7.11,
-   "prob_over": 0.4900435209274292,
-   "edge": 0.39,
-   "recomendacion": "NO APOSTAR",
-   "motivo": "Sin senal direccional (desacuerdo -0.39 carreras, prob_over 49.0%)",
-   "evaluado_utc": "2026-09-17T22:07:18Z"
-  },
-  {
-   "fecha": "2026-09-17",
-   "local": "Chicago White Sox",
-   "visita": "Detroit Tigers",
-   "linea": 8.5,
-   "prediccion": 7.37,
-   "prob_over": 0.43096908926963806,
-   "edge": 1.13,
-   "recomendacion": "NO APOSTAR",
-   "motivo": "Anulado por Margen Insuficiente (edge 1.13 < 1.45)",
-   "evaluado_utc": "2026-09-17T21:42:02Z"
-  },
-  {
-   "fecha": "2026-09-17",
-   "local": "Houston Astros",
-   "visita": "Kansas City Royals",
-   "linea": 9.0,
-   "prediccion": 8.13,
-   "prob_over": 0.5070188641548157,
-   "edge": 0.87,
-   "recomendacion": "NO APOSTAR",
-   "motivo": "Sin senal direccional (desacuerdo -0.87 carreras, prob_over 50.7%)",
-   "evaluado_utc": "2026-09-17T21:17:10Z"
-  },
-  {
-   "fecha": "2026-09-17",
-   "local": "New York Mets",
-   "visita": "Philadelphia Phillies",
-   "linea": 8.0,
-   "prediccion": 7.96,
-   "prob_over": 0.42358332872390747,
-   "edge": 0.04,
-   "recomendacion": "NO APOSTAR",
-   "motivo": "Sin senal direccional (desacuerdo -0.04 carreras, prob_over 42.4%)",
-   "evaluado_utc": "2026-09-17T21:17:10Z"
-  },
-  {
-   "fecha": "2026-09-17",
-   "local": "Colorado Rockies",
-   "visita": "San Diego Padres",
-   "linea": 11.0,
-   "prediccion": 12.35,
-   "prob_over": 0.7151570916175842,
-   "edge": 1.35,
-   "recomendacion": "NO APOSTAR",
-   "motivo": "Anulado por Filtro Extremo (linea 12.35 >= 9.5)",
-   "evaluado_utc": "2026-09-17T17:12:21Z"
-  },
-  {
-   "fecha": "2026-09-17",
-   "local": "Tampa Bay Rays",
-   "visita": "Athletics",
-   "linea": 7.5,
-   "prediccion": 8.39,
-   "prob_over": 0.5003872513771057,
-   "edge": 0.89,
-   "recomendacion": "NO APOSTAR",
-   "motivo": "Sin senal direccional (desacuerdo +0.89 carreras, prob_over 50.0%)",
-   "evaluado_utc": "2026-09-17T15:12:08Z"
-  },
-  {
-   "fecha": "2026-09-17",
-   "local": "Cincinnati Reds",
-   "visita": "Los Angeles Dodgers",
-   "linea": 9.5,
-   "prediccion": 9.02,
-   "prob_over": 0.5988045334815979,
-   "edge": 0.48,
-   "recomendacion": "NO APOSTAR",
-   "motivo": "Sin senal direccional (desacuerdo -0.48 carreras, prob_over 59.9%)",
-   "evaluado_utc": "2026-09-17T14:42:14Z"
-  },
-  {
-   "fecha": "2026-09-17",
-   "local": "Pittsburgh Pirates",
-   "visita": "Milwaukee Brewers",
-   "linea": 9.0,
-   "prediccion": 10.06,
-   "prob_over": 0.5174093246459961,
-   "edge": 1.06,
-   "recomendacion": "NO APOSTAR",
-   "motivo": "Sin senal direccional (desacuerdo +1.06 carreras, prob_over 51.7%)",
-   "evaluado_utc": "2026-09-17T14:37:08Z"
   }
  ],
  "batter_props_hoy": [
@@ -4287,5 +4146,5 @@
   "unidades": 491.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-23T23:43:04Z"
+ "fecha_actualizacion": "2026-09-24T00:02:35Z"
 }
