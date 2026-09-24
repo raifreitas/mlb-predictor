@@ -1127,6 +1127,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-24",
+   "local": "Chicago Cubs",
+   "visita": "Miami Marlins",
+   "linea": 7.5,
+   "prediccion": 8.02,
+   "prob_over": 0.5096050500869751,
+   "edge": 0.52,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.52 carreras, prob_over 51.0%)",
+   "evaluado_utc": "2026-09-24T16:23:03Z"
+  },
+  {
+   "fecha": "2026-09-24",
    "local": "Kansas City Royals",
    "visita": "Chicago White Sox",
    "linea": 8.5,
@@ -2028,6 +2040,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 822842,
+   "bateadores": [
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Francisco Lindor",
+     "p_so": 0.7031683921813965,
+     "p_bb": 0.38314104080200195
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Juan Soto",
+     "p_so": 0.6263314485549927,
+     "p_bb": 0.5843828916549683
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Bo Bichette",
+     "p_so": 0.645451009273529,
+     "p_bb": 0.30607426166534424
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Carson Benge",
+     "p_so": 0.7081708312034607,
+     "p_bb": 0.3354561924934387
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Brett Baty",
+     "p_so": 0.6773356199264526,
+     "p_bb": 0.33746013045310974
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Marcus Semien",
+     "p_so": 0.5975224375724792,
+     "p_bb": 0.3191169798374176
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "A.J. Ewing",
+     "p_so": 0.66567063331604,
+     "p_bb": 0.35212767124176025
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Luis Torrens",
+     "p_so": 0.5426468253135681,
+     "p_bb": 0.20900841057300568
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Nick Morabito",
+     "p_so": 0.6235188245773315,
+     "p_bb": 0.23232613503932953
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Justin Foscue",
+     "p_so": 0.5926707983016968,
+     "p_bb": 0.21253012120723724
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Corey Seager",
+     "p_so": 0.5733393430709839,
+     "p_bb": 0.3257082998752594
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Josh Jung",
+     "p_so": 0.570409893989563,
+     "p_bb": 0.1952265053987503
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Jake Burger",
+     "p_so": 0.6938388347625732,
+     "p_bb": 0.27550360560417175
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Brandon Nimmo",
+     "p_so": 0.6074107885360718,
+     "p_bb": 0.2691497504711151
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Wyatt Langford",
+     "p_so": 0.6469774842262268,
+     "p_bb": 0.35452112555503845
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Ezequiel Duran",
+     "p_so": 0.5887113213539124,
+     "p_bb": 0.22252139449119568
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Elias Díaz",
+     "p_so": 0.5778525471687317,
+     "p_bb": 0.2026183307170868
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Danny Jansen",
+     "p_so": 0.4758203327655792,
+     "p_bb": 0.23800267279148102
+    }
+   ],
+   "local": "Texas Rangers",
+   "visita": "New York Mets"
+  },
+  {
    "game_id": 823326,
    "bateadores": [
     {
@@ -2482,12 +2645,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 23,
+  "picks_hoy": 33,
   "ganadas": 1873,
   "perdidas": 839,
   "push": 0,
   "unidades": 517.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-24T16:13:05Z"
+ "fecha_actualizacion": "2026-09-24T16:23:04Z"
 }
