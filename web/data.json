@@ -1137,9 +1137,36 @@
    "total": null,
    "creado": "2026-09-24 17:13:13",
    "verificado": null
+  },
+  {
+   "id": 1070,
+   "fecha": "2026-09-24",
+   "local": "New York Yankees",
+   "visita": "Tampa Bay Rays",
+   "tipo": "OVER",
+   "linea": 5.5,
+   "unidades": 0.5,
+   "edge": 2.0,
+   "cuota": 1.91,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-24 21:08:13",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-24",
+   "local": "New York Yankees",
+   "visita": "Tampa Bay Rays",
+   "linea": 6.0,
+   "prediccion": 7.5,
+   "prob_over": 0.3943561315536499,
+   "edge": 1.5,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-24T21:08:13Z"
+  },
   {
    "fecha": "2026-09-24",
    "local": "Boston Red Sox",
@@ -3470,5 +3497,5 @@
   "unidades": 517.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-24T20:47:46Z"
+ "fecha_actualizacion": "2026-09-24T21:08:14Z"
 }
