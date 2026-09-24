@@ -5640,7 +5640,8 @@
       "pitcher_visita": 663567,
       "hora_inicio_utc": "2026-09-25T01:40:00+00:00",
       "hora_corrida_utc": "2026-09-25T01:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-24T23:43:43.967417+00:00"
     },
     "Seattle Mariners": {
       "local": "Seattle Mariners",
@@ -5649,7 +5650,8 @@
       "pitcher_visita": 680570,
       "hora_inicio_utc": "2026-09-25T01:40:00+00:00",
       "hora_corrida_utc": "2026-09-25T01:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-24T23:43:43.967417+00:00"
     },
     "Los Angeles Dodgers": {
       "local": "Los Angeles Dodgers",

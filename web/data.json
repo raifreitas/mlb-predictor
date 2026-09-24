@@ -1157,6 +1157,30 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-24",
+   "local": "Athletics",
+   "visita": "Houston Astros",
+   "linea": 10.5,
+   "prediccion": 9.44,
+   "prob_over": 0.6483412384986877,
+   "edge": 1.06,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -1.06 carreras, prob_over 64.8%)",
+   "evaluado_utc": "2026-09-24T23:43:48Z"
+  },
+  {
+   "fecha": "2026-09-24",
+   "local": "Seattle Mariners",
+   "visita": "Los Angeles Angels",
+   "linea": 7.0,
+   "prediccion": 7.81,
+   "prob_over": 0.484921932220459,
+   "edge": 0.81,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.81 carreras, prob_over 48.5%)",
+   "evaluado_utc": "2026-09-24T23:43:48Z"
+  },
+  {
+   "fecha": "2026-09-24",
    "local": "Atlanta Braves",
    "visita": "Cincinnati Reds",
    "linea": 8.0,
@@ -3962,5 +3986,5 @@
   "unidades": 517.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-24T23:28:04Z"
+ "fecha_actualizacion": "2026-09-24T23:43:49Z"
 }
