@@ -5550,7 +5550,8 @@
       "pitcher_visita": 681517,
       "hora_inicio_utc": "2026-09-24T16:35:00+00:00",
       "hora_corrida_utc": "2026-09-24T16:05:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-24T14:37:58.123440+00:00"
     },
     "Kansas City Royals": {
       "local": "Kansas City Royals",

@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-09-23",
+ "ultima_fecha_prediccion": "2026-09-24",
  "resumen": {
   "ganadas": 25,
   "perdidas": 16,
@@ -1107,9 +1107,36 @@
    "total": 5,
    "creado": "2026-09-23 21:42:52",
    "verificado": "2026-09-24 06:47:58"
+  },
+  {
+   "id": 1068,
+   "fecha": "2026-09-24",
+   "local": "Pittsburgh Pirates",
+   "visita": "St. Louis Cardinals",
+   "tipo": "OVER",
+   "linea": 6.5,
+   "unidades": 0.5,
+   "edge": 2.2,
+   "cuota": 1.83,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-24 14:38:02",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-24",
+   "local": "Pittsburgh Pirates",
+   "visita": "St. Louis Cardinals",
+   "linea": 6.5,
+   "prediccion": 8.7,
+   "prob_over": 0.4651930332183838,
+   "edge": 2.2,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-24T14:38:02Z"
+  },
   {
    "fecha": "2026-09-23",
    "local": "Athletics",
@@ -2148,5 +2175,5 @@
   "unidades": 517.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-24T14:03:09Z"
+ "fecha_actualizacion": "2026-09-24T14:38:04Z"
 }
