@@ -2505,6 +2505,157 @@
    "visita": "Chicago White Sox"
   },
   {
+   "game_id": 824298,
+   "bateadores": [
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Lars Nootbaar",
+     "p_so": 0.6065455079078674,
+     "p_bb": 0.41173362731933594
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Ketel Marte",
+     "p_so": 0.5385628342628479,
+     "p_bb": 0.31014132499694824
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Gabriel Moreno",
+     "p_so": 0.5290486216545105,
+     "p_bb": 0.3399571478366852
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Geraldo Perdomo",
+     "p_so": 0.5092886686325073,
+     "p_bb": 0.37046775221824646
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Pavin Smith",
+     "p_so": 0.6169021129608154,
+     "p_bb": 0.3036273419857025
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Nolan Arenado",
+     "p_so": 0.5125299096107483,
+     "p_bb": 0.21571756899356842
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Corbin Carroll",
+     "p_so": 0.6303505897521973,
+     "p_bb": 0.2725290358066559
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "James McCann",
+     "p_so": 0.5825810432434082,
+     "p_bb": 0.156839981675148
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Tim Tawa",
+     "p_so": 0.6032537817955017,
+     "p_bb": 0.20917262136936188
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jake McCarthy",
+     "p_so": 0.5457727313041687,
+     "p_bb": 0.26360806822776794
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Connor Norby",
+     "p_so": 0.7441379427909851,
+     "p_bb": 0.3577474355697632
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Hunter Goodman",
+     "p_so": 0.713165819644928,
+     "p_bb": 0.28496599197387695
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "TJ Rumfield",
+     "p_so": 0.4683098793029785,
+     "p_bb": 0.4267149269580841
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Cole Carrigg",
+     "p_so": 0.6824086904525757,
+     "p_bb": 0.2565472424030304
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Kyle Karros",
+     "p_so": 0.5979045629501343,
+     "p_bb": 0.3364129066467285
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Brett Sullivan",
+     "p_so": 0.4517957866191864,
+     "p_bb": 0.20045927166938782
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Jordan Beck",
+     "p_so": 0.6601994037628174,
+     "p_bb": 0.21927234530448914
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Ezequiel Tovar",
+     "p_so": 0.6330286860466003,
+     "p_bb": 0.19627025723457336
+    }
+   ],
+   "local": "Colorado Rockies",
+   "visita": "Arizona Diamondbacks"
+  },
+  {
    "game_id": 824623,
    "bateadores": [
     {
@@ -2657,12 +2808,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 33,
+  "picks_hoy": 42,
   "ganadas": 1873,
   "perdidas": 839,
   "push": 0,
   "unidades": 517.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-24T16:38:04Z"
+ "fecha_actualizacion": "2026-09-24T16:42:32Z"
 }
