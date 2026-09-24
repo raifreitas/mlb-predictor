@@ -5560,7 +5560,8 @@
       "pitcher_visita": 689818,
       "hora_inicio_utc": "2026-09-24T18:10:00+00:00",
       "hora_corrida_utc": "2026-09-24T17:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-24T16:12:59.832508+00:00"
     },
     "Chicago Cubs": {
       "local": "Chicago Cubs",

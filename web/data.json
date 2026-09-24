@@ -1127,6 +1127,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-24",
+   "local": "Kansas City Royals",
+   "visita": "Chicago White Sox",
+   "linea": 8.5,
+   "prediccion": 9.43,
+   "prob_over": 0.5328586101531982,
+   "edge": 0.93,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 0.93 < 1.45)",
+   "evaluado_utc": "2026-09-24T16:13:04Z"
+  },
+  {
+   "fecha": "2026-09-24",
    "local": "Pittsburgh Pirates",
    "visita": "St. Louis Cardinals",
    "linea": 6.5,
@@ -2477,5 +2489,5 @@
   "unidades": 517.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-24T16:08:03Z"
+ "fecha_actualizacion": "2026-09-24T16:13:05Z"
 }
