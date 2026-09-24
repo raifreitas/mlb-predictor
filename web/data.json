@@ -1142,6 +1142,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-24",
+   "local": "Boston Red Sox",
+   "visita": "Cleveland Guardians",
+   "linea": 6.5,
+   "prediccion": 7.75,
+   "prob_over": 0.46427592635154724,
+   "edge": 1.25,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +1.25 carreras, prob_over 46.4%)",
+   "evaluado_utc": "2026-09-24T20:47:45Z"
+  },
+  {
+   "fecha": "2026-09-24",
    "local": "Philadelphia Phillies",
    "visita": "Milwaukee Brewers",
    "linea": 8.0,
@@ -3458,5 +3470,5 @@
   "unidades": 517.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-24T20:38:10Z"
+ "fecha_actualizacion": "2026-09-24T20:47:46Z"
 }
