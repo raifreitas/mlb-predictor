@@ -1142,6 +1142,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-24",
+   "local": "Philadelphia Phillies",
+   "visita": "Milwaukee Brewers",
+   "linea": 8.0,
+   "prediccion": 8.18,
+   "prob_over": 0.5136464238166809,
+   "edge": 0.18,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +0.18 carreras, prob_over 51.4%)",
+   "evaluado_utc": "2026-09-24T20:08:11Z"
+  },
+  {
+   "fecha": "2026-09-24",
    "local": "Colorado Rockies",
    "visita": "Arizona Diamondbacks",
    "linea": 10.0,
@@ -3134,15 +3146,166 @@
    ],
    "local": "Boston Red Sox",
    "visita": "Cleveland Guardians"
+  },
+  {
+   "game_id": 824866,
+   "bateadores": [
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Carlos Jorge",
+     "p_so": 0.605902910232544,
+     "p_bb": 0.19332534074783325
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Elly De La Cruz",
+     "p_so": 0.7938838005065918,
+     "p_bb": 0.37576642632484436
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Sal Stewart",
+     "p_so": 0.6774004101753235,
+     "p_bb": 0.29403793811798096
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Tyler Stephenson",
+     "p_so": 0.7301141619682312,
+     "p_bb": 0.304218053817749
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "JJ Bleday",
+     "p_so": 0.6527031064033508,
+     "p_bb": 0.3493553400039673
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Eugenio Suárez",
+     "p_so": 0.7615566849708557,
+     "p_bb": 0.2568439543247223
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Héctor Rodríguez",
+     "p_so": 0.6882656812667847,
+     "p_bb": 0.18045227229595184
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Matt McLain",
+     "p_so": 0.6576688885688782,
+     "p_bb": 0.23086746037006378
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Ke'Bryan Hayes",
+     "p_so": 0.5099933743476868,
+     "p_bb": 0.160291850566864
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Drake Baldwin",
+     "p_so": 0.5660771131515503,
+     "p_bb": 0.3659435212612152
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Ronald Acuña Jr.",
+     "p_so": 0.5503007769584656,
+     "p_bb": 0.4328283369541168
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Matt Olson",
+     "p_so": 0.6348953247070312,
+     "p_bb": 0.4069775342941284
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Michael Harris II",
+     "p_so": 0.5455582737922668,
+     "p_bb": 0.2081807255744934
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Mauricio Dubón",
+     "p_so": 0.3700553774833679,
+     "p_bb": 0.21986733376979828
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Ozzie Albies",
+     "p_so": 0.46222159266471863,
+     "p_bb": 0.2774609625339508
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Mike Yastrzemski",
+     "p_so": 0.6140173077583313,
+     "p_bb": 0.32870882749557495
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Austin Riley",
+     "p_so": 0.6775166988372803,
+     "p_bb": 0.2804349362850189
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Sean Murphy",
+     "p_so": 0.5890966057777405,
+     "p_bb": 0.2840828597545624
+    }
+   ],
+   "local": "Atlanta Braves",
+   "visita": "Cincinnati Reds"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 59,
+  "picks_hoy": 70,
   "ganadas": 1873,
   "perdidas": 839,
   "push": 0,
   "unidades": 517.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-24T19:27:01Z"
+ "fecha_actualizacion": "2026-09-24T20:08:12Z"
 }
