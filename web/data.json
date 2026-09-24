@@ -2316,15 +2316,166 @@
    ],
    "local": "Kansas City Royals",
    "visita": "Chicago White Sox"
+  },
+  {
+   "game_id": 824623,
+   "bateadores": [
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Otto Lopez",
+     "p_so": 0.4965815544128418,
+     "p_bb": 0.2583049535751343
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Heriberto Hernández",
+     "p_so": 0.7488300204277039,
+     "p_bb": 0.3982360064983368
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Jakob Marsee",
+     "p_so": 0.6099153757095337,
+     "p_bb": 0.3638935089111328
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Javier Sanoja",
+     "p_so": 0.3873578608036041,
+     "p_bb": 0.21677294373512268
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Agustín Ramírez",
+     "p_so": 0.5851557850837708,
+     "p_bb": 0.24542957544326782
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Esteury Ruiz",
+     "p_so": 0.6432334184646606,
+     "p_bb": 0.19750790297985077
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Deyvison De Los Santos",
+     "p_so": 0.6465838551521301,
+     "p_bb": 0.16566866636276245
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Jared Serna",
+     "p_so": 0.6763049960136414,
+     "p_bb": 0.1675262451171875
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Brian Navarreto",
+     "p_so": 0.6556946039199829,
+     "p_bb": 0.1471417397260666
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Pete Crow-Armstrong",
+     "p_so": 0.677679181098938,
+     "p_bb": 0.3189863860607147
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Seiya Suzuki",
+     "p_so": 0.6605632901191711,
+     "p_bb": 0.42591243982315063
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Michael Busch",
+     "p_so": 0.7020987868309021,
+     "p_bb": 0.43104562163352966
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Michael Conforto",
+     "p_so": 0.6233718395233154,
+     "p_bb": 0.3474234342575073
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Ian Happ",
+     "p_so": 0.6616473197937012,
+     "p_bb": 0.4314604699611664
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Nico Hoerner",
+     "p_so": 0.28845691680908203,
+     "p_bb": 0.222982719540596
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Pedro Ramírez",
+     "p_so": 0.48309454321861267,
+     "p_bb": 0.25711408257484436
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Carson Kelly",
+     "p_so": 0.4411032497882843,
+     "p_bb": 0.2766127288341522
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Dansby Swanson",
+     "p_so": 0.594322681427002,
+     "p_bb": 0.2942030727863312
+    }
+   ],
+   "local": "Chicago Cubs",
+   "visita": "Miami Marlins"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 12,
+  "picks_hoy": 23,
   "ganadas": 1873,
   "perdidas": 839,
   "push": 0,
   "unidades": 517.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-24T15:08:00Z"
+ "fecha_actualizacion": "2026-09-24T16:08:03Z"
 }
