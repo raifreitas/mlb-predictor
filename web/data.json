@@ -2381,6 +2381,157 @@
    "visita": "St. Louis Cardinals"
   },
   {
+   "game_id": 823411,
+   "bateadores": [
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Garrett Mitchell",
+     "p_so": 0.7700417041778564,
+     "p_bb": 0.34759676456451416
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Brice Turang",
+     "p_so": 0.724716067314148,
+     "p_bb": 0.43823397159576416
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "William Contreras",
+     "p_so": 0.6286695003509521,
+     "p_bb": 0.37148401141166687
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jake Bauers",
+     "p_so": 0.7633974552154541,
+     "p_bb": 0.47682324051856995
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Gary Sánchez",
+     "p_so": 0.6519991755485535,
+     "p_bb": 0.3079568147659302
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Luis Lara",
+     "p_so": 0.618085503578186,
+     "p_bb": 0.2627949118614197
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Cooper Pratt",
+     "p_so": 0.5296230912208557,
+     "p_bb": 0.272888720035553
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Sal Frelick",
+     "p_so": 0.4027310609817505,
+     "p_bb": 0.24514296650886536
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Joey Ortiz",
+     "p_so": 0.49737486243247986,
+     "p_bb": 0.22306573390960693
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Kyle Schwarber",
+     "p_so": 0.774804949760437,
+     "p_bb": 0.5074119567871094
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Trea Turner",
+     "p_so": 0.5763740539550781,
+     "p_bb": 0.30071786046028137
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Bryce Harper",
+     "p_so": 0.6790428757667542,
+     "p_bb": 0.40654245018959045
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Luis Arraez",
+     "p_so": 0.2388545125722885,
+     "p_bb": 0.1860869973897934
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Alec Bohm",
+     "p_so": 0.4908013641834259,
+     "p_bb": 0.2954757809638977
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Bryan De La Cruz",
+     "p_so": 0.6014339327812195,
+     "p_bb": 0.1999509334564209
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Bryson Stott",
+     "p_so": 0.5021272301673889,
+     "p_bb": 0.3214029371738434
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "J.T. Realmuto",
+     "p_so": 0.6139138340950012,
+     "p_bb": 0.25690901279449463
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Justin Crawford",
+     "p_so": 0.4475565552711487,
+     "p_bb": 0.1744876205921173
+    }
+   ],
+   "local": "Philadelphia Phillies",
+   "visita": "Milwaukee Brewers"
+  },
+  {
    "game_id": 824059,
    "bateadores": [
     {
@@ -2832,15 +2983,166 @@
    ],
    "local": "Chicago Cubs",
    "visita": "Miami Marlins"
+  },
+  {
+   "game_id": 824707,
+   "bateadores": [
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Steven Kwan",
+     "p_so": 0.4169987440109253,
+     "p_bb": 0.33672279119491577
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "José Ramírez",
+     "p_so": 0.42457476258277893,
+     "p_bb": 0.2957782447338104
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Chase DeLauter",
+     "p_so": 0.484230637550354,
+     "p_bb": 0.3297174870967865
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jo Adell",
+     "p_so": 0.7131766676902771,
+     "p_bb": 0.2530532777309418
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Angel Martínez",
+     "p_so": 0.5910966992378235,
+     "p_bb": 0.1782996654510498
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "David Fry",
+     "p_so": 0.625184953212738,
+     "p_bb": 0.2890058755874634
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Travis Bazzana",
+     "p_so": 0.5481065511703491,
+     "p_bb": 0.3041975498199463
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Patrick Bailey",
+     "p_so": 0.6218754053115845,
+     "p_bb": 0.21017025411128998
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Brayan Rocchio",
+     "p_so": 0.4756799340248108,
+     "p_bb": 0.2175290584564209
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Nick Sogard",
+     "p_so": 0.6300770044326782,
+     "p_bb": 0.3565990924835205
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Mickey Gasper",
+     "p_so": 0.5202460885047913,
+     "p_bb": 0.41159671545028687
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Adley Rutschman",
+     "p_so": 0.5156651735305786,
+     "p_bb": 0.3616688847541809
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Wilyer Abreu",
+     "p_so": 0.6266601085662842,
+     "p_bb": 0.4021664261817932
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Caleb Durbin",
+     "p_so": 0.38953888416290283,
+     "p_bb": 0.3318079113960266
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Ceddanne Rafaela",
+     "p_so": 0.549000084400177,
+     "p_bb": 0.16670843958854675
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Jarren Duran",
+     "p_so": 0.6390705704689026,
+     "p_bb": 0.26722651720046997
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Trevor Story",
+     "p_so": 0.6510248780250549,
+     "p_bb": 0.19842569530010223
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Isiah Kiner-Falefa",
+     "p_so": 0.42476141452789307,
+     "p_bb": 0.18724952638149261
+    }
+   ],
+   "local": "Boston Red Sox",
+   "visita": "Cleveland Guardians"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 42,
+  "picks_hoy": 59,
   "ganadas": 1873,
   "perdidas": 839,
   "push": 0,
   "unidades": 517.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-24T17:13:15Z"
+ "fecha_actualizacion": "2026-09-24T19:27:01Z"
 }
