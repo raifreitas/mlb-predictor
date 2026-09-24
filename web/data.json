@@ -1127,6 +1127,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-24",
+   "local": "Texas Rangers",
+   "visita": "New York Mets",
+   "linea": 8.0,
+   "prediccion": 7.67,
+   "prob_over": 0.48115962743759155,
+   "edge": 0.33,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.33 carreras, prob_over 48.1%)",
+   "evaluado_utc": "2026-09-24T16:38:03Z"
+  },
+  {
+   "fecha": "2026-09-24",
    "local": "Chicago Cubs",
    "visita": "Miami Marlins",
    "linea": 7.5,
@@ -2652,5 +2664,5 @@
   "unidades": 517.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-24T16:23:04Z"
+ "fecha_actualizacion": "2026-09-24T16:38:04Z"
 }
