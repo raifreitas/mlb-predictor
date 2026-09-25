@@ -2840,6 +2840,157 @@
    "visita": "Texas Rangers"
   },
   {
+   "game_id": 823735,
+   "bateadores": [
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "JJ Wetherholt",
+     "p_so": 0.4954218864440918,
+     "p_bb": 0.2797063887119293
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Iván Herrera",
+     "p_so": 0.606730043888092,
+     "p_bb": 0.4044951796531677
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Jordan Walker",
+     "p_so": 0.7586707472801208,
+     "p_bb": 0.3048414885997772
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Leo Bernal",
+     "p_so": 0.6836040019989014,
+     "p_bb": 0.24570941925048828
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "José Fermín",
+     "p_so": 0.4443458616733551,
+     "p_bb": 0.2725844979286194
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Thomas Saggese",
+     "p_so": 0.6861849427223206,
+     "p_bb": 0.24013890326023102
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Masyn Winn",
+     "p_so": 0.5521535873413086,
+     "p_bb": 0.23804092407226562
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Pedro Pagés",
+     "p_so": 0.6115196347236633,
+     "p_bb": 0.19673016667366028
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Victor Scott II",
+     "p_so": 0.5227040648460388,
+     "p_bb": 0.1757069081068039
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Garrett Mitchell",
+     "p_so": 0.7365163564682007,
+     "p_bb": 0.3483937978744507
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Brice Turang",
+     "p_so": 0.6929100751876831,
+     "p_bb": 0.4258716106414795
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "William Contreras",
+     "p_so": 0.5896852016448975,
+     "p_bb": 0.37456247210502625
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Jake Bauers",
+     "p_so": 0.7249214053153992,
+     "p_bb": 0.48048362135887146
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Christian Yelich",
+     "p_so": 0.6875709891319275,
+     "p_bb": 0.34395265579223633
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Joey Ortiz",
+     "p_so": 0.5270951390266418,
+     "p_bb": 0.2561669647693634
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Luis Lara",
+     "p_so": 0.5712346434593201,
+     "p_bb": 0.2591344714164734
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Sal Frelick",
+     "p_so": 0.37794092297554016,
+     "p_bb": 0.25756919384002686
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "David Hamilton",
+     "p_so": 0.5468395352363586,
+     "p_bb": 0.19571425020694733
+    }
+   ],
+   "local": "Milwaukee Brewers",
+   "visita": "St. Louis Cardinals"
+  },
+  {
    "game_id": 823816,
    "bateadores": [
     {
@@ -3747,12 +3898,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 119,
+  "picks_hoy": 128,
   "ganadas": 1952,
   "perdidas": 876,
   "push": 0,
   "unidades": 538.0,
   "acierto": 69.0
  },
- "fecha_actualizacion": "2026-09-25T21:12:53Z"
+ "fecha_actualizacion": "2026-09-25T21:28:18Z"
 }
