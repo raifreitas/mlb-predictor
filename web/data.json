@@ -1167,9 +1167,36 @@
    "total": null,
    "creado": "2026-09-25 21:08:21",
    "verificado": null
+  },
+  {
+   "id": 1072,
+   "fecha": "2026-09-25",
+   "local": "Minnesota Twins",
+   "visita": "Texas Rangers",
+   "tipo": "OVER",
+   "linea": 7.5,
+   "unidades": 0.5,
+   "edge": 2.04,
+   "cuota": 1.91,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-25 22:12:57",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-25",
+   "local": "Minnesota Twins",
+   "visita": "Texas Rangers",
+   "linea": 7.5,
+   "prediccion": 9.54,
+   "prob_over": 0.5115624070167542,
+   "edge": 2.04,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-25T22:12:57Z"
+  },
   {
    "fecha": "2026-09-25",
    "local": "Chicago White Sox",
@@ -4092,5 +4119,5 @@
   "unidades": 538.0,
   "acierto": 69.0
  },
- "fecha_actualizacion": "2026-09-25T22:08:14Z"
+ "fecha_actualizacion": "2026-09-25T22:12:58Z"
 }
