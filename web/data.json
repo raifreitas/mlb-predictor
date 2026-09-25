@@ -2462,6 +2462,157 @@
    "visita": "Cincinnati Reds"
   },
   {
+   "game_id": 823085,
+   "bateadores": [
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Zach Neto",
+     "p_so": 0.7959865927696228,
+     "p_bb": 0.30767467617988586
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Mike Trout",
+     "p_so": 0.8000675439834595,
+     "p_bb": 0.5420623421669006
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Wade Meckler",
+     "p_so": 0.6872625946998596,
+     "p_bb": 0.342739075422287
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Vaughn Grissom",
+     "p_so": 0.6253408193588257,
+     "p_bb": 0.22671176493167877
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Moisés Ballesteros",
+     "p_so": 0.6826371550559998,
+     "p_bb": 0.3036360442638397
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Josh Lowe",
+     "p_so": 0.7379521727561951,
+     "p_bb": 0.23279322683811188
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Christian Moore",
+     "p_so": 0.7732295989990234,
+     "p_bb": 0.2823295593261719
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Travis d'Arnaud",
+     "p_so": 0.6337432861328125,
+     "p_bb": 0.1650538444519043
+    },
+    {
+     "equipo": "Los Angeles Angels",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Bryce Teodosio",
+     "p_so": 0.6738472580909729,
+     "p_bb": 0.134212926030159
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Randy Arozarena",
+     "p_so": 0.7301432490348816,
+     "p_bb": 0.3080987334251404
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Dominic Canzone",
+     "p_so": 0.6764260530471802,
+     "p_bb": 0.2618938088417053
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Julio Rodríguez",
+     "p_so": 0.7016555666923523,
+     "p_bb": 0.23361022770404816
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Josh Naylor",
+     "p_so": 0.4984574317932129,
+     "p_bb": 0.23167937994003296
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Michael Arroyo",
+     "p_so": 0.6020037531852722,
+     "p_bb": 0.2643857002258301
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Cole Young",
+     "p_so": 0.5770622491836548,
+     "p_bb": 0.21394772827625275
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Jhonny Pereda",
+     "p_so": 0.5838911533355713,
+     "p_bb": 0.20690706372261047
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Weston Wilson",
+     "p_so": 0.6628394722938538,
+     "p_bb": 0.20892563462257385
+    },
+    {
+     "equipo": "Seattle Mariners",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Leo Rivas",
+     "p_so": 0.5214022397994995,
+     "p_bb": 0.18511949479579926
+    }
+   ],
+   "local": "Seattle Mariners",
+   "visita": "Los Angeles Angels"
+  },
+  {
    "game_id": 823167,
    "bateadores": [
     {
@@ -2913,6 +3064,157 @@
    ],
    "local": "Philadelphia Phillies",
    "visita": "Tampa Bay Rays"
+  },
+  {
+   "game_id": 823489,
+   "bateadores": [
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Dylan Beavers",
+     "p_so": 0.6902695298194885,
+     "p_bb": 0.34328004717826843
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Pete Alonso",
+     "p_so": 0.7163553237915039,
+     "p_bb": 0.3921923339366913
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Coby Mayo",
+     "p_so": 0.7462483644485474,
+     "p_bb": 0.30730992555618286
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jeremiah Jackson",
+     "p_so": 0.6016358733177185,
+     "p_bb": 0.17458869516849518
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Leody Taveras",
+     "p_so": 0.6844617128372192,
+     "p_bb": 0.2581908404827118
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Rece Hinds",
+     "p_so": 0.7144014239311218,
+     "p_bb": 0.21906717121601105
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Christian Franklin",
+     "p_so": 0.6253787279129028,
+     "p_bb": 0.27448806166648865
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Yohel Pozo",
+     "p_so": 0.40142345428466797,
+     "p_bb": 0.16629533469676971
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "José Barrero",
+     "p_so": 0.5843921303749084,
+     "p_bb": 0.20498709380626678
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Ben Rice",
+     "p_so": 0.6613675951957703,
+     "p_bb": 0.45603302121162415
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Cody Bellinger",
+     "p_so": 0.4966847598552704,
+     "p_bb": 0.3482827842235565
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Heliot Ramos",
+     "p_so": 0.6929099559783936,
+     "p_bb": 0.3040420711040497
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Luis García Jr.",
+     "p_so": 0.5789128541946411,
+     "p_bb": 0.20196399092674255
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Spencer Jones",
+     "p_so": 0.7783852219581604,
+     "p_bb": 0.3135247528553009
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Jazz Chisholm Jr.",
+     "p_so": 0.6886816620826721,
+     "p_bb": 0.314418762922287
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Anthony Volpe",
+     "p_so": 0.6368724703788757,
+     "p_bb": 0.22711493074893951
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Austin Wells",
+     "p_so": 0.6222872138023376,
+     "p_bb": 0.3297819495201111
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Ryan McMahon",
+     "p_so": 0.6577677130699158,
+     "p_bb": 0.2612530589103699
+    }
+   ],
+   "local": "New York Yankees",
+   "visita": "Baltimore Orioles"
   },
   {
    "game_id": 823491,
@@ -4275,12 +4577,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 140,
+  "picks_hoy": 168,
   "ganadas": 1952,
   "perdidas": 876,
   "push": 0,
   "unidades": 538.0,
   "acierto": 69.0
  },
- "fecha_actualizacion": "2026-09-25T22:55:59Z"
+ "fecha_actualizacion": "2026-09-25T23:23:20Z"
 }
