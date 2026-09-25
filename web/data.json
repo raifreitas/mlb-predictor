@@ -2022,6 +2022,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 822681,
+   "bateadores": [
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Francisco Lindor",
+     "p_so": 0.6843436360359192,
+     "p_bb": 0.35537540912628174
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Juan Soto",
+     "p_so": 0.6282101273536682,
+     "p_bb": 0.524566113948822
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Bo Bichette",
+     "p_so": 0.6132171154022217,
+     "p_bb": 0.32012078166007996
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Mark Vientos",
+     "p_so": 0.6918134689331055,
+     "p_bb": 0.2559724748134613
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Carson Benge",
+     "p_so": 0.7113204598426819,
+     "p_bb": 0.31449979543685913
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Francisco Alvarez",
+     "p_so": 0.7349112629890442,
+     "p_bb": 0.30205270648002625
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Marcus Semien",
+     "p_so": 0.548264741897583,
+     "p_bb": 0.33706438541412354
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "A.J. Ewing",
+     "p_so": 0.6599311232566833,
+     "p_bb": 0.28584760427474976
+    },
+    {
+     "equipo": "New York Mets",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Christopher Morel",
+     "p_so": 0.6249788999557495,
+     "p_bb": 0.2518784999847412
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "James Wood",
+     "p_so": 0.7359218001365662,
+     "p_bb": 0.4255441129207611
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Andrés Chaparro",
+     "p_so": 0.6159246563911438,
+     "p_bb": 0.3310631215572357
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Brady House",
+     "p_so": 0.6135624051094055,
+     "p_bb": 0.2698504626750946
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Dylan Crews",
+     "p_so": 0.6495888233184814,
+     "p_bb": 0.25759124755859375
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "CJ Abrams",
+     "p_so": 0.6453782320022583,
+     "p_bb": 0.26779207587242126
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Jacob Young",
+     "p_so": 0.4871128797531128,
+     "p_bb": 0.2560482323169708
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Daylen Lile",
+     "p_so": 0.5511462092399597,
+     "p_bb": 0.23890316486358643
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Keibert Ruiz",
+     "p_so": 0.30171796679496765,
+     "p_bb": 0.15446096658706665
+    },
+    {
+     "equipo": "Washington Nationals",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Jorbit Vivas",
+     "p_so": 0.40245521068573,
+     "p_bb": 0.2297743707895279
+    }
+   ],
+   "local": "Washington Nationals",
+   "visita": "New York Mets"
+  },
+  {
    "game_id": 822760,
    "bateadores": [
     {
@@ -2929,12 +3080,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 63,
+  "picks_hoy": 76,
   "ganadas": 1952,
   "perdidas": 876,
   "push": 0,
   "unidades": 538.0,
   "acierto": 69.0
  },
- "fecha_actualizacion": "2026-09-25T20:07:10Z"
+ "fecha_actualizacion": "2026-09-25T20:13:13Z"
 }
