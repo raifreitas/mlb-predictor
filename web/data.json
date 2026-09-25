@@ -3077,15 +3077,166 @@
    ],
    "local": "Boston Red Sox",
    "visita": "Chicago Cubs"
+  },
+  {
+   "game_id": 824706,
+   "bateadores": [
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Pete Crow-Armstrong",
+     "p_so": 0.7797248959541321,
+     "p_bb": 0.3048638105392456
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Seiya Suzuki",
+     "p_so": 0.787571907043457,
+     "p_bb": 0.4033162295818329
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Michael Busch",
+     "p_so": 0.8143100738525391,
+     "p_bb": 0.4054323732852936
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Michael Conforto",
+     "p_so": 0.7328636050224304,
+     "p_bb": 0.34046870470046997
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Ian Happ",
+     "p_so": 0.7798700928688049,
+     "p_bb": 0.4098784327507019
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Nico Hoerner",
+     "p_so": 0.3734409809112549,
+     "p_bb": 0.19186092913150787
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Pedro Ramírez",
+     "p_so": 0.5807792544364929,
+     "p_bb": 0.23770296573638916
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Carson Kelly",
+     "p_so": 0.517781674861908,
+     "p_bb": 0.2587797939777374
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Matt Shaw",
+     "p_so": 0.5555265545845032,
+     "p_bb": 0.22400513291358948
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Roman Anthony",
+     "p_so": 0.755515456199646,
+     "p_bb": 0.36862698197364807
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Jahmai Jones",
+     "p_so": 0.6448102593421936,
+     "p_bb": 0.2988136410713196
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Wilyer Abreu",
+     "p_so": 0.7063457369804382,
+     "p_bb": 0.37843528389930725
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Trevor Story",
+     "p_so": 0.7346839904785156,
+     "p_bb": 0.21050822734832764
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Nick Sogard",
+     "p_so": 0.6736610531806946,
+     "p_bb": 0.28810030221939087
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Andruw Monasterio",
+     "p_so": 0.6117717623710632,
+     "p_bb": 0.2755787968635559
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Jarren Duran",
+     "p_so": 0.6549946069717407,
+     "p_bb": 0.24469344317913055
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Isiah Kiner-Falefa",
+     "p_so": 0.5132540464401245,
+     "p_bb": 0.22938139736652374
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Connor Wong",
+     "p_so": 0.5982069969177246,
+     "p_bb": 0.18172572553157806
+    }
+   ],
+   "local": "Boston Red Sox",
+   "visita": "Chicago Cubs"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 76,
+  "picks_hoy": 88,
   "ganadas": 1952,
   "perdidas": 876,
   "push": 0,
   "unidades": 538.0,
   "acierto": 69.0
  },
- "fecha_actualizacion": "2026-09-25T20:13:13Z"
+ "fecha_actualizacion": "2026-09-25T20:33:17Z"
 }
