@@ -5691,7 +5691,8 @@
       "pitcher_visita": 696149,
       "hora_inicio_utc": "2026-09-25T22:40:00+00:00",
       "hora_corrida_utc": "2026-09-25T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-25T20:43:22.794124+00:00"
     },
     "Philadelphia Phillies": {
       "local": "Philadelphia Phillies",
@@ -5700,7 +5701,8 @@
       "pitcher_visita": 642547,
       "hora_inicio_utc": "2026-09-25T22:40:00+00:00",
       "hora_corrida_utc": "2026-09-25T22:10:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-25T20:43:22.794124+00:00"
     },
     "Washington Nationals": {
       "local": "Washington Nationals",

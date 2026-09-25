@@ -1157,6 +1157,30 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-25",
+   "local": "Detroit Tigers",
+   "visita": "Pittsburgh Pirates",
+   "linea": 8.0,
+   "prediccion": 7.19,
+   "prob_over": 0.47376081347465515,
+   "edge": 0.81,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.81 carreras, prob_over 47.4%)",
+   "evaluado_utc": "2026-09-25T20:43:27Z"
+  },
+  {
+   "fecha": "2026-09-25",
+   "local": "Philadelphia Phillies",
+   "visita": "Tampa Bay Rays",
+   "linea": 6.5,
+   "prediccion": 7.56,
+   "prob_over": 0.5100856423377991,
+   "edge": 1.06,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +1.06 carreras, prob_over 51.0%)",
+   "evaluado_utc": "2026-09-25T20:43:27Z"
+  },
+  {
+   "fecha": "2026-09-25",
    "local": "Boston Red Sox",
    "visita": "Chicago Cubs",
    "linea": 6.5,
@@ -3389,5 +3413,5 @@
   "unidades": 538.0,
   "acierto": 69.0
  },
- "fecha_actualizacion": "2026-09-25T20:38:20Z"
+ "fecha_actualizacion": "2026-09-25T20:43:28Z"
 }
