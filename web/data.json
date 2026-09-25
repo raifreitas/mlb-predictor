@@ -2173,6 +2173,157 @@
    "visita": "Baltimore Orioles"
   },
   {
+   "game_id": 824220,
+   "bateadores": [
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Konnor Griffin",
+     "p_so": 0.6665218472480774,
+     "p_bb": 0.24145646393299103
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Brandon Lowe",
+     "p_so": 0.8041815161705017,
+     "p_bb": 0.37167689204216003
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Bryan Reynolds",
+     "p_so": 0.7561681866645813,
+     "p_bb": 0.3823273181915283
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Oneil Cruz",
+     "p_so": 0.8116967082023621,
+     "p_bb": 0.39730173349380493
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Nick Gonzales",
+     "p_so": 0.5968473553657532,
+     "p_bb": 0.2583945691585541
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Ryan O'Hearn",
+     "p_so": 0.6447271108627319,
+     "p_bb": 0.2872518301010132
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Rafael Flores Jr.",
+     "p_so": 0.7156511545181274,
+     "p_bb": 0.29110804200172424
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Spencer Horwitz",
+     "p_so": 0.5112007856369019,
+     "p_bb": 0.3183015286922455
+    },
+    {
+     "equipo": "Pittsburgh Pirates",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Jake Mangum",
+     "p_so": 0.48933276534080505,
+     "p_bb": 0.17119482159614563
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Max Clark",
+     "p_so": 0.6006801724433899,
+     "p_bb": 0.3418844938278198
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Hao-Yu Lee",
+     "p_so": 0.7197956442832947,
+     "p_bb": 0.3715210258960724
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Kevin McGonigle",
+     "p_so": 0.46336448192596436,
+     "p_bb": 0.5196372866630554
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Eduardo Valencia",
+     "p_so": 0.5437960624694824,
+     "p_bb": 0.19655856490135193
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Riley Greene",
+     "p_so": 0.7255963087081909,
+     "p_bb": 0.35699039697647095
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Dillon Dingler",
+     "p_so": 0.6541165709495544,
+     "p_bb": 0.2247287929058075
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Brett Callahan",
+     "p_so": 0.700806736946106,
+     "p_bb": 0.25615930557250977
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Spencer Torkelson",
+     "p_so": 0.6895535588264465,
+     "p_bb": 0.3431101441383362
+    },
+    {
+     "equipo": "Detroit Tigers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "John Peck",
+     "p_so": 0.5569800138473511,
+     "p_bb": 0.28220701217651367
+    }
+   ],
+   "local": "Detroit Tigers",
+   "visita": "Pittsburgh Pirates"
+  },
+  {
    "game_id": 824703,
    "bateadores": [
     {
@@ -2325,12 +2476,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 22,
+  "picks_hoy": 34,
   "ganadas": 1952,
   "perdidas": 876,
   "push": 0,
   "unidades": 538.0,
   "acierto": 69.0
  },
- "fecha_actualizacion": "2026-09-25T18:13:21Z"
+ "fecha_actualizacion": "2026-09-25T19:47:35Z"
 }
