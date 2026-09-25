@@ -1998,6 +1998,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 823491,
+   "bateadores": [
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Dylan Beavers",
+     "p_so": 0.7352712154388428,
+     "p_bb": 0.4214715361595154
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Pete Alonso",
+     "p_so": 0.7158235311508179,
+     "p_bb": 0.447053998708725
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Gunnar Henderson",
+     "p_so": 0.6877568960189819,
+     "p_bb": 0.4141484200954437
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Coby Mayo",
+     "p_so": 0.7444992661476135,
+     "p_bb": 0.32905879616737366
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Christian Encarnacion-Strand",
+     "p_so": 0.7038974761962891,
+     "p_bb": 0.22100651264190674
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Colton Cowser",
+     "p_so": 0.7436435222625732,
+     "p_bb": 0.34117746353149414
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Jeremiah Jackson",
+     "p_so": 0.5942255258560181,
+     "p_bb": 0.16735036671161652
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Christian Franklin",
+     "p_so": 0.5747032165527344,
+     "p_bb": 0.2853708863258362
+    },
+    {
+     "equipo": "Baltimore Orioles",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Carlos Narváez",
+     "p_so": 0.5874571204185486,
+     "p_bb": 0.23592160642147064
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Paul Goldschmidt",
+     "p_so": 0.6363758444786072,
+     "p_bb": 0.26517578959465027
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Ben Rice",
+     "p_so": 0.7186648845672607,
+     "p_bb": 0.37444373965263367
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Heliot Ramos",
+     "p_so": 0.7438796162605286,
+     "p_bb": 0.28057071566581726
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Amed Rosario",
+     "p_so": 0.5686779618263245,
+     "p_bb": 0.16867080330848694
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "George Lombard Jr.",
+     "p_so": 0.6908600330352783,
+     "p_bb": 0.22154541313648224
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Spencer Jones",
+     "p_so": 0.7789814472198486,
+     "p_bb": 0.25115320086479187
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Anthony Volpe",
+     "p_so": 0.6576105952262878,
+     "p_bb": 0.22109514474868774
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Ali Sánchez",
+     "p_so": 0.6286178231239319,
+     "p_bb": 0.1580829918384552
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "José Caballero",
+     "p_so": 0.657015860080719,
+     "p_bb": 0.2078254371881485
+    }
+   ],
+   "local": "New York Yankees",
+   "visita": "Baltimore Orioles"
+  },
+  {
    "game_id": 824703,
    "bateadores": [
     {
@@ -2150,12 +2301,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 8,
+  "picks_hoy": 22,
   "ganadas": 1952,
   "perdidas": 876,
   "push": 0,
   "unidades": 538.0,
   "acierto": 69.0
  },
- "fecha_actualizacion": "2026-09-25T14:43:15Z"
+ "fecha_actualizacion": "2026-09-25T17:22:42Z"
 }
