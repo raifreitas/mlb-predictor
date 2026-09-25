@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-09-24",
+ "ultima_fecha_prediccion": "2026-09-25",
  "resumen": {
   "ganadas": 27,
   "perdidas": 17,
@@ -1152,9 +1152,36 @@
    "total": 10,
    "creado": "2026-09-24 21:08:13",
    "verificado": "2026-09-25 06:50:29"
+  },
+  {
+   "id": 1071,
+   "fecha": "2026-09-25",
+   "local": "Toronto Blue Jays",
+   "visita": "Cincinnati Reds",
+   "tipo": "OVER",
+   "linea": 7.5,
+   "unidades": 0.5,
+   "edge": 1.51,
+   "cuota": 1.87,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-25 21:08:21",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-25",
+   "local": "Toronto Blue Jays",
+   "visita": "Cincinnati Reds",
+   "linea": 7.5,
+   "prediccion": 9.01,
+   "prob_over": 0.4808367192745209,
+   "edge": 1.51,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-25T21:08:21Z"
+  },
   {
    "fecha": "2026-09-25",
    "local": "Detroit Tigers",
@@ -3715,5 +3742,5 @@
   "unidades": 538.0,
   "acierto": 69.0
  },
- "fecha_actualizacion": "2026-09-25T20:48:13Z"
+ "fecha_actualizacion": "2026-09-25T21:08:23Z"
 }
