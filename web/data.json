@@ -1187,6 +1187,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-25",
+   "local": "Washington Nationals",
+   "visita": "New York Mets",
+   "linea": 8.0,
+   "prediccion": 7.98,
+   "prob_over": 0.5042998194694519,
+   "edge": 0.02,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.02 carreras, prob_over 50.4%)",
+   "evaluado_utc": "2026-09-25T22:17:08Z"
+  },
+  {
+   "fecha": "2026-09-25",
    "local": "Minnesota Twins",
    "visita": "Texas Rangers",
    "linea": 7.5,
@@ -4119,5 +4131,5 @@
   "unidades": 538.0,
   "acierto": 69.0
  },
- "fecha_actualizacion": "2026-09-25T22:12:58Z"
+ "fecha_actualizacion": "2026-09-25T22:17:09Z"
 }
