@@ -2022,6 +2022,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 822760,
+   "bateadores": [
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Carlos Jorge",
+     "p_so": 0.6115154027938843,
+     "p_bb": 0.2206248790025711
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Elly De La Cruz",
+     "p_so": 0.7828041911125183,
+     "p_bb": 0.4176391363143921
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Sal Stewart",
+     "p_so": 0.6393203139305115,
+     "p_bb": 0.3313039541244507
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "JJ Bleday",
+     "p_so": 0.6399415135383606,
+     "p_bb": 0.40369027853012085
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Eugenio Suárez",
+     "p_so": 0.7355598211288452,
+     "p_bb": 0.32878533005714417
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Héctor Rodríguez",
+     "p_so": 0.6771870851516724,
+     "p_bb": 0.213039830327034
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Juan Brito",
+     "p_so": 0.5569007992744446,
+     "p_bb": 0.19813203811645508
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Jose Trevino",
+     "p_so": 0.43624147772789,
+     "p_bb": 0.1529758721590042
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Oswaldo Cabrera",
+     "p_so": 0.5089201927185059,
+     "p_bb": 0.19051320850849152
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Charles McAdoo",
+     "p_so": 0.522853434085846,
+     "p_bb": 0.2453763335943222
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Alejandro Kirk",
+     "p_so": 0.43294253945350647,
+     "p_bb": 0.3646267056465149
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Vladimir Guerrero Jr.",
+     "p_so": 0.4407898783683777,
+     "p_bb": 0.37108200788497925
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "George Springer",
+     "p_so": 0.5460625886917114,
+     "p_bb": 0.31804946064949036
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Kazuma Okamoto",
+     "p_so": 0.6906301379203796,
+     "p_bb": 0.32679760456085205
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Nathan Lukes",
+     "p_so": 0.41170597076416016,
+     "p_bb": 0.24381287395954132
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Davis Schneider",
+     "p_so": 0.6577711701393127,
+     "p_bb": 0.3169328272342682
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Ernie Clement",
+     "p_so": 0.30967411398887634,
+     "p_bb": 0.17404820024967194
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Myles Straw",
+     "p_so": 0.4346969425678253,
+     "p_bb": 0.23711417615413666
+    }
+   ],
+   "local": "Toronto Blue Jays",
+   "visita": "Cincinnati Reds"
+  },
+  {
    "game_id": 823491,
    "bateadores": [
     {
@@ -2476,12 +2627,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 34,
+  "picks_hoy": 42,
   "ganadas": 1952,
   "perdidas": 876,
   "push": 0,
   "unidades": 538.0,
   "acierto": 69.0
  },
- "fecha_actualizacion": "2026-09-25T19:47:35Z"
+ "fecha_actualizacion": "2026-09-25T20:03:24Z"
 }
