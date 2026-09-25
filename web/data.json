@@ -1172,6 +1172,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-25",
+   "local": "Miami Marlins",
+   "visita": "Atlanta Braves",
+   "linea": 8.0,
+   "prediccion": 9.28,
+   "prob_over": 0.4392654299736023,
+   "edge": 1.28,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo +1.28 carreras, prob_over 43.9%)",
+   "evaluado_utc": "2026-09-25T21:12:52Z"
+  },
+  {
+   "fecha": "2026-09-25",
    "local": "Toronto Blue Jays",
    "visita": "Cincinnati Reds",
    "linea": 7.5,
@@ -3742,5 +3754,5 @@
   "unidades": 538.0,
   "acierto": 69.0
  },
- "fecha_actualizacion": "2026-09-25T21:08:23Z"
+ "fecha_actualizacion": "2026-09-25T21:12:53Z"
 }
