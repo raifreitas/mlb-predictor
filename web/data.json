@@ -2626,6 +2626,157 @@
    "visita": "Baltimore Orioles"
   },
   {
+   "game_id": 823652,
+   "bateadores": [
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Brandon Nimmo",
+     "p_so": 0.7152583003044128,
+     "p_bb": 0.31868162751197815
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Josh Jung",
+     "p_so": 0.611111581325531,
+     "p_bb": 0.18493342399597168
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Corey Seager",
+     "p_so": 0.633820116519928,
+     "p_bb": 0.3521748483181
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Wyatt Langford",
+     "p_so": 0.7060008645057678,
+     "p_bb": 0.38813138008117676
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Ezequiel Duran",
+     "p_so": 0.6855443120002747,
+     "p_bb": 0.21696266531944275
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Nicky Lopez",
+     "p_so": 0.4982491135597229,
+     "p_bb": 0.22344961762428284
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Jake Burger",
+     "p_so": 0.7001538276672363,
+     "p_bb": 0.2228245735168457
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Evan Carter",
+     "p_so": 0.6162241697311401,
+     "p_bb": 0.24114830791950226
+    },
+    {
+     "equipo": "Texas Rangers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Danny Jansen",
+     "p_so": 0.5256687998771667,
+     "p_bb": 0.22660084068775177
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Luke Keaschall",
+     "p_so": 0.5219208002090454,
+     "p_bb": 0.2858445644378662
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Brooks Lee",
+     "p_so": 0.5669200420379639,
+     "p_bb": 0.1988174468278885
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Kody Clemens",
+     "p_so": 0.7029605507850647,
+     "p_bb": 0.22772516310214996
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Josh Bell",
+     "p_so": 0.6859374046325684,
+     "p_bb": 0.27356815338134766
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Ryan Jeffers",
+     "p_so": 0.669968843460083,
+     "p_bb": 0.2890104055404663
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Walker Jenkins",
+     "p_so": 0.6882832050323486,
+     "p_bb": 0.2401037961244583
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Royce Lewis",
+     "p_so": 0.681922972202301,
+     "p_bb": 0.20672328770160675
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Emmanuel Rodriguez",
+     "p_so": 0.7353342175483704,
+     "p_bb": 0.17443007230758667
+    },
+    {
+     "equipo": "Minnesota Twins",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Ryan Kreidler",
+     "p_so": 0.6406118273735046,
+     "p_bb": 0.16912002861499786
+    }
+   ],
+   "local": "Minnesota Twins",
+   "visita": "Texas Rangers"
+  },
+  {
    "game_id": 823816,
    "bateadores": [
     {
@@ -3231,12 +3382,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 88,
+  "picks_hoy": 102,
   "ganadas": 1952,
   "perdidas": 876,
   "push": 0,
   "unidades": 538.0,
   "acierto": 69.0
  },
- "fecha_actualizacion": "2026-09-25T20:33:17Z"
+ "fecha_actualizacion": "2026-09-25T20:38:20Z"
 }
