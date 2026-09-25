@@ -2952,6 +2952,157 @@
    "visita": "Atlanta Braves"
   },
   {
+   "game_id": 824058,
+   "bateadores": [
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Steven Kwan",
+     "p_so": 0.44584161043167114,
+     "p_bb": 0.34222158789634705
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "José Ramírez",
+     "p_so": 0.44174498319625854,
+     "p_bb": 0.2979908287525177
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Chase DeLauter",
+     "p_so": 0.5368579030036926,
+     "p_bb": 0.33793044090270996
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jo Adell",
+     "p_so": 0.7409136891365051,
+     "p_bb": 0.24850545823574066
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Angel Martínez",
+     "p_so": 0.6322870254516602,
+     "p_bb": 0.18299053609371185
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "David Fry",
+     "p_so": 0.653444766998291,
+     "p_bb": 0.2809888422489166
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Travis Bazzana",
+     "p_so": 0.5725588202476501,
+     "p_bb": 0.3029264509677887
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Austin Hedges",
+     "p_so": 0.6062676906585693,
+     "p_bb": 0.25689148902893066
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Brayan Rocchio",
+     "p_so": 0.5013851523399353,
+     "p_bb": 0.20652607083320618
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Carter Jensen",
+     "p_so": 0.7776854634284973,
+     "p_bb": 0.37790676951408386
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Bobby Witt Jr.",
+     "p_so": 0.6724188923835754,
+     "p_bb": 0.3050052225589752
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Jac Caglianone",
+     "p_so": 0.693890392780304,
+     "p_bb": 0.24624034762382507
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Maikel Garcia",
+     "p_so": 0.6164768934249878,
+     "p_bb": 0.28085267543792725
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Vinnie Pasquantino",
+     "p_so": 0.5953702330589294,
+     "p_bb": 0.32061025500297546
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Salvador Perez",
+     "p_so": 0.719841480255127,
+     "p_bb": 0.16883133351802826
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Michael Massey",
+     "p_so": 0.556272566318512,
+     "p_bb": 0.13938292860984802
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "John Rave",
+     "p_so": 0.6936525106430054,
+     "p_bb": 0.282752126455307
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Kyle Isbel",
+     "p_so": 0.5945152640342712,
+     "p_bb": 0.18566662073135376
+    }
+   ],
+   "local": "Kansas City Royals",
+   "visita": "Cleveland Guardians"
+  },
+  {
    "game_id": 824220,
    "bateadores": [
     {
@@ -3101,6 +3252,157 @@
    ],
    "local": "Detroit Tigers",
    "visita": "Pittsburgh Pirates"
+  },
+  {
+   "game_id": 824544,
+   "bateadores": [
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Jake McCarthy",
+     "p_so": 0.5386917591094971,
+     "p_bb": 0.2625161409378052
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Adael Amador",
+     "p_so": 0.5229063034057617,
+     "p_bb": 0.27766305208206177
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Hunter Goodman",
+     "p_so": 0.6882799863815308,
+     "p_bb": 0.2599305808544159
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "TJ Rumfield",
+     "p_so": 0.4984925091266632,
+     "p_bb": 0.42505553364753723
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Kyle Karros",
+     "p_so": 0.5946516394615173,
+     "p_bb": 0.33713001012802124
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Mickey Moniak",
+     "p_so": 0.6901124715805054,
+     "p_bb": 0.17880021035671234
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Troy Johnston",
+     "p_so": 0.5597448348999023,
+     "p_bb": 0.27610838413238525
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Zac Veen",
+     "p_so": 0.7914449572563171,
+     "p_bb": 0.23970966041088104
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Ezequiel Tovar",
+     "p_so": 0.6885930895805359,
+     "p_bb": 0.1619972437620163
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Sam Antonacci",
+     "p_so": 0.4522910714149475,
+     "p_bb": 0.27390339970588684
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Kyle Teel",
+     "p_so": 0.6853396892547607,
+     "p_bb": 0.41512900590896606
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Miguel Vargas",
+     "p_so": 0.5828030109405518,
+     "p_bb": 0.43231868743896484
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Munetaka Murakami",
+     "p_so": 0.7858235239982605,
+     "p_bb": 0.5165916085243225
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Andrew Benintendi",
+     "p_so": 0.5659011006355286,
+     "p_bb": 0.289604127407074
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Tristan Peters",
+     "p_so": 0.505665123462677,
+     "p_bb": 0.230960875749588
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Randal Grichuk",
+     "p_so": 0.5064417719841003,
+     "p_bb": 0.19659675657749176
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Colson Montgomery",
+     "p_so": 0.7287878394126892,
+     "p_bb": 0.2824745774269104
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Braden Montgomery",
+     "p_so": 0.45084530115127563,
+     "p_bb": 0.24713103473186493
+    }
+   ],
+   "local": "Chicago White Sox",
+   "visita": "Colorado Rockies"
   },
   {
    "game_id": 824703,
@@ -3406,12 +3708,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 102,
+  "picks_hoy": 119,
   "ganadas": 1952,
   "perdidas": 876,
   "push": 0,
   "unidades": 538.0,
   "acierto": 69.0
  },
- "fecha_actualizacion": "2026-09-25T20:43:28Z"
+ "fecha_actualizacion": "2026-09-25T20:48:13Z"
 }
