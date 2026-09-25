@@ -2423,6 +2423,157 @@
    "visita": "Cincinnati Reds"
   },
   {
+   "game_id": 823167,
+   "bateadores": [
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Shohei Ohtani",
+     "p_so": 0.6463802456855774,
+     "p_bb": 0.4707437753677368
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Mookie Betts",
+     "p_so": 0.4495873749256134,
+     "p_bb": 0.44578781723976135
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Freddie Freeman",
+     "p_so": 0.5765354633331299,
+     "p_bb": 0.4028589725494385
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Will Smith",
+     "p_so": 0.5289154052734375,
+     "p_bb": 0.4162517488002777
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Kyle Tucker",
+     "p_so": 0.49989572167396545,
+     "p_bb": 0.46987253427505493
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Teoscar Hernández",
+     "p_so": 0.7457652688026428,
+     "p_bb": 0.2927550673484802
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Max Muncy",
+     "p_so": 0.6734607219696045,
+     "p_bb": 0.4034171998500824
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Andy Pages",
+     "p_so": 0.5670722723007202,
+     "p_bb": 0.2528739869594574
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Enrique Hernández",
+     "p_so": 0.5643706917762756,
+     "p_bb": 0.24037809669971466
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jonah Cox",
+     "p_so": 0.789836049079895,
+     "p_bb": 0.22551006078720093
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Brett Harris",
+     "p_so": 0.5779914855957031,
+     "p_bb": 0.23585927486419678
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Victor Bericoto",
+     "p_so": 0.5875930786132812,
+     "p_bb": 0.17046992480754852
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Bo Davidson",
+     "p_so": 0.5960277318954468,
+     "p_bb": 0.1865837574005127
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Andrew Knizner",
+     "p_so": 0.5877014398574829,
+     "p_bb": 0.1665044128894806
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Marcelo Mayer",
+     "p_so": 0.5534979104995728,
+     "p_bb": 0.19116929173469543
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Shay Whitcomb",
+     "p_so": 0.657333254814148,
+     "p_bb": 0.17375856637954712
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Scott Bandura",
+     "p_so": 0.721296489238739,
+     "p_bb": 0.1562998741865158
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Christian Koss",
+     "p_so": 0.6338642835617065,
+     "p_bb": 0.1442861258983612
+    }
+   ],
+   "local": "San Francisco Giants",
+   "visita": "Los Angeles Dodgers"
+  },
+  {
    "game_id": 823409,
    "bateadores": [
     {
@@ -3934,12 +4085,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 128,
+  "picks_hoy": 135,
   "ganadas": 1952,
   "perdidas": 876,
   "push": 0,
   "unidades": 538.0,
   "acierto": 69.0
  },
- "fecha_actualizacion": "2026-09-25T21:43:21Z"
+ "fecha_actualizacion": "2026-09-25T22:08:14Z"
 }
