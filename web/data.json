@@ -2486,6 +2486,157 @@
    "visita": "Los Angeles Dodgers"
   },
   {
+   "game_id": 823813,
+   "bateadores": [
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Michael Harris II",
+     "p_so": 0.5782366394996643,
+     "p_bb": 0.17378363013267517
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Ronald Acuña Jr.",
+     "p_so": 0.5886779427528381,
+     "p_bb": 0.4076958894729614
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Matt Olson",
+     "p_so": 0.6662600636482239,
+     "p_bb": 0.3764660060405731
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Drake Baldwin",
+     "p_so": 0.6241765022277832,
+     "p_bb": 0.3413809835910797
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Austin Riley",
+     "p_so": 0.766002893447876,
+     "p_bb": 0.2744472026824951
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Mike Yastrzemski",
+     "p_so": 0.6471445560455322,
+     "p_bb": 0.3191731572151184
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Ozzie Albies",
+     "p_so": 0.505894124507904,
+     "p_bb": 0.23544026911258698
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Dominic Smith",
+     "p_so": 0.5150659084320068,
+     "p_bb": 0.26315775513648987
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Ha-Seong Kim",
+     "p_so": 0.49072614312171936,
+     "p_bb": 0.2552403509616852
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Otto Lopez",
+     "p_so": 0.45018795132637024,
+     "p_bb": 0.31132709980010986
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Heriberto Hernández",
+     "p_so": 0.6957401633262634,
+     "p_bb": 0.4322666525840759
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Jakob Marsee",
+     "p_so": 0.5783783197402954,
+     "p_bb": 0.41966867446899414
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Javier Sanoja",
+     "p_so": 0.3272221088409424,
+     "p_bb": 0.2473124861717224
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Agustín Ramírez",
+     "p_so": 0.5639328360557556,
+     "p_bb": 0.2921746075153351
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Esteury Ruiz",
+     "p_so": 0.6292083263397217,
+     "p_bb": 0.24905717372894287
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Griffin Conine",
+     "p_so": 0.6867421269416809,
+     "p_bb": 0.34522780776023865
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Deyvison De Los Santos",
+     "p_so": 0.6011234521865845,
+     "p_bb": 0.20238900184631348
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Jared Serna",
+     "p_so": 0.6191167831420898,
+     "p_bb": 0.1840682327747345
+    }
+   ],
+   "local": "Miami Marlins",
+   "visita": "Atlanta Braves"
+  },
+  {
    "game_id": 824219,
    "bateadores": [
     {
@@ -2638,12 +2789,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 42,
+  "picks_hoy": 51,
   "ganadas": 2068,
   "perdidas": 935,
   "push": 0,
   "unidades": 566.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-26T17:08:29Z"
+ "fecha_actualizacion": "2026-09-26T17:22:04Z"
 }
