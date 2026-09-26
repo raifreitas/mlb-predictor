@@ -5812,5 +5812,124 @@
       "hora_corrida_utc": "2026-09-26T01:45:00+00:00",
       "estado": "pendiente"
     }
+  },
+  "2026-09-26": {
+    "Washington Nationals": {
+      "local": "Washington Nationals",
+      "visita": "New York Mets",
+      "pitcher_local": 813349,
+      "pitcher_visita": 804636,
+      "hora_inicio_utc": "2026-09-26T16:35:00+00:00",
+      "hora_corrida_utc": "2026-09-26T16:05:00+00:00",
+      "estado": "pendiente"
+    },
+    "Detroit Tigers": {
+      "local": "Detroit Tigers",
+      "visita": "Pittsburgh Pirates",
+      "pitcher_local": 434378,
+      "pitcher_visita": 489446,
+      "hora_inicio_utc": "2026-09-26T17:10:00+00:00",
+      "hora_corrida_utc": "2026-09-26T16:40:00+00:00",
+      "estado": "pendiente"
+    },
+    "Toronto Blue Jays": {
+      "local": "Toronto Blue Jays",
+      "visita": "Cincinnati Reds",
+      "pitcher_local": 702056,
+      "pitcher_visita": 695076,
+      "hora_inicio_utc": "2026-09-26T19:07:00+00:00",
+      "hora_corrida_utc": "2026-09-26T18:37:00+00:00",
+      "estado": "pendiente"
+    },
+    "San Francisco Giants": {
+      "local": "San Francisco Giants",
+      "visita": "Los Angeles Dodgers",
+      "pitcher_local": 683363,
+      "pitcher_visita": 605483,
+      "hora_inicio_utc": "2026-09-26T20:05:00+00:00",
+      "hora_corrida_utc": "2026-09-26T19:35:00+00:00",
+      "estado": "pendiente"
+    },
+    "Minnesota Twins": {
+      "local": "Minnesota Twins",
+      "visita": "Texas Rangers",
+      "pitcher_local": 641927,
+      "pitcher_visita": 543135,
+      "hora_inicio_utc": "2026-09-26T20:10:00+00:00",
+      "hora_corrida_utc": "2026-09-26T19:40:00+00:00",
+      "estado": "pendiente"
+    },
+    "Miami Marlins": {
+      "local": "Miami Marlins",
+      "visita": "Atlanta Braves",
+      "pitcher_local": 667652,
+      "pitcher_visita": 608718,
+      "hora_inicio_utc": "2026-09-26T20:10:00+00:00",
+      "hora_corrida_utc": "2026-09-26T19:40:00+00:00",
+      "estado": "pendiente"
+    },
+    "Kansas City Royals": {
+      "local": "Kansas City Royals",
+      "visita": "Cleveland Guardians",
+      "pitcher_local": 608379,
+      "pitcher_visita": 676440,
+      "hora_inicio_utc": "2026-09-26T23:10:00+00:00",
+      "hora_corrida_utc": "2026-09-26T22:40:00+00:00",
+      "estado": "pendiente"
+    },
+    "Chicago White Sox": {
+      "local": "Chicago White Sox",
+      "visita": "Colorado Rockies",
+      "pitcher_local": 663436,
+      "pitcher_visita": 500779,
+      "hora_inicio_utc": "2026-09-26T23:10:00+00:00",
+      "hora_corrida_utc": "2026-09-26T22:40:00+00:00",
+      "estado": "pendiente"
+    },
+    "Milwaukee Brewers": {
+      "local": "Milwaukee Brewers",
+      "visita": "St. Louis Cardinals",
+      "pitcher_local": 669160,
+      "pitcher_visita": 687273,
+      "hora_inicio_utc": "2026-09-26T23:10:00+00:00",
+      "hora_corrida_utc": "2026-09-26T22:40:00+00:00",
+      "estado": "pendiente"
+    },
+    "Philadelphia Phillies": {
+      "local": "Philadelphia Phillies",
+      "visita": "Tampa Bay Rays",
+      "pitcher_local": null,
+      "pitcher_visita": 643377,
+      "hora_inicio_utc": "2026-09-26T23:15:00+00:00",
+      "hora_corrida_utc": "2026-09-26T22:45:00+00:00",
+      "estado": "pendiente"
+    },
+    "San Diego Padres": {
+      "local": "San Diego Padres",
+      "visita": "Arizona Diamondbacks",
+      "pitcher_local": 621111,
+      "pitcher_visita": null,
+      "hora_inicio_utc": "2026-09-27T00:40:00+00:00",
+      "hora_corrida_utc": "2026-09-27T00:10:00+00:00",
+      "estado": "pendiente"
+    },
+    "Athletics": {
+      "local": "Athletics",
+      "visita": "Houston Astros",
+      "pitcher_local": 678022,
+      "pitcher_visita": null,
+      "hora_inicio_utc": "2026-09-27T01:40:00+00:00",
+      "hora_corrida_utc": "2026-09-27T01:10:00+00:00",
+      "estado": "pendiente"
+    },
+    "Seattle Mariners": {
+      "local": "Seattle Mariners",
+      "visita": "Los Angeles Angels",
+      "pitcher_local": 807739,
+      "pitcher_visita": 696270,
+      "hora_inicio_utc": "2026-09-27T01:40:00+00:00",
+      "hora_corrida_utc": "2026-09-27T01:10:00+00:00",
+      "estado": "pendiente"
+    }
   }
 }
