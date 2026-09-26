@@ -1165,6 +1165,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-26",
+   "local": "Detroit Tigers",
+   "visita": "Pittsburgh Pirates",
+   "linea": 8.5,
+   "prediccion": 8.18,
+   "prob_over": 0.4798048138618469,
+   "edge": 0.32,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Sin senal direccional (desacuerdo -0.32 carreras, prob_over 48.0%)",
+   "evaluado_utc": "2026-09-26T15:11:12Z"
+  },
+  {
+   "fecha": "2026-09-26",
    "local": "Washington Nationals",
    "visita": "New York Mets",
    "linea": 8.5,
@@ -2153,5 +2165,5 @@
   "unidades": 566.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-26T15:03:23Z"
+ "fecha_actualizacion": "2026-09-26T15:11:13Z"
 }
