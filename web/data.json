@@ -2537,6 +2537,157 @@
    "visita": "Los Angeles Dodgers"
   },
   {
+   "game_id": 823407,
+   "bateadores": [
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Yandy Díaz",
+     "p_so": 0.5095615983009338,
+     "p_bb": 0.31384608149528503
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Jonathan Aranda",
+     "p_so": 0.7155943512916565,
+     "p_bb": 0.3331359922885895
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Liam Hicks",
+     "p_so": 0.45224589109420776,
+     "p_bb": 0.30059245228767395
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Junior Caminero",
+     "p_so": 0.6020814180374146,
+     "p_bb": 0.30210307240486145
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Victor Mesa Jr.",
+     "p_so": 0.5669140815734863,
+     "p_bb": 0.2839348316192627
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Richie Palacios",
+     "p_so": 0.5212495923042297,
+     "p_bb": 0.30168575048446655
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Jonny DeLuca",
+     "p_so": 0.5953001379966736,
+     "p_bb": 0.17699788510799408
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Cedric Mullins",
+     "p_so": 0.5500012636184692,
+     "p_bb": 0.2563421428203583
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Taylor Walls",
+     "p_so": 0.5692014694213867,
+     "p_bb": 0.23391973972320557
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Trea Turner",
+     "p_so": 0.5810520052909851,
+     "p_bb": 0.2760094702243805
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Kyle Schwarber",
+     "p_so": 0.7560866475105286,
+     "p_bb": 0.5589089393615723
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Bryce Harper",
+     "p_so": 0.6611431241035461,
+     "p_bb": 0.4751342833042145
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Alec Bohm",
+     "p_so": 0.468765527009964,
+     "p_bb": 0.2773875296115875
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Bryson Stott",
+     "p_so": 0.526188313961029,
+     "p_bb": 0.32603856921195984
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Bryan De La Cruz",
+     "p_so": 0.5794628858566284,
+     "p_bb": 0.20337089896202087
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Brandon Marsh",
+     "p_so": 0.6844093799591064,
+     "p_bb": 0.2785254120826721
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "J.T. Realmuto",
+     "p_so": 0.5906196236610413,
+     "p_bb": 0.2489704191684723
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Justin Crawford",
+     "p_so": 0.4575267434120178,
+     "p_bb": 0.18505342304706573
+    }
+   ],
+   "local": "Philadelphia Phillies",
+   "visita": "Tampa Bay Rays"
+  },
+  {
    "game_id": 823653,
    "bateadores": [
     {
@@ -3444,12 +3595,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 82,
+  "picks_hoy": 87,
   "ganadas": 2068,
   "perdidas": 935,
   "push": 0,
   "unidades": 566.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-26T20:28:29Z"
+ "fecha_actualizacion": "2026-09-26T20:37:55Z"
 }
