@@ -2839,6 +2839,157 @@
    "visita": "Atlanta Braves"
   },
   {
+   "game_id": 824057,
+   "bateadores": [
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Steven Kwan",
+     "p_so": 0.37085309624671936,
+     "p_bb": 0.32127729058265686
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "José Ramírez",
+     "p_so": 0.4283410608768463,
+     "p_bb": 0.2972256541252136
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Chase DeLauter",
+     "p_so": 0.5233953595161438,
+     "p_bb": 0.33312731981277466
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jo Adell",
+     "p_so": 0.7282728552818298,
+     "p_bb": 0.2224889099597931
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Travis Bazzana",
+     "p_so": 0.5852541923522949,
+     "p_bb": 0.3229440450668335
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Nathaniel Lowe",
+     "p_so": 0.6563345193862915,
+     "p_bb": 0.27999892830848694
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Angel Martínez",
+     "p_so": 0.572023868560791,
+     "p_bb": 0.14927347004413605
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Patrick Bailey",
+     "p_so": 0.6176475286483765,
+     "p_bb": 0.20740483701229095
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Brayan Rocchio",
+     "p_so": 0.4517841935157776,
+     "p_bb": 0.20329369604587555
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Carter Jensen",
+     "p_so": 0.7173216342926025,
+     "p_bb": 0.36859411001205444
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Bobby Witt Jr.",
+     "p_so": 0.5295632481575012,
+     "p_bb": 0.3266052007675171
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Jac Caglianone",
+     "p_so": 0.6352607607841492,
+     "p_bb": 0.24446280300617218
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Salvador Perez",
+     "p_so": 0.577731728553772,
+     "p_bb": 0.19232138991355896
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Vinnie Pasquantino",
+     "p_so": 0.46439653635025024,
+     "p_bb": 0.33437344431877136
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Michael Massey",
+     "p_so": 0.4672106206417084,
+     "p_bb": 0.15662753582000732
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "John Rave",
+     "p_so": 0.6412253975868225,
+     "p_bb": 0.31793004274368286
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Josh Rojas",
+     "p_so": 0.4988214671611786,
+     "p_bb": 0.22533342242240906
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Isaac Collins",
+     "p_so": 0.5827169418334961,
+     "p_bb": 0.29027459025382996
+    }
+   ],
+   "local": "Kansas City Royals",
+   "visita": "Cleveland Guardians"
+  },
+  {
    "game_id": 824219,
    "bateadores": [
     {
@@ -3142,12 +3293,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 68,
+  "picks_hoy": 74,
   "ganadas": 2068,
   "perdidas": 935,
   "push": 0,
   "unidades": 566.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-26T19:03:30Z"
+ "fecha_actualizacion": "2026-09-26T19:53:13Z"
 }
