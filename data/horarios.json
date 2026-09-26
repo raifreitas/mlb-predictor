@@ -5861,7 +5861,8 @@
       "pitcher_visita": 543135,
       "hora_inicio_utc": "2026-09-26T20:10:00+00:00",
       "hora_corrida_utc": "2026-09-26T19:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-26T18:13:22.091821+00:00"
     },
     "Miami Marlins": {
       "local": "Miami Marlins",
@@ -5870,7 +5871,8 @@
       "pitcher_visita": 608718,
       "hora_inicio_utc": "2026-09-26T20:10:00+00:00",
       "hora_corrida_utc": "2026-09-26T19:40:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-26T18:13:22.091821+00:00"
     },
     "Kansas City Royals": {
       "local": "Kansas City Royals",

@@ -1175,9 +1175,48 @@
    "total": null,
    "creado": "2026-09-26 17:08:27",
    "verificado": null
+  },
+  {
+   "id": 1074,
+   "fecha": "2026-09-26",
+   "local": "Minnesota Twins",
+   "visita": "Texas Rangers",
+   "tipo": "OVER",
+   "linea": 7.5,
+   "unidades": 0.5,
+   "edge": 1.95,
+   "cuota": 1.95,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-26 18:13:26",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-26",
+   "local": "Miami Marlins",
+   "visita": "Atlanta Braves",
+   "linea": 8.5,
+   "prediccion": 7.42,
+   "prob_over": 0.43043896555900574,
+   "edge": 1.08,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 1.08 < 1.45)",
+   "evaluado_utc": "2026-09-26T18:13:26Z"
+  },
+  {
+   "fecha": "2026-09-26",
+   "local": "Minnesota Twins",
+   "visita": "Texas Rangers",
+   "linea": 8.0,
+   "prediccion": 9.45,
+   "prob_over": 0.5025216341018677,
+   "edge": 1.45,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-26T18:13:26Z"
+  },
   {
    "fecha": "2026-09-26",
    "local": "San Francisco Giants",
@@ -2959,5 +2998,5 @@
   "unidades": 566.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-26T18:08:23Z"
+ "fecha_actualizacion": "2026-09-26T18:13:28Z"
 }
