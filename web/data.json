@@ -3107,6 +3107,14 @@
     {
      "equipo": "St. Louis Cardinals",
      "is_home": false,
+     "orden": 8,
+     "bateador": "Thomas Saggese",
+     "p_so": 0.6814365386962891,
+     "p_bb": 0.20708873867988586
+    },
+    {
+     "equipo": "St. Louis Cardinals",
+     "is_home": false,
      "orden": 9,
      "bateador": "Nathan Church",
      "p_so": 0.5058093070983887,
@@ -3794,12 +3802,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 95,
+  "picks_hoy": 96,
   "ganadas": 2068,
   "perdidas": 935,
   "push": 0,
   "unidades": 566.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-26T21:23:24Z"
+ "fecha_actualizacion": "2026-09-26T21:33:31Z"
 }
