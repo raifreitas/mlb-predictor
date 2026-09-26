@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-09-25",
+ "ultima_fecha_prediccion": "2026-09-26",
  "resumen": {
   "ganadas": 29,
   "perdidas": 17,
@@ -1160,9 +1160,36 @@
    "total": 12,
    "creado": "2026-09-25 22:12:57",
    "verificado": "2026-09-26 06:48:32"
+  },
+  {
+   "id": 1073,
+   "fecha": "2026-09-26",
+   "local": "Toronto Blue Jays",
+   "visita": "Cincinnati Reds",
+   "tipo": "OVER",
+   "linea": 7.5,
+   "unidades": 0.5,
+   "edge": 2.23,
+   "cuota": 1.99,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-26 17:08:27",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-26",
+   "local": "Toronto Blue Jays",
+   "visita": "Cincinnati Reds",
+   "linea": 8.0,
+   "prediccion": 9.73,
+   "prob_over": 0.5227351188659668,
+   "edge": 1.73,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-26T17:08:27Z"
+  },
   {
    "fecha": "2026-09-26",
    "local": "Detroit Tigers",
@@ -2308,6 +2335,157 @@
    "visita": "Cincinnati Reds"
   },
   {
+   "game_id": 823165,
+   "bateadores": [
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Mookie Betts",
+     "p_so": 0.4537225663661957,
+     "p_bb": 0.38956668972969055
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Shohei Ohtani",
+     "p_so": 0.6942258477210999,
+     "p_bb": 0.39575767517089844
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Will Smith",
+     "p_so": 0.5634118914604187,
+     "p_bb": 0.39851683378219604
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Teoscar Hernández",
+     "p_so": 0.7706497311592102,
+     "p_bb": 0.2935793399810791
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Kyle Tucker",
+     "p_so": 0.5028660893440247,
+     "p_bb": 0.39267054200172424
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Miguel Rojas",
+     "p_so": 0.40447497367858887,
+     "p_bb": 0.19744504988193512
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Andy Pages",
+     "p_so": 0.5913271903991699,
+     "p_bb": 0.25507688522338867
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Enrique Hernández",
+     "p_so": 0.5959861874580383,
+     "p_bb": 0.2177433967590332
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Tommy Edman",
+     "p_so": 0.45687544345855713,
+     "p_bb": 0.22099456191062927
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jonah Cox",
+     "p_so": 0.8143627047538757,
+     "p_bb": 0.2644234895706177
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Turner Hill",
+     "p_so": 0.5970808267593384,
+     "p_bb": 0.3373899459838867
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Victor Bericoto",
+     "p_so": 0.6274266839027405,
+     "p_bb": 0.19101130962371826
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Bo Davidson",
+     "p_so": 0.6586406230926514,
+     "p_bb": 0.18864722549915314
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Brett Harris",
+     "p_so": 0.6397454142570496,
+     "p_bb": 0.2639341354370117
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Andrew Knizner",
+     "p_so": 0.6092332601547241,
+     "p_bb": 0.178409144282341
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Shay Whitcomb",
+     "p_so": 0.697454571723938,
+     "p_bb": 0.19893482327461243
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Scott Bandura",
+     "p_so": 0.74946129322052,
+     "p_bb": 0.18677741289138794
+    },
+    {
+     "equipo": "San Francisco Giants",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Christian Koss",
+     "p_so": 0.6813783049583435,
+     "p_bb": 0.163992241024971
+    }
+   ],
+   "local": "San Francisco Giants",
+   "visita": "Los Angeles Dodgers"
+  },
+  {
    "game_id": 824219,
    "bateadores": [
     {
@@ -2460,12 +2638,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 32,
+  "picks_hoy": 42,
   "ganadas": 2068,
   "perdidas": 935,
   "push": 0,
   "unidades": 566.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-26T15:58:18Z"
+ "fecha_actualizacion": "2026-09-26T17:08:29Z"
 }
