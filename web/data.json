@@ -2988,15 +2988,166 @@
    ],
    "local": "Detroit Tigers",
    "visita": "Pittsburgh Pirates"
+  },
+  {
+   "game_id": 824543,
+   "bateadores": [
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Jake McCarthy",
+     "p_so": 0.530852735042572,
+     "p_bb": 0.24086473882198334
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Cole Carrigg",
+     "p_so": 0.6788428425788879,
+     "p_bb": 0.2848774790763855
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Hunter Goodman",
+     "p_so": 0.6709485650062561,
+     "p_bb": 0.2307790219783783
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "TJ Rumfield",
+     "p_so": 0.4675106406211853,
+     "p_bb": 0.3744702935218811
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Connor Norby",
+     "p_so": 0.7214542627334595,
+     "p_bb": 0.27451401948928833
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Adael Amador",
+     "p_so": 0.5035054683685303,
+     "p_bb": 0.2617192566394806
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Mickey Moniak",
+     "p_so": 0.6595627665519714,
+     "p_bb": 0.1512356847524643
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Brett Sullivan",
+     "p_so": 0.47876793146133423,
+     "p_bb": 0.17495152354240417
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Ezequiel Tovar",
+     "p_so": 0.6730432510375977,
+     "p_bb": 0.14733968675136566
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Miguel Vargas",
+     "p_so": 0.5431461930274963,
+     "p_bb": 0.44561031460762024
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Tommy Pham",
+     "p_so": 0.5676918029785156,
+     "p_bb": 0.37591543793678284
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Randal Grichuk",
+     "p_so": 0.5184767246246338,
+     "p_bb": 0.24959783256053925
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Munetaka Murakami",
+     "p_so": 0.7632655501365662,
+     "p_bb": 0.44958770275115967
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Brenton Doyle",
+     "p_so": 0.6486483216285706,
+     "p_bb": 0.23051539063453674
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Kyle Teel",
+     "p_so": 0.6016826033592224,
+     "p_bb": 0.3238741457462311
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Sam Antonacci",
+     "p_so": 0.3616349697113037,
+     "p_bb": 0.2465711534023285
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Luisangel Acuña",
+     "p_so": 0.4814493656158447,
+     "p_bb": 0.20256242156028748
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Tristan Peters",
+     "p_so": 0.4493894875049591,
+     "p_bb": 0.21927915513515472
+    }
+   ],
+   "local": "Chicago White Sox",
+   "visita": "Colorado Rockies"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 60,
+  "picks_hoy": 68,
   "ganadas": 2068,
   "perdidas": 935,
   "push": 0,
   "unidades": 566.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-26T18:13:28Z"
+ "fecha_actualizacion": "2026-09-26T19:03:30Z"
 }
