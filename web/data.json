@@ -2585,6 +2585,157 @@
    "visita": "Los Angeles Dodgers"
   },
   {
+   "game_id": 823245,
+   "bateadores": [
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Lars Nootbaar",
+     "p_so": 0.6173844337463379,
+     "p_bb": 0.47245529294013977
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Ketel Marte",
+     "p_so": 0.5498133897781372,
+     "p_bb": 0.3914289176464081
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Gabriel Moreno",
+     "p_so": 0.5348725914955139,
+     "p_bb": 0.4082808494567871
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Geraldo Perdomo",
+     "p_so": 0.5079875588417053,
+     "p_bb": 0.4547596871852875
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Corbin Carroll",
+     "p_so": 0.6687090992927551,
+     "p_bb": 0.354259729385376
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Nolan Arenado",
+     "p_so": 0.5164450407028198,
+     "p_bb": 0.2603077292442322
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Pavin Smith",
+     "p_so": 0.6010369062423706,
+     "p_bb": 0.3126750886440277
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "James McCann",
+     "p_so": 0.6004332900047302,
+     "p_bb": 0.16975373029708862
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Tim Tawa",
+     "p_so": 0.615951418876648,
+     "p_bb": 0.25902438163757324
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Fernando Tatis Jr.",
+     "p_so": 0.6022372245788574,
+     "p_bb": 0.41369494795799255
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Dustin Harris",
+     "p_so": 0.49493956565856934,
+     "p_bb": 0.29969140887260437
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Manny Machado",
+     "p_so": 0.5998998880386353,
+     "p_bb": 0.404403418302536
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Jackson Merrill",
+     "p_so": 0.6030577421188354,
+     "p_bb": 0.2848173677921295
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Ty France",
+     "p_so": 0.5739582777023315,
+     "p_bb": 0.2967640459537506
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Gavin Sheets",
+     "p_so": 0.5007080435752869,
+     "p_bb": 0.3224894404411316
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Xander Bogaerts",
+     "p_so": 0.5556432008743286,
+     "p_bb": 0.37326353788375854
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Jake Cronenworth",
+     "p_so": 0.5489966869354248,
+     "p_bb": 0.3573862314224243
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Ethan Salas",
+     "p_so": 0.6067579984664917,
+     "p_bb": 0.21179062128067017
+    }
+   ],
+   "local": "San Diego Padres",
+   "visita": "Arizona Diamondbacks"
+  },
+  {
    "game_id": 823407,
    "bateadores": [
     {
@@ -3643,12 +3794,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 87,
+  "picks_hoy": 95,
   "ganadas": 2068,
   "perdidas": 935,
   "push": 0,
   "unidades": 566.5,
   "acierto": 68.9
  },
- "fecha_actualizacion": "2026-09-26T21:18:29Z"
+ "fecha_actualizacion": "2026-09-26T21:23:24Z"
 }
