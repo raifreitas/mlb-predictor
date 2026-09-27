@@ -5953,7 +5953,8 @@
       "pitcher_visita": 640455,
       "hora_inicio_utc": "2026-09-27T17:05:00+00:00",
       "hora_corrida_utc": "2026-09-27T16:35:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-27T15:08:59.660129+00:00"
     },
     "New York Yankees": {
       "local": "New York Yankees",
@@ -5962,7 +5963,8 @@
       "pitcher_visita": 669358,
       "hora_inicio_utc": "2026-09-27T17:05:00+00:00",
       "hora_corrida_utc": "2026-09-27T16:35:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-27T15:08:59.660129+00:00"
     },
     "Boston Red Sox": {
       "local": "Boston Red Sox",
