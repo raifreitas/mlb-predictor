@@ -2345,15 +2345,166 @@
    ],
    "local": "Toronto Blue Jays",
    "visita": "Cincinnati Reds"
+  },
+  {
+   "game_id": 824542,
+   "bateadores": [
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Jake McCarthy",
+     "p_so": 0.536412239074707,
+     "p_bb": 0.25003769993782043
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Connor Norby",
+     "p_so": 0.7349358201026917,
+     "p_bb": 0.3359821140766144
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Hunter Goodman",
+     "p_so": 0.7084605097770691,
+     "p_bb": 0.2559506595134735
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Cole Carrigg",
+     "p_so": 0.6706717610359192,
+     "p_bb": 0.24542410671710968
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Kyle Karros",
+     "p_so": 0.586799681186676,
+     "p_bb": 0.3268316686153412
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Adael Amador",
+     "p_so": 0.4934687912464142,
+     "p_bb": 0.2543109357357025
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Troy Johnston",
+     "p_so": 0.5271943807601929,
+     "p_bb": 0.2216901034116745
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Jordan Beck",
+     "p_so": 0.6673057079315186,
+     "p_bb": 0.19136150181293488
+    },
+    {
+     "equipo": "Colorado Rockies",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Ezequiel Tovar",
+     "p_so": 0.6358106136322021,
+     "p_bb": 0.1897769719362259
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Randal Grichuk",
+     "p_so": 0.5330879092216492,
+     "p_bb": 0.23728860914707184
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Tommy Pham",
+     "p_so": 0.6128356456756592,
+     "p_bb": 0.34247055649757385
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Munetaka Murakami",
+     "p_so": 0.7906014323234558,
+     "p_bb": 0.4524719715118408
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Brenton Doyle",
+     "p_so": 0.6850885152816772,
+     "p_bb": 0.2143392711877823
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Sam Antonacci",
+     "p_so": 0.43470028042793274,
+     "p_bb": 0.23716066777706146
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Braden Montgomery",
+     "p_so": 0.5017012357711792,
+     "p_bb": 0.28421932458877563
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Colson Montgomery",
+     "p_so": 0.7524836659431458,
+     "p_bb": 0.28186550736427307
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Luisangel Acuña",
+     "p_so": 0.49459031224250793,
+     "p_bb": 0.18165217339992523
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Drew Romo",
+     "p_so": 0.4764137864112854,
+     "p_bb": 0.18149568140506744
+    }
+   ],
+   "local": "Chicago White Sox",
+   "visita": "Colorado Rockies"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 20,
+  "picks_hoy": 29,
   "ganadas": 2154,
   "perdidas": 964,
   "push": 0,
   "unidades": 595.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-27T15:44:10Z"
+ "fecha_actualizacion": "2026-09-27T16:04:17Z"
 }
