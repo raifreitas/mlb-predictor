@@ -2851,8 +2851,8 @@
      "is_home": false,
      "orden": 4,
      "bateador": "Geraldo Perdomo",
-     "p_so": 0.5121302008628845,
-     "p_bb": 0.47187644243240356
+     "p_so": 0.5176023840904236,
+     "p_bb": 0.492951899766922
     },
     {
      "equipo": "Arizona Diamondbacks",
@@ -2867,16 +2867,16 @@
      "is_home": false,
      "orden": 6,
      "bateador": "Nolan Arenado",
-     "p_so": 0.5040354132652283,
-     "p_bb": 0.27013295888900757
+     "p_so": 0.524761438369751,
+     "p_bb": 0.2951156795024872
     },
     {
      "equipo": "Arizona Diamondbacks",
      "is_home": false,
      "orden": 7,
      "bateador": "Pavin Smith",
-     "p_so": 0.5777589082717896,
-     "p_bb": 0.3003939092159271
+     "p_so": 0.594184160232544,
+     "p_bb": 0.303527295589447
     },
     {
      "equipo": "Arizona Diamondbacks",
@@ -2890,9 +2890,17 @@
      "equipo": "Arizona Diamondbacks",
      "is_home": false,
      "orden": 9,
+     "bateador": "Jordan Lawlar",
+     "p_so": 0.6972417831420898,
+     "p_bb": 0.18307721614837646
+    },
+    {
+     "equipo": "Arizona Diamondbacks",
+     "is_home": false,
+     "orden": 9,
      "bateador": "Tim Tawa",
-     "p_so": 0.616795003414154,
-     "p_bb": 0.23336882889270782
+     "p_so": 0.66624516248703,
+     "p_bb": 0.2786010503768921
     },
     {
      "equipo": "San Diego Padres",
@@ -4331,12 +4339,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 150,
+  "picks_hoy": 151,
   "ganadas": 2154,
   "perdidas": 964,
   "push": 0,
   "unidades": 595.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-27T17:58:29Z"
+ "fecha_actualizacion": "2026-09-27T18:23:36Z"
 }
