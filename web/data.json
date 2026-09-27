@@ -2194,15 +2194,166 @@
    ],
    "local": "Washington Nationals",
    "visita": "New York Mets"
+  },
+  {
+   "game_id": 822761,
+   "bateadores": [
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Carlos Jorge",
+     "p_so": 0.6665816903114319,
+     "p_bb": 0.2690124213695526
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Elly De La Cruz",
+     "p_so": 0.7972415089607239,
+     "p_bb": 0.4100322127342224
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Sal Stewart",
+     "p_so": 0.671318769454956,
+     "p_bb": 0.31652700901031494
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "JJ Bleday",
+     "p_so": 0.681343674659729,
+     "p_bb": 0.3738376796245575
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Juan Brito",
+     "p_so": 0.6028444170951843,
+     "p_bb": 0.21531932055950165
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Héctor Rodríguez",
+     "p_so": 0.7142653465270996,
+     "p_bb": 0.1940835565328598
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Matt McLain",
+     "p_so": 0.6863762736320496,
+     "p_bb": 0.2708130180835724
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Will Banfield",
+     "p_so": 0.70008385181427,
+     "p_bb": 0.15800485014915466
+    },
+    {
+     "equipo": "Cincinnati Reds",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Oswaldo Cabrera",
+     "p_so": 0.5446720123291016,
+     "p_bb": 0.16536404192447662
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "George Springer",
+     "p_so": 0.531900942325592,
+     "p_bb": 0.3255513608455658
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Brett Bateman",
+     "p_so": 0.5409783720970154,
+     "p_bb": 0.37928250432014465
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Kazuma Okamoto",
+     "p_so": 0.6890788078308105,
+     "p_bb": 0.34141868352890015
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Charles McAdoo",
+     "p_so": 0.5275191068649292,
+     "p_bb": 0.25059205293655396
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Davis Schneider",
+     "p_so": 0.6732466816902161,
+     "p_bb": 0.36548539996147156
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Brandon Valenzuela",
+     "p_so": 0.5091359615325928,
+     "p_bb": 0.2741009593009949
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Myles Straw",
+     "p_so": 0.4572915732860565,
+     "p_bb": 0.273614764213562
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Andrés Giménez",
+     "p_so": 0.4233231842517853,
+     "p_bb": 0.1821437031030655
+    },
+    {
+     "equipo": "Toronto Blue Jays",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Ernie Clement",
+     "p_so": 0.2850872874259949,
+     "p_bb": 0.16339780390262604
+    }
+   ],
+   "local": "Toronto Blue Jays",
+   "visita": "Cincinnati Reds"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 10,
+  "picks_hoy": 20,
   "ganadas": 2154,
   "perdidas": 964,
   "push": 0,
   "unidades": 595.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-27T15:17:59Z"
+ "fecha_actualizacion": "2026-09-27T15:44:10Z"
 }
