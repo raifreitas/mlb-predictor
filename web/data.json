@@ -3169,8 +3169,8 @@
      "is_home": false,
      "orden": 6,
      "bateador": "Nicky Lopez",
-     "p_so": 0.5514209866523743,
-     "p_bb": 0.20705963671207428
+     "p_so": 0.467743843793869,
+     "p_bb": 0.19326813519001007
     },
     {
      "equipo": "Texas Rangers",
@@ -3185,16 +3185,16 @@
      "is_home": false,
      "orden": 8,
      "bateador": "Evan Carter",
-     "p_so": 0.6471982002258301,
-     "p_bb": 0.25173720717430115
+     "p_so": 0.6228559613227844,
+     "p_bb": 0.22656185925006866
     },
     {
      "equipo": "Texas Rangers",
      "is_home": false,
      "orden": 9,
      "bateador": "Alejandro Osuna",
-     "p_so": 0.49232351779937744,
-     "p_bb": 0.20810674130916595
+     "p_so": 0.5663962960243225,
+     "p_bb": 0.24558554589748383
     },
     {
      "equipo": "Minnesota Twins",
@@ -4187,5 +4187,5 @@
   "unidades": 595.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-27T17:27:53Z"
+ "fecha_actualizacion": "2026-09-27T17:53:31Z"
 }
