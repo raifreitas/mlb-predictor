@@ -4177,15 +4177,166 @@
    ],
    "local": "Boston Red Sox",
    "visita": "Chicago Cubs"
+  },
+  {
+   "game_id": 824948,
+   "bateadores": [
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Jeremy Peña",
+     "p_so": 0.6431323289871216,
+     "p_bb": 0.25272905826568604
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Yordan Alvarez",
+     "p_so": 0.5695979595184326,
+     "p_bb": 0.5371333956718445
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Isaac Paredes",
+     "p_so": 0.5481554269790649,
+     "p_bb": 0.4455778896808624
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jose Altuve",
+     "p_so": 0.55067378282547,
+     "p_bb": 0.3284599781036377
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Yainer Diaz",
+     "p_so": 0.4980024993419647,
+     "p_bb": 0.19596132636070251
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Christian Walker",
+     "p_so": 0.6673771739006042,
+     "p_bb": 0.32047444581985474
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Lucas Spence",
+     "p_so": 0.6923717260360718,
+     "p_bb": 0.2367401272058487
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Cam Smith",
+     "p_so": 0.6447055339813232,
+     "p_bb": 0.30374041199684143
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Taylor Trammell",
+     "p_so": 0.7007539868354797,
+     "p_bb": 0.3079787790775299
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Henry Bolte",
+     "p_so": 0.7785555720329285,
+     "p_bb": 0.3467646539211273
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Lawrence Butler",
+     "p_so": 0.7297530770301819,
+     "p_bb": 0.36124521493911743
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Shea Langeliers",
+     "p_so": 0.6174783706665039,
+     "p_bb": 0.2259293645620346
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Zack Gelof",
+     "p_so": 0.7599161267280579,
+     "p_bb": 0.26883402466773987
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Jeff McNeil",
+     "p_so": 0.36992862820625305,
+     "p_bb": 0.2487887740135193
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Donovan Walton",
+     "p_so": 0.5563176870346069,
+     "p_bb": 0.3064740002155304
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Joshua Kuroda-Grauer",
+     "p_so": 0.5029377341270447,
+     "p_bb": 0.1818751096725464
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Carlos Cortes",
+     "p_so": 0.4849761426448822,
+     "p_bb": 0.20100416243076324
+    },
+    {
+     "equipo": "Athletics",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Brian Serven",
+     "p_so": 0.609718382358551,
+     "p_bb": 0.1624668538570404
+    }
+   ],
+   "local": "Athletics",
+   "visita": "Houston Astros"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 140,
+  "picks_hoy": 150,
   "ganadas": 2154,
   "perdidas": 964,
   "push": 0,
   "unidades": 595.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-27T17:53:31Z"
+ "fecha_actualizacion": "2026-09-27T17:58:29Z"
 }
