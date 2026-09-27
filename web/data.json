@@ -2951,6 +2951,157 @@
    "visita": "St. Louis Cardinals"
   },
   {
+   "game_id": 823814,
+   "bateadores": [
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Mauricio Dubón",
+     "p_so": 0.42928919196128845,
+     "p_bb": 0.17074784636497498
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Ozzie Albies",
+     "p_so": 0.5412461757659912,
+     "p_bb": 0.26015812158584595
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Matt Olson",
+     "p_so": 0.6635052561759949,
+     "p_bb": 0.3709806799888611
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Austin Riley",
+     "p_so": 0.77463698387146,
+     "p_bb": 0.2631753087043762
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Mike Yastrzemski",
+     "p_so": 0.6359320878982544,
+     "p_bb": 0.3386097848415375
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Sean Murphy",
+     "p_so": 0.6787422299385071,
+     "p_bb": 0.32284224033355713
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Ha-Seong Kim",
+     "p_so": 0.539082944393158,
+     "p_bb": 0.3034604787826538
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Brewer Hicklen",
+     "p_so": 0.7300247550010681,
+     "p_bb": 0.24755631387233734
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "DaShawn Keirsey Jr.",
+     "p_so": 0.6207612156867981,
+     "p_bb": 0.1524677574634552
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Griffin Conine",
+     "p_so": 0.7697399258613586,
+     "p_bb": 0.36701253056526184
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Javier Sanoja",
+     "p_so": 0.34828874468803406,
+     "p_bb": 0.23667483031749725
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Heriberto Hernández",
+     "p_so": 0.7433706521987915,
+     "p_bb": 0.40619659423828125
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Agustín Ramírez",
+     "p_so": 0.6041209101676941,
+     "p_bb": 0.2706710398197174
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Graham Pauley",
+     "p_so": 0.6383673548698425,
+     "p_bb": 0.28385353088378906
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Esteury Ruiz",
+     "p_so": 0.6652893424034119,
+     "p_bb": 0.23614680767059326
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Deyvison De Los Santos",
+     "p_so": 0.6421118378639221,
+     "p_bb": 0.22112111747264862
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Jared Serna",
+     "p_so": 0.6104220747947693,
+     "p_bb": 0.24204176664352417
+    },
+    {
+     "equipo": "Miami Marlins",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Brian Navarreto",
+     "p_so": 0.6418297290802002,
+     "p_bb": 0.20030179619789124
+    }
+   ],
+   "local": "Miami Marlins",
+   "visita": "Atlanta Braves"
+  },
+  {
    "game_id": 824055,
    "bateadores": [
     {
@@ -3405,12 +3556,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 90,
+  "picks_hoy": 104,
   "ganadas": 2154,
   "perdidas": 964,
   "push": 0,
   "unidades": 595.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-27T16:43:31Z"
+ "fecha_actualizacion": "2026-09-27T16:53:30Z"
 }
