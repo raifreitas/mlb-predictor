@@ -2347,6 +2347,157 @@
    "visita": "Cincinnati Reds"
   },
   {
+   "game_id": 823408,
+   "bateadores": [
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Victor Mesa Jr.",
+     "p_so": 0.6545952558517456,
+     "p_bb": 0.29413196444511414
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Jonathan Aranda",
+     "p_so": 0.7877858877182007,
+     "p_bb": 0.3302153944969177
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Junior Caminero",
+     "p_so": 0.6839476227760315,
+     "p_bb": 0.30787140130996704
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Liam Hicks",
+     "p_so": 0.5034732818603516,
+     "p_bb": 0.28426072001457214
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Richie Palacios",
+     "p_so": 0.6006532311439514,
+     "p_bb": 0.31169235706329346
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Jonny DeLuca",
+     "p_so": 0.6889535188674927,
+     "p_bb": 0.19049715995788574
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Cedric Mullins",
+     "p_so": 0.6684615015983582,
+     "p_bb": 0.254615843296051
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Nick Fortes",
+     "p_so": 0.5183640122413635,
+     "p_bb": 0.1254335641860962
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Jorge Mateo",
+     "p_so": 0.7084565162658691,
+     "p_bb": 0.13927040994167328
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Trea Turner",
+     "p_so": 0.5764634013175964,
+     "p_bb": 0.23407083749771118
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Kyle Schwarber",
+     "p_so": 0.7623489499092102,
+     "p_bb": 0.5233460664749146
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Bryce Harper",
+     "p_so": 0.6571928262710571,
+     "p_bb": 0.4344860911369324
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Bryson Stott",
+     "p_so": 0.5259706974029541,
+     "p_bb": 0.2734759449958801
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Alec Bohm",
+     "p_so": 0.46126917004585266,
+     "p_bb": 0.22254784405231476
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Brandon Marsh",
+     "p_so": 0.6971749067306519,
+     "p_bb": 0.2539615333080292
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Edmundo Sosa",
+     "p_so": 0.545799732208252,
+     "p_bb": 0.12384001910686493
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Justin Crawford",
+     "p_so": 0.47889646887779236,
+     "p_bb": 0.16659638285636902
+    },
+    {
+     "equipo": "Philadelphia Phillies",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "J.T. Realmuto",
+     "p_so": 0.5973164439201355,
+     "p_bb": 0.1951199769973755
+    }
+   ],
+   "local": "Philadelphia Phillies",
+   "visita": "Tampa Bay Rays"
+  },
+  {
    "game_id": 823731,
    "bateadores": [
     {
@@ -2647,15 +2798,166 @@
    ],
    "local": "Chicago White Sox",
    "visita": "Colorado Rockies"
+  },
+  {
+   "game_id": 824705,
+   "bateadores": [
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Pete Crow-Armstrong",
+     "p_so": 0.707250714302063,
+     "p_bb": 0.31905266642570496
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Alex Bregman",
+     "p_so": 0.4807814359664917,
+     "p_bb": 0.3606067895889282
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Michael Busch",
+     "p_so": 0.7359628677368164,
+     "p_bb": 0.4284685254096985
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Ian Happ",
+     "p_so": 0.6943727731704712,
+     "p_bb": 0.4559726417064667
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Michael Conforto",
+     "p_so": 0.632258415222168,
+     "p_bb": 0.34813278913497925
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Nico Hoerner",
+     "p_so": 0.31106436252593994,
+     "p_bb": 0.20703889429569244
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Pedro Ramírez",
+     "p_so": 0.5426166653633118,
+     "p_bb": 0.24936886131763458
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Dansby Swanson",
+     "p_so": 0.6416617035865784,
+     "p_bb": 0.2908101975917816
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Miguel Amaya",
+     "p_so": 0.5465922355651855,
+     "p_bb": 0.18879401683807373
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Roman Anthony",
+     "p_so": 0.7488714456558228,
+     "p_bb": 0.3186011016368866
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Adley Rutschman",
+     "p_so": 0.5393652319908142,
+     "p_bb": 0.282289981842041
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Willson Contreras",
+     "p_so": 0.6640549898147583,
+     "p_bb": 0.3178330957889557
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Wilyer Abreu",
+     "p_so": 0.7134915590286255,
+     "p_bb": 0.26812171936035156
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Ceddanne Rafaela",
+     "p_so": 0.5714141130447388,
+     "p_bb": 0.14634105563163757
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Nick Sogard",
+     "p_so": 0.6409344673156738,
+     "p_bb": 0.2195053994655609
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Caleb Durbin",
+     "p_so": 0.4116566479206085,
+     "p_bb": 0.2185009866952896
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Trevor Story",
+     "p_so": 0.670270562171936,
+     "p_bb": 0.17112740874290466
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Andruw Monasterio",
+     "p_so": 0.5338881611824036,
+     "p_bb": 0.1849881112575531
+    }
+   ],
+   "local": "Boston Red Sox",
+   "visita": "Chicago Cubs"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 43,
+  "picks_hoy": 63,
   "ganadas": 2154,
   "perdidas": 964,
   "push": 0,
   "unidades": 595.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-27T16:08:26Z"
+ "fecha_actualizacion": "2026-09-27T16:18:28Z"
 }
