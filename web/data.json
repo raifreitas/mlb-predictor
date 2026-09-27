@@ -2951,6 +2951,157 @@
    "visita": "St. Louis Cardinals"
   },
   {
+   "game_id": 824055,
+   "bateadores": [
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Angel Martínez",
+     "p_so": 0.5923557281494141,
+     "p_bb": 0.23112018406391144
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Travis Bazzana",
+     "p_so": 0.5758089423179626,
+     "p_bb": 0.36728915572166443
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Jo Adell",
+     "p_so": 0.6784237623214722,
+     "p_bb": 0.30411991477012634
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Nathaniel Lowe",
+     "p_so": 0.6242419481277466,
+     "p_bb": 0.3561760485172272
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "David Fry",
+     "p_so": 0.6249681115150452,
+     "p_bb": 0.3295746445655823
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Angel Genao",
+     "p_so": 0.5217309594154358,
+     "p_bb": 0.2768761217594147
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Austin Hedges",
+     "p_so": 0.6021060943603516,
+     "p_bb": 0.30104199051856995
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Daniel Schneemann",
+     "p_so": 0.5725616216659546,
+     "p_bb": 0.25562047958374023
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Petey Halpin",
+     "p_so": 0.4625410735607147,
+     "p_bb": 0.2099868357181549
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Maikel Garcia",
+     "p_so": 0.5889738202095032,
+     "p_bb": 0.2982252836227417
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Bobby Witt Jr.",
+     "p_so": 0.6156520843505859,
+     "p_bb": 0.26201266050338745
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Jac Caglianone",
+     "p_so": 0.6847781538963318,
+     "p_bb": 0.1914992332458496
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Salvador Perez",
+     "p_so": 0.6566567420959473,
+     "p_bb": 0.18681679666042328
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Vinnie Pasquantino",
+     "p_so": 0.5506836175918579,
+     "p_bb": 0.26552167534828186
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Isaac Collins",
+     "p_so": 0.70149827003479,
+     "p_bb": 0.3121483623981476
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Tyler Tolbert",
+     "p_so": 0.5655938386917114,
+     "p_bb": 0.19251278042793274
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Kyle Isbel",
+     "p_so": 0.5445889830589294,
+     "p_bb": 0.1651054471731186
+    },
+    {
+     "equipo": "Kansas City Royals",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Luke Maile",
+     "p_so": 0.6508874893188477,
+     "p_bb": 0.19090445339679718
+    }
+   ],
+   "local": "Kansas City Royals",
+   "visita": "Cleveland Guardians"
+  },
+  {
    "game_id": 824542,
    "bateadores": [
     {
@@ -3254,12 +3405,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 81,
+  "picks_hoy": 90,
   "ganadas": 2154,
   "perdidas": 964,
   "push": 0,
   "unidades": 595.0,
   "acierto": 69.1
  },
- "fecha_actualizacion": "2026-09-27T16:38:21Z"
+ "fecha_actualizacion": "2026-09-27T16:43:31Z"
 }
