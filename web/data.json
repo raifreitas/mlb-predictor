@@ -2104,12 +2104,28 @@
    "game_id": 849851,
    "bateadores": [
     {
+     "equipo": "",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "",
+     "p_so": 0.6758126616477966,
+     "p_bb": 0.24584047496318817
+    },
+    {
      "equipo": "Boston Red Sox",
      "is_home": false,
      "orden": 1,
      "bateador": "Roman Anthony",
      "p_so": 0.8275459408760071,
      "p_bb": 0.3868948221206665
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "",
+     "p_so": 0.8353200554847717,
+     "p_bb": 0.44127780199050903
     },
     {
      "equipo": "Boston Red Sox",
@@ -2120,12 +2136,28 @@
      "p_bb": 0.31679296493530273
     },
     {
+     "equipo": "",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "",
+     "p_so": 0.7592808604240417,
+     "p_bb": 0.34788039326667786
+    },
+    {
      "equipo": "Boston Red Sox",
      "is_home": false,
      "orden": 3,
      "bateador": "Willson Contreras",
      "p_so": 0.7299985885620117,
      "p_bb": 0.3020813465118408
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "",
+     "p_so": 0.5774073600769043,
+     "p_bb": 0.2416861653327942
     },
     {
      "equipo": "Boston Red Sox",
@@ -2136,12 +2168,36 @@
      "p_bb": 0.3251418471336365
     },
     {
+     "equipo": "",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "",
+     "p_so": 0.7055365443229675,
+     "p_bb": 0.19440506398677826
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "",
+     "p_so": 0.73288494348526,
+     "p_bb": 0.24295921623706818
+    },
+    {
      "equipo": "Boston Red Sox",
      "is_home": false,
      "orden": 5,
      "bateador": "Ceddanne Rafaela",
      "p_so": 0.676341712474823,
      "p_bb": 0.13036654889583588
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "",
+     "p_so": 0.6889145374298096,
+     "p_bb": 0.20876377820968628
     },
     {
      "equipo": "Boston Red Sox",
@@ -2160,12 +2216,44 @@
      "p_bb": 0.23627613484859467
     },
     {
+     "equipo": "",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "",
+     "p_so": 0.5736514329910278,
+     "p_bb": 0.2606106400489807
+    },
+    {
      "equipo": "Boston Red Sox",
      "is_home": false,
      "orden": 8,
      "bateador": "Trevor Story",
      "p_so": 0.7670968174934387,
      "p_bb": 0.16994281113147736
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "",
+     "p_so": 0.6404447555541992,
+     "p_bb": 0.135025754570961
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "",
+     "p_so": 0.55457603931427,
+     "p_bb": 0.16021455824375153
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "",
+     "p_so": 0.6818621158599854,
+     "p_bb": 0.19228701293468475
     },
     {
      "equipo": "Boston Red Sox",
@@ -2184,12 +2272,36 @@
      "p_bb": 0.28120625019073486
     },
     {
+     "equipo": "",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "",
+     "p_so": 0.6493223309516907,
+     "p_bb": 0.28763097524642944
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "",
+     "p_so": 0.6218140125274658,
+     "p_bb": 0.3667866885662079
+    },
+    {
      "equipo": "New York Yankees",
      "is_home": true,
      "orden": 2,
      "bateador": "Ben Rice",
      "p_so": 0.7433023452758789,
      "p_bb": 0.3897936940193176
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "",
+     "p_so": 0.7106046676635742,
+     "p_bb": 0.27559322118759155
     },
     {
      "equipo": "New York Yankees",
@@ -2208,6 +2320,22 @@
      "p_bb": 0.27346113324165344
     },
     {
+     "equipo": "",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "",
+     "p_so": 0.43772056698799133,
+     "p_bb": 0.2062777429819107
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "",
+     "p_so": 0.6130180954933167,
+     "p_bb": 0.18007327616214752
+    },
+    {
      "equipo": "New York Yankees",
      "is_home": true,
      "orden": 5,
@@ -2224,12 +2352,36 @@
      "p_bb": 0.16047827899456024
     },
     {
+     "equipo": "",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "",
+     "p_so": 0.5584337115287781,
+     "p_bb": 0.2127588838338852
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "",
+     "p_so": 0.747446596622467,
+     "p_bb": 0.22066612541675568
+    },
+    {
      "equipo": "New York Yankees",
      "is_home": true,
      "orden": 7,
      "bateador": "Anthony Volpe",
      "p_so": 0.6812201142311096,
      "p_bb": 0.2271573841571808
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "",
+     "p_so": 0.6160230040550232,
+     "p_bb": 0.2653447091579437
     },
     {
      "equipo": "New York Yankees",
@@ -2240,25 +2392,41 @@
      "p_bb": 0.2513515055179596
     },
     {
+     "equipo": "",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "",
+     "p_so": 0.48525646328926086,
+     "p_bb": 0.24114473164081573
+    },
+    {
      "equipo": "New York Yankees",
      "is_home": true,
      "orden": 9,
      "bateador": "Austin Wells",
      "p_so": 0.6896612048149109,
      "p_bb": 0.2613380551338196
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "",
+     "p_so": 0.5150363445281982,
+     "p_bb": 0.256220281124115
     }
    ],
    "local": "New York Yankees",
-   "visita": "Boston Red Sox"
+   "visita": ""
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 24,
+  "picks_hoy": 38,
   "ganadas": 2256,
   "perdidas": 1026,
   "push": 0,
   "unidades": 615.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-09-29T20:51:52Z"
+ "fecha_actualizacion": "2026-09-29T21:04:06Z"
 }
