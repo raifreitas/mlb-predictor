@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-09-27",
+ "ultima_fecha_prediccion": "2026-09-29",
  "resumen": {
   "ganadas": 31,
   "perdidas": 18,
@@ -974,9 +974,36 @@
    "total": 10,
    "creado": "2026-09-27 17:13:34",
    "verificado": "2026-09-28 06:51:28"
+  },
+  {
+   "id": 1076,
+   "fecha": "2026-09-29",
+   "local": "Houston Astros",
+   "visita": "Chicago White Sox",
+   "tipo": "OVER",
+   "linea": 7.5,
+   "unidades": 0.5,
+   "edge": 2.44,
+   "cuota": 1.8650000000000002,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-09-29 19:06:13",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-09-29",
+   "local": "Houston Astros",
+   "visita": "Chicago White Sox",
+   "linea": 8.0,
+   "prediccion": 9.94,
+   "prob_over": 0.49453282356262207,
+   "edge": 1.94,
+   "recomendacion": "APOSTAR OVER",
+   "motivo": "",
+   "evaluado_utc": "2026-09-29T19:06:13Z"
+  },
   {
    "fecha": "2026-09-29",
    "local": "Atlanta Braves",
@@ -2082,5 +2109,5 @@
   "unidades": 611.5,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-09-29T18:45:45Z"
+ "fecha_actualizacion": "2026-09-29T19:06:14Z"
 }
