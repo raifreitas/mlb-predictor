@@ -994,6 +994,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-09-29",
+   "local": "New York Yankees",
+   "visita": "Boston Red Sox",
+   "linea": 6.5,
+   "prediccion": 6.19,
+   "prob_over": 0.09275099635124207,
+   "edge": 0.31,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Filtro Extremo (linea 6.19 <= 6.5)",
+   "evaluado_utc": "2026-09-29T22:02:24Z"
+  },
+  {
+   "fecha": "2026-09-29",
    "local": "Houston Astros",
    "visita": "Chicago White Sox",
    "linea": 8.0,
@@ -2428,5 +2440,5 @@
   "unidades": 615.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-09-29T21:52:33Z"
+ "fecha_actualizacion": "2026-09-29T22:02:25Z"
 }
