@@ -2099,15 +2099,166 @@
    ],
    "local": "Houston Astros",
    "visita": "Chicago White Sox"
+  },
+  {
+   "game_id": 849851,
+   "bateadores": [
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Roman Anthony",
+     "p_so": 0.8275459408760071,
+     "p_bb": 0.3868948221206665
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Adley Rutschman",
+     "p_so": 0.677092969417572,
+     "p_bb": 0.31679296493530273
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Willson Contreras",
+     "p_so": 0.7299985885620117,
+     "p_bb": 0.3020813465118408
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Wilyer Abreu",
+     "p_so": 0.8074894547462463,
+     "p_bb": 0.3251418471336365
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Ceddanne Rafaela",
+     "p_so": 0.676341712474823,
+     "p_bb": 0.13036654889583588
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Nick Sogard",
+     "p_so": 0.7453437447547913,
+     "p_bb": 0.2782480716705322
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Jarren Duran",
+     "p_so": 0.7806667685508728,
+     "p_bb": 0.23627613484859467
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Trevor Story",
+     "p_so": 0.7670968174934387,
+     "p_bb": 0.16994281113147736
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Caleb Durbin",
+     "p_so": 0.4261630177497864,
+     "p_bb": 0.20905962586402893
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Paul Goldschmidt",
+     "p_so": 0.6506004333496094,
+     "p_bb": 0.28120625019073486
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Ben Rice",
+     "p_so": 0.7433023452758789,
+     "p_bb": 0.3897936940193176
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Heliot Ramos",
+     "p_so": 0.759308934211731,
+     "p_bb": 0.27732810378074646
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Cody Bellinger",
+     "p_so": 0.5345662832260132,
+     "p_bb": 0.27346113324165344
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "George Lombard Jr.",
+     "p_so": 0.6975089311599731,
+     "p_bb": 0.21450233459472656
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Amed Rosario",
+     "p_so": 0.568269670009613,
+     "p_bb": 0.16047827899456024
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Anthony Volpe",
+     "p_so": 0.6812201142311096,
+     "p_bb": 0.2271573841571808
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Spencer Jones",
+     "p_so": 0.7864465117454529,
+     "p_bb": 0.2513515055179596
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Austin Wells",
+     "p_so": 0.6896612048149109,
+     "p_bb": 0.2613380551338196
+    }
+   ],
+   "local": "New York Yankees",
+   "visita": "Boston Red Sox"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 22,
+  "picks_hoy": 37,
   "ganadas": 2246,
   "perdidas": 1023,
   "push": 0,
   "unidades": 611.5,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-09-29T20:06:13Z"
+ "fecha_actualizacion": "2026-09-29T20:17:17Z"
 }
