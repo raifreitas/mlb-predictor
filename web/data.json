@@ -181,7 +181,7 @@
    "linea_real": 6.5,
    "es_final": true,
    "hora_inicio_utc": "2026-09-29 18:00:00.000",
-   "temperatura_c": 20.0
+   "temperatura_c": 20.1
   },
   {
    "fecha": "2026-09-29",
@@ -203,7 +203,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-09-30 00:00:00.000",
-   "temperatura_c": 17.4
+   "temperatura_c": 17.5
   },
   {
    "fecha": "2026-09-29",
@@ -2428,5 +2428,5 @@
   "unidades": 615.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-09-29T21:04:06Z"
+ "fecha_actualizacion": "2026-09-29T21:52:33Z"
 }
