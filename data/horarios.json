@@ -6097,5 +6097,43 @@
       "ejecutado_utc": "2026-09-27T17:13:29.644270+00:00"
     }
   },
-  "2026-09-28": {}
+  "2026-09-28": {},
+  "2026-09-29": {
+    "Atlanta Braves": {
+      "local": "Atlanta Braves",
+      "visita": "Philadelphia Phillies",
+      "pitcher_local": 519242,
+      "pitcher_visita": 666200,
+      "hora_inicio_utc": "2026-09-29T18:00:00+00:00",
+      "hora_corrida_utc": "2026-09-29T17:30:00+00:00",
+      "estado": "pendiente"
+    },
+    "Houston Astros": {
+      "local": "Houston Astros",
+      "visita": "Chicago White Sox",
+      "pitcher_local": 805123,
+      "pitcher_visita": 696146,
+      "hora_inicio_utc": "2026-09-29T21:00:00+00:00",
+      "hora_corrida_utc": "2026-09-29T20:30:00+00:00",
+      "estado": "pendiente"
+    },
+    "New York Yankees": {
+      "local": "New York Yankees",
+      "visita": "Boston Red Sox",
+      "pitcher_local": 693645,
+      "pitcher_visita": 801139,
+      "hora_inicio_utc": "2026-09-30T00:00:00+00:00",
+      "hora_corrida_utc": "2026-09-29T23:30:00+00:00",
+      "estado": "pendiente"
+    },
+    "San Diego Padres": {
+      "local": "San Diego Padres",
+      "visita": "Chicago Cubs",
+      "pitcher_local": 650633,
+      "pitcher_visita": 571510,
+      "hora_inicio_utc": "2026-09-30T02:00:00+00:00",
+      "hora_corrida_utc": "2026-09-30T01:30:00+00:00",
+      "estado": "pendiente"
+    }
+  }
 }
