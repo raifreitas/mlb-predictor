@@ -203,7 +203,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-09-30 00:00:00.000",
-   "temperatura_c": 17.5
+   "temperatura_c": 17.0
   },
   {
    "fecha": "2026-09-29",
@@ -1811,6 +1811,325 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 849843,
+   "bateadores": [
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "",
+     "p_so": 0.6758126616477966,
+     "p_bb": 0.24584047496318817
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Pete Crow-Armstrong",
+     "p_so": 0.7290878891944885,
+     "p_bb": 0.320168673992157
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Alex Bregman",
+     "p_so": 0.49577417969703674,
+     "p_bb": 0.36214154958724976
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "",
+     "p_so": 0.8353200554847717,
+     "p_bb": 0.44127780199050903
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "",
+     "p_so": 0.7592808604240417,
+     "p_bb": 0.34788039326667786
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Michael Busch",
+     "p_so": 0.7449834942817688,
+     "p_bb": 0.40935900807380676
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "",
+     "p_so": 0.5774073600769043,
+     "p_bb": 0.2416861653327942
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Seiya Suzuki",
+     "p_so": 0.726111114025116,
+     "p_bb": 0.3951093256473541
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "",
+     "p_so": 0.7055365443229675,
+     "p_bb": 0.19440506398677826
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Ian Happ",
+     "p_so": 0.7126164436340332,
+     "p_bb": 0.4330388307571411
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "",
+     "p_so": 0.73288494348526,
+     "p_bb": 0.24295921623706818
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "",
+     "p_so": 0.6889145374298096,
+     "p_bb": 0.20876377820968628
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Nico Hoerner",
+     "p_so": 0.3408111035823822,
+     "p_bb": 0.1944689303636551
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "",
+     "p_so": 0.5736514329910278,
+     "p_bb": 0.2606106400489807
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Pedro Ramírez",
+     "p_so": 0.5574313998222351,
+     "p_bb": 0.24364186823368073
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Carson Kelly",
+     "p_so": 0.4921444356441498,
+     "p_bb": 0.26012399792671204
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "",
+     "p_so": 0.6404447555541992,
+     "p_bb": 0.135025754570961
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "",
+     "p_so": 0.55457603931427,
+     "p_bb": 0.16021455824375153
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "",
+     "p_so": 0.6818621158599854,
+     "p_bb": 0.19228701293468475
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Dansby Swanson",
+     "p_so": 0.6321630477905273,
+     "p_bb": 0.27728328108787537
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Fernando Tatis Jr.",
+     "p_so": 0.5592084527015686,
+     "p_bb": 0.3634486496448517
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "",
+     "p_so": 0.6493223309516907,
+     "p_bb": 0.28763097524642944
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "",
+     "p_so": 0.6218140125274658,
+     "p_bb": 0.3667866885662079
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Samad Taylor",
+     "p_so": 0.6144019365310669,
+     "p_bb": 0.29685190320014954
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Manny Machado",
+     "p_so": 0.5720694065093994,
+     "p_bb": 0.34787967801094055
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "",
+     "p_so": 0.7106046676635742,
+     "p_bb": 0.27559322118759155
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "",
+     "p_so": 0.43772056698799133,
+     "p_bb": 0.2062777429819107
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Ty France",
+     "p_so": 0.5783042907714844,
+     "p_bb": 0.24466660618782043
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "",
+     "p_so": 0.6130180954933167,
+     "p_bb": 0.18007327616214752
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Jackson Merrill",
+     "p_so": 0.5724399089813232,
+     "p_bb": 0.20635321736335754
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "",
+     "p_so": 0.5584337115287781,
+     "p_bb": 0.2127588838338852
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Austin Hays",
+     "p_so": 0.5925383567810059,
+     "p_bb": 0.19726891815662384
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Xander Bogaerts",
+     "p_so": 0.5228182077407837,
+     "p_bb": 0.31886914372444153
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "",
+     "p_so": 0.747446596622467,
+     "p_bb": 0.22066612541675568
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "",
+     "p_so": 0.6160230040550232,
+     "p_bb": 0.2653447091579437
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Jake Cronenworth",
+     "p_so": 0.5268874764442444,
+     "p_bb": 0.29194721579551697
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "",
+     "p_so": 0.48525646328926086,
+     "p_bb": 0.24114473164081573
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Luis Campusano",
+     "p_so": 0.46417444944381714,
+     "p_bb": 0.22581815719604492
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "",
+     "p_so": 0.5150363445281982,
+     "p_bb": 0.256220281124115
+    }
+   ],
+   "local": "San Diego Padres",
+   "visita": ""
+  },
+  {
    "game_id": 849845,
    "bateadores": [
     {
@@ -2433,12 +2752,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 38,
+  "picks_hoy": 58,
   "ganadas": 2256,
   "perdidas": 1026,
   "push": 0,
   "unidades": 615.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-09-29T22:02:25Z"
+ "fecha_actualizacion": "2026-09-29T22:40:55Z"
 }
