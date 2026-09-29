@@ -1921,15 +1921,166 @@
    ],
    "local": "Atlanta Braves",
    "visita": "Philadelphia Phillies"
+  },
+  {
+   "game_id": 849849,
+   "bateadores": [
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Sam Antonacci",
+     "p_so": 0.48361825942993164,
+     "p_bb": 0.2921728193759918
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Kyle Teel",
+     "p_so": 0.7118260860443115,
+     "p_bb": 0.42380979657173157
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Miguel Vargas",
+     "p_so": 0.5968524813652039,
+     "p_bb": 0.46558913588523865
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Munetaka Murakami",
+     "p_so": 0.8154317140579224,
+     "p_bb": 0.5101835131645203
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Andrew Benintendi",
+     "p_so": 0.6240999698638916,
+     "p_bb": 0.32397276163101196
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Tristan Peters",
+     "p_so": 0.5257891416549683,
+     "p_bb": 0.25452858209609985
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Braden Montgomery",
+     "p_so": 0.528261661529541,
+     "p_bb": 0.32166895270347595
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Chase Meidroth",
+     "p_so": 0.5241960883140564,
+     "p_bb": 0.31005072593688965
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Colson Montgomery",
+     "p_so": 0.7401419281959534,
+     "p_bb": 0.26226457953453064
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jeremy Peña",
+     "p_so": 0.6064216494560242,
+     "p_bb": 0.2473449558019638
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Yordan Alvarez",
+     "p_so": 0.564454197883606,
+     "p_bb": 0.4342741370201111
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Isaac Paredes",
+     "p_so": 0.5172823667526245,
+     "p_bb": 0.37759941816329956
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Jose Altuve",
+     "p_so": 0.5454179048538208,
+     "p_bb": 0.2934949994087219
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Yainer Diaz",
+     "p_so": 0.4965266287326813,
+     "p_bb": 0.20272131264209747
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Christian Walker",
+     "p_so": 0.6404154300689697,
+     "p_bb": 0.3106922209262848
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Lucas Spence",
+     "p_so": 0.6188002228736877,
+     "p_bb": 0.260674387216568
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Cam Smith",
+     "p_so": 0.6441259384155273,
+     "p_bb": 0.26681265234947205
+    },
+    {
+     "equipo": "Houston Astros",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Taylor Trammell",
+     "p_so": 0.646388828754425,
+     "p_bb": 0.21092188358306885
+    }
+   ],
+   "local": "Houston Astros",
+   "visita": "Chicago White Sox"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 13,
+  "picks_hoy": 22,
   "ganadas": 2246,
   "perdidas": 1023,
   "push": 0,
   "unidades": 611.5,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-09-29T16:00:40Z"
+ "fecha_actualizacion": "2026-09-29T17:19:19Z"
 }
