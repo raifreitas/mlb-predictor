@@ -6147,7 +6147,8 @@
       "pitcher_visita": 650911,
       "hora_inicio_utc": "2026-09-30T18:00:00+00:00",
       "hora_corrida_utc": "2026-09-30T17:30:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-09-30T20:03:57.728227+00:00"
     },
     "Houston Astros": {
       "local": "Houston Astros",

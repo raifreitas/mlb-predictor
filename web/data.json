@@ -1683,15 +1683,166 @@
    ],
    "local": "Atlanta Braves",
    "visita": "Philadelphia Phillies"
+  },
+  {
+   "game_id": 849848,
+   "bateadores": [
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Jahmai Jones",
+     "p_so": 0.6668899059295654,
+     "p_bb": 0.27586743235588074
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Adley Rutschman",
+     "p_so": 0.564203679561615,
+     "p_bb": 0.32736441493034363
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Willson Contreras",
+     "p_so": 0.6860098242759705,
+     "p_bb": 0.344020813703537
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Wilyer Abreu",
+     "p_so": 0.7260270118713379,
+     "p_bb": 0.32755550742149353
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Ceddanne Rafaela",
+     "p_so": 0.6245473027229309,
+     "p_bb": 0.16947327554225922
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Caleb Durbin",
+     "p_so": 0.4441985487937927,
+     "p_bb": 0.24686381220817566
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Nick Sogard",
+     "p_so": 0.6365336775779724,
+     "p_bb": 0.26017898321151733
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Trevor Story",
+     "p_so": 0.6830856204032898,
+     "p_bb": 0.1856832504272461
+    },
+    {
+     "equipo": "Boston Red Sox",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Nate Eaton",
+     "p_so": 0.5563650727272034,
+     "p_bb": 0.2030622363090515
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Ben Rice",
+     "p_so": 0.6542249321937561,
+     "p_bb": 0.4037576913833618
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Cody Bellinger",
+     "p_so": 0.4488869905471802,
+     "p_bb": 0.298868864774704
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Luis García Jr.",
+     "p_so": 0.511728048324585,
+     "p_bb": 0.1665070503950119
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Spencer Jones",
+     "p_so": 0.7639458179473877,
+     "p_bb": 0.32086923718452454
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "George Lombard Jr.",
+     "p_so": 0.64644455909729,
+     "p_bb": 0.20115946233272552
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Jazz Chisholm Jr.",
+     "p_so": 0.6756694912910461,
+     "p_bb": 0.2819565236568451
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Trent Grisham",
+     "p_so": 0.6195763945579529,
+     "p_bb": 0.3142169117927551
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Austin Wells",
+     "p_so": 0.6051342487335205,
+     "p_bb": 0.29541367292404175
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Ryan McMahon",
+     "p_so": 0.64404296875,
+     "p_bb": 0.25316259264945984
+    }
+   ],
+   "local": "New York Yankees",
+   "visita": "Boston Red Sox"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 8,
+  "picks_hoy": 21,
   "ganadas": 2273,
   "perdidas": 1039,
   "push": 0,
   "unidades": 617.0,
   "acierto": 68.6
  },
- "fecha_actualizacion": "2026-09-30T15:39:32Z"
+ "fecha_actualizacion": "2026-09-30T20:04:00Z"
 }
