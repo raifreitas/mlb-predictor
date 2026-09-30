@@ -1,10 +1,10 @@
 {
  "ultima_fecha_prediccion": "2026-09-29",
  "resumen": {
-  "ganadas": 31,
+  "ganadas": 32,
   "perdidas": 18,
   "push": 0,
-  "unidades": 7.5
+  "unidades": 8.0
  },
  "partidos_hoy": [
   {
@@ -16,16 +16,16 @@
    "linea_real": 6.5,
    "es_final": true,
    "hora_inicio_utc": "2026-09-29 18:00:00.000",
-   "temperatura_c": 20.1
+   "temperatura_c": 21.3
   },
   {
    "fecha": "2026-09-29",
    "local": "Houston Astros",
    "visita": "Chicago White Sox",
-   "carreras_local": 0,
-   "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": false,
+   "carreras_local": 3,
+   "carreras_visita": 6,
+   "linea_real": 8.0,
+   "es_final": true,
    "hora_inicio_utc": "2026-09-29 21:00:00.000",
    "temperatura_c": 20.0
   },
@@ -33,23 +33,67 @@
    "fecha": "2026-09-29",
    "local": "New York Yankees",
    "visita": "Boston Red Sox",
+   "carreras_local": 9,
+   "carreras_visita": 0,
+   "linea_real": 6.5,
+   "es_final": true,
+   "hora_inicio_utc": "2026-09-30 00:00:00.000",
+   "temperatura_c": 18.2
+  },
+  {
+   "fecha": "2026-09-29",
+   "local": "San Diego Padres",
+   "visita": "Chicago Cubs",
+   "carreras_local": 8,
+   "carreras_visita": 0,
+   "linea_real": 7.0,
+   "es_final": true,
+   "hora_inicio_utc": "2026-09-30 02:00:00.000",
+   "temperatura_c": 21.2
+  },
+  {
+   "fecha": "2026-09-30",
+   "local": "Atlanta Braves",
+   "visita": "Philadelphia Phillies",
    "carreras_local": 0,
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-09-30 00:00:00.000",
-   "temperatura_c": 17.3
+   "hora_inicio_utc": "2026-09-30 18:00:00.000",
+   "temperatura_c": 22.0
   },
   {
-   "fecha": "2026-09-29",
+   "fecha": "2026-09-30",
+   "local": "Houston Astros",
+   "visita": "Chicago White Sox",
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
+   "hora_inicio_utc": "2026-09-30 21:00:00.000",
+   "temperatura_c": 20.0
+  },
+  {
+   "fecha": "2026-09-30",
+   "local": "New York Yankees",
+   "visita": "Boston Red Sox",
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
+   "hora_inicio_utc": "2026-10-01 00:00:00.000",
+   "temperatura_c": 18.3
+  },
+  {
+   "fecha": "2026-09-30",
    "local": "San Diego Padres",
    "visita": "Chicago Cubs",
    "carreras_local": 0,
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-09-30 02:00:00.000",
-   "temperatura_c": 21.1
+   "hora_inicio_utc": "2026-10-01 02:00:00.000",
+   "temperatura_c": 21.8
   },
   {
    "fecha": "2026-10-08",
@@ -820,10 +864,10 @@
    "unidades": 0.5,
    "edge": 2.44,
    "cuota": 1.8650000000000002,
-   "estado": "PENDIENTE",
-   "total": null,
+   "estado": "GANADA",
+   "total": 9,
    "creado": "2026-09-29 19:06:13",
-   "verificado": null
+   "verificado": "2026-09-30 12:55:56"
   }
  ],
  "evaluaciones": [
@@ -2431,12 +2475,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 58,
-  "ganadas": 2256,
-  "perdidas": 1026,
+  "picks_hoy": 28,
+  "ganadas": 2273,
+  "perdidas": 1039,
   "push": 0,
-  "unidades": 615.0,
-  "acierto": 68.7
+  "unidades": 617.0,
+  "acierto": 68.6
  },
- "fecha_actualizacion": "2026-09-30T00:03:08Z"
+ "fecha_actualizacion": "2026-09-30T13:06:16Z"
 }
