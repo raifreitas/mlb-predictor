@@ -1565,16 +1565,16 @@
      "is_home": false,
      "orden": 4,
      "bateador": "Bryson Stott",
-     "p_so": 0.5394444465637207,
-     "p_bb": 0.29975074529647827
+     "p_so": 0.524678111076355,
+     "p_bb": 0.2933526039123535
     },
     {
      "equipo": "Philadelphia Phillies",
      "is_home": false,
      "orden": 5,
      "bateador": "Alec Bohm",
-     "p_so": 0.49252310395240784,
-     "p_bb": 0.24125787615776062
+     "p_so": 0.5006283521652222,
+     "p_bb": 0.25079089403152466
     },
     {
      "equipo": "Philadelphia Phillies",
@@ -1693,5 +1693,5 @@
   "unidades": 617.0,
   "acierto": 68.6
  },
- "fecha_actualizacion": "2026-09-30T14:59:09Z"
+ "fecha_actualizacion": "2026-09-30T15:39:32Z"
 }
