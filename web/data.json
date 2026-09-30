@@ -1685,6 +1685,157 @@
    "visita": "Philadelphia Phillies"
   },
   {
+   "game_id": 849842,
+   "bateadores": [
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Pete Crow-Armstrong",
+     "p_so": 0.7571175694465637,
+     "p_bb": 0.27952897548675537
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Alex Bregman",
+     "p_so": 0.5221874117851257,
+     "p_bb": 0.31330031156539917
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Michael Busch",
+     "p_so": 0.7783164978027344,
+     "p_bb": 0.3596033453941345
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Seiya Suzuki",
+     "p_so": 0.7537697553634644,
+     "p_bb": 0.34500911831855774
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Ian Happ",
+     "p_so": 0.7429898977279663,
+     "p_bb": 0.3845140039920807
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Nico Hoerner",
+     "p_so": 0.3245103061199188,
+     "p_bb": 0.1417458951473236
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Matt Shaw",
+     "p_so": 0.6002368927001953,
+     "p_bb": 0.24812863767147064
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Carson Kelly",
+     "p_so": 0.5147355794906616,
+     "p_bb": 0.23041512072086334
+    },
+    {
+     "equipo": "Chicago Cubs",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Dansby Swanson",
+     "p_so": 0.6395353078842163,
+     "p_bb": 0.22864021360874176
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Fernando Tatis Jr.",
+     "p_so": 0.6862391829490662,
+     "p_bb": 0.3034857213497162
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Dustin Harris",
+     "p_so": 0.5700389742851257,
+     "p_bb": 0.2188863456249237
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Manny Machado",
+     "p_so": 0.6865781545639038,
+     "p_bb": 0.2927715480327606
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Ty France",
+     "p_so": 0.6628808975219727,
+     "p_bb": 0.20477412641048431
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Jackson Merrill",
+     "p_so": 0.6692146062850952,
+     "p_bb": 0.19254347681999207
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Xander Bogaerts",
+     "p_so": 0.6428415775299072,
+     "p_bb": 0.27997350692749023
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Ethan Salas",
+     "p_so": 0.652569055557251,
+     "p_bb": 0.12881870567798615
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Austin Hays",
+     "p_so": 0.6200021505355835,
+     "p_bb": 0.15808072686195374
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Jake Cronenworth",
+     "p_so": 0.5987587571144104,
+     "p_bb": 0.24421381950378418
+    }
+   ],
+   "local": "San Diego Padres",
+   "visita": "Chicago Cubs"
+  },
+  {
    "game_id": 849846,
    "bateadores": [
     {
@@ -1988,12 +2139,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 33,
+  "picks_hoy": 46,
   "ganadas": 2273,
   "perdidas": 1039,
   "push": 0,
   "unidades": 617.0,
   "acierto": 68.6
  },
- "fecha_actualizacion": "2026-09-30T20:13:48Z"
+ "fecha_actualizacion": "2026-09-30T22:23:56Z"
 }
