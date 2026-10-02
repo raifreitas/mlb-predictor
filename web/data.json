@@ -55,12 +55,12 @@
    "fecha": "2026-10-01",
    "local": "Atlanta Braves",
    "visita": "Philadelphia Phillies",
-   "carreras_local": 0,
-   "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": false,
+   "carreras_local": 6,
+   "carreras_visita": 2,
+   "linea_real": 7.5,
+   "es_final": true,
    "hora_inicio_utc": "2026-10-02 00:00:00.000",
-   "temperatura_c": 23.3
+   "temperatura_c": 23.9
   },
   {
    "fecha": "2026-10-08",
@@ -1365,12 +1365,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 8,
-  "ganadas": 2308,
-  "perdidas": 1050,
+  "picks_hoy": 0,
+  "ganadas": 2311,
+  "perdidas": 1055,
   "push": 0,
-  "unidades": 629.0,
+  "unidades": 628.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-02T00:04:01Z"
+ "fecha_actualizacion": "2026-10-02T06:50:36Z"
 }
