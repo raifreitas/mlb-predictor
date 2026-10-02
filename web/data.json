@@ -60,7 +60,7 @@
    "linea_real": 7.5,
    "es_final": true,
    "hora_inicio_utc": "2026-10-02 00:00:00.000",
-   "temperatura_c": 23.9
+   "temperatura_c": 24.0
   },
   {
    "fecha": "2026-10-08",
@@ -1372,5 +1372,5 @@
   "unidades": 628.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-02T06:50:36Z"
+ "fecha_actualizacion": "2026-10-02T13:08:08Z"
 }
