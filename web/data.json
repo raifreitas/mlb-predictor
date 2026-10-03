@@ -855,6 +855,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-10-03",
+   "local": "Tampa Bay Rays",
+   "visita": "New York Yankees",
+   "linea": 7.0,
+   "prediccion": 6.74,
+   "prob_over": 0.20272715389728546,
+   "edge": 0.26,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 0.26 < 1.45)",
+   "evaluado_utc": "2026-10-03T20:32:51Z"
+  },
+  {
+   "fecha": "2026-10-03",
    "local": "Los Angeles Dodgers",
    "visita": "Atlanta Braves",
    "linea": 8.5,
@@ -1733,5 +1745,5 @@
   "unidades": 630.5,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-03T20:20:16Z"
+ "fecha_actualizacion": "2026-10-03T20:32:52Z"
 }
