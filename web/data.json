@@ -27,7 +27,7 @@
    "linea_real": 6.5,
    "es_final": true,
    "hora_inicio_utc": "2026-10-03 17:00:00.000",
-   "temperatura_c": 13.8
+   "temperatura_c": 13.9
   },
   {
    "fecha": "2026-10-03",
@@ -38,7 +38,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-10-03 20:00:00.000",
-   "temperatura_c": 29.7
+   "temperatura_c": 29.8
   },
   {
    "fecha": "2026-10-03",
@@ -60,7 +60,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-10-03 22:30:00.000",
-   "temperatura_c": 28.1
+   "temperatura_c": 28.4
   },
   {
    "fecha": "2026-10-08",
@@ -1410,6 +1410,333 @@
    "visita": "Chicago White Sox"
   },
   {
+   "game_id": 849830,
+   "bateadores": [
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Fernando Tatis Jr.",
+     "p_so": 0.7488774657249451,
+     "p_bb": 0.33890244364738464
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "",
+     "p_so": 0.6690159440040588,
+     "p_bb": 0.3101044297218323
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "",
+     "p_so": 0.638122022151947,
+     "p_bb": 0.22070786356925964
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "",
+     "p_so": 0.5953258275985718,
+     "p_bb": 0.22085057199001312
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Dustin Harris",
+     "p_so": 0.6192079186439514,
+     "p_bb": 0.24416300654411316
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Manny Machado",
+     "p_so": 0.7501907348632812,
+     "p_bb": 0.32153889536857605
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "",
+     "p_so": 0.7013787031173706,
+     "p_bb": 0.3887922465801239
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Ty France",
+     "p_so": 0.7322688698768616,
+     "p_bb": 0.2259085476398468
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "",
+     "p_so": 0.8404232263565063,
+     "p_bb": 0.35497593879699707
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "",
+     "p_so": 0.6832476258277893,
+     "p_bb": 0.30235716700553894
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Jackson Merrill",
+     "p_so": 0.7332811951637268,
+     "p_bb": 0.21543535590171814
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "",
+     "p_so": 0.5280642509460449,
+     "p_bb": 0.1988983154296875
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Xander Bogaerts",
+     "p_so": 0.7015522718429565,
+     "p_bb": 0.29950064420700073
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "",
+     "p_so": 0.7273602485656738,
+     "p_bb": 0.1916828602552414
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "",
+     "p_so": 0.6971994042396545,
+     "p_bb": 0.27080875635147095
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Ethan Salas",
+     "p_so": 0.6974602937698364,
+     "p_bb": 0.1731763631105423
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Luis Campusano",
+     "p_so": 0.5450429916381836,
+     "p_bb": 0.2369813174009323
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "",
+     "p_so": 0.5829221606254578,
+     "p_bb": 0.22439375519752502
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Jake Cronenworth",
+     "p_so": 0.6472868919372559,
+     "p_bb": 0.2692487835884094
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "",
+     "p_so": 0.7750471234321594,
+     "p_bb": 0.20565463602542877
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "",
+     "p_so": 0.37002474069595337,
+     "p_bb": 0.34126511216163635
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Jackson Chourio",
+     "p_so": 0.6052852869033813,
+     "p_bb": 0.3152713179588318
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "",
+     "p_so": 0.3654745817184448,
+     "p_bb": 0.28053805232048035
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Brice Turang",
+     "p_so": 0.6383883357048035,
+     "p_bb": 0.39186328649520874
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "William Contreras",
+     "p_so": 0.5344409942626953,
+     "p_bb": 0.4090088903903961
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "",
+     "p_so": 0.44954612851142883,
+     "p_bb": 0.3453543484210968
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Jake Bauers",
+     "p_so": 0.6813772320747375,
+     "p_bb": 0.44737696647644043
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "",
+     "p_so": 0.6525387763977051,
+     "p_bb": 0.25826603174209595
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Christian Yelich",
+     "p_so": 0.6288986206054688,
+     "p_bb": 0.3481707274913788
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "",
+     "p_so": 0.5419945120811462,
+     "p_bb": 0.19067329168319702
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "",
+     "p_so": 0.5542568564414978,
+     "p_bb": 0.28125202655792236
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "",
+     "p_so": 0.5705517530441284,
+     "p_bb": 0.26653632521629333
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Cooper Pratt",
+     "p_so": 0.4856387972831726,
+     "p_bb": 0.32478606700897217
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "",
+     "p_so": 0.5080602765083313,
+     "p_bb": 0.29410454630851746
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Luis Lara",
+     "p_so": 0.5670345425605774,
+     "p_bb": 0.24934180080890656
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "",
+     "p_so": 0.5411112904548645,
+     "p_bb": 0.2592097818851471
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Garrett Mitchell",
+     "p_so": 0.6784047484397888,
+     "p_bb": 0.2827783524990082
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "",
+     "p_so": 0.6154109835624695,
+     "p_bb": 0.21804311871528625
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "",
+     "p_so": 0.43517836928367615,
+     "p_bb": 0.2271060198545456
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Joey Ortiz",
+     "p_so": 0.47675400972366333,
+     "p_bb": 0.23771433532238007
+    }
+   ],
+   "local": "",
+   "visita": "San Diego Padres"
+  },
+  {
    "game_id": 849835,
    "bateadores": [
     {
@@ -1738,12 +2065,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 29,
+  "picks_hoy": 52,
   "ganadas": 2318,
   "perdidas": 1057,
   "push": 0,
   "unidades": 630.5,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-03T20:32:52Z"
+ "fecha_actualizacion": "2026-10-03T20:42:40Z"
 }
