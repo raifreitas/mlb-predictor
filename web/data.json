@@ -855,6 +855,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-10-03",
+   "local": "Milwaukee Brewers",
+   "visita": "San Diego Padres",
+   "linea": 7.0,
+   "prediccion": 7.26,
+   "prob_over": 0.23470239341259003,
+   "edge": 0.26,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 0.26 < 1.45)",
+   "evaluado_utc": "2026-10-03T22:32:20Z"
+  },
+  {
+   "fecha": "2026-10-03",
    "local": "Tampa Bay Rays",
    "visita": "New York Yankees",
    "linea": 7.0,
@@ -2072,5 +2084,5 @@
   "unidades": 630.5,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-03T21:58:13Z"
+ "fecha_actualizacion": "2026-10-03T22:32:20Z"
 }
