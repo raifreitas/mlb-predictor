@@ -1396,15 +1396,166 @@
    ],
    "local": "Cleveland Guardians",
    "visita": "Chicago White Sox"
+  },
+  {
+   "game_id": 849835,
+   "bateadores": [
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Ben Rice",
+     "p_so": 0.7269532084465027,
+     "p_bb": 0.38297396898269653
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Cody Bellinger",
+     "p_so": 0.5607142448425293,
+     "p_bb": 0.2783229351043701
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Luis García Jr.",
+     "p_so": 0.6137307286262512,
+     "p_bb": 0.16531017422676086
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Spencer Jones",
+     "p_so": 0.8137573003768921,
+     "p_bb": 0.27836480736732483
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "George Lombard Jr.",
+     "p_so": 0.731377363204956,
+     "p_bb": 0.1968102604150772
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Jazz Chisholm Jr.",
+     "p_so": 0.683229923248291,
+     "p_bb": 0.26275861263275146
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Trent Grisham",
+     "p_so": 0.6407822966575623,
+     "p_bb": 0.29772868752479553
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Austin Wells",
+     "p_so": 0.6509943604469299,
+     "p_bb": 0.2758159339427948
+    },
+    {
+     "equipo": "New York Yankees",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Ryan McMahon",
+     "p_so": 0.6888745427131653,
+     "p_bb": 0.23615969717502594
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Yandy Díaz",
+     "p_so": 0.46521422266960144,
+     "p_bb": 0.2738833725452423
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Jonathan Aranda",
+     "p_so": 0.6764808297157288,
+     "p_bb": 0.30751651525497437
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Junior Caminero",
+     "p_so": 0.5834570527076721,
+     "p_bb": 0.2854554057121277
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Liam Hicks",
+     "p_so": 0.3863389194011688,
+     "p_bb": 0.2679533064365387
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Chandler Simpson",
+     "p_so": 0.25869080424308777,
+     "p_bb": 0.10417196154594421
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Victor Mesa Jr.",
+     "p_so": 0.5705103278160095,
+     "p_bb": 0.24805864691734314
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Jonny DeLuca",
+     "p_so": 0.5807071328163147,
+     "p_bb": 0.17341585457324982
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Richie Palacios",
+     "p_so": 0.45750027894973755,
+     "p_bb": 0.25355374813079834
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Taylor Walls",
+     "p_so": 0.5603005290031433,
+     "p_bb": 0.22747282683849335
+    }
+   ],
+   "local": "Tampa Bay Rays",
+   "visita": "New York Yankees"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 19,
+  "picks_hoy": 28,
   "ganadas": 2311,
   "perdidas": 1055,
   "push": 0,
   "unidades": 628.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-03T18:49:55Z"
+ "fecha_actualizacion": "2026-10-03T18:59:50Z"
 }
