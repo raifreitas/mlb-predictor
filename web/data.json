@@ -1057,164 +1057,164 @@
  ],
  "batter_props_hoy": [
   {
-   "game_id": 849844,
+   "game_id": 849829,
    "bateadores": [
     {
-     "equipo": "Philadelphia Phillies",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 1,
-     "bateador": "Trea Turner",
-     "p_so": 0.5946105718612671,
-     "p_bb": 0.2709839344024658
+     "bateador": "Chase Meidroth",
+     "p_so": 0.6690159440040588,
+     "p_bb": 0.3101044297218323
     },
     {
-     "equipo": "Philadelphia Phillies",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 2,
-     "bateador": "Kyle Schwarber",
-     "p_so": 0.82340008020401,
-     "p_bb": 0.4983895719051361
+     "bateador": "Randal Grichuk",
+     "p_so": 0.638122022151947,
+     "p_bb": 0.22070786356925964
     },
     {
-     "equipo": "Philadelphia Phillies",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 3,
-     "bateador": "Bryce Harper",
-     "p_so": 0.7004226446151733,
-     "p_bb": 0.39900141954421997
+     "bateador": "Miguel Vargas",
+     "p_so": 0.7013787031173706,
+     "p_bb": 0.3887922465801239
     },
     {
-     "equipo": "Philadelphia Phillies",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 4,
-     "bateador": "Alec Bohm",
-     "p_so": 0.514785647392273,
-     "p_bb": 0.31712105870246887
+     "bateador": "Munetaka Murakami",
+     "p_so": 0.8404232263565063,
+     "p_bb": 0.35497593879699707
     },
     {
-     "equipo": "Philadelphia Phillies",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 5,
-     "bateador": "Bryson Stott",
-     "p_so": 0.5380100011825562,
-     "p_bb": 0.3456472158432007
+     "bateador": "Tommy Pham",
+     "p_so": 0.6832476258277893,
+     "p_bb": 0.30235716700553894
     },
     {
-     "equipo": "Philadelphia Phillies",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 6,
-     "bateador": "Bryan De La Cruz",
-     "p_so": 0.6632225513458252,
-     "p_bb": 0.23592150211334229
+     "bateador": "Brenton Doyle",
+     "p_so": 0.7273602485656738,
+     "p_bb": 0.1916828602552414
     },
     {
-     "equipo": "Philadelphia Phillies",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 7,
-     "bateador": "Edmundo Sosa",
-     "p_so": 0.6469072699546814,
-     "p_bb": 0.16990704834461212
+     "bateador": "Kyle Teel",
+     "p_so": 0.6971994042396545,
+     "p_bb": 0.27080875635147095
     },
     {
-     "equipo": "Philadelphia Phillies",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 8,
-     "bateador": "J.T. Realmuto",
-     "p_so": 0.643036961555481,
-     "p_bb": 0.2645546793937683
+     "bateador": "Braden Montgomery",
+     "p_so": 0.5829221606254578,
+     "p_bb": 0.22439375519752502
     },
     {
-     "equipo": "Philadelphia Phillies",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 9,
-     "bateador": "Justin Crawford",
-     "p_so": 0.489063560962677,
-     "p_bb": 0.18556374311447144
+     "bateador": "Colson Montgomery",
+     "p_so": 0.7750471234321594,
+     "p_bb": 0.20565463602542877
     },
     {
-     "equipo": "Atlanta Braves",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 1,
-     "bateador": "Drake Baldwin",
-     "p_so": 0.5594347715377808,
-     "p_bb": 0.3201459050178528
+     "bateador": "Steven Kwan",
+     "p_so": 0.37002474069595337,
+     "p_bb": 0.34126511216163635
     },
     {
-     "equipo": "Atlanta Braves",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 2,
-     "bateador": "Ronald Acuña Jr.",
-     "p_so": 0.5381588339805603,
-     "p_bb": 0.363926500082016
+     "bateador": "José Ramírez",
+     "p_so": 0.3654745817184448,
+     "p_bb": 0.28053805232048035
     },
     {
-     "equipo": "Atlanta Braves",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 3,
-     "bateador": "Matt Olson",
-     "p_so": 0.652134895324707,
-     "p_bb": 0.34945788979530334
+     "bateador": "Chase DeLauter",
+     "p_so": 0.44954612851142883,
+     "p_bb": 0.3453543484210968
     },
     {
-     "equipo": "Atlanta Braves",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 4,
-     "bateador": "Michael Harris II",
-     "p_so": 0.5325108170509338,
-     "p_bb": 0.1460288166999817
+     "bateador": "Jo Adell",
+     "p_so": 0.6525387763977051,
+     "p_bb": 0.25826603174209595
     },
     {
-     "equipo": "Atlanta Braves",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 5,
-     "bateador": "Mauricio Dubón",
-     "p_so": 0.3533366024494171,
-     "p_bb": 0.1363501399755478
+     "bateador": "Angel Martínez",
+     "p_so": 0.5419945120811462,
+     "p_bb": 0.19067329168319702
     },
     {
-     "equipo": "Atlanta Braves",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 6,
-     "bateador": "Mike Yastrzemski",
-     "p_so": 0.6133852005004883,
-     "p_bb": 0.3037011921405792
+     "bateador": "David Fry",
+     "p_so": 0.5705517530441284,
+     "p_bb": 0.26653632521629333
     },
     {
-     "equipo": "Atlanta Braves",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 7,
-     "bateador": "Austin Riley",
-     "p_so": 0.7193723917007446,
-     "p_bb": 0.23412618041038513
+     "bateador": "Travis Bazzana",
+     "p_so": 0.5080602765083313,
+     "p_bb": 0.29410454630851746
     },
     {
-     "equipo": "Atlanta Braves",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 8,
-     "bateador": "Ozzie Albies",
-     "p_so": 0.445027619600296,
-     "p_bb": 0.2130528837442398
+     "bateador": "Austin Hedges",
+     "p_so": 0.5411112904548645,
+     "p_bb": 0.2592097818851471
     },
     {
-     "equipo": "Atlanta Braves",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 9,
-     "bateador": "Dominic Smith",
-     "p_so": 0.47734537720680237,
-     "p_bb": 0.2209365963935852
+     "bateador": "Brayan Rocchio",
+     "p_so": 0.43517836928367615,
+     "p_bb": 0.2271060198545456
     }
    ],
-   "local": "Atlanta Braves",
-   "visita": "Philadelphia Phillies"
+   "local": "Cleveland Guardians",
+   "visita": "Chicago White Sox"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 0,
+  "picks_hoy": 9,
   "ganadas": 2311,
   "perdidas": 1055,
   "push": 0,
   "unidades": 628.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-03T14:11:50Z"
+ "fecha_actualizacion": "2026-10-03T14:23:42Z"
 }
