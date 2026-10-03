@@ -1,5 +1,5 @@
 {
- "ultima_fecha_prediccion": "2026-09-29",
+ "ultima_fecha_prediccion": "2026-10-03",
  "resumen": {
   "ganadas": 32,
   "perdidas": 18,
@@ -835,9 +835,36 @@
    "total": 9,
    "creado": "2026-09-29 19:06:13",
    "verificado": "2026-09-30 12:55:56"
+  },
+  {
+   "id": 1077,
+   "fecha": "2026-10-03",
+   "local": "Cleveland Guardians",
+   "visita": "Chicago White Sox",
+   "tipo": "UNDER",
+   "linea": 6.5,
+   "unidades": 0.5,
+   "edge": 2.05,
+   "cuota": 2.02,
+   "estado": "PENDIENTE",
+   "total": null,
+   "creado": "2026-10-03 15:01:56",
+   "verificado": null
   }
  ],
  "evaluaciones": [
+  {
+   "fecha": "2026-10-03",
+   "local": "Cleveland Guardians",
+   "visita": "Chicago White Sox",
+   "linea": 6.5,
+   "prediccion": 8.55,
+   "prob_over": 0.1508757472038269,
+   "edge": 2.05,
+   "recomendacion": "APOSTAR UNDER",
+   "motivo": "",
+   "evaluado_utc": "2026-10-03T15:01:56Z"
+  },
   {
    "fecha": "2026-09-29",
    "local": "New York Yankees",
@@ -1216,5 +1243,5 @@
   "unidades": 628.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-03T14:41:42Z"
+ "fecha_actualizacion": "2026-10-03T15:01:57Z"
 }
