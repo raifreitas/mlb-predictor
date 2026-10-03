@@ -27,7 +27,7 @@
    "linea_real": 6.5,
    "es_final": true,
    "hora_inicio_utc": "2026-10-03 17:00:00.000",
-   "temperatura_c": 13.9
+   "temperatura_c": 13.8
   },
   {
    "fecha": "2026-10-03",
@@ -38,7 +38,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-10-03 20:00:00.000",
-   "temperatura_c": 29.8
+   "temperatura_c": 29.9
   },
   {
    "fecha": "2026-10-03",
@@ -60,7 +60,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-10-03 22:30:00.000",
-   "temperatura_c": 28.4
+   "temperatura_c": 28.3
   },
   {
    "fecha": "2026-10-08",
@@ -2072,5 +2072,5 @@
   "unidades": 630.5,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-03T20:42:40Z"
+ "fecha_actualizacion": "2026-10-03T21:58:13Z"
 }
