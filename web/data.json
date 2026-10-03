@@ -1409,12 +1409,36 @@
      "p_bb": 0.38297396898269653
     },
     {
+     "equipo": "",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "",
+     "p_so": 0.6690159440040588,
+     "p_bb": 0.3101044297218323
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "",
+     "p_so": 0.638122022151947,
+     "p_bb": 0.22070786356925964
+    },
+    {
      "equipo": "New York Yankees",
      "is_home": false,
      "orden": 2,
      "bateador": "Cody Bellinger",
      "p_so": 0.5607142448425293,
      "p_bb": 0.2783229351043701
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "",
+     "p_so": 0.5953258275985718,
+     "p_bb": 0.22085057199001312
     },
     {
      "equipo": "New York Yankees",
@@ -1425,12 +1449,44 @@
      "p_bb": 0.16531017422676086
     },
     {
+     "equipo": "",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "",
+     "p_so": 0.7013787031173706,
+     "p_bb": 0.3887922465801239
+    },
+    {
      "equipo": "New York Yankees",
      "is_home": false,
      "orden": 4,
      "bateador": "Spencer Jones",
      "p_so": 0.8137573003768921,
      "p_bb": 0.27836480736732483
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "",
+     "p_so": 0.8404232263565063,
+     "p_bb": 0.35497593879699707
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "",
+     "p_so": 0.6832476258277893,
+     "p_bb": 0.30235716700553894
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "",
+     "p_so": 0.5280642509460449,
+     "p_bb": 0.1988983154296875
     },
     {
      "equipo": "New York Yankees",
@@ -1449,12 +1505,28 @@
      "p_bb": 0.26275861263275146
     },
     {
+     "equipo": "",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "",
+     "p_so": 0.7273602485656738,
+     "p_bb": 0.1916828602552414
+    },
+    {
      "equipo": "New York Yankees",
      "is_home": false,
      "orden": 7,
      "bateador": "Trent Grisham",
      "p_so": 0.6407822966575623,
      "p_bb": 0.29772868752479553
+    },
+    {
+     "equipo": "",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "",
+     "p_so": 0.6971994042396545,
+     "p_bb": 0.27080875635147095
     },
     {
      "equipo": "New York Yankees",
@@ -1465,6 +1537,14 @@
      "p_bb": 0.2758159339427948
     },
     {
+     "equipo": "",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "",
+     "p_so": 0.5829221606254578,
+     "p_bb": 0.22439375519752502
+    },
+    {
      "equipo": "New York Yankees",
      "is_home": false,
      "orden": 9,
@@ -1473,12 +1553,36 @@
      "p_bb": 0.23615969717502594
     },
     {
+     "equipo": "",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "",
+     "p_so": 0.7750471234321594,
+     "p_bb": 0.20565463602542877
+    },
+    {
      "equipo": "Tampa Bay Rays",
      "is_home": true,
      "orden": 1,
      "bateador": "Yandy Díaz",
      "p_so": 0.46521422266960144,
      "p_bb": 0.2738833725452423
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "",
+     "p_so": 0.37002474069595337,
+     "p_bb": 0.34126511216163635
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "",
+     "p_so": 0.3654745817184448,
+     "p_bb": 0.28053805232048035
     },
     {
      "equipo": "Tampa Bay Rays",
@@ -1497,6 +1601,22 @@
      "p_bb": 0.2854554057121277
     },
     {
+     "equipo": "",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "",
+     "p_so": 0.44954612851142883,
+     "p_bb": 0.3453543484210968
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "",
+     "p_so": 0.6525387763977051,
+     "p_bb": 0.25826603174209595
+    },
+    {
      "equipo": "Tampa Bay Rays",
      "is_home": true,
      "orden": 4,
@@ -1505,12 +1625,36 @@
      "p_bb": 0.2679533064365387
     },
     {
+     "equipo": "",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "",
+     "p_so": 0.5419945120811462,
+     "p_bb": 0.19067329168319702
+    },
+    {
      "equipo": "Tampa Bay Rays",
      "is_home": true,
      "orden": 5,
      "bateador": "Chandler Simpson",
      "p_so": 0.25869080424308777,
      "p_bb": 0.10417196154594421
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "",
+     "p_so": 0.5542568564414978,
+     "p_bb": 0.28125202655792236
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "",
+     "p_so": 0.5705517530441284,
+     "p_bb": 0.26653632521629333
     },
     {
      "equipo": "Tampa Bay Rays",
@@ -1529,6 +1673,30 @@
      "p_bb": 0.17341585457324982
     },
     {
+     "equipo": "",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "",
+     "p_so": 0.5080602765083313,
+     "p_bb": 0.29410454630851746
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "",
+     "p_so": 0.5411112904548645,
+     "p_bb": 0.2592097818851471
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "",
+     "p_so": 0.6154109835624695,
+     "p_bb": 0.21804311871528625
+    },
+    {
      "equipo": "Tampa Bay Rays",
      "is_home": true,
      "orden": 8,
@@ -1543,6 +1711,14 @@
      "bateador": "Taylor Walls",
      "p_so": 0.5603005290031433,
      "p_bb": 0.22747282683849335
+    },
+    {
+     "equipo": "",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "",
+     "p_so": 0.43517836928367615,
+     "p_bb": 0.2271060198545456
     }
    ],
    "local": "Tampa Bay Rays",
@@ -1550,12 +1726,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 19,
+  "picks_hoy": 29,
   "ganadas": 2318,
   "perdidas": 1057,
   "push": 0,
   "unidades": 630.5,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-03T20:08:04Z"
+ "fecha_actualizacion": "2026-10-03T20:20:16Z"
 }
