@@ -27,7 +27,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-10-03 17:00:00.000",
-   "temperatura_c": 13.7
+   "temperatura_c": 13.8
   },
   {
    "fecha": "2026-10-03",
@@ -38,7 +38,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-10-03 20:00:00.000",
-   "temperatura_c": 30.0
+   "temperatura_c": 29.9
   },
   {
    "fecha": "2026-10-03",
@@ -49,7 +49,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-10-04 00:30:00.000",
-   "temperatura_c": 11.8
+   "temperatura_c": 11.9
   },
   {
    "fecha": "2026-10-03",
@@ -60,7 +60,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-10-03 22:30:00.000",
-   "temperatura_c": 27.8
+   "temperatura_c": 28.1
   },
   {
    "fecha": "2026-10-08",
@@ -1096,6 +1096,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 849828,
+   "bateadores": [
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Drake Baldwin",
+     "p_so": 0.6845477819442749,
+     "p_bb": 0.2634689211845398
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Ronald Acuña Jr.",
+     "p_so": 0.6793808937072754,
+     "p_bb": 0.37967389822006226
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Ozzie Albies",
+     "p_so": 0.6139325499534607,
+     "p_bb": 0.21717146039009094
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Matt Olson",
+     "p_so": 0.735561728477478,
+     "p_bb": 0.23697338998317719
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Michael Harris II",
+     "p_so": 0.6492935419082642,
+     "p_bb": 0.1627589911222458
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Mauricio Dubón",
+     "p_so": 0.4917382597923279,
+     "p_bb": 0.18087220191955566
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Austin Riley",
+     "p_so": 0.7828980088233948,
+     "p_bb": 0.2115912139415741
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Sean Murphy",
+     "p_so": 0.680106520652771,
+     "p_bb": 0.2611716389656067
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Ha-Seong Kim",
+     "p_so": 0.5534226298332214,
+     "p_bb": 0.2529585063457489
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Mookie Betts",
+     "p_so": 0.4032710790634155,
+     "p_bb": 0.38453370332717896
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Shohei Ohtani",
+     "p_so": 0.6497493982315063,
+     "p_bb": 0.37833935022354126
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Will Smith",
+     "p_so": 0.5127367377281189,
+     "p_bb": 0.4230518937110901
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Freddie Freeman",
+     "p_so": 0.5193065404891968,
+     "p_bb": 0.3183819651603699
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Teoscar Hernández",
+     "p_so": 0.6966478228569031,
+     "p_bb": 0.30235111713409424
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Kyle Tucker",
+     "p_so": 0.45789065957069397,
+     "p_bb": 0.3565070629119873
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Andy Pages",
+     "p_so": 0.574124813079834,
+     "p_bb": 0.27516013383865356
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Max Muncy",
+     "p_so": 0.6208488345146179,
+     "p_bb": 0.3156867027282715
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Tommy Edman",
+     "p_so": 0.47712892293930054,
+     "p_bb": 0.2336452454328537
+    }
+   ],
+   "local": "Los Angeles Dodgers",
+   "visita": "Atlanta Braves"
+  },
+  {
    "game_id": 849829,
    "bateadores": [
     {
@@ -1248,12 +1399,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 9,
+  "picks_hoy": 19,
   "ganadas": 2311,
   "perdidas": 1055,
   "push": 0,
   "unidades": 628.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-03T18:09:04Z"
+ "fecha_actualizacion": "2026-10-03T18:49:55Z"
 }
