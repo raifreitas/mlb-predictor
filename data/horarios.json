@@ -6201,5 +6201,43 @@
       "estado": "pendiente"
     }
   },
-  "2026-10-02": {}
+  "2026-10-02": {},
+  "2026-10-03": {
+    "Cleveland Guardians": {
+      "local": "Cleveland Guardians",
+      "visita": "Chicago White Sox",
+      "pitcher_local": 800048,
+      "pitcher_visita": 696146,
+      "hora_inicio_utc": "2026-10-03T17:00:00+00:00",
+      "hora_corrida_utc": "2026-10-03T16:30:00+00:00",
+      "estado": "pendiente"
+    },
+    "Los Angeles Dodgers": {
+      "local": "Los Angeles Dodgers",
+      "visita": "Atlanta Braves",
+      "pitcher_local": 669373,
+      "pitcher_visita": null,
+      "hora_inicio_utc": "2026-10-03T20:00:00+00:00",
+      "hora_corrida_utc": "2026-10-03T19:30:00+00:00",
+      "estado": "pendiente"
+    },
+    "Tampa Bay Rays": {
+      "local": "Tampa Bay Rays",
+      "visita": "New York Yankees",
+      "pitcher_local": 656876,
+      "pitcher_visita": 543037,
+      "hora_inicio_utc": "2026-10-03T22:30:00+00:00",
+      "hora_corrida_utc": "2026-10-03T22:00:00+00:00",
+      "estado": "pendiente"
+    },
+    "Milwaukee Brewers": {
+      "local": "Milwaukee Brewers",
+      "visita": "San Diego Padres",
+      "pitcher_local": 694819,
+      "pitcher_visita": 592662,
+      "hora_inicio_utc": "2026-10-04T00:30:00+00:00",
+      "hora_corrida_utc": "2026-10-04T00:00:00+00:00",
+      "estado": "pendiente"
+    }
+  }
 }
