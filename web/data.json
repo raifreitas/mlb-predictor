@@ -855,6 +855,18 @@
  "evaluaciones": [
   {
    "fecha": "2026-10-03",
+   "local": "Los Angeles Dodgers",
+   "visita": "Atlanta Braves",
+   "linea": 8.5,
+   "prediccion": 7.84,
+   "prob_over": 0.1382206827402115,
+   "edge": 0.66,
+   "recomendacion": "NO APOSTAR",
+   "motivo": "Anulado por Margen Insuficiente (edge 0.66 < 1.45)",
+   "evaluado_utc": "2026-10-03T18:09:03Z"
+  },
+  {
+   "fecha": "2026-10-03",
    "local": "Cleveland Guardians",
    "visita": "Chicago White Sox",
    "linea": 6.5,
@@ -1243,5 +1255,5 @@
   "unidades": 628.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-03T17:44:14Z"
+ "fecha_actualizacion": "2026-10-03T18:09:04Z"
 }
