@@ -951,6 +951,157 @@
  ],
  "batter_props_hoy": [
   {
+   "game_id": 849823,
+   "bateadores": [
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Drake Baldwin",
+     "p_so": 0.6673147678375244,
+     "p_bb": 0.2889101207256317
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Ronald Acuña Jr.",
+     "p_so": 0.6452533602714539,
+     "p_bb": 0.410392165184021
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Matt Olson",
+     "p_so": 0.7044745683670044,
+     "p_bb": 0.2906963527202606
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Ozzie Albies",
+     "p_so": 0.5744025111198425,
+     "p_bb": 0.2709534466266632
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Michael Harris II",
+     "p_so": 0.6189642548561096,
+     "p_bb": 0.18286845088005066
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Mauricio Dubón",
+     "p_so": 0.4525894224643707,
+     "p_bb": 0.21647705137729645
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Sean Murphy",
+     "p_so": 0.6891640424728394,
+     "p_bb": 0.30577269196510315
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Austin Riley",
+     "p_so": 0.7388033866882324,
+     "p_bb": 0.23813536763191223
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Lane Thomas",
+     "p_so": 0.598482072353363,
+     "p_bb": 0.19625914096832275
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Mookie Betts",
+     "p_so": 0.4275309443473816,
+     "p_bb": 0.3914037048816681
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Shohei Ohtani",
+     "p_so": 0.6701847910881042,
+     "p_bb": 0.37628287076950073
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Will Smith",
+     "p_so": 0.5335298776626587,
+     "p_bb": 0.3974851965904236
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Freddie Freeman",
+     "p_so": 0.5421766638755798,
+     "p_bb": 0.3138129413127899
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Teoscar Hernández",
+     "p_so": 0.7283518314361572,
+     "p_bb": 0.3030635118484497
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Kyle Tucker",
+     "p_so": 0.48414868116378784,
+     "p_bb": 0.3382226526737213
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Andy Pages",
+     "p_so": 0.6245794296264648,
+     "p_bb": 0.2648675739765167
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Miguel Rojas",
+     "p_so": 0.3645969331264496,
+     "p_bb": 0.23014482855796814
+    },
+    {
+     "equipo": "Los Angeles Dodgers",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Tommy Edman",
+     "p_so": 0.4794206917285919,
+     "p_bb": 0.2304578274488449
+    }
+   ],
+   "local": "Los Angeles Dodgers",
+   "visita": "Atlanta Braves"
+  },
+  {
    "game_id": 849825,
    "bateadores": [
     {
@@ -1111,12 +1262,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 13,
+  "picks_hoy": 22,
   "ganadas": 2338,
   "perdidas": 1069,
   "push": 0,
   "unidades": 634.5,
   "acierto": 68.6
  },
- "fecha_actualizacion": "2026-10-04T19:27:37Z"
+ "fecha_actualizacion": "2026-10-04T21:09:04Z"
 }
