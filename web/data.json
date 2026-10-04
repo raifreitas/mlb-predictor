@@ -16,7 +16,7 @@
    "linea_real": 6.5,
    "es_final": true,
    "hora_inicio_utc": "2026-10-03 17:00:00.000",
-   "temperatura_c": 13.8
+   "temperatura_c": 15.7
   },
   {
    "fecha": "2026-10-03",
@@ -27,29 +27,51 @@
    "linea_real": 8.5,
    "es_final": true,
    "hora_inicio_utc": "2026-10-03 20:00:00.000",
-   "temperatura_c": 30.3
+   "temperatura_c": 30.7
   },
   {
    "fecha": "2026-10-03",
+   "local": "Milwaukee Brewers",
+   "visita": "San Diego Padres",
+   "carreras_local": 3,
+   "carreras_visita": 2,
+   "linea_real": 7.0,
+   "es_final": true,
+   "hora_inicio_utc": "2026-10-04 00:30:00.000",
+   "temperatura_c": 12.9
+  },
+  {
+   "fecha": "2026-10-03",
+   "local": "Tampa Bay Rays",
+   "visita": "New York Yankees",
+   "carreras_local": 1,
+   "carreras_visita": 0,
+   "linea_real": 7.0,
+   "es_final": true,
+   "hora_inicio_utc": "2026-10-03 22:30:00.000",
+   "temperatura_c": 26.8
+  },
+  {
+   "fecha": "2026-10-04",
+   "local": "Los Angeles Dodgers",
+   "visita": "Atlanta Braves",
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
+   "hora_inicio_utc": "2026-10-05 00:00:00.000",
+   "temperatura_c": 29.8
+  },
+  {
+   "fecha": "2026-10-04",
    "local": "Milwaukee Brewers",
    "visita": "San Diego Padres",
    "carreras_local": 0,
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-10-04 00:30:00.000",
-   "temperatura_c": 12.1
-  },
-  {
-   "fecha": "2026-10-03",
-   "local": "Tampa Bay Rays",
-   "visita": "New York Yankees",
-   "carreras_local": 0,
-   "carreras_visita": 0,
-   "linea_real": null,
-   "es_final": false,
-   "hora_inicio_utc": "2026-10-03 22:30:00.000",
-   "temperatura_c": 28.3
+   "hora_inicio_utc": "2026-10-04 20:00:00.000",
+   "temperatura_c": 14.2
   },
   {
    "fecha": "2026-10-08",
@@ -1886,12 +1908,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 42,
-  "ganadas": 2324,
-  "perdidas": 1061,
+  "picks_hoy": 20,
+  "ganadas": 2338,
+  "perdidas": 1069,
   "push": 0,
-  "unidades": 631.5,
-  "acierto": 68.7
+  "unidades": 634.5,
+  "acierto": 68.6
  },
- "fecha_actualizacion": "2026-10-04T00:02:02Z"
+ "fecha_actualizacion": "2026-10-04T12:53:43Z"
 }
