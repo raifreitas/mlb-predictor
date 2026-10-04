@@ -997,6 +997,14 @@
      "equipo": "San Diego Padres",
      "is_home": false,
      "orden": 6,
+     "bateador": "Gavin Sheets",
+     "p_so": 0.6194170117378235,
+     "p_bb": 0.23920249938964844
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": false,
+     "orden": 6,
      "bateador": "Ethan Salas",
      "p_so": 0.6515562534332275,
      "p_bb": 0.17037776112556458
@@ -1103,12 +1111,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 12,
+  "picks_hoy": 13,
   "ganadas": 2338,
   "perdidas": 1069,
   "push": 0,
   "unidades": 634.5,
   "acierto": 68.6
  },
- "fecha_actualizacion": "2026-10-04T16:53:55Z"
+ "fecha_actualizacion": "2026-10-04T19:27:37Z"
 }
