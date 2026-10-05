@@ -6265,5 +6265,25 @@
       "estado": "ejecutado",
       "ejecutado_utc": "2026-10-05T02:04:07.482174+00:00"
     }
+  },
+  "2026-10-05": {
+    "Cleveland Guardians": {
+      "local": "Cleveland Guardians",
+      "visita": "Chicago White Sox",
+      "pitcher_local": 668909,
+      "pitcher_visita": 641743,
+      "hora_inicio_utc": "2026-10-05T21:00:00+00:00",
+      "hora_corrida_utc": "2026-10-05T20:30:00+00:00",
+      "estado": "pendiente"
+    },
+    "Tampa Bay Rays": {
+      "local": "Tampa Bay Rays",
+      "visita": "New York Yankees",
+      "pitcher_local": 642547,
+      "pitcher_visita": 693645,
+      "hora_inicio_utc": "2026-10-06T00:00:00+00:00",
+      "hora_corrida_utc": "2026-10-05T23:30:00+00:00",
+      "estado": "pendiente"
+    }
   }
 }
