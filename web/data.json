@@ -973,323 +973,164 @@
  ],
  "batter_props_hoy": [
   {
-   "game_id": 849823,
+   "game_id": 849834,
    "bateadores": [
     {
-     "equipo": "Atlanta Braves",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 1,
-     "bateador": "Drake Baldwin",
-     "p_so": 0.6673147678375244,
-     "p_bb": 0.2889101207256317
+     "bateador": "Sam Antonacci",
+     "p_so": 0.5555768609046936,
+     "p_bb": 0.2676633298397064
     },
     {
-     "equipo": "Atlanta Braves",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 2,
-     "bateador": "Ronald Acuña Jr.",
-     "p_so": 0.6452533602714539,
-     "p_bb": 0.410392165184021
+     "bateador": "Kyle Teel",
+     "p_so": 0.8012696504592896,
+     "p_bb": 0.4258909523487091
     },
     {
-     "equipo": "Atlanta Braves",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 3,
-     "bateador": "Matt Olson",
-     "p_so": 0.7044745683670044,
-     "p_bb": 0.2906963527202606
+     "bateador": "Miguel Vargas",
+     "p_so": 0.716354489326477,
+     "p_bb": 0.4426727592945099
     },
     {
-     "equipo": "Atlanta Braves",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 4,
-     "bateador": "Ozzie Albies",
-     "p_so": 0.5744025111198425,
-     "p_bb": 0.2709534466266632
+     "bateador": "Munetaka Murakami",
+     "p_so": 0.8535121083259583,
+     "p_bb": 0.49311593174934387
     },
     {
-     "equipo": "Atlanta Braves",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 5,
-     "bateador": "Michael Harris II",
-     "p_so": 0.6189642548561096,
-     "p_bb": 0.18286845088005066
+     "bateador": "Andrew Benintendi",
+     "p_so": 0.7124848365783691,
+     "p_bb": 0.31020182371139526
     },
     {
-     "equipo": "Atlanta Braves",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 6,
-     "bateador": "Mauricio Dubón",
-     "p_so": 0.4525894224643707,
-     "p_bb": 0.21647705137729645
+     "bateador": "Tristan Peters",
+     "p_so": 0.62372887134552,
+     "p_bb": 0.24895404279232025
     },
     {
-     "equipo": "Atlanta Braves",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 7,
-     "bateador": "Sean Murphy",
-     "p_so": 0.6891640424728394,
-     "p_bb": 0.30577269196510315
+     "bateador": "Braden Montgomery",
+     "p_so": 0.6266639828681946,
+     "p_bb": 0.29447829723358154
     },
     {
-     "equipo": "Atlanta Braves",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 8,
-     "bateador": "Austin Riley",
-     "p_so": 0.7388033866882324,
-     "p_bb": 0.23813536763191223
+     "bateador": "Chase Meidroth",
+     "p_so": 0.5966289043426514,
+     "p_bb": 0.284319669008255
     },
     {
-     "equipo": "Atlanta Braves",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 9,
-     "bateador": "Lane Thomas",
-     "p_so": 0.598482072353363,
-     "p_bb": 0.19625914096832275
+     "bateador": "Colson Montgomery",
+     "p_so": 0.7881448864936829,
+     "p_bb": 0.23127368092536926
     },
     {
-     "equipo": "Los Angeles Dodgers",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 1,
-     "bateador": "Mookie Betts",
-     "p_so": 0.4275309443473816,
-     "p_bb": 0.3914037048816681
+     "bateador": "Steven Kwan",
+     "p_so": 0.381069153547287,
+     "p_bb": 0.37142670154571533
     },
     {
-     "equipo": "Los Angeles Dodgers",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 2,
-     "bateador": "Shohei Ohtani",
-     "p_so": 0.6701847910881042,
-     "p_bb": 0.37628287076950073
+     "bateador": "José Ramírez",
+     "p_so": 0.390048086643219,
+     "p_bb": 0.3102412223815918
     },
     {
-     "equipo": "Los Angeles Dodgers",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 3,
-     "bateador": "Will Smith",
-     "p_so": 0.5335298776626587,
-     "p_bb": 0.3974851965904236
+     "bateador": "Chase DeLauter",
+     "p_so": 0.4616747498512268,
+     "p_bb": 0.360009104013443
     },
     {
-     "equipo": "Los Angeles Dodgers",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 4,
-     "bateador": "Freddie Freeman",
-     "p_so": 0.5421766638755798,
-     "p_bb": 0.3138129413127899
+     "bateador": "Jo Adell",
+     "p_so": 0.6795238852500916,
+     "p_bb": 0.27017197012901306
     },
     {
-     "equipo": "Los Angeles Dodgers",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 5,
-     "bateador": "Teoscar Hernández",
-     "p_so": 0.7283518314361572,
-     "p_bb": 0.3030635118484497
+     "bateador": "Nathaniel Lowe",
+     "p_so": 0.5730424523353577,
+     "p_bb": 0.3286871314048767
     },
     {
-     "equipo": "Los Angeles Dodgers",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 6,
-     "bateador": "Kyle Tucker",
-     "p_so": 0.48414868116378784,
-     "p_bb": 0.3382226526737213
+     "bateador": "Angel Martínez",
+     "p_so": 0.558264434337616,
+     "p_bb": 0.1860426664352417
     },
     {
-     "equipo": "Los Angeles Dodgers",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 7,
-     "bateador": "Andy Pages",
-     "p_so": 0.6245794296264648,
-     "p_bb": 0.2648675739765167
+     "bateador": "Travis Bazzana",
+     "p_so": 0.5397690534591675,
+     "p_bb": 0.30915799736976624
     },
     {
-     "equipo": "Los Angeles Dodgers",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 8,
-     "bateador": "Miguel Rojas",
-     "p_so": 0.3645969331264496,
-     "p_bb": 0.23014482855796814
+     "bateador": "Patrick Bailey",
+     "p_so": 0.6210504174232483,
+     "p_bb": 0.2239992767572403
     },
     {
-     "equipo": "Los Angeles Dodgers",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 9,
-     "bateador": "Tommy Edman",
-     "p_so": 0.4794206917285919,
-     "p_bb": 0.2304578274488449
+     "bateador": "Brayan Rocchio",
+     "p_so": 0.4557414650917053,
+     "p_bb": 0.24170193076133728
     }
    ],
-   "local": "Los Angeles Dodgers",
-   "visita": "Atlanta Braves"
-  },
-  {
-   "game_id": 849825,
-   "bateadores": [
-    {
-     "equipo": "San Diego Padres",
-     "is_home": false,
-     "orden": 1,
-     "bateador": "Fernando Tatis Jr.",
-     "p_so": 0.726360559463501,
-     "p_bb": 0.34049224853515625
-    },
-    {
-     "equipo": "San Diego Padres",
-     "is_home": false,
-     "orden": 2,
-     "bateador": "Dustin Harris",
-     "p_so": 0.5874943137168884,
-     "p_bb": 0.2562645673751831
-    },
-    {
-     "equipo": "San Diego Padres",
-     "is_home": false,
-     "orden": 3,
-     "bateador": "Manny Machado",
-     "p_so": 0.7213264107704163,
-     "p_bb": 0.33371758460998535
-    },
-    {
-     "equipo": "San Diego Padres",
-     "is_home": false,
-     "orden": 4,
-     "bateador": "Ty France",
-     "p_so": 0.692499577999115,
-     "p_bb": 0.22648417949676514
-    },
-    {
-     "equipo": "San Diego Padres",
-     "is_home": false,
-     "orden": 5,
-     "bateador": "Jackson Merrill",
-     "p_so": 0.7003229260444641,
-     "p_bb": 0.22014568746089935
-    },
-    {
-     "equipo": "San Diego Padres",
-     "is_home": false,
-     "orden": 6,
-     "bateador": "Gavin Sheets",
-     "p_so": 0.6194170117378235,
-     "p_bb": 0.23920249938964844
-    },
-    {
-     "equipo": "San Diego Padres",
-     "is_home": false,
-     "orden": 6,
-     "bateador": "Ethan Salas",
-     "p_so": 0.6515562534332275,
-     "p_bb": 0.17037776112556458
-    },
-    {
-     "equipo": "San Diego Padres",
-     "is_home": false,
-     "orden": 7,
-     "bateador": "Xander Bogaerts",
-     "p_so": 0.6220936179161072,
-     "p_bb": 0.3111816346645355
-    },
-    {
-     "equipo": "San Diego Padres",
-     "is_home": false,
-     "orden": 8,
-     "bateador": "Luis Campusano",
-     "p_so": 0.5239343643188477,
-     "p_bb": 0.24776425957679749
-    },
-    {
-     "equipo": "San Diego Padres",
-     "is_home": false,
-     "orden": 9,
-     "bateador": "Jake Cronenworth",
-     "p_so": 0.6225749850273132,
-     "p_bb": 0.27070310711860657
-    },
-    {
-     "equipo": "Milwaukee Brewers",
-     "is_home": true,
-     "orden": 1,
-     "bateador": "Jackson Chourio",
-     "p_so": 0.6376568675041199,
-     "p_bb": 0.27504831552505493
-    },
-    {
-     "equipo": "Milwaukee Brewers",
-     "is_home": true,
-     "orden": 2,
-     "bateador": "Brice Turang",
-     "p_so": 0.6743882298469543,
-     "p_bb": 0.41161343455314636
-    },
-    {
-     "equipo": "Milwaukee Brewers",
-     "is_home": true,
-     "orden": 3,
-     "bateador": "Jake Bauers",
-     "p_so": 0.7134621143341064,
-     "p_bb": 0.4433722198009491
-    },
-    {
-     "equipo": "Milwaukee Brewers",
-     "is_home": true,
-     "orden": 4,
-     "bateador": "William Contreras",
-     "p_so": 0.574076771736145,
-     "p_bb": 0.36346685886383057
-    },
-    {
-     "equipo": "Milwaukee Brewers",
-     "is_home": true,
-     "orden": 5,
-     "bateador": "Garrett Mitchell",
-     "p_so": 0.7419360280036926,
-     "p_bb": 0.35408827662467957
-    },
-    {
-     "equipo": "Milwaukee Brewers",
-     "is_home": true,
-     "orden": 6,
-     "bateador": "Christian Yelich",
-     "p_so": 0.6677639484405518,
-     "p_bb": 0.3049796223640442
-    },
-    {
-     "equipo": "Milwaukee Brewers",
-     "is_home": true,
-     "orden": 7,
-     "bateador": "Sal Frelick",
-     "p_so": 0.39647871255874634,
-     "p_bb": 0.24031421542167664
-    },
-    {
-     "equipo": "Milwaukee Brewers",
-     "is_home": true,
-     "orden": 8,
-     "bateador": "Cooper Pratt",
-     "p_so": 0.4856148362159729,
-     "p_bb": 0.26332807540893555
-    },
-    {
-     "equipo": "Milwaukee Brewers",
-     "is_home": true,
-     "orden": 9,
-     "bateador": "David Hamilton",
-     "p_so": 0.5521551966667175,
-     "p_bb": 0.19763506948947906
-    }
-   ],
-   "local": "Milwaukee Brewers",
-   "visita": "San Diego Padres"
+   "local": "Cleveland Guardians",
+   "visita": "Chicago White Sox"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 1,
+  "picks_hoy": 9,
   "ganadas": 2353,
   "perdidas": 1075,
   "push": 0,
   "unidades": 639.0,
   "acierto": 68.6
  },
- "fecha_actualizacion": "2026-10-05T15:19:29Z"
+ "fecha_actualizacion": "2026-10-05T17:07:36Z"
 }
