@@ -1041,6 +1041,14 @@
      "equipo": "Atlanta Braves",
      "is_home": true,
      "orden": 7,
+     "bateador": "Lane Thomas",
+     "p_so": 0.6789678335189819,
+     "p_bb": 0.1887667328119278
+    },
+    {
+     "equipo": "Atlanta Braves",
+     "is_home": true,
+     "orden": 7,
      "bateador": "Sean Murphy",
      "p_so": 0.6932117342948914,
      "p_bb": 0.2817361354827881
@@ -1067,12 +1075,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 12,
+  "picks_hoy": 13,
   "ganadas": 2367,
   "perdidas": 1082,
   "push": 0,
   "unidades": 642.5,
   "acierto": 68.6
  },
- "fecha_actualizacion": "2026-10-06T18:49:03Z"
+ "fecha_actualizacion": "2026-10-06T20:29:21Z"
 }
