@@ -1072,15 +1072,166 @@
    ],
    "local": "Atlanta Braves",
    "visita": "Los Angeles Dodgers"
+  },
+  {
+   "game_id": 849826,
+   "bateadores": [
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Jackson Chourio",
+     "p_so": 0.6685094833374023,
+     "p_bb": 0.2284068465232849
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "Jake Bauers",
+     "p_so": 0.7585756778717041,
+     "p_bb": 0.3913475275039673
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "William Contreras",
+     "p_so": 0.6157830357551575,
+     "p_bb": 0.3259732723236084
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Brice Turang",
+     "p_so": 0.7211046814918518,
+     "p_bb": 0.3260738253593445
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Christian Yelich",
+     "p_so": 0.7140106558799744,
+     "p_bb": 0.2843727171421051
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Garrett Mitchell",
+     "p_so": 0.7703989744186401,
+     "p_bb": 0.284860759973526
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Cooper Pratt",
+     "p_so": 0.5637205243110657,
+     "p_bb": 0.22533264756202698
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Sal Frelick",
+     "p_so": 0.4223015308380127,
+     "p_bb": 0.214774951338768
+    },
+    {
+     "equipo": "Milwaukee Brewers",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Joey Ortiz",
+     "p_so": 0.5349341034889221,
+     "p_bb": 0.19214893877506256
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Fernando Tatis Jr.",
+     "p_so": 0.689934253692627,
+     "p_bb": 0.3453271985054016
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Jackson Merrill",
+     "p_so": 0.6869572997093201,
+     "p_bb": 0.2355777770280838
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Manny Machado",
+     "p_so": 0.6722090244293213,
+     "p_bb": 0.3361786901950836
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Ty France",
+     "p_so": 0.6444351673126221,
+     "p_bb": 0.23560573160648346
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Ethan Salas",
+     "p_so": 0.629409909248352,
+     "p_bb": 0.1761082112789154
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Gavin Sheets",
+     "p_so": 0.6020768284797668,
+     "p_bb": 0.2925952076911926
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Xander Bogaerts",
+     "p_so": 0.6100855469703674,
+     "p_bb": 0.32504522800445557
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Dustin Harris",
+     "p_so": 0.4978652894496918,
+     "p_bb": 0.2291685938835144
+    },
+    {
+     "equipo": "San Diego Padres",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Jake Cronenworth",
+     "p_so": 0.5769712924957275,
+     "p_bb": 0.28644290566444397
+    }
+   ],
+   "local": "San Diego Padres",
+   "visita": "Milwaukee Brewers"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 13,
+  "picks_hoy": 26,
   "ganadas": 2367,
   "perdidas": 1082,
   "push": 0,
   "unidades": 642.5,
   "acierto": 68.6
  },
- "fecha_actualizacion": "2026-10-06T20:29:21Z"
+ "fecha_actualizacion": "2026-10-06T22:09:07Z"
 }
