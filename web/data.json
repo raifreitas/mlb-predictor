@@ -33,23 +33,45 @@
    "fecha": "2026-10-05",
    "local": "Cleveland Guardians",
    "visita": "Chicago White Sox",
-   "carreras_local": 0,
-   "carreras_visita": 0,
+   "carreras_local": 3,
+   "carreras_visita": 4,
    "linea_real": null,
-   "es_final": false,
+   "es_final": true,
    "hora_inicio_utc": "2026-10-05 21:00:00.000",
-   "temperatura_c": 14.6
+   "temperatura_c": 16.1
   },
   {
    "fecha": "2026-10-05",
    "local": "Tampa Bay Rays",
    "visita": "New York Yankees",
+   "carreras_local": 5,
+   "carreras_visita": 2,
+   "linea_real": null,
+   "es_final": true,
+   "hora_inicio_utc": "2026-10-06 00:00:00.000",
+   "temperatura_c": 27.0
+  },
+  {
+   "fecha": "2026-10-06",
+   "local": "Atlanta Braves",
+   "visita": "Los Angeles Dodgers",
    "carreras_local": 0,
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-10-06 00:00:00.000",
-   "temperatura_c": 27.3
+   "hora_inicio_utc": "2026-10-06 22:00:00.000",
+   "temperatura_c": 19.2
+  },
+  {
+   "fecha": "2026-10-06",
+   "local": "San Diego Padres",
+   "visita": "Milwaukee Brewers",
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
+   "hora_inicio_utc": "2026-10-07 01:30:00.000",
+   "temperatura_c": 28.8
   },
   {
    "fecha": "2026-10-08",
@@ -1196,12 +1218,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 21,
-  "ganadas": 2353,
-  "perdidas": 1075,
+  "picks_hoy": 0,
+  "ganadas": 2367,
+  "perdidas": 1082,
   "push": 0,
-  "unidades": 639.0,
+  "unidades": 642.5,
   "acierto": 68.6
  },
- "fecha_actualizacion": "2026-10-06T00:04:15Z"
+ "fecha_actualizacion": "2026-10-06T06:48:05Z"
 }
