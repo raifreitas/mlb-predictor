@@ -6318,7 +6318,8 @@
       "pitcher_visita": 682982,
       "hora_inicio_utc": "2026-10-07T20:00:00+00:00",
       "hora_corrida_utc": "2026-10-07T19:30:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-10-07T22:00:56.917583+00:00"
     },
     "Atlanta Braves": {
       "local": "Atlanta Braves",
