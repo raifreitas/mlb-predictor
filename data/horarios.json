@@ -6296,7 +6296,8 @@
       "pitcher_visita": 808967,
       "hora_inicio_utc": "2026-10-06T22:00:00+00:00",
       "hora_corrida_utc": "2026-10-06T21:30:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-10-07T00:04:18.541550+00:00"
     },
     "San Diego Padres": {
       "local": "San Diego Padres",
