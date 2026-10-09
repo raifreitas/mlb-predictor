@@ -8,28 +8,6 @@
  },
  "partidos_hoy": [
   {
-   "fecha": "2026-10-06",
-   "local": "Atlanta Braves",
-   "visita": "Los Angeles Dodgers",
-   "carreras_local": 1,
-   "carreras_visita": 3,
-   "linea_real": null,
-   "es_final": true,
-   "hora_inicio_utc": "2026-10-06 22:00:00.000",
-   "temperatura_c": 19.8
-  },
-  {
-   "fecha": "2026-10-06",
-   "local": "San Diego Padres",
-   "visita": "Milwaukee Brewers",
-   "carreras_local": 4,
-   "carreras_visita": 3,
-   "linea_real": null,
-   "es_final": true,
-   "hora_inicio_utc": "2026-10-07 01:30:00.000",
-   "temperatura_c": 28.4
-  },
-  {
    "fecha": "2026-10-07",
    "local": "Atlanta Braves",
    "visita": "Los Angeles Dodgers",
@@ -1085,5 +1063,5 @@
   "unidades": 652.5,
   "acierto": 68.6
  },
- "fecha_actualizacion": "2026-10-08T20:37:38Z"
+ "fecha_actualizacion": "2026-10-09T00:04:19Z"
 }
