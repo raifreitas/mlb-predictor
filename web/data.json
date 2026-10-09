@@ -77,12 +77,12 @@
    "fecha": "2026-10-08",
    "local": "Chicago White Sox",
    "visita": "Cleveland Guardians",
-   "carreras_local": 0,
-   "carreras_visita": 0,
+   "carreras_local": 5,
+   "carreras_visita": 9,
    "linea_real": null,
-   "es_final": false,
+   "es_final": true,
    "hora_inicio_utc": "2026-10-09 00:00:00.000",
-   "temperatura_c": 14.5
+   "temperatura_c": 16.3
   }
  ],
  "predicciones": [
@@ -1056,12 +1056,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 11,
-  "ganadas": 2408,
-  "perdidas": 1103,
+  "picks_hoy": 0,
+  "ganadas": 2414,
+  "perdidas": 1108,
   "push": 0,
-  "unidades": 652.5,
-  "acierto": 68.6
+  "unidades": 653.0,
+  "acierto": 68.5
  },
- "fecha_actualizacion": "2026-10-09T00:04:19Z"
+ "fecha_actualizacion": "2026-10-09T06:48:13Z"
 }
