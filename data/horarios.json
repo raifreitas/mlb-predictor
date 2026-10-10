@@ -6363,5 +6363,16 @@
       "ejecutado_utc": "2026-10-09T02:04:15.943341+00:00"
     }
   },
-  "2026-10-09": {}
+  "2026-10-09": {},
+  "2026-10-10": {
+    "Cleveland Guardians": {
+      "local": "Cleveland Guardians",
+      "visita": "Chicago White Sox",
+      "pitcher_local": 668909,
+      "pitcher_visita": 680732,
+      "hora_inicio_utc": "2026-10-11T00:00:00+00:00",
+      "hora_corrida_utc": "2026-10-10T23:30:00+00:00",
+      "estado": "pendiente"
+    }
+  }
 }
