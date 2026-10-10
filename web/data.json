@@ -8,50 +8,6 @@
  },
  "partidos_hoy": [
   {
-   "fecha": "2026-10-07",
-   "local": "Atlanta Braves",
-   "visita": "Los Angeles Dodgers",
-   "carreras_local": 1,
-   "carreras_visita": 4,
-   "linea_real": null,
-   "es_final": true,
-   "hora_inicio_utc": "2026-10-07 22:00:00.000",
-   "temperatura_c": 18.9
-  },
-  {
-   "fecha": "2026-10-07",
-   "local": "Chicago White Sox",
-   "visita": "Cleveland Guardians",
-   "carreras_local": 3,
-   "carreras_visita": 9,
-   "linea_real": null,
-   "es_final": true,
-   "hora_inicio_utc": "2026-10-07 20:00:00.000",
-   "temperatura_c": 18.2
-  },
-  {
-   "fecha": "2026-10-07",
-   "local": "New York Yankees",
-   "visita": "Tampa Bay Rays",
-   "carreras_local": 3,
-   "carreras_visita": 4,
-   "linea_real": null,
-   "es_final": true,
-   "hora_inicio_utc": "2026-10-08 00:00:00.000",
-   "temperatura_c": 13.0
-  },
-  {
-   "fecha": "2026-10-07",
-   "local": "San Diego Padres",
-   "visita": "Milwaukee Brewers",
-   "carreras_local": 1,
-   "carreras_visita": 3,
-   "linea_real": null,
-   "es_final": true,
-   "hora_inicio_utc": "2026-10-08 02:00:00.000",
-   "temperatura_c": 25.9
-  },
-  {
    "fecha": "2026-10-08",
    "local": "AL 3/6 Winner",
    "visita": "AL #2 Seed",
@@ -852,56 +808,7 @@
    "verificado": "2026-10-03 20:06:26"
   }
  ],
- "evaluaciones": [
-  {
-   "fecha": "2026-10-03",
-   "local": "Milwaukee Brewers",
-   "visita": "San Diego Padres",
-   "linea": 7.0,
-   "prediccion": 7.26,
-   "prob_over": 0.23470239341259003,
-   "edge": 0.26,
-   "recomendacion": "NO APOSTAR",
-   "motivo": "Anulado por Margen Insuficiente (edge 0.26 < 1.45)",
-   "evaluado_utc": "2026-10-03T22:32:20Z"
-  },
-  {
-   "fecha": "2026-10-03",
-   "local": "Tampa Bay Rays",
-   "visita": "New York Yankees",
-   "linea": 7.0,
-   "prediccion": 6.74,
-   "prob_over": 0.20272715389728546,
-   "edge": 0.26,
-   "recomendacion": "NO APOSTAR",
-   "motivo": "Anulado por Margen Insuficiente (edge 0.26 < 1.45)",
-   "evaluado_utc": "2026-10-03T20:32:51Z"
-  },
-  {
-   "fecha": "2026-10-03",
-   "local": "Los Angeles Dodgers",
-   "visita": "Atlanta Braves",
-   "linea": 8.5,
-   "prediccion": 7.84,
-   "prob_over": 0.1382206827402115,
-   "edge": 0.66,
-   "recomendacion": "NO APOSTAR",
-   "motivo": "Anulado por Margen Insuficiente (edge 0.66 < 1.45)",
-   "evaluado_utc": "2026-10-03T18:09:03Z"
-  },
-  {
-   "fecha": "2026-10-03",
-   "local": "Cleveland Guardians",
-   "visita": "Chicago White Sox",
-   "linea": 6.5,
-   "prediccion": 8.55,
-   "prob_over": 0.1508757472038269,
-   "edge": 2.05,
-   "recomendacion": "APOSTAR UNDER",
-   "motivo": "",
-   "evaluado_utc": "2026-10-03T15:01:56Z"
-  }
- ],
+ "evaluaciones": [],
  "batter_props_hoy": [
   {
    "game_id": 849832,
@@ -1063,5 +970,5 @@
   "unidades": 653.0,
   "acierto": 68.5
  },
- "fecha_actualizacion": "2026-10-09T06:48:13Z"
+ "fecha_actualizacion": "2026-10-10T00:02:38Z"
 }
