@@ -822,164 +822,164 @@
  "evaluaciones": [],
  "batter_props_hoy": [
   {
-   "game_id": 849832,
+   "game_id": 849831,
    "bateadores": [
     {
-     "equipo": "Cleveland Guardians",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 1,
-     "bateador": "Steven Kwan",
-     "p_so": 0.4271187484264374,
-     "p_bb": 0.3822886049747467
+     "bateador": "Sam Antonacci",
+     "p_so": 0.5653972029685974,
+     "p_bb": 0.2683764696121216
     },
     {
-     "equipo": "Cleveland Guardians",
+     "equipo": "Chicago White Sox",
      "is_home": false,
      "orden": 2,
-     "bateador": "José Ramírez",
-     "p_so": 0.4409308135509491,
-     "p_bb": 0.3372422158718109
-    },
-    {
-     "equipo": "Cleveland Guardians",
-     "is_home": false,
-     "orden": 3,
-     "bateador": "Chase DeLauter",
-     "p_so": 0.5155594944953918,
-     "p_bb": 0.35682642459869385
-    },
-    {
-     "equipo": "Cleveland Guardians",
-     "is_home": false,
-     "orden": 4,
-     "bateador": "Jo Adell",
-     "p_so": 0.735068678855896,
-     "p_bb": 0.29179269075393677
-    },
-    {
-     "equipo": "Cleveland Guardians",
-     "is_home": false,
-     "orden": 5,
-     "bateador": "Nathaniel Lowe",
-     "p_so": 0.6216838359832764,
-     "p_bb": 0.3320101499557495
-    },
-    {
-     "equipo": "Cleveland Guardians",
-     "is_home": false,
-     "orden": 6,
-     "bateador": "Angel Martínez",
-     "p_so": 0.6285204887390137,
-     "p_bb": 0.18619884550571442
-    },
-    {
-     "equipo": "Cleveland Guardians",
-     "is_home": false,
-     "orden": 7,
-     "bateador": "Travis Bazzana",
-     "p_so": 0.5886059403419495,
-     "p_bb": 0.3262636661529541
-    },
-    {
-     "equipo": "Cleveland Guardians",
-     "is_home": false,
-     "orden": 8,
-     "bateador": "Austin Hedges",
-     "p_so": 0.6020327210426331,
-     "p_bb": 0.2892399728298187
-    },
-    {
-     "equipo": "Cleveland Guardians",
-     "is_home": false,
-     "orden": 9,
-     "bateador": "Brayan Rocchio",
-     "p_so": 0.4702168405056,
-     "p_bb": 0.24864917993545532
+     "bateador": "Kyle Teel",
+     "p_so": 0.8078044056892395,
+     "p_bb": 0.4325883388519287
     },
     {
      "equipo": "Chicago White Sox",
-     "is_home": true,
-     "orden": 1,
-     "bateador": "Chase Meidroth",
-     "p_so": 0.6277714371681213,
-     "p_bb": 0.31435221433639526
-    },
-    {
-     "equipo": "Chicago White Sox",
-     "is_home": true,
-     "orden": 2,
-     "bateador": "Randal Grichuk",
-     "p_so": 0.5864254236221313,
-     "p_bb": 0.22785332798957825
-    },
-    {
-     "equipo": "Chicago White Sox",
-     "is_home": true,
+     "is_home": false,
      "orden": 3,
      "bateador": "Miguel Vargas",
-     "p_so": 0.649148166179657,
-     "p_bb": 0.40720394253730774
+     "p_so": 0.701871931552887,
+     "p_bb": 0.45680585503578186
     },
     {
      "equipo": "Chicago White Sox",
-     "is_home": true,
+     "is_home": false,
      "orden": 4,
      "bateador": "Munetaka Murakami",
-     "p_so": 0.8137246966362,
-     "p_bb": 0.367382675409317
+     "p_so": 0.8486146330833435,
+     "p_bb": 0.5049565434455872
     },
     {
      "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Andrew Benintendi",
+     "p_so": 0.7171158194541931,
+     "p_bb": 0.31812208890914917
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Tristan Peters",
+     "p_so": 0.6547659039497375,
+     "p_bb": 0.24848158657550812
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Chase Meidroth",
+     "p_so": 0.6353486776351929,
+     "p_bb": 0.30714553594589233
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Colson Montgomery",
+     "p_so": 0.8070923686027527,
+     "p_bb": 0.2830050587654114
+    },
+    {
+     "equipo": "Chicago White Sox",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Brenton Doyle",
+     "p_so": 0.7077841758728027,
+     "p_bb": 0.1813901662826538
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Steven Kwan",
+     "p_so": 0.4061017334461212,
+     "p_bb": 0.35174456238746643
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "José Ramírez",
+     "p_so": 0.46977633237838745,
+     "p_bb": 0.34405070543289185
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Chase DeLauter",
+     "p_so": 0.5017526149749756,
+     "p_bb": 0.3622112572193146
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Jo Adell",
+     "p_so": 0.7308809757232666,
+     "p_bb": 0.23692943155765533
+    },
+    {
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 5,
-     "bateador": "Tommy Pham",
-     "p_so": 0.639011561870575,
-     "p_bb": 0.31041809916496277
+     "bateador": "Nathaniel Lowe",
+     "p_so": 0.6550852656364441,
+     "p_bb": 0.3211871385574341
     },
     {
-     "equipo": "Chicago White Sox",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 6,
-     "bateador": "Brenton Doyle",
-     "p_so": 0.6794562339782715,
-     "p_bb": 0.1939963698387146
+     "bateador": "Travis Bazzana",
+     "p_so": 0.587140679359436,
+     "p_bb": 0.311983197927475
     },
     {
-     "equipo": "Chicago White Sox",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 7,
-     "bateador": "Kyle Teel",
-     "p_so": 0.6922738552093506,
-     "p_bb": 0.27128759026527405
+     "bateador": "Patrick Bailey",
+     "p_so": 0.6515935659408569,
+     "p_bb": 0.22024543583393097
     },
     {
-     "equipo": "Chicago White Sox",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 8,
-     "bateador": "Braden Montgomery",
-     "p_so": 0.5875174403190613,
-     "p_bb": 0.23567573726177216
+     "bateador": "Petey Halpin",
+     "p_so": 0.4708976149559021,
+     "p_bb": 0.19716876745224
     },
     {
-     "equipo": "Chicago White Sox",
+     "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 9,
-     "bateador": "Colson Montgomery",
-     "p_so": 0.7481427192687988,
-     "p_bb": 0.21154046058654785
+     "bateador": "Brayan Rocchio",
+     "p_so": 0.4497464597225189,
+     "p_bb": 0.23508089780807495
     }
    ],
-   "local": "Chicago White Sox",
-   "visita": "Cleveland Guardians"
+   "local": "Cleveland Guardians",
+   "visita": "Chicago White Sox"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 0,
+  "picks_hoy": 11,
   "ganadas": 2414,
   "perdidas": 1108,
   "push": 0,
   "unidades": 653.0,
   "acierto": 68.5
  },
- "fecha_actualizacion": "2026-10-10T18:42:11Z"
+ "fecha_actualizacion": "2026-10-10T20:15:11Z"
 }
