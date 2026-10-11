@@ -6375,5 +6375,16 @@
       "estado": "ejecutado",
       "ejecutado_utc": "2026-10-11T02:03:41.514613+00:00"
     }
+  },
+  "2026-10-11": {
+    "Milwaukee Brewers": {
+      "local": "Milwaukee Brewers",
+      "visita": "Los Angeles Dodgers",
+      "pitcher_local": 694819,
+      "pitcher_visita": 669373,
+      "hora_inicio_utc": "2026-10-12T00:00:00+00:00",
+      "hora_corrida_utc": "2026-10-11T23:30:00+00:00",
+      "estado": "pendiente"
+    }
   }
 }
