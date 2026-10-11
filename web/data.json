@@ -800,164 +800,164 @@
  "evaluaciones": [],
  "batter_props_hoy": [
   {
-   "game_id": 849831,
+   "game_id": 849809,
    "bateadores": [
     {
-     "equipo": "Chicago White Sox",
+     "equipo": "Los Angeles Dodgers",
      "is_home": false,
      "orden": 1,
-     "bateador": "Sam Antonacci",
-     "p_so": 0.5653972029685974,
-     "p_bb": 0.2683764696121216
+     "bateador": "Mookie Betts",
+     "p_so": 0.5794838070869446,
+     "p_bb": 0.37839314341545105
     },
     {
-     "equipo": "Chicago White Sox",
+     "equipo": "Los Angeles Dodgers",
      "is_home": false,
      "orden": 2,
-     "bateador": "Kyle Teel",
-     "p_so": 0.8078044056892395,
-     "p_bb": 0.4325883388519287
+     "bateador": "Freddie Freeman",
+     "p_so": 0.6698477864265442,
+     "p_bb": 0.3196459114551544
     },
     {
-     "equipo": "Chicago White Sox",
+     "equipo": "Los Angeles Dodgers",
      "is_home": false,
      "orden": 3,
-     "bateador": "Miguel Vargas",
-     "p_so": 0.701871931552887,
-     "p_bb": 0.45680585503578186
+     "bateador": "Will Smith",
+     "p_so": 0.6934911608695984,
+     "p_bb": 0.3615803122520447
     },
     {
-     "equipo": "Chicago White Sox",
+     "equipo": "Los Angeles Dodgers",
      "is_home": false,
      "orden": 4,
-     "bateador": "Munetaka Murakami",
-     "p_so": 0.8486146330833435,
-     "p_bb": 0.5049565434455872
+     "bateador": "Shohei Ohtani",
+     "p_so": 0.733049750328064,
+     "p_bb": 0.36182671785354614
     },
     {
-     "equipo": "Chicago White Sox",
+     "equipo": "Los Angeles Dodgers",
      "is_home": false,
      "orden": 5,
-     "bateador": "Andrew Benintendi",
-     "p_so": 0.7171158194541931,
-     "p_bb": 0.31812208890914917
+     "bateador": "Teoscar Hernández",
+     "p_so": 0.799024224281311,
+     "p_bb": 0.23461692035198212
     },
     {
-     "equipo": "Chicago White Sox",
+     "equipo": "Los Angeles Dodgers",
      "is_home": false,
      "orden": 6,
-     "bateador": "Tristan Peters",
-     "p_so": 0.6547659039497375,
-     "p_bb": 0.24848158657550812
+     "bateador": "Max Muncy",
+     "p_so": 0.7743491530418396,
+     "p_bb": 0.3057956099510193
     },
     {
-     "equipo": "Chicago White Sox",
+     "equipo": "Los Angeles Dodgers",
      "is_home": false,
      "orden": 7,
-     "bateador": "Chase Meidroth",
-     "p_so": 0.6353486776351929,
-     "p_bb": 0.30714553594589233
+     "bateador": "Andy Pages",
+     "p_so": 0.6783912181854248,
+     "p_bb": 0.20958144962787628
     },
     {
-     "equipo": "Chicago White Sox",
+     "equipo": "Los Angeles Dodgers",
      "is_home": false,
      "orden": 8,
-     "bateador": "Colson Montgomery",
-     "p_so": 0.8070923686027527,
-     "p_bb": 0.2830050587654114
+     "bateador": "Kyle Tucker",
+     "p_so": 0.5479476451873779,
+     "p_bb": 0.30938518047332764
     },
     {
-     "equipo": "Chicago White Sox",
+     "equipo": "Los Angeles Dodgers",
      "is_home": false,
      "orden": 9,
-     "bateador": "Brenton Doyle",
-     "p_so": 0.7077841758728027,
-     "p_bb": 0.1813901662826538
+     "bateador": "Enrique Hernández",
+     "p_so": 0.5617488622665405,
+     "p_bb": 0.1675097495317459
     },
     {
-     "equipo": "Cleveland Guardians",
+     "equipo": "Milwaukee Brewers",
      "is_home": true,
      "orden": 1,
-     "bateador": "Steven Kwan",
-     "p_so": 0.4061017334461212,
-     "p_bb": 0.35174456238746643
+     "bateador": "Jackson Chourio",
+     "p_so": 0.6784793734550476,
+     "p_bb": 0.2770957350730896
     },
     {
-     "equipo": "Cleveland Guardians",
+     "equipo": "Milwaukee Brewers",
      "is_home": true,
      "orden": 2,
-     "bateador": "José Ramírez",
-     "p_so": 0.46977633237838745,
-     "p_bb": 0.34405070543289185
+     "bateador": "Brice Turang",
+     "p_so": 0.7104098796844482,
+     "p_bb": 0.325240820646286
     },
     {
-     "equipo": "Cleveland Guardians",
+     "equipo": "Milwaukee Brewers",
      "is_home": true,
      "orden": 3,
-     "bateador": "Chase DeLauter",
-     "p_so": 0.5017526149749756,
-     "p_bb": 0.3622112572193146
+     "bateador": "William Contreras",
+     "p_so": 0.6278015971183777,
+     "p_bb": 0.3358892798423767
     },
     {
-     "equipo": "Cleveland Guardians",
+     "equipo": "Milwaukee Brewers",
      "is_home": true,
      "orden": 4,
-     "bateador": "Jo Adell",
-     "p_so": 0.7308809757232666,
-     "p_bb": 0.23692943155765533
+     "bateador": "Jake Bauers",
+     "p_so": 0.7568826675415039,
+     "p_bb": 0.38321205973625183
     },
     {
-     "equipo": "Cleveland Guardians",
+     "equipo": "Milwaukee Brewers",
      "is_home": true,
      "orden": 5,
-     "bateador": "Nathaniel Lowe",
-     "p_so": 0.6550852656364441,
-     "p_bb": 0.3211871385574341
+     "bateador": "Andrew Vaughn",
+     "p_so": 0.6080715656280518,
+     "p_bb": 0.23494021594524384
     },
     {
-     "equipo": "Cleveland Guardians",
+     "equipo": "Milwaukee Brewers",
      "is_home": true,
      "orden": 6,
-     "bateador": "Travis Bazzana",
-     "p_so": 0.587140679359436,
-     "p_bb": 0.311983197927475
+     "bateador": "Garrett Mitchell",
+     "p_so": 0.7509792447090149,
+     "p_bb": 0.26274818181991577
     },
     {
-     "equipo": "Cleveland Guardians",
+     "equipo": "Milwaukee Brewers",
      "is_home": true,
      "orden": 7,
-     "bateador": "Patrick Bailey",
-     "p_so": 0.6515935659408569,
-     "p_bb": 0.22024543583393097
+     "bateador": "Cooper Pratt",
+     "p_so": 0.5582826137542725,
+     "p_bb": 0.2312478870153427
     },
     {
-     "equipo": "Cleveland Guardians",
+     "equipo": "Milwaukee Brewers",
      "is_home": true,
      "orden": 8,
-     "bateador": "Petey Halpin",
-     "p_so": 0.4708976149559021,
-     "p_bb": 0.19716876745224
+     "bateador": "Luis Lara",
+     "p_so": 0.5988073348999023,
+     "p_bb": 0.19847695529460907
     },
     {
-     "equipo": "Cleveland Guardians",
+     "equipo": "Milwaukee Brewers",
      "is_home": true,
      "orden": 9,
-     "bateador": "Brayan Rocchio",
-     "p_so": 0.4497464597225189,
-     "p_bb": 0.23508089780807495
+     "bateador": "Joey Ortiz",
+     "p_so": 0.5458385944366455,
+     "p_bb": 0.20417828857898712
     }
    ],
-   "local": "Cleveland Guardians",
-   "visita": "Chicago White Sox"
+   "local": "Milwaukee Brewers",
+   "visita": "Los Angeles Dodgers"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 0,
+  "picks_hoy": 12,
   "ganadas": 2423,
   "perdidas": 1110,
   "push": 0,
   "unidades": 656.5,
   "acierto": 68.6
  },
- "fecha_actualizacion": "2026-10-11T13:24:18Z"
+ "fecha_actualizacion": "2026-10-11T20:31:56Z"
 }
