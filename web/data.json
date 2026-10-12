@@ -971,15 +971,166 @@
    ],
    "local": "Milwaukee Brewers",
    "visita": "Los Angeles Dodgers"
+  },
+  {
+   "game_id": 849820,
+   "bateadores": [
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Steven Kwan",
+     "p_so": 0.4740435481071472,
+     "p_bb": 0.36208590865135193
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "José Ramírez",
+     "p_so": 0.5714848637580872,
+     "p_bb": 0.35242170095443726
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 3,
+     "bateador": "Chase DeLauter",
+     "p_so": 0.5950209498405457,
+     "p_bb": 0.35399553179740906
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jo Adell",
+     "p_so": 0.7607343792915344,
+     "p_bb": 0.24426808953285217
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Nathaniel Lowe",
+     "p_so": 0.7306088805198669,
+     "p_bb": 0.3276650905609131
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Travis Bazzana",
+     "p_so": 0.6561421155929565,
+     "p_bb": 0.3037797212600708
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Patrick Bailey",
+     "p_so": 0.7238036394119263,
+     "p_bb": 0.21354100108146667
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Petey Halpin",
+     "p_so": 0.5522897243499756,
+     "p_bb": 0.18843306601047516
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Brayan Rocchio",
+     "p_so": 0.5198944807052612,
+     "p_bb": 0.23476745188236237
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Yandy Díaz",
+     "p_so": 0.4816189110279083,
+     "p_bb": 0.3142038583755493
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Jonathan Aranda",
+     "p_so": 0.6437894701957703,
+     "p_bb": 0.3492876887321472
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Junior Caminero",
+     "p_so": 0.5880553126335144,
+     "p_bb": 0.3378203213214874
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Ryan Vilade",
+     "p_so": 0.5864301919937134,
+     "p_bb": 0.2918938398361206
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Victor Mesa Jr.",
+     "p_so": 0.5041731595993042,
+     "p_bb": 0.27293267846107483
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Jonny DeLuca",
+     "p_so": 0.5813867449760437,
+     "p_bb": 0.19694221019744873
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Ben Williamson",
+     "p_so": 0.5255568027496338,
+     "p_bb": 0.22926148772239685
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 8,
+     "bateador": "Taylor Walls",
+     "p_so": 0.5749825239181519,
+     "p_bb": 0.2718607783317566
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Nick Fortes",
+     "p_so": 0.45095333456993103,
+     "p_bb": 0.16058726608753204
+    }
+   ],
+   "local": "Tampa Bay Rays",
+   "visita": "Cleveland Guardians"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 12,
+  "picks_hoy": 17,
   "ganadas": 2433,
   "perdidas": 1112,
   "push": 0,
   "unidades": 660.5,
   "acierto": 68.6
  },
- "fecha_actualizacion": "2026-10-12T17:39:16Z"
+ "fecha_actualizacion": "2026-10-12T20:14:24Z"
 }
