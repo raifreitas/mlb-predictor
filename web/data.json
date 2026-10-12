@@ -822,151 +822,151 @@
  "evaluaciones": [],
  "batter_props_hoy": [
   {
-   "game_id": 849809,
+   "game_id": 849812,
    "bateadores": [
     {
      "equipo": "Los Angeles Dodgers",
      "is_home": false,
      "orden": 1,
      "bateador": "Mookie Betts",
-     "p_so": 0.5794838070869446,
-     "p_bb": 0.37839314341545105
+     "p_so": 0.5281553268432617,
+     "p_bb": 0.3884323239326477
     },
     {
      "equipo": "Los Angeles Dodgers",
      "is_home": false,
      "orden": 2,
      "bateador": "Freddie Freeman",
-     "p_so": 0.6698477864265442,
-     "p_bb": 0.3196459114551544
+     "p_so": 0.6225203275680542,
+     "p_bb": 0.33103761076927185
     },
     {
      "equipo": "Los Angeles Dodgers",
      "is_home": false,
      "orden": 3,
-     "bateador": "Will Smith",
-     "p_so": 0.6934911608695984,
-     "p_bb": 0.3615803122520447
+     "bateador": "Teoscar Hernández",
+     "p_so": 0.7643997669219971,
+     "p_bb": 0.24614974856376648
     },
     {
      "equipo": "Los Angeles Dodgers",
      "is_home": false,
      "orden": 4,
      "bateador": "Shohei Ohtani",
-     "p_so": 0.733049750328064,
-     "p_bb": 0.36182671785354614
+     "p_so": 0.7041314244270325,
+     "p_bb": 0.3832922875881195
     },
     {
      "equipo": "Los Angeles Dodgers",
      "is_home": false,
      "orden": 5,
-     "bateador": "Teoscar Hernández",
-     "p_so": 0.799024224281311,
-     "p_bb": 0.23461692035198212
+     "bateador": "Will Smith",
+     "p_so": 0.6382299065589905,
+     "p_bb": 0.33497095108032227
     },
     {
      "equipo": "Los Angeles Dodgers",
      "is_home": false,
      "orden": 6,
      "bateador": "Max Muncy",
-     "p_so": 0.7743491530418396,
-     "p_bb": 0.3057956099510193
+     "p_so": 0.7496334314346313,
+     "p_bb": 0.31280753016471863
     },
     {
      "equipo": "Los Angeles Dodgers",
      "is_home": false,
      "orden": 7,
      "bateador": "Andy Pages",
-     "p_so": 0.6783912181854248,
-     "p_bb": 0.20958144962787628
+     "p_so": 0.6482870578765869,
+     "p_bb": 0.21445880830287933
     },
     {
      "equipo": "Los Angeles Dodgers",
      "is_home": false,
      "orden": 8,
      "bateador": "Kyle Tucker",
-     "p_so": 0.5479476451873779,
-     "p_bb": 0.30938518047332764
+     "p_so": 0.5393457412719727,
+     "p_bb": 0.3350406587123871
     },
     {
      "equipo": "Los Angeles Dodgers",
      "is_home": false,
      "orden": 9,
-     "bateador": "Enrique Hernández",
-     "p_so": 0.5617488622665405,
-     "p_bb": 0.1675097495317459
+     "bateador": "Tommy Edman",
+     "p_so": 0.4886217415332794,
+     "p_bb": 0.20078259706497192
     },
     {
      "equipo": "Milwaukee Brewers",
      "is_home": true,
      "orden": 1,
      "bateador": "Jackson Chourio",
-     "p_so": 0.6784793734550476,
-     "p_bb": 0.2770957350730896
+     "p_so": 0.6579892635345459,
+     "p_bb": 0.2476786971092224
     },
     {
      "equipo": "Milwaukee Brewers",
      "is_home": true,
      "orden": 2,
      "bateador": "Brice Turang",
-     "p_so": 0.7104098796844482,
-     "p_bb": 0.325240820646286
+     "p_so": 0.7235998511314392,
+     "p_bb": 0.3556259870529175
     },
     {
      "equipo": "Milwaukee Brewers",
      "is_home": true,
      "orden": 3,
      "bateador": "William Contreras",
-     "p_so": 0.6278015971183777,
-     "p_bb": 0.3358892798423767
+     "p_so": 0.64695143699646,
+     "p_bb": 0.3177272081375122
     },
     {
      "equipo": "Milwaukee Brewers",
      "is_home": true,
      "orden": 4,
      "bateador": "Jake Bauers",
-     "p_so": 0.7568826675415039,
-     "p_bb": 0.38321205973625183
+     "p_so": 0.7720184922218323,
+     "p_bb": 0.3816063404083252
     },
     {
      "equipo": "Milwaukee Brewers",
      "is_home": true,
      "orden": 5,
-     "bateador": "Andrew Vaughn",
-     "p_so": 0.6080715656280518,
-     "p_bb": 0.23494021594524384
+     "bateador": "Christian Yelich",
+     "p_so": 0.7230697870254517,
+     "p_bb": 0.3002842962741852
     },
     {
      "equipo": "Milwaukee Brewers",
      "is_home": true,
      "orden": 6,
      "bateador": "Garrett Mitchell",
-     "p_so": 0.7509792447090149,
-     "p_bb": 0.26274818181991577
+     "p_so": 0.7768059372901917,
+     "p_bb": 0.27220582962036133
     },
     {
      "equipo": "Milwaukee Brewers",
      "is_home": true,
      "orden": 7,
      "bateador": "Cooper Pratt",
-     "p_so": 0.5582826137542725,
-     "p_bb": 0.2312478870153427
+     "p_so": 0.5878961682319641,
+     "p_bb": 0.21818065643310547
     },
     {
      "equipo": "Milwaukee Brewers",
      "is_home": true,
      "orden": 8,
-     "bateador": "Luis Lara",
-     "p_so": 0.5988073348999023,
-     "p_bb": 0.19847695529460907
+     "bateador": "Sal Frelick",
+     "p_so": 0.4268321692943573,
+     "p_bb": 0.23425014317035675
     },
     {
      "equipo": "Milwaukee Brewers",
      "is_home": true,
      "orden": 9,
-     "bateador": "Joey Ortiz",
-     "p_so": 0.5458385944366455,
-     "p_bb": 0.20417828857898712
+     "bateador": "David Hamilton",
+     "p_so": 0.5764886736869812,
+     "p_bb": 0.16946955025196075
     }
    ],
    "local": "Milwaukee Brewers",
@@ -974,12 +974,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 0,
+  "picks_hoy": 12,
   "ganadas": 2433,
   "perdidas": 1112,
   "push": 0,
   "unidades": 660.5,
   "acierto": 68.6
  },
- "fecha_actualizacion": "2026-10-12T16:03:39Z"
+ "fecha_actualizacion": "2026-10-12T17:39:16Z"
 }
