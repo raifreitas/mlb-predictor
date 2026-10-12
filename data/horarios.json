@@ -6387,5 +6387,25 @@
       "estado": "ejecutado",
       "ejecutado_utc": "2026-10-12T02:02:18.749592+00:00"
     }
+  },
+  "2026-10-12": {
+    "Milwaukee Brewers": {
+      "local": "Milwaukee Brewers",
+      "visita": "Los Angeles Dodgers",
+      "pitcher_local": 701656,
+      "pitcher_visita": 808967,
+      "hora_inicio_utc": "2026-10-12T21:00:00+00:00",
+      "hora_corrida_utc": "2026-10-12T20:30:00+00:00",
+      "estado": "pendiente"
+    },
+    "Tampa Bay Rays": {
+      "local": "Tampa Bay Rays",
+      "visita": "Cleveland Guardians",
+      "pitcher_local": 656876,
+      "pitcher_visita": 656492,
+      "hora_inicio_utc": "2026-10-13T00:00:00+00:00",
+      "hora_corrida_utc": "2026-10-12T23:30:00+00:00",
+      "estado": "pendiente"
+    }
   }
 }
