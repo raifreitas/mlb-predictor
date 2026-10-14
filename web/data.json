@@ -8,17 +8,6 @@
  },
  "partidos_hoy": [
   {
-   "fecha": "2026-10-11",
-   "local": "Milwaukee Brewers",
-   "visita": "Los Angeles Dodgers",
-   "carreras_local": 2,
-   "carreras_visita": 1,
-   "linea_real": null,
-   "es_final": true,
-   "hora_inicio_utc": "2026-10-12 00:00:00.000",
-   "temperatura_c": 18.4
-  },
-  {
    "fecha": "2026-10-12",
    "local": "Milwaukee Brewers",
    "visita": "Los Angeles Dodgers",
@@ -981,5 +970,5 @@
   "unidades": 666.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-13T20:25:24Z"
+ "fecha_actualizacion": "2026-10-14T00:01:00Z"
 }
