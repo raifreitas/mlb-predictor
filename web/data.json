@@ -22,12 +22,34 @@
    "fecha": "2026-10-14",
    "local": "Los Angeles Dodgers",
    "visita": "Milwaukee Brewers",
+   "carreras_local": 2,
+   "carreras_visita": 6,
+   "linea_real": null,
+   "es_final": true,
+   "hora_inicio_utc": "2026-10-15 00:00:00.000",
+   "temperatura_c": 18.9
+  },
+  {
+   "fecha": "2026-10-15",
+   "local": "Cleveland Guardians",
+   "visita": "Tampa Bay Rays",
    "carreras_local": 0,
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-10-15 00:00:00.000",
-   "temperatura_c": 18.8
+   "hora_inicio_utc": "2026-10-15 17:00:00.000",
+   "temperatura_c": 14.6
+  },
+  {
+   "fecha": "2026-10-15",
+   "local": "Los Angeles Dodgers",
+   "visita": "Milwaukee Brewers",
+   "carreras_local": 0,
+   "carreras_visita": 0,
+   "linea_real": null,
+   "es_final": false,
+   "hora_inicio_utc": "2026-10-16 00:00:00.000",
+   "temperatura_c": 23.8
   }
  ],
  "predicciones": [
@@ -952,12 +974,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 8,
-  "ganadas": 2452,
-  "perdidas": 1116,
+  "picks_hoy": 0,
+  "ganadas": 2458,
+  "perdidas": 1118,
   "push": 0,
-  "unidades": 668.0,
+  "unidades": 670.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-15T00:02:57Z"
+ "fecha_actualizacion": "2026-10-15T06:51:13Z"
 }
