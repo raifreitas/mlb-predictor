@@ -8,17 +8,6 @@
  },
  "partidos_hoy": [
   {
-   "fecha": "2026-10-13",
-   "local": "Tampa Bay Rays",
-   "visita": "Cleveland Guardians",
-   "carreras_local": 3,
-   "carreras_visita": 1,
-   "linea_real": null,
-   "es_final": true,
-   "hora_inicio_utc": "2026-10-14 00:00:00.000",
-   "temperatura_c": 25.5
-  },
-  {
    "fecha": "2026-10-14",
    "local": "Los Angeles Dodgers",
    "visita": "Milwaukee Brewers",
@@ -1132,5 +1121,5 @@
   "unidades": 670.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-15T21:14:22Z"
+ "fecha_actualizacion": "2026-10-16T00:01:59Z"
 }
