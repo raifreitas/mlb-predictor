@@ -822,302 +822,151 @@
  "evaluaciones": [],
  "batter_props_hoy": [
   {
-   "game_id": 849810,
-   "bateadores": [
-    {
-     "equipo": "Milwaukee Brewers",
-     "is_home": false,
-     "orden": 1,
-     "bateador": "Jackson Chourio",
-     "p_so": 0.7223646640777588,
-     "p_bb": 0.3496907353401184
-    },
-    {
-     "equipo": "Milwaukee Brewers",
-     "is_home": false,
-     "orden": 2,
-     "bateador": "Brice Turang",
-     "p_so": 0.7949557900428772,
-     "p_bb": 0.4828405976295471
-    },
-    {
-     "equipo": "Milwaukee Brewers",
-     "is_home": false,
-     "orden": 3,
-     "bateador": "William Contreras",
-     "p_so": 0.7197055816650391,
-     "p_bb": 0.48458194732666016
-    },
-    {
-     "equipo": "Milwaukee Brewers",
-     "is_home": false,
-     "orden": 4,
-     "bateador": "Jake Bauers",
-     "p_so": 0.8080892562866211,
-     "p_bb": 0.527634859085083
-    },
-    {
-     "equipo": "Milwaukee Brewers",
-     "is_home": false,
-     "orden": 5,
-     "bateador": "Christian Yelich",
-     "p_so": 0.772136926651001,
-     "p_bb": 0.4373883008956909
-    },
-    {
-     "equipo": "Milwaukee Brewers",
-     "is_home": false,
-     "orden": 6,
-     "bateador": "Garrett Mitchell",
-     "p_so": 0.826625406742096,
-     "p_bb": 0.3840204179286957
-    },
-    {
-     "equipo": "Milwaukee Brewers",
-     "is_home": false,
-     "orden": 7,
-     "bateador": "Cooper Pratt",
-     "p_so": 0.5961356163024902,
-     "p_bb": 0.2999260127544403
-    },
-    {
-     "equipo": "Milwaukee Brewers",
-     "is_home": false,
-     "orden": 8,
-     "bateador": "Sal Frelick",
-     "p_so": 0.5027356743812561,
-     "p_bb": 0.3860201835632324
-    },
-    {
-     "equipo": "Milwaukee Brewers",
-     "is_home": false,
-     "orden": 9,
-     "bateador": "David Hamilton",
-     "p_so": 0.6527684926986694,
-     "p_bb": 0.23126041889190674
-    },
-    {
-     "equipo": "Los Angeles Dodgers",
-     "is_home": true,
-     "orden": 1,
-     "bateador": "Shohei Ohtani",
-     "p_so": 0.6535913348197937,
-     "p_bb": 0.4895191788673401
-    },
-    {
-     "equipo": "Los Angeles Dodgers",
-     "is_home": true,
-     "orden": 2,
-     "bateador": "Mookie Betts",
-     "p_so": 0.42658013105392456,
-     "p_bb": 0.48215246200561523
-    },
-    {
-     "equipo": "Los Angeles Dodgers",
-     "is_home": true,
-     "orden": 3,
-     "bateador": "Freddie Freeman",
-     "p_so": 0.5340155363082886,
-     "p_bb": 0.36985284090042114
-    },
-    {
-     "equipo": "Los Angeles Dodgers",
-     "is_home": true,
-     "orden": 4,
-     "bateador": "Will Smith",
-     "p_so": 0.5726190805435181,
-     "p_bb": 0.41650155186653137
-    },
-    {
-     "equipo": "Los Angeles Dodgers",
-     "is_home": true,
-     "orden": 5,
-     "bateador": "Kyle Tucker",
-     "p_so": 0.4681852459907532,
-     "p_bb": 0.43096473813056946
-    },
-    {
-     "equipo": "Los Angeles Dodgers",
-     "is_home": true,
-     "orden": 6,
-     "bateador": "Teoscar Hernández",
-     "p_so": 0.6813246011734009,
-     "p_bb": 0.29674234986305237
-    },
-    {
-     "equipo": "Los Angeles Dodgers",
-     "is_home": true,
-     "orden": 7,
-     "bateador": "Miguel Rojas",
-     "p_so": 0.35487043857574463,
-     "p_bb": 0.3105367422103882
-    },
-    {
-     "equipo": "Los Angeles Dodgers",
-     "is_home": true,
-     "orden": 8,
-     "bateador": "Andy Pages",
-     "p_so": 0.5700066089630127,
-     "p_bb": 0.3061543405056
-    },
-    {
-     "equipo": "Los Angeles Dodgers",
-     "is_home": true,
-     "orden": 9,
-     "bateador": "Enrique Hernández",
-     "p_so": 0.5138039588928223,
-     "p_bb": 0.24314433336257935
-    }
-   ],
-   "local": "Los Angeles Dodgers",
-   "visita": "Milwaukee Brewers"
-  },
-  {
-   "game_id": 849818,
+   "game_id": 849817,
    "bateadores": [
     {
      "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 1,
      "bateador": "Yandy Díaz",
-     "p_so": 0.6502562165260315,
-     "p_bb": 0.4000639319419861
+     "p_so": 0.5313032865524292,
+     "p_bb": 0.4159892499446869
     },
     {
      "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 2,
      "bateador": "Jonathan Aranda",
-     "p_so": 0.7371594309806824,
-     "p_bb": 0.40338870882987976
+     "p_so": 0.6691689491271973,
+     "p_bb": 0.43566811084747314
     },
     {
      "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 3,
-     "bateador": "Junior Caminero",
-     "p_so": 0.6865649223327637,
-     "p_bb": 0.40024304389953613
+     "bateador": "Chandler Simpson",
+     "p_so": 0.29690471291542053,
+     "p_bb": 0.15490348637104034
     },
     {
      "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 4,
-     "bateador": "Victor Mesa Jr.",
-     "p_so": 0.6855679154396057,
-     "p_bb": 0.3026285469532013
+     "bateador": "Junior Caminero",
+     "p_so": 0.6160728931427002,
+     "p_bb": 0.4203355014324188
     },
     {
      "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 5,
-     "bateador": "Chandler Simpson",
-     "p_so": 0.39987921714782715,
-     "p_bb": 0.13896813988685608
+     "bateador": "Liam Hicks",
+     "p_so": 0.45809340476989746,
+     "p_bb": 0.3568666875362396
     },
     {
      "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 6,
-     "bateador": "Liam Hicks",
-     "p_so": 0.5025292038917542,
-     "p_bb": 0.3182733654975891
+     "bateador": "Victor Mesa Jr.",
+     "p_so": 0.618058443069458,
+     "p_bb": 0.3255295753479004
     },
     {
      "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 7,
      "bateador": "Jonny DeLuca",
-     "p_so": 0.6787338852882385,
-     "p_bb": 0.1896141618490219
+     "p_so": 0.5783805847167969,
+     "p_bb": 0.20340707898139954
     },
     {
      "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 8,
      "bateador": "Richie Palacios",
-     "p_so": 0.5547056794166565,
-     "p_bb": 0.30052828788757324
+     "p_so": 0.5027252435684204,
+     "p_bb": 0.34500378370285034
     },
     {
      "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 9,
      "bateador": "Taylor Walls",
-     "p_so": 0.6579511761665344,
-     "p_bb": 0.307406485080719
+     "p_so": 0.5937715768814087,
+     "p_bb": 0.3237679898738861
     },
     {
      "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 1,
      "bateador": "Steven Kwan",
-     "p_so": 0.35402336716651917,
-     "p_bb": 0.4838225245475769
+     "p_so": 0.3656778037548065,
+     "p_bb": 0.46309706568717957
     },
     {
      "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 2,
      "bateador": "José Ramírez",
-     "p_so": 0.419894814491272,
-     "p_bb": 0.46887215971946716
+     "p_so": 0.4255339503288269,
+     "p_bb": 0.4694892168045044
     },
     {
      "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 3,
      "bateador": "Chase DeLauter",
-     "p_so": 0.46031835675239563,
-     "p_bb": 0.4121004641056061
+     "p_so": 0.4706591069698334,
+     "p_bb": 0.39012229442596436
     },
     {
      "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 4,
      "bateador": "Jo Adell",
-     "p_so": 0.6648014187812805,
-     "p_bb": 0.3122421205043793
+     "p_so": 0.6759832501411438,
+     "p_bb": 0.30868279933929443
     },
     {
      "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 5,
      "bateador": "Nathaniel Lowe",
-     "p_so": 0.5989241003990173,
-     "p_bb": 0.4410110116004944
+     "p_so": 0.6070216298103333,
+     "p_bb": 0.43698742985725403
     },
     {
      "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 6,
      "bateador": "Travis Bazzana",
-     "p_so": 0.5365017056465149,
-     "p_bb": 0.33348318934440613
+     "p_so": 0.561454176902771,
+     "p_bb": 0.32259711623191833
     },
     {
      "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 7,
      "bateador": "Patrick Bailey",
-     "p_so": 0.6456696391105652,
-     "p_bb": 0.2986239492893219
+     "p_so": 0.6462815403938293,
+     "p_bb": 0.3021096885204315
     },
     {
      "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 8,
      "bateador": "Petey Halpin",
-     "p_so": 0.49219781160354614,
-     "p_bb": 0.21570758521556854
+     "p_so": 0.5191104412078857,
+     "p_bb": 0.1973741203546524
     },
     {
      "equipo": "Cleveland Guardians",
      "is_home": true,
      "orden": 9,
      "bateador": "Brayan Rocchio",
-     "p_so": 0.4646233916282654,
-     "p_bb": 0.3107503354549408
+     "p_so": 0.4910193979740143,
+     "p_bb": 0.30551567673683167
     }
    ],
    "local": "Cleveland Guardians",
@@ -1125,12 +974,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 0,
+  "picks_hoy": 6,
   "ganadas": 2472,
   "perdidas": 1121,
   "push": 0,
   "unidades": 675.5,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-10-16T11:54:29Z"
+ "fecha_actualizacion": "2026-10-16T20:55:16Z"
 }
