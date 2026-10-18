@@ -6479,5 +6479,16 @@
       "estado": "ejecutado",
       "ejecutado_utc": "2026-10-18T02:02:44.030728+00:00"
     }
+  },
+  "2026-10-18": {
+    "Cleveland Guardians": {
+      "local": "Cleveland Guardians",
+      "visita": "Tampa Bay Rays",
+      "pitcher_local": 800048,
+      "pitcher_visita": 656876,
+      "hora_inicio_utc": "2026-10-18T21:08:00+00:00",
+      "hora_corrida_utc": "2026-10-18T20:38:00+00:00",
+      "estado": "pendiente"
+    }
   }
 }
