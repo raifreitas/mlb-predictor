@@ -811,164 +811,36 @@
  "evaluaciones": [],
  "batter_props_hoy": [
   {
-   "game_id": 849816,
+   "game_id": 849817,
    "bateadores": [
     {
      "equipo": "Tampa Bay Rays",
      "is_home": false,
-     "orden": 1,
-     "bateador": "Yandy Díaz",
-     "p_so": 0.5306107997894287,
-     "p_bb": 0.4293554127216339
-    },
-    {
-     "equipo": "Tampa Bay Rays",
-     "is_home": false,
-     "orden": 2,
-     "bateador": "Jonathan Aranda",
-     "p_so": 0.6487616896629333,
-     "p_bb": 0.4312191605567932
-    },
-    {
-     "equipo": "Tampa Bay Rays",
-     "is_home": false,
      "orden": 3,
-     "bateador": "Chandler Simpson",
-     "p_so": 0.2975766658782959,
-     "p_bb": 0.1641141176223755
-    },
-    {
-     "equipo": "Tampa Bay Rays",
-     "is_home": false,
-     "orden": 4,
-     "bateador": "Junior Caminero",
-     "p_so": 0.6060078740119934,
-     "p_bb": 0.41109728813171387
-    },
-    {
-     "equipo": "Tampa Bay Rays",
-     "is_home": false,
-     "orden": 5,
-     "bateador": "Liam Hicks",
-     "p_so": 0.45801034569740295,
-     "p_bb": 0.3543986976146698
-    },
-    {
-     "equipo": "Tampa Bay Rays",
-     "is_home": false,
-     "orden": 6,
-     "bateador": "Victor Mesa Jr.",
-     "p_so": 0.618058443069458,
-     "p_bb": 0.32659998536109924
-    },
-    {
-     "equipo": "Tampa Bay Rays",
-     "is_home": false,
-     "orden": 7,
-     "bateador": "Jonny DeLuca",
-     "p_so": 0.575920820236206,
-     "p_bb": 0.20903246104717255
+     "bateador": "Ryan Vilade",
+     "p_so": 0.6082645058631897,
+     "p_bb": 0.2879401743412018
     },
     {
      "equipo": "Tampa Bay Rays",
      "is_home": false,
      "orden": 8,
-     "bateador": "Richie Palacios",
-     "p_so": 0.4941989481449127,
-     "p_bb": 0.32102108001708984
-    },
-    {
-     "equipo": "Tampa Bay Rays",
-     "is_home": false,
-     "orden": 9,
-     "bateador": "Taylor Walls",
-     "p_so": 0.5750669240951538,
-     "p_bb": 0.32694900035858154
-    },
-    {
-     "equipo": "Cleveland Guardians",
-     "is_home": true,
-     "orden": 1,
-     "bateador": "Steven Kwan",
-     "p_so": 0.3656778037548065,
-     "p_bb": 0.46811971068382263
-    },
-    {
-     "equipo": "Cleveland Guardians",
-     "is_home": true,
-     "orden": 2,
-     "bateador": "José Ramírez",
-     "p_so": 0.4255339503288269,
-     "p_bb": 0.4745199978351593
-    },
-    {
-     "equipo": "Cleveland Guardians",
-     "is_home": true,
-     "orden": 3,
-     "bateador": "Chase DeLauter",
-     "p_so": 0.4706591069698334,
-     "p_bb": 0.38722267746925354
-    },
-    {
-     "equipo": "Cleveland Guardians",
-     "is_home": true,
-     "orden": 4,
-     "bateador": "Jo Adell",
-     "p_so": 0.6759832501411438,
-     "p_bb": 0.31300705671310425
-    },
-    {
-     "equipo": "Cleveland Guardians",
-     "is_home": true,
-     "orden": 5,
-     "bateador": "Nathaniel Lowe",
-     "p_so": 0.6070216298103333,
-     "p_bb": 0.44196000695228577
-    },
-    {
-     "equipo": "Cleveland Guardians",
-     "is_home": true,
-     "orden": 6,
-     "bateador": "Travis Bazzana",
-     "p_so": 0.561454176902771,
-     "p_bb": 0.32364621758461
-    },
-    {
-     "equipo": "Cleveland Guardians",
-     "is_home": true,
-     "orden": 7,
-     "bateador": "Patrick Bailey",
-     "p_so": 0.6462815403938293,
-     "p_bb": 0.3063826858997345
-    },
-    {
-     "equipo": "Cleveland Guardians",
-     "is_home": true,
-     "orden": 8,
-     "bateador": "Petey Halpin",
-     "p_so": 0.5191104412078857,
-     "p_bb": 0.19814690947532654
-    },
-    {
-     "equipo": "Cleveland Guardians",
-     "is_home": true,
-     "orden": 9,
-     "bateador": "Brayan Rocchio",
-     "p_so": 0.4910193979740143,
-     "p_bb": 0.3098154366016388
+     "bateador": "Ben Williamson",
+     "p_so": 0.5304374694824219,
+     "p_bb": 0.21633991599082947
     }
    ],
-   "local": "Cleveland Guardians",
+   "local": "Desconocido",
    "visita": "Tampa Bay Rays"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 0,
+  "picks_hoy": 1,
   "ganadas": 2475,
   "perdidas": 1124,
   "push": 0,
   "unidades": 675.5,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-10-18T11:44:23Z"
+ "fecha_actualizacion": "2026-10-18T17:54:29Z"
 }
