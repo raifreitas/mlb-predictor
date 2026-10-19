@@ -811,36 +811,164 @@
  "evaluaciones": [],
  "batter_props_hoy": [
   {
-   "game_id": 849817,
+   "game_id": 849815,
    "bateadores": [
     {
-     "equipo": "Tampa Bay Rays",
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 1,
+     "bateador": "Steven Kwan",
+     "p_so": 0.38854172825813293,
+     "p_bb": 0.4641117453575134
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 2,
+     "bateador": "José Ramírez",
+     "p_so": 0.47158974409103394,
+     "p_bb": 0.49404066801071167
+    },
+    {
+     "equipo": "Cleveland Guardians",
      "is_home": false,
      "orden": 3,
-     "bateador": "Ryan Vilade",
-     "p_so": 0.6082645058631897,
-     "p_bb": 0.2879401743412018
+     "bateador": "Chase DeLauter",
+     "p_so": 0.5146629810333252,
+     "p_bb": 0.409170925617218
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 4,
+     "bateador": "Jo Adell",
+     "p_so": 0.712925374507904,
+     "p_bb": 0.3070545792579651
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 5,
+     "bateador": "Nathaniel Lowe",
+     "p_so": 0.6213886141777039,
+     "p_bb": 0.4497587978839874
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 6,
+     "bateador": "Travis Bazzana",
+     "p_so": 0.5969153642654419,
+     "p_bb": 0.3460310399532318
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 7,
+     "bateador": "Patrick Bailey",
+     "p_so": 0.6543101668357849,
+     "p_bb": 0.2850078344345093
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 8,
+     "bateador": "Petey Halpin",
+     "p_so": 0.5421330332756042,
+     "p_bb": 0.21158015727996826
+    },
+    {
+     "equipo": "Cleveland Guardians",
+     "is_home": false,
+     "orden": 9,
+     "bateador": "Brayan Rocchio",
+     "p_so": 0.5115046501159668,
+     "p_bb": 0.292855441570282
     },
     {
      "equipo": "Tampa Bay Rays",
-     "is_home": false,
+     "is_home": true,
+     "orden": 1,
+     "bateador": "Yandy Díaz",
+     "p_so": 0.4969702959060669,
+     "p_bb": 0.37879103422164917
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 2,
+     "bateador": "Jonathan Aranda",
+     "p_so": 0.6259018182754517,
+     "p_bb": 0.41626080870628357
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 3,
+     "bateador": "Liam Hicks",
+     "p_so": 0.4175443649291992,
+     "p_bb": 0.34534797072410583
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 4,
+     "bateador": "Junior Caminero",
+     "p_so": 0.5853719115257263,
+     "p_bb": 0.36206403374671936
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 5,
+     "bateador": "Chandler Simpson",
+     "p_so": 0.26823312044143677,
+     "p_bb": 0.14891651272773743
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 6,
+     "bateador": "Victor Mesa Jr.",
+     "p_so": 0.5877155661582947,
+     "p_bb": 0.2799958884716034
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 7,
+     "bateador": "Jonny DeLuca",
+     "p_so": 0.5633025169372559,
+     "p_bb": 0.21373368799686432
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
      "orden": 8,
-     "bateador": "Ben Williamson",
-     "p_so": 0.5304374694824219,
-     "p_bb": 0.21633991599082947
+     "bateador": "Richie Palacios",
+     "p_so": 0.46534842252731323,
+     "p_bb": 0.29365667700767517
+    },
+    {
+     "equipo": "Tampa Bay Rays",
+     "is_home": true,
+     "orden": 9,
+     "bateador": "Taylor Walls",
+     "p_so": 0.5529002547264099,
+     "p_bb": 0.30811724066734314
     }
    ],
-   "local": "Desconocido",
-   "visita": "Tampa Bay Rays"
+   "local": "Tampa Bay Rays",
+   "visita": "Cleveland Guardians"
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 0,
+  "picks_hoy": 4,
   "ganadas": 2481,
   "perdidas": 1127,
   "push": 0,
   "unidades": 677.0,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-10-19T13:57:51Z"
+ "fecha_actualizacion": "2026-10-19T20:24:35Z"
 }
