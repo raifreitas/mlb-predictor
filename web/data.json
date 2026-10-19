@@ -38,7 +38,7 @@
    "linea_real": null,
    "es_final": false,
    "hora_inicio_utc": "2026-10-20 00:08:00.000",
-   "temperatura_c": 20.8
+   "temperatura_c": 20.5
   }
  ],
  "predicciones": [
@@ -842,5 +842,5 @@
   "unidades": 677.0,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-10-19T06:48:41Z"
+ "fecha_actualizacion": "2026-10-19T13:57:51Z"
 }
