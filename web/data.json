@@ -22,12 +22,12 @@
    "fecha": "2026-10-19",
    "local": "Tampa Bay Rays",
    "visita": "Cleveland Guardians",
-   "carreras_local": 0,
-   "carreras_visita": 0,
+   "carreras_local": 7,
+   "carreras_visita": 3,
    "linea_real": null,
-   "es_final": false,
+   "es_final": true,
    "hora_inicio_utc": "2026-10-20 00:08:00.000",
-   "temperatura_c": 20.5
+   "temperatura_c": 21.8
   }
  ],
  "predicciones": [
@@ -952,12 +952,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 4,
-  "ganadas": 2481,
-  "perdidas": 1127,
+  "picks_hoy": 0,
+  "ganadas": 2483,
+  "perdidas": 1129,
   "push": 0,
   "unidades": 677.0,
-  "acierto": 68.8
+  "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-20T00:01:27Z"
+ "fecha_actualizacion": "2026-10-20T06:49:39Z"
 }
