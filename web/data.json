@@ -8,17 +8,6 @@
  },
  "partidos_hoy": [
   {
-   "fecha": "2026-10-17",
-   "local": "Cleveland Guardians",
-   "visita": "Tampa Bay Rays",
-   "carreras_local": 3,
-   "carreras_visita": 7,
-   "linea_real": null,
-   "es_final": true,
-   "hora_inicio_utc": "2026-10-18 00:08:00.000",
-   "temperatura_c": 9.9
-  },
-  {
    "fecha": "2026-10-18",
    "local": "Cleveland Guardians",
    "visita": "Tampa Bay Rays",
@@ -970,5 +959,5 @@
   "unidades": 677.0,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-10-19T20:24:35Z"
+ "fecha_actualizacion": "2026-10-20T00:01:27Z"
 }
