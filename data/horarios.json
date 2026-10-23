@@ -6506,5 +6506,16 @@
   },
   "2026-10-20": {},
   "2026-10-21": {},
-  "2026-10-22": {}
+  "2026-10-22": {},
+  "2026-10-23": {
+    "Milwaukee Brewers": {
+      "local": "Milwaukee Brewers",
+      "visita": "Tampa Bay Rays",
+      "pitcher_local": 694819,
+      "pitcher_visita": 607259,
+      "hora_inicio_utc": "2026-10-24T00:00:00+00:00",
+      "hora_corrida_utc": "2026-10-23T23:30:00+00:00",
+      "estado": "pendiente"
+    }
+  }
 }
