@@ -6515,7 +6515,8 @@
       "pitcher_visita": 607259,
       "hora_inicio_utc": "2026-10-24T00:00:00+00:00",
       "hora_corrida_utc": "2026-10-23T23:30:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-10-24T02:05:06.721262+00:00"
     }
   }
 }
