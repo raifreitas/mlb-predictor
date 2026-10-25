@@ -22,12 +22,12 @@
    "fecha": "2026-10-24",
    "local": "Milwaukee Brewers",
    "visita": "Tampa Bay Rays",
-   "carreras_local": 0,
-   "carreras_visita": 0,
+   "carreras_local": 5,
+   "carreras_visita": 4,
    "linea_real": null,
-   "es_final": false,
+   "es_final": true,
    "hora_inicio_utc": "2026-10-25 00:00:00.000",
-   "temperatura_c": 12.7
+   "temperatura_c": 14.3
   }
  ],
  "predicciones": [
@@ -952,12 +952,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 9,
-  "ganadas": 2491,
-  "perdidas": 1130,
+  "picks_hoy": 0,
+  "ganadas": 2496,
+  "perdidas": 1134,
   "push": 0,
-  "unidades": 680.5,
+  "unidades": 681.0,
   "acierto": 68.8
  },
- "fecha_actualizacion": "2026-10-24T20:30:30Z"
+ "fecha_actualizacion": "2026-10-25T06:51:40Z"
 }
