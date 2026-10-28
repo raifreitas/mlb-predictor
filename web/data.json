@@ -22,12 +22,23 @@
    "fecha": "2026-10-27",
    "local": "Tampa Bay Rays",
    "visita": "Milwaukee Brewers",
+   "carreras_local": 4,
+   "carreras_visita": 3,
+   "linea_real": null,
+   "es_final": true,
+   "hora_inicio_utc": "2026-10-28 00:00:00.000",
+   "temperatura_c": 23.4
+  },
+  {
+   "fecha": "2026-10-28",
+   "local": "Tampa Bay Rays",
+   "visita": "Milwaukee Brewers",
    "carreras_local": 0,
    "carreras_visita": 0,
    "linea_real": null,
    "es_final": false,
-   "hora_inicio_utc": "2026-10-28 00:00:00.000",
-   "temperatura_c": 22.8
+   "hora_inicio_utc": "2026-10-29 00:00:00.000",
+   "temperatura_c": 23.9
   }
  ],
  "predicciones": [
@@ -952,12 +963,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 6,
-  "ganadas": 2499,
-  "perdidas": 1136,
+  "picks_hoy": 0,
+  "ganadas": 2503,
+  "perdidas": 1138,
   "push": 0,
-  "unidades": 681.5,
+  "unidades": 682.5,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-27T20:43:12Z"
+ "fecha_actualizacion": "2026-10-28T06:52:29Z"
 }
