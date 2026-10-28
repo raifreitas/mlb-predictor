@@ -811,151 +811,151 @@
  "evaluaciones": [],
  "batter_props_hoy": [
   {
-   "game_id": 849803,
+   "game_id": 849799,
    "bateadores": [
     {
      "equipo": "Milwaukee Brewers",
      "is_home": false,
      "orden": 1,
      "bateador": "Jackson Chourio",
-     "p_so": 0.5781114101409912,
-     "p_bb": 0.29298555850982666
+     "p_so": 0.6485878229141235,
+     "p_bb": 0.27512305974960327
     },
     {
      "equipo": "Milwaukee Brewers",
      "is_home": false,
      "orden": 2,
      "bateador": "Jake Bauers",
-     "p_so": 0.6875290870666504,
-     "p_bb": 0.5703703165054321
+     "p_so": 0.7543067932128906,
+     "p_bb": 0.5599030256271362
     },
     {
      "equipo": "Milwaukee Brewers",
      "is_home": false,
      "orden": 3,
      "bateador": "Christian Yelich",
-     "p_so": 0.6624148488044739,
-     "p_bb": 0.4769994616508484
+     "p_so": 0.7260669469833374,
+     "p_bb": 0.45564740896224976
     },
     {
      "equipo": "Milwaukee Brewers",
      "is_home": false,
      "orden": 4,
      "bateador": "William Contreras",
-     "p_so": 0.6034206748008728,
-     "p_bb": 0.4651227593421936
+     "p_so": 0.6913930177688599,
+     "p_bb": 0.4437006413936615
     },
     {
      "equipo": "Milwaukee Brewers",
      "is_home": false,
      "orden": 5,
      "bateador": "Brice Turang",
-     "p_so": 0.6444051861763,
-     "p_bb": 0.47652992606163025
+     "p_so": 0.7176099419593811,
+     "p_bb": 0.4463866055011749
     },
     {
      "equipo": "Milwaukee Brewers",
      "is_home": false,
      "orden": 6,
      "bateador": "Sal Frelick",
-     "p_so": 0.46943676471710205,
-     "p_bb": 0.40842801332473755
+     "p_so": 0.5414509177207947,
+     "p_bb": 0.3576633036136627
     },
     {
      "equipo": "Milwaukee Brewers",
      "is_home": false,
      "orden": 7,
      "bateador": "Cooper Pratt",
-     "p_so": 0.5505965948104858,
-     "p_bb": 0.29365161061286926
+     "p_so": 0.6094542145729065,
+     "p_bb": 0.23909451067447662
     },
     {
      "equipo": "Milwaukee Brewers",
      "is_home": false,
      "orden": 8,
      "bateador": "Garrett Mitchell",
-     "p_so": 0.6916118264198303,
-     "p_bb": 0.3385215699672699
+     "p_so": 0.76365065574646,
+     "p_bb": 0.3055323362350464
     },
     {
      "equipo": "Milwaukee Brewers",
      "is_home": false,
      "orden": 9,
      "bateador": "David Hamilton",
-     "p_so": 0.5524386167526245,
-     "p_bb": 0.2581670880317688
+     "p_so": 0.5943980813026428,
+     "p_bb": 0.20958898961544037
     },
     {
      "equipo": "Tampa Bay Rays",
      "is_home": true,
      "orden": 1,
      "bateador": "Yandy Díaz",
-     "p_so": 0.5272310376167297,
-     "p_bb": 0.42377373576164246
+     "p_so": 0.5850498080253601,
+     "p_bb": 0.3496893346309662
     },
     {
      "equipo": "Tampa Bay Rays",
      "is_home": true,
      "orden": 2,
      "bateador": "Jonathan Aranda",
-     "p_so": 0.5731261372566223,
-     "p_bb": 0.44166943430900574
+     "p_so": 0.6575114727020264,
+     "p_bb": 0.3618184030056
     },
     {
      "equipo": "Tampa Bay Rays",
      "is_home": true,
      "orden": 3,
      "bateador": "Junior Caminero",
-     "p_so": 0.599316418170929,
-     "p_bb": 0.4371439218521118
+     "p_so": 0.6520155668258667,
+     "p_bb": 0.35073256492614746
     },
     {
      "equipo": "Tampa Bay Rays",
      "is_home": true,
      "orden": 4,
      "bateador": "Liam Hicks",
-     "p_so": 0.4474095106124878,
-     "p_bb": 0.3912183940410614
+     "p_so": 0.48629555106163025,
+     "p_bb": 0.31050944328308105
     },
     {
      "equipo": "Tampa Bay Rays",
      "is_home": true,
      "orden": 5,
      "bateador": "Jonny DeLuca",
-     "p_so": 0.5525992512702942,
-     "p_bb": 0.2203734815120697
+     "p_so": 0.610890805721283,
+     "p_bb": 0.1630326807498932
     },
     {
      "equipo": "Tampa Bay Rays",
      "is_home": true,
      "orden": 6,
      "bateador": "Chandler Simpson",
-     "p_so": 0.2986535429954529,
-     "p_bb": 0.20693984627723694
+     "p_so": 0.3680569529533386,
+     "p_bb": 0.14400142431259155
     },
     {
      "equipo": "Tampa Bay Rays",
      "is_home": true,
      "orden": 7,
-     "bateador": "Ryan Vilade",
-     "p_so": 0.606611967086792,
-     "p_bb": 0.29522112011909485
+     "bateador": "Ben Williamson",
+     "p_so": 0.6046438217163086,
+     "p_bb": 0.20896996557712555
     },
     {
      "equipo": "Tampa Bay Rays",
      "is_home": true,
      "orden": 8,
-     "bateador": "Richie Palacios",
-     "p_so": 0.49348241090774536,
-     "p_bb": 0.34061872959136963
+     "bateador": "Ryan Vilade",
+     "p_so": 0.6325961947441101,
+     "p_bb": 0.24020840227603912
     },
     {
      "equipo": "Tampa Bay Rays",
      "is_home": true,
      "orden": 9,
      "bateador": "Taylor Walls",
-     "p_so": 0.583096981048584,
-     "p_bb": 0.380321204662323
+     "p_so": 0.6347393989562988,
+     "p_bb": 0.27520662546157837
     }
    ],
    "local": "Tampa Bay Rays",
@@ -963,12 +963,12 @@
   }
  ],
  "resumen_bp": {
-  "picks_hoy": 0,
+  "picks_hoy": 13,
   "ganadas": 2503,
   "perdidas": 1138,
   "push": 0,
   "unidades": 682.5,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-28T13:28:43Z"
+ "fecha_actualizacion": "2026-10-28T20:46:50Z"
 }
