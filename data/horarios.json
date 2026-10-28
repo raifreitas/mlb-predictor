@@ -6555,5 +6555,16 @@
       "estado": "ejecutado",
       "ejecutado_utc": "2026-10-28T02:02:48.993070+00:00"
     }
+  },
+  "2026-10-28": {
+    "Tampa Bay Rays": {
+      "local": "Tampa Bay Rays",
+      "visita": "Milwaukee Brewers",
+      "pitcher_local": null,
+      "pitcher_visita": null,
+      "hora_inicio_utc": "2026-10-29T00:00:00+00:00",
+      "hora_corrida_utc": "2026-10-28T23:30:00+00:00",
+      "estado": "pendiente"
+    }
   }
 }
