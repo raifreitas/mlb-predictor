@@ -6564,7 +6564,8 @@
       "pitcher_visita": null,
       "hora_inicio_utc": "2026-10-29T00:00:00+00:00",
       "hora_corrida_utc": "2026-10-28T23:30:00+00:00",
-      "estado": "pendiente"
+      "estado": "ejecutado",
+      "ejecutado_utc": "2026-10-29T02:02:00.220371+00:00"
     }
   }
 }
