@@ -8,17 +8,6 @@
  },
  "partidos_hoy": [
   {
-   "fecha": "2026-10-26",
-   "local": "Tampa Bay Rays",
-   "visita": "Milwaukee Brewers",
-   "carreras_local": 1,
-   "carreras_visita": 10,
-   "linea_real": null,
-   "es_final": true,
-   "hora_inicio_utc": "2026-10-27 00:00:00.000",
-   "temperatura_c": 23.7
-  },
-  {
    "fecha": "2026-10-27",
    "local": "Tampa Bay Rays",
    "visita": "Milwaukee Brewers",
@@ -970,5 +959,5 @@
   "unidades": 682.5,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-28T20:46:50Z"
+ "fecha_actualizacion": "2026-10-29T00:00:25Z"
 }
