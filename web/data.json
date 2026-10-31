@@ -6,19 +6,7 @@
   "push": 0,
   "unidades": 8.5
  },
- "partidos_hoy": [
-  {
-   "fecha": "2026-10-28",
-   "local": "Tampa Bay Rays",
-   "visita": "Milwaukee Brewers",
-   "carreras_local": 1,
-   "carreras_visita": 4,
-   "linea_real": null,
-   "es_final": true,
-   "hora_inicio_utc": "2026-10-29 00:00:00.000",
-   "temperatura_c": 24.3
-  }
- ],
+ "partidos_hoy": [],
  "predicciones": [
   {
    "id": 1,
@@ -948,5 +936,5 @@
   "unidades": 683.0,
   "acierto": 68.7
  },
- "fecha_actualizacion": "2026-10-30T00:00:26Z"
+ "fecha_actualizacion": "2026-10-31T00:00:40Z"
 }
